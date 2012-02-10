@@ -42,16 +42,11 @@
 
 	<h3><a name="fonts">Fonts</a></h3>
 
-	<p><img src="images/palatino.png"></p>
+	<p class="logo_font" style="margin-top:20px; line-height: 28pt; font-size:20pt;">Palatino Linotype<br>
+	   <b><font color="#0033cc">syn</font><font color="#ff3333">rc</font> research center</b></p>
 
-	<p>Logotype font is to embedded in CSS. For browsers that doesn't support that feature recommended
-	following sequence of font names available under Mac, Windows and Linux:</p>
-
-	<pre>font-family: "Palatino Linotype", "Book Antiqua", Palatino, FreeSerif, serif;</pre>
-
-	<p>Site font is defined as sans serif:</p>
-
-	<pre>font-family: "Nokia Pure Text", sans-serif;</pre>
+	<p style="margin-top:20px; 28pt; font-size:20pt;">Nokia Pure Text<br>
+	   Synrc Sesearch Center</p>
 
 	<h3><a name="colors">Colors</a></h3>
 
@@ -133,11 +128,6 @@
 		be written with the first letters capitalized. This
 		spelling is intended for external documents and media.</p>
 
-	<h3><a name="bin">Binary</a></h3>
-
-        <p>In certificates and technical data Synrc is known to be used as SynRC ASCII stamp: [0x53, 0x79, 0x6E, 0x52, 0x43].
-	The same applies to a binary headers and similar context.</p>
-
 	<h3><a name="usage">General usage</a></h3>
 	
 	<p>The Synrc logo and Synrc square logo should be used only in square or
@@ -148,7 +138,7 @@
 
 </div>
 <div class="last">
-    		<h2>Guide</h2>
+    		<h2>TOC</h2>
 
 		<p>
 		<a href="#brand">Defining the brand</a><br>

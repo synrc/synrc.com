@@ -5,10 +5,10 @@ A:hover { font-weight: normal; color: #0033cc; }
 
 BODY { font-family: "Nokia Pure Text"; }
 TD { margin-top: 8px; margin-bottom: 0px; }
-H2 { font-size:24pt; font-weight: normal; margin-top:20px; margin-bottom:0px; margin-right:6px; margin-left:10px; padding-bottom:10px; }
-H3 { font-size:16pt; font-weight: normal; margin-top:36px; margin-bottom:0px; margin-right:6px; margin-left:10px; } 
-H4 { font-size:12pt; font-weight: normal; margin-top:0px; margin-bottom:0px; margin-right:0px; } 
-H5 { font-size:12pt; font-weight: normal; padding-top:0px;margin-top:0px; margin-bottom:0px; margin-right:0px; } 
+H2 { font-size:24pt; font-weight: bold; margin-top:20px; margin-bottom:0px; margin-right:6px; margin-left:10px; padding-bottom:10px; }
+H3 { font-size:22pt; font-weight: bold; margin-top:36px; margin-bottom:0px; margin-right:6px; margin-left:10px; } 
+H4 { font-size:20pt; font-weight: bold; margin-top:0px; margin-bottom:0px; margin-right:0px; } 
+H5 { font-size:18pt; font-weight: bold; padding-top:0px;margin-top:0px; margin-bottom:0px; margin-right:0px; } 
 P { font-size:16pt; padding-top:10px;margin-top:0px;padding-right:10px;padding-left:10px;  }
 LI { font-size:14pt; }
 PRE { padding-top:10px;padding-bottom:10px;padding-left:10px;margin-left:50px; }
@@ -43,6 +43,17 @@ PRE { padding-top:10px;padding-bottom:10px;padding-left:10px;margin-left:50px; }
              url("http://synrc.com/fonts/nokiapuretextlight-webfont.svg?2.3.1.12#NokiaPureTextLight") format("svg"); /* Legacy iOS */
     font-weight: 200;
     font-style: normal;
+}
+
+@font-face {
+    font-family: "Nokia Pure Text";
+        src: url("http://synrc.com/fonts/nokiapuretextbold-webfont.eot?"); /* IE9 */
+        src: url("http://synrc.com/fonts/nokiapuretextbold-webfont.eot?v=2.3.1.12#iefix") format("eot"), /* IE6-IE8 */
+             url("http://synrc.com/fonts/nokiapuretextbold-webfont.woff?v=2.3.1.12") format("truetype"), /* Mordern browsers */
+             url("http://synrc.com/fonts/nokiapuretextbold-webfont.ttf?v=2.3.1.12") format("truetype"), /* Safari, Android, iOS */
+             url("http://synrc.com/fonts/nokiapuretextbold-webfont.svg?2.3.1.12#NokiaPureTextLight") format("svg"); /* Legacy iOS */
+    font-weight: 200;
+    font-style: bold;
 }
 
 @font-face {
