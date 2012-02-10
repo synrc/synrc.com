@@ -1,7 +1,7 @@
 
-A:link { font-weight: normal; color: gray; }
-A:visited { font-weight: normal; color: darkgray; }
-A:hover { font-weight: normal; color: #0033cc; }
+A:link { font-weight: bold; color: blue; }
+A:visited { font-weight: bold; color: darkblue; }
+A:hover { font-weight: bold; color: #0033cc; }
 
 BODY { font-family: "Nokia Pure Text"; margin: 0; padding: 0;}
 TD { margin-top: 8px; margin-bottom: 0px; }
