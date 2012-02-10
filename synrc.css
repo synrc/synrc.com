@@ -17,13 +17,13 @@ PRE { padding-top:10px;padding-bottom:10px;padding-left:10px;margin-left:50px; }
 .menu { font-size:14pt; color: red; }
 .menu:hover { font-size:14pt; color: red; }
 .block { background-color: #f5f5f5; padding-top:1px; padding-bottom:1px; }
-.column { margin-left:-20px; padding-right:10px; padding-left:10px; width:300; vertical-align:top; }
-.wrapper { width:1100px; float:center; margin: 0 auto; }
-.threecol { width: 320px; float: left; margin-right: 20px; }
+.column { margin-left:-20px; padding-right:10px; padding-left:10px; width:350; vertical-align:top; }
+.wrapper { width:1150px; float:center; margin: 0 auto; }
 .verysmallcol { width: 150px; float: left; margin-right: 20px; }
+.threecol { width: 350px; float: left; margin-right: 20px; }
 .smallcol { width: 200px; float: left; margin-right: 20px; }
-.widecol { width: 420px; float: left; margin-right: 20px; }
-.verywidecol { width: 600px; float: left; margin-right: 20px; }
+.widecol { width: 350px; float: left; margin-right: 20px;  }
+.verywidecol { width: 600px; float: left; margin-right: 20px; text-align: justify; }
 .last { margin-right: 0; }
 .clear { clear: both; }
 
