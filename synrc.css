@@ -5,7 +5,7 @@ A:hover { font-weight: normal; color: #0033cc; }
 
 BODY { font-family: "Nokia Pure Text"; }
 TD { margin-top: 8px; margin-bottom: 0px; }
-H2 { font-size:24pt; font-weight: normal; margin-top:20px; margin-bottom:0px; margin-right:6px; margin-left:10px; padding-bottom:10px; }
+H2 { font-size:24pt; font-weight: bold; margin-top:20px; margin-bottom:0px; margin-right:6px; margin-left:10px; padding-bottom:10px; }
 H3 { font-size:22pt; font-weight: normal; margin-top:36px; margin-bottom:0px; margin-right:6px; margin-left:10px; } 
 H4 { font-size:20pt; font-weight: normal; margin-top:0px; margin-bottom:0px; margin-right:0px; } 
 H5 { font-size:18pt; font-weight: normal; padding-top:0px;margin-top:0px; margin-bottom:0px; margin-right:0px; } 
@@ -39,7 +39,7 @@ PRE { padding-top:10px;padding-bottom:10px;padding-left:10px;margin-left:50px; }
         src: url("http://synrc.com/fonts/nokiapuretextlight-webfont.eot?"); /* IE9 */
         src: url("http://synrc.com/fonts/nokiapuretextlight-webfont.eot?v=2.3.1.12#iefix") format("eot"), /* IE6-IE8 */
              url("http://synrc.com/fonts/nokiapuretextlight-webfont.woff?v=2.3.1.12") format("truetype"), /* Mordern browsers */
-             url("http://synrc.com/fonts/nokiapuretextlight-webfont.ttf?v=2.3.1.12") format("truetype"), /* Safari, Android, iOS */
+             url("http://synrc.com/fonts/nokiapuretextlight-webfont.ttf?v=2.3.1.12") format("truetype"); /* Safari, Android, iOS */
     font-weight: 200;
     font-style: normal;
 }
@@ -49,7 +49,7 @@ PRE { padding-top:10px;padding-bottom:10px;padding-left:10px;margin-left:50px; }
         src: url("http://synrc.com/fonts/nokiapuretextbold-webfont.eot?"); /* IE9 */
         src: url("http://synrc.com/fonts/nokiapuretextbold-webfont.eot?v=2.3.1.12#iefix") format("eot"), /* IE6-IE8 */
              url("http://synrc.com/fonts/nokiapuretextbold-webfont.woff?v=2.3.1.12") format("truetype"), /* Mordern browsers */
-             url("http://synrc.com/fonts/nokiapuretextbold-webfont.ttf?v=2.3.1.12") format("truetype"), /* Safari, Android, iOS */
+             url("http://synrc.com/fonts/nokiapuretextbold-webfont.ttf?v=2.3.1.12") format("truetype"); /* Safari, Android, iOS */
     font-weight: 200;
     font-style: bold;
 }
@@ -59,7 +59,7 @@ PRE { padding-top:10px;padding-bottom:10px;padding-left:10px;margin-left:50px; }
         src: url("http://synrc.com/fonts/pala.eot?"); /* IE9 */
         src: url("http://synrc.com/fonts/pala.eot?v=2.3.1.12#iefix") format("eot"), /* IE6-IE8 */
              url("http://synrc.com/fonts/pala.woff?v=2.3.1.12") format("truetype"), /* Mordern browsers */
-             url("http://synrc.com/fonts/pala.ttf?v=2.3.1.12") format("truetype"), /* Safari, Android, iOS */
+             url("http://synrc.com/fonts/pala.ttf?v=2.3.1.12") format("truetype"); /* Safari, Android, iOS */
     font-weight: 200;
     font-style: normal;
 }
