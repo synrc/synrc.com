@@ -19,14 +19,14 @@ PRE { padding-top:10px;padding-bottom:10px;padding-left:10px;margin-left:50px; }
 .block { background-color: #f0f0f0; padding-top:1px; padding-bottom:1px; float: center; }
 .column { margin-left:-20px; padding-right:10px; padding-left:10px; width:350; vertical-align:top; }
 .wrapper     { width: 1090px; float: center; background-color: green; margin: 0 auto; }
-.article     { width: 1010px; float: center; background-color: green; margin: 0 auto; }
-.verywidecol { width:  600px; float: center; margin: 0 auto; text-align: justify; }
+.article     { width: 1110px; float: center; background-color: green; margin: 0 auto; }
+.verywidecol { width:  700px; float: center; margin: 0 auto; text-align: justify; }
 .selectedwrapper    { width: 100%; background-color: #bababa; margin: 0 auto; padding-bottom: 10px; overflow: hidden; background: url(http://cdn.basho.com/images/body-bg.jpg) left top #fafafa;  }
 .nonselectedwrapper { width: 100%; margin: 0 auto; padding: 0; overflow: hidden; }
 .threecol   { width: 350px; float: left; padding: 10px;}
 .widecol    { width: 350px; float: left; padding: 10px; }
 .smallcol   { width: 200px; float: left; padding-rigt: 20px; }
-.articlecol { width: 610px; float: left; padding-rigt: 20px; margin: 0 auto; text-align: justify; }
+.articlecol { width: 710px; float: left; padding-rigt: 20px; margin: 0 auto; text-align: justify; }
 .last { margin-right: 0; }
 .clear { clear: both; }
 

@@ -5,7 +5,7 @@
 create_page()
 {
 	cat templates/begin.htx > $1.htm
-	cat templates/head.htx >> $1.htm
+	cat templates/hevea-head.htx >> $1.htm
 	cat templates/$1.htx >> $1.htm
 	cat templates/foot.htx >> $1.htm
 	cat templates/end.htx >> $1.htm
