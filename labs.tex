@@ -1,0 +1,135 @@
+\documentclass[11pt]{article}
+\usepackage{ifthen}
+\usepackage{graphicx}
+\usepackage{cite}
+\usepackage{hevea}
+\input{synrc.hva}
+%HEVEA \loadcssfile{synrc.css}
+\begin{document}
+%HEVEA \rawhtmlinput{templates/head-hevea.htx}
+
+\title{Synrc Labs}
+\author{Maxim Sokhatsky}
+
+%HEVEA \begin{divstyle}{wrapper}
+%HEVEA \begin{divstyle}{threecol}
+
+\section*{Directory Server}
+%HEVEA \begin{divstyle}{block}
+\paragraph{}
+Directory Server is a distributed storage that can handle tens of
+millions online user requests. It is basically an object data storage
+with proven LDAP as front-end interface protocol.
+In its core as most of LDAP servers Synrc Directory is based on
+key-value distributed data store, DHT.
+\paragraph{}
+It can be integrated as in pure Erlang environments as within an
+existed heterogeneous network with message queues, broker servers
+and services that rely on access to LDAP directories, such as XMPP,
+auth services, directory books, mobile sync, etc.
+%HEVEA \end{divstyle}
+
+Sources: \footahref{https://github.com/synrc/directory-server}{synrc.com/server/directory}
+
+\section*{Sync Server}
+%HEVEA \begin{divstyle}{block}
+\paragraph{}
+Sync Server is written in Erlang SyncML server that can handle
+millions of active users. It is very small and managable.
+Best using in a couple with Directory.
+%HEVEA \end{divstyle}
+
+Sources: \footahref{https://github.com/synrc/sync-server}{synrc.com/server/sync}
+
+\section*{Chat Server}
+%HEVEA \begin{divstyle}{block}
+\paragraph{}
+Chat Server is a modification of ejabberd XMPP server for use with MongoDB backend.
+%HEVEA \end{divstyle}
+
+Sources: \footahref{https://github.com/synrc/chat-server}{synrc.com/server/chat}
+
+%HEVEA \end{divstyle}
+%HEVEA \begin{divstyle}{widecol}
+
+\section*{Symbian Chat}
+%HEVEA \begin{divstyle}{block}
+\paragraph{}
+Symbian Chat is tiny Qt client. It supports core XMPP protocol,
+multi-user chat, Google accounts, Psi bookmarks, In-band registration
+and other features. It is written for Symbian formerly known as EPOC using Qt framework.
+%HEVEA \end{divstyle}
+
+Sources: \footahref{https://github.com/synrc/symbian-chat-client}{synrc.com/client/chat/symbian}
+
+\section*{\footahref{http://synrc.com/sync/client/haiku}{Haiku Chat}}
+%HEVEA \begin{divstyle}{block}
+\paragraph{}
+Haiku Chat is tiny, about 300KB XMPP client.
+It supports core XMPP protocol, multi-user chat, Google accounts,
+Psi bookmarks, In-band registration and other features.
+It is written for Haiku, free open-source operating system inspired by BeOS.
+%HEVEA \end{divstyle}
+
+Sources: \footahref{http://github.com/haiku-chat-client}{synrc.com/client/chat/haiku}
+
+\section*{\footahref{http://synrc.com/sync/client/windows}{Windows Sync}}
+%HEVEA \begin{divstyle}{block}
+\paragraph{}
+Synrc Contacts Application is about organize,
+import/export, sync your Address Books with Google Contacts,
+Microsoft Outlook, NOKIA Phones, Windows Contacts local folder,
+LDAP Directory, Yahoo! Contacts and Windows Live Contacts.
+\paragraph{}
+Synrc Contacts is "buddhist view" zen Application for
+Vista and Windows 7. It's simplified design with one button
+makes you life easy with managing personal contact information.
+%HEVEA \end{divstyle}
+
+Sources: \footahref{https://github.com/synrc/windows-sync-client}{synrc.com/client/sync/windows}
+
+%HEVEA \end{divstyle}
+%HEVEA \begin{divstyle}{threecol last}
+
+\section*{\footahref{http://synrc.com/research/io/index.htm}{Io}}
+
+%HEVEA \begin{divstyle}{block}
+\paragraph{}
+As some of us are fans of Smalltalk and LISP, we cannot pass the
+beautiful syntaxic forth start-up. Synrc Io for CLR --- one of simplest but very
+powerful in potential languages. Inpired by Smalltalk it's simplified
+syntax free from syntax trash. We support Open Source implementation
+of Io Language for Common Language Runtimes such as Mono and .NET.
+%HEVEA \end{divstyle}
+Sources: \footahref{http://github.com/synrc/research-io}{synrc.com/research/io}
+
+\section*{PL/1}
+%HEVEA \begin{divstyle}{block}
+\paragraph{}
+Synrc PL/1 for CLR is our first variant of PL/1 version for .NET.
+%HEVEA \end{divstyle}
+Sources: \footahref{http://github.com/synrc/research-pl}{synrc.com/research/pl}
+
+\section*{ML}
+%HEVEA \begin{divstyle}{block}
+\paragraph{}
+Synrc ML written in C and is tiny ML byte-code compiler that incororates CAM machine
+along with process calculus and lazy evaluations.
+%HEVEA \end{divstyle}
+Sources: \footahref{http://github.com/synrc/research-ml}{synrc.com/research/ml}
+
+\section*{\footahref{beos/beos.htm}{BeOS}}
+%HEVEA \begin{divstyle}{block}
+\paragraph{}
+Synrc Research Center archived all information about BeOS operating system 
+including CD images and have dedicated page for this purposes.
+%HEVEA \end{divstyle}
+
+%HEVEA \end{divstyle}
+%HEVEA \end{divstyle}
+%HEVEA \begin{divstyle}{clear}{~}\end{divstyle}
+
+%HEVEA \footerfalse
+%HEVEA \rawhtmlinput{templates/foot.htx}
+
+\end{document}

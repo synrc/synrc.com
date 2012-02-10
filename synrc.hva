@@ -1,0 +1,15 @@
+
+\newcommand{\includeimage}[1]{
+\ifhevea
+{
+\imgsrc{#1}
+}
+\else
+{
+\begin{figure}[ht]
+\centering
+\includegraphics[scale=0.5]{#1}
+\end{figure}}
+\fi}
+
+\renewenvironment{quote} {\@open{BLOCKQUOTE}{}\@style{EM}} {\@close{BLOCKQUOTE}}

@@ -1,0 +1,57 @@
+
+A:link { font-weight: normal; color: gray; }
+A:visited { font-weight: normal; color: darkgray; }
+A:hover { font-weight: normal; color: #0033cc; }
+
+BODY { font-family: "Nokia Pure Text"; }
+TD { margin-top: 8px; margin-bottom: 0px; }
+H2 { font-size:24pt; font-weight: normal; margin-top:20px; margin-bottom:0px; margin-right:6px; margin-left:10px; padding-bottom:10px; }
+H3 { font-size:16pt; font-weight: normal; margin-top:36px; margin-bottom:0px; margin-right:6px; margin-left:10px; } 
+H4 { font-size:12pt; font-weight: normal; margin-top:0px; margin-bottom:0px; margin-right:0px; } 
+H5 { font-size:12pt; font-weight: normal; padding-top:0px;margin-top:0px; margin-bottom:0px; margin-right:0px; } 
+P { font-size:16pt; padding-top:10px;margin-top:0px;padding-right:10px;padding-left:10px;  }
+LI { font-size:14pt; }
+PRE { padding-top:10px;padding-bottom:10px;padding-left:10px;margin-left:50px; }
+
+.logo_font { font-family: "Palatino Linotype"; margin-bottom: 0px; line-height: 60%; }
+.menu { font-size:14pt; color: red; }
+.menu:hover { font-size:14pt; color: red; }
+.block { background-color: #f5f5f5; padding-top:1px; padding-bottom:1px; }
+.column { margin-left:-20px; padding-right:10px; padding-left:10px; width:300; vertical-align:top; }
+.wrapper { width:1100px; float:center; margin: 0 auto; }
+.threecol { width: 320px; float: left; margin-right: 20px; }
+.verysmallcol { width: 150px; float: left; margin-right: 20px; }
+.smallcol { width: 200px; float: left; margin-right: 20px; }
+.widecol { width: 420px; float: left; margin-right: 20px; }
+.verywidecol { width: 600px; float: left; margin-right: 20px; }
+.last { margin-right: 0; }
+.clear { clear: both; }
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+      -ms-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Nokia Pure Text";
+        src: url("http://synrc.com/fonts/nokiapuretextlight-webfont.eot?"); /* IE9 */
+        src: url("http://synrc.com/fonts/nokiapuretextlight-webfont.eot?v=2.3.1.12#iefix") format("eot"), /* IE6-IE8 */
+             url("http://synrc.com/fonts/nokiapuretextlight-webfont.woff?v=2.3.1.12") format("truetype"), /* Mordern browsers */
+             url("http://synrc.com/fonts/nokiapuretextlight-webfont.ttf?v=2.3.1.12") format("truetype"), /* Safari, Android, iOS */
+             url("http://synrc.com/fonts/nokiapuretextlight-webfont.svg?2.3.1.12#NokiaPureTextLight") format("svg"); /* Legacy iOS */
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Palatino Linotype";
+        src: url("http://synrc.com/fonts/pala.eot?"); /* IE9 */
+        src: url("http://synrc.com/fonts/pala.eot?v=2.3.1.12#iefix") format("eot"), /* IE6-IE8 */
+             url("http://synrc.com/fonts/pala.woff?v=2.3.1.12") format("truetype"), /* Mordern browsers */
+             url("http://synrc.com/fonts/pala.ttf?v=2.3.1.12") format("truetype"), /* Safari, Android, iOS */
+             url("http://synrc.com/fonts/pala.svg?2.3.1.12#NokiaPureTextLight") format("svg"); /* Legacy iOS */
+    font-weight: 200;
+    font-style: normal;
+}
