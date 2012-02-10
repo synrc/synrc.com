@@ -14,6 +14,7 @@ mkdir server
 git clone git://github.com/synrc/chat-server.git server/chat
 git clone git://github.com/synrc/sync-server.git server/sync
 git clone git://github.com/synrc/directory-server.git server/directory
+git clone git://github.com/synrc/store-server.git server/store
 mkdir research 
 git clone git://github.com/synrc/research-ml.git research/ml
 git clone git://github.com/synrc/research-io.git research/io
