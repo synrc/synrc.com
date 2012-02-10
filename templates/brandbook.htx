@@ -1,16 +1,16 @@
 
-<div class="wrapper">
+<div class="nonselectedwrapper">
+<div class="article">
 <div class="smallcol">
 
-<div class="block">
-		<p><img src="images/s_64.png"></p>
+    <div class="block">
+	<p><img src="images/s_64.png"></p>
+	<p>Correct <b class="logo_font"><font color="#0033cc">syn</font><font color="#ff3333">rc</font></font></b> spelling,
+	Web and print colors, name meaning, usage.</p>
+    </div>
 
-		<p>Correct <b class="logo_font"><font color="#0033cc">syn</font><font color="#ff3333">rc</font></font></b> spelling,
-		Web and print colors, name meaning, usage.</p>
 </div>
-
-</div>
-<div class="verywidecol">
+<div class="articlecol">
 
         <h2>Brand Book</h2>
 
@@ -42,11 +42,13 @@
 
 	<h3><a name="fonts">Fonts</a></h3>
 
+	<div class="block">
 	<p class="logo_font" style="margin-top:20px; line-height: 28pt; font-size:20pt;">Palatino Linotype<br>
 	   <b><font color="#0033cc">syn</font><font color="#ff3333">rc</font> research center</b></p>
 
 	<p style="margin-top:20px; 28pt; font-size:20pt;">Nokia Pure Text<br>
 	   Synrc Sesearch Center</p>
+	</div>
 
 	<h3><a name="colors">Colors</a></h3>
 
@@ -104,7 +106,7 @@
 	Where logotype width is defined as distance between
 	the left edge of capital S and right edge of very right dot near&nbsp;C.</p>
 
-	<img src="images/padding.png">
+	<!--img src="images/padding.png"-->
 
 	<h3><a name="square">Square Banner</a></h3>
 
@@ -137,7 +139,8 @@
 	automatically denying Synrc logotypes eligible usage.</p>
 
 </div>
-<div class="last">
+
+<div class="smallcol last">
     		<h2>TOC</h2>
 
 		<p>
@@ -149,9 +152,10 @@
 		<a href="#square">Square banner</a><br>
 		<a href="#form">Formatting</a><br>
 		<a href="#ascii">ASCII</a><br>
-		<a href="#bin">Binary</a><br>
 		<a href="#usage">General usage</a>
 		</p>
+</div>
+</div>
 </div>
 
 <div class="clear"></div>

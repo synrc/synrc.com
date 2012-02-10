@@ -1,7 +1,6 @@
 
-<div class="wrapper">
-<div class="smallcol">&nbsp;</div>
-<div class="verywidecol last">
+<div class="nonselectedwrapper">
+<div class="verywidecol">
 
     <div style="width:596px;height:100px;float:left;" align=center>
     	<hr size=1>

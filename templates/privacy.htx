@@ -1,7 +1,6 @@
 
-<div class="wrapper">
-<div class="smallcol">&nbsp;</div>
-<div class="verywidecol last">
+<div class="nonselectedwrapper">
+<div class="verywidecol">
 
     <h2>Privacy Policy</h2>
 
@@ -25,4 +24,3 @@ the technology they have investigated or similar technologies.</p>
 </div>
 
 <div class="clear"></div>
-

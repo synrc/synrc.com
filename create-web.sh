@@ -26,3 +26,4 @@ create_hevea "feedback" labs
 create_hevea "research" labs
 create_hevea "labs" labs
 create_hevea "research/io/index" lang clr proto
+create_hevea "beos/beos" lang
