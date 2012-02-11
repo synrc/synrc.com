@@ -1,6 +1,6 @@
 
 A:link { font-weight: bold; color: blue; }
-A:visited { font-weight: bold; color: darkblue; }
+A:visited { font-weight: bold; color: blue; }
 A:hover { font-weight: bold; color: #0033cc; }
 
 BODY { font-family: "Nokia Pure Text"; margin: 0; padding: 0;}
