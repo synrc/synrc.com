@@ -1,49 +1,3 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"
-            "http://www.w3.org/TR/REC-html40/loose.dtd">
-<html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<link href="http://synrc.com/synrc.css" type="text/css" rel="stylesheet">
-</head>
-<body>
-<p>
-
-<div class="nonselectedwrapper">
-<div class="verywidecol">
-
-    <div style="height:78px;margin-top:20px;">
-        <div class="logo_font" style="float:left; font-size: 21pt;margin-top: 42px; ">
-            <b><font color="#0033cc">syn</font><font color="#ff0000">rc</font> research center</b>
-        </div>
-        <div style="float:right;margin-top: 4px; ">
-            <a href="http://synrc.com/index.htm"><img src="http://synrc.com/images/synrc.png" border="0"></a>
-        </div>
-    </div>
-
-</div>
-</div>
-
-<div class="clear"></div>
-
-<hr size="1"/>
-
-<div class="nonselectedwrapper">
-<div class="verywidecol">
-
-    <table bgcolor="white" cellpadding="5" cellspacing=7 width=100%>
-    <tbody bgcolor="#eeeeee"><tr height="50" align="center" valign="center">
-        <td width=20%> <div class="menu"><a href="http://synrc.com/index.htm">Sync</a></div> </td>
-        <td width=20%> <div class="menu"><a href="http://synrc.com/research.htm">Research</a></div> </td>
-        <td width=20%> <div class="menu"><a href="http://synrc.com/labs.htm">Labs</a></div> </td>
-        <td width=20%> <div class="menu"><a href="http://synrc.com/feedback.htm">Feedback</a></div> </td>
-        <td width=20% background="http://synrc.com/images/dots2.jpg"> </td>
-        <!--td width="" background="http://synrc.com/images/dots2.jpg"> </td-->
-    </tr></tbody></table>
-
-</div>
-</div>
-
-<div class="clear" style="margin-bottom:20px;"></div>
 
 <DIV CLASS="nonselectedwrapper">
 <DIV CLASS="article">
@@ -96,22 +50,3 @@ although internally it is not a Unix-derived operating system..</P>
 
 <DIV CLASS="clear"></DIV>
 
-
-<div class="nonselectedwrapper">
-<div class="verywidecol">
-
-    <div style="width:100%;height:100px;float:left;" align=center>
-    	<hr size=1>
-        <span class="logo_font" style="font-size:14pt;">
-            <b><font color="#0033cc">syn</font><font color="#ff0000">rc</font></b></span> uses H<FONT SIZE=2><sup>E</sup></FONT>V<FONT SIZE=2><sup>E</sup></FONT>A<br>
-    	<a href="http://synrc.com/privacy.htm">Privacy Policy</a> | <a href="http://synrc.com/feedback.htm">Feedback</a> | <a href="http://synrc.com/brandbook.htm">Brandbook</a><br>
-    	Copyright &copy; 2005&ndash;2012 <a href="http://synrc.com/index.htm"> Synrc Research Center</a>
-    </div>
-
-</div>
-</div>
-
-<div class="clear"></div>
-</p>
-</body>
-</html>

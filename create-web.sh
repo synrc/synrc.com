@@ -13,6 +13,7 @@ create_page()
 
 create_page privacy
 create_page brandbook
+create_page beos/beos_collection
 
 # Synrc HeVeA Templates for both HTML rendering and TeX outputs
 
@@ -21,9 +22,9 @@ create_hevea()
 	hevea $1.tex -o $1.htm
 }
 
-create_hevea "index" labs
-create_hevea "feedback" labs
-create_hevea "research" labs
-create_hevea "labs" labs
-create_hevea "research/io/index" lang clr proto
-create_hevea "beos/beos" lang
+create_hevea "index"
+create_hevea "feedback"
+create_hevea "research"
+create_hevea "labs"
+create_hevea "research/io/index"
+create_hevea "beos/beos"
