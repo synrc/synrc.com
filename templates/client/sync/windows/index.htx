@@ -1,4 +1,7 @@
 
+<a class="fork-me" href="http://github.com/synrc/windows-sync-client">
+<img src="http://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" border=0 alt="Fork me on GitHub"></a>
+
 <div class="nonselectedwrapper">
 <div class="article">
 <div class="smallcol">
@@ -28,7 +31,7 @@
 
 	<p><img src="images/AzureLiveNET.jpg"></p>
 
-	<h3 name="features">Features</h3>
+	<h3><a name="features">Features</a></h3>
 
         <p><ul>
             <li>Puritan and Minimalistic interface</li>
@@ -42,7 +45,7 @@
             <li>Supports Windows Sync Center</li>
         </ul></p>
 
-    <h3 name="minimal">Puritan & Minimalistic interface</h3>
+    <h3><a name"minimal">Puritan & Minimalistic interface</a></h3>
 
     <p>Synrc Contacts is a "buddhist view" zen Application for Vista and Windows 7.
     Its simplified one-button  design makes your life easy in terms of managing
@@ -50,7 +53,7 @@
 
     <p><br><img src="images/collapsed.jpg"></p>
 
-    <h3 name="sync">Symmetric synchronization</h3>
+    <h3><a name="sync">Symmetric synchronization</a></h3>
 
     <p>You do not need specify what sync source is master or slave, which
     one will be rewrited or not. The symmetric sync algorithm guarants you
@@ -59,7 +62,7 @@
 	folder by default. That sync source sets up as default. Every sync
 	session performs with the default sync source.</p>
 
-    <h3 name="cross">Instant full cross-fields search</h3>
+    <h3><a name="cross">Instant full cross-fields search</a></h3>
 
     <p>You can find contacts by any data stored within vCARD: phone,
     e-mail, name, postal address, category, etc. Results are filtered
@@ -67,7 +70,7 @@
 
     <img src="images/expanded.png">
 
-    <h3 name="mt">Designed with multithreading in mind</h3>
+    <h3><a name="mt">Designed with multithreading in mind</a></h3>
 
     <p>The sync Engine uses 7 threads to fetch, synchronize and
     update sync source. That guarants you that your synchronization
@@ -76,7 +79,7 @@
 
     <p><br><img src="images/loading.jpg"></p>
 
-    <h3 name="security">Security Issues</h3>
+    <h3><a name="security">Security Issues</a></h3>
 
     <p>No passwords are stored on your computer from your sync sources.
     Passwords can be remembered only within a life of the application.
@@ -85,7 +88,7 @@
 
     <p><br><img src="images/signin.jpg"></p>
 
-    <h3 name="open">Open architecture for developers</h3>
+    <h3><a name="open">Open architecture for developers</a></h3>
 
     <p>The application is Open Source and you can implement your own
     sync source provider for any storage you want be supported by
@@ -93,7 +96,7 @@
     contacts from sync source, update, delete and add them. Most sync
     source providers are implemented in one screen of code.</p>
 
-    <h3 name="synccenter">Supports Windows Sync Center</h3>
+    <h3><a name="synccenter">Supports Windows Sync Center</a></h3>
 
     <p>The application registers the Sync Center Partnership and now
     you can sync all items in one place along with Windows Mobile
@@ -115,7 +118,7 @@
 		<a href="#mt">Multithreaded</a><br>
 		<a href="#security">Security</a><br>
 		<a href="#open">Open</a><br>
-		<a href="#synccenter">Sync Center</a><</a><br>
+		<a href="#synccenter">Sync Center</a></a><br>
 
 		</p>
 </div>
