@@ -8,12 +8,15 @@ create_page()
 	cat templates/head-hevea.htx >> $1.htm
 	echo "</p>" >> $1.htm
 	cat templates/$1.htx >> $1.htm
+	echo "<p>" >> $1.htm
 	cat templates/foot.htx >> $1.htm
+	echo "</p>" >> $1.htm
 	cat templates/end.htx >> $1.htm
 }
 
 create_page privacy
 create_page brandbook
+create_page client/sync/windows/index
 create_page beos/beos_collection
 
 # Synrc HeVeA Templates for both HTML rendering and TeX outputs

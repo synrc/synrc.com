@@ -1,0 +1,125 @@
+
+<div class="nonselectedwrapper">
+<div class="article">
+<div class="smallcol">
+
+    <div class="block">
+	<p><img src="http://synrc.com/images/s_64.png"></p>
+	<p>Personal Data Sync.</p>
+    </div>
+
+</div>
+<div class="articlecol">
+
+        <h2>Windows Sync Client</h2>
+
+	<p>Synrc Contacts Application for Vista is about organizing,
+        import/export, syncing your Address Books with Google Contacts,
+        Microsoft Outlook, NOKIA Phones, Windows Contacts local folder,
+        LDAP Directory, Yahoo! Contacts and Windows Live Contacts.</p>
+
+        <blockquote>
+        <p style="font-size:16pt;">
+	<a href="http://sync.codeplex.com/Release/ProjectReleases.aspx?ReleaseId=25385">Download</a>
+	<sup><font color=blue>for Windows</font></sup></p>
+        </blockquote>
+
+	<p>Built on Windows Azure, Live Mesh and Microsoft .NET</p>
+
+	<p><img src="images/AzureLiveNET.jpg"></p>
+
+	<h3 name="features">Features</h3>
+
+        <p><ul>
+            <li>Puritan and Minimalistic interface</li>
+            <li>Symmetric synchronization (no master and slave)</li>
+            <li>Original <a href="doc/ReplicationProtocol.txt">Sync Replication Protocol</a></li>
+            <li>No data loss, duplicating or inconsistance</li>
+            <li>Designed for Multicore CPUs</li>
+            <li>Open architecture</li>
+            <li>No passwords stored</li>
+            <li>Instant full cross-field search</li>
+            <li>Supports Windows Sync Center</li>
+        </ul></p>
+
+    <h3 name="minimal">Puritan & Minimalistic interface</h3>
+
+    <p>Synrc Contacts is a "buddhist view" zen Application for Vista and Windows 7.
+    Its simplified one-button  design makes your life easy in terms of managing
+    personal contact information.</p>
+
+    <p><br><img src="images/collapsed.jpg"></p>
+
+    <h3 name="sync">Symmetric synchronization</h3>
+
+    <p>You do not need specify what sync source is master or slave, which
+    one will be rewrited or not. The symmetric sync algorithm guarants you
+    that no data loss, contacts duplicating or data inconsistance accurse.
+	The application starts and loads all contacts from Windows Contacts
+	folder by default. That sync source sets up as default. Every sync
+	session performs with the default sync source.</p>
+
+    <h3 name="cross">Instant full cross-fields search</h3>
+
+    <p>You can find contacts by any data stored within vCARD: phone,
+    e-mail, name, postal address, category, etc. Results are filtered
+    instantly by your typing.</p>
+
+    <img src="images/expanded.png">
+
+    <h3 name="mt">Designed with multithreading in mind</h3>
+
+    <p>The sync Engine uses 7 threads to fetch, synchronize and
+    update sync source. That guarants you that your synchronization
+    will be finished as soon as possible and defines high responsiveness
+    and smoothness of application.</P>
+
+    <p><br><img src="images/loading.jpg"></p>
+
+    <h3 name="security">Security Issues</h3>
+
+    <p>No passwords are stored on your computer from your sync sources.
+    Passwords can be remembered only within a life of the application.
+    When the application shutdowns you have to retype passwords.
+    This guarants you that no password leek is possible.</p>
+
+    <p><br><img src="images/signin.jpg"></p>
+
+    <h3 name="open">Open architecture for developers</h3>
+
+    <p>The application is Open Source and you can implement your own
+    sync source provider for any storage you want be supported by
+    Synrc Contacts Application. You just need to define how to fetch
+    contacts from sync source, update, delete and add them. Most sync
+    source providers are implemented in one screen of code.</p>
+
+    <h3 name="synccenter">Supports Windows Sync Center</h3>
+
+    <p>The application registers the Sync Center Partnership and now
+    you can sync all items in one place along with Windows Mobile
+    Devices and Offline Folders.</p>
+
+    <p><br><img src="images/synccenter.png"></p>
+
+
+</div>
+
+<div class="smallcol last">
+    		<h2>TOC</h2>
+
+		<p>
+		<a href="#features">Features</a><br>
+		<a href="#minimal">Puritan & Minimalistic interface</a><br>
+		<a href="#sync">Symmetric synchronization</a><br>
+		<a href="#cross">Instant full cross-fields search</a><br>
+		<a href="#mt">Designed with multithreading in mind</a><br>
+		<a href="#security">Security Issues</a><br>
+		<a href="#open">Open architecture for developers</a><br>
+		<a href="#synccenter">Supports Windows Sync Center</a><</a><br>
+
+		</p>
+</div>
+</div>
+</div>
+
+<div class="clear"></div>

@@ -26,6 +26,7 @@ PRE { padding-top:10px;padding-bottom:10px;padding-left:10px;margin-left:50px; }
 .threecol   { width: 350px; float: left; padding: 10px;}
 .widecol    { width: 350px; float: left; padding: 10px; }
 .smallcol   { width: 200px; float: left; padding-rigt: 20px; }
+.toc   { width: 300px; float: left; padding-rigt: 20px; }
 .articlecol { width: 710px; float: left; padding-rigt: 20px; margin: 0 auto; text-align: justify; }
 .last { margin-right: 0; }
 .clear { clear: both; }
