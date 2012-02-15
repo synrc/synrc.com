@@ -109,13 +109,13 @@
 
 		<p>
 		<a href="#features">Features</a><br>
-		<a href="#minimal">Puritan & Minimalistic interface</a><br>
-		<a href="#sync">Symmetric synchronization</a><br>
-		<a href="#cross">Instant full cross-fields search</a><br>
-		<a href="#mt">Designed with multithreading in mind</a><br>
-		<a href="#security">Security Issues</a><br>
-		<a href="#open">Open architecture for developers</a><br>
-		<a href="#synccenter">Supports Windows Sync Center</a><</a><br>
+		<a href="#minimal">Minimalistic</a><br>
+		<a href="#sync">Symmetric Sync</a><br>
+		<a href="#cross">Instant Search</a><br>
+		<a href="#mt">Multithreaded</a><br>
+		<a href="#security">Security</a><br>
+		<a href="#open">Open</a><br>
+		<a href="#synccenter">Sync Center</a><</a><br>
 
 		</p>
 </div>
