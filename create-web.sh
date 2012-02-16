@@ -12,12 +12,17 @@ create_page()
 	cat templates/foot.htx >> $1.htm
 	echo "</p>" >> $1.htm
 	cat templates/end.htx >> $1.htm
+	echo "generated $1.htm"
 }
 
 create_page privacy
 create_page brandbook
 create_page client/sync/windows/index
+create_page client/chat/haiku/index
 create_page beos/beos_collection
+create_page research/io/doc/overview
+create_page research/io/doc/object
+create_page research/io/doc/primitives
 
 # Synrc HeVeA Templates for both HTML rendering and TeX outputs
 

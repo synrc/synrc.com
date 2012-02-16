@@ -1,0 +1,150 @@
+
+<a class="fork-me" href="http://github.com/synrc/haiku-chat-client">
+<img src="http://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" border=0 alt="Fork me on GitHub"></a>
+
+<div class="nonselectedwrapper">
+<div class="article">
+<div class="smallcol">
+
+    <div class="block">
+        <p><img src="images/400px-jabber-bulbsvg.png" border=0 width=40></p>
+        <p>Jabber</p> 
+    </div>
+
+</div>
+<div class="articlecol">
+
+    <h1>Haiku Chat Client</h1>
+
+    <h2>Overview</h2>
+
+    <p>Haiku Chat is tiny, about 300KB XMPP client. It supports core XMPP protocol,
+		multi-user chat, Google accounts, Psi bookmarks, In-band registration and other features.
+		It is written for Haiku, free open-source operating system inspired 
+		by <font color=blue>B</font><font color=red>e</font><font color=black>OS</font>.
+		Haiku Chat is simplest and smallest client that supports XMPP Advanced Client 2009 profile.</p>
+
+        <blockquote>
+        <p style="font-size:16pt;">
+	<!--a href="http://sync.codeplex.com/Release/ProjectReleases.aspx?ReleaseId=25385">Download Synrc Contacts</a-->
+	<a href="http://svn.berlios.de/svnroot/repos/dengon/trunk/Chat">Download</a>
+
+ <sup><font color=blue>for Haiku</font></sup></p>
+        </blockquote>
+
+	<p>Standards supported:</p>
+
+        <p><ul>
+<li><a href="http://tools.ietf.org/html/draft-ietf-xmpp-3920bis-13">RFC 3920</a> (Core)</li>
+<li><a href="http://tools.ietf.org/html/draft-ietf-xmpp-3921bis-12">RFC 3921</a> (Instant Messaging and Presence)</li>
+<li><a href="http://xmpp.org/extensions/xep-0199.html">XEP-0199</a> (Ping)</li>
+<li><a href="http://xmpp.org/extensions/xep-0045.html">XEP-0045</a> (Multi-User Chat)</li>
+<li><a href="http://xmpp.org/extensions/xep-0077.html">XEP-0077</a> (In-Band Registration)</li>
+<li><a href="http://xmpp.org/extensions/xep-0092.html">XEP-0092</a> (Software Version).</li>
+<li><a href="http://xmpp.org/extensions/xep-0049.html">XEP-0049</a> (Private XML Storage)</li>
+<li><a href="http://xmpp.org/extensions/xep-0118.html">XEP-0118</a> (User Tune)</li>
+<li><a href="http://xmpp.org/extensions/xep-0004.html">XEP-0004</a> (Data Forms).</li>
+<li><a href="http://xmpp.org/extensions/xep-0030.html">XEP-0030</a> (Service Discovery).</li>
+        </ul></p>
+
+    <h3><a name="signon">Sign-up and Sign-in</a></h3>
+
+    <p>After application start you can specify any JID (Jabber ID) on Jabber compatible servers
+	such as jabber.org, livejournal.com, gmail.com, xmpp.jp, jabber.ru and others. If SSL or TLS is
+	supported on server side Haiku Chat will use encrypted connection with SASL&nbsp;PLAIN authorization
+	mechanism over 5223 port automatically. Otherwise 5222 port will be used over TCP sockets.
+	Haiku Chat does not support proxy.</p>
+
+    <p><br><img src="images/login.png"></p>
+
+	<p>If you do not have registered JID on server you can check <b>Register Account</B>
+	checkbox and In-Band registration will be processed if that is supported by server.</p>
+
+    <h3><a name="adding">Adding Contacts</a></h3>
+
+    <p>After succsessful login your roster will be shown. You can <b>Add Contact</b>
+	using roster menu or using short cut <span class="key">ALT+N</span>.</p>
+
+	<p><br><img src="images/add-contact.png"></p>
+
+	<p>You can switch fields using <b>Item Type</b> combobox for Users and Conferences.</p>
+
+	<p><br><img src="images/new-user.png"><img src="images/new-conference.png"></p>
+
+	<p>If you choose Conferences and XMPP server supports Private XML
+	Storage (google.com and xmpp.jp doesn't) you could set room nickname.
+	Otherwise field will be disabled and your username from JID will be used by default.</p>
+
+    <h3><a name="presence">Presence Control</p></h3>
+
+    <p>Using selected contact's context menu you can manually
+	control <b>Presence</b> by issue all possible presence requests.</p>
+
+	<p><br><img src="images/presence.png"></p>
+
+    <h3><a name="edit">Edit and Remove</a></h3>
+
+	<p>Also by context menu you can <b>Remove</b> or <b>Edit</b> roster contacts titles and
+	room nickname if that feature is enabled by server. Remember that Haiku Chat can
+	store conferences in roster on server as persistant contacts if server does not support
+	Private XML Storage. If server does &mdash; Haiku Chat will store confereces there in Psi
+	compatible XML format. So you could access them from other client.</P>
+
+    <p><br><img src="images/edit-conference.png"></p>
+
+    <h3><a name="chat">Chat</a></h3>
+
+    <p>After all using context menu <b>Message...</b> or double click you start
+	chat:</p>
+
+    <p><br><img src="images/conference-talk.png"></p>
+
+    <!--h3><a name="room">Room Options</a></h3>
+
+	<p>Using menu Edit you can see how Haiku Chat will handle Data Forms:</p>
+
+    <p><br><img src="room-options.png"></p-->
+
+    <h3><a name="signoff">Log Off</a></h3>
+
+	<p>You change account if you don't want to run another application instance.</p>
+
+    <p><br><img src="images/logoff.png"></p>
+
+    <h3><a name="credits">Credits</a></h3>
+
+    <p>Thanks to all who helps develop Haiku Chat from haiku-os@conference.jabber.ru:</p>
+
+    <p><ul>
+		<li>Alexander Deynichenko</li>
+		<li>Michael Smirnov</li>
+		<li>Rustam Islamov</li>
+		<li>Sergei Reznikov</li>
+		<li>Siarzhuk Zharski</li>
+		<li>Vitaly Borodulin</li>
+	</ul></p>
+
+    <p>Thanks to John Blanco, Jabber for BeOS author:</p>
+
+    <p><img src="images/dengon-about.png"></p>
+
+    <p>Thanks to Be Inc., Travis Geiselbrecht and guys from Haiku Inc. who created beautiful operating systems.</p>
+
+</div>
+<div class="toc last">
+
+	<h2>TOC</h2>
+
+	<a href="#signon">Sign-up and Sign-in</a><br>
+	<a href="#adding">Adding Contacts</a><br>
+	<a href="#presence">Presence Control</a><br>
+	<a href="#edit">Edit and Remove</a><br>
+	<a href="#chat">Chat</a><br>
+	<a href="#signoff">Log Off</a><br>
+	<a href="#credits">Credits</a>
+
+</div>
+</div>
+</div>
+
+<div class="clear"></div>
