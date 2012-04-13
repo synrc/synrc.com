@@ -7,7 +7,7 @@
             <b><font color="#0033cc">syn</font><font color="#ff0000">rc</font> research center</b>
         </div>
         <div style="float:right;margin-top: 4px; ">
-            <a href="http://synrc.com/index.htm"><img src="http://synrc.com/images/synrc.png" border="0"></a>
+            <a href="http://voxoz.com/index.htm"><img src="http://voxoz.com/images/synrc.png" border="0"></a>
         </div>
     </div>
 
@@ -23,12 +23,12 @@
 
     <table bgcolor="white" cellpadding="5" cellspacing=7 width=100%>
     <tbody bgcolor="#eeeeee"><tr height="50" align="center" valign="center">
-        <td width=20%> <div class="menu"><a href="http://synrc.com/index.htm">Sync</a></div> </td>
-        <td width=20%> <div class="menu"><a href="http://synrc.com/research.htm">Research</a></div> </td>
-        <td width=20%> <div class="menu"><a href="http://synrc.com/labs.htm">Labs</a></div> </td>
-        <td width=20%> <div class="menu"><a href="http://synrc.com/feedback.htm">Feedback</a></div> </td>
-        <td width=20% background="http://synrc.com/images/dots2.jpg"> </td>
-        <!--td width="" background="http://synrc.com/images/dots2.jpg"> </td-->
+        <td width=20%> <div class="menu"><a href="http://voxoz.com/index.htm">Sync</a></div> </td>
+        <td width=20%> <div class="menu"><a href="http://voxoz.com/research.htm">Research</a></div> </td>
+        <td width=20%> <div class="menu"><a href="http://voxoz.com/labs.htm">Labs</a></div> </td>
+        <td width=20%> <div class="menu"><a href="http://voxoz.com/feedback.htm">Feedback</a></div> </td>
+        <td width=20% background="http://voxoz.com/images/dots2.jpg"> </td>
+        <!--td width="" background="http://voxoz.com/images/dots2.jpg"> </td-->
     </tr></tbody></table>
 
 </div>
