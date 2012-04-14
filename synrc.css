@@ -41,30 +41,30 @@ PRE { padding-top:10px;padding-bottom:10px;padding-left:10px;margin-left:50px; }
 
 @font-face {
     font-family: "Nokia Pure Text";
-        src: url("http://voxoz.com/fonts/nokiapuretextlight-webfont.eot?"); /* IE9 */
-        src: url("http://voxoz.com/fonts/nokiapuretextlight-webfont.eot?v=2.3.1.12#iefix") format("eot"), /* IE6-IE8 */
-             url("http://voxoz.com/fonts/nokiapuretextlight-webfont.woff?v=2.3.1.12") format("truetype"), /* Mordern browsers */
-             url("http://voxoz.com/fonts/nokiapuretextlight-webfont.ttf?v=2.3.1.12") format("truetype"); /* Safari, Android, iOS */
+        src: url("http://82.144.202.161/fonts/nokiapuretextlight-webfont.eot?"); /* IE9 */
+        src: url("http://82.144.202.161/fonts/nokiapuretextlight-webfont.eot?v=2.3.1.12#iefix") format("eot"), /* IE6-IE8 */
+             url("http://82.144.202.161/fonts/nokiapuretextlight-webfont.woff?v=2.3.1.12") format("truetype"), /* Mordern browsers */
+             url("http://82.144.202.161/fonts/nokiapuretextlight-webfont.ttf?v=2.3.1.12") format("truetype"); /* Safari, Android, iOS */
     font-weight: 200;
     font-style: normal;
 }
 
 @font-face {
     font-family: "Nokia Pure Text";
-        src: url("http://voxoz.com/fonts/nokiapuretextbold-webfont.eot?"); /* IE9 */
-        src: url("http://voxoz.com/fonts/nokiapuretextbold-webfont.eot?v=2.3.1.12#iefix") format("eot"), /* IE6-IE8 */
-             url("http://voxoz.com/fonts/nokiapuretextbold-webfont.woff?v=2.3.1.12") format("truetype"), /* Mordern browsers */
-             url("http://voxoz.com/fonts/nokiapuretextbold-webfont.ttf?v=2.3.1.12") format("truetype"); /* Safari, Android, iOS */
+        src: url("http://82.144.202.161/fonts/nokiapuretextbold-webfont.eot?"); /* IE9 */
+        src: url("http://82.144.202.161/fonts/nokiapuretextbold-webfont.eot?v=2.3.1.12#iefix") format("eot"), /* IE6-IE8 */
+             url("http://82.144.202.161/fonts/nokiapuretextbold-webfont.woff?v=2.3.1.12") format("truetype"), /* Mordern browsers */
+             url("http://82.144.202.161/fonts/nokiapuretextbold-webfont.ttf?v=2.3.1.12") format("truetype"); /* Safari, Android, iOS */
     font-weight: 200;
     font-style: bold;
 }
 
 @font-face {
     font-family: "Palatino Linotype";
-        src: url("http://voxoz.com/fonts/pala.eot?"); /* IE9 */
-        src: url("http://voxoz.com/fonts/pala.eot?v=2.3.1.12#iefix") format("eot"), /* IE6-IE8 */
-             url("http://voxoz.com/fonts/pala.woff?v=2.3.1.12") format("truetype"), /* Mordern browsers */
-             url("http://voxoz.com/fonts/pala.ttf?v=2.3.1.12") format("truetype"); /* Safari, Android, iOS */
+        src: url("http://82.144.202.161/fonts/pala.eot?"); /* IE9 */
+        src: url("http://82.144.202.161/fonts/pala.eot?v=2.3.1.12#iefix") format("eot"), /* IE6-IE8 */
+             url("http://82.144.202.161/fonts/pala.woff?v=2.3.1.12") format("truetype"), /* Mordern browsers */
+             url("http://82.144.202.161/fonts/pala.ttf?v=2.3.1.12") format("truetype"); /* Safari, Android, iOS */
     font-weight: 200;
     font-style: normal;
 }
