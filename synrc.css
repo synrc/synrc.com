@@ -15,14 +15,19 @@ LI { font-size:14pt; }
 PRE { padding-top:10px;padding-bottom:10px;padding-left:10px;margin-left:50px; }
 
 .logo_font { font-family: "Palatino Linotype"; margin-bottom: 0px; line-height: 60%; }
-.menu { font-size:14pt; color: red; }
-.menu:hover { font-size:14pt; color: red; }
+.menu { font-size:14pt; color: red; margin-left:5px; margin-right:5px; 
+}
+.menu:hover { font-size:14pt; color: red; margin-left:5px; margin-right:5px; }
 .block { background-color: #f0f0f0; padding-top:1px; padding-bottom:1px; float: center; }
 .column { margin-left:-20px; padding-right:10px; padding-left:10px; width:350; vertical-align:top; }
 .wrapper     { width: 1090px; float: center; margin: 0 auto; }
 .article     { width: 1110px; float: center; margin: 0 auto; }
 .verywidecol { width:  700px; float: center; margin: 0 auto; text-align: justify; }
-.selectedwrapper    { width: 100%; background-color: #bababa; margin: 0 auto; padding-bottom: 10px; overflow: hidden; background: url(http://cdn.basho.com/images/body-bg.jpg) left top #fafafa;  }
+.selectedwrapper    { width: 100%; margin: 0 auto; padding-bottom: 10px; overflow: hidden; 
+background: no-repeat url(http://s.ytimg.com/yt/imgbin/www-refreshbg-vflC3wnbM.png) 0 0;
+background-color: #EBEBEB;
+background-repeat: repeat;
+  }
 .nonselectedwrapper { width: 100%; margin: 0 auto; padding: 0; overflow: hidden; }
 .threecol   { width: 350px; float: left; padding: 10px;}
 .widecol    { width: 350px; float: left; padding: 10px; }
@@ -41,22 +46,12 @@ PRE { padding-top:10px;padding-bottom:10px;padding-left:10px;margin-left:50px; }
 
 @font-face {
     font-family: "Nokia Pure Text";
-        src: url("http://82.144.202.161/fonts/nokiapuretextlight-webfont.eot?"); /* IE9 */
-        src: url("http://82.144.202.161/fonts/nokiapuretextlight-webfont.eot?v=2.3.1.12#iefix") format("eot"), /* IE6-IE8 */
-             url("http://82.144.202.161/fonts/nokiapuretextlight-webfont.woff?v=2.3.1.12") format("truetype"), /* Mordern browsers */
-             url("http://82.144.202.161/fonts/nokiapuretextlight-webfont.ttf?v=2.3.1.12") format("truetype"); /* Safari, Android, iOS */
+        src: url("http://r.nokia.com/s/4.2/assets/fonts/EU/nokiapuretextlight-webfont.eot?"); /* IE9 */
+        src: url("http://r.nokia.com/s/4.2/assets/fonts/EU/nokiapuretextlight-webfont.eot?v=2.3.1.12#iefix") format("eot"), /* IE6-IE8 */
+             url("http://r.nokia.com/s/4.2/assets/fonts/EU/nokiapuretextlight-webfont.woff?v=2.3.1.12") format("truetype"), /* Mordern browsers */
+             url("http://r.nokia.com/s/4.2/assets/fonts/EU/nokiapuretextlight-webfont.ttf?v=2.3.1.12") format("truetype"); /* Safari, Android, iOS */
     font-weight: 200;
     font-style: normal;
-}
-
-@font-face {
-    font-family: "Nokia Pure Text";
-        src: url("http://82.144.202.161/fonts/nokiapuretextbold-webfont.eot?"); /* IE9 */
-        src: url("http://82.144.202.161/fonts/nokiapuretextbold-webfont.eot?v=2.3.1.12#iefix") format("eot"), /* IE6-IE8 */
-             url("http://82.144.202.161/fonts/nokiapuretextbold-webfont.woff?v=2.3.1.12") format("truetype"), /* Mordern browsers */
-             url("http://82.144.202.161/fonts/nokiapuretextbold-webfont.ttf?v=2.3.1.12") format("truetype"); /* Safari, Android, iOS */
-    font-weight: 200;
-    font-style: bold;
 }
 
 @font-face {
@@ -65,7 +60,7 @@ PRE { padding-top:10px;padding-bottom:10px;padding-left:10px;margin-left:50px; }
         src: url("http://82.144.202.161/fonts/pala.eot?v=2.3.1.12#iefix") format("eot"), /* IE6-IE8 */
              url("http://82.144.202.161/fonts/pala.woff?v=2.3.1.12") format("truetype"), /* Mordern browsers */
              url("http://82.144.202.161/fonts/pala.ttf?v=2.3.1.12") format("truetype"); /* Safari, Android, iOS */
-    font-weight: 200;
+    font-weight: 100;
     font-style: normal;
 }
 
