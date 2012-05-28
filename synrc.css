@@ -56,10 +56,10 @@ background-repeat: repeat;
 
 @font-face {
     font-family: "Palatino Linotype";
-        src: url("http://82.144.202.161/fonts/pala.eot?"); /* IE9 */
-        src: url("http://82.144.202.161/fonts/pala.eot?v=2.3.1.12#iefix") format("eot"), /* IE6-IE8 */
-             url("http://82.144.202.161/fonts/pala.woff?v=2.3.1.12") format("truetype"), /* Mordern browsers */
-             url("http://82.144.202.161/fonts/pala.ttf?v=2.3.1.12") format("truetype"); /* Safari, Android, iOS */
+        src: url("http://synrc.com/fonts/pala.eot?"); /* IE9 */
+        src: url("http://synrc.com/fonts/pala.eot?v=2.3.1.12#iefix") format("eot"), /* IE6-IE8 */
+             url("http://synrc.com/fonts/pala.woff?v=2.3.1.12") format("truetype"), /* Mordern browsers */
+             url("http://synrc.com/fonts/pala.ttf?v=2.3.1.12") format("truetype"); /* Safari, Android, iOS */
     font-weight: 100;
     font-style: normal;
 }
