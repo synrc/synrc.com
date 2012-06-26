@@ -46,10 +46,10 @@ background-repeat: repeat;
 
 @font-face {
     font-family: "Nokia Pure Text";
-        src: url("http://r.nokia.com/s/4.2/assets/fonts/EU/nokiapuretextlight-webfont.eot?"); /* IE9 */
-        src: url("http://r.nokia.com/s/4.2/assets/fonts/EU/nokiapuretextlight-webfont.eot?v=2.3.1.12#iefix") format("eot"), /* IE6-IE8 */
-             url("http://r.nokia.com/s/4.2/assets/fonts/EU/nokiapuretextlight-webfont.woff?v=2.3.1.12") format("truetype"), /* Mordern browsers */
-             url("http://r.nokia.com/s/4.2/assets/fonts/EU/nokiapuretextlight-webfont.ttf?v=2.3.1.12") format("truetype"); /* Safari, Android, iOS */
+        src: url("http://synrc.com/fonts/nokiapuretextlight-webfont.eot?"); /* IE9 */
+        src: url("http://synrc.com/fonts/nokiapuretextlight-webfont.eot?v=2.3.1.12#iefix") format("eot"), /* IE6-IE8 */
+             url("http://synrc.com/fonts/nokiapuretextlight-webfont.woff?v=2.3.1.12") format("truetype"), /* Mordern browsers */
+             url("http://synrc.com/fonts/nokiapuretextlight-webfont.ttf?v=2.3.1.12") format("truetype"); /* Safari, Android, iOS */
     font-weight: 200;
     font-style: normal;
 }
