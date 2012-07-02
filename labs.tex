@@ -15,24 +15,6 @@
 %HEVEA \begin{divstyle}{wrapper}
 %HEVEA \begin{divstyle}{threecol}
 
-\section*{Directory Server}
-%HEVEA \begin{divstyle}{block}
-\paragraph{}
-Directory Server is a distributed storage that can handle tens of
-millions online user requests. It is basically an object data storage
-with proven LDAP as front-end interface protocol.
-In its core as most of LDAP servers Synrc Directory is based on
-key-value distributed data store, DHT.
-\paragraph{}
-It can be integrated as in pure Erlang environments as within an
-existed heterogeneous network with message queues, broker servers
-and services that rely on access to LDAP directories, such as XMPP,
-auth services, directory books, mobile sync, etc.
-
-Sources: \footahref{https://github.com/synrc/directory-server}{synrc.com/server/directory}
-%HEVEA \end{divstyle}
-
-
 \section*{Sync Server}
 %HEVEA \begin{divstyle}{block}
 \paragraph{}
@@ -41,6 +23,28 @@ millions of active users. It is very small and managable.
 Best using in a couple with Directory.
 
 Sources: \footahref{https://github.com/synrc/sync-server}{synrc.com/server/sync}
+%HEVEA \end{divstyle}
+
+\section*{Directory Server}
+%HEVEA \begin{divstyle}{block}
+\paragraph{}
+Directory Server is a distributed storage that can handle tens of
+millions online user requests. It is basically an object data storage
+with proven LDAP as front-end interface protocol.
+In its core as most of LDAP servers Synrc Directory is based on
+key-value distributed data store, DHT.
+
+Sources: \footahref{https://github.com/synrc/directory-server}{synrc.com/server/directory}
+%HEVEA \end{divstyle}
+
+\section*{Store Server}
+%HEVEA \begin{divstyle}{block}
+\paragraph{}
+Store Server is a fork from japanese KAI KV DHT which is
+extreamly small implementation of Amazon Dynamo. It is supports 
+NRW adjustments for quorum protocol and uses dets for storage.
+
+Sources: \footahref{https://github.com/synrc/store-server}{synrc.com/server/store}
 %HEVEA \end{divstyle}
 
 \section*{Chat Server}
@@ -76,10 +80,6 @@ Synrc Contacts Application is about organize,
 import/export, sync your Address Books with Google Contacts,
 Microsoft Outlook, NOKIA Phones, Windows Contacts local folder,
 LDAP Directory, Yahoo! Contacts and Windows Live Contacts.
-\paragraph{}
-Synrc Contacts is "buddhist view" zen Application for
-Vista and Windows 7. It's simplified design with one button
-makes you life easy with managing personal contact information.
 
 Sources: \footahref{https://github.com/synrc/windows-sync-client}{synrc.com/client/sync/windows}
 %HEVEA \end{divstyle}
@@ -112,7 +112,7 @@ Sources: \footahref{http://synrc.com/publications/cat}{synrc.com/publications/ca
 \paragraph{}
 As some of us are fans of Smalltalk and LISP, we cannot pass the
 beautiful syntaxic forth start-up. Synrc Io for CLR --- one of simplest but very
-powerful in potential languages. Inpired by Smalltalk it's simplified
+powerful in potential languages. Inspired by Smalltalk it's simplified
 syntax free from syntax trash. We support Open Source implementation
 of Io Language for Common Language Runtimes such as Mono and .NET.
 
@@ -142,11 +142,20 @@ Sources: \footahref{http://github.com/synrc/research-ml}{synrc.com/research/ml}
 Synrc Research Center archived all information about BeOS operating system 
 including CD images and have dedicated page for this purposes.
 %HEVEA \end{divstyle}
+%HEVEA \end{divstyle}
+%HEVEA \end{divstyle}
+%HEVEA \end{divstyle}
 
 
+%HEVEA \begin{divstyle}{nonselectedwrapper}
+%HEVEA \begin{divstyle}{verywidecol}
+
+\@br
+\footahref{feedback.htm}{Contact Us}
+
 %HEVEA \end{divstyle}
 %HEVEA \end{divstyle}
-%HEVEA \end{divstyle}
+
 %HEVEA \begin{divstyle}{clear}{~}\end{divstyle}
 
 %HEVEA \footerfalse

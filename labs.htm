@@ -88,7 +88,14 @@ TD P{margin:0px;}
 <div class="clear" style="margin-bottom:-25px;"></div>
 </P><DIV CLASS="selectedwrapper">
 <DIV CLASS="wrapper">
-<DIV CLASS="threecol"><!--TOC section Directory Server-->
+<DIV CLASS="threecol"><!--TOC section Sync Server-->
+<H2 CLASS="section"><!--SEC ANCHOR -->Sync Server</H2><!--SEC END --><DIV CLASS="block">
+<!--TOC paragraph -->
+<H5 CLASS="paragraph"><!--SEC ANCHOR --></H5><!--SEC END --><P>
+Sync Server is written in Erlang SyncML server that can handle
+millions of active users. It is very small and managable.
+Best using in a couple with Directory.</P><P>Sources: <A HREF="https://github.com/synrc/sync-server">synrc.com/server/sync</A>
+</P></DIV><!--TOC section Directory Server-->
 <H2 CLASS="section"><!--SEC ANCHOR -->Directory Server</H2><!--SEC END --><DIV CLASS="block">
 <!--TOC paragraph -->
 <H5 CLASS="paragraph"><!--SEC ANCHOR --></H5><!--SEC END --><P>
@@ -96,20 +103,14 @@ Directory Server is a distributed storage that can handle tens of
 millions online user requests. It is basically an object data storage
 with proven LDAP as front-end interface protocol.
 In its core as most of LDAP servers Synrc Directory is based on
-key-value distributed data store, DHT.
-</P><!--TOC paragraph -->
-<H5 CLASS="paragraph"><!--SEC ANCHOR --></H5><!--SEC END --><P>
-It can be integrated as in pure Erlang environments as within an
-existed heterogeneous network with message queues, broker servers
-and services that rely on access to LDAP directories, such as XMPP,
-auth services, directory books, mobile sync, etc.</P><P>Sources: <A HREF="https://github.com/synrc/directory-server">synrc.com/server/directory</A>
-</P></DIV><!--TOC section Sync Server-->
-<H2 CLASS="section"><!--SEC ANCHOR -->Sync Server</H2><!--SEC END --><DIV CLASS="block">
+key-value distributed data store, DHT.</P><P>Sources: <A HREF="https://github.com/synrc/directory-server">synrc.com/server/directory</A>
+</P></DIV><!--TOC section Store Server-->
+<H2 CLASS="section"><!--SEC ANCHOR -->Store Server</H2><!--SEC END --><DIV CLASS="block">
 <!--TOC paragraph -->
 <H5 CLASS="paragraph"><!--SEC ANCHOR --></H5><!--SEC END --><P>
-Sync Server is written in Erlang SyncML server that can handle
-millions of active users. It is very small and managable.
-Best using in a couple with Directory.</P><P>Sources: <A HREF="https://github.com/synrc/sync-server">synrc.com/server/sync</A>
+Store Server is a fork from japanese KAI KV DHT which is
+extreamly small implementation of Amazon Dynamo. It is supports 
+NRW adjustments for quorum protocol and uses dets for storage.</P><P>Sources: <A HREF="https://github.com/synrc/store-server">synrc.com/server/store</A>
 </P></DIV><!--TOC section Chat Server-->
 <H2 CLASS="section"><!--SEC ANCHOR -->Chat Server</H2><!--SEC END --><DIV CLASS="block">
 <!--TOC paragraph -->
@@ -131,12 +132,7 @@ It is written for Haiku, free open-source operating system inspired by BeOS.</P>
 Synrc Contacts Application is about organize,
 import/export, sync your Address Books with Google Contacts,
 Microsoft Outlook, NOKIA Phones, Windows Contacts local folder,
-LDAP Directory, Yahoo! Contacts and Windows Live Contacts.
-</P><!--TOC paragraph -->
-<H5 CLASS="paragraph"><!--SEC ANCHOR --></H5><!--SEC END --><P>
-Synrc Contacts is "buddhist view" zen Application for
-Vista and Windows 7. It&#X2019;s simplified design with one button
-makes you life easy with managing personal contact information.</P><P>Sources: <A HREF="https://github.com/synrc/windows-sync-client">synrc.com/client/sync/windows</A>
+LDAP Directory, Yahoo! Contacts and Windows Live Contacts.</P><P>Sources: <A HREF="https://github.com/synrc/windows-sync-client">synrc.com/client/sync/windows</A>
 </P></DIV><!--TOC section Symbian Chat-->
 <H2 CLASS="section"><!--SEC ANCHOR -->Symbian Chat</H2><!--SEC END --><DIV CLASS="block">
 <!--TOC paragraph -->
@@ -156,7 +152,7 @@ Here is a set of Books on Category Theory, Dependent Types, Lambda and Process C
 <H5 CLASS="paragraph"><!--SEC ANCHOR --></H5><!--SEC END --><P>
 As some of us are fans of Smalltalk and LISP, we cannot pass the
 beautiful syntaxic forth start-up. Synrc Io for CLR &#X2014; one of simplest but very
-powerful in potential languages. Inpired by Smalltalk it&#X2019;s simplified
+powerful in potential languages. Inspired by Smalltalk it&#X2019;s simplified
 syntax free from syntax trash. We support Open Source implementation
 of Io Language for Common Language Runtimes such as Mono and .NET.</P><P>Sources: <A HREF="http://github.com/synrc/research-io">synrc.com/research/io</A>
 </P></DIV><!--TOC section ML-->
@@ -173,6 +169,10 @@ Synrc Research Center archived all information about BeOS operating system
 including CD images and have dedicated page for this purposes.
 </P></DIV></DIV>
 </DIV>
+</DIV><DIV CLASS="nonselectedwrapper">
+<DIV CLASS="verywidecol"><P><BR>
+
+<A HREF="feedback.htm">Contact Us</A></P></DIV>
 </DIV><DIV CLASS="clear">&#XA0;</DIV><P>
 <div class="nonselectedwrapper">
 <div class="verywidecol">
@@ -180,7 +180,7 @@ including CD images and have dedicated page for this purposes.
     <div style="width:100%;height:100px;float:left;" align=center>
     	<hr size=1>
         <span class="logo_font" style="font-size:14pt;">
-            <b><font color="#0033cc">syn</font><font color="#ff0000">rc</font></b></span> uses H<FONT SIZE=2><sup>E</sup></FONT>V<FONT SIZE=2><sup>E</sup></FONT>A<br>
+            <b><font color="#0033cc">syn</font><font color="#ff0000">rc</font></b></span> uses H<FONT SIZE=1><sup>E</sup></FONT>V<FONT SIZE=1><sup>E</sup></FONT>A<br>
     	<a href="http://synrc.com/privacy.htm">Privacy Policy</a> |
         <a href="http://synrc.com/feedback.htm">Feedback</a> |
         <a href="http://synrc.com/brandbook.htm">Brandbook</a> |

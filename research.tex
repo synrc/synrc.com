@@ -15,42 +15,32 @@
 %HEVEA \begin{divstyle}{selectedwrapper}
 %HEVEA \begin{divstyle}{wrapper}
 %HEVEA \begin{divstyle}{threecol}
-\section*{Investigation}
+\section*{Data Storage}
 %HEVEA \begin{divstyle}{block}
 \paragraph{}
-    On the entry level of problem analysis we emphasise the stage of
-    assessment the area of possible ways to solve you problem, or a
-    set of technique that can be used in your project. Followed reports
-    of that findings includes all business, economical, technical weights
-    and activities that can be used by people who is responsible for
-    decision making. For sure we provide with analysis our appraisal
-    for decision motivation.
+    Here is CAP switch :) When we need AP capabilities from our storage we are using Riak.
+    When we need CA capabilities we are using Mnesia.
+    When we need CP case we are using VoltDB that is not an Erlang product though. 
+    Also we maintain our own Amazon Dynamo implementation.
 %HEVEA \end{divstyle}
 %HEVEA \end{divstyle}
 %HEVEA \begin{divstyle}{threecol}
-\section*{Expertise}
+\section*{Message Queues}
 %HEVEA \begin{divstyle}{block}
 \paragraph{}
-After initial state of gathering information of the problem data domain
-    and building the space of concurrent ways of delivered project problem
-    the conclusion can be extended with expertise, can covers economical
-    marks, further vision of evolution and management of risk connected
-    with particular decision on the solution.
+    In some cases when we need pure Erlang solution we are using GProc as PubSub messaging.
+    In case we are providing language independed solution we are using RabbitMQ with our library which is closed source. 
+    In some projects based on ejabberd we are using XMPP ejabberd extension for PubSub.
 %HEVEA \end{divstyle}
 %HEVEA \end{divstyle}
 %HEVEA \begin{divstyle}{threecol last}
-\section*{Prototyping}
+\section*{Serving Data}
 %HEVEA \begin{divstyle}{block}
 \paragraph{}
-On the way of getting research phase done, after assumption of the
-    project plan one of the possible next steps is to implement
-    the prototype to provide the prove of concept. That limited
-    functionality project is the best demo application to the business plan.
-    However in real life often happens that project was deployed witthout
-    research or even planning phase. Thus the real-time reengineering
-    took most of the resources. Our intention is to defend complex
-    projects from such mistakes and to provide full-process cycle for
-    customers.
+    In some cases we've been used WebMachine/MochiWeb as web server and web framework.
+    But nowadays we are trying to use Cowboy web server. 
+    In products that need only pure TCP listeners and switchable protocols we are using Ranch. 
+    For Web Framework and as for Comet server we are using Nitrogen.
 %HEVEA \end{divstyle}
 %HEVEA \end{divstyle}
 %HEVEA \end{divstyle}
@@ -59,29 +49,33 @@ On the way of getting research phase done, after assumption of the
 
 %HEVEA \begin{divstyle}{nonselectedwrapper}
 %HEVEA \begin{divstyle}{verywidecol}
-\section*{Research Outsourcing}
+\section*{Rich Clients}
 \paragraph{}
-We are focusing on research outsourcing. We provide external research
-    services for companies which has no dedicated research team needed for
-    their projects. As a rule companies with medium number of employers in
-    need of research phase in some project allocate research resources for
-    projects needs among current staff of corresponding specialists. Only
-    big companies has dedicated research laboratories that can provide full
-    problem analysis from planing phase to proof of concept presentation.
-\paragraph{}
-We offer full cycle of research analysis in wide range and kinds of
-    complex systems areas. For you company our research center provide
-    submission &mdash; an research department that can be integrated in your
-    business processes in many ways. We support most of process templates
-    from entry-level processes (for medium companies) to CMMI certified
-    conduct of an affair (for large-scale companies).
-\section*{Process Integration}
-\paragraph{}
-When Company decides to deliver project development to external solution supplier it can do at any stage of research phase. In fact IT companies that submission project of applications and systems developing gets the tasks bypassing the research development. However to produce mature solutions on the market there is need more deeply analysis of ways to implement. From other side often companies deliver development process to companies with much closer data domain knowledge.
-\paragraph{}
-We provide better research support to your projects. We know that there is a kind of projects that can't start implementing without deep investigation and how difficult to find appropriate persons with science oriented approach. Thus for companies that find us near their sphere of areas we can provide full cycle of analysis with easily integration to demand existed business processes. Relying on strong team of our researchers and set of our division and data domain laboratories we hope you find long time partners with our research center.
+    For the HTML5 web platform and pure JavaScript client-side we would recommend to use
+    Chaplin and Brunch which is agnostic to frameworks and libraries HTML5 application assembler.
+    We are also stick with functional languages approach on client side.
+    In that way we are using LiveScript a CoffeeScript derivative as main functional language for JavaScript replacement.
+    In short: we are using pure HTML5 on client side and pure Erlang on server side.
 %HEVEA \end{divstyle}
 %HEVEA \end{divstyle}
+
+%HEVEA \begin{divstyle}{nonselectedwrapper}
+%HEVEA \begin{divstyle}{verywidecol}
+\section*{Protocols}
+\paragraph{}
+    We are trying to build our products
+    and services around single core of technologies. We believe that focusing on understandable
+    and manageable, proven in industry technologies will bring significant benefits to all users.
+    We have chosen set of technologies that have proved its maturity, clarity and efficiency.
+    We oriented on strong and mature binary protocols and data formats such as BER and ASN.1.
+    We are not accepting text formats and preffer binary protocols :)
+
+\footahref{labs.htm}{Follow The Source}
+
+%HEVEA \end{divstyle}
+%HEVEA \end{divstyle}
+
+
 %HEVEA \begin{divstyle}{clear}{~}\end{divstyle}
 
 %HEVEA \footerfalse

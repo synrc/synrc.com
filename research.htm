@@ -89,73 +89,57 @@ TD P{margin:0px;}
 </P><DIV CLASS="selectedwrapper">
 <DIV CLASS="wrapper">
 <DIV CLASS="threecol">
-<!--TOC section Investigation-->
-<H2 CLASS="section"><!--SEC ANCHOR -->Investigation</H2><!--SEC END --><DIV CLASS="block">
+<!--TOC section Data Storage-->
+<H2 CLASS="section"><!--SEC ANCHOR -->Data Storage</H2><!--SEC END --><DIV CLASS="block">
 <!--TOC paragraph -->
 <H5 CLASS="paragraph"><!--SEC ANCHOR --></H5><!--SEC END --><P>
-On the entry level of problem analysis we emphasise the stage of
-assessment the area of possible ways to solve you problem, or a
-set of technique that can be used in your project. Followed reports
-of that findings includes all business, economical, technical weights
-and activities that can be used by people who is responsible for
-decision making. For sure we provide with analysis our appraisal
-for decision motivation.
+Here is CAP switch :) When we need AP capabilities from our storage we are using Riak.
+When we need CA capabilities we are using Mnesia.
+When we need CP case we are using VoltDB that is not an Erlang product though. 
+Also we maintain our own Amazon Dynamo implementation.
 </P></DIV></DIV>
 <DIV CLASS="threecol">
-<!--TOC section Expertise-->
-<H2 CLASS="section"><!--SEC ANCHOR -->Expertise</H2><!--SEC END --><DIV CLASS="block">
+<!--TOC section Message Queues-->
+<H2 CLASS="section"><!--SEC ANCHOR -->Message Queues</H2><!--SEC END --><DIV CLASS="block">
 <!--TOC paragraph -->
 <H5 CLASS="paragraph"><!--SEC ANCHOR --></H5><!--SEC END --><P>
-After initial state of gathering information of the problem data domain
-and building the space of concurrent ways of delivered project problem
-the conclusion can be extended with expertise, can covers economical
-marks, further vision of evolution and management of risk connected
-with particular decision on the solution.
+In some cases when we need pure Erlang solution we are using GProc as PubSub messaging.
+In case we are providing language independed solution we are using RabbitMQ with our library which is closed source. 
+In some projects based on ejabberd we are using XMPP ejabberd extension for PubSub.
 </P></DIV></DIV>
 <DIV CLASS="threecol last">
-<!--TOC section Prototyping-->
-<H2 CLASS="section"><!--SEC ANCHOR -->Prototyping</H2><!--SEC END --><DIV CLASS="block">
+<!--TOC section Serving Data-->
+<H2 CLASS="section"><!--SEC ANCHOR -->Serving Data</H2><!--SEC END --><DIV CLASS="block">
 <!--TOC paragraph -->
 <H5 CLASS="paragraph"><!--SEC ANCHOR --></H5><!--SEC END --><P>
-On the way of getting research phase done, after assumption of the
-project plan one of the possible next steps is to implement
-the prototype to provide the prove of concept. That limited
-functionality project is the best demo application to the business plan.
-However in real life often happens that project was deployed witthout
-research or even planning phase. Thus the real-time reengineering
-took most of the resources. Our intention is to defend complex
-projects from such mistakes and to provide full-process cycle for
-customers.
+In some cases we&#X2019;ve been used WebMachine/MochiWeb as web server and web framework.
+But nowadays we are trying to use Cowboy web server. 
+In products that need only pure TCP listeners and switchable protocols we are using Ranch. 
+For Web Framework and as for Comet server we are using Nitrogen.
 </P></DIV></DIV>
 </DIV>
 </DIV><DIV CLASS="clear">&#XA0;</DIV><DIV CLASS="nonselectedwrapper">
 <DIV CLASS="verywidecol">
-<!--TOC section Research Outsourcing-->
-<H2 CLASS="section"><!--SEC ANCHOR -->Research Outsourcing</H2><!--SEC END --><!--TOC paragraph -->
+<!--TOC section Rich Clients-->
+<H2 CLASS="section"><!--SEC ANCHOR -->Rich Clients</H2><!--SEC END --><!--TOC paragraph -->
 <H5 CLASS="paragraph"><!--SEC ANCHOR --></H5><!--SEC END --><P>
-We are focusing on research outsourcing. We provide external research
-services for companies which has no dedicated research team needed for
-their projects. As a rule companies with medium number of employers in
-need of research phase in some project allocate research resources for
-projects needs among current staff of corresponding specialists. Only
-big companies has dedicated research laboratories that can provide full
-problem analysis from planing phase to proof of concept presentation.
-</P><!--TOC paragraph -->
-<H5 CLASS="paragraph"><!--SEC ANCHOR --></H5><!--SEC END --><P>
-We offer full cycle of research analysis in wide range and kinds of
-complex systems areas. For you company our research center provide
-submissionmdash; an research department that can be integrated in your
-business processes in many ways. We support most of process templates
-from entry-level processes (for medium companies) to CMMI certified
-conduct of an affair (for large-scale companies).
-</P><!--TOC section Process Integration-->
-<H2 CLASS="section"><!--SEC ANCHOR -->Process Integration</H2><!--SEC END --><!--TOC paragraph -->
-<H5 CLASS="paragraph"><!--SEC ANCHOR --></H5><!--SEC END --><P>
-When Company decides to deliver project development to external solution supplier it can do at any stage of research phase. In fact IT companies that submission project of applications and systems developing gets the tasks bypassing the research development. However to produce mature solutions on the market there is need more deeply analysis of ways to implement. From other side often companies deliver development process to companies with much closer data domain knowledge.
-</P><!--TOC paragraph -->
-<H5 CLASS="paragraph"><!--SEC ANCHOR --></H5><!--SEC END --><P>
-We provide better research support to your projects. We know that there is a kind of projects that can&#X2019;t start implementing without deep investigation and how difficult to find appropriate persons with science oriented approach. Thus for companies that find us near their sphere of areas we can provide full cycle of analysis with easily integration to demand existed business processes. Relying on strong team of our researchers and set of our division and data domain laboratories we hope you find long time partners with our research center.
+For the HTML5 web platform and pure JavaScript client-side we would recommend to use
+Chaplin and Brunch which is agnostic to frameworks and libraries HTML5 application assembler.
+We are also stick with functional languages approach on client side.
+In that way we are using LiveScript a CoffeeScript derivative as main functional language for JavaScript replacement.
+In short: we are using pure HTML5 on client side and pure Erlang on server side.
 </P></DIV>
+</DIV><DIV CLASS="nonselectedwrapper">
+<DIV CLASS="verywidecol">
+<!--TOC section Protocols-->
+<H2 CLASS="section"><!--SEC ANCHOR -->Protocols</H2><!--SEC END --><!--TOC paragraph -->
+<H5 CLASS="paragraph"><!--SEC ANCHOR --></H5><!--SEC END --><P>
+We are trying to build our products
+and services around single core of technologies. We believe that focusing on understandable
+and manageable, proven in industry technologies will bring significant benefits to all users.
+We have chosen set of technologies that have proved its maturity, clarity and efficiency.
+We oriented on strong and mature binary protocols and data formats such as BER and ASN.1.
+We are not accepting text formats and preffer binary protocols :)</P><P><A HREF="labs.htm">Follow The Source</A></P></DIV>
 </DIV><DIV CLASS="clear">&#XA0;</DIV><P>
 <div class="nonselectedwrapper">
 <div class="verywidecol">
@@ -163,7 +147,7 @@ We provide better research support to your projects. We know that there is a kin
     <div style="width:100%;height:100px;float:left;" align=center>
     	<hr size=1>
         <span class="logo_font" style="font-size:14pt;">
-            <b><font color="#0033cc">syn</font><font color="#ff0000">rc</font></b></span> uses H<FONT SIZE=2><sup>E</sup></FONT>V<FONT SIZE=2><sup>E</sup></FONT>A<br>
+            <b><font color="#0033cc">syn</font><font color="#ff0000">rc</font></b></span> uses H<FONT SIZE=1><sup>E</sup></FONT>V<FONT SIZE=1><sup>E</sup></FONT>A<br>
     	<a href="http://synrc.com/privacy.htm">Privacy Policy</a> |
         <a href="http://synrc.com/feedback.htm">Feedback</a> |
         <a href="http://synrc.com/brandbook.htm">Brandbook</a> |

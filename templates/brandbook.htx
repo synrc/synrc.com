@@ -14,7 +14,7 @@
 
         <h2>Brand Book</h2>
 
-		<p>Brand-book is a vital tool for identifying the brand and is the peak of corporate identity.
+		<p>Brand book is a vital tool for identifying the brand and is the peak of corporate identity.
 		Brand is a clear identification of product or company which is well thought-out.
 		Synrc brand-book defines vector color and monochrome logotype,
 		variants of typing and spelling, Web and print colors, template
@@ -56,14 +56,8 @@
 
 	<table cellspacing=10>
 	<tr height="100">
-	<td width=100 bgcolor=#0033cc align=center valign=center><font color=white>RGB<br>#0033cc</font></td>
-	<td width=100 bgcolor=RED align=center valign=center><font color=white>RGB<br>#FF0000</font></td>
-	<!--td width=100 bgcolor=#eeEEee align=center valign=center><font color=BLACK>#EEEEEE</font></td>
-	<td width=100 height=100 bgcolor=white align=center valign=center>
-		<table width=100% height=100% bgcolor=black border=0 cellspacing=1><tr>
-		<td bgcolor=white align=center>#FFFFFF</td></tr></table>
-	</td>
-	<td width=100 bgcolor=black align=center valign=center><font color=white>#000000</font></td-->
+	<td width=110 bgcolor=#0033cc align=center valign=center><font color=white>RGB<br>#0033cc</font></td>
+	<td width=110 bgcolor=RED align=center valign=center><font color=white>RGB<br>#FF0000</font></td>
 	</tr>
 	</table>
 
@@ -71,8 +65,8 @@
 
 	<table cellspacing=10>
 	<tr height="100">
-	<td width=100 bgcolor=#155aa9 align=center valign=center><font color=white>CMYK<br>93 58 18 2</font></td>
-	<td width=100 bgcolor=#EF3B39 align=center valign=center><font color=white>CMYK<br>0 92 83 0</font></td>
+	<td width=110 bgcolor=#155aa9 align=center valign=center><font color=white>CMYK<br>93 58 18 2</font></td>
+	<td width=110 bgcolor=#EF3B39 align=center valign=center><font color=white>CMYK<br>0 92 83 0</font></td>
 	</tr>
 	</table>
 
@@ -91,8 +85,8 @@
 
 	<table cellspacing=10>
 	<tr height="100">
-	<td width=100 bgcolor=#333333 align=center valign=center><font color=white>RGB<br>#333333<br>CMYK<br>69 63 62 58</font></td>
-	<td width=100 bgcolor=#999999 align=center valign=center><font color=white>RGB<br>#999999<br>CMYK<br>43 35 35 1</font></td>
+	<td width=110 bgcolor=#333333 align=center valign=center><font color=white>RGB<br>#333333<br>CMYK<br>69 63 62 58</font></td>
+	<td width=110 bgcolor=#999999 align=center valign=center><font color=white>RGB<br>#999999<br>CMYK<br>43 35 35 1</font></td>
 	</tr>
 	</table>
 
