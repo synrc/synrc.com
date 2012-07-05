@@ -7,7 +7,6 @@
 </head>
 <body>
 <p>
-
 <div class="nonselectedwrapper">
 <div class="verywidecol">
 
@@ -27,23 +26,48 @@
 
 <hr size="1">
 
-<div class="nonselectedwrapper" style="margin-top:0px; background-color: #eeeeee;">
+<div class="nonselectedwrapper" style="margin-top:0px;margin-bottom:-22px;background-color: #eeeeee;">
 <div class="verywidecol">
 
     <table bgcolor="white" cellpadding=0 cellspacing=0 width=100%>
     <tbody bgcolor="#eeeeee"><tr height="50" align="center" valign="center">
-        <td width=20%> <div class="menu"><a href="http://synrc.com/index.htm">Home</a></div> </td>
-        <td width=20%> <div class="menu"><a href="http://synrc.com/research.htm">Research</a></div> </td>
-        <td width=20%> <div class="menu"><a href="http://synrc.com/labs.htm">Labs</a></div> </td>
-        <td width=20%> <div class="menu"><a href="http://synrc.com/feedback.htm">Contacts</a></div> </td>
+        <script language="JavaScript">
+        <!--
+        var args = (window.location).toString().split('/');
+        var page_name = args[args.length-1];
+
+        if(page_name == 'index.htm' || page_name ==''){   // Home
+            document.write('<td width=20%> <div class="menu">Home</div> </td>');
+        }else{
+            document.write('<td width=20%> <div class="menu"><a href="http://synrc.com/index.htm">Home</a></div> </td>');
+        }
+
+        if(page_name == 'research.htm'){
+            document.write('<td width=20%> <div class="menu">Research</div> </td>');
+        }else{
+            document.write('<td width=20%> <div class="menu"><a href="http://synrc.com/research.htm">Research</a></div> </td>');
+        }
+
+        if(page_name == 'labs.htm'){
+            document.write('<td width=20%> <div class="menu">Labs</div> </td>');
+        }else{
+            document.write('<td width=20%> <div class="menu"><a href="http://synrc.com/labs.htm">Labs</a></div> </td>');
+        }
+
+        if(page_name == 'feedback.htm'){
+            document.write('<td width=20%> <div class="menu"><a>Contacts</a></div> </td>');
+        }else{
+            document.write('<td width=20%> <div class="menu"><a href="http://synrc.com/feedback.htm">Contacts</a></div> </td>');
+        }
+
+        // -->
+        </script>
         <td width=20% background="http://synrc.com/images/dots2.jpg"> </td>
-        <!--td width="" background="http://synrc.com/images/dots2.jpg"> </td-->
     </tr></tbody></table>
 
 </div>
 </div>
 
-<div class="clear" style="margin-bottom:-25px;"></div>
 </p>
 
 <div class="nonselectedwrapper">
