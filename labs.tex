@@ -6,7 +6,6 @@
 \input{synrc.hva}
 %HEVEA \loadcssfile{synrc.css}
 \begin{document}
-%HEVEA \rawhtmlinput{templates/head-hevea.htx}
 
 \title{Labs}
 \author{Maxim Sokhatsky}
@@ -15,28 +14,6 @@
 %HEVEA \begin{divstyle}{wrapper}
 %HEVEA \begin{divstyle}{threecol}
 
-\section*{Sync Server}
-%HEVEA \begin{divstyle}{block}
-\paragraph{}
-Sync Server is written in Erlang SyncML server that can handle
-millions of active users. It is very small and managable.
-Best using in a couple with Directory.
-
-Sources: \footahref{https://github.com/synrc/sync-server}{synrc.com/server/sync}
-%HEVEA \end{divstyle}
-
-\section*{Directory Server}
-%HEVEA \begin{divstyle}{block}
-\paragraph{}
-Directory Server is a distributed storage that can handle tens of
-millions online user requests. It is basically an object data storage
-with proven LDAP as front-end interface protocol.
-In its core as most of LDAP servers Synrc Directory is based on
-key-value distributed data store, DHT.
-
-Sources: \footahref{https://github.com/synrc/directory-server}{synrc.com/server/directory}
-%HEVEA \end{divstyle}
-
 \section*{Store Server}
 %HEVEA \begin{divstyle}{block}
 \paragraph{}
@@ -44,7 +21,7 @@ Store Server is a fork from japanese KAI KV DHT which is
 extreamly small implementation of Amazon Dynamo. It is supports 
 NRW adjustments for quorum protocol and uses dets for storage.
 
-Sources: \footahref{https://github.com/synrc/store-server}{synrc.com/server/store}
+Sources: \footahref{https://github.com/synrc/store-server}{server/store}
 %HEVEA \end{divstyle}
 
 \section*{Chat Server}
@@ -52,7 +29,14 @@ Sources: \footahref{https://github.com/synrc/store-server}{synrc.com/server/stor
 \paragraph{}
 Chat Server is a modification of ejabberd XMPP server for use with MongoDB backend.
 
-Sources: \footahref{https://github.com/synrc/chat-server}{synrc.com/server/chat}
+Sources: \footahref{https://github.com/synrc/chat-server}{server/chat}
+%HEVEA \end{divstyle}
+
+\section*{\footahref{beos/beos.htm}{BeOS}}
+%HEVEA \begin{divstyle}{block}
+\paragraph{}
+Synrc Research Center archived all information about BeOS operating system 
+including CD images and have dedicated page for this purposes.
 %HEVEA \end{divstyle}
 
 
@@ -69,7 +53,7 @@ It supports core XMPP protocol, multi-user chat, Google accounts,
 Psi bookmarks, In-band registration and other features.
 It is written for Haiku, free open-source operating system inspired by BeOS.
 
-Sources: \footahref{http://github.com/synrc/haiku-chat-client}{synrc.com/client/chat/haiku}
+Sources: \footahref{http://github.com/synrc/haiku-chat-client}{client/chat/haiku}
 %HEVEA \end{divstyle}
 
 
@@ -81,67 +65,51 @@ import/export, sync your Address Books with Google Contacts,
 Microsoft Outlook, NOKIA Phones, Windows Contacts local folder,
 LDAP Directory, Yahoo! Contacts and Windows Live Contacts.
 
-Sources: \footahref{https://github.com/synrc/windows-sync-client}{synrc.com/client/sync/windows}
+Sources: \footahref{https://github.com/synrc/windows-sync-client}{client/sync/windows}
 %HEVEA \end{divstyle}
 
-\section*{Symbian Chat}
+\section*{Qt Chat}
 %HEVEA \begin{divstyle}{block}
 \paragraph{}
-Symbian Chat is tiny Qt client. It supports core XMPP protocol,
-multi-user chat, Google accounts, Psi bookmarks, In-band registration
-and other features. It is written for Symbian formerly known as EPOC using Qt framework.
+Symbian Chat is tiny Qt client the port of BeOS but for mobile phones.
 
-Sources: \footahref{https://github.com/synrc/symbian-chat-client}{synrc.com/client/chat/symbian}
+Sources: \footahref{https://github.com/synrc/meego-chat-client}{client/chat/meego}
 %HEVEA \end{divstyle}
 
 
 %HEVEA \end{divstyle}
 %HEVEA \begin{divstyle}{threecol last}
 
-\section*{Category Theory}
+\section*{Charity}
 %HEVEA \begin{divstyle}{block}
 \paragraph{}
-Here is a set of Books on Category Theory, Dependent Types, Lambda and Process Calculus.
+Charity is total functional language based on ideas by Hagino Tatsuya,
+it is completely grounded in category theory. The language allows
+ordinary recursive data types, such as might be found in ML, which
+are required to be finite, and corecursive data types, which are
+allowed to be potentially infinite. 
 
-Sources: \footahref{http://synrc.com/publications/cat}{synrc.com/publications/cat}
+Sources: \footahref{http://github.com/synrc/research-ch}{research/ch}
 %HEVEA \end{divstyle}
 
 \section*{\footahref{http://synrc.com/research/io/index.htm}{Io}}
 
 %HEVEA \begin{divstyle}{block}
 \paragraph{}
-As some of us are fans of Smalltalk and LISP, we cannot pass the
-beautiful syntaxic forth start-up. Synrc Io for CLR --- one of simplest but very
-powerful in potential languages. Inspired by Smalltalk it's simplified
-syntax free from syntax trash. We support Open Source implementation
-of Io Language for Common Language Runtimes such as Mono and .NET.
+Synrc Io for CLR --- one of simplest but very
+powerful in potential languages.
 
-Sources: \footahref{http://github.com/synrc/research-io}{synrc.com/research/io}
+Sources: \footahref{http://github.com/synrc/research-io}{research/io}
 %HEVEA \end{divstyle}
 
-%\section*{PL/1}
-% EVEA \begin{divstyle}{block}
-%\paragraph{}
-%Synrc PL/1 for CLR is our first variant of PL/1 version for .NET.
-
-%Sources: \footahref{http://github.com/synrc/research-pl}{synrc.com/research/pl}
-% EVEA \end{divstyle}
-
-\section*{ML}
+\section*{PL/1}
 %HEVEA \begin{divstyle}{block}
 \paragraph{}
-Synrc ML written in C and is tiny ML byte-code compiler that incororates CAM machine
-along with process calculus and lazy evaluations.
+Synrc PL/1 for CLR is our first variant of PL/1 version for .NET.
 
-Sources: \footahref{http://github.com/synrc/research-ml}{synrc.com/research/ml}
+Sources: \footahref{http://github.com/synrc/research-pl}{research/pl}
 %HEVEA \end{divstyle}
 
-\section*{\footahref{beos/beos.htm}{BeOS}}
-%HEVEA \begin{divstyle}{block}
-\paragraph{}
-Synrc Research Center archived all information about BeOS operating system 
-including CD images and have dedicated page for this purposes.
-%HEVEA \end{divstyle}
 %HEVEA \end{divstyle}
 %HEVEA \end{divstyle}
 %HEVEA \end{divstyle}
@@ -158,7 +126,5 @@ including CD images and have dedicated page for this purposes.
 
 %HEVEA \begin{divstyle}{clear}{~}\end{divstyle}
 
-%HEVEA \footerfalse
-%HEVEA \rawhtmlinput{templates/foot.htx}
 
 \end{document}

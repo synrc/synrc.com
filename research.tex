@@ -5,9 +5,7 @@
 \usepackage{hevea}
 \input{synrc.hva}
 %HEVEA \loadcssfile{synrc.css}
-
 \begin{document}
-%HEVEA \rawhtmlinput{templates/head-hevea.htx}
 
 \title{Research}
 \author{Maxim Sokhatsky}
@@ -18,38 +16,83 @@
 \section*{Data Storage}
 %HEVEA \begin{divstyle}{block}
 \paragraph{}
-    Here is CAP switch :) When we need AP capabilities from our storage we are using Riak.
-    When we need CA capabilities we are using Mnesia.
-    When we need CP case we are using VoltDB that is not an Erlang product though. 
-    Also we maintain our own Amazon Dynamo implementation.
+    Here is the CAP switch :) If it is the case that AP capabilities are nessesary for our storage we use Riak (CoSQL).
+    For CA capabilities we use VoltDB (SQL) which is not an Erlang product though.
+    We also maintain our own Amazon Dynamo implementation.
 %HEVEA \end{divstyle}
 %HEVEA \end{divstyle}
 %HEVEA \begin{divstyle}{threecol}
 \section*{Message Queues}
 %HEVEA \begin{divstyle}{block}
 \paragraph{}
-    In some cases when we need pure Erlang solution we are using GProc as PubSub messaging.
-    In case we are providing language independed solution we are using RabbitMQ with our library which is closed source. 
-    In some projects based on ejabberd we are using XMPP ejabberd extension for PubSub.
+    In cases where we need pure Erlang solution we use GProc as PubSub messaging.
+    For language independent solutions we use RabbitMQ along with our library.
+    In some projects based on ejabberd we use XMPP ejabberd extension for PubSub.
 %HEVEA \end{divstyle}
 %HEVEA \end{divstyle}
 %HEVEA \begin{divstyle}{threecol last}
 \section*{Serving Data}
 %HEVEA \begin{divstyle}{block}
 \paragraph{}
-    In some cases we've been used WebMachine/MochiWeb as web server and web framework.
-    But nowadays we are trying to use Cowboy web server. 
-    In products that need only pure TCP listeners and switchable protocols we are using Ranch. 
-    For Web Framework and as for Comet server we are using Nitrogen.
+    We used to embed WebMachine/MochiWeb as web server and web framework.
+    But currently we have sticked with Cowboy web server.
+    For products whitch require pure TCP listeners and switchable protocols we use Ranch.
+    For Web Framework and Comet we use Nitrogen.
 %HEVEA \end{divstyle}
 %HEVEA \end{divstyle}
 %HEVEA \end{divstyle}
 %HEVEA \end{divstyle}
 %HEVEA \begin{divstyle}{clear}{~}\end{divstyle}
 
+
 %HEVEA \begin{divstyle}{nonselectedwrapper}
 %HEVEA \begin{divstyle}{verywidecol}
-\section*{Rich Clients}
+\section*{Scalable Web and Gaming Platform}
+\paragraph{}
+    For the Turkish audience we created scalable distributed system using Erlang, Riak,
+    GProc, Cowboy, AMF, RabbitMQ, Nitrogen, GlusterFS, NGINX and other tools. 
+    Please read the technical description
+    \footahref{https://speakerdeck.com/5ht/kakaranet-presentation}{Kakaranet Tech}.
+    We have implemented Facebook, Paypal, Credit Cards, Mobile and Wired Payments,
+    Mail system support and SNMP monitoring tools. We've done full HTML5 optimization
+    with A marks for both Yahoo! YSlow and Google Page Speed. Kakaranet is lineary scalable
+    Facebook-like application with feeds, subscriptions and messaging along with
+    powerful turn-based board games engine. The heart of the system the RabbitMQ
+    cluster. The System runs on top of Riak cluster with easy maintenance from Web
+    and supports hot code reload using sync and update scripts approach 
+    instead of native OTP mechanism despite using native OTP releases. 
+
+%HEVEA \rawhtmlinput{templates/kakaranet.htx}
+
+\@fontsize{2}{Mentor: Maxim Sokhatsky \@br Game Server: Serge Polkovnikov \@br}
+
+\paragraph{}
+    Full size of codebase is fit 2.88MB floppy disk and is quite managable yet.
+    The system inside is essentially built upon binary protocols AMQP, BER and AMF
+    except content delivery to Web clients which is in fact gzipped.
+
+%HEVEA \end{divstyle}
+%HEVEA \end{divstyle}
+
+
+%HEVEA \begin{divstyle}{nonselectedwrapper}
+%HEVEA \begin{divstyle}{verywidecol}
+\section*{SNMP Monitoring System}
+\paragraph{}
+    For our servers we created open-source Erlang based SNMP monitoring tools
+    with clear and simple interface which allows you to feel the heartbeat of
+    your system on any device despite the screen size.
+
+%HEVEA \rawhtmlinput{templates/hal.htx}
+
+\@fontsize{2}Mentor: Andrew Zadorozhny \@br Design: Alex Kalenuk
+
+%HEVEA \end{divstyle}
+%HEVEA \end{divstyle}
+
+%HEVEA \begin{divstyle}{nonselectedwrapper}
+%HEVEA \begin{divstyle}{verywidecol}
+\section*{Rich HTML5 Clients}
 \paragraph{}
     For the HTML5 web platform and pure JavaScript client-side we would recommend to use
     Chaplin and Brunch which is agnostic to frameworks and libraries HTML5 application assembler.
@@ -59,9 +102,10 @@
 %HEVEA \end{divstyle}
 %HEVEA \end{divstyle}
 
+
 %HEVEA \begin{divstyle}{nonselectedwrapper}
 %HEVEA \begin{divstyle}{verywidecol}
-\section*{Protocols}
+\section*{Binary Protocols}
 \paragraph{}
     We are trying to build our products
     and services around single core of technologies. We believe that focusing on understandable
@@ -78,7 +122,5 @@
 
 %HEVEA \begin{divstyle}{clear}{~}\end{divstyle}
 
-%HEVEA \footerfalse
-%HEVEA \rawhtmlinput{templates/foot.htx}
 
 \end{document}

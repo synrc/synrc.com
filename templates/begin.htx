@@ -2,8 +2,11 @@
             "http://www.w3.org/TR/REC-html40/loose.dtd">
 <html>
 <head>
+<meta http-equiv="expires" content="Tue, 01 Jan 2020 1:00:00 GMT" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=IE10,chrome=1" />
+<meta name="viewport" content="width=device-width" />
 <link href="http://synrc.com/synrc.css" type="text/css" rel="stylesheet">
 </head>
 <body>
-<p>
+

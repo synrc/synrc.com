@@ -1,39 +1,40 @@
-
 A:link { font-weight: bold; color: blue; }
 A:visited { font-weight: bold; color: blue; }
 A:hover { font-weight: bold; color: #0033cc; }
 
-BODY { font-family: "Nokia Pure Text"; margin: 0; padding: 0;}
+BODY { width:100%; ont-size:18pt; font-family: "Nokia Pure Text"; margin: 0; padding: 0; background-color: #faf8f5; }
 TD { margin-top: 8px; margin-bottom: 0px; }
 H1 { font-size:28pt; font-weight: bold; margin-top:20px; margin-bottom:0px; margin-right:6px; margin-left:10px; padding-bottom:10px; }
 H2 { font-size:24pt; font-weight: bold; margin-top:20px; margin-bottom:0px; margin-right:6px; margin-left:10px; padding-bottom:10px; }
 H3 { font-size:22pt; font-weight: normal; margin-top:36px; margin-bottom:0px; margin-right:6px; margin-left:10px; } 
 H4 { font-size:20pt; font-weight: normal; margin-top:0px; margin-bottom:0px; margin-right:0px; } 
 H5 { font-size:18pt; font-weight: normal; padding-top:0px;margin-top:0px; margin-bottom:0px; margin-right:0px; } 
-P { font-size:16pt; padding-top:10px;margin-top:0px;padding-right:10px;padding-left:10px;  }
+P { font-size:18pt; padding-top:10px;margin-top:0px;padding-right:10px;padding-left:10px;  }
 LI { font-size:14pt; }
-PRE { padding-top:10px;padding-bottom:10px;padding-left:10px;margin-left:50px; }
+CODE { padding-top:12px;padding-bottom:10px;padding-left:10px;margin-left:50px; }
+PRE { padding-top:12px;padding-bottom:10px;padding-left:10px;margin-left:50px; }
 
 .logo_font { font-family: "Palatino Linotype"; margin-bottom: 0px; line-height: 60%; }
-.menu { font-size:14pt; color: red; margin-left:5px; margin-right:5px; 
-}
-.menu:hover { font-size:14pt; color: red; margin-left:5px; margin-right:5px; }
-.block { background-color: #f0f0f0; padding-top:1px; padding-bottom:1px; float: center; }
+.menu { font-family: "Nokia Pure Text"; font-size:18pt; color: red; margin-left:5px; margin-right:5px; }
+.menu:hover { font-size:18pt; color: red; margin-left:5px; margin-right:5px; }
+.block { background-color: transparent; padding-top:1px; padding-bottom:1px; float: center; }
 .column { margin-left:-20px; padding-right:10px; padding-left:10px; width:350; vertical-align:top; }
-.wrapper     { width: 1090px; float: center; margin: 0 auto; }
-.article     { width: 1110px; float: center; margin: 0 auto; }
-.verywidecol { width:  700px; float: center; margin: 0 auto; text-align: justify; }
+.wrapper     { width: 1200px; margin: 0 auto; }
+.article     { width: 1280px; margin: 0 auto; }
+.verywidecol { width:  800px; float:center; margin-left: auto; margin-right: auto; text-align: justify; }
+.paper { background-color: #faf8f8; }
+.white { background-color: white; }
 .selectedwrapper    { width: 100%; margin: 0 auto; padding-bottom: 10px; overflow: hidden; 
 background: no-repeat url(http://s.ytimg.com/yt/imgbin/www-refreshbg-vflC3wnbM.png) 0 0;
 background-color: #EBEBEB;
 background-repeat: repeat;
   }
-.nonselectedwrapper { width: 100%; margin: 0 auto; padding: 0; overflow: hidden; }
-.threecol   { width: 350px; float: left; padding: 10px;}
-.widecol    { width: 350px; float: left; padding: 10px; }
+.nonselectedwrapper { width: 100%; margin-left: auto; margin-right:auto; padding: 0; overflow: hidden; }
+.threecol   { width: 400px; float: left; padding: 10px;}
+.widecol    { width: 40%; float: left; padding: 10px; }
 .smallcol   { width: 200px; float: left; padding-rigt: 20px; }
-.toc   { width: 200px; float: left; padding-rigt: 20px; }
-.articlecol { width: 710px; float: left; padding-rigt: 20px; margin: 0 auto; text-align: justify; }
+.toc   { font-size: 16pt; width: 240px; float: left; padding-rigt: 20px; margin-left: 20px; }
+.articlecol { width: 800px; float: left; padding-rigt: 20px; margin: 0 auto; text-align: auto; }
 .last { margin-right: 0; }
 .clear { clear: both; }
 
@@ -44,26 +45,16 @@ background-repeat: repeat;
           box-sizing: border-box;
 }
 
+
 @font-face {
     font-family: "Nokia Pure Text";
-        src: url("http://synrc.com/fonts/nokiapuretextlight-webfont.eot?"); /* IE9 */
-        src: url("http://synrc.com/fonts/nokiapuretextlight-webfont.eot?v=2.3.1.12#iefix") format("eot"), /* IE6-IE8 */
-             url("http://synrc.com/fonts/nokiapuretextlight-webfont.woff?v=2.3.1.12") format("truetype"), /* Mordern browsers */
-             url("http://synrc.com/fonts/nokiapuretextlight-webfont.ttf?v=2.3.1.12") format("truetype"); /* Safari, Android, iOS */
+        src: url("http://synrc.com/fonts/nokiapuretextlight-webfont.eot?v=3"); /* IE9 */
+        src: url("http://synrc.com/fonts/nokiapuretextlight-webfont.eot?v=3") format("eot"), /* IE6-IE8 */
+             url("http://synrc.com/fonts/nokiapuretextlight-webfont.woff?v=3") format("truetype"), /* Mordern browsers */
+             url("http://synrc.com/fonts/nokiapuretextlight-webfont.ttf?v=3") format("truetype"); /* Safari, Android, iOS */
     font-weight: 200;
     font-style: normal;
 }
-
-@font-face {
-    font-family: "Palatino Linotype";
-        src: url("http://synrc.com/fonts/pala.eot?"); /* IE9 */
-        src: url("http://synrc.com/fonts/pala.eot?v=2.3.1.12#iefix") format("eot"), /* IE6-IE8 */
-             url("http://synrc.com/fonts/pala.woff?v=2.3.1.12") format("truetype"), /* Mordern browsers */
-             url("http://synrc.com/fonts/pala.ttf?v=2.3.1.12") format("truetype"); /* Safari, Android, iOS */
-    font-weight: 100;
-    font-style: normal;
-}
-
 
 .fork-me {
   position: absolute;
