@@ -2,7 +2,7 @@ A:link { font-weight: bold; color: blue; }
 A:visited { font-weight: bold; color: blue; }
 A:hover { font-weight: bold; color: #0033cc; }
 
-BODY { width:100%; ont-size:18pt; font-family: "Nokia Pure Text"; margin: 0; padding: 0; background-color: #faf8f5; }
+BODY { width: 100%; ont-size:18pt; font-family: "Nokia Pure Text"; margin: 0; padding: 0; background-color: #faf8f5; }
 TD { margin-top: 8px; margin-bottom: 0px; }
 H1 { font-size:28pt; font-weight: bold; margin-top:20px; margin-bottom:0px; margin-right:6px; margin-left:10px; padding-bottom:10px; }
 H2 { font-size:24pt; font-weight: bold; margin-top:20px; margin-bottom:0px; margin-right:6px; margin-left:10px; padding-bottom:10px; }
@@ -21,19 +21,19 @@ PRE { padding-top:12px;padding-bottom:10px;padding-left:10px;margin-left:50px; }
 .column { margin-left:-20px; padding-right:10px; padding-left:10px; width:350; vertical-align:top; }
 .wrapper     { width: 1200px; margin: 0 auto; }
 .article     { width: 1280px; margin: 0 auto; }
-.verywidecol { width:  800px; float:center; margin-left: auto; margin-right: auto; text-align: justify; }
+.verywidecol { width: 800px; margin-left: auto; margin-right: auto; text-align: normal; }
 .paper { background-color: #faf8f8; }
 .white { background-color: white; }
-.selectedwrapper    { width: 100%; margin: 0 auto; padding-bottom: 10px; overflow: hidden; 
+.selectedwrapper    { width: max-width; margin: 0 auto; padding-bottom: 10px; overflow: hidden; 
 background: no-repeat url(http://s.ytimg.com/yt/imgbin/www-refreshbg-vflC3wnbM.png) 0 0;
 background-color: #EBEBEB;
 background-repeat: repeat;
   }
-.nonselectedwrapper { width: 100%; margin-left: auto; margin-right:auto; padding: 0; overflow: hidden; }
+.nonselectedwrapper { width: max-width; margin-left: auto; margin-right:auto; overflow: hidden; }
 .threecol   { width: 400px; float: left; padding: 10px;}
 .widecol    { width: 40%; float: left; padding: 10px; }
 .smallcol   { width: 200px; float: left; padding-rigt: 20px; }
-.toc   { font-size: 16pt; width: 240px; float: left; padding-rigt: 20px; margin-left: 20px; }
+.toc   { font-size: 16pt; width: 200px; float: left; padding-rigt: 20px; margin-left: 20px; }
 .articlecol { width: 800px; float: left; padding-rigt: 20px; margin: 0 auto; text-align: auto; }
 .last { margin-right: 0; }
 .clear { clear: both; }

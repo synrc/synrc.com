@@ -10,4 +10,5 @@ create_tex()
 create_tex index research/io
 create_tex index .
 create_tex labs .
+create_tex github .
 

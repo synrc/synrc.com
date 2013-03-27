@@ -20,6 +20,7 @@ create_page brandbook
 create_page client/sync/windows/index
 create_page client/chat/haiku/index
 create_page beos/beos_collection
+create_page news/erlang2013kiev
 create_page research/io/doc/overview
 create_page research/io/doc/object
 create_page research/io/doc/primitives

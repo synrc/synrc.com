@@ -1,5 +1,5 @@
 
-<div class="nonselectedwrapper white" style="padding: 30 10 0 0; margin: 0 0 -8 0;">
+<div class="nonselectedwrapper white" style="padding: 30 10 0 0;margin: 0 0 -8 0;">
 <div class="verywidecol">
 <nobr>
     <!--div style="height:83px;">
@@ -46,7 +46,7 @@
             document.write('<td width=20%> <div class="menu"><a href="http://synrc.com/research.htm">Showcase</a></div> </td>');
         }
 
-        if(page_name == 'labs.htm'){
+        if(page_name == 'github.htm'){
             document.write('<td width=20%> <div class="menu">Github</div> </td>');
         }else{
             document.write('<td width=20%> <div class="menu"><a href="http://synrc.com/github.htm">Github</a></div> </td>');
