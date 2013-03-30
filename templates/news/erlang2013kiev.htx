@@ -1,0 +1,74 @@
+
+<DIV CLASS="nonselectedwrapper">
+<DIV CLASS="article">
+<DIV CLASS="smallcol">
+    <p><IMG SRC="../images/erlang_clear.png" width=150></p>
+</DIV>
+<DIV CLASS="articlecol">
+
+    <H2>Erlang Курсы 2013 Киев</H2>
+
+<p>Компания «Synrc Research Center», которая занимается разработкой
+проектов на Erlang, готова поделиться своим опытом в лучших традиция
+стокгольмской Erlang конференции. Эти курсы будут интересны всем, кто
+хочет познакомиться с Erlang на практике. Особенно полезными будут
+для тех, кто хочет попробовать внедрить Erlang у себя на производстве.
+Курсы представляют собой краткую выдержку всего того, что необходимо
+знать для принятия решения в пользу Erlang.</p>
+
+<p>В частности вы узнаете: краткий обзор функциональных языков
+программирования; место Erlang в мире ФП, чем руководствовались
+разработчики языка; как использовать Erlang в промышленности,
+какие выгоды это несет; что такое ASN.1; о современных приложениях
+GProc, Nitrogen, RabbitMQ, Riak и т.д.</p>
+
+<p>Курсы представляют собой 2 сессии по 4 академических часа с
+перерывом каждая. Лекция + практическое занятие. Стоимость одной
+сессии 200 грн. Первые две сессии пройдут 13-14 апреля (суббота-воскресенье).
+Третья и четвертая сессии запланированы на середину мая (о них будет
+объявлено дополнительно)</p>
+
+
+<p>Тренер: Максим Сохацкий. Технический директор «Synrc Research Center».
+В сфере IT более 12 лет. Еrlang'ом занимается с 2010 года. Автор публикации
+в журнале fprog.ru «Как быстро написать LDAP-сервер на Erlang». В Мае 2012 года
+принимал участие на Erlang User Conference в Стокгольме. Сейчас возглавляет
+команду разработчиков турецкой игровой социальной сети.</P>
+
+<h2>Две сессии</h2>
+<p><b>13 Апреля &mdash; Введение в Erlang, Написание LDAP-сервера<br>
+14 Апреля &mdash; Erlang в Web, Написание Web-чата</b></p>
+
+<H2>Дневное Расписание</H2>
+
+<blockquote>
+<table cellspacing=2 cellpadding=10>
+<tr><td width=100 bgcolor=#eeeeee>10:00 &mdash; 10:30</td><td> Регистрация, кофе-брейк </td> </tr>
+<tr><td bgcolor=#eeeeee> 10:30 &mdash; 12:00 </td><td> Лекция </td> </tr>
+<tr><td bgcolor=#eeeeee> 12:00 &mdash; 12:30 </td><td> Перерыв, кофе-брейк, выпечка </td> </tr>
+<tr><td bgcolor=#eeeeee> 12:30 &mdash; 14:00 </td><td> Практическое занятие </td> </tr>
+<tr><td bgcolor=#eeeeee> 14:00 &mdash; 14:30 </td><td> Вопросы </td> </tr>
+</tr></table>
+</blockquote>
+
+<p>С собой иметь установленными и готовыми к использованию:<br>
+— Компьютер: Windows, Linux или Mac<br>
+— Почтовый клиент: Outlook Express aka Live Mail, Apple Mail, Claws Mail<br>
+— Web Browser с поддержкой WebSockets<br>
+— vi, emacs или FAR<br>
+— Erlang<br>
+— git<br>
+— rebar<br>
+— GitHub.com аккаунт</P>
+
+<p>Форма он-лайн регистрации: <a href="https://docs.google.com/a/synrc.com/spreadsheet/viewform?formkey=dFZuNjRQeE1mdTlrZy03d24tdlVDRWc6MQ">РЕГИСТРАЦИЯ</a></p>
+
+<p>Количество мест ограничено (~50).</p>
+
+<p>Подробнее: <a href="http://maxim.livejournal.com/404745.html">http://maxim.livejournal.com/404745.html</a></p>
+
+</DIV>
+</DIV>
+
+<DIV CLASS="clear"></DIV>
+
