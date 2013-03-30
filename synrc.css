@@ -2,7 +2,7 @@ A:link { font-weight: bold; color: blue; }
 A:visited { font-weight: bold; color: blue; }
 A:hover { font-weight: bold; color: #0033cc; }
 
-BODY { width: 100%; ont-size:18pt; font-family: "Nokia Pure Text"; margin: 0; padding: 0; background-color: #faf8f5; }
+body { font-size: 18pt; padding: 0; margin: 0; font-family: "Nokia Pure Text"; background-color: #faf8f5; } 
 TD { margin-top: 8px; margin-bottom: 0px; }
 H1 { font-size:28pt; font-weight: bold; margin-top:20px; margin-bottom:0px; margin-right:6px; margin-left:10px; padding-bottom:10px; }
 H2 { font-size:24pt; font-weight: bold; margin-top:20px; margin-bottom:0px; margin-right:6px; margin-left:10px; padding-bottom:10px; }
@@ -17,24 +17,24 @@ PRE { padding-top:12px;padding-bottom:10px;padding-left:10px;margin-left:50px; }
 .logo_font { font-family: "Palatino Linotype"; margin-bottom: 0px; line-height: 60%; }
 .menu { font-family: "Nokia Pure Text"; font-size:18pt; color: red; margin-left:5px; margin-right:5px; }
 .menu:hover { font-size:18pt; color: red; margin-left:5px; margin-right:5px; }
-.block { background-color: transparent; padding-top:1px; padding-bottom:1px; float: center; }
+.block { height: 400px; width:400px; background-color: transparent; float: left; vertical-align: top; }
 .column { margin-left:-20px; padding-right:10px; padding-left:10px; width:350; vertical-align:top; }
-.wrapper     { width: 1200px; margin: 0 auto; }
-.article     { width: 1280px; margin: 0 auto; }
-.verywidecol { width: 800px; margin-left: auto; margin-right: auto; text-align: normal; }
-.paper { background-color: #faf8f8; }
-.white { background-color: white; }
-.selectedwrapper    { width: max-width; margin: 0 auto; padding-bottom: 10px; overflow: hidden; 
-background: no-repeat url(http://s.ytimg.com/yt/imgbin/www-refreshbg-vflC3wnbM.png) 0 0;
-background-color: #EBEBEB;
-background-repeat: repeat;
-  }
+.wrapper     { max-width: 1200px; margin: 0 auto; }
+.article     { max-width: 1300px; margin: 0 auto; }
+.verywidecol { max-width: 800px; margin-left: auto; margin-right: auto; text-align: normal; }
+.paper { background-color: #faf8f8; margin-top: 10px;}
+.white { background-color: white; margin-bottom: 10px; }
+.selectedwrapper { 
+    padding-bottom: 10px; overflow: hidden; 
+    background: no-repeat url(http://s.ytimg.com/yt/imgbin/www-refreshbg-vflC3wnbM.png) 0 0;
+    background-color: #EBEBEB;
+    background-repeat: repeat; }
 .nonselectedwrapper { width: max-width; margin-left: auto; margin-right:auto; overflow: hidden; }
 .threecol   { width: 400px; float: left; padding: 10px;}
 .widecol    { width: 40%; float: left; padding: 10px; }
 .smallcol   { width: 200px; float: left; padding-rigt: 20px; }
 .toc   { font-size: 16pt; width: 200px; float: left; padding-rigt: 20px; margin-left: 20px; }
-.articlecol { width: 800px; float: left; padding-rigt: 20px; margin: 0 auto; text-align: auto; }
+.articlecol { max-width: 800px; float: left; padding-rigt: 20px; margin: 0 auto; text-align: auto; }
 .last { margin-right: 0; }
 .clear { clear: both; }
 
@@ -44,7 +44,6 @@ background-repeat: repeat;
       -ms-box-sizing: border-box;
           box-sizing: border-box;
 }
-
 
 @font-face {
     font-family: "Nokia Pure Text";
