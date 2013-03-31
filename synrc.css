@@ -17,7 +17,7 @@ PRE { padding-top:12px;padding-bottom:10px;padding-left:10px;margin-left:50px; }
 .logo_font { font-family: "Palatino Linotype"; margin-bottom: 0px; line-height: 60%; }
 .menu { font-family: "Nokia Pure Text"; font-size:18pt; color: red; margin-left:5px; margin-right:5px; }
 .menu:hover { font-size:18pt; color: red; margin-left:5px; margin-right:5px; }
-.block { height: 430px; width:380px; background-color: transparent; float: left; vertical-align: top; }
+.block { height: 400px; width:400px; background-color: transparent; float: left; vertical-align: top; }
 .column { margin-left:-20px; padding-right:10px; padding-left:10px; width:350; vertical-align:top; }
 .wrapper     { max-width: 1200px; margin: 0 auto; }
 .article     { max-width: 1300px; margin: 0 auto; }
