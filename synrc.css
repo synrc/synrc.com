@@ -17,10 +17,10 @@ PRE { padding-top:12px;padding-bottom:10px;padding-left:10px;margin-left:50px; }
 .logo_font { font-family: "Palatino Linotype"; margin-bottom: 0px; line-height: 60%; }
 .menu { font-family: "Nokia Pure Text"; font-size:18pt; color: red; margin-left:5px; margin-right:5px; }
 .menu:hover { font-size:18pt; color: red; margin-left:5px; margin-right:5px; }
-.block { height: 400px; width:400px; background-color: transparent; float: left; vertical-align: top; }
-.column { margin-left:-20px; padding-right:10px; padding-left:10px; width:350; vertical-align:top; }
-.wrapper     { max-width: 1200px; margin: 0 auto; }
+.block { height: 400px; width:400px; background-color: transparent; vertical-align: top; display: inline-block; text-align: left; }
+.wrapper     { max-width: 1200px; margin: 0 auto; text-align:center }
 .article     { max-width: 1300px; margin: 0 auto; }
+.articlecol  { max-width: 800px; float: left; padding-rigt: 20px; margin: 0 auto; text-align: auto; }
 .verywidecol { max-width: 800px; margin-left: auto; margin-right: auto; text-align: normal; }
 .paper { background-color: #faf8f8; margin-top: 10px;}
 .white { background-color: white; margin-bottom: 10px; }
@@ -30,11 +30,9 @@ PRE { padding-top:12px;padding-bottom:10px;padding-left:10px;margin-left:50px; }
     background-color: #EBEBEB;
     background-repeat: repeat; }
 .nonselectedwrapper { width: max-width; margin-left: auto; margin-right:auto; overflow: hidden; }
-.threecol   { width: 400px; float: left; padding: 10px;}
 .widecol    { width: 40%; float: left; padding: 10px; }
 .smallcol   { width: 200px; height: 200px; float: left; padding-rigt: 20px; }
 .toc   { font-size: 16pt; width: 200px; float: left; padding-rigt: 20px; margin-left: 20px; }
-.articlecol { max-width: 800px; float: left; padding-rigt: 20px; margin: 0 auto; text-align: auto; }
 .last { margin-right: 0; }
 .clear { clear: both; }
 
