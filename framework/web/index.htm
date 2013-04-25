@@ -2,7 +2,7 @@
             "http://www.w3.org/TR/REC-html40/loose.dtd">
 <HTML>
 <HEAD>
-<TITLE>Home
+<TITLE>N2O
 </TITLE>
 
 <META http-equiv="Content-Type" content="text/html; charset=US-ASCII">
@@ -44,7 +44,7 @@ TD P{margin:0px;}
 .theorem{text-align:left;margin:1ex auto 1ex 0ex;}
 .part{margin:2ex auto;text-align:center}
 </STYLE>
-<LINK REL=STYLESHEET type="text/css" HREF="synrc.css">
+<LINK REL=STYLESHEET type="text/css" HREF="../../synrc.css">
 
 <meta name="Author" content="Maxim Sokhatsky">
 <meta http-equiv="expires" content="Tue, 01 Jan 2020 1:00:00 GMT" />
@@ -52,7 +52,7 @@ TD P{margin:0px;}
 <meta http-equiv="X-UA-Compatible" content="IE=IE10,chrome=1" />
 </HEAD>
 <BODY >
-<!--HEVEA command line is: /usr/bin/hevea index.tex -o index.htm -->
+<!--HEVEA command line is: /usr/bin/hevea framework/web/index.tex -o framework/web/index.htm -->
 <!--HTMLHEAD-->
 
 <div class="nonselectedwrapper white" style="padding: 30 10 0 0;margin: 0 0 -12 0;">
@@ -111,41 +111,43 @@ TD P{margin:0px;}
 </div>
 
 <!--ENDHTML-->
-<!--CUT DEF section 1 --><DIV CLASS="selectedwrapper">
-<DIV CLASS="wrapper"><DIV CLASS="block">
-<!--TOC section Erlang-->
-<H2 CLASS="section"><!--SEC ANCHOR -->Erlang</H2><!--SEC END --><!--TOC paragraph -->
+<!--CUT DEF section 1 --><DIV CLASS="nonselectedwrapper">
+<DIV CLASS="article">
+<DIV CLASS="smallcol">
+
+
+<IMG SRC="../../images/n2o.png">
+
+
+</DIV>
+<DIV CLASS="articlecol">
+<!--TOC section N2O: Fastest Web Framework for Erlang-->
+<H2 CLASS="section"><!--SEC ANCHOR -->N2O: Fastest Web Framework for Erlang</H2><!--SEC END --><!--TOC subsection Binary events over WebSockets-->
+<H3 CLASS="subsection"><!--SEC ANCHOR -->Binary events over WebSockets</H3><!--SEC END --><P>Nitrogen 2 Optimized. Binary page construction.
+Binary data transfer. Websocket async interface for
+page updates. No processes spawn, works within
+Cowboy processes. Page render is several times faster than
+original Nitrogen.</P><!--TOC subsection Why Erlang in Web ?-->
+<H3 CLASS="subsection"><!--SEC ANCHOR -->Why Erlang in Web ?</H3><!--SEC END --><P>
+We&#X2019;ve measured all existing modern web frameworks with latests functional languges and Cowboy still the king.
+You can see raw HTTP performance of functional and C-like languages with concurrent primitives:</P><P><img src="http://synrc.com/lj/webcompare/connections.png" style="margin-left: -20px;background-color: #eeeeee;padding:20 20 20 20px;" width=720/>
+</P><P>We outperform full Nitrogen stack with only 2X downgrade of raw HTTP Cowboy
+performance thus rise rendering performance several times in compare to
+any other functional web framework and for sure it is faster than raw HTTP node.js performance.</P></DIV><DIV CLASS="toc last">
+<!--TOC section TOC-->
+<H2 CLASS="section"><!--SEC ANCHOR -->TOC</H2><!--SEC END --><!--TOC paragraph -->
 <H5 CLASS="paragraph"><!--SEC ANCHOR --></H5><!--SEC END --><P>
-Erlang was created in 1987 in the Ericsson Computer Science Laboratory.
-It is the implementation language of such high-load services as Amazon Web Services,
-Facebook Chat and Ericsson switches.
-Our mission is to bring simple and manageable solutions based on Erlang/OTP to our customers.
-</P></DIV><DIV CLASS="block">
-<!--TOC section Products-->
-<H2 CLASS="section"><!--SEC ANCHOR -->Products</H2><!--SEC END --><!--TOC paragraph -->
-<H5 CLASS="paragraph"><!--SEC ANCHOR --></H5><!--SEC END --><P>
-Erlang versions of the LDAP and SyncML servers was our first products. Now we are
-creating social Feed Server with storage and subscription services along with
-Fast Comet Server with WebSockets and Web Framework with outstanding performance.
-</P></DIV><DIV CLASS="block">
-<!--TOC section Services-->
-<H2 CLASS="section"><!--SEC ANCHOR -->Services</H2><!--SEC END --><!--TOC paragraph -->
-<H5 CLASS="paragraph"><!--SEC ANCHOR --></H5><!--SEC END --><P>
-As an Erlang consulting company we provide a set of services starting from friendly advice to
-consulting and full development cycle according to your business.
-Our main development rule is &#X201C;No Bullshit&#X201D;.
-We have pool of Erlang developers you may contact with directly in case of
-prototyping, code review or consulting.
+<A HREF="">Overview</A> <BR>
+
+<A HREF="">1. Architecture</A> <BR>
+
+<A HREF="">2. Rendering</A> <BR>
+
+<A HREF="">3. Push</A> <BR>
+
+<A HREF="">4. Samples</A> <BR>
+
 </P></DIV></DIV>
-</DIV><DIV CLASS="clear">&#XA0;</DIV><DIV CLASS="nonselectedwrapper">
-<DIV CLASS="verywidecol">
-<!--TOC section Frameworks-->
-<H2 CLASS="section"><!--SEC ANCHOR -->Frameworks</H2><!--SEC END --><!--TOC paragraph -->
-<H5 CLASS="paragraph"><!--SEC ANCHOR --></H5><!--SEC END --><P>
-Our success would be impossible without the support of widely accepted tools for the Erlang/OTP platform.
-Due to the existence of RabbbitMQ, GProc, Riak, ejabberd, exmpp, Nitrogen and
-Cowboy we were able to deliver state of the art solutions to our customers. 
-Our secret is beneath the way of what we are using and how.</P><P><A HREF="research.htm">Lay cards on the Table</A></P></DIV>
 </DIV><DIV CLASS="clear">&#XA0;</DIV><!--CUT END -->
 <!--HTMLFOOT-->
 

@@ -1,0 +1,56 @@
+\documentclass[11pt]{article}
+\usepackage{ifthen}
+\usepackage{graphicx}
+\usepackage{cite}
+\usepackage{hevea}
+\input{synrc.hva}
+%HEVEA \loadcssfile{../../synrc.css}
+
+\begin{document}
+
+\title{N2O}
+\author{Maxim Sokhatsky}
+
+%HEVEA \begin{divstyle}{nonselectedwrapper}
+%HEVEA \begin{divstyle}{article}
+%HEVEA \begin{divstyle}{smallcol}
+\includeimage{../../images/n2o.png}
+%HEVEA \end{divstyle}
+%HEVEA \begin{divstyle}{articlecol}
+\section*{N2O: Fastest Web Framework for Erlang}
+\subsection*{Binary events over WebSockets}
+
+Nitrogen 2 Optimized. Binary page construction.
+Binary data transfer. Websocket async interface for
+page updates. No processes spawn, works within
+Cowboy processes. Page render is several times faster than
+original Nitrogen.
+
+\subsection*{Why Erlang in Web ?}
+We've measured all existing modern web frameworks with latests functional languges and Cowboy still the king.
+You can see raw HTTP performance of functional and C-like languages with concurrent primitives:
+
+%HEVEA \rawhtmlinput{templates/webservers.htx}
+
+We outperform full Nitrogen stack with only 2X downgrade of raw HTTP Cowboy
+performance thus rise rendering performance several times in compare to
+any other functional web framework and for sure it is faster than raw HTTP node.js performance.
+
+%HEVEA \end{divstyle}
+
+%HEVEA \begin{divstyle}{toc last}
+\section*{TOC}
+\paragraph{}
+\footahref{}{Overview} \@br
+\footahref{}{1. Architecture} \@br
+\footahref{}{2. Rendering} \@br
+\footahref{}{3. Push} \@br
+\footahref{}{4. Samples} \@br
+%HEVEA \end{divstyle}
+
+%HEVEA \end{divstyle}
+%HEVEA \end{divstyle}
+%HEVEA \begin{divstyle}{clear}{~}\end{divstyle}
+
+\end{document}
+

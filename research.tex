@@ -12,34 +12,32 @@
 
 %HEVEA \begin{divstyle}{selectedwrapper}
 %HEVEA \begin{divstyle}{wrapper}
-%HEVEA \begin{divstyle}{threecol}
-\section*{Data Storage}
+
 %HEVEA \begin{divstyle}{block}
+\section*{Data Storage}
 \paragraph{}
     We mainly using NoSQL products. In case that AP capabilities are necessary
     for our storage we use Riak. For CA capabilities we use VoltDB.
     We also maintain our own Amazon Dynamo implementation.
 %HEVEA \end{divstyle}
-%HEVEA \end{divstyle}
-%HEVEA \begin{divstyle}{threecol}
-\section*{Message Queues}
+
 %HEVEA \begin{divstyle}{block}
+\section*{Message Queues}
 \paragraph{}
     In cases where we need pure Erlang solution we use GProc as PubSub messaging.
     For language independent solutions we use RabbitMQ along with our library.
     In some projects based on ejabberd we use XMPP ejabberd extension for PubSub.
 %HEVEA \end{divstyle}
-%HEVEA \end{divstyle}
-%HEVEA \begin{divstyle}{threecol last}
-\section*{Serving Data}
+
 %HEVEA \begin{divstyle}{block}
+\section*{Serving Data}
 \paragraph{}
     We used to embed WebMachine/MochiWeb as web server and web framework.
     But currently we have sticked with Cowboy web server.
     For products which require pure TCP listeners and switchable protocols we use Ranch.
     For Web Framework and Comet we use Nitrogen.
 %HEVEA \end{divstyle}
-%HEVEA \end{divstyle}
+
 %HEVEA \end{divstyle}
 %HEVEA \end{divstyle}
 %HEVEA \begin{divstyle}{clear}{~}\end{divstyle}

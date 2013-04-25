@@ -2,7 +2,7 @@
             "http://www.w3.org/TR/REC-html40/loose.dtd">
 <HTML>
 <HEAD>
-<TITLE>Home
+<TITLE>SNMP
 </TITLE>
 
 <META http-equiv="Content-Type" content="text/html; charset=US-ASCII">
@@ -44,7 +44,7 @@ TD P{margin:0px;}
 .theorem{text-align:left;margin:1ex auto 1ex 0ex;}
 .part{margin:2ex auto;text-align:center}
 </STYLE>
-<LINK REL=STYLESHEET type="text/css" HREF="synrc.css">
+<LINK REL=STYLESHEET type="text/css" HREF="../../synrc.css">
 
 <meta name="Author" content="Maxim Sokhatsky">
 <meta http-equiv="expires" content="Tue, 01 Jan 2020 1:00:00 GMT" />
@@ -52,7 +52,7 @@ TD P{margin:0px;}
 <meta http-equiv="X-UA-Compatible" content="IE=IE10,chrome=1" />
 </HEAD>
 <BODY >
-<!--HEVEA command line is: /usr/bin/hevea index.tex -o index.htm -->
+<!--HEVEA command line is: /usr/bin/hevea framework/snmp/index.tex -o framework/snmp/index.htm -->
 <!--HTMLHEAD-->
 
 <div class="nonselectedwrapper white" style="padding: 30 10 0 0;margin: 0 0 -12 0;">
@@ -111,41 +111,50 @@ TD P{margin:0px;}
 </div>
 
 <!--ENDHTML-->
-<!--CUT DEF section 1 --><DIV CLASS="selectedwrapper">
-<DIV CLASS="wrapper"><DIV CLASS="block">
-<!--TOC section Erlang-->
-<H2 CLASS="section"><!--SEC ANCHOR -->Erlang</H2><!--SEC END --><!--TOC paragraph -->
+<!--CUT DEF section 1 --><DIV CLASS="nonselectedwrapper">
+<DIV CLASS="article">
+<DIV CLASS="smallcol">
+
+
+<IMG SRC="../../images/mandalalogo.png">
+
+
+</DIV>
+<DIV CLASS="articlecol">
+<!--TOC section SNMP Monitoring for Erlang cloud-->
+<H2 CLASS="section"><!--SEC ANCHOR -->SNMP Monitoring for Erlang cloud</H2><!--SEC END --><!--TOC subsection Simple way to understand your system-->
+<H3 CLASS="subsection"><!--SEC ANCHOR -->Simple way to understand your system</H3><!--SEC END --><P>
+We rethink the way system should be managed. We strongly believe that
+SNMP monitoring system should be clear and visible to understandable to customer.
+We try to avoid complex multi-window solutions with bunch of optional information.</P><!--TOC subsection Mandala: Load Tracking-->
+<H3 CLASS="subsection"><!--SEC ANCHOR -->Mandala: Load Tracking</H3><!--SEC END --><P>
+<img src="http://synrc.com/lj/mandala.jpg" style="margin-left: -20px;background-color: #eeeeee;padding:20 20 20 20px;" width=720/>
+</P><P>Each sector shows the state of Erlang VM. Colors are Erlang release types.
+Arcs are the release lines. You can see the performance and memory
+consumption of each line and each server.</P><!--TOC subsection HAL 9000: Tracking Events-->
+<H3 CLASS="subsection"><!--SEC ANCHOR -->HAL 9000: Tracking Events</H3><!--SEC END --><P>
+<img src="http://synrc.com/images/hal.png" style="margin-left: -20px;background-color: #eeeeee;padding:20 20 20 20px;" width=720/>
+</P><P>HAL 9000 inspired tiles show the detailed state of server in changable
+order according to scheduling priorities where alert notification are more
+important.</P><!--TOC subsection Injectable SNMP Agents in Erlang-->
+<H3 CLASS="subsection"><!--SEC ANCHOR -->Injectable SNMP Agents in Erlang</H3><!--SEC END --><P>
+We provide clean toolset and SNMP agent skeletons for injection into existing Erlang
+solutions such as RabbitMQ, Riak, etc.
+</P></DIV><DIV CLASS="toc last">
+<!--TOC section TOC-->
+<H2 CLASS="section"><!--SEC ANCHOR -->TOC</H2><!--SEC END --><!--TOC paragraph -->
 <H5 CLASS="paragraph"><!--SEC ANCHOR --></H5><!--SEC END --><P>
-Erlang was created in 1987 in the Ericsson Computer Science Laboratory.
-It is the implementation language of such high-load services as Amazon Web Services,
-Facebook Chat and Ericsson switches.
-Our mission is to bring simple and manageable solutions based on Erlang/OTP to our customers.
-</P></DIV><DIV CLASS="block">
-<!--TOC section Products-->
-<H2 CLASS="section"><!--SEC ANCHOR -->Products</H2><!--SEC END --><!--TOC paragraph -->
-<H5 CLASS="paragraph"><!--SEC ANCHOR --></H5><!--SEC END --><P>
-Erlang versions of the LDAP and SyncML servers was our first products. Now we are
-creating social Feed Server with storage and subscription services along with
-Fast Comet Server with WebSockets and Web Framework with outstanding performance.
-</P></DIV><DIV CLASS="block">
-<!--TOC section Services-->
-<H2 CLASS="section"><!--SEC ANCHOR -->Services</H2><!--SEC END --><!--TOC paragraph -->
-<H5 CLASS="paragraph"><!--SEC ANCHOR --></H5><!--SEC END --><P>
-As an Erlang consulting company we provide a set of services starting from friendly advice to
-consulting and full development cycle according to your business.
-Our main development rule is &#X201C;No Bullshit&#X201D;.
-We have pool of Erlang developers you may contact with directly in case of
-prototyping, code review or consulting.
+<A HREF="">Overview</A> <BR>
+
+<A HREF="">1. Mandala</A> <BR>
+
+<A HREF="">2. HAL 9000</A> <BR>
+
+<A HREF="">3. Modules</A> <BR>
+
+<A HREF="">4. Charts</A> <BR>
+
 </P></DIV></DIV>
-</DIV><DIV CLASS="clear">&#XA0;</DIV><DIV CLASS="nonselectedwrapper">
-<DIV CLASS="verywidecol">
-<!--TOC section Frameworks-->
-<H2 CLASS="section"><!--SEC ANCHOR -->Frameworks</H2><!--SEC END --><!--TOC paragraph -->
-<H5 CLASS="paragraph"><!--SEC ANCHOR --></H5><!--SEC END --><P>
-Our success would be impossible without the support of widely accepted tools for the Erlang/OTP platform.
-Due to the existence of RabbbitMQ, GProc, Riak, ejabberd, exmpp, Nitrogen and
-Cowboy we were able to deliver state of the art solutions to our customers. 
-Our secret is beneath the way of what we are using and how.</P><P><A HREF="research.htm">Lay cards on the Table</A></P></DIV>
 </DIV><DIV CLASS="clear">&#XA0;</DIV><!--CUT END -->
 <!--HTMLFOOT-->
 

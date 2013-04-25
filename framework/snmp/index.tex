@@ -1,0 +1,60 @@
+\documentclass[11pt]{article}
+\usepackage{ifthen}
+\usepackage{graphicx}
+\usepackage{cite}
+\usepackage{hevea}
+\input{synrc.hva}
+%HEVEA \loadcssfile{../../synrc.css}
+
+\begin{document}
+
+\title{SNMP}
+\author{Maxim Sokhatsky}
+
+%HEVEA \begin{divstyle}{nonselectedwrapper}
+%HEVEA \begin{divstyle}{article}
+%HEVEA \begin{divstyle}{smallcol}
+\includeimage{../../images/mandalalogo.png}
+%HEVEA \end{divstyle}
+%HEVEA \begin{divstyle}{articlecol}
+\section*{SNMP Monitoring for Erlang cloud}
+\subsection*{Simple way to understand your system}
+We rethink the way system should be managed. We strongly believe that
+SNMP monitoring system should be clear and visible to understandable to customer.
+We try to avoid complex multi-window solutions with bunch of optional information.
+
+\subsection*{Mandala: Load Tracking}
+%HEVEA \rawhtmlinput{templates/mandala.htx}
+
+Each sector shows the state of Erlang VM. Colors are Erlang release types.
+Arcs are the release lines. You can see the performance and memory
+consumption of each line and each server.
+
+\subsection*{HAL 9000: Tracking Events}
+%HEVEA \rawhtmlinput{templates/hal.htx}
+
+HAL 9000 inspired tiles show the detailed state of server in changable
+order according to scheduling priorities where alert notification are more
+important.
+
+\subsection*{Injectable SNMP Agents in Erlang}
+We provide clean toolset and SNMP agent skeletons for injection into existing Erlang
+solutions such as RabbitMQ, Riak, etc.
+%HEVEA \end{divstyle}
+
+%HEVEA \begin{divstyle}{toc last}
+\section*{TOC}
+\paragraph{}
+\footahref{}{Overview} \@br
+\footahref{}{1. Mandala} \@br
+\footahref{}{2. HAL 9000} \@br
+\footahref{}{3. Modules} \@br
+\footahref{}{4. Charts} \@br
+%HEVEA \end{divstyle}
+
+%HEVEA \end{divstyle}
+%HEVEA \end{divstyle}
+%HEVEA \begin{divstyle}{clear}{~}\end{divstyle}
+
+\end{document}
+

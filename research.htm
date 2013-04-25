@@ -112,36 +112,29 @@ TD P{margin:0px;}
 
 <!--ENDHTML-->
 <!--CUT DEF section 1 --><DIV CLASS="selectedwrapper">
-<DIV CLASS="wrapper">
-<DIV CLASS="threecol">
+<DIV CLASS="wrapper"><DIV CLASS="block">
 <!--TOC section Data Storage-->
-<H2 CLASS="section"><!--SEC ANCHOR -->Data Storage</H2><!--SEC END --><DIV CLASS="block">
-<!--TOC paragraph -->
+<H2 CLASS="section"><!--SEC ANCHOR -->Data Storage</H2><!--SEC END --><!--TOC paragraph -->
 <H5 CLASS="paragraph"><!--SEC ANCHOR --></H5><!--SEC END --><P>
 We mainly using NoSQL products. In case that AP capabilities are necessary
 for our storage we use Riak. For CA capabilities we use VoltDB.
 We also maintain our own Amazon Dynamo implementation.
-</P></DIV></DIV>
-<DIV CLASS="threecol">
+</P></DIV><DIV CLASS="block">
 <!--TOC section Message Queues-->
-<H2 CLASS="section"><!--SEC ANCHOR -->Message Queues</H2><!--SEC END --><DIV CLASS="block">
-<!--TOC paragraph -->
+<H2 CLASS="section"><!--SEC ANCHOR -->Message Queues</H2><!--SEC END --><!--TOC paragraph -->
 <H5 CLASS="paragraph"><!--SEC ANCHOR --></H5><!--SEC END --><P>
 In cases where we need pure Erlang solution we use GProc as PubSub messaging.
 For language independent solutions we use RabbitMQ along with our library.
 In some projects based on ejabberd we use XMPP ejabberd extension for PubSub.
-</P></DIV></DIV>
-<DIV CLASS="threecol last">
+</P></DIV><DIV CLASS="block">
 <!--TOC section Serving Data-->
-<H2 CLASS="section"><!--SEC ANCHOR -->Serving Data</H2><!--SEC END --><DIV CLASS="block">
-<!--TOC paragraph -->
+<H2 CLASS="section"><!--SEC ANCHOR -->Serving Data</H2><!--SEC END --><!--TOC paragraph -->
 <H5 CLASS="paragraph"><!--SEC ANCHOR --></H5><!--SEC END --><P>
 We used to embed WebMachine/MochiWeb as web server and web framework.
 But currently we have sticked with Cowboy web server.
 For products which require pure TCP listeners and switchable protocols we use Ranch.
 For Web Framework and Comet we use Nitrogen.
 </P></DIV></DIV>
-</DIV>
 </DIV><DIV CLASS="clear">&#XA0;</DIV><DIV CLASS="nonselectedwrapper">
 <DIV CLASS="verywidecol">
 <!--TOC section Scalable Web and Gaming Platform-->
