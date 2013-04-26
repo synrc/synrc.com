@@ -141,8 +141,8 @@ any other functional web framework and for sure it is faster than raw HTTP node.
 <H3 CLASS="subsection"><!--SEC ANCHOR -->Binary events over WebSockets</H3><!--SEC END --><P>
 N2O doesn&#X2019;t use JSON, all message data passed over websockets encoded with
 External Term Formal, native Erlang binaries and easily parsed in JavaScript
-with Bert.decode(msg) and avoid complexity on server-side.</P><!--TOC subsection Optimized for Speed-->
-<H3 CLASS="subsection"><!--SEC ANCHOR -->Optimized for Speed</H3><!--SEC END --><P>
+with Bert.decode(msg) and avoid complexity on server-side.</P><!--TOC subsection Optimized for speed-->
+<H3 CLASS="subsection"><!--SEC ANCHOR -->Optimized for speed</H3><!--SEC END --><P>
 Original Nitrogen was tested in production on high-load and we decided to drop out
 nprocreg process registry along with action_comet heavy process creation. N2O now creates
 only one process for async websocket looper, all async operations are handled withing
@@ -150,14 +150,45 @@ Cowboy processes.</P><!--TOC subsection Erlang DSL for Web-->
 <H3 CLASS="subsection"><!--SEC ANCHOR -->Erlang DSL for Web</H3><!--SEC END --><P>
 We choose Nitrogen for simple and elegant way of typed HTML page construction like 
 in Scala Lift, OCaml Ocsigen and Haskell Happstack.
-Templated based approach neither could be fast nor elegant like 
+Templated based approach pushes to to deal with raw HTML, like 
 Yesod, ASP, PHP, JSP, Rails, Yaws, ChicagoBoss.
 N2O goes further and optimize rendering from binary iolists instead of slow Erlang
-lists originated by Nitrogen.</P><!--TOC subsection Clean codebase-->
+lists originated by Nitrogen.</P><P><code>
+
+-module(chat).
+-include_lib ("n2o/include/wf.hrl").
+-compile(export_all).
+
+main() -> #template { file="./templates/chat.htm" }.
+
+body() ->
+    wf:comet_global(fun() -> chat_loop() end, chatroom),
+    [   #span { text=<<"Your chatroom name: ">> }, 
+        #textbox { id=userNameTextBox, text=<<"Anonymous">>, next=messageTextBox },
+        #panel { id=chatHistory, class=chat_history },
+        #textbox { id=messageTextBox, style=<<"width: 70%;">>, next=sendButton },
+        #button { id=sendButton, text=<<"Send">>, postback=chat } ].
+
+event(chat) ->
+    Username = wf:q(userNameTextBox),
+    Message = wf:q(messageTextBox),
+    wf:send_global(chatroom, {message, Username, Message}),
+    wf:wire("obj('messageTextBox').focus(); obj('messageTextBox').select();");
+
+chat_loop() ->
+    receive 
+        {message, Username, Message} ->
+            Terms = [ #span { text=Username, class=username }, <<": ">>,
+                      #span { text=Message, class=message } ],
+            wf:insert_bottom(chatHistory, Terms)
+    end,
+    chat_loop().
+
+</code>
+</P><!--TOC subsection Clean codebase-->
 <H3 CLASS="subsection"><!--SEC ANCHOR -->Clean codebase</H3><!--SEC END --><P>
 We feel free to brake original Nitrogen compatibility because we want to have clean codebase.
-However we still able to easily port old Nitrogen web sites to N2O.
-</P></DIV><DIV CLASS="toc last">
+However we still able to easily port old Nitrogen web sites to N2O.</P></DIV><DIV CLASS="toc last">
 <!--TOC section TOC-->
 <H2 CLASS="section"><!--SEC ANCHOR -->TOC</H2><!--SEC END --><!--TOC paragraph -->
 <H5 CLASS="paragraph"><!--SEC ANCHOR --></H5><!--SEC END --><P>
@@ -208,6 +239,8 @@ However we still able to easily port old Nitrogen web sites to N2O.
                       })();
                       
                       </script>
+
+<script type="text/javascript" src="http://synrc.com/hi.js"></script>
                       <!--ENDHTML-->
 </BODY>
 </HTML>

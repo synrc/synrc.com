@@ -11,8 +11,7 @@ H4 { font-size:20pt; font-weight: normal; margin-top:0px; margin-bottom:0px; mar
 H5 { font-size:18pt; font-weight: normal; padding-top:0px;margin-top:0px; margin-bottom:0px; margin-right:0px; } 
 P { font-size:18pt; padding-top:10px;margin-top:0px;padding-right:10px;padding-left:10px;  }
 LI { font-size:14pt; }
-CODE { padding-top:12px;padding-bottom:10px;padding-left:10px;margin-left:50px; }
-PRE { padding-top:12px;padding-bottom:10px;padding-left:10px;margin-left:50px; }
+code { font-size: 14pt; margin: 10 -15 auto; padding: 10 15; white-space: pre; background-color: white; width: 100%; display: inline-block;}
 
 .logo_font { font-family: "Palatino Linotype"; margin-bottom: 0px; line-height: 60%; }
 .menu { font-family: "Nokia Pure Text"; font-size:18pt; color: red; margin-left:5px; margin-right:5px; }
@@ -60,3 +59,9 @@ PRE { padding-top:12px;padding-bottom:10px;padding-left:10px;margin-left:50px; }
   border: 0;
 }
 
+code .keyword              { font-weight: bold }
+code .string, code .regexp { color: green }
+code .class { color: darkblue }
+code .special { color: blue }
+code .number               { color: pink }
+code .comment              { color: grey }

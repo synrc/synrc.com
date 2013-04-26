@@ -44,7 +44,7 @@ N2O doesn't use JSON, all message data passed over websockets encoded with
 External Term Formal, native Erlang binaries and easily parsed in JavaScript
 with Bert.decode(msg) and avoid complexity on server-side.
 
-\subsection*{Optimized for Speed}
+\subsection*{Optimized for speed}
 Original Nitrogen was tested in production on high-load and we decided to drop out
 nprocreg process registry along with action_comet heavy process creation. N2O now creates
 only one process for async websocket looper, all async operations are handled withing
@@ -53,14 +53,18 @@ Cowboy processes.
 \subsection*{Erlang DSL for Web}
 We choose Nitrogen for simple and elegant way of typed HTML page construction like 
 in Scala Lift, OCaml Ocsigen and Haskell Happstack.
-Templated based approach neither could be fast nor elegant like 
+Templated based approach pushes to to deal with raw HTML, like 
 Yesod, ASP, PHP, JSP, Rails, Yaws, ChicagoBoss.
 N2O goes further and optimize rendering from binary iolists instead of slow Erlang
 lists originated by Nitrogen.
 
+%HEVEA \rawhtmlinput{templates/chat.htx}
+
 \subsection*{Clean codebase}
 We feel free to brake original Nitrogen compatibility because we want to have clean codebase.
 However we still able to easily port old Nitrogen web sites to N2O.
+
+
 %HEVEA \end{divstyle}
 
 %HEVEA \begin{divstyle}{toc last}
