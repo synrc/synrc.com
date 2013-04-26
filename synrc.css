@@ -11,15 +11,15 @@ H4 { font-size:20pt; font-weight: normal; margin-top:0px; margin-bottom:0px; mar
 H5 { font-size:18pt; font-weight: normal; padding-top:0px;margin-top:0px; margin-bottom:0px; margin-right:0px; } 
 P { font-size:18pt; padding-top:10px;margin-top:0px;padding-right:10px;padding-left:10px;  }
 LI { font-size:14pt; }
-code { font-size: 14pt; margin: 10 -15 auto; padding: 10 15; white-space: pre; background-color: white; width: 100%; display: inline-block;}
+code { font-size:12pt; margin: 10 -15 auto; padding: 10 15; white-space: pre; background-color: white; display: inline-block;}
 
 .logo_font { font-family: "Palatino Linotype"; margin-bottom: 0px; line-height: 60%; }
 .menu { font-family: "Nokia Pure Text"; font-size:18pt; color: red; margin-left:5px; margin-right:5px; }
 .menu:hover { font-size:18pt; color: red; margin-left:5px; margin-right:5px; }
 .block { height: 400px; width:400px; background-color: transparent; vertical-align: top; display: inline-block; text-align: left; }
-.wrapper     { max-width: 1200px; margin: 0 auto; text-align:center }
-.article     { max-width: 1300px; margin: 0 auto; }
-.articlecol  { max-width: 800px; float: left; padding-rigt: 20px; margin: 0 auto; text-align: auto; }
+.wrapper     { max-width: 1200px; margin: 0 auto; text-align:center; }
+.article     { margin: 0 auto; text-align: center;}
+.articlecol  { max-width: 850px; padding-rigt: 20px; margin: 0 auto; text-align: left; display: inline-block; }
 .verywidecol { max-width: 800px; margin-left: auto; margin-right: auto; text-align: normal; }
 .paper { background-color: #faf8f8; margin-top: 10px;}
 .white { background-color: white; margin-bottom: 10px; }
@@ -30,8 +30,8 @@ code { font-size: 14pt; margin: 10 -15 auto; padding: 10 15; white-space: pre; b
     background-repeat: repeat; }
 .nonselectedwrapper { width: max-width; margin-left: auto; margin-right:auto; overflow: hidden; }
 .widecol    { width: 40%; float: left; padding: 10px; }
-.smallcol   { width: 200px; float: left; padding-rigt: 20px; }
-.toc   { font-size: 16pt; width: 200px; float: left; padding-rigt: 20px; margin-left: 20px; }
+.smallcol   { width: 200px; padding: 50 0; text-align: left; display: inline-block; vertical-align: top;}
+.toc   { font-size: 16pt; width: 200px; text-align: left; padding-rigt: 20px; margin-left: 20px; display: inline-block; vertical-align: top;}
 .last { margin-right: 0; }
 .clear { clear: both; }
 
@@ -62,6 +62,7 @@ code { font-size: 14pt; margin: 10 -15 auto; padding: 10 15; white-space: pre; b
 code .keyword              { font-weight: bold }
 code .string, code .regexp { color: green }
 code .class { color: darkblue }
+code .record { color: purple }
 code .special { color: blue }
 code .number               { color: pink }
 code .comment              { color: grey }
