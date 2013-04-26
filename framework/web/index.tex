@@ -14,21 +14,23 @@
 %HEVEA \begin{divstyle}{nonselectedwrapper}
 %HEVEA \begin{divstyle}{article}
 %HEVEA \begin{divstyle}{smallcol}
+\paragraph{}
 \includeimage{../../images/n2o.png}
 %HEVEA \end{divstyle}
 %HEVEA \begin{divstyle}{articlecol}
 \section*{N2O: Fastest Web Framework for Erlang}
-\subsection*{Binary events over WebSockets}
 
+\subsection*{Highlights}
 Nitrogen 2 Optimized. Binary page construction.
 Binary data transfer. Websocket async interface for
 page updates. No processes spawn, works within
 Cowboy processes. Page render is several times faster than
-original Nitrogen.
+original Nitrogen. nprocreg was removed due to gap in design.
+
 
 \subsection*{Why Erlang in Web ?}
-We've measured all existing modern web frameworks with latests functional languges and Cowboy still the king.
-You can see raw HTTP performance of functional and C-like languages with concurrent primitives:
+We've measured all existing modern web frameworks with latest functional languages and Cowboy still the king.
+You can see raw HTTP performance of functional and C-like languages with concurrent primitives (Go, D and Rust):
 
 %HEVEA \rawhtmlinput{templates/webservers.htx}
 
@@ -36,6 +38,28 @@ We outperform full Nitrogen stack with only 2X downgrade of raw HTTP Cowboy
 performance thus rise rendering performance several times in compare to
 any other functional web framework and for sure it is faster than raw HTTP node.js performance.
 
+\subsection*{Binary events over WebSockets}
+N2O doesn't use JSON, all message data passed over websockets encoded with
+External Term Formal, native Erlang binaries and easily parsed in JavaScript
+with Bert.decode(msg) and avoid complexity on server-side.
+
+\subsection*{Optimized for Speed}
+Original Nitrogen was tested in production on high-load and we decided to drop out
+nprocreg process registry along with action_comet heavy process creation. N2O now creates
+only one process for async websocket looper, all async operations are handled withing
+Cowboy processes.
+
+\subsection*{Erlang DSL for Web}
+We choose Nitrogen for simple and elegant way of typed HTML page construction like 
+in Scala Lift, OCaml Ocsigen and Haskell Happstack.
+Templated based approach neither could be fast nor elegant like 
+Yesod, ASP, PHP, JSP, Rails, Yaws, ChicagoBoss.
+N2O goes further and optimize rendering from binary iolists instead of slow Erlang
+lists originated by Nitrogen.
+
+\subsection*{Clean codebase}
+We feel free to brake original Nitrogen compatibility because we want to have clean codebase.
+However we still able to easily port old Nitrogen web sites to N2O.
 %HEVEA \end{divstyle}
 
 %HEVEA \begin{divstyle}{toc last}

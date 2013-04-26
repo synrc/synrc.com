@@ -114,26 +114,49 @@ TD P{margin:0px;}
 <!--CUT DEF section 1 --><DIV CLASS="nonselectedwrapper">
 <DIV CLASS="article">
 <DIV CLASS="smallcol">
+<!--TOC paragraph -->
+<H5 CLASS="paragraph"><!--SEC ANCHOR --></H5><!--SEC END --><P>
 
 
 <IMG SRC="../../images/n2o.png">
 
 
-</DIV>
+</P></DIV>
 <DIV CLASS="articlecol">
 <!--TOC section N2O: Fastest Web Framework for Erlang-->
-<H2 CLASS="section"><!--SEC ANCHOR -->N2O: Fastest Web Framework for Erlang</H2><!--SEC END --><!--TOC subsection Binary events over WebSockets-->
-<H3 CLASS="subsection"><!--SEC ANCHOR -->Binary events over WebSockets</H3><!--SEC END --><P>Nitrogen 2 Optimized. Binary page construction.
+<H2 CLASS="section"><!--SEC ANCHOR -->N2O: Fastest Web Framework for Erlang</H2><!--SEC END --><!--TOC subsection Highlights-->
+<H3 CLASS="subsection"><!--SEC ANCHOR -->Highlights</H3><!--SEC END --><P>
+Nitrogen 2 Optimized. Binary page construction.
 Binary data transfer. Websocket async interface for
 page updates. No processes spawn, works within
 Cowboy processes. Page render is several times faster than
-original Nitrogen.</P><!--TOC subsection Why Erlang in Web ?-->
+original Nitrogen. nprocreg was removed due to gap in design.</P><!--TOC subsection Why Erlang in Web ?-->
 <H3 CLASS="subsection"><!--SEC ANCHOR -->Why Erlang in Web ?</H3><!--SEC END --><P>
-We&#X2019;ve measured all existing modern web frameworks with latests functional languges and Cowboy still the king.
-You can see raw HTTP performance of functional and C-like languages with concurrent primitives:</P><P><img src="http://synrc.com/lj/webcompare/connections.png" style="margin-left: -20px;background-color: #eeeeee;padding:20 20 20 20px;" width=720/>
+We&#X2019;ve measured all existing modern web frameworks with latest functional languages and Cowboy still the king.
+You can see raw HTTP performance of functional and C-like languages with concurrent primitives (Go, D and Rust):</P><P><img src="http://synrc.com/lj/webcompare/connections.png" style="margin-left: -20px;background-color: #eeeeee;padding:20 20 20 20px;" width=720/>
 </P><P>We outperform full Nitrogen stack with only 2X downgrade of raw HTTP Cowboy
 performance thus rise rendering performance several times in compare to
-any other functional web framework and for sure it is faster than raw HTTP node.js performance.</P></DIV><DIV CLASS="toc last">
+any other functional web framework and for sure it is faster than raw HTTP node.js performance.</P><!--TOC subsection Binary events over WebSockets-->
+<H3 CLASS="subsection"><!--SEC ANCHOR -->Binary events over WebSockets</H3><!--SEC END --><P>
+N2O doesn&#X2019;t use JSON, all message data passed over websockets encoded with
+External Term Formal, native Erlang binaries and easily parsed in JavaScript
+with Bert.decode(msg) and avoid complexity on server-side.</P><!--TOC subsection Optimized for Speed-->
+<H3 CLASS="subsection"><!--SEC ANCHOR -->Optimized for Speed</H3><!--SEC END --><P>
+Original Nitrogen was tested in production on high-load and we decided to drop out
+nprocreg process registry along with action_comet heavy process creation. N2O now creates
+only one process for async websocket looper, all async operations are handled withing
+Cowboy processes.</P><!--TOC subsection Erlang DSL for Web-->
+<H3 CLASS="subsection"><!--SEC ANCHOR -->Erlang DSL for Web</H3><!--SEC END --><P>
+We choose Nitrogen for simple and elegant way of typed HTML page construction like 
+in Scala Lift, OCaml Ocsigen and Haskell Happstack.
+Templated based approach neither could be fast nor elegant like 
+Yesod, ASP, PHP, JSP, Rails, Yaws, ChicagoBoss.
+N2O goes further and optimize rendering from binary iolists instead of slow Erlang
+lists originated by Nitrogen.</P><!--TOC subsection Clean codebase-->
+<H3 CLASS="subsection"><!--SEC ANCHOR -->Clean codebase</H3><!--SEC END --><P>
+We feel free to brake original Nitrogen compatibility because we want to have clean codebase.
+However we still able to easily port old Nitrogen web sites to N2O.
+</P></DIV><DIV CLASS="toc last">
 <!--TOC section TOC-->
 <H2 CLASS="section"><!--SEC ANCHOR -->TOC</H2><!--SEC END --><!--TOC paragraph -->
 <H5 CLASS="paragraph"><!--SEC ANCHOR --></H5><!--SEC END --><P>

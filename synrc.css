@@ -31,7 +31,7 @@ PRE { padding-top:12px;padding-bottom:10px;padding-left:10px;margin-left:50px; }
     background-repeat: repeat; }
 .nonselectedwrapper { width: max-width; margin-left: auto; margin-right:auto; overflow: hidden; }
 .widecol    { width: 40%; float: left; padding: 10px; }
-.smallcol   { width: 200px; height: 200px; float: left; padding-rigt: 20px; }
+.smallcol   { width: 200px; float: left; padding-rigt: 20px; }
 .toc   { font-size: 16pt; width: 200px; float: left; padding-rigt: 20px; margin-left: 20px; }
 .last { margin-right: 0; }
 .clear { clear: both; }
