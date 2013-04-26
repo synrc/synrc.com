@@ -133,7 +133,8 @@ Cowboy processes. Page render is several times faster than
 original Nitrogen. nprocreg was removed due to gap in design.</P><!--TOC subsection Why Erlang in Web ?-->
 <H3 CLASS="subsection"><!--SEC ANCHOR -->Why Erlang in Web ?</H3><!--SEC END --><P>
 We&#X2019;ve measured all existing modern web frameworks with latest functional languages and Cowboy still the king.
-You can see raw HTTP performance of functional and C-like languages with concurrent primitives (Go, D and Rust):</P><P><img src="http://synrc.com/lj/webcompare/connections.png" style="margin-left: -20px;background-color: #eeeeee;padding:20 20 20 20px;" width=720/>
+You can see raw HTTP performance of functional and C-like languages with concurrent primitives (Go, D and Rust)
+on VAIO Z notebook with i7640M processor:</P><P><img src="http://synrc.com/lj/webcompare/connections.png" style="margin-left: -20px;background-color: #eeeeee;padding:20 20 20 20px;" width=720/>
 </P><P>We outperform full Nitrogen stack with only 2X downgrade of raw HTTP Cowboy
 performance thus rise rendering performance several times in compare to
 any other functional web framework and for sure it is faster than raw HTTP node.js performance.</P><!--TOC subsection Binary events over WebSockets-->
