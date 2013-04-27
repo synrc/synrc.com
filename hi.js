@@ -7,7 +7,7 @@ var keywords = ('fun begin if else receive end case where').split(' '),
 var syntax = [
   ['comment', /(\/\*(?:[^*\n]|\*+[^\/*])*\*+\/)/g],
   ['comment', /(\%%[^\n]*)/g],
-  ['record', /(\#[^{]*)/g],
+  ['record', /(\#[^{']*)/g],
   ['string' , /("(?:(?!")[^\\\n]|\\.)*"|'(?:(?!')[^\\\n]|\\.)*')/g],
   ['regexp' , /(\/.+\/[mgi]*)(?!\s*\w)/g],
   ['class'  , /\b([A-Z][a-zA-Z]+)\b/g],

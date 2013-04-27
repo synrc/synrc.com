@@ -20,13 +20,12 @@
 %HEVEA \begin{divstyle}{articlecol}
 \section*{N2O: Fastest Web Framework for Erlang}
 
-\subsection*{Highlights}
+\subsection*{Purely WebSockets}
 Nitrogen 2 Optimized. Binary page construction.
 Binary data transfer. Websocket async interface for
 page updates. No processes spawn, works within
 Cowboy processes. Page render is several times faster than
-original Nitrogen. nprocreg was removed due to gap in design.
-
+original Nitrogen. 
 
 \subsection*{Why Erlang in Web ?}
 We've measured all existing modern web frameworks with latest functional languages and Cowboy still the king.
@@ -41,13 +40,13 @@ any other functional web framework and for sure it is faster than raw HTTP node.
 
 \subsection*{Binary events over WebSockets}
 N2O doesn't use JSON, all message data passed over websockets encoded with
-External Term Formal, native Erlang binaries and easily parsed in JavaScript
-with Bert.decode(msg) and avoid complexity on server-side.
+native Erlang External Term Format which is easily parsed in JavaScript
+with {\bf Bert.decode(msg)} and helps to avoid complexity on server-side.
 
 \subsection*{Optimized for speed}
-Original Nitrogen was tested in production on high-load and we decided to drop out
-nprocreg process registry along with action_comet heavy process creation. N2O now creates
-only one process for async websocket looper, all async operations are handled withing
+Original Nitrogen was tested in production under high-load and we decided to drop out
+{\bf nprocreg} process registry along with {\bf action_comet} heavy process creation. N2O now creates
+only one process for async websocket handler, all async operations are handled withing
 Cowboy processes.
 
 \subsection*{Erlang DSL for Web}
@@ -60,10 +59,15 @@ lists originated by Nitrogen.
 
 %HEVEA \rawhtmlinput{templates/chat.htx}
 
-\subsection*{Clean codebase}
+\subsection*{Clean codebase and pure render}
 We feel free to brake original Nitrogen compatibility because we want to have clean codebase.
-However we still able to easily port old Nitrogen web sites to N2O.
+However we still able to easily port old Nitrogen web sites to N2O. 
+E.g. we return back {\bf id} and {\bf class} semantics of HTML and removed {\bf html_id}.
+We simplify render without {\bf html_encode} which should be handled by application layer.
+{\bf nitrogen.js} originaly created by Rusty Klophaus for XHR was removed due to pure
+WebSocket nature of N2O and native jQuery handling.
 
+%HEVEA \rawhtmlinput{templates/n2o_render_sample.htx}
 
 %HEVEA \end{divstyle}
 

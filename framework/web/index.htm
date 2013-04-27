@@ -124,13 +124,13 @@ TD P{margin:0px;}
 </P></DIV>
 <DIV CLASS="articlecol">
 <!--TOC section N2O: Fastest Web Framework for Erlang-->
-<H2 CLASS="section"><!--SEC ANCHOR -->N2O: Fastest Web Framework for Erlang</H2><!--SEC END --><!--TOC subsection Highlights-->
-<H3 CLASS="subsection"><!--SEC ANCHOR -->Highlights</H3><!--SEC END --><P>
+<H2 CLASS="section"><!--SEC ANCHOR -->N2O: Fastest Web Framework for Erlang</H2><!--SEC END --><!--TOC subsection Purely WebSockets-->
+<H3 CLASS="subsection"><!--SEC ANCHOR -->Purely WebSockets</H3><!--SEC END --><P>
 Nitrogen 2 Optimized. Binary page construction.
 Binary data transfer. Websocket async interface for
 page updates. No processes spawn, works within
 Cowboy processes. Page render is several times faster than
-original Nitrogen. nprocreg was removed due to gap in design.</P><!--TOC subsection Why Erlang in Web ?-->
+original Nitrogen. </P><!--TOC subsection Why Erlang in Web ?-->
 <H3 CLASS="subsection"><!--SEC ANCHOR -->Why Erlang in Web ?</H3><!--SEC END --><P>
 We&#X2019;ve measured all existing modern web frameworks with latest functional languages and Cowboy still the king.
 You can see raw HTTP performance of functional and C-like languages with concurrent primitives (Go, D and Rust)
@@ -140,12 +140,12 @@ performance thus rise rendering performance several times in compare to
 any other functional web framework and for sure it is faster than raw HTTP node.js performance.</P><!--TOC subsection Binary events over WebSockets-->
 <H3 CLASS="subsection"><!--SEC ANCHOR -->Binary events over WebSockets</H3><!--SEC END --><P>
 N2O doesn&#X2019;t use JSON, all message data passed over websockets encoded with
-External Term Formal, native Erlang binaries and easily parsed in JavaScript
-with Bert.decode(msg) and avoid complexity on server-side.</P><!--TOC subsection Optimized for speed-->
+native Erlang External Term Format which is easily parsed in JavaScript
+with <B>Bert.decode(msg)</B> and helps to avoid complexity on server-side.</P><!--TOC subsection Optimized for speed-->
 <H3 CLASS="subsection"><!--SEC ANCHOR -->Optimized for speed</H3><!--SEC END --><P>
-Original Nitrogen was tested in production on high-load and we decided to drop out
-nprocreg process registry along with action_comet heavy process creation. N2O now creates
-only one process for async websocket looper, all async operations are handled withing
+Original Nitrogen was tested in production under high-load and we decided to drop out
+<B>nprocreg</B> process registry along with <B>action_comet</B> heavy process creation. N2O now creates
+only one process for async websocket handler, all async operations are handled withing
 Cowboy processes.</P><!--TOC subsection Erlang DSL for Web-->
 <H3 CLASS="subsection"><!--SEC ANCHOR -->Erlang DSL for Web</H3><!--SEC END --><P>
 We choose Nitrogen for simple and elegant way of typed HTML page construction like 
@@ -184,10 +184,23 @@ chat_loop() ->
     chat_loop().
 
 </code>
-</P><!--TOC subsection Clean codebase-->
-<H3 CLASS="subsection"><!--SEC ANCHOR -->Clean codebase</H3><!--SEC END --><P>
+</P><!--TOC subsection Clean codebase and pure render-->
+<H3 CLASS="subsection"><!--SEC ANCHOR -->Clean codebase and pure render</H3><!--SEC END --><P>
 We feel free to brake original Nitrogen compatibility because we want to have clean codebase.
-However we still able to easily port old Nitrogen web sites to N2O.</P></DIV><DIV CLASS="toc last">
+However we still able to easily port old Nitrogen web sites to N2O. 
+E.g. we return back <B>id</B> and <B>class</B> semantics of HTML and removed <B>html_id</B>.
+We simplify render without <B>html_encode</B> which should be handled by application layer.
+<B>nitrogen.js</B> originaly created by Rusty Klophaus for XHR was removed due to pure
+WebSocket nature of N2O and native jQuery handling.</P><P><code>
+
+&lt;input id="sendButton" type="button" class="sendButton button" value="Send"/&gt;
+&lt;script&gt;$('#sendButton').bind('click',function anonymous(event) { 
+      ws.send(Bert.encodebuf({source: Bert.binary('sendButton'), 
+                              pickle: Bert.binary('R2LH0INQAAAAWXicy2DKYEt...'),
+                              x: Bert.binary('undefined')}));});&lt;/script&gt;
+
+</code>
+</P></DIV><DIV CLASS="toc last">
 <!--TOC section TOC-->
 <H2 CLASS="section"><!--SEC ANCHOR -->TOC</H2><!--SEC END --><!--TOC paragraph -->
 <H5 CLASS="paragraph"><!--SEC ANCHOR --></H5><!--SEC END --><P>
