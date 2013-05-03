@@ -19,7 +19,7 @@ code { font-size:12pt; margin: 10 -15 auto; padding: 10 15; white-space: pre; ba
 .block { height: 400px; width:400px; background-color: transparent; vertical-align: top; display: inline-block; text-align: left; }
 .wrapper     { max-width: 1200px; margin: 0 auto; text-align:center; }
 .article     { margin: 0 auto; text-align: center;}
-.articlecol  { max-width: 850px; padding-rigt: 20px; margin: 0 auto; text-align: left; display: inline-block; }
+.articlecol  { max-width: 850px; min-width: 850px; padding-rigt: 20px; margin: 0 auto; text-align: left; display: inline-block; }
 .verywidecol { max-width: 800px; margin-left: auto; margin-right: auto; text-align: normal; }
 .paper { background-color: #faf8f8; margin-top: 10px;}
 .white { background-color: white; margin-bottom: 10px; }

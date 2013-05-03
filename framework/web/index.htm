@@ -2,8 +2,7 @@
             "http://www.w3.org/TR/REC-html40/loose.dtd">
 <HTML>
 <HEAD>
-<TITLE>N2O
-</TITLE>
+<TITLE>index</TITLE>
 
 <META http-equiv="Content-Type" content="text/html; charset=US-ASCII">
 <META name="GENERATOR" content="hevea 1.10">
@@ -46,13 +45,13 @@ TD P{margin:0px;}
 </STYLE>
 <LINK REL=STYLESHEET type="text/css" HREF="../../synrc.css">
 
-<meta name="Author" content="Maxim Sokhatsky">
-<meta http-equiv="expires" content="Tue, 01 Jan 2020 1:00:00 GMT" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=IE10,chrome=1" />
-</HEAD>
+  <meta name="Author" content="Maxim Sokhatsky">
+  <meta http-equiv="expires" content="Tue, 01 Jan 2020 1:00:00 GMT" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=IE10,chrome=1" />
+  </HEAD>
 <BODY >
-<!--HEVEA command line is: /usr/bin/hevea framework/web/index.tex -o framework/web/index.htm -->
+<!--HEVEA command line is: /usr/bin/hevea index.tex -o index.htm -->
 <!--HTMLHEAD-->
 
 <div class="nonselectedwrapper white" style="padding: 30 10 0 0;margin: 0 0 -12 0;">
@@ -118,19 +117,18 @@ TD P{margin:0px;}
 <H5 CLASS="paragraph"><!--SEC ANCHOR --></H5><!--SEC END --><P>
 
 
-<IMG SRC="../../images/n2o.png">
+<IMG SRC="images/n2o.png">
 
 
 </P></DIV>
 <DIV CLASS="articlecol">
-<!--TOC section N2O: Fastest Web Framework for Erlang-->
-<H2 CLASS="section"><!--SEC ANCHOR -->N2O: Fastest Web Framework for Erlang</H2><!--SEC END --><!--TOC subsection Purely WebSockets-->
-<H3 CLASS="subsection"><!--SEC ANCHOR -->Purely WebSockets</H3><!--SEC END --><P>
+<!--TOC section N2O: Fastest Web Framework for Erlang Cookbook-->
+<H2 CLASS="section"><!--SEC ANCHOR -->N2O: Fastest Web Framework for Erlang Cookbook</H2><!--SEC END --><!--TOC subsection WebSockets Transport-->
+<H3 CLASS="subsection"><!--SEC ANCHOR -->WebSockets Transport</H3><!--SEC END --><P>
 Nitrogen 2 Optimized. Binary page construction.
-Binary data transfer. Websocket async interface for
-page updates. No processes spawn, works within
-Cowboy processes. Page render is several times faster than
-original Nitrogen. </P><!--TOC subsection Why Erlang in Web ?-->
+Binary data transfer. All events wire over WebSocket channel.
+Minumum processes spawn, works within Cowboy processes. 
+Page render is several times faster than original Nitrogen.</P><!--TOC subsection Why Erlang in Web ?-->
 <H3 CLASS="subsection"><!--SEC ANCHOR -->Why Erlang in Web ?</H3><!--SEC END --><P>
 We&#X2019;ve measured all existing modern web frameworks with latest functional languages and Cowboy still the king.
 You can see raw HTTP performance of functional and C-like languages with concurrent primitives (Go, D and Rust)
@@ -141,7 +139,8 @@ any other functional web framework and for sure it is faster than raw HTTP node.
 <H3 CLASS="subsection"><!--SEC ANCHOR -->Binary events over WebSockets</H3><!--SEC END --><P>
 N2O doesn&#X2019;t use JSON, all message data passed over websockets encoded with
 native Erlang External Term Format which is easily parsed in JavaScript
-with <B>Bert.decode(msg)</B> and helps to avoid complexity on server-side.</P><!--TOC subsection Optimized for speed-->
+with <B>Bert.decode(msg)</B> and helps to avoid complexity on server-side.
+Please refer to <A HREF="http://bert-rpc.org">http://bert-rpc.org</A> for more information.</P><!--TOC subsection Optimized for speed-->
 <H3 CLASS="subsection"><!--SEC ANCHOR -->Optimized for speed</H3><!--SEC END --><P>
 Original Nitrogen was tested in production under high-load and we decided to drop out
 <B>nprocreg</B> process registry along with <B>action_comet</B> heavy process creation. N2O now creates
@@ -154,32 +153,42 @@ Templated based approach pushes to to deal with raw HTML, like
 Yesod, ASP, PHP, JSP, Rails, Yaws, ChicagoBoss.
 N2O goes further and optimize rendering from binary iolists instead of slow Erlang
 lists originated by Nitrogen.</P><P><code>
--module(chat).
--include_lib ("n2o/include/wf.hrl").
+-module(index).
 -compile(export_all).
+-include_lib("n2o/include/wf.hrl").
 
-main() -> #template { file="./templates/chat.htm" }.
+main() -> #template { file= code:priv_dir(web) ++ "/templates/index.html" }.
+title() -> <<"N2O">>.
 
-body() ->
-    wf:comet_global(fun() -> chat_loop() end, chatroom),
-    [   #span { text=<<"Your chatroom name: ">> }, 
-        #textbox { id=userNameTextBox, text=<<"Anonymous">>, next=messageTextBox },
-        #panel { id=chatHistory, class=chat_history },
-        #textbox { id=messageTextBox, style=<<"width: 70%;">>, next=sendButton },
-        #button { id=sendButton, text=<<"Send">>, postback=chat } ].
+body() -> %% area of http handler
+    {ok,Pid} = wf:comet(fun() -> chat_loop() end),
+  [ #span { text= <<"Your chatroom name: ">> }, 
+    #textbox { id=userName, text= <<"Anonymous">> },
+    #panel { id=chatHistory, class=chat_history },
+    #textbox { id=message },
+    #button { id=sendButton, text= <<"Send">>, postback={chat,Pid}, source=[userName,message] },
+    #panel { id=status } ].
 
-event(chat) ->
-    Username = wf:q(userNameTextBox),
-    Message = wf:q(messageTextBox),
-    wf:send_global(chatroom, {message, Username, Message}),
-    wf:wire("obj('messageTextBox').focus(); obj('messageTextBox').select();");
+event({chat,Pid}) -> %% area of websocket handler
+    Username = wf:q(userName),
+    Message = wf:q(message),
+    Terms = [ #span { text="Message sent" }, #br{} ],
+    wf:insert_bottom(chatHistory, Terms),
+    wf:wire("$('#message').focus(); $('#message').select(); "),
+    wf:reg_pool(room),
+    Pid ! {message, Username, Message};
 
-chat_loop() ->
+event(Event) -> error_logger:info_msg("Event: ~p", [Event]).
+
+chat_loop() -> %% background worker ala comet
     receive 
         {message, Username, Message} ->
-            Terms = [ #span { text=Username, class=username }, <<": ">>,
-                      #span { text=Message, class=message } ],
-            wf:insert_bottom(chatHistory, Terms)
+            Terms = [ #span { text=Username }, ": ",
+                      #span { text=Message }, #br{} ],
+            wf:insert_bottom(chatHistory, Terms),
+            wf:wire("$('#chatHistory').scrollTop = $('#chatHistory').scrollHeight;"),
+            wf:flush(room); %% we flush to websocket process by key
+        Unknown -> error_logger:info_msg("Unknown Looper Message ~p",[Unknown])
     end,
     chat_loop().
 
@@ -216,19 +225,20 @@ WebSocket nature of N2O and native jQuery handling.</P><P><code>
     <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
     <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
     
-</P></DIV><DIV CLASS="toc last">
-<!--TOC section TOC-->
+</P></DIV><DIV CLASS="toc last"><!--TOC section TOC-->
 <H2 CLASS="section"><!--SEC ANCHOR -->TOC</H2><!--SEC END --><!--TOC paragraph -->
 <H5 CLASS="paragraph"><!--SEC ANCHOR --></H5><!--SEC END --><P>
-<A HREF="">Overview</A> <BR>
+<A HREF="http://synrc.com/framework/web/">Overview</A> <BR>
 
-<A HREF="">1. Architecture</A> <BR>
+<A HREF="http://synrc.com/framework/web/setup.htm">1. Setup</A> <BR>
 
-<A HREF="">2. Rendering</A> <BR>
+<A HREF="http://synrc.com/framework/web/elements.htm">2. Elements</A> <BR>
 
-<A HREF="">3. Push</A> <BR>
+<A HREF="http://synrc.com/framework/web/actions.htm">3. Actions</A> <BR>
 
-<A HREF="">4. Samples</A> <BR>
+<A HREF="http://synrc.com/framework/web/api.htm">4. Core API</A> <BR>
+
+<A HREF="http://synrc.com/framework/web/extending.htm">5. Extending</A> <BR>
 
 </P></DIV></DIV>
 </DIV><DIV CLASS="clear">&#XA0;</DIV><!--CUT END -->

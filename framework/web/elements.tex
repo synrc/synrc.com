@@ -1,0 +1,54 @@
+\documentclass[11pt]{article}
+\usepackage{ifthen}
+\usepackage{graphicx}
+\usepackage{cite}
+\usepackage{hevea}
+\input{../../synrc.hva}
+%HEVEA \loadcssfile{../../synrc.css}
+
+\begin{document}
+
+\title{N2O: Elements}
+\author{Maxim Sokhatsky}
+
+%HEVEA \begin{divstyle}{nonselectedwrapper}
+%HEVEA \begin{divstyle}{article}
+%HEVEA \begin{divstyle}{smallcol}
+\paragraph{}
+\includeimage{../../images/n2o.png}
+%HEVEA \end{divstyle}
+%HEVEA \begin{divstyle}{articlecol}
+\section*{N2O: Erlang DSL for HTML Elements}
+
+\subsection*{Page construction}
+In N2O you usually don't use HTML at all. Instead you provide page definition
+in form of Erlang records and thus page is typed and checked on compilation time.
+This is a classical CGI approach for compiled pages which give us benefits like
+compilation-time error-checking and great performance.
+
+\subsection*{Core Elements}
+Core set of HTML elements includes br, headings, links, tables, lists and image.
+
+\subsection*{Form Elements}
+Standard active elements which provide some information to server
+and gather user input are button, radio and check buttons, text box and area and password box.
+
+\subsection*{Advanced Elements}
+Please refer to \footahref{http://synrc.com/framework/web/extending.htm}{Chapter 5. Extending N2O Elements}.
+
+%HEVEA \rawhtmlinput{templates/disqus.htx}
+
+%HEVEA \end{divstyle}
+
+%HEVEA \begin{divstyle}{toc last}
+
+\input{toc}
+
+%HEVEA \end{divstyle}
+
+%HEVEA \end{divstyle}
+%HEVEA \end{divstyle}
+%HEVEA \begin{divstyle}{clear}{~}\end{divstyle}
+
+\end{document}
+

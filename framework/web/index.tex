@@ -3,29 +3,27 @@
 \usepackage{graphicx}
 \usepackage{cite}
 \usepackage{hevea}
-\input{synrc.hva}
+\input{../../synrc.hva}
 %HEVEA \loadcssfile{../../synrc.css}
-
 \begin{document}
 
-\title{N2O}
+\title{N2O: Overview}
 \author{Maxim Sokhatsky}
 
 %HEVEA \begin{divstyle}{nonselectedwrapper}
 %HEVEA \begin{divstyle}{article}
 %HEVEA \begin{divstyle}{smallcol}
 \paragraph{}
-\includeimage{../../images/n2o.png}
+\includeimage{images/n2o.png}
 %HEVEA \end{divstyle}
 %HEVEA \begin{divstyle}{articlecol}
-\section*{N2O: Fastest Web Framework for Erlang}
+\section*{N2O: Fastest Web Framework for Erlang Cookbook}
 
-\subsection*{Purely WebSockets}
+\subsection*{WebSockets Transport}
 Nitrogen 2 Optimized. Binary page construction.
-Binary data transfer. Websocket async interface for
-page updates. No processes spawn, works within
-Cowboy processes. Page render is several times faster than
-original Nitrogen. 
+Binary data transfer. All events wire over WebSocket channel.
+Minumum processes spawn, works within Cowboy processes. 
+Page render is several times faster than original Nitrogen.
 
 \subsection*{Why Erlang in Web ?}
 We've measured all existing modern web frameworks with latest functional languages and Cowboy still the king.
@@ -42,10 +40,12 @@ any other functional web framework and for sure it is faster than raw HTTP node.
 N2O doesn't use JSON, all message data passed over websockets encoded with
 native Erlang External Term Format which is easily parsed in JavaScript
 with {\bf Bert.decode(msg)} and helps to avoid complexity on server-side.
+Please refer to \footahref{http://bert-rpc.org}{http://bert-rpc.org} for more information.
+
 
 \subsection*{Optimized for speed}
 Original Nitrogen was tested in production under high-load and we decided to drop out
-{\bf nprocreg} process registry along with {\bf action_comet} heavy process creation. N2O now creates
+{\bf nprocreg} process registry along with {\bf{action\_comet}} heavy process creation. N2O now creates
 only one process for async websocket handler, all async operations are handled withing
 Cowboy processes.
 
@@ -62,8 +62,8 @@ lists originated by Nitrogen.
 \subsection*{Clean codebase and pure render}
 We feel free to brake original Nitrogen compatibility because we want to have clean codebase.
 However we still able to easily port old Nitrogen web sites to N2O. 
-E.g. we return back {\bf id} and {\bf class} semantics of HTML and removed {\bf html_id}.
-We simplify render without {\bf html_encode} which should be handled by application layer.
+E.g. we return back {\bf id} and {\bf class} semantics of HTML and removed {\bf html\_id}.
+We simplify render without {\bf html\_encode} which should be handled by application layer.
 {\bf nitrogen.js} originaly created by Rusty Klophaus for XHR was removed due to pure
 WebSocket nature of N2O and native jQuery handling.
 
@@ -74,13 +74,9 @@ WebSocket nature of N2O and native jQuery handling.
 %HEVEA \end{divstyle}
 
 %HEVEA \begin{divstyle}{toc last}
-\section*{TOC}
-\paragraph{}
-\footahref{}{Overview} \@br
-\footahref{}{1. Architecture} \@br
-\footahref{}{2. Rendering} \@br
-\footahref{}{3. Push} \@br
-\footahref{}{4. Samples} \@br
+
+\input{toc}
+
 %HEVEA \end{divstyle}
 
 %HEVEA \end{divstyle}

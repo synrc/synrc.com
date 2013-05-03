@@ -1,0 +1,53 @@
+\documentclass[11pt]{article}
+\usepackage{ifthen}
+\usepackage{graphicx}
+\usepackage{cite}
+\usepackage{makeidx}
+\usepackage{hevea}
+\input{../../synrc.hva}
+%HEVEA \loadcssfile{../../synrc.css}
+
+\begin{document}
+
+\title{N2O: API}
+\author{Maxim Sokhatsky}
+
+%HEVEA \begin{divstyle}{nonselectedwrapper}
+%HEVEA \begin{divstyle}{article}
+%HEVEA \begin{divstyle}{smallcol}
+\paragraph{}
+\includeimage{../../images/n2o.png}
+%HEVEA \end{divstyle}
+%HEVEA \begin{divstyle}{articlecol}
+\section*{N2O: Core API}
+
+\subsection*{Update DOM \bf{wf:update}}
+Issue #update{} action that would be activated at nearest render on server.
+It generates jQuery DOM update script and sends its back to client for evaluation.
+
+\subsection*{Wire JavaScript \bf{wf:wire}}
+Issue #wire{} action that wrap direct JavaScript for evaluation on the client.
+
+\subsection*{Spawn Async Processes \bf{wf:comet}}
+Creates Erlang processes that talks with primary page process by sending messages.
+For redirect all updates and wire actions to page process {\bf wf:flush} should be called.
+
+\subsection*{Parse URL and Context parameters \bf{wf:q}}
+For extraction url parameters or read from process context.
+
+%HEVEA \rawhtmlinput{templates/disqus.htx}
+
+%HEVEA \end{divstyle}
+
+%HEVEA \begin{divstyle}{toc last}
+
+\input{toc}
+
+%HEVEA \end{divstyle}
+
+%HEVEA \end{divstyle}
+%HEVEA \end{divstyle}
+%HEVEA \begin{divstyle}{clear}{~}\end{divstyle}
+
+\end{document}
+

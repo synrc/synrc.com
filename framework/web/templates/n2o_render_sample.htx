@@ -1,0 +1,9 @@
+<code>
+
+&lt;input id="sendButton" type="button" class="sendButton button" value="Send"/&gt;
+&lt;script&gt;$('#sendButton').bind('click',function anonymous(event) { 
+      ws.send(Bert.encodebuf({source: Bert.binary('sendButton'), 
+                              pickle: Bert.binary('R2LH0INQAAAAWXicy2DKYEt...'),
+                              x: Bert.binary('undefined')}));});&lt;/script&gt;
+
+</code>

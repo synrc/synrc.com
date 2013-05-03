@@ -1,0 +1,9 @@
+<code>
+    $ git clone https://github.com/5HT/n2o-release
+    $ cd n2o-release
+    $ rebar get-deps
+    $ rebar compile
+    $ cd rels/web && rebar -f generate
+    $ node/bin/node console
+
+</code>
