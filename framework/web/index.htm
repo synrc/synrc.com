@@ -152,7 +152,11 @@ in Scala Lift, OCaml Ocsigen and Haskell Happstack.
 Templated based approach pushes to to deal with raw HTML, like 
 Yesod, ASP, PHP, JSP, Rails, Yaws, ChicagoBoss.
 N2O goes further and optimize rendering from binary iolists instead of slow Erlang
-lists originated by Nitrogen.</P><P><code>
+lists originated by Nitrogen.
+</P><!--TOC paragraph -->
+<H5 CLASS="paragraph"><!--SEC ANCHOR --></H5><!--SEC END --><P>
+Main quality of N2O is fast prototyping. We also use it in large scale projects.
+You can see complete chat example working through WebSockets:</P><P><code>
 -module(index).
 -compile(export_all).
 -include_lib("n2o/include/wf.hrl").
@@ -193,7 +197,7 @@ chat_loop() -> %% background worker ala comet
     chat_loop().
 
 </code>
-</P><!--TOC subsection Clean codebase and pure render-->
+</P><P>And try to perform it in your favourite language/framework.</P><!--TOC subsection Clean codebase and pure render-->
 <H3 CLASS="subsection"><!--SEC ANCHOR -->Clean codebase and pure render</H3><!--SEC END --><P>
 We feel free to brake original Nitrogen compatibility because we want to have clean codebase.
 However we still able to easily port old Nitrogen web sites to N2O. 
