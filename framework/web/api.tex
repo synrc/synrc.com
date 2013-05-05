@@ -22,8 +22,8 @@
 \section*{N2O: Core API}
 
 \subsection*{Update DOM \bf{wf:update}}
-Issue #update{} action that would be activated at nearest render on server.
-It generates jQuery DOM update script and sends its back to client for evaluation.
+Issue #update{} action that would be activated at nearest render.
+It generates jQuery DOM update script and evaluates it.
 
 \subsection*{Wire JavaScript \bf{wf:wire}}
 Issue #wire{} action that wrap direct JavaScript for evaluation on the client.
@@ -34,6 +34,16 @@ For redirect all updates and wire actions to page process {\bf wf:flush} should 
 
 \subsection*{Parse URL and Context parameters \bf{wf:q}}
 For extraction url parameters or read from process context.
+
+\subsection*{Redirect to or send a new page \bf{wf:redirect}}
+For login redirecting use {\bf{wf:redirect_to_login}} and {\bf{wf:redirect_from_login}}.
+It saves login context information and send it in first packet after establishing WebSocket connection.
+
+\subsection*{GProc process registration {\bf wf:reg} and {\bf wf:send}}
+For managing pools of async processes N2O drops nprocreg and goes with GProc proceess registry.
+Now you can control allocation of processes yourself,
+and {\bf wf:comet\_global} and {\bf wf:send_global} are obsolete.
+You assign a process to pool with {\bf wf:reg}.
 
 %HEVEA \rawhtmlinput{templates/disqus.htx}
 

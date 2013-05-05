@@ -19,11 +19,25 @@
 %HEVEA \begin{divstyle}{articlecol}
 \section*{N2O: Fastest Web Framework for Erlang Cookbook}
 
-\subsection*{WebSockets Transport}
-Nitrogen 2 Optimized. Binary page construction.
-Binary data transfer. All events wire over WebSocket channel.
-Minumum processes spawn, works within Cowboy processes. 
-Page render is several times faster than original Nitrogen.
+\subsection*{WebSockets transport}
+Nitrogen 2 Optimized, N2O was started as first Erlang Web Framework
+that fully relies on WebSocket transport. Great compatibility with Nitrogen
+was retained and many improvements was made like binary page construction,
+binary data transfer, all events wire over WebSocket channel, minumum process spawns,
+works within Cowboy processes. Page render in N2O is several times faster
+than in original Nitrogen.
+
+\subsection*{Binary events over WebSockets}
+N2O doesn't use JSON, all message data passed over websockets encoded with
+native Erlang External Term Format which is easily parsed in JavaScript
+with {\bf Bert.decode(msg)} and helps to avoid complexity on server-side.
+Please refer to \footahref{http://bert-rpc.org}{http://bert-rpc.org} for more information.
+
+\subsection*{Optimized for speed}
+Original Nitrogen was tested in production under high-load and we decided to drop out
+{\bf nprocreg} process registry along with {\bf{action\_comet}} heavy process creation. N2O now creates
+only one process for async websocket handler, all async operations are handled withing
+Cowboy processes.
 
 \subsection*{Why Erlang in Web ?}
 We've measured all existing modern web frameworks with latest functional languages and Cowboy still the king.
@@ -36,20 +50,19 @@ We outperform full Nitrogen stack with only 2X downgrade of raw HTTP Cowboy
 performance thus rise rendering performance several times in compare to
 any other functional web framework and for sure it is faster than raw HTTP node.js performance.
 
-\subsection*{Binary events over WebSockets}
-N2O doesn't use JSON, all message data passed over websockets encoded with
-native Erlang External Term Format which is easily parsed in JavaScript
-with {\bf Bert.decode(msg)} and helps to avoid complexity on server-side.
-Please refer to \footahref{http://bert-rpc.org}{http://bert-rpc.org} for more information.
+\subsection*{Sending HTML5 over wire?}
+N2O do that. However we agree that most advanced technology is to send
+only domain data over network (JSON or Binary) like you do with Chaplin/CoffeScript and Meteor/JavaScript.
+However Meteor is Node-based. And with ``everything on client'' model would not be
+possible to prototype services easily with all your Erlang infrastructure --- you
+should prototype a protocol always along with client.
 
+So in case you system is built aroung Erlang infrastructure, N2O is best
+choice you could made for fast prototyping, easy of use, maintanance of codebase, etc.
+Despite HTML5 is tranfered over wire, you will have at hands access
+to all your erlang services directly.
 
-\subsection*{Optimized for speed}
-Original Nitrogen was tested in production under high-load and we decided to drop out
-{\bf nprocreg} process registry along with {\bf{action\_comet}} heavy process creation. N2O now creates
-only one process for async websocket handler, all async operations are handled withing
-Cowboy processes.
-
-\subsection*{Erlang DSL for Web}
+\subsection*{Templates vs DSL}
 We choose Nitrogen for simple and elegant way of typed HTML page construction like 
 in Scala Lift, OCaml Ocsigen and Haskell Happstack.
 Templated based approach pushes to to deal with raw HTML, like 

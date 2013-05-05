@@ -123,19 +123,14 @@ TD P{margin:0px;}
 </P></DIV>
 <DIV CLASS="articlecol">
 <!--TOC section N2O: Fastest Web Framework for Erlang Cookbook-->
-<H2 CLASS="section"><!--SEC ANCHOR -->N2O: Fastest Web Framework for Erlang Cookbook</H2><!--SEC END --><!--TOC subsection WebSockets Transport-->
-<H3 CLASS="subsection"><!--SEC ANCHOR -->WebSockets Transport</H3><!--SEC END --><P>
-Nitrogen 2 Optimized. Binary page construction.
-Binary data transfer. All events wire over WebSocket channel.
-Minumum processes spawn, works within Cowboy processes. 
-Page render is several times faster than original Nitrogen.</P><!--TOC subsection Why Erlang in Web ?-->
-<H3 CLASS="subsection"><!--SEC ANCHOR -->Why Erlang in Web ?</H3><!--SEC END --><P>
-We&#X2019;ve measured all existing modern web frameworks with latest functional languages and Cowboy still the king.
-You can see raw HTTP performance of functional and C-like languages with concurrent primitives (Go, D and Rust)
-on VAIO Z notebook with i7640M processor:</P><P><img src="http://synrc.com/lj/webcompare/connections.png" style="margin-left: -20px;background-color: #eeeeee;padding:20 20 20 20px;" width=720/>
-</P><P>We outperform full Nitrogen stack with only 2X downgrade of raw HTTP Cowboy
-performance thus rise rendering performance several times in compare to
-any other functional web framework and for sure it is faster than raw HTTP node.js performance.</P><!--TOC subsection Binary events over WebSockets-->
+<H2 CLASS="section"><!--SEC ANCHOR -->N2O: Fastest Web Framework for Erlang Cookbook</H2><!--SEC END --><!--TOC subsection WebSockets transport-->
+<H3 CLASS="subsection"><!--SEC ANCHOR -->WebSockets transport</H3><!--SEC END --><P>
+Nitrogen 2 Optimized, N2O was started as first Erlang Web Framework
+that fully relies on WebSocket transport. Great compatibility with Nitrogen
+was retained and many improvements was made like binary page construction,
+binary data transfer, all events wire over WebSocket channel, minumum process spawns,
+works within Cowboy processes. Page render in N2O is several times faster
+than in original Nitrogen.</P><!--TOC subsection Binary events over WebSockets-->
 <H3 CLASS="subsection"><!--SEC ANCHOR -->Binary events over WebSockets</H3><!--SEC END --><P>
 N2O doesn&#X2019;t use JSON, all message data passed over websockets encoded with
 native Erlang External Term Format which is easily parsed in JavaScript
@@ -145,8 +140,24 @@ Please refer to <A HREF="http://bert-rpc.org">http://bert-rpc.org</A> for more i
 Original Nitrogen was tested in production under high-load and we decided to drop out
 <B>nprocreg</B> process registry along with <B>action_comet</B> heavy process creation. N2O now creates
 only one process for async websocket handler, all async operations are handled withing
-Cowboy processes.</P><!--TOC subsection Erlang DSL for Web-->
-<H3 CLASS="subsection"><!--SEC ANCHOR -->Erlang DSL for Web</H3><!--SEC END --><P>
+Cowboy processes.</P><!--TOC subsection Why Erlang in Web ?-->
+<H3 CLASS="subsection"><!--SEC ANCHOR -->Why Erlang in Web ?</H3><!--SEC END --><P>
+We&#X2019;ve measured all existing modern web frameworks with latest functional languages and Cowboy still the king.
+You can see raw HTTP performance of functional and C-like languages with concurrent primitives (Go, D and Rust)
+on VAIO Z notebook with i7640M processor:</P><P><img src="http://synrc.com/lj/webcompare/connections.png" style="margin-left: -20px;background-color: #eeeeee;padding:20 20 20 20px;" width=720/>
+</P><P>We outperform full Nitrogen stack with only 2X downgrade of raw HTTP Cowboy
+performance thus rise rendering performance several times in compare to
+any other functional web framework and for sure it is faster than raw HTTP node.js performance.</P><!--TOC subsection Sending HTML5 over wire?-->
+<H3 CLASS="subsection"><!--SEC ANCHOR -->Sending HTML5 over wire?</H3><!--SEC END --><P>
+N2O do that. However we agree that most advanced technology is to send
+only domain data over network (JSON or Binary) like you do with Chaplin/CoffeScript and Meteor/JavaScript.
+However Meteor is Node-based. And with &#X201C;everything on client&#X201D; model would not be
+possible to prototype services easily with all your Erlang infrastructure &#X2014; you
+should prototype a protocol always along with client.</P><P>So in case you system is built aroung Erlang infrastructure, N2O is best
+choice you could made for fast prototyping, easy of use, maintanance of codebase, etc.
+Despite HTML5 is tranfered over wire, you will have at hands access
+to all your erlang services directly.</P><!--TOC subsection Templates vs DSL-->
+<H3 CLASS="subsection"><!--SEC ANCHOR -->Templates vs DSL</H3><!--SEC END --><P>
 We choose Nitrogen for simple and elegant way of typed HTML page construction like 
 in Scala Lift, OCaml Ocsigen and Haskell Happstack.
 Templated based approach pushes to to deal with raw HTML, like 
@@ -179,7 +190,7 @@ event({chat,Pid}) -> %% area of websocket handler
     Terms = [ #span { text="Message sent" }, #br{} ],
     wf:insert_bottom(chatHistory, Terms),
     wf:wire("$('#message').focus(); $('#message').select(); "),
-    wf:reg_pool(room),
+    wf:reg(room),
     Pid ! {message, Username, Message};
 
 event(Event) -> error_logger:info_msg("Event: ~p", [Event]).

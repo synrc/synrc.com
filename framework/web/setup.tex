@@ -33,6 +33,18 @@ is bundled as Erlang release.
 
 Now you can try: \footahref{http://localhost:8000}{http://localhost:8000}.
 
+
+\subsection*{Start yourself depending N2O core}
+If you want start with depending raw N2O core you shou should 
+define N2O http and websocket cowboy handlers and cowboy static
+handler in Cowboy dispatch parameter:
+
+%HEVEA \rawhtmlinput{templates/supervisor.htx}
+
+And put minimal {\bf index.erl} page:
+
+%HEVEA \rawhtmlinput{templates/index-minimal.htx}
+
 \subsection*{Developer scripts for Sync}
 For developing we use some script which is needed for linking source
 directories with release lib directories and also link BERT, N2O and jQuery javascript.
@@ -42,12 +54,6 @@ After making release you should perform:
 
 Now you can edit site sources and {\bf sync} will automaticaly recompile
 and reload modules in release.
-
-\subsection*{Supervisor code}
-By default for bootstrap you should define N2O http and websocket cowboy handlers
-and cowboy static handler:
-
-%HEVEA \rawhtmlinput{templates/supervisor.htx}
 
 %HEVEA \rawhtmlinput{templates/disqus.htx}
 
