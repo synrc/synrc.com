@@ -27,8 +27,9 @@ This is a classical CGI approach for compiled pages which give us benefits like
 compilation-time error-checking and great server-side render.
 
 \subsection*{Control Elements}
-Nitrogen elements by its nature are control elements primitive which
-you use in Nitrogen DSL Langugae. They are rendered in HTML and JavaScript.
+Nitrogen elements by its nature are control elements primitives which
+you use in Nitrogen page constructon Erlang-based DSL Langugae. 
+They are rendered in HTML and JavaScript.
 All behavior of elements are controlled on server side and all communications
 betwee browser and server are done on WebSockets channel.
 So no POST request and HTML forms are used.
@@ -36,6 +37,12 @@ So no POST request and HTML forms are used.
 \subsection*{Static Elements: HTML}
 Core set of HTML elements includes br, headings, links, tables, lists and image.
 Static elements will fransform during rendering to HTML only.
+\paragraph{}
+Also static elemetns could be used
+as placeholders for future HTML elements of parts of page.
+Usually statick means not using postback parameter:
+
+%HEVEA \rawhtmlinput{templates/static-elements.htx}
 
 \subsection*{Active Elements: HTML and JavaScript}
 There also form elements which provide some information to server
@@ -44,7 +51,14 @@ Form elements usually allow to assign some Erlang postback handler to define act
 Such elements will tranform to HTML and JavaScript. I.e. that during render some
 Actions are being placed in pipeline which will be rendered as JavaScript part and executed in Browser.
 
+%HEVEA \rawhtmlinput{templates/active-elements.htx}
 
+When postback specified i.e. that in page module should be defined an event
+callback which will handle that postback info:
+
+%HEVEA \rawhtmlinput{templates/active-elements-postback.htx}
+
+You specify in element definition the list of {\bf source} elements which provides data to event callback.
 
 \subsection*{Creating Your own Elements}
 Please refer to \footahref{http://synrc.com/framework/web/extending.htm}{Chapter 5. Extending N2O Elements}.

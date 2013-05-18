@@ -1,0 +1,26 @@
+<code>
+    {ok,Pid} = wf:comet(fun() -> chat_loop() end),
+    #button { id=sendButton, text= <<"Send">>, postback={chat,Pid}, source=[userName,message] },
+
+</code>
+
+<p>This produces HTML</p>
+
+<code>
+    &lt;input value="Chat" id="sendButton" type="button"/&gt;
+
+</code>
+
+<p>and JavaScript</p>
+
+<code>
+    $('#sendButton').bind('click',function anonymous(event) { 
+        ws.send(Bert.encodebuf({source: Bert.binary('sendButton'), 
+                                pickle: Bert.binary('g1AAAINQAAAAdX...'),
+                                extras: Bert.binary('undefined'),
+                                linked: [ Bert.tuple(Bert.atom('userName'), utf8.toByteArray($('#userName').val())),
+                                          Bert.tuple(Bert.atom('message'), utf8.toByteArray($('#message').val()))]
+                               }));
+    });
+
+</code>

@@ -1,0 +1,7 @@
+<code>
+event({chat,Pid}) -> %% area of websocket handler
+    Username = wf:q(userName),
+    Message = wf:q(message),   
+    wf:log("Username ~p Message ~p",[Username,Message]).
+
+</code>
