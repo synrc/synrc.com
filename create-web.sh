@@ -42,6 +42,7 @@ create_hevea "research/io/index"
 cd framework/web
 create_hevea "index"
 create_hevea "setup"
+create_hevea "architecture"
 create_hevea "elements"
 create_hevea "actions"
 create_hevea "api"

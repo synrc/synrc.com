@@ -18,22 +18,35 @@
 \includeimage{../../images/n2o.png}
 %HEVEA \end{divstyle}
 %HEVEA \begin{divstyle}{articlecol}
-\section*{N2O: Erlang DSL for HTML Elements}
+\section*{N2O: Elements}
 
 \subsection*{Page construction}
 In N2O you usually don't use HTML at all. Instead you provide page definition
 in form of Erlang records and thus page is typed and checked on compilation time.
 This is a classical CGI approach for compiled pages which give us benefits like
-compilation-time error-checking and great performance.
+compilation-time error-checking and great server-side render.
 
-\subsection*{Core Elements}
+\subsection*{Control Elements}
+Nitrogen elements by its nature are control elements primitive which
+you use in Nitrogen DSL Langugae. They are rendered in HTML and JavaScript.
+All behavior of elements are controlled on server side and all communications
+betwee browser and server are done on WebSockets channel.
+So no POST request and HTML forms are used.
+
+\subsection*{Static Elements: HTML}
 Core set of HTML elements includes br, headings, links, tables, lists and image.
+Static elements will fransform during rendering to HTML only.
 
-\subsection*{Form Elements}
-Standard active elements which provide some information to server
+\subsection*{Active Elements: HTML and JavaScript}
+There also form elements which provide some information to server
 and gather user input are button, radio and check buttons, text box and area and password box.
+Form elements usually allow to assign some Erlang postback handler to define action behavior.
+Such elements will tranform to HTML and JavaScript. I.e. that during render some
+Actions are being placed in pipeline which will be rendered as JavaScript part and executed in Browser.
 
-\subsection*{Advanced Elements}
+
+
+\subsection*{Creating Your own Elements}
 Please refer to \footahref{http://synrc.com/framework/web/extending.htm}{Chapter 5. Extending N2O Elements}.
 
 %HEVEA \rawhtmlinput{templates/disqus.htx}

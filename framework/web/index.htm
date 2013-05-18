@@ -122,9 +122,9 @@ TD P{margin:0px;}
 
 </P></DIV>
 <DIV CLASS="articlecol">
-<!--TOC section N2O: Fastest Web Framework for Erlang Cookbook-->
-<H2 CLASS="section"><!--SEC ANCHOR -->N2O: Fastest Web Framework for Erlang Cookbook</H2><!--SEC END --><!--TOC subsection WebSockets transport-->
-<H3 CLASS="subsection"><!--SEC ANCHOR -->WebSockets transport</H3><!--SEC END --><P>
+<!--TOC section N2O: Erlang Web Framework on WebSockets-->
+<H2 CLASS="section"><!--SEC ANCHOR -->N2O: Erlang Web Framework on WebSockets</H2><!--SEC END --><!--TOC subsection WebSockets transport-->
+<H3 CLASS="subsection"><!--SEC ANCHOR -->WebSockets transport</H3><!--SEC END --><P> 
 Nitrogen 2 Optimized, N2O was started as first Erlang Web Framework
 that fully relies on WebSocket transport. Great compatibility with Nitrogen
 was retained and many improvements was made like binary page construction,
@@ -147,27 +147,48 @@ You can see raw HTTP performance of functional and C-like languages with concurr
 on VAIO Z notebook with i7640M processor:</P><P><img src="http://synrc.com/lj/webcompare/connections.png" style="margin-left: -20px;background-color: #eeeeee;padding:20 20 20 20px;" width=720/>
 </P><P>We outperform full Nitrogen stack with only 2X downgrade of raw HTTP Cowboy
 performance thus rise rendering performance several times in compare to
-any other functional web framework and for sure it is faster than raw HTTP node.js performance.</P><!--TOC subsection Sending HTML5 over wire?-->
-<H3 CLASS="subsection"><!--SEC ANCHOR -->Sending HTML5 over wire?</H3><!--SEC END --><P>
-N2O do that. However we agree that most advanced technology is to send
-only domain data over network (JSON or Binary) like you do with Chaplin/CoffeScript and Meteor/JavaScript.
-However Meteor is Node-based. And with &#X201C;everything on client&#X201D; model would not be
-possible to prototype services easily with all your Erlang infrastructure &#X2014; you
-should prototype a protocol always along with client.</P><P>So in case you system is built aroung Erlang infrastructure, N2O is best
-choice you could made for fast prototyping, easy of use, maintanance of codebase, etc.
-Despite HTML5 is tranfered over wire, you will have at hands access
-to all your erlang services directly.</P><!--TOC subsection Templates vs DSL-->
-<H3 CLASS="subsection"><!--SEC ANCHOR -->Templates vs DSL</H3><!--SEC END --><P>
-We choose Nitrogen for simple and elegant way of typed HTML page construction like 
-in Scala Lift, OCaml Ocsigen and Haskell Happstack.
-Templated based approach pushes to to deal with raw HTML, like 
-Yesod, ASP, PHP, JSP, Rails, Yaws, ChicagoBoss.
-N2O goes further and optimize rendering from binary iolists instead of slow Erlang
-lists originated by Nitrogen.
+any other functional web framework and for sure it is faster than raw HTTP node.js performance.</P><!--TOC subsection Desktop and Mobile Applications-->
+<H3 CLASS="subsection"><!--SEC ANCHOR -->Desktop and Mobile Applications</H3><!--SEC END --><P>
+There is two approaches to design communications between client/server.
+The first is called data-on-wire, where only data transfers on channel
+through through RPC, REST in form of JSON, XML or Binary. All rendering
+in first type are being made on client side. This calls rich client and
+mostly fits for desktop. The examples are Chaplin/CoffeScript and Meteor/JavaScript.
 </P><!--TOC paragraph -->
 <H5 CLASS="paragraph"><!--SEC ANCHOR --></H5><!--SEC END --><P>
-Main quality of N2O is fast prototyping. We also use it in large scale projects.
-You can see complete chat example working through WebSockets:</P><P><code>
+The other approach is to send server prerendered part of pages and javascript,
+and on client side only replace HTML parts and execute JavaScript. This approach
+better fits for mobile applications, where client doesn&#X2019;t have much resources.
+</P><!--TOC paragraph -->
+<H5 CLASS="paragraph"><!--SEC ANCHOR --></H5><!--SEC END --><P>
+Using N2O you could create both types of applications: using N2O REST framework
+for first type of application based on Cowboy REST features alogn with DTL
+templates for initial HTML renderings, and also Nitrogen DSL-based approach
+to model parts of the pages as widgets and control elements thanks to rich
+Nitrogen elements collections provided by Nitrogen community.
+</P><!--TOC paragraph -->
+<H5 CLASS="paragraph"><!--SEC ANCHOR --></H5><!--SEC END --><P>
+o, in cases when your system is built around Erlang infrastructure, N2O
+is the best choice that you could made for fast prototyping, simpicity
+of use, codebase maintanance, etc. Despite HTML tranfer over the wire,
+you will still have access to all your erlang services directly.</P><!--TOC subsection Templates vs DSL-->
+<H3 CLASS="subsection"><!--SEC ANCHOR -->Templates vs DSL</H3><!--SEC END --><P>
+We liked Nitrogen for simple and elegant way of typed HTML page
+construction with DSL, based on host language as its done in Scala Lift,
+OCaml Ocsigen and Haskell Blaze. It helps to develop reusable control
+elements and components in host language.
+</P><!--TOC paragraph -->
+<H5 CLASS="paragraph"><!--SEC ANCHOR --></H5><!--SEC END --><P>
+Template-based approach pushes programmers to deal with raw HTML,
+like Yesod, ASP, PHP, JSP, Rails, Yaws, ChicagoBoss. It help to
+define the page in terms of top-level consist of controls, playholders
+and panels. So N2O combine both approaches.
+</P><!--TOC paragraph -->
+<H5 CLASS="paragraph"><!--SEC ANCHOR --></H5><!--SEC END --><P>
+Main N2O attraction is the fast prototyping. We also use it in large
+scale projects. Here is the complete Web Chat example working with
+WebSockets that demonstrate the use of Templates, DSL and async
+interprocesses communications:</P><P><code>
 -module(index).
 -compile(export_all).
 -include_lib("n2o/include/wf.hrl").
@@ -210,12 +231,17 @@ chat_loop() -> %% background worker ala comet
 </code>
 </P><P>And try to perform it in your favourite language/framework.</P><!--TOC subsection Clean codebase and pure render-->
 <H3 CLASS="subsection"><!--SEC ANCHOR -->Clean codebase and pure render</H3><!--SEC END --><P>
-We feel free to brake original Nitrogen compatibility because we want to have clean codebase.
-However we still able to easily port old Nitrogen web sites to N2O. 
-E.g. we return back <B>id</B> and <B>class</B> semantics of HTML and removed <B>html_id</B>.
-We simplify render without <B>html_encode</B> which should be handled by application layer.
-<B>nitrogen.js</B> originaly created by Rusty Klophaus for XHR was removed due to pure
-WebSocket nature of N2O and native jQuery handling.</P><P><code>
+We feel free to brake some of the compatability with the original
+Nitrogen project, mostly because we want to have a clean codebase
+and fastest speed. However, it is still possible to easily port
+Nitrogen web sites to N2O. E.g. N2O returns id and class semantics
+of HTML and not html_id. We simplified rendering by not using
+html_encode which should be handled by the application layer.
+Nitrogen.js that was originally created by Rusty Klophaus,
+has been removed due to pure simplified WebSocket nature of N2O.
+We added XHR fallback handling through Extend Bullet by Loc Hoguin.
+We dropped simple_bridge and optimize N2O on every level for you
+to be sure its fastest way to develop application on erlang.</P><P><code>
 
 &lt;input id="sendButton" type="button" class="sendButton button" value="Send"/&gt;
 &lt;script&gt;$('#sendButton').bind('click',function anonymous(event) { 
@@ -247,13 +273,15 @@ WebSocket nature of N2O and native jQuery handling.</P><P><code>
 
 <A HREF="http://synrc.com/framework/web/setup.htm">1. Setup</A> <BR>
 
-<A HREF="http://synrc.com/framework/web/elements.htm">2. Elements</A> <BR>
+<A HREF="http://synrc.com/framework/web/architecture.htm">2. Architecture</A> <BR>
 
-<A HREF="http://synrc.com/framework/web/actions.htm">3. Actions</A> <BR>
+<A HREF="http://synrc.com/framework/web/elements.htm">3. Elements</A> <BR>
 
-<A HREF="http://synrc.com/framework/web/api.htm">4. Core API</A> <BR>
+<A HREF="http://synrc.com/framework/web/actions.htm">4. Actions</A> <BR>
 
-<A HREF="http://synrc.com/framework/web/extending.htm">5. Extending</A> <BR>
+<A HREF="http://synrc.com/framework/web/api.htm">5. Core API</A> <BR>
+
+<A HREF="http://synrc.com/framework/web/extending.htm">6. Extending</A> <BR>
 
 </P></DIV></DIV>
 </DIV><DIV CLASS="clear">&#XA0;</DIV><!--CUT END -->

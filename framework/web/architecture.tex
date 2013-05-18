@@ -1,0 +1,65 @@
+\documentclass[11pt]{article}
+\usepackage{ifthen}
+\usepackage{graphicx}
+\usepackage{cite}
+\usepackage{hevea}
+\input{../../synrc.hva}
+%HEVEA \loadcssfile{../../synrc.css}
+
+\begin{document}
+
+\title{N2O: Architecture}
+\author{Maxim Sokhatsky}
+
+%HEVEA \begin{divstyle}{nonselectedwrapper}
+%HEVEA \begin{divstyle}{article}
+%HEVEA \begin{divstyle}{smallcol}
+\paragraph{}
+\includeimage{../../images/n2o.png}
+%HEVEA \end{divstyle}
+%HEVEA \begin{divstyle}{articlecol}
+\section*{N2O: Architecture}
+
+\subsection*{Reduced Latency}
+The secret of reduced latency is simple. We try to deliver rendered HTML
+as soon as possible and render JavaScript only after WebSocket initialization.
+We use thre steps and three erlang processes for achieve that.
+
+%HEVEA \rawhtmlinput{templates/page-lifetime.htx}
+
+\subsection*{HTTP process}
+In first HTTP handler we render only HTML and all created by
+the way action is stored in created transition process.
+
+%HEVEA \rawhtmlinput{templates/transition.htx}
+
+HTTP handler dies immediately after terurning HTML. Transition
+process waits for retrival request from future WebSocket handler.
+
+\subsection*{Transition process}
+Just after receiving HTML browser initiates WebSocket connection
+and WebSocket handler arise. After returning actions transition
+process dies and from now on WebSocket handler stay alone.
+So initial phase done.
+
+\subsection*{WebSocket process}
+After that through WebSocket channel all event comes from
+browser to server and handler by N2O, who renders elements
+to HTML and actions to JavaScript.
+
+%HEVEA \rawhtmlinput{templates/disqus.htx}
+
+%HEVEA \end{divstyle}
+
+%HEVEA \begin{divstyle}{toc last}
+
+\input{toc}
+
+%HEVEA \end{divstyle}
+
+%HEVEA \end{divstyle}
+%HEVEA \end{divstyle}
+%HEVEA \begin{divstyle}{clear}{~}\end{divstyle}
+
+\end{document}
+

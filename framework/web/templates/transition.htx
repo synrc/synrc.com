@@ -1,0 +1,4 @@
+<code>
+  transition(Actions) -> receive {'N2O',Pid} -> Pid ! Actions end.
+
+</code>
