@@ -21,44 +21,42 @@
 \section*{N2O: Elements}
 
 \subsection*{Page construction}
-In N2O you usually don't use HTML at all. Instead you provide page definition
-in form of Erlang records and thus page is typed and checked on compilation time.
-This is a classical CGI approach for compiled pages which give us benefits like
-compilation-time error-checking and great server-side render.
+With N2O you usually don't use HTML at all. Instead you define you page
+in the form of Erlang records and thus page is typed and checked at compilation time.
+This is a classical CGI approach for compiled pages and it gives us benefits like
+compilation-time error-checking and great server-side rendering.
 
 \subsection*{Control Elements}
-Nitrogen elements by its nature are control elements primitives which
-you use in Nitrogen page constructon Erlang-based DSL Langugae. 
-They are rendered in HTML and JavaScript.
+Nitrogen elements by their nature are control elements primitives
+that you use for Nitrogen page constructon in Erlang-based DSL Langugae.
+They are rendered into HTML and JavaScript.
 All behavior of elements are controlled on server side and all communications
-betwee browser and server are done on WebSockets channel.
-So no POST request and HTML forms are used.
+between browser and server are done via WebSocket channels.
+So no POST requests and HTML forms are used.
 
 \subsection*{Static Elements: HTML}
-Core set of HTML elements includes br, headings, links, tables, lists and image.
-Static elements will fransform during rendering to HTML only.
+The core set of HTML elements includes br, headings, links, tables, lists and image.
+Static elements will be transfored into HTML during rendering.
 \paragraph{}
-Also static elemetns could be used
-as placeholders for future HTML elements of parts of page.
-Usually statick means not using postback parameter:
+Also static elements could be used as placeholders for other HTML elements.
+Usually ``static'' means elements that don't use postback parameter:
 
 %HEVEA \rawhtmlinput{templates/static-elements.htx}
 
 \subsection*{Active Elements: HTML and JavaScript}
-There also form elements which provide some information to server
-and gather user input are button, radio and check buttons, text box and area and password box.
-Form elements usually allow to assign some Erlang postback handler to define action behavior.
-Such elements will tranform to HTML and JavaScript. I.e. that during render some
-Actions are being placed in pipeline which will be rendered as JavaScript part and executed in Browser.
+There are also form elements which provide some information for the server
+and gather user input:  button, radio and check buttons, text box area and password box.
+Form elements usually allow to assign some Erlang postback handler to specify action behavior.
+Such elements are tranformed into HTML and JavaScript. I.e. during rendering some
+Actions are converted into JavaScript and sent to and executed in the Browser.
 
 %HEVEA \rawhtmlinput{templates/active-elements.htx}
 
-When postback specified i.e. that in page module should be defined an event
-callback which will handle that postback info:
+When postback action is specified the page module should include a callback which will handle that postback info:
 
 %HEVEA \rawhtmlinput{templates/active-elements-postback.htx}
 
-You specify in element definition the list of {\bf source} elements which provides data to event callback.
+You specify in element definition the list of {\bf source} elements that provide data to event callback.
 
 \subsection*{Creating Your own Elements}
 Please refer to \footahref{http://synrc.com/framework/web/extending.htm}{Chapter 5. Extending N2O Elements}.

@@ -25,7 +25,7 @@ To run N2O sites you need Erlang R14 or higher and basho rebar installed.
 N2O works on Windows, Mac and Linux.
 
 \subsection*{Kickstart Bootstrap}
-To try N2O you need just fetch from Github and build. We don't use
+To try N2O you just need to fetch it from Github and build. We don't use
 fancy scripts so building process is OTP compatible: bootstrap site
 is bundled as Erlang release.
 
@@ -34,21 +34,20 @@ is bundled as Erlang release.
 Now you can try: \footahref{http://localhost:8000}{http://localhost:8000}.
 
 
-\subsection*{Start yourself depending N2O core}
-If you want start with depending raw N2O core you shou should 
-define N2O http and websocket cowboy handlers and cowboy static
+\subsection*{Add dependency on N2O core}
+If you want start using raw N2O core you can define N2O http and websocket handlers and cowboy static
 handler in Cowboy dispatch parameter:
 
 %HEVEA \rawhtmlinput{templates/supervisor.htx}
 
-And put minimal {\bf index.erl} page:
+And add a minimal {\bf index.erl} page:
 
 %HEVEA \rawhtmlinput{templates/index-minimal.htx}
 
 \subsection*{Developer scripts for Sync}
-For developing we use some script which is needed for linking source
+During development we use some scripts which are needed for linking source
 directories with release lib directories and also link BERT, N2O and jQuery javascript.
-After making release you should perform:
+After making release you should run:
 
 %HEVEA \rawhtmlinput{templates/devscripts.htx}
 

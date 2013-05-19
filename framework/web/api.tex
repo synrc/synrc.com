@@ -22,28 +22,28 @@
 \section*{N2O: Core API}
 
 \subsection*{Update DOM \bf{wf:update}}
-Issue #update{} action that would be activated at nearest render.
+Issue #update{} action for an element.
 It generates jQuery DOM update script and evaluates it.
 
 \subsection*{Wire JavaScript \bf{wf:wire}}
-Issue #wire{} action that wrap direct JavaScript for evaluation on the client.
+Issue #wire{} action that sends JavaScript for evaluation on the client.
 
 \subsection*{Spawn Async Processes \bf{wf:comet}}
-Creates Erlang processes that talks with primary page process by sending messages.
+Creates Erlang processes that talks to primary page process by sending messages.
 For redirect all updates and wire actions to page process {\bf wf:flush} should be called.
 
 \subsection*{Parse URL and Context parameters \bf{wf:q}}
-For extraction url parameters or read from process context.
+For extraction url parameters or reads from process context.
 
 \subsection*{Redirect to or send a new page \bf{wf:redirect}}
 For login redirecting use {\bf{wf:redirect_to_login}} and {\bf{wf:redirect_from_login}}.
-It saves login context information and send it in first packet after establishing WebSocket connection.
+It saves login context information and sends it in first packet after establishing WebSocket connection.
 
 \subsection*{GProc process registration {\bf wf:reg} and {\bf wf:send}}
-For managing pools of async processes N2O drops nprocreg and goes with GProc proceess registry.
+For managing pools of async processes N2O uses GProc process registry.
 Now you can control allocation of processes yourself,
 and {\bf wf:comet\_global} and {\bf wf:send_global} are obsolete.
-You assign a process to pool with {\bf wf:reg}.
+You can assign a process to the pool with {\bf wf:reg}.
 
 %HEVEA \rawhtmlinput{templates/disqus.htx}
 

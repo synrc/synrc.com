@@ -28,23 +28,22 @@ We use three steps and three erlang processes for achieve that.
 %HEVEA \rawhtmlinput{templates/page-lifetime.htx}
 
 \subsection*{HTTP process}
-In first HTTP handler we render only HTML and all created by
-the way action is stored in created transition process.
+In the first HTTP handler we only render HTML and all created javascript actions are stored in transition process.
 
 %HEVEA \rawhtmlinput{templates/transition.htx}
 
-HTTP handler dies immediately after terurning HTML. Transition
-process waits for retrival request from future WebSocket handler.
+HTTP handler dies immediately after returning HTML. Transition process
+waits for request from WebSocket handler.
 
 \subsection*{Transition process}
 Just after receiving HTML browser initiates WebSocket connection
-and WebSocket handler arise. After returning actions transition
-process dies and from now on WebSocket handler stay alone.
-So initial phase done.
+and this starts WebSocket handler on the server. After returning
+javascript actions transition process dies and only WebSocket handler stays.
+At this point initialization phase is done.
 
 \subsection*{WebSocket process}
-After that through WebSocket channel all event comes from
-browser to server and handler by N2O, who renders elements
+After that all client / server communication is done via WebSocket channel.
+All events that come from the browser are handeled by N2O, which renders elements
 to HTML and actions to JavaScript.
 
 %HEVEA \rawhtmlinput{templates/disqus.htx}
