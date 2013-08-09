@@ -35,9 +35,9 @@
         }
 
         if(page_name == 'github.htm'){
-            document.write('<td width=20%> <div class="menu">Github</div> </td>');
+            document.write('<td width=20%> <div class="menu">Apps</div> </td>');
         }else{
-            document.write('<td width=20%> <div class="menu"><a href="http://synrc.com/github.htm">Github</a></div> </td>');
+            document.write('<td width=20%> <div class="menu"><a href="http://synrc.com/github.htm">Apps</a></div> </td>');
         }
 
         if(page_name == 'feedback.htm'){

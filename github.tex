@@ -13,6 +13,26 @@
 %HEVEA \begin{divstyle}{selectedwrapper}
 %HEVEA \begin{divstyle}{wrapper}
 
+
+%HEVEA \begin{divstyle}{block}
+\section*{Data Framework}
+\paragraph{}
+KVS is Key-Value Storage Data Framework that provide high-level API for handling
+social data like Users, Feeds, Comments, etc. It is designed with sequential consistency in mind.
+
+More: \footahref{http://synrc.github.io/kvs/}{synrc.github.io/kvs}
+%HEVEA \end{divstyle}
+
+%HEVEA \begin{divstyle}{block}
+\section*{Message Queue Library}
+\paragraph{}
+MQS is RabbitMQ client library that handles conections, channels,
+subscriptions has its own routing interface that you can use for building
+sophisticated subscriptions topology. It also supports RPC over MQ.
+
+More: \footahref{http://synrc.github.io/mqs/}{synrc.github.io/mqs}
+%HEVEA \end{divstyle}
+
 %HEVEA \begin{divstyle}{block}
 \section*{\footahref{http://synrc.com/framework/web}{Web Framework}}
 \paragraph{}
@@ -20,7 +40,17 @@ Nitrogen 2 Optimized. Binary page construction. Binary data transfer.
 Websocket async interface for page updates. No processes spawn, works
 within Cowboy processes. Page render is 2X faster than original Nitrogen.
 
-Sources: \footahref{https://github.com/5HT/n2o}{framework/web}
+More: \footahref{http://synrc.github.io/n2o/}{synrc.github.io/n2o}
+%HEVEA \end{divstyle}
+
+%HEVEA \begin{divstyle}{block}
+\section*{Feed Server}
+\paragraph{}
+Feed Server is node of user workers region. It handles all MQ
+requests for write operations for user's data and other APIs.
+Also it acts as distributed cache for user feeds and other list chains.
+
+More: \footahref{http://synrc.github.io/feed_server/}{synrc.github.io/feed_server}
 %HEVEA \end{divstyle}
 
 %HEVEA \begin{divstyle}{block}
@@ -30,28 +60,7 @@ In aestetic of HAL 9000 Web Site application to monitor Synrc clusters.
 Supports extendable set of plugins to display information. See Showcase for details.
 Also look at snmp_agent application that you should embedd in you services.
 
-Sources: \footahref{https://github.com/kakaranet/monitor}{framework/snmp}
-%HEVEA \end{divstyle}
-
-%HEVEA \begin{divstyle}{block}
-\section*{White Rabbit}
-\paragraph{}
-White Rabbit is RabbitMQ client library that handles conections, channels,
-subscriptions has its own routing interface that you can use for building
-sophisticated subscriptions topology. It also supports RPC over MQ.
-
-Sources: \footahref{https://github.com/kakaranet/white_rabbit}{client/white_rabbit}
-%HEVEA \end{divstyle}
-
-
-%HEVEA \begin{divstyle}{block}
-\section*{Feed Server}
-\paragraph{}
-Distributed social feed/subscription service that can act as high level Pub/Sub
-and Key-Value storage server for you applications. It is cloud ready and has
-three interfaces: AMQP, XMPP and REST.
-
-Sources: not yet available
+More: \footahref{https://github.com/kakaranet/monitor}{framework/snmp}
 %HEVEA \end{divstyle}
 
 %HEVEA \begin{divstyle}{block}
@@ -62,25 +71,16 @@ millions online user requests.
 In its core as most of LDAP servers Synrc Directory is based on
 key-value distributed data store, DHT.
 
-Sources: \footahref{https://github.com/synrc/directory-server}{server/directory}
+More: \footahref{http://synrc.github.io/directory_server/}{synrc.github.io/directory_server}
 %HEVEA \end{divstyle}
 
-%HEVEA \begin{divstyle}{block}
-\section*{Search Server}
-\paragraph{}
-Serach Server is solr Erlang replacement that is based on Riak indexes
-and provide Full-text search capabilities and page ranking. Designed for small
-libraries.
-
-Sources: not yet available
-%HEVEA \end{divstyle}
 
 %HEVEA \begin{divstyle}{block}
 \section*{Category Theory}
 \paragraph{}
 Here is a set of Books on Category Theory, Dependent Types, Lambda and Process Calculus.
 
-Sources: \footahref{http://synrc.com/publications/cat}{publications/cat}
+More: \footahref{http://synrc.com/publications/cat}{publications/cat}
 %HEVEA \end{divstyle}
 
 %HEVEA \begin{divstyle}{block}

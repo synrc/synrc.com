@@ -1,9 +1,11 @@
 <code>
-    $ git clone https://github.com/5HT/n2o-release
-    $ cd n2o-release
+    $ git clone https://github.com/5HT/n2o
+    $ cd n2o/samples
     $ rebar get-deps
     $ rebar compile
-    $ cd rels/web && rebar -f generate
-    $ node/bin/node console
+    $ ./nitrogen_static.sh
+    $ ./release.sh
+    $ ./release_sync.sh
+    $ ./start.sh
 
 </code>

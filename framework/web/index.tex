@@ -19,6 +19,9 @@
 %HEVEA \begin{divstyle}{articlecol}
 \section*{N2O: Erlang Web Framework on WebSockets}
 
+%HEVEA \rawhtmlinput{templates/slides.htx}
+
+
 \subsection*{WebSockets transport}
 Nitrogen 2 Optimized, N2O was started as the first Erlang Web Framework
 that fully relies on WebSocket transport. Great compatibility with Nitrogen
@@ -102,7 +105,7 @@ html_encode which should be handled by the application layer.
 Nitrogen.js that was originally created by Rusty Klophaus,
 was removed because of pure WebSocket nature of N2O which does not
 require XHR helper methods on the client. We added XHR fallback
-handling by using 'Bullet' library written by Loc Hoguin.
+handling by using 'Bullet' library written by Loic Hoguin.
 We also dropped simple_bridge and optimized N2O at every level to
 archive the maximum performance and simplicity. We hope you will enjoy
 using N2O and we are confident that it is the most productive way to

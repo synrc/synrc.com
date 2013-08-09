@@ -21,6 +21,8 @@ create_page client/sync/windows/index
 create_page client/chat/haiku/index
 create_page beos/beos_collection
 create_page news/erlang2013kiev
+create_page news/kievfprog2013
+create_page news/hotcode2013
 create_page news/index
 create_page research/io/doc/overview
 create_page research/io/doc/object
