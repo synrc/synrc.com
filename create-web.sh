@@ -32,6 +32,7 @@ create_page research/io/doc/primitives
 
 create_hevea()
 {
+        echo `pwd`
 	hevea $1.tex -o $1.htm
 }
 
@@ -40,7 +41,9 @@ create_hevea "feedback"
 create_hevea "research"
 create_hevea "labs"
 create_hevea "github"
-create_hevea "research/io/index"
+cd research/io
+create_hevea "index"
+cd -
 cd framework/web
 create_hevea "index"
 create_hevea "setup"
@@ -48,7 +51,7 @@ create_hevea "architecture"
 create_hevea "elements"
 create_hevea "actions"
 create_hevea "api"
-create_hevea "extending"
-cd ../../
-create_hevea "framework/snmp/index"
-create_hevea "beos/beos"
+create_hevea "macros"
+cd -
+#create_hevea "framework/snmp/index"
+#create_hevea "beos/beos"

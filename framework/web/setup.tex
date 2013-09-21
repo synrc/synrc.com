@@ -1,72 +1,17 @@
-\documentclass[11pt]{article}
-\usepackage{ifthen}
-\usepackage{graphicx}
-\usepackage{cite}
-\usepackage{hevea}
 \input{../../synrc.hva}
 %HEVEA \loadcssfile{../../synrc.css}
-
 \begin{document}
-
-\title{N2O: Setup}
+\title{N2O Setup}
 \author{Maxim Sokhatsky}
-
 %HEVEA \begin{divstyle}{nonselectedwrapper}
 %HEVEA \begin{divstyle}{article}
-%HEVEA \begin{divstyle}{smallcol}
-\paragraph{}
-\includeimage{../../images/n2o.png}
-%HEVEA \end{divstyle}
-%HEVEA \begin{divstyle}{articlecol}
-\section*{N2O: Setup}
-
-\subsection*{Prerequisites}
-To run N2O sites you need Erlang R14 or higher and basho rebar installed.
-N2O works on Windows, Mac and Linux.
-
-\subsection*{Kickstart Bootstrap}
-To try N2O you just need to fetch it from Github and build. We don't use
-fancy scripts so building process is OTP compatible: bootstrap site
-is bundled as Erlang release.
-
-%HEVEA \rawhtmlinput{templates/release.htx}
-
-Now you can try: \footahref{http://localhost:8000}{http://localhost:8000}.
-
-
-\subsection*{Add dependency on N2O core}
-If you want start using raw N2O core you can define N2O http and websocket handlers and cowboy static
-handler in Cowboy dispatch parameter:
-
-%HEVEA \rawhtmlinput{templates/supervisor.htx}
-
-And add a minimal {\bf index.erl} page:
-
-%HEVEA \rawhtmlinput{templates/index-minimal.htx}
-
-\subsection*{Developer scripts for Sync}
-During development we use some scripts which are needed for linking source
-directories with release lib directories and also link BERT, N2O and jQuery javascript.
-After making release you should run:
-
-%HEVEA \rawhtmlinput{templates/devscripts.htx}
-
-Now you can edit site sources and {\bf sync} will automaticaly recompile
-and reload modules in release.
-
-%HEVEA \rawhtmlinput{templates/disqus.htx}
-
-%HEVEA \end{divstyle}
-
-%HEVEA \begin{divstyle}{toc last}
-
 \input{toc}
-
+%HEVEA \begin{divstyle}{articlecol}
+\include{n2o/doc/setup}
+%HEVEA \rawhtmlinput{templates/disqus.htx}
 %HEVEA \end{divstyle}
-
 %HEVEA \end{divstyle}
 %HEVEA \end{divstyle}
 %HEVEA \begin{divstyle}{clear}{~}\end{divstyle}
-
 \end{document}
 

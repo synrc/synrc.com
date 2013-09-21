@@ -1,79 +1,17 @@
-\documentclass[11pt]{article}
-\usepackage{ifthen}
-\usepackage{graphicx}
-\usepackage{cite}
-\usepackage{hevea}
 \input{../../synrc.hva}
 %HEVEA \loadcssfile{../../synrc.css}
-
 \begin{document}
-
 \title{N2O: Elements}
 \author{Maxim Sokhatsky}
-
 %HEVEA \begin{divstyle}{nonselectedwrapper}
 %HEVEA \begin{divstyle}{article}
-%HEVEA \begin{divstyle}{smallcol}
-\paragraph{}
-\includeimage{../../images/n2o.png}
-%HEVEA \end{divstyle}
-%HEVEA \begin{divstyle}{articlecol}
-\section*{N2O: Elements}
-
-\subsection*{Page construction}
-With N2O you usually don't use HTML at all. Instead you define you page
-in the form of Erlang records and thus page is typed and checked at compilation time.
-This is a classical CGI approach for compiled pages and it gives us benefits like
-compilation-time error-checking and great server-side rendering.
-
-\subsection*{Control Elements}
-Nitrogen elements by their nature are control elements primitives
-that you use for Nitrogen page constructon in Erlang-based DSL Langugae.
-They are rendered into HTML and JavaScript.
-All behavior of elements are controlled on server side and all communications
-between browser and server are done via WebSocket channels.
-So no POST requests and HTML forms are used.
-
-\subsection*{Static Elements: HTML}
-The core set of HTML elements includes br, headings, links, tables, lists and image.
-Static elements will be transfored into HTML during rendering.
-\paragraph{}
-Also static elements could be used as placeholders for other HTML elements.
-Usually ``static'' means elements that don't use postback parameter:
-
-%HEVEA \rawhtmlinput{templates/static-elements.htx}
-
-\subsection*{Active Elements: HTML and JavaScript}
-There are also form elements which provide some information for the server
-and gather user input:  button, radio and check buttons, text box area and password box.
-Form elements usually allow to assign some Erlang postback handler to specify action behavior.
-Such elements are tranformed into HTML and JavaScript. I.e. during rendering some
-Actions are converted into JavaScript and sent to and executed in the Browser.
-
-%HEVEA \rawhtmlinput{templates/active-elements.htx}
-
-When postback action is specified the page module should include a callback which will handle that postback info:
-
-%HEVEA \rawhtmlinput{templates/active-elements-postback.htx}
-
-You specify in element definition the list of {\bf source} elements that provide data to event callback.
-
-\subsection*{Creating Your own Elements}
-Please refer to \footahref{http://synrc.com/framework/web/extending.htm}{Chapter 5. Extending N2O Elements}.
-
-%HEVEA \rawhtmlinput{templates/disqus.htx}
-
-%HEVEA \end{divstyle}
-
-%HEVEA \begin{divstyle}{toc last}
-
 \input{toc}
-
+%HEVEA \begin{divstyle}{articlecol}
+\input{n2o/doc/elements}
+%HEVEA \rawhtmlinput{templates/disqus.htx}
 %HEVEA \end{divstyle}
-
 %HEVEA \end{divstyle}
 %HEVEA \end{divstyle}
 %HEVEA \begin{divstyle}{clear}{~}\end{divstyle}
-
 \end{document}
 

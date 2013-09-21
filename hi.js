@@ -71,4 +71,6 @@ function decode (str) {
     }
 }
 
+console.log("IOK");
+
 })(window.hijs);

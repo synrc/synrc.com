@@ -1,64 +1,18 @@
-\documentclass[11pt]{article}
-\usepackage{ifthen}
-\usepackage{graphicx}
-\usepackage{cite}
-\usepackage{hevea}
 \input{../../synrc.hva}
 %HEVEA \loadcssfile{../../synrc.css}
-
+\renewcommand{\images}{http://synrc.com/framework/web/images}
 \begin{document}
-
-\title{N2O: Architecture}
+\title{N2O Architecture}
 \author{Maxim Sokhatsky}
-
 %HEVEA \begin{divstyle}{nonselectedwrapper}
 %HEVEA \begin{divstyle}{article}
-%HEVEA \begin{divstyle}{smallcol}
-\paragraph{}
-\includeimage{../../images/n2o.png}
-%HEVEA \end{divstyle}
-%HEVEA \begin{divstyle}{articlecol}
-\section*{N2O: Architecture}
-
-\subsection*{Reduced Latency}
-The secret of reduced latency is simple. We try to deliver rendered HTML
-as soon as possible and render JavaScript only after WebSocket initialization.
-We use three steps and three erlang processes for achieve that.
-
-%HEVEA \rawhtmlinput{templates/page-lifetime.htx}
-
-\subsection*{HTTP process}
-In the first HTTP handler we only render HTML and all created javascript actions are stored in transition process.
-
-%HEVEA \rawhtmlinput{templates/transition.htx}
-
-HTTP handler dies immediately after returning HTML. Transition process
-waits for request from WebSocket handler.
-
-\subsection*{Transition process}
-Just after receiving HTML browser initiates WebSocket connection
-and this starts WebSocket handler on the server. After returning
-javascript actions transition process dies and only WebSocket handler stays.
-At this point initialization phase is done.
-
-\subsection*{WebSocket process}
-After that all client / server communication is done via WebSocket channel.
-All events that come from the browser are handeled by N2O, which renders elements
-to HTML and actions to JavaScript.
-
-%HEVEA \rawhtmlinput{templates/disqus.htx}
-
-%HEVEA \end{divstyle}
-
-%HEVEA \begin{divstyle}{toc last}
-
 \input{toc}
-
+%HEVEA \begin{divstyle}{articlecol}
+\include{n2o/doc/architecture}
+%HEVEA \rawhtmlinput{templates/disqus.htx}
 %HEVEA \end{divstyle}
-
 %HEVEA \end{divstyle}
 %HEVEA \end{divstyle}
 %HEVEA \begin{divstyle}{clear}{~}\end{divstyle}
-
 \end{document}
 

@@ -1,41 +1,17 @@
-\documentclass[11pt]{article}
-\usepackage{ifthen}
-\usepackage{graphicx}
-\usepackage{cite}
-\usepackage{hevea}
 \input{../../synrc.hva}
 %HEVEA \loadcssfile{../../synrc.css}
-
 \begin{document}
-
-\title{N2O: Actions}
+\title{N2O Actions}
 \author{Maxim Sokhatsky}
-
 %HEVEA \begin{divstyle}{nonselectedwrapper}
 %HEVEA \begin{divstyle}{article}
-%HEVEA \begin{divstyle}{smallcol}
-\paragraph{}
-\includeimage{../../images/n2o.png}
-%HEVEA \end{divstyle}
-%HEVEA \begin{divstyle}{articlecol}
-\section*{N2O: Run-time Actions Definition and Spawning}
-
-\subsection*{Actions run on render}
-Just like HTML generation from Elements, Actions are rendered into JavaScript to handle event raised on the browser.
-
-%HEVEA \rawhtmlinput{templates/disqus.htx}
-
-%HEVEA \end{divstyle}
-
-%HEVEA \begin{divstyle}{toc last}
-
 \input{toc}
-
+%HEVEA \begin{divstyle}{articlecol}
+\input{n2o/doc/actions}
+%HEVEA \rawhtmlinput{templates/disqus.htx}
 %HEVEA \end{divstyle}
-
 %HEVEA \end{divstyle}
 %HEVEA \end{divstyle}
 %HEVEA \begin{divstyle}{clear}{~}\end{divstyle}
-
 \end{document}
 

@@ -1,8 +1,16 @@
+\documentclass[11pt]{article}
+\usepackage{ifthen}
+\usepackage{graphicx}
+\usepackage[utf8]{inputenc}
+\usepackage{listings}
+\usepackage{cite}
+\usepackage{hevea}
 
-\newcommand{\includeimage}[1]{
+\newcommand{\includeimage}[3]{
 \ifhevea
 {
-\imgsrc{#1}
+\imgsrc{\images/#1}\@br
+{\bf #2}
 }
 \else
 {
@@ -12,7 +20,10 @@
 \end{figure}}
 \fi}
 
-\renewenvironment{quote} {\@open{BLOCKQUOTE}{}\@style{EM}} {\@close{BLOCKQUOTE}}
+\renewcommand{\thesection}{\hspace*{0em}}
+\renewcommand{\thesubsection}{\hspace*{0em}}
+
+% \newenvironment{listing}[1]{\begin{rawhtml}#1}{\end{rawhtml}}
 
 
   \let\oldmeta=\@meta
@@ -28,3 +39,4 @@
   \htmlhead{\rawhtmlinput{templates/head-hevea.htx}}
   \htmlfoot{\rawhtmlinput{templates/foot.htx}}
   \footerfalse
+
