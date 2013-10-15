@@ -1,13 +1,14 @@
 (function (hijs) {
-var selector = hijs || 'code';
+
+var selector = hijs || 'code, div.lstlisting';
 
 var keywords = ('fun begin if else receive end case where').split(' '),
-    special  = ('module compile export author behaviour copyright include include_lib').split(' ');
+    special  = ('module compile jsmacro js export author behaviour record define copyright include include_lib').split(' ');
 
 var syntax = [
   ['comment', /(\/\*(?:[^*\n]|\*+[^\/*])*\*+\/)/g],
   ['comment', /(\%%[^\n]*)/g],
-  ['record', /(\#[^{']*)/g],
+  ['record', /(\#[^{})']*)/g],
   ['string' , /("(?:(?!")[^\\\n]|\\.)*"|'(?:(?!')[^\\\n]|\\.)*')/g],
   ['regexp' , /(\/.+\/[mgi]*)(?!\s*\w)/g],
   ['class'  , /\b([A-Z][a-zA-Z]+)\b/g],
@@ -70,7 +71,5 @@ function decode (str) {
         }).join('');
     }
 }
-
-console.log("IOK");
 
 })(window.hijs);

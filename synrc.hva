@@ -1,5 +1,7 @@
 \documentclass[11pt]{article}
 \usepackage{ifthen}
+\usepackage{xkeyval}
+\usepackage[T1]{fontenc}
 \usepackage{graphicx}
 \usepackage[utf8]{inputenc}
 \usepackage{listings}
@@ -9,8 +11,8 @@
 \newcommand{\includeimage}[3]{
 \ifhevea
 {
-\imgsrc{\images/#1}\@br
-{\bf #2}
+\imgsrc[style="margin-left: -20px;margin-botton: 30px; background-color: #eeeeee;padding:20 20 20 20px;"]{\images/#1}\@br
+{\bf #2}\@br\@br
 }
 \else
 {
@@ -20,17 +22,13 @@
 \end{figure}}
 \fi}
 
-\renewcommand{\thesection}{\hspace*{0em}}
-\renewcommand{\thesubsection}{\hspace*{0em}}
-
-% \newenvironment{listing}[1]{\begin{rawhtml}#1}{\end{rawhtml}}
-
+\setcounter{secnumdepth}{0}
 
   \let\oldmeta=\@meta
   \renewcommand{\@meta}{%
   \oldmeta
   \begin{rawhtml}
-  <meta name="Author" content="Maxim Sokhatsky">
+  <meta name="Author" content="Loc">
   <meta http-equiv="expires" content="Tue, 01 Jan 2020 1:00:00 GMT" />
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=IE10,chrome=1" />
@@ -40,3 +38,4 @@
   \htmlfoot{\rawhtmlinput{templates/foot.htx}}
   \footerfalse
 
+ 
