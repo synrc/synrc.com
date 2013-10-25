@@ -1,5 +1,5 @@
-A { font-weight: bold; color: royalblue; padding: 10 10 10 10; margin: 0 -10 0 -10; }
-A:hover { color: darkblue; }
+A { color: royalblue; }
+A:hover { font-weight: bold; color: darkblue; }
 
 body { font-size: 18pt; padding: 0; margin: 0; font-family: "Nokia Pure Text"; background-color: #f2f2f2;} 
 TD { margin-top: 8px; margin-bottom: 0px; }
@@ -18,9 +18,10 @@ input { font-size:18pt; }
 .verywidecol > .section { margin-left: 8px; }
 h2.section { margin-left: 8px; }
 h2 { margin-left: 10px; }
+.articlecol > h2 { margin-left: 10px; margin-bottom: 0px; }
 
 .logo_font { font-family: "Palatino Linotype"; margin-bottom: 0px; line-height: 60%; }
-.menu { font-family: "Nokia Pure Text"; font-size:18pt; color: red; padding: 0 0 15px 15px; margin: 0 auto; display: inline-block;}
+.menu { font-family: "Nokia Pure Text"; font-size:18pt; color: red; padding: 0 0 15px 15px; margin-right:10px; display: inline-block;}
 .menu:hover { }
 .block { height: 400px; width:400px; background-color: transparent; vertical-align: top; display: inline-block; text-align: left; }
 .wrapper     { max-width: 1200px; margin: 15px auto; text-align:center; }

@@ -1,7 +1,7 @@
 
 <div class="nonselectedwrapper white" style="padding: 5 10 0 0;margin: 0 0 -12 0;">
     <a href="http://synrc.com/index.htm">
-    <img style="flat:left; margin-left: 50px; margin-top: 5px;" src="http://synrc.com/images/synrc.png" border="0"></a>
+    <img style="flat:left; margin-left: 50px; margin-top: 5px; margin-bottom:5px;" src="http://synrc.com/images/synrc.png" border="0"></a>
     <div align=right style="margin: -50px 100px 0px 0px;">
         <script language="JavaScript">
 
@@ -13,8 +13,8 @@
                     'feedback.htm': 'Contacts'};
 
         Object.keys(menu).forEach(function (key) {
-            if (page_name == key) { document.write('<div class="menu">'+menu[key]+'</div>'); }
-            else { document.write('<a class="menu" href="http://synrc.com/'+key+'">'+menu[key]+'</a>&nbsp;'); }
+            if (page_name == key) { document.write('<div class="menu" style="font-weight: bold;">'+menu[key]+'</div>'); }
+            else { document.write('<a class="menu" href="http://synrc.com/'+key+'">'+menu[key]+'</a>'); }
         });
 
         </script>
