@@ -26,9 +26,9 @@
 
   \let\oldmeta=\@meta
   \renewcommand{\@meta}{%
-  \oldmeta
   \begin{rawhtml}
-  <meta name="Author" content="Loc">
+  <link rel=stylesheet type="text/css" href="http://synrc.com/synrc.css">
+  <meta name="Author" content="5HT">
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=IE10,chrome=1" />
   \end{rawhtml}}
