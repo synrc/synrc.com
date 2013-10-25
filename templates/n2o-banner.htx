@@ -1,0 +1,25 @@
+
+<div class="selectedwrapper" style="margin-top: -46px; margin-bottom: -46; background-image: url('http://voxoz.com/images/patterns_samples/45degreee_fabric.png');">
+<div align=left>
+    <table valign="center" width="100%" cellpadding=25 cellspacing=10>
+    <tr><td>
+    <div align=right style="font-size: 25pt; color: darkblue; font-weight: bold;">
+    MVC/M+VC<br>
+    Elixir/Joxa/Erlang Samples<br>
+    DSL and/or Templates <br>
+    WebSockets/XHR Events<br>
+    Erlang to JavaScript Compiler<br>
+    Rapid REST Backend<br>
+    Mnesia/Riak/KAI Support<br>
+    Rich JavaScript Controls<br>
+    Facebook/G+/Twitter Login<br>
+    Fastest Erlang Web Framework<br>
+    AES-CBC/RipeMD Security</div></td><td rowspan=1>
+    <div style="font-size: 50pt; color: blue; font-weight: bold;">N2O &mdash; <br> Most Powerful <br> Erlang Web Framefork</div>
+        <div align=right style="margin-top:40px;">
+            <a href="http://synrc.com/framework/web/n2o/doc/book.pdf" style="font-size:18pt;margin-top:20px;">Download Free N2O E-Book</a><br>
+            <a href="http://synrc.github.io/n2o/" style="font-size:18pt;margin-top:20px;">Github Page</a>
+        </div></td></tr>
+    </table> 
+</div>
+</div>
