@@ -5,7 +5,7 @@ A:hover { color: darkblue; }
 body { font-size: 18pt; padding: 0; margin: 0; font-family: "Nokia Pure Text"; background-color: #f2f2f2;} 
 TD { margin-top: 8px; margin-bottom: 0px; }
 H1 { font-size:28pt; font-weight: bold; margin-top:20px; margin-bottom:0px; margin-right:6px; margin-left:10px; padding-bottom:10px; }
-H2 { font-size:24pt; font-weight: bold; margin-top:20px; margin-bottom:0px; margin-right:6px; margin-left:0px; padding-bottom:10px; }
+H2 { font-size:24pt; font-weight: bold; margin-top:20px; margin-bottom:-5px; margin-right:6px; margin-left:0px; padding-bottom:10px; }
 H3 { font-size:22pt; font-weight: bold; margin-top:36px; margin-bottom:20px; margin-right:6px; margin-left:8px; } 
 H4 { font-size:20pt; font-weight: normal; margin-top:0px; margin-bottom:0px; margin-right:0px; } 
 H5 { font-size:18pt; font-weight: normal; padding-top:0px;margin-top:0px; margin-bottom:20px; margin-left:10px; } 
