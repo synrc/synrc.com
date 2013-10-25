@@ -19,6 +19,7 @@ input { font-size:18pt; }
 h2.section { margin-left: 8px; }
 h2 { margin-left: 10px; }
 .articlecol > h2 { margin-left: 10px; margin-bottom: 0px; }
+.verywidecol > h2 { margin-left: 10px; margin-bottom: 0px; }
 
 .logo_font { font-family: "Palatino Linotype"; margin-bottom: 0px; line-height: 60%; }
 .menu { font-family: "Nokia Pure Text"; font-size:18pt; color: red; padding: 0 0 15px 15px; margin-right:10px; display: inline-block;}
