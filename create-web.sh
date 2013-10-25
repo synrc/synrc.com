@@ -41,9 +41,6 @@ create_hevea "feedback"
 create_hevea "research"
 create_hevea "labs"
 create_hevea "github"
-cd research/io
-create_hevea "index"
-cd -
 cd framework/web
 create_hevea "index"
 create_hevea "setup"
@@ -53,5 +50,3 @@ create_hevea "actions"
 create_hevea "api"
 create_hevea "macros"
 cd -
-#create_hevea "framework/snmp/index"
-#create_hevea "beos/beos"

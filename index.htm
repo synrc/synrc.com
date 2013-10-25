@@ -2,7 +2,8 @@
             "http://www.w3.org/TR/REC-html40/loose.dtd">
 <HTML>
 <HEAD>
-<TITLE>index</TITLE>
+<TITLE>Home
+</TITLE>
 
 <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <META name="GENERATOR" content="hevea 1.10">
@@ -55,60 +56,29 @@ TD P{margin:0px;}
 <!--HEVEA command line is: /usr/bin/hevea index.tex -o index.htm -->
 <!--HTMLHEAD-->
 
-<div class="nonselectedwrapper white" style="padding: 30 10 0 0;margin: 0 0 -12 0;">
-<div class="verywidecol">
-<nobr>
+<div class="nonselectedwrapper white" style="padding: 5 10 0 0;margin: 0 0 -12 0;">
     <a href="http://synrc.com/index.htm">
-    <img style="float:left;margin-right:10px;" src="http://synrc.com/images/synrc.png" border="0"></a>
-</nobr>
-</div>
-</div>
-
-<div class="clear"></div>
-
-<hr size="1">
-
-<div class="nonselectedwrapper" style="margin-top:10px;margin-bottom:10px;background-color: #eeeeee;">
-<div class="verywidecol">
-
-    <table bgcolor="white" cellpadding=0 cellspacing=0 width=100%>
-    <tbody bgcolor="#eeeeee"><tr height="50" align="center" valign="center">
+    <img style="flat:left; margin-left: 5px; margin-top: 5px;" src="http://synrc.com/images/synrc.png" border="0"></a>
+    <div align=right style="margin: -50px 200px 0px 0px;">
         <script language="JavaScript">
-        <!--
+
         var args = (window.location).toString().split('/');
         var page_name = args[args.length-1];
+        var menu = {'index.htm':    'Home',
+                    'research.htm': 'Showcase',
+                    'github.htm':   'Apps',
+                    'feedback.htm': 'Contacts'};
 
-        if(page_name == 'index.htm' || page_name ==''){   // Home
-            document.write('<td width=20%> <div class="menu">Home</div> </td>');
-        }else{
-            document.write('<td width=20%> <div class="menu"><a href="http://synrc.com/index.htm">Home</a></div> </td>');
-        }
+        Object.keys(menu).forEach(function (key) {
+            if (page_name == key) { document.write('<div class="menu">'+menu[key]+'</div>'); }
+            else { document.write('<a class="menu" href="http://synrc.com/"'+key+'>'+menu[key]+'</a>&nbsp;'); }
+        });
 
-        if(page_name == 'research.htm'){
-            document.write('<td width=20%> <div class="menu">Showcase</div> </td>');
-        }else{
-            document.write('<td width=20%> <div class="menu"><a href="http://synrc.com/research.htm">Showcase</a></div> </td>');
-        }
-
-        if(page_name == 'github.htm'){
-            document.write('<td width=20%> <div class="menu">Apps</div> </td>');
-        }else{
-            document.write('<td width=20%> <div class="menu"><a href="http://synrc.com/github.htm">Apps</a></div> </td>');
-        }
-
-        if(page_name == 'feedback.htm'){
-            document.write('<td width=20%> <div class="menu">Contacts</div> </td>');
-        }else{
-            document.write('<td width=20%> <div class="menu"><a href="http://synrc.com/feedback.htm">Contacts</a></div> </td>');
-        }
-
-        // -->
         </script>
-        <td width=20% background="http://synrc.com/images/dots2.jpg"> </td>
-    </tr></tbody></table>
+    </div>
+</div>
 
-</div>
-</div>
+<hr size="1">
 
 <!--ENDHTML-->
 <!--CUT DEF section 1 --><DIV CLASS="selectedwrapperlight">

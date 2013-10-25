@@ -21,8 +21,8 @@ h2.section { margin-left: 8px; }
 h2 { margin-left: 10px; }
 
 .logo_font { font-family: "Palatino Linotype"; margin-bottom: 0px; line-height: 60%; }
-.menu { font-family: "Nokia Pure Text"; font-size:18pt; color: red; margin-left:5px; margin-right:5px; }
-.menu:hover { font-size:18pt; color: red; margin-left:5px; margin-right:5px; }
+.menu { font-family: "Nokia Pure Text"; font-size:18pt; color: red; padding: 0 0 15px 15px; margin: 0 auto; display: inline-block;}
+.menu:hover { }
 .block { height: 400px; width:400px; background-color: transparent; vertical-align: top; display: inline-block; text-align: left; }
 .wrapper     { max-width: 1200px; margin: 0 auto; text-align:center; }
 .article     { margin: 0 auto; text-align: center;}

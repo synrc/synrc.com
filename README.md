@@ -1,21 +1,22 @@
-README
-======
+Synrc Research Center Web Site
+==============================
+
 Synrc Site is been built from TeX using HeVeA.
 
-INSTALL
+Install
 =======
+
 First you need to install LaTeX and HeVeA for producing PDF and HTML.
 Then you need to checkout Synrc Site and all Synrc Repositories:
 
-        $ git clone git://github.com/synrc/synrc.com.git
-        $ ./fetch.sh
+    $ sudo apt-get install texlive-full
+    $ sudo apt-get install hevea
+    $ git clone git@github.com:synrc/synrc.com
+    $ (cd framework/web; git clone git@github.com:5HT/n2o)
 
-USAGE
+Usage
 =====
+
 Create HTML site:
 
         $ sh create-web.sh
-
-Create LaTeX site:
-
-        $ sh create-print.sh
