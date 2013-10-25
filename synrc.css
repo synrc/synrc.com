@@ -87,3 +87,16 @@ p br:nth-child(1) {display: none;}
 
 #dsq-content #disqus_thread #dsq-comments .dsq-comment-message  { font-size: 26px; font-family: "Nokia Pure Text"; }
 .post-content { font-size: 26px; font-family: "Nokia Pure Text"; }
+
+#circle {
+    background-color: royalblue;
+    display: inline-block;
+    position: relative;
+    margin-right: 15px;
+    float: right;
+    width: 50px;
+    height: 50px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px; 
+}
