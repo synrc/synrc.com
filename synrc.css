@@ -1,6 +1,5 @@
 A { font-weight: bold; color: royalblue; padding: 10 10 10 10; margin: 0 -10 0 -10; }
 A:hover { color: darkblue; }
-// A:hover { color: white; background-color: darkblue; } 
 
 body { font-size: 18pt; padding: 0; margin: 0; font-family: "Nokia Pure Text"; background-color: #f2f2f2;} 
 TD { margin-top: 8px; margin-bottom: 0px; }
@@ -13,7 +12,7 @@ P { font-size:18pt; padding-top:10px;margin-top:0px;padding-right:10px;padding-l
 LI { font-size:14pt; }
 input { font-size:18pt; }
 
-.section { margin-left: 12px; } //padding: 10px 10px 10px 10px; background-color: silver; display: inline-block; }
+.section { margin-left: 12px; margin-bottom: -20px; }
 .subsection { margin-left: 8px; } //padding: 10px 10px 10px 10px; background-color: silver; display: inline-block;}
 .block > .section { margin-left: 8px; }
 .verywidecol > .section { margin-left: 8px; }
@@ -31,7 +30,8 @@ h2 { margin-left: 10px; }
 .paper { background-color: #fAfAfA; margin-top: 10px;}
 .white { background-color: white; margin-bottom: 10px; }
 blockquote { background-color: #fAfAfA; padding: 20px 20px 20px 20px;}
-.selectedwrapper { 
+.selectedwrapper {
+    margin-top: -12px;
     padding-bottom: 10px; overflow: hidden; 
     background: no-repeat url(http://s.ytimg.com/yt/imgbin/www-refreshbg-vflC3wnbM.png) 0 0;
     background-color: #EBEBEB;
