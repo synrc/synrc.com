@@ -1,4 +1,4 @@
-A { font-weight: bold; color: blue; padding: 10 10 10 10; margin: 0 -10 0 -10; }
+A { font-weight: bold; color: royalblue; padding: 10 10 10 10; margin: 0 -10 0 -10; }
 A:hover { color: darkblue; }
 // A:hover { color: white; background-color: darkblue; } 
 
@@ -79,7 +79,7 @@ code, div.lstlisting .keyword              { font-weight: bold }
 code, div.lstlisting .string, code .regexp { color: green }
 code, div.lstlisting .class { color: darkblue }
 code, div.lstlisting .record { color: purple }
-code, div.lstlisting .special { color: blue }
+code, div.lstlisting .special { color: royalblue }
 code, div.lstlisting .number               { color: pink }
 code, div.lstlisting .comment              { color: grey }
 

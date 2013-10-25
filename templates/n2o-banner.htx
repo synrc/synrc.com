@@ -3,7 +3,7 @@
 <div align=left>
     <table valign="center" width="100%" cellpadding=25 cellspacing=10>
     <tr><td>
-    <div align=right style="font-size: 25pt; color: darkblue; font-weight: bold;">
+    <div align=right style="font-size: 25pt; color: steelblue; font-weight: bold;">
     MVC/M+VC<br>
     Elixir/Joxa/Erlang Samples<br>
     DSL and/or Templates <br>
@@ -15,10 +15,11 @@
     Facebook/G+/Twitter Login<br>
     Fastest Erlang Web Framework<br>
     AES-CBC/RipeMD Security</div></td><td rowspan=1>
-    <div style="font-size: 50pt; color: blue; font-weight: bold;">N2O &mdash; <br> Most Powerful <br> Erlang Web Framefork</div>
-        <div align=right style="margin-top:40px;">
-            <a href="http://synrc.com/framework/web/n2o/doc/book.pdf" style="font-size:18pt;margin-top:20px;">Download Free N2O E-Book</a><br>
-            <a href="http://synrc.github.io/n2o/" style="font-size:18pt;margin-top:20px;">Github Page</a>
+    <div style="font-size: 50pt; color: royalblue; font-weight: bold;">N2O &mdash; <br> Most Powerful <br> Erlang Web Framefork</div>
+        <div align=center style="margin-top:40px;">
+            <a href="http://github.com/5HT/n2o" style="font-size:18pt; background-color: steelblue; color:white; padding:10px 10px 10px 10px; margin-left: 30px;">Sources</a>
+            <a href="http://synrc.com/framework/web/n2o/doc/book.pdf" style="background-color: steelblue; color:white; font-size:18pt; padding:10px 10px 10px 10px; margin-left: 30px;">E-Book</a>
+            <a href="http://synrc.com/framework/web/" style="font-size:18pt; background-color: steelblue; color:white; padding:10px 10px 10px 10px; margin-left: 30px;">Get Started</a>
         </div></td></tr>
     </table> 
 </div>
