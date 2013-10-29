@@ -1,9 +1,6 @@
-
 <div class="selectedwrapper" style="margin-top: -46px; margin-bottom: -46; background-image: url('http://voxoz.com/images/patterns_samples/45degreee_fabric.png');">
-<div align=left>
-    <table valign="center" width="100%" cellpadding=25 cellspacing=10>
-    <tr><td>
-    <div align=right style="font-size: 20pt; color: steelblue; font-weight: bold;">
+<div class="wrapper">
+    <div class="block" style="font-size: 20pt; color: royalblue; margin-top:30px;">
     MVC/M+VC<br>
     Elixir/Joxa/Erlang Samples<br>
     DSL and/or Templates<br>
@@ -14,14 +11,16 @@
     Rich JavaScript Controls<br>
     Facebook/G+/Twitter Login<br>
     Fastest Erlang Web Framework<br>
-    AES-CBC/RIPEMD Security</div></td><td rowspan=1>
-    <div align=right><div id="circle" style="background-color: crimson;"></div><div id="circle"></div><div id="circle"></div></div>
-    <div style="font-size: 45pt; color: royalblue; font-weight: bold;">N2O &mdash; <br> Most Powerful <br> Erlang Web Framework</div>
+    AES-CBC/RIPEMD Security</div>
+    <div class="block" style="width: 740px; margin-top:50px; margin-left: 40px;">
+        <div align=right><div id="circle" style="background-color: crimson;"></div><div id="circle"></div><div id="circle"></div></div>
+        <div style="font-size: 45pt; color: royalblue; font-weight: bold;">N2O &mdash; <br> The Most Powerful <br> Erlang Web Framework</div>
         <div align=center style="margin-top:40px; line-height: 50px;">
-            <a href="http://github.com/5HT/n2o" style="font-size:18pt; background-color: steelblue; color:white; padding:10px 10px 10px 10px; margin-left: 30px;">Sources</a>
-            <a href="http://synrc.com/framework/web/n2o/doc/book.pdf" style="background-color: steelblue; color:white; font-size:18pt; padding:10px 10px 10px 10px; margin-left: 30px;">E-Book</a>
-            <a href="http://synrc.com/framework/web/" style="font-size:18pt; background-color: steelblue; color:white; padding:10px 10px 10px 10px; margin-left: 30px;">Get&nbsp;Started</a>
-        </div></td></tr>
-    </table> 
+            <a href="http://github.com/5HT/n2o" style="font-size:18pt; background-color: royalblue; color:white; padding:10px 10px 10px 10px; margin-left: 30px;">Sources</a>
+            <a href="http://synrc.com/framework/web/n2o/doc/book.pdf" style="background-color: royalblue; color:white; font-size:18pt; padding:10px 10px 10px 10px; margin-left: 30px;">E-Book</a>
+            <a href="http://synrc.com/framework/web/" style="font-size:18pt; background-color: royalblue; color:white; padding:10px 10px 10px 10px; margin-left: 30px;">Get&nbsp;Started</a>
+        </div>
+    </div>
 </div>
 </div>
+

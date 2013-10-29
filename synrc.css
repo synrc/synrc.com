@@ -15,7 +15,7 @@ input { font-size:18pt; }
 .section { margin-left: 12px; }
 .subsection { margin-left: 8px; } //padding: 10px 10px 10px 10px; background-color: silver; display: inline-block;}
 .block > .section { margin-left: 8px; }
-.verywidecol > .section { margin-left: 8px; }
+.verywidecol > .section { margin-left: 8px; margin-bottom: -20px;}
 h2.section { margin-left: 8px; }
 h2 { margin-left: 10px; }
 .articlecol > h2 { margin-left: 10px; margin-bottom: 0px; }
