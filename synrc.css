@@ -1,5 +1,5 @@
 A { color: royalblue; }
-A:hover { font-weight: bold; color: darkblue; }
+A:hover { color: darkblue;  text-shadow: 0 0 1px; }
 
 body { font-size: 18pt; padding: 0; margin: 0; font-family: "Nokia Pure Text"; background-color: #f2f2f2;} 
 TD { margin-top: 8px; margin-bottom: 0px; }
