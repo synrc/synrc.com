@@ -1,25 +1,126 @@
 
+<DIV CLASS="nonselectedwrapper"><DIV CLASS="article"><DIV CLASS="smallcol"></DIV>
+<DIV CLASS="articlecol">  <h1>2014</h1> </div></div></div>
+
 <DIV CLASS="nonselectedwrapper">
 <DIV CLASS="article">
 <DIV CLASS="smallcol">
-    <p><IMG SRC="http://synrc.com/images/synrc_clear.png" width=150></p>
-    <p><IMG SRC="http://upload.wikimedia.org/wikipedia/commons/4/42/Erlang_logo.png" width=150></p>
-    <p><IMG SRC="http://synrc.com/images/erlang_clear.png" width=150></p>
+    <p><IMG SRC="http://synrc.com/images/erlang-factory-logo.png" width=150 style="background-color:#a6202f;"></p>
 </DIV>
 <DIV CLASS="articlecol">
 
-    <H2><a href="kievfprog2013.htm">Конференция kiev::fprog</a></H2>
+    <H2><a href="2014/california.htm">Bay Area Erlang Conference: N2O Web Framework</a></H2>
+
+<p>N2O is an unusual framework that solves problems in different web development
+domains while staying small and concise at the same time. Started off as a Nitrogen
+concept of server-side framework it can also build client-side offline applications
+using same site sources. This becomes possible with the powerful Erlang JavaScript
+Parse Transform which extends Erlang language to JavaScript platform with two-side
+interoperability. You can as well use Elixir, LFE and Joxa languages to develop your back-end.</p>
+
+</div>
+</div>
+</div>
+
+<DIV CLASS="nonselectedwrapper">
+<DIV CLASS="article">
+<DIV CLASS="smallcol">
+    <p><IMG SRC="http://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Ruby_logo.png/100px-Ruby_logo.png" width=150></p>
+</DIV>
+<DIV CLASS="articlecol">
+
+    <H2><a href="2014/brug.htm">Belarus Ruby User Group: N2O for Ruby Dudes</a></H2>
+
+<p>RoR подобные веб фреймворки для Erlang. Как адаптироваться с минимальными усилиями
+с Ruby on Rails на Erlang? Какие преимущества дает перенос серверной части на
+Erlang в контексте интеграции с остальными сервисами. Новый веб фреймворк для
+Erlang &mdash; N2O: JavaScript компилятор, База данных, REST тулкит, WebSockets.</p>
+
+</div>
+</div>
+</div>
+
+<DIV CLASS="nonselectedwrapper"><DIV CLASS="article"><DIV CLASS="smallcol"></DIV>
+<DIV CLASS="articlecol">  <h1>2013</h1> </div></div></div>
+
+<DIV CLASS="nonselectedwrapper">
+<DIV CLASS="article">
+<DIV CLASS="smallcol">
+    <p><IMG SRC="http://s.developers.org.ua/cache/img/events/blue_lambda_cutie_mark_256_pixels_by_chirochick-d4wdlka_logo_thumbnail.png" width=150></p>
+</DIV>
+<DIV CLASS="articlecol">
+
+    <H2><a href="2013/fprog-2.htm">Kiev fprog: KVS Abstract Term Database</a></H2>
+
+<p>RoR подобные веб фреймворки для Erlang. Как адаптироваться с минимальными усилиями
+с Ruby on Rails на Erlang? Какие преимущества дает перенос серверной части на
+Erlang в контексте интеграции с остальными сервисами. Новый веб фреймворк для
+Erlang &mdash; N2O: JavaScript компилятор, База данных, REST тулкит, WebSockets.</p>
+
+</div>
+</div>
+</div>
+
+<DIV CLASS="nonselectedwrapper">
+<DIV CLASS="article">
+<DIV CLASS="smallcol">
+    <p><IMG SRC="http://synrc.com/images/itjam.png" width=150></p>
+</DIV>
+<DIV CLASS="articlecol">
+
+    <H2><a href="2013/itjam.htm">IT Jam: Path to Happiness</a></H2>
+
+<p>Foresight of Ukrainian IT Community Leaders. This is inspirational framework
+facilitated by professional trainers. Intensive networking, collaboration,
+mastering new concepts and ideas which will affect our future.
+Who is invited: communities' drivers, events' organizers, conferences' speakers,
+expertise leaders. Inspirational Talk on Building Erlang Company.</p>
+
+</div>
+</div>
+</div>
+
+<DIV CLASS="nonselectedwrapper">
+<DIV CLASS="article">
+<DIV CLASS="smallcol">
+    <p><IMG SRC="http://s.developers.org.ua/cache/img/events/blue_lambda_cutie_mark_256_pixels_by_chirochick-d4wdlka_logo_thumbnail.png" width=150></p>
+</DIV>
+<DIV CLASS="articlecol">
+
+    <H2><a href="2013/fprog-1.htm">Kiev fprog: Voxoz Erlang PaaS</a></H2>
 
 <p>Компания «Synrc Research Center» представит прототип Erlang PaaS
 и расскажет о том, как написать свой PaaS на Erlang за месяц. Также будет презентацию
 ключевых для PaaS приложений KVS, MQS и N2O а также описание промо проектов: Skyline.</p>
 
-    <H2><a href="hotcode2013.htm">Конференция Hotcode 2013</a></H2>
+</div>
+</div>
+</div>
+
+<DIV CLASS="nonselectedwrapper">
+<DIV CLASS="article">
+<DIV CLASS="smallcol">
+    <p><IMG SRC="http://synrc.com/lj/logo-300x156.png" width=100></p>
+</DIV>
+<DIV CLASS="articlecol">
+
+    <H2><a href="2013/hotcode.htm">Hotcode: LDAP Server in 30 minutes</a></H2>
 
 <p>Компания «Synrc Research Center» представит свой самый быстрый Erlang Web фреймворк N2O работающий на вебсокетах,
 а также проведет часовую Live Coding сессию по написанию LDAP сервера.</p>
 
-    <H2><a href="erlang2013kiev.htm">Erlang Курсы 2013 Киев</a></H2>
+</div>
+</div>
+</div>
+
+<DIV CLASS="nonselectedwrapper">
+<DIV CLASS="article">
+<DIV CLASS="smallcol">
+    <p><IMG SRC="http://upload.wikimedia.org/wikipedia/commons/4/42/Erlang_logo.png" width=150></p>
+</DIV>
+<DIV CLASS="articlecol">
+
+    <H2><a href="2013/courses.htm">Kiev Erlang Courses</a></H2>
 
 <p>Компания «Synrc Research Center», которая занимается разработкой
 проектов на Erlang, готова поделиться своим опытом в лучших традиция
@@ -33,4 +134,3 @@
 </div>
 </div>
 
-<DIV CLASS="clear"></DIV>

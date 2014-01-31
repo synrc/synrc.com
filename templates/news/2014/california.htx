@@ -1,0 +1,38 @@
+
+<DIV CLASS="nonselectedwrapper">
+<DIV CLASS="article">
+<DIV CLASS="smallcol">
+    <p><IMG SRC="http://s.developers.org.ua/cache/img/events/blue_lambda_cutie_mark_256_pixels_by_chirochick-d4wdlka_logo_thumbnail.png" width=150></p>
+</DIV>
+<DIV CLASS="articlecol">
+
+    <H2>Erlang Factory San Francisco</H2>
+
+    <p>Nitrogen 2 Optimized, N2O was started as the first Erlang Web Framework that
+    relies completely on WebSocket transport. Great compatibility with Nitrogen was
+    retained and many improvements were made, such as binary page construction,
+    binary data transfer, all events transmitted over WebSocket channel, minumum
+    process spawns, work within Cowboy processes. N2O page renderer is several
+    times faster than the original one.</p>
+
+    <p><b>Talk objectives:</b></p>
+
+    <p>N2O is an unusual framework that solves problems in different web
+    development domains while staying small and concise at the same time.
+    Started off as a Nitrogen concept of server-side framework it can also
+    build client-side offline applications using same site sources. This becomes
+    possible with the powerful Erlang JavaScript Parse Transform which extends
+    Erlang language to JavaScript platform with two-side interoperability.
+    You can as well use Elixir, LFE and Joxa languages to develop your back-end.</p>
+
+    <p><b>Target audience:</b> Web Developers, Erlang Infrastructure Developers</p>
+
+<h2>Slides</h2>
+<p><b>6 March 2014 &mdash; <a href="https://slid.es/maximsokhatsky/n2o">N2O: Most Powerful Erlang Web Framework</a><br>
+</p>
+
+</DIV>
+</DIV>
+
+<DIV CLASS="clear"></DIV>
+

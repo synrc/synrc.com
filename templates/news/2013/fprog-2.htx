@@ -1,0 +1,24 @@
+
+<DIV CLASS="nonselectedwrapper">
+<DIV CLASS="article">
+<DIV CLASS="smallcol">
+    <p><IMG SRC="http://s.developers.org.ua/cache/img/events/blue_lambda_cutie_mark_256_pixels_by_chirochick-d4wdlka_logo_thumbnail.png" width=150></p>
+</DIV>
+<DIV CLASS="articlecol">
+
+    <H2>Конференция kiev::fprog</H2>
+
+   <p>Мы расскажем как использовать различные базы данных для Erlang: Mnesia, Riak, KAI;
+    особенности использования секондари индексов, автоматическое построение REST интерфейсов к данным,
+    использование Parse Transform для генерации JSON парсеров, обеспечение конкурентного доступа
+    к данным, аспекты использования Feed Server и Feed UI.</p>
+
+<h2>Презентация</h2>
+<p><b>16 Ноября &mdash; <a href="https://slid.es/maximsokhatsky/kvs/">KVS: Erlang Abstract Term Database</a><br>
+</p>
+
+</DIV>
+</DIV>
+
+<DIV CLASS="clear"></DIV>
+

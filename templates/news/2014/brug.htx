@@ -1,0 +1,24 @@
+
+<DIV CLASS="nonselectedwrapper">
+<DIV CLASS="article">
+<DIV CLASS="smallcol">
+    <p><IMG SRC="http://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Ruby_logo.png/100px-Ruby_logo.png" width=150></p>
+</DIV>
+<DIV CLASS="articlecol">
+
+    <H2>Belarus Ruby User Group</H2>
+
+    <p>RoR подобные веб фреймворки для Erlang. Как адаптироваться с минимальными усилиями
+    с Ruby on Rails на Erlang? Какие преимущества дает перенос серверной части на Erlang
+    в контексте интеграции с остальными сервисами. Новый веб фреймворк для Erlang &mdash;
+    N2O: JavaScript компилятор, База данных, REST тулкит, WebSockets.</p>
+
+<h2>Презентация</h2>
+<p><b>25 Января &mdash; <a href="https://slid.es/maximsokhatsky/n2o-extended">N2O: Web Framework for Ruby Dudes</a><br>
+</p>
+
+</DIV>
+</DIV>
+
+<DIV CLASS="clear"></DIV>
+

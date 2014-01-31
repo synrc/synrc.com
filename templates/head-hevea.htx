@@ -7,7 +7,7 @@
 
         var args = (window.location).toString().split('/');
         var page_name = args[args.length-1];
-        var menu = {'index.htm':    'Home',
+        var menu = {//'index.htm':    'Home',
                     'research.htm': 'Showcase',
                     'github.htm':   'Apps',
                     'feedback.htm': 'Contacts'};
