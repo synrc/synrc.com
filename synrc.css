@@ -12,6 +12,25 @@ P { font-size:18pt; padding-top:10px;margin-top:0px;padding-right:10px;padding-l
 LI { font-size:14pt; }
 input { font-size:18pt; }
 
+#circle1, #circle2, #circle3 {
+    display: inline-block;
+    position: relative;
+    margin-right: 15px;
+    float: right;
+    width: 50px;
+    height: 50px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px; 
+}
+
+.circle-highlight { background-color: crimson; }
+.circle-normal { background-color: royalblue; }
+
+#slideshow {}
+#slides {}
+#slide {}
+
 .section { margin-left: 12px; }
 .subsection { margin-left: 8px; } //padding: 10px 10px 10px 10px; background-color: silver; display: inline-block;}
 .block > .section { margin-left: 8px; }
@@ -90,15 +109,3 @@ p br:nth-child(1) {display: none;}
 #dsq-content #disqus_thread #dsq-comments .dsq-comment-message  { font-size: 26px; font-family: "Nokia Pure Text"; }
 .post-content { font-size: 26px; font-family: "Nokia Pure Text"; }
 
-#circle {
-    background-color: royalblue;
-    display: inline-block;
-    position: relative;
-    margin-right: 15px;
-    float: right;
-    width: 50px;
-    height: 50px;
-    -webkit-border-radius: 25px;
-    -moz-border-radius: 25px;
-    border-radius: 25px; 
-}

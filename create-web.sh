@@ -26,6 +26,7 @@ create_page news/2013/courses
 create_page news/2013/hotcode
 create_page news/2013/fprog-1
 create_page news/2013/itjam
+create_page news/2013/mirin
 create_page news/2013/fprog-2
 create_page news/2014/brug
 create_page news/2014/california
