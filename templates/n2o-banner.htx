@@ -126,6 +126,8 @@ function showSlide(slideNo, immediate)
 
 function clickSlide(control)
 {
+    controls = slidesControllersCollection = document.getElementById(slidesControlsID);
+    controls.style.display = "none";
     showSlide(Number(control.id.substr(control.id.lastIndexOf("-")+1)),true);
 }
 
