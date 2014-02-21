@@ -1,0 +1,39 @@
+
+<DIV CLASS="nonselectedwrapper">
+<DIV CLASS="article">
+<DIV CLASS="smallcol">
+    <center><font color="#08c1c3" face=bold size=+7>Ilya<br>Mirin</font></center>
+</DIV>
+<DIV CLASS="articlecol">
+
+    <H2>Ilya Mirin Webcast</H2>
+
+    <p>The general overview of Erlang, Synrc Research Center, history of Erlang projects.
+    Synrc Cloud Stack. Web Frameworks, DHT, Binary Protocols, JavaScript Compilers,
+    Clojure, Functional Programming.</p>
+
+    <h2>Video</h2>
+
+    <p><iframe width="600" height="400" 
+        src="//www.youtube.com/embed/8WH6cdH0-ls"
+        frameborder="0" allowfullscreen></iframe></p>
+
+    <p><iframe width="600" height="400" 
+        src="//www.youtube.com/embed/mm7m3JOiSt8""
+        frameborder="0" allowfullscreen></iframe></p>
+
+<h2>Famous Erlang Everything in 30 minutes</h2>
+
+<p>
+<a href="http://maxim.livejournal.com/351813.html">Как написать LDAP сервер на эрланг за 30 минут</a><br>
+<a href="http://maxim.livejournal.com/382376.html">Как написать WebSocket чат на эрланг за 30 минут</a><br>
+<a href="http://maxim.livejournal.com/413892.html">Как написать Continuous Integration на эрланг за 30 минут</a><br>
+<a href="http://maxim.livejournal.com/408158.html">Как написать REST сервис за 30 секунд</a><br>
+<a href="http://maxim.livejournal.com/415042.html">Как написать свой PaaS на эрланг за 30 дней</a><br>
+<a href="http://maxim.livejournal.com/416681.html">Как написать Erlang JavaScript Compiler на эрланг за 30 минут</a>
+</p>
+
+</DIV>
+</DIV>
+
+
