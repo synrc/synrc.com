@@ -3,9 +3,27 @@
 <DIV CLASS="articlecol">  <h1>2014</h1> </div></div></div>
 
 <DIV CLASS="nonselectedwrapper">
+<DIV CLASS="article" height=100>
+<DIV class="smallcol" height=100 style='background-color:silver;'>
+    <center>
+        <IMG style="background-color:silver;margin-left:-150px;margin-top:-50px;" SRC="http://webcamp.in.ua/img/logo.png" width=300>
+        </center>
+</DIV>
+<DIV CLASS="articlecol">
+
+    <H2><a href="2014/odessa.htm">Odessa WebCamp: N2O Framework</a></H2>
+
+<p>N2O разрабатывался как многофункциональный WebSocket аппликейшин сервер широкого назначения. Будучи ответвлен изначально от классического сервер-рендер фреймворка Nitrogen, он развился в мощное средство (включающее в том числе и поддержку SPA приложений) обеспечения пула долгоживущих TCP соеднений и доставки кода/даных выступая в качестве высокоемкностного релея, благодаря надежной и высокоустойчивой платформе Erlang/OTP. Соединяя в себе все черты Full-Stack веб фреймворков: Роутинг, Темплейтинг, Pub/Sub, Сессии, Хранилище, REST и поддержка кастомных протоколов; N2O добавляет совершенно уникальные возможности для создания различных DSL: вы можете транслировать бизнес логику, написанную на Erlang языках (Elixir, Erlang, Joxa) в JavaScript, генерировать трансформаций Erlang рекордов в JSON структуры и много другое, специфицировать JavaScript протоколы на языке Erlang. Сейчас N2O развивается в сторону поддержки SVG клиентов и бинарных протоколов.
+</p>
+
+</div>
+</div>
+</div>
+
+<DIV CLASS="nonselectedwrapper">
 <DIV CLASS="article">
 <DIV CLASS="smallcol">
-    <center><IMG SRC="http://synrc.com/images/erlang-factory-logo.png" width=150 style="background-color:#a6202f;"></center>
+    <center><IMG SRC="https://synrc.com/images/erlang-factory-logo.png" width=150 style="background-color:#a6202f;"></center>
 </DIV>
 <DIV CLASS="articlecol">
 
@@ -25,7 +43,7 @@ interoperability. You can as well use Elixir, LFE and Joxa languages to develop 
 <DIV CLASS="nonselectedwrapper">
 <DIV CLASS="article">
 <DIV CLASS="smallcol">
-    <center><IMG SRC="http://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Ruby_logo.png/100px-Ruby_logo.png" width=100></center>
+    <center><IMG SRC="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Ruby_logo.png/100px-Ruby_logo.png" width=100></center>
 </DIV>
 <DIV CLASS="articlecol">
 
@@ -50,7 +68,7 @@ Erlang &mdash; N2O: JavaScript компилятор, База данных, REST
 </DIV>
 <DIV CLASS="articlecol">
 
-    <H2><a href="http://mostlyerlang.com/2013/12/18/024-voxoz/">Mostly Erlang Podcast: Functional Deploy with Voxoz</a></H2>
+    <H2><a href="https://mostlyerlang.com/2013/12/18/024-voxoz/">Mostly Erlang Podcast: Functional Deploy with Voxoz</a></H2>
 
 <p>Vlad and Max join us from Kiev to talk about the Voxoz service and how
 they have built a company and service around making erlang devops easier.
@@ -63,7 +81,7 @@ We talk about Erlang on Xen, Releases, Dev ops and more.</p>
 <DIV CLASS="nonselectedwrapper">
 <DIV CLASS="article">
 <DIV CLASS="smallcol">
-    <center><IMG SRC="http://s.developers.org.ua/cache/img/events/blue_lambda_cutie_mark_256_pixels_by_chirochick-d4wdlka_logo_thumbnail.png" width=150></center>
+    <center><IMG SRC="https://synrc.com/images/lambda.png" width=150></center>
 </DIV>
 <DIV CLASS="articlecol">
 
@@ -98,7 +116,7 @@ Erlang &mdash; N2O: JavaScript компилятор, База данных, REST
 <DIV CLASS="nonselectedwrapper">
 <DIV CLASS="article">
 <DIV CLASS="smallcol">
-    <center><IMG SRC="http://synrc.com/images/itjam.png" width=200></center>
+    <center><IMG SRC="https://synrc.com/images/itjam.png" width=200></center>
 </DIV>
 <DIV CLASS="articlecol">
 
@@ -117,7 +135,7 @@ expertise leaders. Inspirational Talk on Building Erlang Company.</p>
 <DIV CLASS="nonselectedwrapper">
 <DIV CLASS="article">
 <DIV CLASS="smallcol">
-    <center><IMG SRC="http://s.developers.org.ua/cache/img/events/blue_lambda_cutie_mark_256_pixels_by_chirochick-d4wdlka_logo_thumbnail.png" width=150></center>
+    <center><IMG SRC="https://synrc.com/images/lambda.png" width=150></center>
 </DIV>
 <DIV CLASS="articlecol">
 
@@ -134,7 +152,7 @@ expertise leaders. Inspirational Talk on Building Erlang Company.</p>
 <DIV CLASS="nonselectedwrapper">
 <DIV CLASS="article">
 <DIV CLASS="smallcol">
-    <center><IMG SRC="http://synrc.com/lj/logo-300x156.png" width=100></center>
+    <center><IMG SRC="https://synrc.com/lj/logo-300x156.png" width=100></center>
 </DIV>
 <DIV CLASS="articlecol">
 
@@ -150,7 +168,7 @@ expertise leaders. Inspirational Talk on Building Erlang Company.</p>
 <DIV CLASS="nonselectedwrapper">
 <DIV CLASS="article">
 <DIV CLASS="smallcol">
-    <center><IMG SRC="http://upload.wikimedia.org/wikipedia/commons/4/42/Erlang_logo.png" width=150></center>
+    <center><IMG SRC="https://upload.wikimedia.org/wikipedia/commons/4/42/Erlang_logo.png" width=150></center>
 </DIV>
 <DIV CLASS="articlecol">
 

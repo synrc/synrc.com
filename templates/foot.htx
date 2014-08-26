@@ -6,14 +6,14 @@
     	<hr size=1>
         <span class="logo_font" style="font-size:14pt;">
             <b><font color="#0033cc">syn</font><font color="#ff0000">rc</font></b></span> uses H<FONT SIZE=1><sup>E</sup></FONT>V<FONT SIZE=1><sup>E</sup></FONT>A<br>
-        <a href="http://build.synrc.com/">Сontinuous Integration</a> |
-        <a href="http://synrc.com/news">Events</a> |
-        <a href="http://voxoz.com">Erlang PaaS</a> |
-        <a href="http://synrc.com/music">Music</a><br>
-    	<a href="http://synrc.com/privacy.htm">Privacy Policy</a> |
-        <a href="http://synrc.com/feedback.htm">Feedback</a> |
-        <a href="http://synrc.com/brandbook.htm">Brandbook</a><br>
-    	Copyright &copy; 2005&ndash;2013 <a href="http://synrc.com/index.htm"> Synrc Research Center s.r.o.</a>
+        <a href="https://build.synrc.com/">Сontinuous Integration</a> |
+        <a href="https://synrc.com/news">Events</a> |
+        <a href="https://voxoz.com">Erlang PaaS</a> |
+        <a href="https://synrc.com/music">Music</a><br>
+    	<a href="https://synrc.com/privacy.htm">Privacy Policy</a> |
+        <a href="https://synrc.com/feedback.htm">Feedback</a> |
+        <a href="https://synrc.com/brandbook.htm">Brandbook</a><br>
+    	Copyright &copy; 2005&ndash;2013 <a href="https://synrc.com/index.htm"> Synrc Research Center s.r.o.</a>
     </div>
 
 </div>
@@ -29,10 +29,10 @@
       
         (function() {
             var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'https://www') + '.google-analytics.com/ga.js';
                     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
                       })();
                       
                       </script>
 
-<script type="text/javascript" src="http://synrc.com/hi.js"></script>
+<script type="text/javascript" src="https://synrc.com/hi.js"></script>

@@ -27,11 +27,12 @@
   \let\oldmeta=\@meta
   \renewcommand{\@meta}{%
   \begin{rawhtml}
-  <link rel=stylesheet type="text/css" href="http://synrc.com/synrc.css">
+  <link rel=stylesheet type="text/css" href="https://synrc.com/synrc.css">
   <meta name="Author" content="5HT">
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta property="og:image" content="http://synrc.com/images/s_64.png"/>
   <meta http-equiv="X-UA-Compatible" content="IE=IE10,chrome=1" />
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
   \end{rawhtml}}
 
   \htmlhead{\rawhtmlinput{templates/head-hevea.htx}}

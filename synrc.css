@@ -1,14 +1,15 @@
+html { zoom: 0.8; }
 A { color: royalblue; }
 A:hover { color: darkblue;  text-shadow: 0 0 1px; }
-
-body { font-size: 18pt; padding: 0; margin: 0; font-family: "Nokia Pure Text"; background-color: #f2f2f2;} 
+.hacklogo { font-family:Monaco;background-color:white;display:inline;margin:3;padding:2 4 6 5; }
+body { font-size: 18pt; padding: 0; margin: 0; font-family: "Open Sans"; background-color: #f2f2f2;} 
 TD { margin-top: 8px; margin-bottom: 0px; }
 H1 { font-size:28pt; font-weight: bold; margin-top:20px; margin-bottom:0px; margin-right:6px; margin-left:10px; padding-bottom:10px; }
 H2 { font-size:26pt; font-weight: bold; margin-top:20px; margin-bottom:-30px; margin-right:6px; margin-left:0px; padding-bottom:10px; }
 H3 { font-size:22pt; font-weight: bold; margin-top:36px; margin-bottom:0px; margin-right:6px; margin-left:8px; } 
 H4 { font-size:20pt; font-weight: normal; margin-top:0px; margin-bottom:0px; margin-right:0px; } 
 H5 { font-size:18pt; font-weight: normal; padding-top:0px;margin-top:0px; margin-bottom:20px; margin-left:10px; } 
-P { font-size:18pt; padding-top:10px;margin-top:0px;padding-right:10px;padding-left:10px;  }
+P { ont-size:18pt; padding-top:10px;margin-top:0px;padding-right:10px;padding-left:10px;  }
 LI { font-size:14pt; }
 input { font-size:18pt; }
 
@@ -41,7 +42,7 @@ h2 { margin-left: 10px; }
 .verywidecol > h2 { margin-left: 10px; margin-bottom: 0px; }
 
 .logo_font { font-family: "Palatino Linotype"; margin-bottom: 0px; line-height: 60%; }
-.menu { font-family: "Nokia Pure Text"; font-size:18pt; color: red; padding: 0 0 15px 15px; margin-right:10px; display: inline-block;}
+.menu { font-size:18pt; color: red; padding: 0 0 15px 15px; margin-right:10px; display: inline-block;}
 .menu:hover { }
 .block { margin-top: 15px; height: 400px; width:400px; background-color: transparent; vertical-align: top; display: inline-block; text-align: left; }
 .wrapper     { max-width: 1200px; margin: 15px auto; text-align:center;}
@@ -54,7 +55,7 @@ blockquote { background-color: #fAfAfA; padding: 20px 20px 20px 20px;}
 .selectedwrapper {
     margin-top: -12px;
     padding-bottom: 10px; overflow: hidden; 
-    background: no-repeat url(http://s.ytimg.com/yt/imgbin/www-refreshbg-vflC3wnbM.png) 0 0;
+    background: no-repeat url(https://s.ytimg.com/yt/imgbin/www-refreshbg-vflC3wnbM.png) 0 0;
     background-color: #EBEBEB;
     background-repeat: repeat; }
 .selectedwrapperlight { 
@@ -66,6 +67,7 @@ blockquote { background-color: #fAfAfA; padding: 20px 20px 20px 20px;}
 .widecol    { width: 40%; float: left; padding: 10px; }
 .smallcol   { width: 200px; padding: 50 0; text-align: left; display: inline-block; vertical-align: top;}
 .toc   { font-size: 16pt; width: 200px; text-align: left; padding-rigt: 20px; margin-left: 20px; display: inline-block; vertical-align: top;}
+.toc2   { font-size: 16pt; width: 350px; text-align: left; padding-rigt: 20px; margin-left: 20px; display: inline-block; vertical-align: top;}
 .last { margin-right: 0; }
 .clear { clear: both; }
 
@@ -78,10 +80,10 @@ blockquote { background-color: #fAfAfA; padding: 20px 20px 20px 20px;}
 
 @font-face {
     font-family: "Nokia Pure Text";
-        src: url("http://synrc.com/fonts/nokiapuretextlight-webfont.eot?v=3"); /* IE9 */
-        src: url("http://synrc.com/fonts/nokiapuretextlight-webfont.eot?v=3") format("eot"), /* IE6-IE8 */
-             url("http://synrc.com/fonts/nokiapuretextlight-webfont.woff?v=3") format("truetype"), /* Mordern browsers */
-             url("http://synrc.com/fonts/nokiapuretextlight-webfont.ttf?v=3") format("truetype"); /* Safari, Android, iOS */
+        src: url("https://synrc.com/fonts/nokiapuretextlight-webfont.eot?v=3"); /* IE9 */
+        src: url("https://synrc.com/fonts/nokiapuretextlight-webfont.eot?v=3") format("eot"), /* IE6-IE8 */
+             url("https://synrc.com/fonts/nokiapuretextlight-webfont.woff?v=3") format("truetype"), /* Mordern browsers */
+             url("https://synrc.com/fonts/nokiapuretextlight-webfont.ttf?v=3") format("truetype"); /* Safari, Android, iOS */
     font-weight: 200;
     font-style: normal;
 }

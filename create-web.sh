@@ -30,6 +30,7 @@ create_page news/2013/mirin
 create_page news/2013/fprog-2
 create_page news/2014/brug
 create_page news/2014/california
+create_page news/2014/odessa
 create_page news/index
 
 
@@ -50,7 +51,7 @@ create_hevea "feedback"
 create_hevea "research"
 create_hevea "labs"
 create_hevea "github"
-cd framework/web
+cd apps/n2o/doc/web
 create_hevea "index"
 create_hevea "setup"
 create_hevea "architecture"
@@ -58,4 +59,7 @@ create_hevea "elements"
 create_hevea "actions"
 create_hevea "api"
 create_hevea "macros"
+create_hevea "protocol"
 cd -
+cd apps/mad/doc/web
+create_hevea "index"

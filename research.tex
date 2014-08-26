@@ -14,28 +14,30 @@
 %HEVEA \begin{divstyle}{wrapper}
 
 %HEVEA \begin{divstyle}{block}
-\section*{Data Storage}
+\section*{Data Consulting}
 \paragraph{}
     We are mainly using NoSQL products. In case that AP capabilities are necessary
     for our storage we use Riak. For CA capabilities we use VoltDB.
-    We also maintain our own Amazon Dynamo implementation.
+    We also maintain our own Amazon Dynamo implementation
+     \footahref{https://synrc.github.io/kai/}{KAI} along with our
+    \footahref{https://synrc.github.io/kvs/}{KVS} Abstract Database with REST interface.
 %HEVEA \end{divstyle}
 
 %HEVEA \begin{divstyle}{block}
-\section*{Message Queues}
+\section*{System Architect}
 \paragraph{}
-    In cases where we need pure Erlang solution we use GProc as PubSub messaging.
-    For language independent solutions we use RabbitMQ along with our library.
-    In some projects based on ejabberd we use XMPP ejabberd extension for PubSub.
+    In cases where we need lightweight Erlang solution we use GProc as PubSub messaging.
+    For language independent solutions we use RabbitMQ along with our \footahref{https://synrc.github.io/mqs/}{MQS} library.
+    In some projects less probably we can use ZMQ.
 %HEVEA \end{divstyle}
 
 %HEVEA \begin{divstyle}{block}
-\section*{Serving Data}
+\section*{Web Applications}
 \paragraph{}
     We used to embed WebMachine/MochiWeb as web server and web framework.
     But currently we have sticked with Cowboy web server.
     For products which require pure TCP listeners and switchable protocols we use Ranch.
-    For Web Framework and Comet we use Nitrogen.
+    For Web Apps and Binary Push we use \footahref{https://synrc.com/apps/n2o}{N2O}.
 %HEVEA \end{divstyle}
 
 %HEVEA \end{divstyle}
@@ -44,7 +46,7 @@
 
 %HEVEA \begin{divstyle}{nonselectedwrapper}
 %HEVEA \begin{divstyle}{verywidecol}
-\section*{\footahref{http://panel.voxoz.com}{Voxoz Erlang Cloud Control Panel}}
+\section*{\footahref{https://panel.voxoz.com}{Voxoz Erlang Cloud Control Panel}}
 \paragraph{}
     Erlang PaaS front end built using N2O, KVS and MQS the key erlang
     applications for Voxoz Xen Cloud.
@@ -74,7 +76,7 @@
 
 %HEVEA \begin{divstyle}{nonselectedwrapper}
 %HEVEA \begin{divstyle}{verywidecol}
-\section*{\footahref{http://kakaranet.com}{Scalable Web and Gaming Platform}}
+\section*{\footahref{https://kakaranet.com}{Scalable Web and Gaming Platform}}
 \paragraph{}
     For the Turkish audience we created scalable distributed system using Erlang, Riak,
     GProc, Cowboy, AMF, RabbitMQ, Nitrogen, GlusterFS, NGINX and other tools. 
@@ -141,7 +143,7 @@
     We oriented on strong and mature binary protocols and data formats such as BER and ASN.1.
     We are not accepting text formats and preffer binary protocols :)
 
-\footahref{github.htm}{Follow The Source}
+\footahref{apps.htm}{Follow The Source}
 
 %HEVEA \end{divstyle}
 %HEVEA \end{divstyle}

@@ -7,99 +7,155 @@
 %HEVEA \loadcssfile{synrc.css}
 \begin{document}
 
-\title{Github}
+\title{Voxoz Apps}
 \author{Maxim Sokhatsky}
 
 %HEVEA \begin{divstyle}{selectedwrapper}
 %HEVEA \begin{divstyle}{wrapper}
 
-
 %HEVEA \begin{divstyle}{block}
-\section*{Data Framework}
+\section*{KVS}
 \paragraph{}
 KVS is Key-Value Storage Data Framework that provide high-level API for handling
 social data like Users, Feeds, Comments, etc. It is designed with sequential consistency in mind.
 
-More: \footahref{http://synrc.github.io/kvs/}{synrc.github.io/kvs}
+\footahref{https://synrc.github.io/kvs}{synrc.github.io/kvs} tag 1.5.0
 %HEVEA \end{divstyle}
 
+
 %HEVEA \begin{divstyle}{block}
-\section*{Message Queue Library}
+\section*{\footahref{https://synrc.com/apps/n2o}{N2O}}
 \paragraph{}
-MQS is RabbitMQ client library that handles conections, channels,
-subscriptions has its own routing interface that you can use for building
-sophisticated subscriptions topology. It also supports RPC over MQ.
+Most Powerful Erlang WebSocket Application Server. Server-render and SPA modes.
+Extensible WebSocket protocol for JSON, BERT, RAW binary data transfer.
+Includes: REST, JavaScript Compiler, Pub/Sub, Sessions, Controls, Templates, etc.
 
-More: \footahref{http://synrc.github.io/mqs/}{synrc.github.io/mqs}
+\footahref{https://5ht.github.io/n2o}{5ht.github.io/n2o} tag 1.8.0
 %HEVEA \end{divstyle}
 
+
 %HEVEA \begin{divstyle}{block}
-\section*{\footahref{http://synrc.com/framework/web}{Web Framework}}
+\section*{SHEN}
 \paragraph{}
-Nitrogen 2 Optimized. Binary page construction. Binary data transfer.
-Websocket async interface for page updates. No processes spawn, works
-within Cowboy processes. Page render is 2X faster than original Nitrogen.
+JavaScript parse transform allows you to write JavaScript in Erlang and
+compile it with erlc. This compiler preserves program semantics closure to closure.
 
-More: \footahref{http://synrc.github.io/n2o/}{synrc.github.io/n2o}
+\footahref{https://synrc.github.io/shen}{synrc.github.io/shen} tag 1.5.0
 %HEVEA \end{divstyle}
 
 %HEVEA \begin{divstyle}{block}
-\section*{Feed Server}
+\section*{REST}
 \paragraph{}
-Feed Server is node of user workers region. It handles all MQ
-requests for write operations for user's data and other APIs.
-Also it acts as distributed cache for user feeds and other list chains.
+REST toolkit that allows you to deal with typed JSON as Erlang records.
+It will automatically generates JSON/Records converters for well knwon records.
+It is released as standalone micro-REST app that could be used with Cowboy.
 
-More: \footahref{http://synrc.github.io/feeds/}{synrc.github.io/feeds}
+\footahref{https://synrc.github.io/rest}{synrc.github.io/rest} tag 1.5.0
 %HEVEA \end{divstyle}
 
 %HEVEA \begin{divstyle}{block}
-\section*{\footahref{http://synrc.com/framework/snmp}{SNMP Framework}}
+\section*{\footahref{https://synrc.com/apps/mad}{MAD}}
 \paragraph{}
-In aestetic of HAL 9000 Web Site application to monitor Synrc clusters.
-Supports extendable set of plugins to display information. See Showcase for details.
-Also look at snmp_agent application that you should embedd in you services.
+Mad is Erlang Dependency Manager that aims to be small and fast rebar
+replacement which supports rebar.config files, YRL and DTL compilation.
 
-More: \footahref{https://github.com/kakaranet/monitor}{framework/snmp}
+\footahref{https://synrc.github.io/mad}{synrc.github.io/mad} tag 0.8
 %HEVEA \end{divstyle}
 
 %HEVEA \begin{divstyle}{block}
-\section*{Authorization Library}
+\section*{ACTIVE}
+\paragraph{}
+Active is sync replacement that uses native FileSystem OS async
+listeners to compile and reload Erlang files, DTL templates and other files.
+It acts as FS subscriber under supervision and uses MAD under the hood.
+
+\footahref{https://synrc.github.io/active}{synrc.github.io/active} tag 0.8
+%HEVEA \end{divstyle}
+
+%HEVEA \begin{divstyle}{block}
+\section*{FS}
+\paragraph{}
+File System listener provides native async way of watching on
+file system changes unlike polling in Nitrogen's sync. It will save
+your CPU in production.
+
+\footahref{https://synrc.github.io/fs}{synrc.github.io/fs} tag 0.8
+%HEVEA \end{divstyle}
+
+%HEVEA \begin{divstyle}{block}
+\section*{SH}
+\paragraph{}
+Erlang Shell Executor will give you safe access to calling system shell
+from erlang and also prevent your erlang processes from leaking on port closing.
+
+\footahref{https://synrc.github.io/sh}{synrc.github.io/sh} tag 0.8
+%HEVEA \end{divstyle}
+
+%HEVEA \begin{divstyle}{block}
+\section*{OTP.MK}
+\paragraph{}
+
+Tiny Makefile-based Erlang/OTP and reltool/relx/rebar/mix/mad compatible
+build solutions. Today otp.mk costs us 52 LOC and orderapps.erl 15 LOC
+and we want to keep that size. Consider this as top level Makefile-base
+API for Erlang tools.
+
+\footahref{https://synrc.github.io/otp.mk}{synrc.github.io/otp.mk} tag 1.5.0
+%HEVEA \end{divstyle}
+
+%HEVEA \begin{divstyle}{block}
+\section*{AVZ}
 \paragraph{}
 AVZ provides simple and sane API for JavaScript based and HTTP-redirect
 based auth methods like Google, Facebook, Microsoft, Twitter and Github.
 It is very tiny, clean and useful for your land pages.
 
-More: \footahref{http://voxoz.github.io/avz/}{synrc.github.io/avz}
+\footahref{https://synrc.github.io/avz}{synrc.github.io/avz} tag 1.4.0
 %HEVEA \end{divstyle}
 
 %HEVEA \begin{divstyle}{block}
-\section*{Directory Server}
+\section*{FEEDS}
+\paragraph{}
+Feed Server is node of user workers region. It handles all MQ
+requests for write operations for user's data and other APIs.
+Also it acts as distributed cache for user feeds and other list chains.
+
+\footahref{https://synrc.github.io/feeds/}{synrc.github.io/feeds}
+%HEVEA \end{divstyle}
+
+
+%HEVEA \begin{divstyle}{block}
+\section*{MQS}
+\paragraph{}
+MQS is RabbitMQ client library that handles conections, channels,
+subscriptions has its own routing interface that you can use for building
+sophisticated subscriptions topology. It also supports RPC over MQ.
+
+\footahref{https://synrc.github.io/mqs/}{synrc.github.io/mqs}
+%HEVEA \end{divstyle}
+
+
+%HEVEA \begin{divstyle}{block}
+\section*{\footahref{https://synrc.com/framework/snmp}{SNMP}}
+\paragraph{}
+In aestetic of HAL 9000 Web Site application to monitor Synrc clusters.
+Supports extendable set of plugins to display information. See Showcase for details.
+Also look at snmp_agent application that you should embedd in you services.
+
+\footahref{https://github.com/kakaranet/monitor}{framework/snmp}
+%HEVEA \end{divstyle}
+
+%HEVEA \begin{divstyle}{block}
+\section*{LDAP}
 \paragraph{}
 Directory Server is a distributed storage that can handle tens of
 millions online user requests. 
 In its core as most of LDAP servers Synrc Directory is based on
 key-value distributed data store, DHT.
 
-More: \footahref{http://synrc.github.io/directory_server/}{synrc.github.io/dir}
+\footahref{https://synrc.github.io/ldap/}{synrc.github.io/ldap}
 %HEVEA \end{divstyle}
 
-
-%HEVEA \begin{divstyle}{block}
-\section*{Category Theory}
-\paragraph{}
-Here is a set of Books on Category Theory, Dependent Types, Lambda and Process Calculus.
-
-More: \footahref{http://synrc.com/publications/cat}{publications/cat}
-%HEVEA \end{divstyle}
-
-%HEVEA \begin{divstyle}{block}
-\section*{\footahref{labs.htm}{Geek Labs}}
-\paragraph{}
-Synrc Research Center archived all information about BeOS operating system 
-including CD images and have dedicated page for this purposes and also some
-other stuff like PL/1 .NET compiler Windows Sync application and XMPP Chat for BeOS, Charity Language and Io.
-%HEVEA \end{divstyle}
 
 %HEVEA \end{divstyle}
 %HEVEA \end{divstyle}
@@ -109,7 +165,8 @@ other stuff like PL/1 .NET compiler Windows Sync application and XMPP Chat for B
 %HEVEA \begin{divstyle}{nonselectedwrapper}
 %HEVEA \begin{divstyle}{verywidecol}
 
-\footahref{feedback.htm}{Contact Us}
+\footahref{../feedback.htm}{Contact Us}\qquad
+\footahref{../labs.htm}{Geek Labs}
 
 %HEVEA \end{divstyle}
 %HEVEA \end{divstyle}
