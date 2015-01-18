@@ -1,5 +1,5 @@
-html{zoom:0.9;color:#252525;background:#EBEBEB;}
-body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td{margin:0;padding:0;}
+html{zoom:0.5;color:#252525;background:#EBEBEB;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td{font-family: "Open Sans"; margin:0;padding:0;}
 fieldset,img{border:0;}
 .content {max-width:1280px;min-width:800px;}
 

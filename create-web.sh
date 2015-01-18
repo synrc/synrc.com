@@ -31,6 +31,8 @@ create_page news/2013/fprog-2
 create_page news/2014/brug
 create_page news/2014/california
 create_page news/2014/odessa
+create_page news/2014/courses
+create_page news/2014/mostfunctional
 create_page news/index
 
 
@@ -46,6 +48,7 @@ create_hevea()
 	hevea $1.tex -o $1.htm
 }
 
+create_hevea "5HT"
 create_hevea "index"
 create_hevea "feedback"
 create_hevea "research"
@@ -54,12 +57,20 @@ create_hevea "github"
 cd apps/n2o/doc/web
 create_hevea "index"
 create_hevea "setup"
-create_hevea "architecture"
+create_hevea "processes"
+create_hevea "endpoints"
+create_hevea "protocols"
+create_hevea "handlers"
+create_hevea "macros"
+create_hevea "api"
 create_hevea "elements"
 create_hevea "actions"
-create_hevea "api"
-create_hevea "macros"
-create_hevea "protocol"
+create_hevea "packages"
+create_hevea "persistence"
+create_hevea "utf8"
 cd -
 cd apps/mad/doc/web
+create_hevea "index"
+cd -
+cd apps/upl/doc/web
 create_hevea "index"

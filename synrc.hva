@@ -11,8 +11,8 @@
 \newcommand{\includeimage}[3]{
 \ifhevea
 {
-\imgsrc[style="margin-left: -20px;margin-botton: 30px; background-color: #eeeeee;padding:20 20 20 20px;"]{\images/#1}\@br
-{\bf #2}\@br\@br
+\imgsrc[style="margin-left: -20px;margin-botton: 30px; padding:20 20 20 20px;"]{\images/#1}\@br
+Picture. {\bf #2}\@br\@br
 }
 \else
 {

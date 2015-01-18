@@ -14,8 +14,8 @@ create_tex()
 #create_tex index .
 #create_tex labs .
 #create_tex github .
-create_tex index framework/web
-create_tex elements framework/web
-create_tex actions framework/web
-create_tex api framework/web
-create_tex extending framework/web
+create_tex index apps/n2o/doc
+create_tex elements apps/n2o/doc
+create_tex actions apps/n2o/doc
+create_tex api apps/n2o/doc
+create_tex extending apps/n2o/doc

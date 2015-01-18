@@ -8,13 +8,14 @@
         var args = (window.location).toString().split('/');
         var page_name = args[args.length-1];
         var menu = {//'index.htm':    'Home',
-                    'research.htm': 'Showcase',
-                    'apps/':   'Apps',
-                    'feedback.htm': 'Contacts'};
+                    'https://synrc.com/research.htm': 'Showcase',
+                    'https://synrc.com/apps/':   'Apps',
+                    'http://spawnproc.com':   'SpawnProc',
+                    'https://synrc.com/feedback.htm': 'Contacts'};
 
         Object.keys(menu).forEach(function (key) {
             if (page_name == key) { document.write('<div class="menu" style="font-weight: bold;">'+menu[key]+'</div>'); }
-            else { document.write('<a class="menu" href="https://synrc.com/'+key+'">'+menu[key]+'</a>'); }
+            else { document.write('<a class="menu" href="'+key+'">'+menu[key]+'</a>'); }
         });
 
         </script>
