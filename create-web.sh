@@ -71,6 +71,13 @@ create_hevea "utf8"
 cd -
 cd apps/mad/doc/web
 create_hevea "index"
+create_hevea "setup"
+create_hevea "commands"
+create_hevea "bundles"
+create_hevea "config"
+create_hevea "deps"
+create_hevea "ports"
+create_hevea "scripts"
 cd -
 cd apps/upl/doc/web
 create_hevea "index"

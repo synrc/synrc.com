@@ -97,3 +97,25 @@ p br:nth-child(1) {display: none;}
 #dsq-content #disqus_thread #dsq-comments .dsq-comment-message  { font-size: 26px; font-family: "Nokia Pure Text"; }
 .post-content { font-size: 26px; font-family: "Nokia Pure Text"; }
 
+@font-face {
+    font-family: 'local';
+    src: url('http://5ht.github.io/Geometria-Light.otf');
+    font-weight: normal;
+    font-style: normal
+}
+
+@media screen and (max-width: 880px) {
+  .nonselectedwrapper > a {
+    display: block;
+    text-align: center;
+  }
+  .nonselectedwrapper [align='right'] {
+    display: block;
+     margin: 0!important;
+  }
+  .nonselectedwrapper [align='right'] .menu {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+}

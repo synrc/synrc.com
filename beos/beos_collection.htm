@@ -19,11 +19,11 @@
 
         var args = (window.location).toString().split('/');
         var page_name = args[args.length-1];
-        var menu = {//'index.htm':    'Home',
-                    'https://synrc.com/research.htm': 'Showcase',
-                    'https://synrc.com/apps/':   'Apps',
-                    'http://spawnproc.com':   'SpawnProc',
-                    'https://synrc.com/feedback.htm': 'Contacts'};
+        var menu = {//'index.htm':    'home',
+                    'https://synrc.com/research.htm': 'showcase',
+                    'https://synrc.com/apps/':   'synrc',
+                    'http://spawnproc.com':   'spawnproc',
+                    'https://synrc.com/feedback.htm': 'contacts'};
 
         Object.keys(menu).forEach(function (key) {
             if (page_name == key) { document.write('<div class="menu" style="font-weight: bold;">'+menu[key]+'</div>'); }
@@ -98,10 +98,10 @@ although internally it is not a Unix-derived operating system..</P>
     	<hr size=1>
         <span class="logo_font" style="font-size:14pt;">
             <b><font color="#0033cc">syn</font><font color="#ff0000">rc</font></b></span> uses H<FONT SIZE=1><sup>E</sup></FONT>V<FONT SIZE=1><sup>E</sup></FONT>A<br>
-        <a href="https://build.synrc.com/">Сontinuous Integration</a> |
+        <a href="http://build.synrc.com/">Сontinuous Integration</a> |
         <a href="https://synrc.com/news">Events</a> |
-        <a href="https://voxoz.com">Erlang PaaS</a> |
-        <a href="https://synrc.com/music">Music</a><br>
+        <a href="http://voxoz.com">Erlang PaaS</a> |
+        <a href="http://synrc.com/music">Music</a><br>
     	<a href="https://synrc.com/privacy.htm">Privacy Policy</a> |
         <a href="https://synrc.com/feedback.htm">Feedback</a> |
         <a href="https://synrc.com/brandbook.htm">Brandbook</a><br>

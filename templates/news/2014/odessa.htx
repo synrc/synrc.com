@@ -1,0 +1,42 @@
+ <DIV CLASS="article">
+<DIV class="smallcol" height=100 style='background-color:silver;'>
+    <center>
+        <IMG style="background-color:silver;margin-left:-150px;margin-top:-50px;" SRC="http://webcamp.in.ua/img/logo.png" width=300>
+        </center>
+</DIV>
+<DIV CLASS="articlecol">
+
+    <H2>WebCamp Developers Day: N2O Framework</H2>
+
+    <p>N2O разрабатывался как многофункциональный WebSocket
+    аппликейшин сервер широкого назначения. Будучи ответвлен
+    изначально от классического сервер-рендер фреймворка Nitrogen,
+    он развился в мощное средство (включающее в том числе и
+    поддержку SPA приложений) обеспечения пула долгоживущих
+    TCP соеднений и доставки кода/даных выступая в качестве
+    высокоемкностного релея, благодаря надежной и высокоустойчивой
+    платформе Erlang/OTP. Соединяя в себе все черты Full-Stack веб
+    фреймворков: Роутинг, Темплейтинг, Pub/Sub, Сессии, Хранилище,
+    REST и поддержка кастомных протоколов; N2O добавляет совершенно
+    уникальные возможности для создания различных DSL: вы можете
+    транслировать бизнес логику, написанную на Erlang языках (Elixir,
+    Erlang, Joxa) в JavaScript, генерировать трансформаций Erlang
+    рекордов в JSON структуры и много другое, специфицировать
+    JavaScript протоколы на языке Erlang. Сейчас N2O развивается
+    в сторону поддержки SVG клиентов и бинарных протоколов.</p>
+
+    <p><img src="http://synrc.com/lj/n2o.jpg" width=600></p>
+
+    <p><iframe width="600" height="400" src="//www.youtube.com/embed/jHVb1-048TI" frameborder="0" allowfullscreen></iframe></p>
+
+    <p><b>Target audience:</b> Web Developers, CTO</p>
+
+<h2>Slides</h2>
+<p><b>24 July 2014 &mdash; <a href="https://slid.es/maximsokhatsky/n2o">N2O: Web Framework</a><br>
+</p>
+
+</DIV>
+</DIV>
+
+<DIV CLASS="clear"></DIV>
+
