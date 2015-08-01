@@ -1,17 +1,17 @@
 
-<div class="nonselectedwrapper white" style="padding: 5 10 0 0;margin: 0 0 -12 0;">
+<div class="nonselectedwrapper white" style="padding: 10px 0px 10px 0px;margin: 0px 0px 10px 0px;">
     <a href="https://synrc.com">
-    <img style="flat:left; margin-left: 55px; margin-top: 5px; margin-bottom:5px;" src="https://synrc.com/images/synrc.png" border="0"></a>
+    <img style="flat:left; margin-left: 55px; margin-top: 5px; margin-bottom:-5px;" src="images/synrc.png" border="0"></a>
     <div align=right style="margin: -50px 50px 0px 0px;">
         <script language="JavaScript">
 
         var args = (window.location).toString().split('/');
         var page_name = args[args.length-1];
-        var menu = {//'index.htm':    'home',
-                    'https://synrc.com/research.htm': 'showcase',
-                    'https://synrc.com/apps/':   'synrc',
-                    'http://spawnproc.com':   'spawnproc',
-                    'https://synrc.com/feedback.htm': 'contacts'};
+        var menu = {'index.htm':    'home',
+                    'research.htm': 'showcase',
+                    'apps.htm':   'apps',
+                    //'http://spawnproc.com':   'spawnproc',
+                    'feedback.htm': 'contacts'};
 
         Object.keys(menu).forEach(function (key) {
             if (page_name == key) { document.write('<div class="menu" style="font-weight: bold;">'+menu[key]+'</div>'); }

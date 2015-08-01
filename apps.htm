@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html >
+<head>
+
+  <link rel=stylesheet type="text/css" href="synrc.css">
+  <meta name="Author" content="5HT">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta property="og:image" content="images/s_64.png"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=IE10,chrome=1" />
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+  <title>Voxoz Apps
+</title>
+</head>
+<body >
+<!--HEVEA command line is: hevea apps.tex -o apps.htm -->
+<!--CUT STYLE article--><!--HTMLHEAD-->
+
+<div class="nonselectedwrapper white" style="padding: 10px 0px 10px 0px;margin: 0px 0px 10px 0px;">
+    <a href="https://synrc.com">
+    <img style="flat:left; margin-left: 55px; margin-top: 5px; margin-bottom:-5px;" src="images/synrc.png" border="0"></a>
+    <div align=right style="margin: -50px 50px 0px 0px;">
+        <script language="JavaScript">
+
+        var args = (window.location).toString().split('/');
+        var page_name = args[args.length-1];
+        var menu = {'index.htm':    'home',
+                    'research.htm': 'showcase',
+                    'apps.htm':   'apps',
+                    //'http://spawnproc.com':   'spawnproc',
+                    'feedback.htm': 'contacts'};
+
+        Object.keys(menu).forEach(function (key) {
+            if (page_name == key) { document.write('<div class="menu" style="font-weight: bold;">'+menu[key]+'</div>'); }
+            else { document.write('<a class="menu" href="'+key+'">'+menu[key]+'</a>'); }
+        });
+
+        </script>
+    </div>
+</div>
+
+<hr size="1">
+
+<!--ENDHTML-->
+<!--CUT DEF section 1 --><div class="selectedwrapper">
+<div class="wrapper"><div class="block">
+<!--TOC section id="sec1" KVS-->
+<h2 id="sec1" class="section">KVS</h2><!--SEC END -->
+<!--TOC paragraph id="sec2" -->
+<!--SEC END --><p>
+KVS is Key-Value Storage Data Framework that provide high-level API for handling
+social data like Users, Feeds, Comments, etc. It is designed with sequential consistency in mind.</p><p><a href="https://synrc.github.io/kvs">synrc.github.io/kvs</a> tag 1.5.0
+</p></div><div class="block">
+<!--TOC section id="sec3" N2O-->
+<h2 id="sec3" class="section">N2O</h2><!--SEC END -->
+<!--TOC paragraph id="sec4" -->
+<!--SEC END --><p>
+Most Powerful Erlang WebSocket Application Server. Server-render and SPA modes.
+Extensible WebSocket protocol for JSON, BERT, RAW binary data transfer.
+Includes: REST, JavaScript Compiler, Pub/Sub, Sessions, Controls, Templates, etc.</p><p><a href="https://5ht.github.io/n2o">5ht.github.io/n2o</a> tag 1.8.0
+</p></div><div class="block">
+<!--TOC section id="sec5" SHEN-->
+<h2 id="sec5" class="section">SHEN</h2><!--SEC END -->
+<!--TOC paragraph id="sec6" -->
+<!--SEC END --><p>
+JavaScript parse transform allows you to write JavaScript in Erlang and
+compile it with erlc. This compiler preserves program semantics closure to closure.</p><p><a href="https://synrc.github.io/shen">synrc.github.io/shen</a> tag 1.5.0
+</p></div><div class="block">
+<!--TOC section id="sec7" REST-->
+<h2 id="sec7" class="section">REST</h2><!--SEC END -->
+<!--TOC paragraph id="sec8" -->
+<!--SEC END --><p>
+REST toolkit that allows you to deal with typed JSON as Erlang records.
+It will automatically generates JSON/Records converters for well knwon records.
+It is released as standalone micro-REST app that could be used with Cowboy.</p><p><a href="https://synrc.github.io/rest">synrc.github.io/rest</a> tag 1.5.0
+</p></div><div class="block">
+<!--TOC section id="sec9" MAD-->
+<h2 id="sec9" class="section">MAD</h2><!--SEC END -->
+<!--TOC paragraph id="sec10" -->
+<!--SEC END --><p>
+Mad is Erlang Dependency Manager that aims to be small and fast rebar
+replacement which supports rebar.config files, YRL and DTL compilation.</p><p><a href="https://synrc.github.io/mad">synrc.github.io/mad</a> tag 0.8
+</p></div><div class="block">
+<!--TOC section id="sec11" ACTIVE-->
+<h2 id="sec11" class="section">ACTIVE</h2><!--SEC END -->
+<!--TOC paragraph id="sec12" -->
+<!--SEC END --><p>
+Active is sync replacement that uses native FileSystem OS async
+listeners to compile and reload Erlang files, DTL templates and other files.
+It acts as FS subscriber under supervision and uses MAD under the hood.</p><p><a href="https://synrc.github.io/active">synrc.github.io/active</a> tag 0.8
+</p></div><div class="block">
+<!--TOC section id="sec13" FS-->
+<h2 id="sec13" class="section">FS</h2><!--SEC END -->
+<!--TOC paragraph id="sec14" -->
+<!--SEC END --><p>
+File System listener provides native async way of watching on
+file system changes unlike polling in Nitrogen’s sync. It will save
+your CPU in production.</p><p><a href="https://synrc.github.io/fs">synrc.github.io/fs</a> tag 0.8
+</p></div><div class="block">
+<!--TOC section id="sec15" SH-->
+<h2 id="sec15" class="section">SH</h2><!--SEC END -->
+<!--TOC paragraph id="sec16" -->
+<!--SEC END --><p>
+Erlang Shell Executor will give you safe access to calling system shell
+from erlang and also prevent your erlang processes from leaking on port closing.</p><p><a href="https://synrc.github.io/sh">synrc.github.io/sh</a> tag 0.8
+</p></div><div class="block">
+<!--TOC section id="sec17" OTP.MK-->
+<h2 id="sec17" class="section">OTP.MK</h2><!--SEC END -->
+<!--TOC paragraph id="sec18" -->
+<!--SEC END --><p>Tiny Makefile-based Erlang/OTP and reltool/relx/rebar/mix/mad compatible
+build solutions. Today otp.mk costs us 52 LOC and orderapps.erl 15 LOC
+and we want to keep that size. Consider this as top level Makefile-base
+API for Erlang tools.</p><p><a href="https://synrc.github.io/otp.mk">synrc.github.io/otp.mk</a> tag 1.5.0
+</p></div><div class="block">
+<!--TOC section id="sec19" AVZ-->
+<h2 id="sec19" class="section">AVZ</h2><!--SEC END -->
+<!--TOC paragraph id="sec20" -->
+<!--SEC END --><p>
+AVZ provides simple and sane API for JavaScript based and HTTP-redirect
+based auth methods like Google, Facebook, Microsoft, Twitter and Github.
+It is very tiny, clean and useful for your land pages.</p><p><a href="https://synrc.github.io/avz">synrc.github.io/avz</a> tag 1.4.0
+</p></div><div class="block">
+<!--TOC section id="sec21" FEEDS-->
+<h2 id="sec21" class="section">FEEDS</h2><!--SEC END -->
+<!--TOC paragraph id="sec22" -->
+<!--SEC END --><p>
+Feed Server is node of user workers region. It handles all MQ
+requests for write operations for user’s data and other APIs.
+Also it acts as distributed cache for user feeds and other list chains.</p><p><a href="https://synrc.github.io/feeds/">synrc.github.io/feeds</a>
+</p></div><div class="block">
+<!--TOC section id="sec23" MQS-->
+<h2 id="sec23" class="section">MQS</h2><!--SEC END -->
+<!--TOC paragraph id="sec24" -->
+<!--SEC END --><p>
+MQS is RabbitMQ client library that handles conections, channels,
+subscriptions has its own routing interface that you can use for building
+sophisticated subscriptions topology. It also supports RPC over MQ.</p><p><a href="https://synrc.github.io/mqs/">synrc.github.io/mqs</a>
+</p></div><div class="block">
+<!--TOC section id="sec25" SNMP-->
+<h2 id="sec25" class="section"><a href="framework/snmp/index.htm">SNMP</a></h2><!--SEC END -->
+<!--TOC paragraph id="sec26" -->
+<!--SEC END --><p>
+In aestetic of HAL 9000 Web Site application to monitor Synrc clusters.
+Supports extendable set of plugins to display information. See Showcase for details.
+Also look at snmp_agent application that you should embedd in you services.</p><p><a href="https://github.com/kakaranet/monitor">framework/snmp</a>
+</p></div><div class="block">
+<!--TOC section id="sec27" LDAP-->
+<h2 id="sec27" class="section">LDAP</h2><!--SEC END -->
+<!--TOC paragraph id="sec28" -->
+<!--SEC END --><p>
+Directory Server is a distributed storage that can handle tens of
+millions online user requests. 
+In its core as most of LDAP servers Synrc Directory is based on
+key-value distributed data store, DHT.</p><p><a href="https://synrc.github.io/ldap/">synrc.github.io/ldap</a>
+</p></div></div>
+</div><div class="clear"> </div><div class="nonselectedwrapper">
+<div class="verywidecol"><p><a href="feedback.htm">Contact Us</a>    </p></div>
+</div><!--CUT END -->
+<!--HTMLFOOT-->
+
+<div class="nonselectedwrapper">
+<div class="verywidecol">
+
+    <div style="width:100%;height:300px;float:left;font-size:14pt;" align=center>
+    	<hr size=1>
+        <span class="logo_font" style="font-size:14pt;">
+            <b><font color="#0033cc">syn</font><font color="#ff0000">rc</font></b></span> uses H<FONT SIZE=1><sup>E</sup></FONT>V<FONT SIZE=1><sup>E</sup></FONT>A<br>
+        <a href="news/index.htm">Events</a> |
+        <!--a href="http://voxoz.com">Erlang PaaS</a-->
+    	<a href="privacy.htm">Privacy Policy</a> |
+        <a href="feedback.htm">Feedback</a> |
+        <a href="brandbook.htm">Brandbook</a><br>
+    	Copyright &copy; 2005&ndash;2013 <a href="https://synrc.com/index.htm"> Synrc Research Center s.r.o.</a>
+    </div>
+
+</div>
+</div>
+
+<div class="clear"></div>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-29227518-1']);
+      _gaq.push(['_trackPageview']);
+      
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'https://www') + '.google-analytics.com/ga.js';
+                    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+                      })();
+                      
+                      </script>
+
+<script type="text/javascript" src="https://synrc.com/hi.js"></script>
+<!--ENDHTML-->
+</body>
+</html>

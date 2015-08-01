@@ -3,13 +3,14 @@ A { color: royalblue; }
 A:hover { color: darkblue;  text-shadow: 0 0 1px; }
 .hacklogo { font-family:Monaco;background-color:white;display:inline;margin:3;padding:2 4 6 5; }
 body { font-size: 18pt; padding: 0; margin: 0; font-family: "Open Sans"; background-color: #f2f2f2;} 
-TD { margin-top: 8px; margin-bottom: 0px; }
+TD { margin-top: 8px; margin-bottom: 0px; font-size:14pt;}
 H1 { font-size:28pt; font-weight: bold; margin-top:20px; margin-bottom:0px; margin-right:6px; margin-left:10px; padding-bottom:10px; }
 H2 { font-size:26pt; font-weight: bold; margin-top:20px; margin-bottom:-30px; margin-right:6px; margin-left:0px; padding-bottom:10px; }
 H3 { font-size:22pt; font-weight: bold; margin-top:36px; margin-bottom:0px; margin-right:6px; margin-left:8px; } 
 H4 { font-size:20pt; font-weight: normal; margin-top:0px; margin-bottom:0px; margin-right:0px; } 
 H5 { font-size:18pt; font-weight: normal; padding-top:0px;margin-top:0px; margin-bottom:20px; margin-left:10px; } 
-P { ont-size:18pt; padding-top:10px;margin-top:0px;padding-right:10px;padding-left:10px;  }
+P { font-size:18pt; padding-top:10px;margin-top:0px;padding-right:10px;padding-left:10px;  }
+hr { margin-top:-10px;}
 LI { font-size:14pt; }
 input { font-size:18pt; }
 
@@ -32,11 +33,8 @@ input { font-size:18pt; }
 #slides {}
 #slide {}
 
-.section { margin-left: 12px; }
-.subsection { margin-left: 8px; } //padding: 10px 10px 10px 10px; background-color: silver; display: inline-block;}
-// .block > .section { margin-left: 8px; }
-// .block > .section > a { margin-left: -8px; background-color: white; padding: 10px; margin-bottom: 10px; }
-// .block > p { margin-left: 0px; background-color: white; padding: 10px; margin-bottom: 10px; margin-right: 0px; }
+.section { margin-left: 12px; margin-bottom: 0px;}
+.subsection { margin-left: 8px; }
 .verywidecol > .section { margin-left: 0px; margin-bottom: -20px;}
 h2.section { margin-left: 8px; }
 h2 { margin-left: 10px; }
@@ -56,7 +54,9 @@ h2 { margin-left: 10px; }
 blockquote { background-color: #fAfAfA; padding: 20px 20px 20px 20px;}
 .selectedwrapper {
     margin-top: -12px;
-    padding-bottom: 10px; overflow: hidden; 
+    margin-bottom: -20px;
+    padding-bottom: 25px;
+    overflow: hidden; 
     background: no-repeat url(https://s.ytimg.com/yt/imgbin/www-refreshbg-vflC3wnbM.png) 0 0;
     background-color: #EBEBEB;
     background-repeat: repeat; }
@@ -65,7 +65,7 @@ blockquote { background-color: #fAfAfA; padding: 20px 20px 20px 20px;}
     padding-bottom: 10px; 
     background-color: #fafafa;
     background-repeat: repeat; }
-.nonselectedwrapper { width: max-width; margin-left: auto; margin-right:auto; overflow: hidden; }
+.nonselectedwrapper { margin:auto; padding:auto;width: max-width; overflow: hidden; }
 .widecol    { width: 40%; float: left; padding: 10px; }
 .smallcol   { width: 200px; padding: 50 0; text-align: left; display: inline-block; vertical-align: top;}
 .toc   { font-size: 16pt; width: 200px; text-align: left; padding-rigt: 20px; margin-left: 20px; display: inline-block; vertical-align: top;}
@@ -119,3 +119,4 @@ p br:nth-child(1) {display: none;}
     text-align: center;
   }
 }
+

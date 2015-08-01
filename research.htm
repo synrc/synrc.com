@@ -1,35 +1,33 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"
-            "http://www.w3.org/TR/REC-html40/loose.dtd">
-<HTML>
-<HEAD>
-<TITLE>Showcase
-</TITLE>
+<!DOCTYPE html>
+<html >
+<head>
 
-
-  <link rel=stylesheet type="text/css" href="https://synrc.com/synrc.css">
+  <link rel=stylesheet type="text/css" href="synrc.css">
   <meta name="Author" content="5HT">
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta property="og:image" content="http://synrc.com/images/s_64.png"/>
+  <meta property="og:image" content="images/s_64.png"/>
   <meta http-equiv="X-UA-Compatible" content="IE=IE10,chrome=1" />
   <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-  </HEAD>
-<BODY >
-<!--HEVEA command line is: /usr/bin/hevea research.tex -o research.htm -->
-<!--HTMLHEAD-->
+  <title>Showcase
+</title>
+</head>
+<body >
+<!--HEVEA command line is: hevea research.tex -o research.htm -->
+<!--CUT STYLE article--><!--HTMLHEAD-->
 
-<div class="nonselectedwrapper white" style="padding: 5 10 0 0;margin: 0 0 -12 0;">
+<div class="nonselectedwrapper white" style="padding: 10px 0px 10px 0px;margin: 0px 0px 10px 0px;">
     <a href="https://synrc.com">
-    <img style="flat:left; margin-left: 55px; margin-top: 5px; margin-bottom:5px;" src="https://synrc.com/images/synrc.png" border="0"></a>
+    <img style="flat:left; margin-left: 55px; margin-top: 5px; margin-bottom:-5px;" src="images/synrc.png" border="0"></a>
     <div align=right style="margin: -50px 50px 0px 0px;">
         <script language="JavaScript">
 
         var args = (window.location).toString().split('/');
         var page_name = args[args.length-1];
-        var menu = {//'index.htm':    'home',
-                    'https://synrc.com/research.htm': 'showcase',
-                    'https://synrc.com/apps/':   'synrc',
-                    'http://spawnproc.com':   'spawnproc',
-                    'https://synrc.com/feedback.htm': 'contacts'};
+        var menu = {'index.htm':    'home',
+                    'research.htm': 'showcase',
+                    'apps.htm':   'apps',
+                    //'http://spawnproc.com':   'spawnproc',
+                    'feedback.htm': 'contacts'};
 
         Object.keys(menu).forEach(function (key) {
             if (page_name == key) { document.write('<div class="menu" style="font-weight: bold;">'+menu[key]+'</div>'); }
@@ -43,62 +41,68 @@
 <hr size="1">
 
 <!--ENDHTML-->
-<!--CUT DEF section 1 --><DIV CLASS="selectedwrapper">
-<DIV CLASS="wrapper"><DIV CLASS="block">
-<!--TOC section Data Consulting-->
-<H2 CLASS="section"><!--SEC ANCHOR -->Data Consulting</H2><!--SEC END --><!--TOC paragraph -->
-<H5 CLASS="paragraph"><!--SEC ANCHOR --></H5><!--SEC END --><P>
+<!--CUT DEF section 1 --><div class="selectedwrapper">
+<div class="wrapper"><div class="block">
+<!--TOC section id="sec1" Data Consulting-->
+<h2 id="sec1" class="section">Data Consulting</h2><!--SEC END -->
+<!--TOC paragraph id="sec2" -->
+<!--SEC END --><p>
 We are mainly using NoSQL products. In case we need high throughtput
 scalable storages we use Riak. For transactional, query featured, highly
 available cases we use Mnesia. We also maintain our own Amazon Dynamo implementation
-<A HREF="https://synrc.github.io/kai/">KAI</A> along with our
-<A HREF="https://synrc.github.io/kvs/">KVS</A> Abstract Database with REST interface.
-</P></DIV><DIV CLASS="block">
-<!--TOC section System Architect-->
-<H2 CLASS="section"><!--SEC ANCHOR -->System Architect</H2><!--SEC END --><!--TOC paragraph -->
-<H5 CLASS="paragraph"><!--SEC ANCHOR --></H5><!--SEC END --><P>
+<a href="https://synrc.github.io/kai/">KAI</a> along with our
+<a href="https://synrc.github.io/kvs/">KVS</a> Abstract Database with REST interface.
+</p></div><div class="block">
+<!--TOC section id="sec3" System Architect-->
+<h2 id="sec3" class="section">System Architect</h2><!--SEC END -->
+<!--TOC paragraph id="sec4" -->
+<!--SEC END --><p>
 In cases where we need lightweight Erlang solution we use GProc as PubSub messaging.
-For language independent solutions we use RabbitMQ along with our <A HREF="https://synrc.github.io/mqs/">MQS</A> library.
+For language independent solutions we use RabbitMQ along with our <a href="https://synrc.github.io/mqs/">MQS</a> library.
 In some projects less probably we can use ZMQ.
-</P></DIV><DIV CLASS="block">
-<!--TOC section Web Applications-->
-<H2 CLASS="section"><!--SEC ANCHOR -->Web Applications</H2><!--SEC END --><!--TOC paragraph -->
-<H5 CLASS="paragraph"><!--SEC ANCHOR --></H5><!--SEC END --><P>
+</p></div><div class="block">
+<!--TOC section id="sec5" Web Applications-->
+<h2 id="sec5" class="section">Web Applications</h2><!--SEC END -->
+<!--TOC paragraph id="sec6" -->
+<!--SEC END --><p>
 We used to embed WebMachine/MochiWeb as web server and web framework.
 But currently we have sticked with Cowboy web server.
 For products which require pure TCP listeners and switchable protocols we use Ranch.
-For Web Apps and Binary Push we use <A HREF="https://synrc.com/apps/n2o">N2O</A>.
-</P></DIV></DIV>
-</DIV><DIV CLASS="clear"> </DIV><DIV CLASS="nonselectedwrapper">
-<DIV CLASS="verywidecol">
-<!--TOC section Voxoz Erlang Cloud Control Panel-->
-<H2 CLASS="section"><!--SEC ANCHOR --><A HREF="https://panel.voxoz.com">Voxoz Erlang Cloud Control Panel</A></H2><!--SEC END --><!--TOC paragraph -->
-<H5 CLASS="paragraph"><!--SEC ANCHOR --></H5><!--SEC END --><P>
+For Web Apps and Binary Push we use <a href="https://synrc.com/apps/n2o">N2O</a>.
+</p></div></div>
+</div><div class="clear"> </div><div class="nonselectedwrapper">
+<div class="verywidecol">
+<!--TOC section id="sec7" Voxoz Erlang Cloud Control Panel-->
+<h2 id="sec7" class="section"><a href="https://panel.voxoz.com">Voxoz Erlang Cloud Control Panel</a></h2><!--SEC END -->
+<!--TOC paragraph id="sec8" -->
+<!--SEC END --><p>
 Erlang PaaS front end built using N2O, KVS and MQS the key erlang
-applications for Voxoz Xen Cloud.</P><P><img src="https://synrc.com/lj/voxoz-panel.png" style="margin-left: -20px;background-color: #eeeeee;padding:20 20 20 20px;" width=720/>
-</P><P><FONT SIZE=2>Backend: Maxim Sokhatsky <BR>
- Design: Andrii Zadorozhnii <BR>
-</FONT></P></DIV>
-</DIV><DIV CLASS="nonselectedwrapper">
-<DIV CLASS="verywidecol">
-<!--TOC section Skyline App Store-->
-<H2 CLASS="section"><!--SEC ANCHOR --><A HREF="http://skyline.synrc.com">Skyline App Store</A></H2><!--SEC END --><!--TOC paragraph -->
-<H5 CLASS="paragraph"><!--SEC ANCHOR --></H5><!--SEC END --><P>
+applications for Voxoz Xen Cloud.</p><p><img src="https://synrc.com/lj/voxoz-panel.png" style="margin-left: -20px;background-color: #eeeeee;padding:20 20 20 20px;" width=720/>
+</p><p><span style="font-size:small">Backend: Maxim Sokhatsky <br>
+ Design: Andrii Zadorozhnii <br>
+</span></p></div>
+</div><div class="nonselectedwrapper">
+<div class="verywidecol">
+<!--TOC section id="sec9" Skyline App Store-->
+<h2 id="sec9" class="section"><a href="http://skyline.synrc.com">Skyline App Store</a></h2><!--SEC END -->
+<!--TOC paragraph id="sec10" -->
+<!--SEC END --><p>
 Skyline App Store is Voxoz PaaS and Xen ready web shop in Erlang designed as
 promo N2O example application. It uses N2O, KVS, Bootstrap style with
-node js tools for JavaScript minification and LESS assembling.</P><P><img src="https://synrc.com/images/skyline_xen.png" style="margin-left: -20px;background-color: #eeeeee;padding:20 20 20 20px;" width=720/>
-</P><P><FONT SIZE=2>Backend: Maxim Sokhatsky <BR>
- Design: Andrii Zadorozhnii <BR>
-</FONT></P></DIV>
-</DIV><DIV CLASS="nonselectedwrapper">
-<DIV CLASS="verywidecol">
-<!--TOC section Scalable Web and Gaming Platform-->
-<H2 CLASS="section"><!--SEC ANCHOR --><A HREF="http://synrc.com:8080/static/app/index.htm">Scalable Web and Gaming Platform</A></H2><!--SEC END --><!--TOC paragraph -->
-<H5 CLASS="paragraph"><!--SEC ANCHOR --></H5><!--SEC END --><P>
+node js tools for JavaScript minification and LESS assembling.</p><p><img src="https://synrc.com/images/skyline_xen.png" style="margin-left: -20px;background-color: #eeeeee;padding:20 20 20 20px;" width=720/>
+</p><p><span style="font-size:small">Backend: Maxim Sokhatsky <br>
+ Design: Andrii Zadorozhnii <br>
+</span></p></div>
+</div><div class="nonselectedwrapper">
+<div class="verywidecol">
+<!--TOC section id="sec11" Scalable Web and Gaming Platform-->
+<h2 id="sec11" class="section"><a href="http://synrc.com:8080/static/app/index.htm">Scalable Web and Gaming Platform</a></h2><!--SEC END -->
+<!--TOC paragraph id="sec12" -->
+<!--SEC END --><p>
 For the Turkish audience we created scalable distributed system using Erlang, Riak,
 GProc, Cowboy, AMF, RabbitMQ, Nitrogen, GlusterFS, NGINX and other tools. 
 Please read the technical description
-<A HREF="https://speakerdeck.com/5ht/kakaranet-presentation">Kakaranet Tech</A>.
+<a href="https://speakerdeck.com/5ht/kakaranet-presentation">Kakaranet Tech</a>.
 We have implemented Facebook, Paypal, Credit Cards, Mobile and Wired Payments,
 Mail system support and SNMP monitoring tools. We’ve done full HTML5 optimization
 with A marks for both Yahoo! YSlow and Google Page Speed. Kakaranet is lineary scalable
@@ -106,47 +110,51 @@ Facebook-like application with feeds, subscriptions and messaging along with
 powerful turn-based board games engine. The heart of the system the RabbitMQ
 cluster. The System runs on top of Riak cluster with easy maintenance from Web
 and supports hot code reload using sync and update scripts approach 
-instead of native OTP mechanism despite using native OTP releases. </P><P><img src="https://synrc.com/images/kakaranet.png" style="margin-left: -20px;background-color: #eeeeee;padding:20 20 20 20px;" width=720/>
-</P><P><FONT SIZE=2>Mentor: Maxim Sokhatsky <BR>
- Game Server: Serge Polkovnikov <BR>
-</FONT></P><!--TOC paragraph -->
-<H5 CLASS="paragraph"><!--SEC ANCHOR --></H5><!--SEC END --><P><FONT SIZE=2>
+instead of native OTP mechanism despite using native OTP releases. </p><p><img src="https://synrc.com/images/kakaranet.png" style="margin-left: -20px;background-color: #eeeeee;padding:20 20 20 20px;" width=720/>
+</p><p><span style="font-size:small">Mentor: Maxim Sokhatsky <br>
+ Game Server: Serge Polkovnikov <br>
+</span></p><span style="font-size:small">
+</span><!--TOC paragraph id="sec13" -->
+<!--SEC END --><p><span style="font-size:small">
 Full size of codebase is fit 2.88MB floppy disk and is quite managable yet.
 The system inside is essentially built upon binary protocols AMQP, BER and AMF
-except content delivery to Web clients which is in fact gzipped.</FONT></P></DIV>
-</DIV><DIV CLASS="nonselectedwrapper">
-<DIV CLASS="verywidecol">
-<!--TOC section SNMP Monitoring System-->
-<H2 CLASS="section"><!--SEC ANCHOR -->SNMP Monitoring System</H2><!--SEC END --><!--TOC paragraph -->
-<H5 CLASS="paragraph"><!--SEC ANCHOR --></H5><!--SEC END --><P>
+except content delivery to Web clients which is in fact gzipped.</span></p></div>
+</div><div class="nonselectedwrapper">
+<div class="verywidecol">
+<!--TOC section id="sec14" SNMP Monitoring System-->
+<h2 id="sec14" class="section">SNMP Monitoring System</h2><!--SEC END -->
+<!--TOC paragraph id="sec15" -->
+<!--SEC END --><p>
 For our servers we created open-source Erlang based SNMP monitoring tools
 with clear and simple interface which allows you to feel the heartbeat of
-your system on any device despite the screen size.</P><P><img src="https://synrc.com/images/hal.png" style="margin-left: -20px;background-color: #eeeeee;padding:20 20 20 20px;" width=720/>
-</P><P><FONT SIZE=2>Mentor: Andrew Zadorozhny <BR>
- Design: Alex Kalenuk</FONT></P></DIV>
-</DIV><DIV CLASS="nonselectedwrapper">
-<DIV CLASS="verywidecol">
-<!--TOC section Rich HTML5 Clients-->
-<H2 CLASS="section"><!--SEC ANCHOR -->Rich HTML5 Clients</H2><!--SEC END --><!--TOC paragraph -->
-<H5 CLASS="paragraph"><!--SEC ANCHOR --></H5><!--SEC END --><P>
+your system on any device despite the screen size.</p><p><img src="images/hal.png" style="margin-left: -20px;background-color: #eeeeee;padding:20 20 20 20px;" width=720/>
+</p><p><span style="font-size:small">Mentor: Andrew Zadorozhny <br>
+ Design: Alex Kalenuk</span></p></div>
+</div><div class="nonselectedwrapper">
+<div class="verywidecol">
+<!--TOC section id="sec16" Rich HTML5 Clients-->
+<h2 id="sec16" class="section">Rich HTML5 Clients</h2><!--SEC END -->
+<!--TOC paragraph id="sec17" -->
+<!--SEC END --><p>
 For the HTML5 web platform and pure JavaScript client-side we would recommend to use
 Chaplin and Brunch which is agnostic to frameworks and libraries HTML5 application assembler.
 We are also stick with functional languages approach on client side.
 In that way we are using LiveScript a CoffeeScript derivative as main functional language for JavaScript replacement.
 In short: we are using pure HTML5 on client side and pure Erlang on server side.
-</P></DIV>
-</DIV><DIV CLASS="nonselectedwrapper">
-<DIV CLASS="verywidecol">
-<!--TOC section Binary Protocols-->
-<H2 CLASS="section"><!--SEC ANCHOR -->Binary Protocols</H2><!--SEC END --><!--TOC paragraph -->
-<H5 CLASS="paragraph"><!--SEC ANCHOR --></H5><!--SEC END --><P>
+</p></div>
+</div><div class="nonselectedwrapper">
+<div class="verywidecol">
+<!--TOC section id="sec18" Binary Protocols-->
+<h2 id="sec18" class="section">Binary Protocols</h2><!--SEC END -->
+<!--TOC paragraph id="sec19" -->
+<!--SEC END --><p>
 We are trying to build our products
 and services around single core of technologies. We believe that focusing on understandable
 and manageable, proven in industry technologies will bring significant benefits to all users.
 We have chosen set of technologies that have proved its maturity, clarity and efficiency.
 We oriented on strong and mature binary protocols and data formats such as BER and ASN.1.
-We are not accepting text formats and preffer binary protocols :)</P><P><A HREF="apps.htm">Follow The Source</A></P></DIV>
-</DIV><DIV CLASS="clear"> </DIV><!--CUT END -->
+We are not accepting text formats and preffer binary protocols :)</p><p><a href="apps.htm">Follow The Source</a></p></div>
+</div><div class="clear"> </div><!--CUT END -->
 <!--HTMLFOOT-->
 
 <div class="nonselectedwrapper">
@@ -156,13 +164,11 @@ We are not accepting text formats and preffer binary protocols :)</P><P><A HREF=
     	<hr size=1>
         <span class="logo_font" style="font-size:14pt;">
             <b><font color="#0033cc">syn</font><font color="#ff0000">rc</font></b></span> uses H<FONT SIZE=1><sup>E</sup></FONT>V<FONT SIZE=1><sup>E</sup></FONT>A<br>
-        <a href="http://build.synrc.com/">Сontinuous Integration</a> |
-        <a href="https://synrc.com/news">Events</a> |
-        <a href="http://voxoz.com">Erlang PaaS</a> |
-        <a href="http://synrc.com/music">Music</a><br>
-    	<a href="https://synrc.com/privacy.htm">Privacy Policy</a> |
-        <a href="https://synrc.com/feedback.htm">Feedback</a> |
-        <a href="https://synrc.com/brandbook.htm">Brandbook</a><br>
+        <a href="news/index.htm">Events</a> |
+        <!--a href="http://voxoz.com">Erlang PaaS</a-->
+    	<a href="privacy.htm">Privacy Policy</a> |
+        <a href="feedback.htm">Feedback</a> |
+        <a href="brandbook.htm">Brandbook</a><br>
     	Copyright &copy; 2005&ndash;2013 <a href="https://synrc.com/index.htm"> Synrc Research Center s.r.o.</a>
     </div>
 
@@ -187,5 +193,5 @@ We are not accepting text formats and preffer binary protocols :)</P><P><A HREF=
 
 <script type="text/javascript" src="https://synrc.com/hi.js"></script>
 <!--ENDHTML-->
-</BODY>
-</HTML>
+</body>
+</html>

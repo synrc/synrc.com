@@ -44,7 +44,7 @@ create_page research/io/doc/primitives
 
 create_hevea()
 {
-        echo `pwd`
+    echo `pwd`
 	hevea $1.tex -o $1.htm
 }
 
@@ -53,7 +53,10 @@ create_hevea "index"
 create_hevea "feedback"
 create_hevea "research"
 create_hevea "labs"
-create_hevea "github"
+create_hevea "apps"
+cd beos
+create_hevea "beos"
+cd -
 cd apps/n2o/doc/web
 create_hevea "index"
 create_hevea "setup"

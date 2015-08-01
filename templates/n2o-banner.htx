@@ -1,6 +1,6 @@
 
 
-<div class="selectedwrapper" style="margin-top: -46px; margin-bottom: -46; background-image: url('https://synrc.com/images/45degreee_fabric.png');">
+<div class="selectedwrapper" style="margin-top: -46px; margin-bottom: -46; background-image: url('images/45degreee_fabric.png');">
 <div class="wrapper">
 
         <div id="slides-controls" align=right style="position: absolute; margin-top: 30px; margin-left: 1000px;">
@@ -27,8 +27,8 @@
         <div style="font-size: 45pt; color: royalblue; font-weight: bold;">N2O &mdash; <br> The Most Powerful <br> Erlang Web Framework</div>
         <div align=center style="margin-top:40px; line-height: 50px;">
             <a href="https://github.com/5HT/n2o" style="font-size:18pt; background-color: royalblue; color:white; padding:10px 10px 10px 10px; margin-left: 30px;">Sources</a>
-            <a href="https://synrc.com/apps/n2o/doc/book.pdf" style="background-color: royalblue; color:white; font-size:18pt; padding:10px 10px 10px 10px; margin-left: 30px;">E-Book</a>
-            <a href="https://synrc.com/apps/n2o/doc/web/" style="font-size:18pt; background-color: royalblue; color:white; padding:10px 10px 10px 10px; margin-left: 30px;">Get&nbsp;Started</a>
+            <a href="apps/n2o/doc/book.pdf" style="background-color: royalblue; color:white; font-size:18pt; padding:10px 10px 10px 10px; margin-left: 30px;">E-Book</a>
+            <a href="apps/n2o/doc/web/" style="font-size:18pt; background-color: royalblue; color:white; padding:10px 10px 10px 10px; margin-left: 30px;">Get&nbsp;Started</a>
         </div>
     </div>
 
@@ -51,8 +51,6 @@
         <div align=center style="margin-top:40px; line-height: 50px;">
             <a href="https://github.com/synrc/kvs" style="font-size:18pt; background-color: royalblue; color:white; padding:10px 10px 10px 10px; margin-left: 30px;">Sources</a>
             &nbsp; Book is Coming
-            <!--a href="https://synrc.com/framework/web/n2o/doc/book.pdf" style="background-color: royalblue; color:white; font-size:18pt; padding:10px 10px 10px 10px; margin-left: 30px;">E-Book</a>
-            <a href="https://synrc.com/framework/web/" style="font-size:18pt; background-color: royalblue; color:white; padding:10px 10px 10px 10px; margin-left: 30px;">Get&nbsp;Started</a-->
         </div>
     </div>
 
