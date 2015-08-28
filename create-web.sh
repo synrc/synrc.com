@@ -58,6 +58,7 @@ create_hevea "actions"
 create_hevea "packages"
 create_hevea "persistence"
 create_hevea "utf8"
+cp index.htm ../../index.htm
 cd -
 cd apps/mad/doc/web
 create_hevea "index"
@@ -68,6 +69,10 @@ create_hevea "config"
 create_hevea "deps"
 create_hevea "ports"
 create_hevea "scripts"
+cp index.htm ../../index.htm
 cd -
 cd apps/upl/doc/web
 create_hevea "index"
+cp index.htm ../../index.htm
+cd -
+cp apps.htm apps/index.htm
