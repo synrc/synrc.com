@@ -36,10 +36,10 @@ input { font-size:18pt; }
 .section { margin-left: 12px; margin-bottom: -20px;}
 .subsection { margin-left: 0px; }
 .verywidecol > .section { margin-left: 0px; margin-bottom: -20px;}
-h2.section { margin-left: 0px; }
-h2.subsection { margin-left: 0px; }
-.articlecol > h2 { margin-left: 10px; margin-bottom: 0px; }
-.verywidecol > h2 { margin-left: 10px; margin-bottom: 0px; }
+//h2.section { margin-left: 0px; }
+//h2.subsection { margin-left: 0px; }
+.articlecol > h2 { margin-left: 0px; margin-bottom: 0px; }
+.verywidecol > h2 { margin-left: 0px; margin-bottom: 0px; }
 
 .logo_font { font-family: "Palatino Linotype"; margin-bottom: 0px; line-height: 60%; }
 .menu { font-size:18pt; color: red; padding: 0 0 15px 15px; margin-right:10px; display: inline-block;}
