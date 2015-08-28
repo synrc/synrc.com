@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html >
+<head>
+
+  <link rel=stylesheet type="text/css" href="http://synrc.com/synrc.css">
+  <meta name="Author" content="5HT">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta property="og:image" content="images/s_64.png"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=IE10,chrome=1" />
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+  <title>N2O API
+</title>
+</head>
+<body >
+<!--HEVEA command line is: hevea api.tex -o api.htm -->
+<!--CUT STYLE article--><!--HTMLHEAD-->
+
+<div class="nonselectedwrapper white" style="padding: 10px 0px 10px 0px;margin: 0px 0px 10px 0px;">
+    <a href="//synrc.com/">
+    <img style="flat:left; margin-left: 55px; margin-top: 5px; margin-bottom:-5px;" src="http://synrc.com/images/synrc.png" border="0"></a>
+    <div align=right style="margin: -50px 50px 0px 0px;">
+        <script language="JavaScript">
+
+        var args = (window.location).toString().split('/');
+        var page_name = args[args.length-1];
+        var menu = {'http://synrc.com/index.htm':    'home',
+                    'http://synrc.com/research.htm': 'showcase',
+                    'http://synrc.com/apps.htm':   'apps',
+                    //'http://spawnproc.com':   'spawnproc',
+                    'http://synrc.com/feedback.htm': 'contacts'};
+
+        Object.keys(menu).forEach(function (key) {
+            if (page_name == key) { document.write('<div class="menu" style="font-weight: bold;">'+menu[key]+'</div>'); }
+            else { document.write('<a class="menu" href="'+key+'">'+menu[key]+'</a>'); }
+        });
+
+        </script>
+    </div>
+</div>
+
+<hr size="1">
+
+<!--ENDHTML-->
+<!--CUT DEF section 1 --><div class="nonselectedwrapper">
+<div class="article">
+<div class="toc">
+<!--TOC section id="sec1" TOC-->
+<h2 id="sec1" class="section">TOC</h2><!--SEC END -->
+<!--TOC paragraph id="sec2" -->
+<!--SEC END --><p>
+<a href="http://synrc.com/apps/n2o/doc/web">Overview</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/setup.htm">1. Setup</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/processes.htm">2. Processes</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/endpoints.htm">3. Endpoints</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/handlers.htm">4. Handlers</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/protocols.htm">5. Protocols</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/macros.htm">6. JavaScript</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/api.htm">7. API</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/elements.htm">8. Elements</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/actions.htm">9. Actions</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/packages.htm">10. Packages</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/persistence.htm">11. Persistence</a> <br>
+</p><p><a href="http://synrc.com/apps/n2o/doc/book.pdf">Download PDF</a> <br>
+
+</p></div>
+
+<div class="articlecol">
+
+<!--TOC section id="sec3" API-->
+<h2 id="sec3" class="section">API</h2><!--SEC END -->
+<!--TOC subsection id="sec4" Update DOM <span style="font-weight:bold">wf:update</span>-->
+<h3 id="sec4" class="subsection">Update DOM <span style="font-weight:bold">wf:update</span></h3><!--SEC END --><p>
+You can update part of the page or DOM element with a given
+element or even raw HTML. You can also use <span style="font-weight:bold">#dtl</span>
+or <span style="font-weight:bold">#eex</span> template elements for HTML generation to
+replace DOM. Here is an example of simple <span style="font-weight:bold">#span</span> element
+with an HTML counterpart:</p><div class="lstlisting">    wf:update(history,[#span{body="Hello"}]).</div><p>It generates DOM update script and sends it to
+WebSocket channel for evaluation:</p><div class="lstlisting">    document.querySelector('#history')
+            .outerHTML = '&lt;span&gt;Hello&lt;/span&gt;';</div><p>Companions are also provided for updating head and tail
+of the elements list: <span style="font-weight:bold">wf:insert_top/2</span> and
+<span style="font-weight:bold">wf:insert_bottom/2</span>. These are translated to appropriate
+JavaScript methods <span style="font-weight:bold">insertBefore</span> and <span style="font-weight:bold">appendChild</span> during rendering.</p><div class="lstlisting">    wf:insert_top(history,
+        #panel{id=banner, body= [
+            #span{ id=text,
+                   body = wf:f("User ~s logged in.",[wf:user()]) },
+            #button{id=logout, body="Logout", postback=logout },
+            #br{} ]}),</div><p>Remember to envelop all elements in common root element before inserts.</p>
+<!--TOC paragraph id="sec5" -->
+<!--SEC END --><p>
+For relative updates use <span style="font-weight:bold">wf:insert_before/2</span> and <span style="font-weight:bold">wf:insert_after/2</span>.
+To remove an element use <span style="font-weight:bold">wf:remove/2</span>.
+Updates are covered in detail in <span style="font-weight:bold">Section 7</span>.</p>
+<!--TOC paragraph id="sec6" <span style="font-weight:bold">Element Naming</span>-->
+<h4 id="sec6" class="paragraph"><span style="font-weight:bold">Element Naming</span></h4><!--SEC END --><p>
+You can specify element’s id with Erlang atoms,
+lists or binaries. During rendering the value will be converted
+with <span style="font-weight:bold">wf:to_list</span>. Conversion will be consistent only if you use atoms.
+Otherwise you need to care about illegal symbols for element accessors.</p>
+<!--TOC paragraph id="sec7" -->
+<!--SEC END --><p>
+During page updates you can create additional elements with
+runtime generated event handlers, perform HTML rendering for
+template elements or even use distributed map/reduce to calculate view.
+You have to be aware that heavy operations will consume
+more power in the browser, but you can save it by rendering
+HTML on server-side. All DOM updates API works both using
+JavaScript/OTP and server pages.</p>
+<!--TOC paragraph id="sec8" -->
+<!--SEC END --><p>
+List of elements you can use is given in <span style="font-weight:bold">Section 7</span>. You can also create
+your own elements with a custom render function.</p>
+<!--TOC subsection id="sec9" Wire JavaScript <span style="font-weight:bold">wf:wire</span>-->
+<h3 id="sec9" class="subsection">Wire JavaScript <span style="font-weight:bold">wf:wire</span></h3><!--SEC END --><p>
+Just like HTML is generated from Elements, Actions are rendered into
+JavaScript to handle events raised in the browser. Actions are always
+transformed into JavaScript and sent through WebSockets pipe.</p><!--TOC subsection id="sec10" Direct Wiring-->
+<h3 id="sec10" class="subsection">Direct Wiring</h3><!--SEC END --><p>
+There are two types of actions. First class are direct JavaScript
+strings provided directly as Erlang lists or via JavaScript/OTP
+transformations.</p><div class="lstlisting">    wf:wire("window.location='http://synrc.com'").</div><!--TOC subsection id="sec11" Actions Render-->
+<h3 id="sec11" class="subsection">Actions Render</h3><!--SEC END --><p>
+Second class actions are in fact Erlang records
+rendered during page load, server events or client events.</p><div class="lstlisting">    wf:wire(#alert{text="Hello!"}).</div><p>However basic N2O actions that are part of N2O API, <span style="font-weight:bold">wf:update</span> and <span style="font-weight:bold">wf:redirect</span>,
+are implemented as Erlang records as given in the example. If you need deferred
+rendering of JavaScript, you can use Erlang records instead of direct wiring with
+Erlang lists or JavaScript/OTP.</p>
+<!--TOC paragraph id="sec12" -->
+<!--SEC END --><p>
+Any action, wired with <span style="font-weight:bold">wf:wire</span>, is enveloped in <span style="font-weight:bold">#wire{actions=[]}</span>,
+which is also an action capable of polymorphic rendering of custom or built-in actions, specified in the list.
+Following nested action embedding is also valid:</p><div class="lstlisting">    wf:wire(#wire{actions=[#alert{text="N2O"}]}).</div>
+<!--TOC subsection id="sec13" Async Processes <span style="font-weight:bold">wf:async</span> and <span style="font-weight:bold">wf:flush</span>-->
+<h3 id="sec13" class="subsection">Async Processes <span style="font-weight:bold">wf:async</span> and <span style="font-weight:bold">wf:flush</span></h3><!--SEC END --><p>
+These create Erlang processes, which communicate with the primary page
+process by sending messages. <span style="font-weight:bold">wf:flush</span> should be called to redirect all updates and
+wire actions to the page process.
+Usually you send messages to Async processes over N2O
+message bus, but you can use any of these options.</p><div class="lstlisting">    body() -&gt;
+        {ok,Pid} = wf:async("looper",fun() -&gt; loop(0) end),
+      [ #span   { id=counter },
+        #button { id=sendButton, body="Send", postback={inc,Pid} } ].
+
+    event({inc,Pid}) -&gt; wf:reg(room), Pid ! inc.
+
+    loop(Counter) -&gt;
+        Body = wf:to_list(Counter),
+        receive inc -&gt;
+             wf:update(counter, #span { id=counter, body=Body }),
+             wf:flush(room) end, loop(Counter+1).</div>
+<!--TOC paragraph id="sec14" <span style="font-weight:bold">Process Naming.</span>-->
+<h4 id="sec14" class="paragraph"><span style="font-weight:bold">Process Naming.</span></h4><!--SEC END --><p> The name of async process is globally unique. There are two
+versions, <span style="font-weight:bold">wf:async/1</span> and <span style="font-weight:bold">wf:async/2</span>. In the given example
+the name of async process is specified as “looper”, otherwise,
+if the first parameter was not specified, the default name “comet” will be used.</p>
+<!--TOC subsection id="sec15" Message Bus <span style="font-weight:bold">wf:reg</span> and <span style="font-weight:bold">wf:send</span>-->
+<h3 id="sec15" class="subsection">Message Bus <span style="font-weight:bold">wf:reg</span> and <span style="font-weight:bold">wf:send</span></h3><!--SEC END --><p>
+N2O uses GProc process registry for managing async processes pools.
+It is used as a PubSub message bus for N2O communications, but later you can switch to robust RabbitMQ.
+You can associate a process with the pool with <span style="font-weight:bold">wf:reg</span> and send a message to the pool with <span style="font-weight:bold">wf:send</span>.</p><div class="lstlisting">    loop() -&gt;
+        receive M -&gt;
+            wf:info(?MODULE, "P: ~p, M: ~p",[self(),M]) end, loop().</div><p>Now you can test it</p><div class="lstlisting">    &gt; spawn(fun() -&gt; wf:reg(topic), loop() end).
+    &gt; spawn(fun() -&gt; wf:reg(topic), loop() end).
+    &gt; wf:send(topic,"Hello").</div><p>It should print in REPL something like:</p><div class="lstlisting">    &gt; [info] P: &lt;0.2012.0&gt;, M: "Hello"
+    &gt; [info] P: &lt;0.2015.0&gt;, M: "Hello"</div>
+<!--TOC subsection id="sec16" Parse URL and Context parameters <span style="font-weight:bold">wf:q</span> and <span style="font-weight:bold">wf:qp</span>-->
+<h3 id="sec16" class="subsection">Parse URL and Context parameters <span style="font-weight:bold">wf:q</span> and <span style="font-weight:bold">wf:qp</span></h3><!--SEC END --><p>
+These are used to extract URL parameters or read from the process context. <span style="font-weight:bold">wf:q</span> extracts variables
+from the context stored by controls postbacks. <span style="font-weight:bold">wf:qp</span> extracts variables from HTTP forms.</p>
+<!--TOC subsection id="sec17" Render <span style="font-weight:bold">wf:render</span>-->
+<h3 id="sec17" class="subsection">Render <span style="font-weight:bold">wf:render</span></h3><!--SEC END --><p>
+Render elements or actions with common render.</p>
+<!--TOC subsection id="sec18" Redirects <span style="font-weight:bold">wf:redirect</span>-->
+<h3 id="sec18" class="subsection">Redirects <span style="font-weight:bold">wf:redirect</span></h3><!--SEC END --><p>
+Redirects are implemented not with HTTP headers, but with JavaScript action modifying <span style="font-weight:bold">window.location</span>.
+This saves login context information which is sent in the first packet upon establishing a WebSocket connection.</p>
+<!--TOC subsection id="sec19" Session Information <span style="font-weight:bold">wf:session</span>-->
+<h3 id="sec19" class="subsection">Session Information <span style="font-weight:bold">wf:session</span></h3><!--SEC END --><p>
+Store any session information in ETS tables. Use <span style="font-weight:bold">wf:user</span>, <span style="font-weight:bold">wf:role</span> for
+login and authorization. Consult <span style="font-weight:bold">AVZ</span> library documentation.</p>
+<!--TOC subsection id="sec20" Bridge information <span style="font-weight:bold">wf:header</span> and <span style="font-weight:bold">wf:cookie</span>-->
+<h3 id="sec20" class="subsection">Bridge information <span style="font-weight:bold">wf:header</span> and <span style="font-weight:bold">wf:cookie</span></h3><!--SEC END --><p>
+You can read and issue cookie and headers information using internal Web-Server routines.
+You can also read peer IP with <span style="font-weight:bold">wf:peer</span>. Usually you do Bridge operations
+inside handlers or endpoints.</p><div class="lstlisting">    wf:cookies_req(?REQ),
+    wf:cookie_req(Name,Value,Path,TTL,Req)</div><p>You can set cookies for the page using public cookies API during initial page rendering.</p><div class="lstlisting">    body() -&gt; wf:cookie("user","Joe"), [].</div><p>You should use wiring inside WebSocket events:</p><div class="lstlisting">    event(_) -&gt;
+        wf:wire(wf:f("document.cookie='~s=~s'",["user","Joe"])).</div><p>
+
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'synrc'; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    
+
+</p></div>
+</div>
+</div><div class="clear"> </div><!--CUT END -->
+<!--HTMLFOOT-->
+
+<div class="nonselectedwrapper">
+<div class="verywidecol">
+
+    <div style="width:100%;height:300px;float:left;font-size:14pt;" align=center>
+    	<hr size=1>
+        <span class="logo_font" style="font-size:14pt;">
+            <b><font color="#0033cc">syn</font><font color="#ff0000">rc</font></b></span> uses H<FONT SIZE=1><sup>E</sup></FONT>V<FONT SIZE=1><sup>E</sup></FONT>A<br>
+        <a href="news/index.htm">Events</a> |
+        <!--a href="http://voxoz.com">Erlang PaaS</a-->
+    	<a href="privacy.htm">Privacy Policy</a> |
+        <a href="feedback.htm">Feedback</a> |
+        <a href="brandbook.htm">Brandbook</a><br>
+    	Copyright &copy; 2005&ndash;2013 <a href="//synrc.com/index.htm"> Synrc Research Center s.r.o.</a>
+    </div>
+
+</div>
+</div>
+
+<div class="clear"></div>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-29227518-1']);
+      _gaq.push(['_trackPageview']);
+      
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'https://www') + '.google-analytics.com/ga.js';
+                    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+                      })();
+                      
+                      </script>
+
+<script type="text/javascript" src="//synrc.com/hi.js"></script>
+<!--ENDHTML-->
+</body>
+</html>

@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html >
+<head>
+
+  <link rel=stylesheet type="text/css" href="http://synrc.com/synrc.css">
+  <meta name="Author" content="5HT">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta property="og:image" content="images/s_64.png"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=IE10,chrome=1" />
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+  <title>N2O Processes
+</title>
+</head>
+<body >
+<!--HEVEA command line is: hevea processes.tex -o processes.htm -->
+<!--CUT STYLE article--><!--HTMLHEAD-->
+
+<div class="nonselectedwrapper white" style="padding: 10px 0px 10px 0px;margin: 0px 0px 10px 0px;">
+    <a href="//synrc.com/">
+    <img style="flat:left; margin-left: 55px; margin-top: 5px; margin-bottom:-5px;" src="http://synrc.com/images/synrc.png" border="0"></a>
+    <div align=right style="margin: -50px 50px 0px 0px;">
+        <script language="JavaScript">
+
+        var args = (window.location).toString().split('/');
+        var page_name = args[args.length-1];
+        var menu = {'http://synrc.com/index.htm':    'home',
+                    'http://synrc.com/research.htm': 'showcase',
+                    'http://synrc.com/apps.htm':   'apps',
+                    //'http://spawnproc.com':   'spawnproc',
+                    'http://synrc.com/feedback.htm': 'contacts'};
+
+        Object.keys(menu).forEach(function (key) {
+            if (page_name == key) { document.write('<div class="menu" style="font-weight: bold;">'+menu[key]+'</div>'); }
+            else { document.write('<a class="menu" href="'+key+'">'+menu[key]+'</a>'); }
+        });
+
+        </script>
+    </div>
+</div>
+
+<hr size="1">
+
+<!--ENDHTML-->
+<!--CUT DEF section 1 --><div class="nonselectedwrapper">
+<div class="article">
+<div class="toc">
+<!--TOC section id="sec1" TOC-->
+<h2 id="sec1" class="section">TOC</h2><!--SEC END -->
+<!--TOC paragraph id="sec2" -->
+<!--SEC END --><p>
+<a href="http://synrc.com/apps/n2o/doc/web">Overview</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/setup.htm">1. Setup</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/processes.htm">2. Processes</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/endpoints.htm">3. Endpoints</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/handlers.htm">4. Handlers</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/protocols.htm">5. Protocols</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/macros.htm">6. JavaScript</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/api.htm">7. API</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/elements.htm">8. Elements</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/actions.htm">9. Actions</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/packages.htm">10. Packages</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/persistence.htm">11. Persistence</a> <br>
+</p><p><a href="http://synrc.com/apps/n2o/doc/book.pdf">Download PDF</a> <br>
+
+</p></div>
+
+<div class="articlecol">
+
+<!--TOC section id="sec3" Erlang Processes-->
+<h2 id="sec3" class="section">Erlang Processes</h2><!--SEC END -->
+<!--TOC subsection id="sec4" Reduced Latency-->
+<h3 id="sec4" class="subsection">Reduced Latency</h3><!--SEC END --><p>
+The secret to reducing latency is simple. We try to deliver rendered HTML
+as soon as possible and render JavaScript only when WebSocket initialization is complete.
+It takes three steps and three Erlang processes for doing that.</p><p>
+
+<img src="http://synrc.com/apps/n2o/doc/images/page-lifetime.png" style="margin-left: -20px;margin-botton: 30px; padding:20 20 20 20px;"><br>
+
+Picture. <span style="font-weight:bold">Page Lifetime</span><br>
+<br>
+
+
+
+N2O request lifetime begins with the start of HTTP process serving the first HTML page.
+After that it dies and spawns Transition process.
+Then the browser initiates WebSocket connections to the similar URL endpoint.
+N2O creates persistent WebSocket process and the Transition process dies.</p>
+<!--TOC paragraph id="sec5" -->
+<!--SEC END --><p>
+Your page could also spawn processes with <span style="font-weight:bold">wf:async</span>.
+These are persistent processes that act like regular Erlang processes.
+This is a usual approach to organize non-blocking UI for file uploads and other time consuming operations.</p>
+<!--TOC subsection id="sec6" Page Process-->
+<h3 id="sec6" class="subsection">Page Process</h3><!--SEC END --><p>
+The very first HTTP handler only renders HTML. All created
+JavaScript actions are stored in the transition process.</p><div class="lstlisting">    transition(Actions) -&gt;
+        receive {'N2O',Pid} -&gt; Pid ! Actions end.</div>
+<!--TOC paragraph id="sec7" -->
+<!--SEC END --><p>
+HTTP handler will die immediately after returning HTML. Transition process
+waits for a request from a WebSocket handler.</p>
+<!--TOC subsection id="sec8" Transition Process-->
+<h3 id="sec8" class="subsection">Transition Process</h3><!--SEC END --><p>
+Right after receiving HTML the browser initiates WebSocket connection
+thus starting WebSocket handler on the server. After responding with
+JavaScript actions the Transition process dies and the only process left
+running is WebSocket handler. At this point initialization phase is complete.</p>
+<!--TOC subsection id="sec9" Events Process-->
+<h3 id="sec9" class="subsection">Events Process</h3><!--SEC END --><p>
+After that all client/server communication is performed over
+WebSocket channel. All events coming from the browser are
+handled by N2O, which renders elements to HTML and actions to
+JavaScript. Each user at any time has only one WebSocket process
+per connection.</p>
+<!--TOC subsection id="sec10" Async Processes-->
+<h3 id="sec10" class="subsection">Async Processes</h3><!--SEC END --><p>
+These are user processes that were created with <span style="font-weight:bold">wf:async</span> invocation.
+This is a legacy name from the times when async technology
+was called COMET for XHR channel. Async Processes are optional
+and only needed when you have a UI event taking too much
+time to be processed, like gigabyte file uploads. You can create
+multiple Async Processes per user.</p>
+<!--TOC subsection id="sec11" SPA Mode-->
+<h3 id="sec11" class="subsection">SPA Mode</h3><!--SEC END --><p>
+In SPA mode your N2O can serve no HTML at all. N2O elements are
+bound during INIT handshake and thus can be used regularly as in DSL mode.</p><p>
+
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'synrc'; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    
+
+</p></div>
+</div>
+</div><div class="clear"> </div><!--CUT END -->
+<!--HTMLFOOT-->
+
+<div class="nonselectedwrapper">
+<div class="verywidecol">
+
+    <div style="width:100%;height:300px;float:left;font-size:14pt;" align=center>
+    	<hr size=1>
+        <span class="logo_font" style="font-size:14pt;">
+            <b><font color="#0033cc">syn</font><font color="#ff0000">rc</font></b></span> uses H<FONT SIZE=1><sup>E</sup></FONT>V<FONT SIZE=1><sup>E</sup></FONT>A<br>
+        <a href="news/index.htm">Events</a> |
+        <!--a href="http://voxoz.com">Erlang PaaS</a-->
+    	<a href="privacy.htm">Privacy Policy</a> |
+        <a href="feedback.htm">Feedback</a> |
+        <a href="brandbook.htm">Brandbook</a><br>
+    	Copyright &copy; 2005&ndash;2013 <a href="//synrc.com/index.htm"> Synrc Research Center s.r.o.</a>
+    </div>
+
+</div>
+</div>
+
+<div class="clear"></div>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-29227518-1']);
+      _gaq.push(['_trackPageview']);
+      
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'https://www') + '.google-analytics.com/ga.js';
+                    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+                      })();
+                      
+                      </script>
+
+<script type="text/javascript" src="//synrc.com/hi.js"></script>
+<!--ENDHTML-->
+</body>
+</html>

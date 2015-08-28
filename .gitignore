@@ -4,4 +4,10 @@ music
 publications
 lj
 me
-
+*.aux
+*.log
+*.haux
+*.hlog
+/apps/**/*.tex
+/apps/**/*.htoc
+/apps/**/*.sty

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html >
+<head>
+
+  <link rel=stylesheet type="text/css" href="http://synrc.com/synrc.css">
+  <meta name="Author" content="5HT">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta property="og:image" content="images/s_64.png"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=IE10,chrome=1" />
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+  <title>MAD Bundles
+</title>
+</head>
+<body >
+<!--HEVEA command line is: hevea bundles.tex -o bundles.htm -->
+<!--CUT STYLE article--><!--HTMLHEAD-->
+
+<div class="nonselectedwrapper white" style="padding: 10px 0px 10px 0px;margin: 0px 0px 10px 0px;">
+    <a href="//synrc.com/">
+    <img style="flat:left; margin-left: 55px; margin-top: 5px; margin-bottom:-5px;" src="http://synrc.com/images/synrc.png" border="0"></a>
+    <div align=right style="margin: -50px 50px 0px 0px;">
+        <script language="JavaScript">
+
+        var args = (window.location).toString().split('/');
+        var page_name = args[args.length-1];
+        var menu = {'http://synrc.com/index.htm':    'home',
+                    'http://synrc.com/research.htm': 'showcase',
+                    'http://synrc.com/apps.htm':   'apps',
+                    //'http://spawnproc.com':   'spawnproc',
+                    'http://synrc.com/feedback.htm': 'contacts'};
+
+        Object.keys(menu).forEach(function (key) {
+            if (page_name == key) { document.write('<div class="menu" style="font-weight: bold;">'+menu[key]+'</div>'); }
+            else { document.write('<a class="menu" href="'+key+'">'+menu[key]+'</a>'); }
+        });
+
+        </script>
+    </div>
+</div>
+
+<hr size="1">
+
+<!--ENDHTML-->
+<!--CUT DEF section 1 --><div class="nonselectedwrapper">
+<div class="article">
+<div class="toc">
+<!--TOC section id="sec1" TOC-->
+<h2 id="sec1" class="section">TOC</h2><!--SEC END -->
+<!--TOC paragraph id="sec2" -->
+<!--SEC END --><p>
+<a href="http://synrc.com/apps/mad/doc/web">Overview</a> <br>
+
+<a href="http://synrc.com/apps/mad/doc/web/setup.htm">1. Setup</a> <br>
+
+<a href="http://synrc.com/apps/mad/doc/web/config.htm">2. Configuration</a> <br>
+
+<a href="http://synrc.com/apps/mad/doc/web/commands.htm">3. Commands</a> <br>
+
+<a href="http://synrc.com/apps/mad/doc/web/scripts.htm">5. Scripts</a> <br>
+
+<a href="http://synrc.com/apps/mad/doc/web/deps.htm">4. Dependencies</a> <br>
+
+<a href="http://synrc.com/apps/mad/doc/web/bundles.htm">6. Bundles</a> <br>
+
+<a href="http://synrc.com/apps/mad/doc/web/ports.htm">7. Ports</a> <br>
+</p><p><a href="http://synrc.com/apps/mad/doc/book.pdf">Download PDF</a> <br>
+
+</p></div>
+
+<div class="articlecol">
+
+<!--TOC section id="sec3" Bundles-->
+<h2 id="sec3" class="section">Bundles</h2><!--SEC END -->
+<!--TOC subsection id="sec4" Apps Ordering-->
+<h3 id="sec4" class="subsection">Apps Ordering</h3><!--SEC END --><p>Before starting an application which could be
+packed within three forms: Single-File Bundle, Release or OTP.MK Folder.</p><div class="lstlisting">    # mad plan
+    Ordered: [kernel,stdlib,mnesia,kvs,crypto,cowlib,ranch,
+              cowboy,compiler,syntax_tools,erlydtl,gproc,
+              xmerl,n2o,n2o_sample,fs,active,mad,rest,sh]</div>
+<!--TOC subsection id="sec5" Single-File Bundles with MAD-->
+<h3 id="sec5" class="subsection">Single-File Bundles with MAD</h3><!--SEC END --><p>The key feature of mad is ability to create single-file bundled web sites.
+Thus making dream to boot simpler than node.js come true.
+This target escript is ready to run on Windows, Linux and Mac.</p><p>To make this possible we implemented a zip filesytem inside escript.
+mad packages priv directories along with ebin and configs.
+You can redefine each file in zip fs inside target
+escript by creation the copy with same path locally near escript.
+After launch all files are copied to ETS.
+N2O also comes with custom cowboy static handler that is able to
+read static files from this cached ETS filesystem.
+Also bundle are compatible with active online realoading and recompilation.</p><p>E.g. you main create a single file site with:</p><div class="lstlisting">    # mad bundle app_name</div><p>app_name shoul be the same as a valid Erlang module, with app_module:main/1
+function defined, which will boot up the bundle. This function could be like that:</p><div class="lstlisting">     -module(app_name).
+
+     main(Params) -&gt;
+          RebarConfig = [],
+          mad_repl:main(Params,RebarConfig).</div>
+<!--TOC subsection id="sec6" Releases with RELX-->
+<h3 id="sec6" class="subsection">Releases with RELX</h3><!--SEC END --><p>As you may know you can create OTP releases with
+reltool (rebar generate) or systools (relx). mad currently
+creates releases with relx but is going to do it independently soon.
+Now it can only order applications.</p><div class="lstlisting">    # mad release</div>
+<!--TOC subsection id="sec7" Folders with OTP.MK-->
+<h3 id="sec7" class="subsection">Folders with OTP.MK</h3><!--SEC END --><p>OTP.MK is a tiny 50 lines Makefile that allows to start your set
+of application using run_erl and to_erl tools from OTP distribution.
+We use that way in poduction. This is the best option also in
+development mode because all directory structure is open and mutable,
+so you can reload modified files and perform recompilation on the fly.</p><p>It uses the original code to fast resolve dependencies into the right
+boot sequence to start.</p><div class="lstlisting">    # make console</div><p>
+
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'synrc'; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    
+
+</p></div>
+</div>
+</div><div class="clear"> </div><!--CUT END -->
+<!--HTMLFOOT-->
+
+<div class="nonselectedwrapper">
+<div class="verywidecol">
+
+    <div style="width:100%;height:300px;float:left;font-size:14pt;" align=center>
+    	<hr size=1>
+        <span class="logo_font" style="font-size:14pt;">
+            <b><font color="#0033cc">syn</font><font color="#ff0000">rc</font></b></span> uses H<FONT SIZE=1><sup>E</sup></FONT>V<FONT SIZE=1><sup>E</sup></FONT>A<br>
+        <a href="news/index.htm">Events</a> |
+        <!--a href="http://voxoz.com">Erlang PaaS</a-->
+    	<a href="privacy.htm">Privacy Policy</a> |
+        <a href="feedback.htm">Feedback</a> |
+        <a href="brandbook.htm">Brandbook</a><br>
+    	Copyright &copy; 2005&ndash;2013 <a href="//synrc.com/index.htm"> Synrc Research Center s.r.o.</a>
+    </div>
+
+</div>
+</div>
+
+<div class="clear"></div>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-29227518-1']);
+      _gaq.push(['_trackPageview']);
+      
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'https://www') + '.google-analytics.com/ga.js';
+                    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+                      })();
+                      
+                      </script>
+
+<script type="text/javascript" src="//synrc.com/hi.js"></script>
+<!--ENDHTML-->
+</body>
+</html>

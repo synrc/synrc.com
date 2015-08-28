@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html >
+<head>
+
+  <link rel=stylesheet type="text/css" href="http://synrc.com/synrc.css">
+  <meta name="Author" content="5HT">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta property="og:image" content="images/s_64.png"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=IE10,chrome=1" />
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+  <title>N2O WebSocket Protocol
+</title>
+</head>
+<body >
+<!--HEVEA command line is: hevea protocols.tex -o protocols.htm -->
+<!--CUT STYLE article--><!--HTMLHEAD-->
+
+<div class="nonselectedwrapper white" style="padding: 10px 0px 10px 0px;margin: 0px 0px 10px 0px;">
+    <a href="//synrc.com/">
+    <img style="flat:left; margin-left: 55px; margin-top: 5px; margin-bottom:-5px;" src="http://synrc.com/images/synrc.png" border="0"></a>
+    <div align=right style="margin: -50px 50px 0px 0px;">
+        <script language="JavaScript">
+
+        var args = (window.location).toString().split('/');
+        var page_name = args[args.length-1];
+        var menu = {'http://synrc.com/index.htm':    'home',
+                    'http://synrc.com/research.htm': 'showcase',
+                    'http://synrc.com/apps.htm':   'apps',
+                    //'http://spawnproc.com':   'spawnproc',
+                    'http://synrc.com/feedback.htm': 'contacts'};
+
+        Object.keys(menu).forEach(function (key) {
+            if (page_name == key) { document.write('<div class="menu" style="font-weight: bold;">'+menu[key]+'</div>'); }
+            else { document.write('<a class="menu" href="'+key+'">'+menu[key]+'</a>'); }
+        });
+
+        </script>
+    </div>
+</div>
+
+<hr size="1">
+
+<!--ENDHTML-->
+<!--CUT DEF section 1 --><div class="nonselectedwrapper">
+<div class="article">
+<div class="toc">
+<!--TOC section id="sec1" TOC-->
+<h2 id="sec1" class="section">TOC</h2><!--SEC END -->
+<!--TOC paragraph id="sec2" -->
+<!--SEC END --><p>
+<a href="http://synrc.com/apps/n2o/doc/web">Overview</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/setup.htm">1. Setup</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/processes.htm">2. Processes</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/endpoints.htm">3. Endpoints</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/handlers.htm">4. Handlers</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/protocols.htm">5. Protocols</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/macros.htm">6. JavaScript</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/api.htm">7. API</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/elements.htm">8. Elements</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/actions.htm">9. Actions</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/packages.htm">10. Packages</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/persistence.htm">11. Persistence</a> <br>
+</p><p><a href="http://synrc.com/apps/n2o/doc/book.pdf">Download PDF</a> <br>
+
+</p></div>
+
+<div class="articlecol">
+
+
+<!--TOC section id="sec3" Protocols-->
+<h2 id="sec3" class="section">Protocols</h2><!--SEC END --><p>We made it to make you happy.
+You can plug any binary formatting protocol like BERT, BED, MessagePack
+or even textual ones like TXT, JSON or custom binary protocols like MQTT, AMQP or legacy XMPP.
+Nitrogen-support here is just three protocol messages: <span style="font-weight:bold">pickle</span>, <span style="font-weight:bold">flush</span> and <span style="font-weight:bold">delivery</span>.
+N2O also provides basic heartbeat protocol that can be formatted at your whim.
+Currently N2O supports 4 protocols: Heartbeat, Nitrogen, Client/Server, Binary.</p><div class="lstlisting">    protocols() -&gt;
+       wf:config(n2o,protocols,[ n2o_heart,
+                                 n2o_nitrogen,
+                                 n2o_client,
+                                 n2o_binary  ]).</div><p>
+
+<img src="/images/n2o_protocols.png" style="margin-left: -20px;margin-botton: 30px; padding:20 20 20 20px;"><br>
+
+Picture. <span style="font-weight:bold">Messaging Pipeline</span><br>
+<br>
+
+
+For example in Skyline (DSL) application you use only nitrogen and binary:</p><div class="lstlisting">    &gt; wf:config(n2o,protocols).
+    [n2o_heart,n2o_nitrogen,n2o_binary]</div><p>And in Games (SPA) application you need only client/server protocol:</p><div class="lstlisting">    &gt; wf:config(n2o,protocols).
+    [n2o_heart,n2o_client]</div>
+<!--TOC subsection id="sec4" Heartbeat-->
+<h3 id="sec4" class="subsection">Heartbeat</h3><!--SEC END --><p>Heartbeat protocol is essential WebSocket application level protocol for
+PING and N2O initialization. It pings every 4-5 seconds from client-side to server
+thus allowing to determine client online presence. On reconnection or initial connect
+client sends N2O init marker telling to server to reinitialize the context.</p><div class="lstlisting">    ws.send('PING');
+    ws.send('N2O,');</div><p>You can try manually send these messages in web console to see whats happening,
+also you can enable logging the heartbeat protocol by including its module in log_modules:</p><div class="lstlisting">    log_modules() -&gt; [n2o_heart].</div><p>Heartbeat protocol PING request returns empty message NOP binary response;
+N2O messages returns JSON with EVAL fields of rendered actions.</p>
+<!--TOC subsection id="sec5" Nitrogen Compatibility Layer-->
+<h3 id="sec5" class="subsection">Nitrogen Compatibility Layer</h3><!--SEC END --><p>Pickled messages are used if you send messages over unencrypted
+channel and want to hide the content of the message,
+that was generated on server. You can use BASE64 pickling mechanisms
+with optional AES/RIPEMD160 encrypting.</p><div class="lstlisting">    ws.send(enc(tuple(atom('pickle'),
+        binary('ddtake'),
+        binary('g2gCaAVkAAJldmQABWluZGV4ZAAEdGFrZWsABH'+
+                Rha2VkAAVldmVudGgDYgAABXViAAQKXmIAC3cK'),
+        [tuple(atom('ddtake'),'0')])));</div><p>Where Base64 represents the N2O EVENT:</p><div class="lstlisting">    #ev{module=index,msg=take,trigger="take",name=event}</div><p>This is Nitrogen-based messaging model. Nitrogen WebSocket processes receive also
+flush and delivery protocol messages, but originated from server. These are internal Nitrogen
+protocol messages. This request will return JSON with EVAL field only.</p>
+<!--TOC subsection id="sec6" Client/Server-->
+<h3 id="sec6" class="subsection">Client/Server</h3><!--SEC END --><p>Client messages usually originated at client and represent the Client API Requests:</p><div class="lstlisting">    ws.send(enc(tuple(
+        atom('client'),
+        tuple(atom('join_game'),1000001))));</div><p>Server messages are usually being sent to client originated on the
+server by sending <span style="font-weight:bold">info</span> notifications directly to Web Socket process:</p><div class="lstlisting">    &gt; WebSocketPid ! {server, Message}</div><p>You can obtain this Pid like here:</p><div class="lstlisting">    event(init) -&gt; wf:info(?MODULE, "Web Socket Pid: ~p",[self()]);</div><p>You can also send server messages from client relays and vice versa.
+But it is up to your application and client/server handlers how to handle these messages.</p><div class="lstlisting">    ws.send(enc(tuple(
+        atom('server'),
+        tuple(atom('attach'),1000001))));</div><p>NOTE: client/server request may return JSON with EVAL and DATA fields.</p><!--TOC subsection id="sec7" JSON enveloped EVAL and DATA-->
+<h3 id="sec7" class="subsection">JSON enveloped EVAL and DATA</h3><!--SEC END --><p>Each message from Web Socket channel to Client is encoded as JSON object.
+<a href="https://github.com/5HT/n2o/blob/master/priv/n2o.js">N2O.js</a>
+is used to decode WebSocket binary messages from JSON container.</p><div class="lstlisting">    { "eval": "ws.send("Send Back This String");",
+      "data": [ 131,104,2,100,0,7,109,101,115,115,
+                97,103,101,107,0,5,72,101,108,108,111 ] }</div><p>EVAL values are evaluated immediately and DATA values are passed
+to handle_web_socket(data) function if it exists.</p><div class="lstlisting">    function handle_web_socket(body) { console.log(body); }</div><!--TOC subsection id="sec8" JSON enveloped BERT-->
+<h3 id="sec8" class="subsection">JSON enveloped BERT</h3><!--SEC END --><p>Usually in DATA come BERT messages (Binary Erlang Term Format).
+<a href="https://github.com/5HT/n2o/blob/master/priv/bert.js">BERT.js</a>
+is used to decode application protocol message.</p><div class="lstlisting">    function handle_web_socket(body) {
+        console.log(String(dec(body))); }</div><div class="lstlisting">    E&gt; Received: {message,"Hello"}</div>
+<!--TOC subsection id="sec9" Binary-->
+<h3 id="sec9" class="subsection">Binary</h3><!--SEC END --><p>When you need raw binary Blob on client-side,
+for images or other raw data, you can ask server like this:</p><div class="lstlisting">    ws.send(enc(tuple(
+        atom('bin'),
+        binary('API Request'));</div><p>And handle also in binary clause:</p><div class="lstlisting">    event({binary,Message}) -&gt;
+        wf:info(?MODULE, "This API will return Raw Binary", []),
+        &lt;&lt;84,0,0,0,108&gt;&gt;;</div><p>NOTE: if event returns not the binary, client will receive BERT encoded message.</p><!--TOC subsection id="sec10" BERT-->
+<h3 id="sec10" class="subsection">BERT</h3><!--SEC END --><p>Erlang RPC protocol interconnection with JavaScript nodes should be transferred as BERT answers.</p><div class="lstlisting">    function handle_web_socket(body) {
+        console.log(String(dec(body))); }</div><!--TOC subsection id="sec11" RAW Binary-->
+<h3 id="sec11" class="subsection">RAW Binary</h3><!--SEC END --><p>Raw images for fastest possible speed should be transferred as binary answers.</p><div class="lstlisting">    function handle_web_socket_blob(body) { }</div><div class="lstlisting">    E&gt; Unknown Raw Binary Received: [72,101,108,108,111]</div>
+<!--TOC subsection id="sec12" Rails-like State Protocol-->
+<h3 id="sec12" class="subsection">Rails-like State Protocol</h3><!--SEC END --><p>N2O ships also with state protocol that requires from developer
+to specify explicitly the return values from events. It also allows you
+to use Rails-like semantic for backends:</p><div class="lstlisting">     Controller:Action(Event,Context).</div><p>It allows you also to name your events with any name like in ChicagoBoss.</p><p>
+
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'synrc'; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    
+
+</p></div>
+</div>
+</div><div class="clear"> </div><!--CUT END -->
+<!--HTMLFOOT-->
+
+<div class="nonselectedwrapper">
+<div class="verywidecol">
+
+    <div style="width:100%;height:300px;float:left;font-size:14pt;" align=center>
+    	<hr size=1>
+        <span class="logo_font" style="font-size:14pt;">
+            <b><font color="#0033cc">syn</font><font color="#ff0000">rc</font></b></span> uses H<FONT SIZE=1><sup>E</sup></FONT>V<FONT SIZE=1><sup>E</sup></FONT>A<br>
+        <a href="news/index.htm">Events</a> |
+        <!--a href="http://voxoz.com">Erlang PaaS</a-->
+    	<a href="privacy.htm">Privacy Policy</a> |
+        <a href="feedback.htm">Feedback</a> |
+        <a href="brandbook.htm">Brandbook</a><br>
+    	Copyright &copy; 2005&ndash;2013 <a href="//synrc.com/index.htm"> Synrc Research Center s.r.o.</a>
+    </div>
+
+</div>
+</div>
+
+<div class="clear"></div>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-29227518-1']);
+      _gaq.push(['_trackPageview']);
+      
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'https://www') + '.google-analytics.com/ga.js';
+                    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+                      })();
+                      
+                      </script>
+
+<script type="text/javascript" src="//synrc.com/hi.js"></script>
+<!--ENDHTML-->
+</body>
+</html>

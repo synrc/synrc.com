@@ -8,11 +8,11 @@
   <meta property="og:image" content="images/s_64.png"/>
   <meta http-equiv="X-UA-Compatible" content="IE=IE10,chrome=1" />
   <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-  <title>N2O
+  <title>MAD Commands
 </title>
 </head>
 <body >
-<!--HEVEA command line is: hevea 5HT.tex -o 5HT.htm -->
+<!--HEVEA command line is: hevea commands.tex -o commands.htm -->
 <!--CUT STYLE article--><!--HTMLHEAD-->
 
 <div class="nonselectedwrapper white" style="padding: 10px 0px 10px 0px;margin: 0px 0px 10px 0px;">
@@ -42,39 +42,72 @@
 
 <!--ENDHTML-->
 <!--CUT DEF section 1 --><div class="nonselectedwrapper">
-<div class="article"><div class="toc">
+<div class="article">
+<div class="toc">
+<!--TOC section id="sec1" TOC-->
+<h2 id="sec1" class="section">TOC</h2><!--SEC END -->
+<!--TOC paragraph id="sec2" -->
+<!--SEC END --><p>
+<a href="http://synrc.com/apps/mad/doc/web">Overview</a> <br>
 
-<br><br>
+<a href="http://synrc.com/apps/mad/doc/web/setup.htm">1. Setup</a> <br>
 
-<br><br>
-<img src="https://avatars1.githubusercontent.com/u/1459648?v=2&s=200" width=140 style="margin-left: -20px;background-color: #eeeeee;padding:20 20 20 20px;" width=808/>
+<a href="http://synrc.com/apps/mad/doc/web/config.htm">2. Configuration</a> <br>
 
-<br><br>
-<img src="images/s.png" width=140 style="margin-left: -20px;background-color: #eeeeee;padding:20 20 20 20px;" width=808/>
+<a href="http://synrc.com/apps/mad/doc/web/commands.htm">3. Commands</a> <br>
 
-<br><br>
-<img src="https://avatars3.githubusercontent.com/u/4131155?v=2&s=200" width=140 style="margin-left: -20px;background-color: #eeeeee;padding:20 20 20 20px;" width=808/>
+<a href="http://synrc.com/apps/mad/doc/web/scripts.htm">5. Scripts</a> <br>
 
+<a href="http://synrc.com/apps/mad/doc/web/deps.htm">4. Dependencies</a> <br>
 
-</div><div class="articlecol"><!--TOC section id="sec1" 5HT on Synrc Erlang Stack-->
-<h2 id="sec1" class="section">5HT on Synrc Erlang Stack</h2><!--SEC END --><p>
+<a href="http://synrc.com/apps/mad/doc/web/bundles.htm">6. Bundles</a> <br>
 
-<br><br>
-<img src="images/mfd.jpg" style="margin-left: -20px;background-color: #eeeeee;padding:20 20 20 20px;" width=808/>
+<a href="http://synrc.com/apps/mad/doc/web/ports.htm">7. Ports</a> <br>
+</p><p><a href="http://synrc.com/apps/mad/doc/book.pdf">Download PDF</a> <br>
 
-</p><!--TOC subsection id="sec2" Pure and Simple-->
-<h3 id="sec2" class="subsection">Pure and Simple</h3><!--SEC END --><p>
-This site is dedicated to full stack Erlang line,
-which consists of range of applications: [ SLICE, VXZ, N2O, KVS, SHEN, REST, MAD, BPE,
-MQS, FORMS, UPL ]. They provide you services such as provisioning
-instances, development tools, frameworks, business engines and languages.</p><!--TOC subsection id="sec3" Minimal and Effective-->
-<h3 id="sec3" class="subsection">Minimal and Effective</h3><!--SEC END --><p>Because everything is so small that can fit your old FD, everything is also fast.
-We tried to keep number of levels and operability points as small as possible,
-keeping in mind the full stack of application.</p><!--TOC subsection id="sec4" Unikernel Based-->
-<h3 id="sec4" class="subsection">Unikernel Based</h3><!--SEC END --><p>This stack can be provisioned in Erlang Xen containers under LING.
-So you can run full stack without OS in Xen or in UNIX. Also all
-aplications could be shipped as a single-file bundle which is able
-to run in Windows, Linux and Mac environments.</p></div></div>
+</p></div>
+
+<div class="articlecol">
+
+<!--TOC section id="sec3" Commands-->
+<h2 id="sec3" class="section">Commands</h2><!--SEC END --><p>Synrc mad has a simple interface as follows:</p><div class="lstlisting">  BNF:
+      invoke := mad params
+      params := [] | run params
+         run := command [ options ]
+     command := app | lib | deps | compile | bundle
+                start | stop | repl</div><p>It seems to us more natural, you can specify random
+commands set with different specifiers (options).</p>
+<!--TOC subsection id="sec4" deps-->
+<h3 id="sec4" class="subsection">deps</h3><!--SEC END -->
+<!--TOC subsection id="sec5" compile-->
+<h3 id="sec5" class="subsection">compile</h3><!--SEC END -->
+<!--TOC subsection id="sec6" plan-->
+<h3 id="sec6" class="subsection">plan</h3><!--SEC END -->
+<!--TOC subsection id="sec7" repl-->
+<h3 id="sec7" class="subsection">repl</h3><!--SEC END -->
+<!--TOC subsection id="sec8" bundle-->
+<h3 id="sec8" class="subsection">bundle</h3><!--SEC END -->
+<!--TOC subsection id="sec9" app-->
+<h3 id="sec9" class="subsection">app</h3><!--SEC END --><p>
+
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'synrc'; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    
+
+</p></div>
+</div>
 </div><div class="clear"> </div><!--CUT END -->
 <!--HTMLFOOT-->
 
