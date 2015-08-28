@@ -34,9 +34,10 @@ input { font-size:18pt; }
 #slide {}
 
 .section { margin-left: 12px; margin-bottom: -20px;}
-.subsection { margin-left: 8px; }
+.subsection { margin-left: 0px; }
 .verywidecol > .section { margin-left: 0px; margin-bottom: -20px;}
 h2.section { margin-left: 0px; }
+h2.subsection { margin-left: 0px; }
 .articlecol > h2 { margin-left: 10px; margin-bottom: 0px; }
 .verywidecol > h2 { margin-left: 10px; margin-bottom: 0px; }
 
