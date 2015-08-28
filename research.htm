@@ -59,8 +59,8 @@ Riak, mongoDB, Mnesia, KAI and SQL backends using our
 Want Erlang to power your enterprise business?
 Just check our Spawnproc stack which is already used for
 serving millions of customers in Eastern Europe.
-<a href="https://spawnproc.github.io/bpe/">BPE</a> workflow engine and
-<a href="https://spawnproc.github.io/upl/">UPL</a> processing language
+<a href="http://spawnproc.github.io/bpe/">BPE</a> workflow engine and
+<a href="http://spawnproc.github.io/upl/">UPL</a> processing language
 are undestood and yet manageable.
 </p></div><div class="block">
 <!--TOC section id="sec5" Web Applications-->
@@ -78,10 +78,13 @@ Our reference implementation <a href="http://synrc.com/apps/n2o">N2O</a> WebSock
 <h2 id="sec7" class="section">Voxoz Erlang Cloud Control Panel</h2><!--SEC END -->
 <!--TOC paragraph id="sec8" -->
 <!--SEC END --><p>
-Erlang PaaS front end built using N2O, KVS and MQS the key erlang
-applications for Voxoz Xen Cloud.</p><p><center><img src="images/voxoz-panel.png" style="margin-left: -20px;background-color: #eeeeee;padding:20 20 20 20px;" width=780/></center>
-</p><p>Backend: Maxim Sokhatsky <br>
- Design: Andrii Zadorozhnii <br>
+Enter the future now with Voxoz cloud platform which is able to run
+Elrang virtual machine on top of raw hardware in Xen environment.
+LING virtual machine has also ports to POSIX, ARM and MIPS platforms.
+Or you can run BEAM virtual machine in docker. The application is a file.
+As simple as that. This is Voxoz.</p><p><center><img src="images/voxoz-panel.png" style="margin-left: -20px;background-color: #eeeeee;padding:20 20 20 20px;" width=780/></center>
+</p><p>Mentor: Vladimir Kirillov <br>
+ Parnerts: Cloudozer, LLC. <br>
 </p></div>
 </div><div class="nonselectedwrapper">
 <div class="verywidecol">
@@ -89,9 +92,11 @@ applications for Voxoz Xen Cloud.</p><p><center><img src="images/voxoz-panel.png
 <h2 id="sec9" class="section">Skyline App Store</h2><!--SEC END -->
 <!--TOC paragraph id="sec10" -->
 <!--SEC END --><p>
-Skyline App Store is Voxoz PaaS and Xen ready web shop in Erlang designed as
-promo N2O example application. It uses N2O, KVS, Bootstrap style with
-node js tools for JavaScript minification and LESS assembling.</p><p><center><img src="images/skyline_xen.png" style="margin-left: -20px;background-color: #eeeeee;padding:20 20 20 20px;" width=780/></center>
+Don’t know how to start using N2O and need more sophisticated project that N2O sample?
+Just clone <a href="http://synrc.github.io/skyline/">Skyline</a> web shop sample with AVZ
+avtoriazation for Google, Facebook, Github, Twitter and Microsoft providers.
+Skyline App Store is Voxoz and Xen ready application. It uses N2O, KVS,
+Bootstrap style with node js tools for JavaScript minification and LESS assembling.</p><p><center><img src="images/skyline_xen.png" style="margin-left: -20px;background-color: #eeeeee;padding:20 20 20 20px;" width=780/></center>
 </p><p>Backend: Maxim Sokhatsky <br>
  Design: Andrii Zadorozhnii <br>
 </p></div>
@@ -102,7 +107,7 @@ node js tools for JavaScript minification and LESS assembling.</p><p><center><im
 <!--TOC paragraph id="sec12" -->
 <!--SEC END --><p>
 For the Turkish audience we created scalable distributed system using Erlang, Riak,
-GProc, Cowboy, AMF, RabbitMQ, Nitrogen, GlusterFS, NGINX and other tools. 
+Cowboy, RabbitMQ, N2O, GlusterFS, NGINX and other tools.
 Please read the technical description
 <a href="https://speakerdeck.com/5ht/kakaranet-presentation">Kakaranet Tech</a>.
 We have implemented Facebook, Paypal, Credit Cards, Mobile and Wired Payments,
@@ -111,15 +116,14 @@ with A marks for both Yahoo! YSlow and Google Page Speed. Kakaranet is lineary s
 Facebook-like application with feeds, subscriptions and messaging along with
 powerful turn-based board games engine. The heart of the system the RabbitMQ
 cluster. The System runs on top of Riak cluster with easy maintenance from Web
-and supports hot code reload using sync and update scripts approach 
-instead of native OTP mechanism despite using native OTP releases. </p><p><center><img src="images/kakaranet.png" style="margin-left: -20px;background-color: #eeeeee;padding:20 20 20 20px;" width=780/></center>
+and supports hot code reload using ACTIVE native file system listener.</p><p><center><img src="images/kakaranet.png" style="margin-left: -20px;background-color: #eeeeee;padding:20 20 20 20px;" width=780/></center>
 </p><p>Mentor: Maxim Sokhatsky <br>
  Game Server: Serge Polkovnikov <br>
 </p>
 <!--TOC paragraph id="sec13" -->
 <!--SEC END --><p>
 Full size of codebase is fit 2.88MB floppy disk and is quite managable yet.
-The system inside is essentially built upon binary protocols AMQP, BER and AMF
+The system inside is essentially built upon binary protocols AMQP, BER
 except content delivery to Web clients which is in fact gzipped.</p></div>
 </div><div class="nonselectedwrapper">
 <div class="verywidecol">
@@ -134,28 +138,25 @@ your system on any device despite the screen size.</p><p><center><img src="image
  Design: Alex Kalenuk</p></div>
 </div><div class="nonselectedwrapper">
 <div class="verywidecol">
-<!--TOC section id="sec16" Rich HTML5 Clients-->
-<h2 id="sec16" class="section">Rich HTML5 Clients</h2><!--SEC END -->
+<!--TOC section id="sec16" SVG and WebSockets-->
+<h2 id="sec16" class="section">SVG and WebSockets</h2><!--SEC END -->
 <!--TOC paragraph id="sec17" -->
 <!--SEC END --><p>
 For the HTML5 web platform and pure JavaScript client-side we would recommend to use
-Chaplin and Brunch which is agnostic to frameworks and libraries HTML5 application assembler.
-We are also stick with functional languages approach on client side.
-In that way we are using LiveScript a CoffeeScript derivative as main functional language for JavaScript replacement.
-In short: we are using pure HTML5 on client side and pure Erlang on server side.
-</p></div>
+SVG and WebSockets. N2O provides all facilities for dealing with DOM and fast binary
+real-time WebSocket channels. We don’t use Xml HTTP Requests since 2010.</p></div>
 </div><div class="nonselectedwrapper">
 <div class="verywidecol">
 <!--TOC section id="sec18" Binary Protocols-->
 <h2 id="sec18" class="section">Binary Protocols</h2><!--SEC END -->
 <!--TOC paragraph id="sec19" -->
 <!--SEC END --><p>
-We are trying to build our products
-and services around single core of technologies. We believe that focusing on understandable
-and manageable, proven in industry technologies will bring significant benefits to all users.
+We are trying to build our products and services around single core of technologies.
+We believe that focusing on understandable and manageable,
+proven in industry technologies will bring significant benefits to all users.
 We have chosen set of technologies that have proved its maturity, clarity and efficiency.
 We oriented on strong and mature binary protocols and data formats such as BER and ASN.1.
-We are not accepting text formats and preffer binary protocols :)</p><p><a href="apps.htm">Follow The Source</a></p></div>
+Please read more on <a href="http://5ht.co/n2o.htm">N2O PROTOCOL</a> at dedicated site.</p><p><a href="apps.htm">Follow The Source</a></p></div>
 </div><div class="clear"> </div><!--CUT END -->
 <!--HTMLFOOT-->
 
