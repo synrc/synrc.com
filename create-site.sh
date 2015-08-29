@@ -58,9 +58,9 @@ create_book()
     for article in $1/doc/*.tex; do create_article `basename ${article%%.*}` $1; done
     cp index.htm ../../index.htm
     cd -
-    cd apps/`basename $1`/doc
-    pdflatex book.tex
-    cd -
+#    cd apps/`basename $1`/doc
+#    pdflatex book.tex
+#    cd -
 }
 
 create_hevea "5HT"
