@@ -63,14 +63,14 @@
 
 <div class="articlecol">
 
-<!--TOC section id="sec3" UPL: Processing Language-->
-<h2 id="sec3" class="section">UPL: Processing Language</h2><!--SEC END -->
+<!--TOC section id="sec3" UPL: Universal Processing Language-->
+<h2 id="sec3" class="section">UPL: Universal Processing Language</h2><!--SEC END -->
 <!--TOC subsection id="sec4" History-->
-<h3 id="sec4" class="subsection">History</h3><!--SEC END --><p>Processing systems use manually crafted application
+<h3 id="sec4" class="subsection">History</h3><!--SEC END --><p>Pocessing systems are using manually crafted application
 relays to handle card processing business rules. Being defined by business
-analysts, these rules are fallen down to engineering teams informally.
-Approach we provide, pushes card processing to solid background in a form
-of domain specific language, common for all card plans analytics departments.</p><p>Having compact language, we can formally build various translators
+analysts these rules are fallen down to engineering teams informally.
+Approach we provide pushes card processing to solid background in a form
+of domain specific language common for all card plans analytics departments.</p><p>Having compact language we can formally build various translators
 for particular customers and existing processing systems. At the same time
 we provide reference back-end Erlang system implementation
 for transactions processing. Also DSL gives us a natural and easy
@@ -88,7 +88,7 @@ verification strategies and compactifications.</p><div class="center">Listing 1
             monthly 15% name 'tax' of deposit
                         to account 'users/:client/tax'</div><p>This language could be easily extended to other domain areas like
 internet payment processing, shopping mall bonus programs, mobile
-operators tariff plans etc.</p>
+operators tariff plans.</p>
 <!--TOC subsection id="sec5" Objectives-->
 <h3 id="sec5" class="subsection">Objectives</h3><!--SEC END --><p>The aim is to create small and compact language for payment
 transaction processing. Underlying instrumentation
@@ -122,8 +122,8 @@ We have several criteria to satisfy:</p>
 <!--SEC END --><p>Notifying:</p><div class="lstlisting">    prepare event 'users/:client'</div>
 <!--TOC subsection id="sec11" Programs-->
 <h3 id="sec11" class="subsection">Programs</h3><!--SEC END --><p>Programs are tariff programs, set of rules that we plug to transaction processing.
-It feels like set of filters triggered each time we execute money
-movements on account with a given card definition.</p><div class="center">Listing 2: BNF</div><p><br>
+It feels like set of filters triggered each time we fire money
+movements on account with a given card defenition.</p><div class="center">Listing 2: BNF</div><p><br>
 </p><div class="lstlisting">
     Program = program Name Currency Forms
 
@@ -163,7 +163,7 @@ call language forms.</p><div class="center">Listing 4: BNF</div><p><br>
          Account = &lt;credit | rate | deposit&gt; Name</div>
 <!--TOC subsection id="sec13" Accounts-->
 <h3 id="sec13" class="subsection">Accounts</h3><!--SEC END --><p>Enterprise Tree handles clients, accounts, transactions, programs, events.
-Programs could be assigned to each node and fires automatically on access.</p><div class="lstlisting">    /personal/:client
+Programs could be assigned to each node and fires atomatically on access.</p><div class="lstlisting">    /personal/:client
     /personal/:client/bonus
     /personal/:client/credit
     /personal/:client/deposit
@@ -178,7 +178,7 @@ addressed/mounted? to local system.</p><div class="lstlisting">    /external/vis
 <!--TOC subsection id="sec15" Transactions-->
 <h3 id="sec15" class="subsection">Transactions</h3><!--SEC END --><p>Transactions are stored per each client’s account.</p><div class="lstlisting">    /personal/:client/transactions</div>
 <!--TOC subsection id="sec16" Deposit-->
-<h3 id="sec16" class="subsection">Deposit</h3><!--SEC END --><p>Deposit program forms usually provide such attributes of
+<h3 id="sec16" class="subsection">Deposit</h3><!--SEC END --><p>Deposit program forms ususally provides such attributes of
 account as duration, rate, withdraw locking, charge
 limits, fee options and other deposit specific options.
 Deposit forms usually have "deposit" account name.</p><div class="lstlisting">    Enabled = enabled | disabled
@@ -192,8 +192,8 @@ Deposit forms usually have "deposit" account name.</p><div class="lstlisting">  
             | fee ChargeRule
             | Periodically</div>
 <!--TOC subsection id="sec17" Credit-->
-<h3 id="sec17" class="subsection">Credit</h3><!--SEC END --><p>Credit program forms mainly provide transaction
-filtering and have default account name "credit".</p><div class="lstlisting">    Credit = transaction [TransRule]
+<h3 id="sec17" class="subsection">Credit</h3><!--SEC END --><p>Credit programs forms mainly provide transaction
+filtering and other default account name "credit".</p><div class="lstlisting">    Credit = transaction [TransRule]
            | sratus Enabled Ammount
            | Periodically
 
