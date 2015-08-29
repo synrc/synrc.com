@@ -34,8 +34,30 @@ create_page news/index
 
 create_hevea()
 {
+    echo "Creating hevea page $2"
     echo `pwd`
 	hevea $1.tex -o $1.htm
+}
+
+create_article()
+{
+    echo "Creating article $1.tex from book $2"
+    ln -fs $2/doc/$1.tex ../$1.tex
+    ln -fs $2/doc/web/$1.tex $1.tex
+	hevea $1.tex -o $1.htm
+}
+
+create_book()
+{
+    echo "Creating book $1"
+    cd apps/`basename $1`/doc/web
+    rm *.htm
+    ln -fs ../../../../templates templates
+    ln -fs $1/doc/book.tex  ../book.tex
+    ln -fs $1/doc/hevea.sty ../hevea.sty
+    for article in $1/doc/*.tex; do create_article `basename ${article%%.*}` $1; done
+    cp index.htm ../../index.htm
+    cd -
 }
 
 create_hevea "5HT"
@@ -44,48 +66,10 @@ create_hevea "feedback"
 create_hevea "research"
 create_hevea "apps"
 
-cd apps/n2o/doc/web
-create_hevea "index"
-create_hevea "setup"
-create_hevea "processes"
-create_hevea "endpoints"
-create_hevea "protocols"
-create_hevea "handlers"
-create_hevea "macros"
-create_hevea "api"
-create_hevea "elements"
-create_hevea "actions"
-create_hevea "packages"
-create_hevea "persistence"
-create_hevea "utf8"
-cp index.htm ../../index.htm
-cd -
-cd apps/mad/doc/web
-create_hevea "index"
-create_hevea "setup"
-create_hevea "commands"
-create_hevea "bundles"
-create_hevea "config"
-create_hevea "deps"
-create_hevea "ports"
-create_hevea "scripts"
-cp index.htm ../../index.htm
-cd -
-cd apps/upl/doc/web
-create_hevea "index"
-cp index.htm ../../index.htm
-cd -
-cd apps/bpe/doc/web
-create_hevea "bpe"
-create_hevea "forms"
-create_hevea "index"
-create_hevea "toc"
-create_hevea "tps"
-create_hevea "upl"
-cp index.htm ../../index.htm
-cd -
-cd apps/forms/doc/web
-create_hevea "index"
-cp index.htm ../../index.htm
-cd -
+create_book ~/depot/synrc/mad
+create_book ~/depot/synrc/n2o
+create_book ~/depot/spawnproc/upl
+create_book ~/depot/spawnproc/forms
+create_book ~/depot/spawnproc/bpe
+
 cp apps.htm apps/index.htm
