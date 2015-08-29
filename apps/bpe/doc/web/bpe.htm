@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html >
+<head>
+
+  <link rel=stylesheet type="text/css" href="http://synrc.com/synrc.css">
+  <meta name="Author" content="5HT">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta property="og:image" content="images/s_64.png"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=IE10,chrome=1" />
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+  <title>BPE
+</title>
+</head>
+<body >
+<!--HEVEA command line is: hevea bpe.tex -o bpe.htm -->
+<!--CUT STYLE article--><!--HTMLHEAD-->
+
+<div class="nonselectedwrapper white" style="padding: 10px 0px 10px 0px;margin: 0px 0px 10px 0px;">
+    <a href="//synrc.com/">
+    <img style="flat:left; margin-left: 55px; margin-top: 5px; margin-bottom:-5px;" src="http://synrc.com/images/synrc.png" border="0"></a>
+    <div align=right style="margin: -50px 50px 0px 0px;">
+        <script language="JavaScript">
+
+        var args = (window.location).toString().split('/');
+        var page_name = args[args.length-1];
+        var menu = {'http://synrc.com/index.htm':    'Home',
+                    'http://synrc.com/research.htm': 'Showcase',
+                    'http://synrc.com/apps/':   'Apps',
+                    'http://synrc.com/feedback.htm': 'Contacts',
+                    'http://spawnproc.com':   '<b>Spawnproc</b>', };
+
+        Object.keys(menu).forEach(function (key) {
+            if (page_name == key) { document.write('<div class="menu" style="font-weight: bold;">'+menu[key]+'</div>'); }
+            else { document.write('<a class="menu" href="'+key+'">'+menu[key]+'</a>'); }
+        });
+
+        </script>
+    </div>
+</div>
+
+<hr size="1">
+
+<!--ENDHTML-->
+<!--CUT DEF section 1 --><div class="nonselectedwrapper">
+<div class="article">
+<div class="toc">
+<!--TOC section id="sec1" TOC-->
+<h2 id="sec1" class="section">TOC</h2><!--SEC END -->
+<!--TOC paragraph id="sec2" -->
+<!--SEC END --><p>
+<a href="http://synrc.com/apps/bpe/doc/web">Intro</a> <br>
+
+<a href="http://synrc.com/apps/bpe/doc/web/tps.htm">1. Processing</a> <br>
+
+<a href="http://synrc.com/apps/bpe/doc/web/bpe.htm">2. Workflows</a> <br>
+
+<a href="http://synrc.com/apps/bpe/doc/web/forms.htm">3. Forms</a> <br>
+
+<a href="http://synrc.com/apps/bpe/doc/web/upl.htm">4. Language</a> <br>
+</p><p><a href="http://synrc.com/apps/bpe/doc/book.pdf">Download PDF</a> <br>
+
+</p></div>
+
+<div class="articlecol">
+
+<!--TOC section id="sec3" BPE: Business Processes-->
+<h2 id="sec3" class="section">BPE: Business Processes</h2><!--SEC END --><p>What is BPE? BPE is an production grade business workflow engine that
+is enought for managing automated procesess.
+It can substitute WWF, BizTalk, Activity or Oracle BPM for those who
+understand the basic features of workflow systems.
+BPE is an subset of BPMN 2.0 standart, the evelution and unification
+of most previous worflow standard such as XPDL (WfMC), Skelta, OpenWFE,
+Shark and jBPM.</p><p>
+
+<img src="../images/bpe-sample.png" style="margin-left: -20px;margin-botton: 30px; padding:20 20 20 20px;"><br>
+
+Picture. <span style="font-weight:bold">Process Sample</span><br>
+<br>
+
+
+</p>
+<!--TOC paragraph id="sec4" -->
+<!--SEC END --><p>
+This project was written essentially for biggest ukrainian commercial
+bank and is based on previous research work already done by athor
+for CLR platform. You may read a dedicated book about Workflow Process
+theory written by BPE author earlier while this book is dedicated
+essentially to BPE application and its companion libraries.
+The same way as web frameworks are the core of web applications,
+the workflow engine is a core of business applications.</p>
+<!--TOC paragraph id="sec5" -->
+<!--SEC END --><p>
+In its core BPE is microkernel that accept native Erlang record-based
+process definition in Erlang language along with Event-Condition-Action
+erlang functions, similar you may find in OTP principles, but much simplified,
+intended for business analytics and system integration engineers. It acts
+like FSM machine, runned under Erlang supervision and is totally persisted,
+which means no data loss can be happened. It has very clean and minimalistic
+API for keeping this product robust and stable, th approach you already
+can find in Synrc stack in common and in N2O framework in particular.</p>
+<!--TOC paragraph id="sec6" -->
+<!--SEC END --><p>
+BPE context holds KVS documents which in fact typed Erlang
+records and are defined by KVS schema. Each process has its own persistent
+execution log and is fully fault-resistant with migration capabilities.
+The BPE protocol is well defined and is a part of N2O protocols stack.</p>
+<!--TOC paragraph id="sec7" -->
+<!--SEC END --><p>
+The author of BPE has implemented business workflow engine for CLR virtual
+machine using C# language. However Erlang implementation more idiomatic
+and canonical due to semantic corresponding of process calculus and
+the core of underlying virtual machine. Send async messages across processes
+means exactly what it says up to Erlang pids. For sending documents to
+business process you can use process’s name or its Pid:</p><div class="lstlisting">    1&gt; bpe:amend(Process#process.id,#deposit{}).</div>
+<!--TOC paragraph id="sec8" -->
+<!--SEC END --><p>
+Thanks to this isomorphic corresponding between Erlang process and Calculus process,
+code size of core BPE server was reduced to 400 lines of code. This is definitely
+most clean functional implementation of workflow engine avalible in electronical banking systems.</p>
+<!--TOC subsection id="sec9" Pi-calculus and Petri nets-->
+<h3 id="sec9" class="subsection">Pi-calculus and Petri nets</h3><!--SEC END --><p>
+The nice thing about all palette of different implementation of workflow models is
+that all of them reduced to one of two kinds of encoding: one is algebraic one and
+the other is geometric.</p>
+<!--TOC paragraph id="sec10" -->
+<!--SEC END --><p>
+The geometric one is <span style="font-weight:bold">Petri nets</span>. Carl Petri introduced it in 1962 during discrete
+analysis of asynchronous computer systems. Any its graphical representation could be
+defined with Petri nets formalism. Petri modeling in one of its forms is a good
+complementation to process algebra useful as computational model.</p>
+<!--TOC paragraph id="sec11" -->
+<!--SEC END --><p>
+The algebraic one is <span style="font-weight:bold">Pi-calculus</span> developed by Robin Milner who gained
+Turing award for 1) Meta Language ML, 2) Calculus for Communication Systems CCS (1980),
+the general theory of concurrency and 3) theoretical base for proof assistants,
+Logic for Computable Functions LCF.
+The model of process calculus is a theoretical
+background of virtual environment of Erlang infrastructure, so BPE
+implementation fully relies on Pi-calculus (1999), the successor of CCS notion.
+Thus providing effective computational model for implementation of workflow
+process management.</p>
+<!--TOC subsection id="sec12" Finite State Machines-->
+<h3 id="sec12" class="subsection">Finite State Machines</h3><!--SEC END --><p>
+One of the common known types of encoding process calculus is well developed <span style="font-weight:bold">FSM framework</span> (60-s).
+This language is widely used almost in any programming language presented as core
+feature or as library. The process defines with an extension to Turing machine
+with states, input, outputs and functions.</p>
+<!--TOC subsection id="sec13" SADT-->
+<h3 id="sec13" class="subsection">SADT</h3><!--SEC END --><p>
+The next language (framework) that used in (80-s, 90-s) to describe similar
+to process calculus definitions with graphical Petri nets and model definitions
+was <span style="font-weight:bold">SADT</span> introduced by Marca and MacGowan 1988, 1991.</p>
+<!--TOC subsection id="sec14" Reactive Systems-->
+<h3 id="sec14" class="subsection">Reactive Systems</h3><!--SEC END --><p>
+One of the wide range of semantics is Reactive Systems based on message passing
+and event routing, but also it could be known as Functional Reactive Programming FRP
+which is rather a set of combinators over streams. Both interpretations are
+used in languages and frameworks, depending on involvement of stream in core
+definition (2010-s).</p>
+<!--TOC subsection id="sec15" Typing Pi-calculus-->
+<h3 id="sec15" class="subsection">Typing Pi-calculus</h3><!--SEC END --><p>
+In typed theory Pi-calculus defines also the typing system (could be System F, e.g.) for
+input and outputs of processes or function signatures specified in process definition.
+In BPE the role of types was taken by document types, which is simple Erlang records,
+so in BPE workflow processing is type-safe on compilation stage with respect to document types.</p><div class="lstlisting">    1&gt; #deposit{} = bpe:doc(#deposit{}, pid(0,185,0)).</div>
+<!--TOC subsection id="sec16" Systems-->
+<h3 id="sec16" class="subsection">Systems</h3><!--SEC END -->
+<!--TOC subsection id="sec17" Scenarios-->
+<h3 id="sec17" class="subsection">Scenarios</h3><!--SEC END --><p>
+Workflows are complimentary to business rules and could be specified separately.
+BPE definitions provides front API to the end-user application.
+Workflow Engine – is an Erlang/OTP application which handles process definitions,
+process instances, and provides very clean API for Workplaces.</p>
+<!--TOC paragraph id="sec18" -->
+<!--SEC END --><p>
+Before using Process Engine you need to define the set of business process
+workflows of your enterprise. This could be done via Erlang terms or some DSL
+that lately converted to Erlang terms. Internally BPE uses Erlang terms
+workflow definition:</p><div class="lstlisting">bpe:start(
+   #process{name="Order Form",
+       flows=[ #sequenceFlow{source="begin",target="fill_form"},
+               #sequenceFlow{source="fill_form",target="end"}],
+       tasks=[ #userTask{name="begin"},
+               #userTask{name="fill_form"},
+               #endEvent{name="end"}],
+       task="begin",beginEvent="begin",endEvent="end"},[]).</div><p>Slightly bigger example:</p><div class="lstlisting">deposit_app() -&gt;
+
+    #process { name = 'Create Deposit Account',
+
+        flows = [
+            #sequenceFlow{source='Init',      target='Payment'},
+            #sequenceFlow{source='Payment',   target='Signatory'},
+            #sequenceFlow{source='Payment',   target='Process'},
+            #sequenceFlow{source='Process',   target='Final'},
+            #sequenceFlow{source='Signatory', target='Process'},
+            #sequenceFlow{source='Signatory', target='Final'}
+        ],
+
+        tasks = [
+            #userTask    { name='Init',      module = deposit },
+            #userTask    { name='Signatory', module = deposit},
+            #serviceTask { name='Payment',   module = deposit},
+            #serviceTask { name='Process',   module = deposit},
+            #endEvent    { name='Final'}
+        ],
+
+        beginEvent = 'Init',
+        endEvent = 'Final',
+        events = [
+             #messageEvent{name="PaymentReceived"}
+        ]
+    }.</div>
+<!--TOC subsection id="sec19" Actions-->
+<h3 id="sec19" class="subsection">Actions</h3><!--SEC END --><p>Business rules should be specified by developers.
+RETE is used for rules specifications which can be triggered during workflow.</p>
+<!--TOC subsection id="sec20" BPMN 2.0-->
+<h3 id="sec20" class="subsection">BPMN 2.0</h3><!--SEC END --><p>The workflow definition uses following persistent workflow model which is stored in KVS:</p><div class="lstlisting">-record(task,         { name, id, roles, module }).
+-record(userTask,     { name, id, roles, module }).
+-record(serviceTask,  { name, id, roles, module }).
+-record(messageEvent, { name, id, payload }).
+-record(beginEvent ,  { name, id }).
+-record(endEvent,     { name, id }).
+-record(sequenceFlow, { name, id, source, target }).
+-record(history,      { ?ITERATOR(feed,true), name, task }).
+-record(process,      { ?ITERATOR(feed,true), name,
+                        roles=[], tasks=[], events=[],
+                        history=[], flows=[], rules,
+                        docs=[], task, beginEvent,
+                        endEvent }).</div><p>Full set of BPMN 2.0 fields could be obtained at <a href="http://www.omg.org/spec/BPMN/2.0">OMG definition document, page 3-7</a>.</p><p>Unusual that BPE process implemented as <span style="font-weight:bold">gen_server</span> rather
+that <span style="font-weight:bold">gen_fsm</span>:</p><div class="center">Listing 1: Boundary Event</div><p><br>
+</p><div class="lstlisting">process_event(Event, Proc) -&gt;
+    Targets = bpe_task:targets(Event#messageEvent.name,Proc),
+    {Status,{Reason,Target},ProcState} =
+           bpe_event:handle_event(Event,
+              bpe_task:find_flow(Targets),Proc),
+    NewProcState = ProcState#process{task = Target},
+    FlowReply = fix_reply({Status,{Reason,Target},NewProcState}),
+    kvs:put(NewProcState),
+    FlowReply.</div><div class="center">Listing 2: Flow Processing</div><p><br>
+</p><div class="lstlisting">process_flow(Proc) -&gt;
+    Curr = Proc#process.task,
+    Term = [],
+    Task = bpe:task(Curr,Proc),
+    Targets = bpe_task:targets(Curr,Proc),
+    {Status,{Reason,Target},ProcState}
+      = case {Targets,Proc#process.task} of
+         {[],Term} -&gt; bpe_task:already_finished(Proc);
+         {[],Curr} -&gt; bpe_task:handle_task(Task,Curr,Curr,Proc);
+         {[],_}    -&gt; bpe_task:denied_flow(Curr,Proc);
+         {List,_}  -&gt; bpe_task:handle_task(Task,Curr,
+                         bpe_task:find_flow(List),Proc)
+    end,
+
+    kvs:add(#history { id = kvs:next_id("history",1),
+                       feed_id = {history,ProcState#process.id},
+                       name = ProcState#process.name,
+                       task = {task, Curr} }),
+
+    NewProcState = ProcState#process{task = Target},
+
+    FlowReply = fix_reply({Status,{Reason,Target},NewProcState}),
+    kvs:put(NewProcState),
+    FlowReply.</div><div class="center">Listing 3: BPE protocol</div><p><br>
+</p><div class="lstlisting">    {run}
+    {until,_}
+    {complete}
+    {complete,_}
+    {amend,_}
+    {amend,_,_}
+    {event,_}</div>
+<!--TOC subsection id="sec21" Sample Process-->
+<h3 id="sec21" class="subsection">Sample Process</h3><!--SEC END -->
+<!--TOC subsection id="sec22" Erlang Session-->
+<h3 id="sec22" class="subsection">Erlang Session</h3><!--SEC END --><div class="lstlisting">(bpe@127.0.0.1)1&gt; kvs:join().
+ok
+
+(bpe@127.0.0.1)1&gt; rr(bpe).
+[beginEvent,container,endEvent,history,id_seq,iterator,
+ messageEvent,process,sequenceFlow,serviceTask,task,userTask]
+
+(bpe@127.0.0.1)2&gt; bpe:start(#process{name="Order11",
+         flows=[#sequenceFlow{source="begin",target="end2"},
+                #sequenceFlow{source="end2",target="end"}],
+         tasks=[#userTask{name="begin"},
+                #userTask{name="end2"},
+                #endEvent{name="end"}],
+         task="begin",beginEvent="begin",endEvent="end"},[]).
+bpe_proc:Process 39 spawned &lt;0.12399.0&gt;
+{ok,&lt;0.12399.0&gt;}
+
+(bpe@127.0.0.1)3&gt; gen_server:call(pid(0,12399,0),{complete}).
+
+(bpe@127.0.0.1)4&gt; gen_server:call(pid(0,12399,0),{complete}).
+
+(bpe@127.0.0.1)5&gt; gen_server:call(pid(0,12399,0),{complete}).
+
+(bpe@127.0.0.1)5&gt; bpe:history(39).
+[#history{id = 28,version = undefined,container = feed,
+          feed_id = {history,39},
+          prev = 27,next = undefined,feeds = [],guard = true,
+          etc = undefined,name = "Order11",
+          task = {task,"end"}},
+ #history{id = 27,version = undefined,container = feed,
+          feed_id = {history,39},
+          prev = 26,next = 28,feeds = [],guard = true,etc = undefined,
+          name = "Order11",
+          task = {task,"end2"}},
+ #history{id = 26,version = undefined,container = feed,
+          feed_id = {history,39},
+          prev = undefined,next = 27,feeds = [],guard = true,
+          etc = undefined,name = "Order11",
+          task = {task,"begin"}}]</div><p>
+
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'synrc'; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    
+
+</p></div>
+</div>
+</div><div class="clear"> </div><!--CUT END -->
+<!--HTMLFOOT-->
+
+<div class="nonselectedwrapper">
+<div class="verywidecol">
+
+    <div style="width:100%;height:300px;float:left;font-size:16pt;" align=center>
+    	<hr size=1>
+    	<br><br><br>
+        <a href="news/index.htm">Events</a> |
+    	<a href="privacy.htm">Privacy Policy</a> |
+        <a href="feedback.htm">Feedback</a> |
+        <a href="brandbook.htm">Brandbook</a><br>
+    	Copyright &copy; 2005&ndash;2015 <a href="//synrc.com/index.htm"> Synrc Research Center s.r.o.</a>
+    </div>
+
+</div>
+</div>
+
+<div class="clear"></div>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-29227518-1']);
+      _gaq.push(['_trackPageview']);
+      
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'https://www') + '.google-analytics.com/ga.js';
+                    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+                      })();
+                      
+                      </script>
+
+<script type="text/javascript" src="//synrc.com/hi.js"></script>
+<!--ENDHTML-->
+</body>
+</html>

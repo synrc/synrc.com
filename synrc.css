@@ -51,6 +51,7 @@ h2.subsection { margin-left: 0px; }
 .verywidecol { max-width: 800px; margin-left: auto; margin-right: auto; text-align: normal; }
 .paper { background-color: #fAfAfA; margin-top: 10px;}
 .white { background-color: white; margin-bottom: 10px; }
+p > img { padding-left:20px;}
 blockquote { background-color: #fAfAfA; padding: 20px 20px 20px 20px;}
 .selectedwrapper {
     margin-top: -12px;

@@ -75,4 +75,13 @@ cd apps/upl/doc/web
 create_hevea "index"
 cp index.htm ../../index.htm
 cd -
+cd apps/bpe/doc/web
+create_hevea "bpe"
+create_hevea "forms"
+create_hevea "index"
+create_hevea "toc"
+create_hevea "tps"
+create_hevea "upl"
+cp index.htm ../../index.htm
+cd -
 cp apps.htm apps/index.htm

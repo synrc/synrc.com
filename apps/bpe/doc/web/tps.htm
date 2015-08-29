@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html >
+<head>
+
+  <link rel=stylesheet type="text/css" href="http://synrc.com/synrc.css">
+  <meta name="Author" content="5HT">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta property="og:image" content="images/s_64.png"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=IE10,chrome=1" />
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+  <title>TPS
+</title>
+</head>
+<body >
+<!--HEVEA command line is: hevea tps.tex -o tps.htm -->
+<!--CUT STYLE article--><!--HTMLHEAD-->
+
+<div class="nonselectedwrapper white" style="padding: 10px 0px 10px 0px;margin: 0px 0px 10px 0px;">
+    <a href="//synrc.com/">
+    <img style="flat:left; margin-left: 55px; margin-top: 5px; margin-bottom:-5px;" src="http://synrc.com/images/synrc.png" border="0"></a>
+    <div align=right style="margin: -50px 50px 0px 0px;">
+        <script language="JavaScript">
+
+        var args = (window.location).toString().split('/');
+        var page_name = args[args.length-1];
+        var menu = {'http://synrc.com/index.htm':    'Home',
+                    'http://synrc.com/research.htm': 'Showcase',
+                    'http://synrc.com/apps/':   'Apps',
+                    'http://synrc.com/feedback.htm': 'Contacts',
+                    'http://spawnproc.com':   '<b>Spawnproc</b>', };
+
+        Object.keys(menu).forEach(function (key) {
+            if (page_name == key) { document.write('<div class="menu" style="font-weight: bold;">'+menu[key]+'</div>'); }
+            else { document.write('<a class="menu" href="'+key+'">'+menu[key]+'</a>'); }
+        });
+
+        </script>
+    </div>
+</div>
+
+<hr size="1">
+
+<!--ENDHTML-->
+<!--CUT DEF section 1 --><div class="nonselectedwrapper">
+<div class="article">
+<div class="toc">
+<!--TOC section id="sec1" TOC-->
+<h2 id="sec1" class="section">TOC</h2><!--SEC END -->
+<!--TOC paragraph id="sec2" -->
+<!--SEC END --><p>
+<a href="http://synrc.com/apps/bpe/doc/web">Intro</a> <br>
+
+<a href="http://synrc.com/apps/bpe/doc/web/tps.htm">1. Processing</a> <br>
+
+<a href="http://synrc.com/apps/bpe/doc/web/bpe.htm">2. Workflows</a> <br>
+
+<a href="http://synrc.com/apps/bpe/doc/web/forms.htm">3. Forms</a> <br>
+
+<a href="http://synrc.com/apps/bpe/doc/web/upl.htm">4. Language</a> <br>
+</p><p><a href="http://synrc.com/apps/bpe/doc/book.pdf">Download PDF</a> <br>
+
+</p></div>
+
+<div class="articlecol">
+
+<!--TOC section id="sec3" TPS: Financial Processing-->
+<h2 id="sec3" class="section">TPS: Financial Processing</h2><!--SEC END --><p>The TPS is an transactional database application that
+provides distributed, fault tolerant, network-split
+resistant, performant, transactional intermediary processing.
+It also guarantees data locality for storing customer objects which allows
+TPS to be easily scalable and maintainable. TPS is supported following backends:
+1) SQL transactional processing;
+2) <span style="font-weight:bold">riak_kv</span> application;
+3) <span style="font-weight:bold">mnesia</span> application;
+and is based on KVS. Rules for TPS are to be defined using UPL language.</p>
+<!--TOC subsection id="sec4" Data Locality Cache Ring-->
+<h3 id="sec4" class="subsection">Data Locality Cache Ring</h3><!--SEC END --><p>All customers of bank are being grouped or sharded using custom
+hash function that is known to be linear and consistent.
+This function allows TPS to store all customer information for
+a given master of its key on a single node. Thus all TPS operations
+on transactions, cards, account of a given customer are passed
+to a hash function with a same customer ID key. In TPS all properties of
+a top customer object with the same key are stored in the same VNODE.</p>
+<!--TOC subsection id="sec5" Riak-->
+<h3 id="sec5" class="subsection">Riak</h3><!--SEC END --><p>All interface operations and application data are stored and
+being read from Riak TPS Ring, which is in fact Riak Core application.
+Each VNODE should be treated as Bank department or isolated Bank part
+which could be detached to other place or Data Center.
+Each Riak Core VNODE TPS application also has access to its SQL warehouse,
+the primary source of transactions.</p>
+<!--TOC subsection id="sec6" Transactions Rate Calculation-->
+<h3 id="sec6" class="subsection">Transactions Rate Calculation</h3><!--SEC END --><p>Here we define the formula of expected Transactions per month,
+that is the source for all system configuration. Here is example:</p>
+<!--TOC paragraph id="sec7" -->
+<!--SEC END --><p>
+The operational data is fixed. E.g. we have 30M customers.
+Consider each customer performs 10 transactions in a month,
+thus we have 300M transaction. Each transaction has 2K in its size.
+So wee need 600G space of a cluster in a month.
+After each month we could outsource this data or even reduce it
+by cutting the tails of transactions list. Also these 600G can be divided
+by the number of nodes with accuracy to a coefficient of replication for TPS Ring.
+For SQL warehouse we double its size for SQL warm stand by failover.
+Also the number of VNODEs in TPS Ring is exactly the number of failover SQL instances.</p>
+<!--TOC subsection id="sec8" Financial Warehouse Operations-->
+<h3 id="sec8" class="subsection">Financial Warehouse Operations</h3><!--SEC END --><p>– CHARGE, unconditional INSERT and head UPDATE inside TRANSACTION, Cache Write-Back
+– WITHDRAW, conditional INSERT, based on last known amount of latest customer transaction, and chain root UPDATE inside TRANSACTION, Cache Write-Back</p><p>All SQL Operations also perform write backs to TPS Cache, which is backed by Riak.</p>
+<!--TOC subsection id="sec9" Cache Operations-->
+<h3 id="sec9" class="subsection">Cache Operations</h3><!--SEC END --><p>– Retrieval of Transactions list for a given Customer Account
+– Display list of Accounts for a Customer
+– Display list of Cards for a Customer
+– Retrieval of details of an TPS object</p>
+<!--TOC subsection id="sec10" Maintenance Operations-->
+<h3 id="sec10" class="subsection">Maintenance Operations</h3><!--SEC END --><p>– Cutting Tails of a given Time Range in Transactions list
+– Perform Recalculation of UPL rule for a Time Range
+– Adding/Removing Nodes</p>
+<!--TOC subsection id="sec11" KVS Schema-->
+<h3 id="sec11" class="subsection">KVS Schema</h3><!--SEC END --><p>– customer
+– account
+– card
+– transaction
+– cashback
+– program</p>
+<!--TOC subsection id="sec12" SQL Schema-->
+<h3 id="sec12" class="subsection">SQL Schema</h3><!--SEC END --><p>SQL schema is to be generated by KVS using built-in modified MEKAO library.</p>
+<!--TOC subsection id="sec13" Updating KVS Schema-->
+<h3 id="sec13" class="subsection">Updating KVS Schema</h3><!--SEC END -->
+<!--TOC subsection id="sec14" Updating SQL Schema-->
+<h3 id="sec14" class="subsection">Updating SQL Schema</h3><!--SEC END -->
+<!--TOC subsection id="sec15" Synchronizing KVS and SQL Schema Updates-->
+<h3 id="sec15" class="subsection">Synchronizing KVS and SQL Schema Updates</h3><!--SEC END -->
+<!--TOC subsection id="sec16" SQL Warm Standby Failover-->
+<h3 id="sec16" class="subsection">SQL Warm Standby Failover</h3><!--SEC END --><p>
+
+
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'synrc'; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    
+
+</p></div>
+</div>
+</div><div class="clear"> </div><!--CUT END -->
+<!--HTMLFOOT-->
+
+<div class="nonselectedwrapper">
+<div class="verywidecol">
+
+    <div style="width:100%;height:300px;float:left;font-size:16pt;" align=center>
+    	<hr size=1>
+    	<br><br><br>
+        <a href="news/index.htm">Events</a> |
+    	<a href="privacy.htm">Privacy Policy</a> |
+        <a href="feedback.htm">Feedback</a> |
+        <a href="brandbook.htm">Brandbook</a><br>
+    	Copyright &copy; 2005&ndash;2015 <a href="//synrc.com/index.htm"> Synrc Research Center s.r.o.</a>
+    </div>
+
+</div>
+</div>
+
+<div class="clear"></div>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-29227518-1']);
+      _gaq.push(['_trackPageview']);
+      
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'https://www') + '.google-analytics.com/ga.js';
+                    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+                      })();
+                      
+                      </script>
+
+<script type="text/javascript" src="//synrc.com/hi.js"></script>
+<!--ENDHTML-->
+</body>
+</html>
