@@ -86,30 +86,30 @@ records which is entered with forms.</p>
 <h3 id="sec6" class="subsection">Document</h3><!--SEC END --><p>
 The #document object is an application form definition.
 It consists of sections (#sec) that include fields with
-its descriptions and validations.</p><div class="lstlisting">-record(document,   { ?ITERATOR(feed),
-                      name,
-                      base,
-                      sections,
-                      fields,
-                      buttons,
-                      access }).</div><p>Each section #sec of forms are entitled with heading font.</p><div class="lstlisting">-record(sec,        { id, name, desc="" }).</div><p>Forms age given with its control buttons (#but).
+its descriptions and validations.</p><div class="lstlisting">    -record(document,   { ?ITERATOR(feed),
+                          name,
+                          base,
+                          sections,
+                          fields,
+                          buttons,
+                          access }).</div><p>Each section #sec of forms are entitled with heading font.</p><div class="lstlisting">    -record(sec,        { id, name, desc="" }).</div><p>Forms age given with its control buttons (#but).
 The information from field postback in button is directly translated
-to N2O element postback during forms:new/2.</p><div class="lstlisting">-record(but,        { id, postback, name, title,
-                      sources=[], class }).</div>
+to N2O element postback during forms:new/2.</p><div class="lstlisting">    -record(but,        { id, postback, name, title,
+                          sources=[], class }).</div>
 <!--TOC subsection id="sec7" Validation-->
 <h3 id="sec7" class="subsection">Validation</h3><!--SEC END --><p>
 Since document consists of validations and fields, here is their
-record definitions in FORMS model:</p><div class="lstlisting">-record(validation, { name, type, msg,
-                      extract = fun(X) -&gt; X end, options=[],
-                      function, field={record,pos} }).
+record definitions in FORMS model:</p><div class="lstlisting">    -record(validation, { name, type, msg,
+                          extract = fun(X) -&gt; X end, options=[],
+                          function, field={record,pos} }).
 
--record(opt,        { id, name, title, postback, checked=false }).
--record(sel,        { id, name, title, postback }).
--record(field,      { id, sec=1, name, pos, title, layout,
-                      visible=true, disabled=false,
-                      format="~w", curr="", options=[],
-                      postfun=[], desc, wide=normal,
-                      type=binary, etc, access, tooltips=[] }).</div>
+    -record(opt,        { id, name, title, postback, checked=false }).
+    -record(sel,        { id, name, title, postback }).
+    -record(field,      { id, sec=1, name, pos, title, layout,
+                          visible=true, disabled=false,
+                          format="~w", curr="", options=[],
+                          postfun=[], desc, wide=normal,
+                          type=binary, etc, access, tooltips=[] }).</div>
 <!--TOC subsection id="sec8" Data Model-->
 <h3 id="sec8" class="subsection">Data Model</h3><!--SEC END --><p>
 KVS Data Model is being generated from Metainformation.
@@ -121,7 +121,8 @@ N2O is used as DSL language for forms generation.
 JavaScript/OTP is also used for forms generation.
 Forms average render speed is 50 FPS (forms per second).</p>
 <!--TOC subsection id="sec10" Documents-->
-<h3 id="sec10" class="subsection">Documents</h3><!--SEC END --><div class="lstlisting"> document(Name,Phone) -&gt;
+<h3 id="sec10" class="subsection">Documents</h3><!--SEC END --><div class="lstlisting">     document(Name,Phone) -&gt;
+
                 #document { name = Name,
 
     sections =[ #sec      { name= [&lt;&lt;"Input OTP sent to "&gt;&gt;,
@@ -161,15 +162,17 @@ rules applied to documents during workflow.</p>
 <h3 id="sec14" class="subsection">XForms and XMPP Data Forms</h3><!--SEC END --><p>
 The other well known standard is XForms that could be easily converted
 to both directions by FORMS application. XForms W3C standard strives to be supported by browsers.
-The other XML forms standard is XEP-0004 Data Forms which is supported by most XMPP clients:</p><div class="lstlisting">&lt;x xmlns='jabber:x:data' type='{form-type}'&gt;
-  &lt;title/&gt;&lt;instructions/&gt;&lt;desc/&gt;
-  &lt;field var='OS' type='int' label='description'&gt;
-    &lt;value&gt;3&lt;/value&gt;
-    &lt;option label='Windows'&gt;&lt;value&gt;3&lt;/value&gt;&lt;/option&gt;
-    &lt;option label='Mac'&gt;&lt;value&gt;2&lt;/value&gt;&lt;/option&gt;
-    &lt;option label='Linux'&gt;&lt;value&gt;1&lt;/value&gt;&lt;/option&gt;
-  &lt;/field&gt;
-&lt;/x&gt;</div><p>
+The other XML forms standard is XEP-0004 Data Forms which is supported by most XMPP clients:</p><div class="lstlisting">    &lt;x xmlns='jabber:x:data' type='{form-type}'&gt;
+        &lt;title/&gt;
+        &lt;instructions/&gt;
+        &lt;desc/&gt;
+        &lt;field var='OS' type='int' label='description'&gt;
+            &lt;value&gt;3&lt;/value&gt;
+            &lt;option label='Windows'&gt;&lt;value&gt;3&lt;/value&gt;&lt;/option&gt;
+            &lt;option label='Mac'&gt;    &lt;value&gt;2&lt;/value&gt;&lt;/option&gt;
+            &lt;option label='Linux'&gt;  &lt;value&gt;1&lt;/value&gt;&lt;/option&gt;
+        &lt;/field&gt;
+    &lt;/x&gt;</div><p>
 
     <div id="disqus_thread"></div>
     <script type="text/javascript">
