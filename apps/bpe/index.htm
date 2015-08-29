@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html >
+<head>
+
+  <link rel=stylesheet type="text/css" href="http://synrc.com/synrc.css">
+  <meta name="Author" content="5HT">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta property="og:image" content="images/s_64.png"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=IE10,chrome=1" />
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+  <title>Intro
+</title>
+</head>
+<body >
+<!--HEVEA command line is: hevea index.tex -o index.htm -->
+<!--CUT STYLE article--><!--HTMLHEAD-->
+
+<div class="nonselectedwrapper white" style="padding: 10px 0px 10px 0px;margin: 0px 0px 10px 0px;">
+    <a href="//synrc.com/">
+    <img style="flat:left; margin-left: 55px; margin-top: 5px; margin-bottom:-5px;" src="http://synrc.com/images/synrc.png" border="0"></a>
+    <div align=right style="margin: -50px 50px 0px 0px;">
+        <script language="JavaScript">
+
+        var args = (window.location).toString().split('/');
+        var page_name = args[args.length-1];
+        var menu = {'http://synrc.com/index.htm':    'Home',
+                    'http://synrc.com/research.htm': 'Showcase',
+                    'http://synrc.com/apps/':   'Apps',
+                    'http://synrc.com/feedback.htm': 'Contacts',
+                    'http://spawnproc.com':   '<b>Spawnproc</b>', };
+
+        Object.keys(menu).forEach(function (key) {
+            if (page_name == key) { document.write('<div class="menu" style="font-weight: bold;">'+menu[key]+'</div>'); }
+            else { document.write('<a class="menu" href="'+key+'">'+menu[key]+'</a>'); }
+        });
+
+        </script>
+    </div>
+</div>
+
+<hr size="1">
+
+<!--ENDHTML-->
+<!--CUT DEF section 1 --><div class="nonselectedwrapper">
+<div class="article">
+<div class="toc">
+<!--TOC section id="sec1" TOC-->
+<h2 id="sec1" class="section">TOC</h2><!--SEC END -->
+<!--TOC paragraph id="sec2" -->
+<!--SEC END --><p>
+<a href="http://synrc.com/apps/bpe/doc/web">Intro</a> <br>
+
+<a href="http://synrc.com/apps/bpe/doc/web/tps.htm">1. Processing</a> <br>
+
+<a href="http://synrc.com/apps/bpe/doc/web/bpe.htm">2. Workflows</a> <br>
+
+<a href="http://synrc.com/apps/bpe/doc/web/forms.htm">3. Forms</a> <br>
+
+<a href="http://synrc.com/apps/bpe/doc/web/upl.htm">4. Language</a> <br>
+</p><p><a href="http://synrc.com/apps/bpe/doc/book.pdf">Download PDF</a> <br>
+
+</p></div>
+
+<div class="articlecol">
+
+<!--TOC section id="sec3" Introduction-->
+<h2 id="sec3" class="section">Introduction</h2><!--SEC END -->
+<!--TOC subsection id="sec4" Overview-->
+<h3 id="sec4" class="subsection">Overview</h3><!--SEC END --><p>
+BPE is a part of Synrc business application stack that
+unlocks Erlang for for enterprise core processing.
+It provides infrastructure for workflow definitions, process orchestration,
+rule-based production systems and distributed storage. This book is dedicated to cover
+all parts needed for bootstrapping operational document processing model along with
+workflow, models, forms, validations and other aspects of systems with similar requirements.</p>
+<!--TOC paragraph id="sec5" Fullstack Business Applications-->
+<h4 id="sec5" class="paragraph">Fullstack Business Applications</h4><!--SEC END --><p>
+This book is also about the foundations of banking implementation (TPS) up to external
+connectors and services which is closed by security policies. So it also defines
+transactional processing model, storage model, and distribution capabilities such as
+Dynamo hashing to achieve data locality for transactions and documents which
+belongs to bank customers.</p>
+<!--TOC subsection id="sec6" FORMS: Applications-->
+<h3 id="sec6" class="subsection">FORMS: Applications</h3><!--SEC END --><p>
+The FORMS application is dedicated to bring forms under the common
+ontological model of data that are entering, storing and processing.
+The forms model gives a root to the essence of information system circulation.</p>
+<!--TOC subsection id="sec7" BPE: Workflows-->
+<h3 id="sec7" class="subsection">BPE: Workflows</h3><!--SEC END --><p>
+The core of document processing is BPE which runs in native Erlang process semantic
+as Pi-calculus execution environment. Different bank departments represented
+as ACT workflow scenarios, such as deposit, credit or operational processes along with
+transfer and withdraw or charge operations. All these operations represented
+as document forms which flows along workflow. Activity service knows only
+customer information and does not know card numbers or other sensitive transactional data.</p>
+<!--TOC subsection id="sec8" TPS: Processing-->
+<h3 id="sec8" class="subsection">TPS: Processing</h3><!--SEC END --><p>
+The monetary processing core is TPS service driven by scripts in UPL language.
+All constraints and rules are applied from UPL definitions to transactions.
+Transactional service knows nothing about customer information.</p>
+<!--TOC subsection id="sec9" CR: Database-->
+<h3 id="sec9" class="subsection">CR: Database</h3><!--SEC END --><p>
+The basic database schema DBS to work with BPE and TPS applications.
+There are two implementations of TPS service: one is using <span style="font-weight:bold">riak_core</span>
+database ifrastructure, the other is based on chain replication CR database
+using <span style="font-weight:bold">kvs</span> database infrastructure and rafter protocol as oracul.
+The CR database is based on Robert van Renessee papers. CR has also
+XA protocol capabilities.</p>
+<!--TOC subsection id="sec10" UPL: Language-->
+<h3 id="sec10" class="subsection">UPL: Language</h3><!--SEC END --><p>
+UPL allows to define transaction tarification rules in human readable form.
+
+<br><br>
+<h2><a name="testimonials"><b>N2O in Production</b></a></h2><blockquote>In this framework, most of all I liked the fact that most of the
+tasks solving in one code, in one language. And is not spread to the
+front-end & back-end.<div align=right>Alex Radetsky,
+<a href="https://pearlpbx.com/">PearlPBX</a></div></blockquote>
+
+<blockquote>Writing asynchronous web-applications has never been so easy for me.
+Now I really like to push data to client!<div align=right>Max Treskin,
+<a href="https://metachord.com/">Metachord</a></div></blockquote>
+
+<blockquote>N2O is the easiest way how to write different webapps. It just works.
+<div align=right>Alexander Karpich,
+<a href="https://rontel.ru/">RON-Telecom CJSC</a></div></blockquote>
+
+<blockquote>N2O is nice way to deal with WebSockets.
+<div align=right>Roman Gladkov
+<a href="http://crashkeeper.com/">Crashkeeper, Inc.</a></div></blockquote>
+
+<h2><a name="trendsetters"><b>Erlang Trendsetters on N2O</b></a></h2>
+
+<!--blockquote>This [N2O] makes Websockets so easy. Thanks for this, it's great.
+<div align=right>Joe Armstrong,
+<a href="https://ericsson.com/">Ericsson AG</a></div></blockquote-->
+
+<blockquote>Excited to see these guys pushing boundaries; that's exactly what
+inspired Nitrogen in the first place. My hat is off to the <a href="http://synrc.com">synrc.com</a>
+team for their work on N2O...
+<div align=right style="margin-top: 10px;">Rusty Klophaus, Nitrogen author,
+<a href="https://basho.com/">Basho Technologies, Inc.</a></div></blockquote>
+
+<blockquote>N2O is one of the most interesting Cowboy based frameworks.
+<div align=right style="margin-top: 10px;">Loïc Hoguin, Cowboy,
+<a href="https://ninenines.eu/">Nine Nines</a></div></blockquote>
+
+<br><center>
+<iframe src="https://slid.es/maximsokhatsky/n2o/embed" width="600" height="400" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+</center><br>
+
+
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'synrc'; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    
+
+</p></div>
+</div>
+</div><div class="clear"> </div><!--CUT END -->
+<!--HTMLFOOT-->
+
+<div class="nonselectedwrapper">
+<div class="verywidecol">
+
+    <div style="width:100%;height:300px;float:left;font-size:16pt;" align=center>
+    	<hr size=1>
+    	<br><br><br>
+        <a href="news/index.htm">Events</a> |
+    	<a href="privacy.htm">Privacy Policy</a> |
+        <a href="feedback.htm">Feedback</a> |
+        <a href="brandbook.htm">Brandbook</a><br>
+    	Copyright &copy; 2005&ndash;2015 <a href="//synrc.com/index.htm"> Synrc Research Center s.r.o.</a>
+    </div>
+
+</div>
+</div>
+
+<div class="clear"></div>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-29227518-1']);
+      _gaq.push(['_trackPageview']);
+      
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'https://www') + '.google-analytics.com/ga.js';
+                    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+                      })();
+                      
+                      </script>
+
+<script type="text/javascript" src="//synrc.com/hi.js"></script>
+<!--ENDHTML-->
+</body>
+</html>
