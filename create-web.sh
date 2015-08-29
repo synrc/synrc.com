@@ -84,4 +84,8 @@ create_hevea "tps"
 create_hevea "upl"
 cp index.htm ../../index.htm
 cd -
+cd apps/forms/doc/web
+create_hevea "index"
+cp index.htm ../../index.htm
+cd -
 cp apps.htm apps/index.htm
