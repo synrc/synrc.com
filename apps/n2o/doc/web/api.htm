@@ -84,10 +84,11 @@
 <!--TOC subsection id="sec4" Update DOM <span style="font-weight:bold">wf:update</span>-->
 <h3 id="sec4" class="subsection">Update DOM <span style="font-weight:bold">wf:update</span></h3><!--SEC END --><p>
 You can update part of the page or DOM element with a given
-element or even raw HTML. You can also use <span style="font-weight:bold">#dtl</span>
-or <span style="font-weight:bold">#eex</span> template elements for HTML generation to
-replace DOM. Here is an example of simple <span style="font-weight:bold">#span</span> element
-with an HTML counterpart:</p><div class="lstlisting">    wf:update(history,[#span{body="Hello"}]).</div><p>It generates DOM update script and sends it to
+element or even raw HTML. N2O comes with NITRO template engine
+based on Erlang records syntax and optimized to be as fast as DTL or EEX template engines.
+You may use them with <span style="font-weight:bold">#dtl</span> and <span style="font-weight:bold">#eex</span> template NITRO elements.
+N2O Review application provides a sample how to use DTL templates.
+Here is an example of simple <span style="font-weight:bold">#span</span> NITRO element with an HTML counterpart:</p><div class="lstlisting">    wf:update(history,[#span{body="Hello"}]).</div><p>It generates DOM update script and sends it to
 WebSocket channel for evaluation:</p><div class="lstlisting">    document.querySelector('#history')
             .outerHTML = '&lt;span&gt;Hello&lt;/span&gt;';</div><p>Companions are also provided for updating head and tail
 of the elements list: <span style="font-weight:bold">wf:insert_top/2</span> and
@@ -144,27 +145,28 @@ which is also an action capable of polymorphic rendering of custom or built-in a
 Following nested action embedding is also valid:</p><div class="lstlisting">    wf:wire(#wire{actions=[#alert{text="N2O"}]}).</div>
 <!--TOC subsection id="sec13" Async Processes <span style="font-weight:bold">wf:async</span> and <span style="font-weight:bold">wf:flush</span>-->
 <h3 id="sec13" class="subsection">Async Processes <span style="font-weight:bold">wf:async</span> and <span style="font-weight:bold">wf:flush</span></h3><!--SEC END --><p>
-These create Erlang processes, which communicate with the primary page
+Function <span style="font-weight:bold">wf:async</span> creates Erlang process, which communicate with the primary page
 process by sending messages. <span style="font-weight:bold">wf:flush</span> should be called to redirect all updates and
-wire actions to the page process.
-Usually you send messages to Async processes over N2O
-message bus, but you can use any of these options.</p><div class="lstlisting">    body() -&gt;
-        {ok,Pid} = wf:async("looper",fun() -&gt; loop(0) end),
-      [ #span   { id=counter },
-        #button { id=sendButton, body="Send", postback={inc,Pid} } ].
+wire actions back to the page process from its async counterpart.
+Usually you send messages to async processes over N2O
+message bus, but you can use any of these options.</p><div class="lstlisting">    body() -&gt; [ #span   { id=display, body="0" }, #br{},
+                #button { id=send, body="Inc", postback=inc } ].
 
-    event({inc,Pid}) -&gt; wf:reg(room), Pid ! inc.
+    event(init) -&gt; wf:async("counter",fun counter:loop/1);
+    event(inc) -&gt; n2o_async:send("counter",up).
 
-    loop(Counter) -&gt;
-        Body = wf:to_list(Counter),
-        receive inc -&gt;
-             wf:update(counter, #span { id=counter, body=Body }),
-             wf:flush(room) end, loop(Counter+1).</div>
-<!--TOC paragraph id="sec14" <span style="font-weight:bold">Process Naming.</span>-->
-<h4 id="sec14" class="paragraph"><span style="font-weight:bold">Process Naming.</span></h4><!--SEC END --><p> The name of async process is globally unique. There are two
+    loop(up) -&gt;
+        C = case get(counter) of I when is_integer(I) -&gt; I+1;
+                                 _ -&gt; 1 end,
+        put(counter,C),
+        wf:update(display, #span{id=display,body=wf:to_list(C)}),
+        wf:flush().</div>
+<!--TOC paragraph id="sec14" <span style="font-weight:bold">Process Naming</span>-->
+<h4 id="sec14" class="paragraph"><span style="font-weight:bold">Process Naming</span></h4><!--SEC END --><p>
+The name of async process is globally unique. There are two
 versions, <span style="font-weight:bold">wf:async/1</span> and <span style="font-weight:bold">wf:async/2</span>. In the given example
-the name of async process is specified as “looper”, otherwise,
-if the first parameter was not specified, the default name “comet” will be used.</p>
+the name of async process is specified as “counter”, otherwise,
+if the first parameter was not specified, the default name “looper” will be used.</p>
 <!--TOC subsection id="sec15" Message Bus <span style="font-weight:bold">wf:reg</span> and <span style="font-weight:bold">wf:send</span>-->
 <h3 id="sec15" class="subsection">Message Bus <span style="font-weight:bold">wf:reg</span> and <span style="font-weight:bold">wf:send</span></h3><!--SEC END --><p>
 N2O uses GProc process registry for managing async processes pools.

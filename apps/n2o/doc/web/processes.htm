@@ -102,16 +102,19 @@ N2O creates persistent WebSocket process and the Transition process dies.</p>
 <!--SEC END --><p>
 Your page could also spawn processes with <span style="font-weight:bold">wf:async</span>.
 These are persistent processes that act like regular Erlang processes.
-This is a usual approach to organize non-blocking UI for file uploads and other time consuming operations.</p>
-<!--TOC subsection id="sec6" Page Process-->
-<h3 id="sec6" class="subsection">Page Process</h3><!--SEC END --><p>
-The very first HTTP handler only renders HTML. All created
+This is a usual approach to organize non-blocking UI for file uploads
+and other time consuming operations.</p>
+<!--TOC subsection id="sec6" Page Serving Process-->
+<h3 id="sec6" class="subsection">Page Serving Process</h3><!--SEC END --><p>
+This processes are applicable only to the case when you serving not static HTML,
+but dynamically rendered pages with NITRO, DTL or ET template engines.
+The very first HTTP handler only renders HTML. All created on the way
 JavaScript actions are stored in the transition process.</p><div class="lstlisting">    transition(Actions) -&gt;
         receive {'N2O',Pid} -&gt; Pid ! Actions end.</div>
 <!--TOC paragraph id="sec7" -->
 <!--SEC END --><p>
 HTTP handler will die immediately after returning HTML. Transition process
-waits for a request from a WebSocket handler.</p>
+stores actions and waits for a request from a WebSocket handler.</p>
 <!--TOC subsection id="sec8" Transition Process-->
 <h3 id="sec8" class="subsection">Transition Process</h3><!--SEC END --><p>
 Right after receiving HTML the browser initiates WebSocket connection
@@ -128,15 +131,24 @@ per connection.</p>
 <!--TOC subsection id="sec10" Async Processes-->
 <h3 id="sec10" class="subsection">Async Processes</h3><!--SEC END --><p>
 These are user processes that were created with <span style="font-weight:bold">wf:async</span> invocation.
-This is a legacy name from the times when async technology
-was called COMET for XHR channel. Async Processes are optional
-and only needed when you have a UI event taking too much
+This processes was very useful to organize persiste stateful connection
+for legacy async technology like COMET for XHR channel. If you have problem with
+proxying WebSocket stream you can easily use XHR fallback that is
+provided by <span style="font-weight:bold">xhr.js</span> N2O companion library.
+Async processes are optional and only needed when you have a UI event taking too much
 time to be processed, like gigabyte file uploads. You can create
-multiple Async Processes per user.</p>
+multiple async processes per user. Starting from N2O 2.9 all async
+processes are being created as <span style="font-weight:bold">gen_server</span> under
+<span style="font-weight:bold">n2o_sup</span> supervision tree and new .</p>
 <!--TOC subsection id="sec11" SPA Mode-->
 <h3 id="sec11" class="subsection">SPA Mode</h3><!--SEC END --><p>
 In SPA mode your N2O can serve no HTML at all. N2O elements are
-bound during INIT handshake and thus can be used regularly as in DSL mode.</p><p>
+bound during INIT handshake and thus can be used regularly as in DSL mode.
+In the example provided in n2o/samples you can find two different
+front end to the same <span style="font-weight:bold">review</span> application which consist of
+two page modules <span style="font-weight:bold">index</span> and <span style="font-weight:bold">login</span>. You can access this application
+involving no HTML rendering by using static file serving that could be
+switched to direct nginx serving.</p><div class="lstlisting">    open http://localhost:8000/static/app/login.htm</div><p>Or you can see DTL rendered HTML pages which resides at following address:</p><div class="lstlisting">    open http://localhost:8000/login.htm</div><p>
 
     <div id="disqus_thread"></div>
     <script type="text/javascript">
