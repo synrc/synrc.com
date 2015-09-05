@@ -48,31 +48,31 @@
 <h2 id="sec1" class="section">TOC</h2><!--SEC END -->
 <!--TOC paragraph id="sec2" -->
 <!--SEC END --><p>
-<a href="http://synrc.com/apps/n2o/doc/web">Overview</a> <br>
+<a href="http://synrc.com/apps/n2o/doc/web">1. Framework</a> <br>
 
-<a href="http://synrc.com/apps/n2o/doc/web/setup.htm">1. Setup</a> <br>
+<a href="http://synrc.com/apps/n2o/doc/web/setup.htm">2. Setup</a> <br>
 
-<a href="http://synrc.com/apps/n2o/doc/web/processes.htm">2. Processes</a> <br>
+<a href="http://synrc.com/apps/n2o/doc/web/processes.htm">3. Processes</a> <br>
 
-<a href="http://synrc.com/apps/n2o/doc/web/endpoints.htm">3. Endpoints</a> <br>
+<a href="http://synrc.com/apps/n2o/doc/web/endpoints.htm">4. Endpoints</a> <br>
 
-<a href="http://synrc.com/apps/n2o/doc/web/handlers.htm">4. Handlers</a> <br>
+<a href="http://synrc.com/apps/n2o/doc/web/handlers.htm">5. Handlers</a> <br>
 
-<a href="http://synrc.com/apps/n2o/doc/web/protocols.htm">5. Protocols</a> <br>
+<a href="http://synrc.com/apps/n2o/doc/web/protocols.htm">6. Protocols</a> <br>
 
-<a href="http://synrc.com/apps/n2o/doc/web/macros.htm">6. JavaScript</a> <br>
+<a href="http://synrc.com/apps/n2o/doc/web/macros.htm">7. JavaScript</a> <br>
 
-<a href="http://synrc.com/apps/n2o/doc/web/api.htm">7. API</a> <br>
+<a href="http://synrc.com/apps/n2o/doc/web/api.htm">8. API</a> <br>
 
-<a href="http://synrc.com/apps/n2o/doc/web/elements.htm">8. Elements</a> <br>
+<a href="http://synrc.com/apps/n2o/doc/web/elements.htm">9. Elements</a> <br>
 
-<a href="http://synrc.com/apps/n2o/doc/web/actions.htm">9. Actions</a> <br>
+<a href="http://synrc.com/apps/n2o/doc/web/actions.htm">10. Actions</a> <br>
 
-<a href="http://synrc.com/apps/n2o/doc/web/packages.htm">10. Packages</a> <br>
+<a href="http://synrc.com/apps/n2o/doc/web/utf8.htm">11. UTF-8</a> <br>
 
-<a href="http://synrc.com/apps/n2o/doc/web/persistence.htm">11. Persistence</a> <br>
+<a href="http://synrc.com/apps/n2o/doc/web/packages.htm">12. Packages</a> <br>
 
-<a href="http://synrc.com/apps/n2o/doc/web/utf8.htm">12. UTF-8</a> <br>
+<a href="http://synrc.com/apps/n2o/doc/web/persistence.htm">13. Persistence</a> <br>
 </p><p><a href="http://synrc.com/apps/n2o/doc/book.pdf">Download PDF</a> <br>
 
 </p></div>
@@ -138,8 +138,8 @@ There are two approaches for designing client/server communication.
 The first one is called ’data-on-wire’. With this approach only JSON, XML or binary
 data are transferred over RPC and REST channels. All HTML rendering
 is performed on the client-side. This is the most suitable approach for building desktop
-applications. Examples include Chaplin/CoffeeScript, Meteor
-and ClojureScript. This approach can also be used for building mobile clients.</p>
+applications. Examples include React, Meteor and ClojureScript.
+This approach can also be used for building mobile clients.</p>
 <!--TOC paragraph id="sec10" -->
 <!--SEC END --><p>
 Another approach is sending pre-rendered parts of pages and JS
@@ -169,7 +169,7 @@ server-side and client-side rendering engines,
 WebSocket events streaming, JavaScript generation
 and JavaScript macro system along with <span style="font-weight:bold">AVZ</span> authorization
 library (Facebook, Google, Twitter, Github, Microsoft), key-value storages
-access library <span style="font-weight:bold">KVS</span> and <span style="font-weight:bold">MQS</span> Message Bus client library (GProc, RabbitMQ).</p>
+access library <span style="font-weight:bold">KVS</span> and <span style="font-weight:bold">MQS</span> Message Bus client library (gproc, emqttd).</p>
 <!--TOC subsection id="sec14" JSON and BERT-->
 <h3 id="sec14" class="subsection">JSON and BERT</h3><!--SEC END --><p>
 N2O uses JSON and BERT. All messages passed over
@@ -196,71 +196,78 @@ Below is an example of complete Web Chat implementation using
 WebSockets that shows how Templates, DSL and asynchronous
 inter-process communication work in N2O.</p><div class="center">Listing 1: chat.erl</div><p><br>
 </p><div class="lstlisting">    -module(chat).
+    -include_lib("nitro/include/nitro.hrl").
     -compile(export_all).
-    -include_lib("n2o/include/wf.hrl").
 
     main() -&gt;
-      [ #dtl { file="index",
-               bindings=[{title,"Chat"},{body,body()}] } ].
+       #dtl { file     = "login",
+              app      = review,
+              bindings = [ { body, body() } ] }.
 
     body() -&gt;
-        {ok,Pid} = wf:async(fun() -&gt; loop() end),
-
       [ #span    { id=title,       body="Your nickname: " },
-        #textbox { id=userName,    body="Anonymous" },
-        #panel   { id=chatHistory, class=chat_history },
+        #textbox { id=user,        body="Anonymous" },
+        #panel   { id=history },
         #textbox { id=message },
-        #button  { id=sendButton,  source=[userName,message],
+        #button  { id=send,        source=[user,message],
                                    body="Send",
-                                   postback={chat,Pid} } ].
+                                   postback=chat } ].
 
-    event({chat,Pid}) -&gt;
-        Username = wf:q(userName),
-        Message = wf:q(message),
-        wf:reg(room),
-        Pid ! {message, Username, Message}.
+    event(init) -&gt; wf:reg(room), wf:async("looper",fun loop/1);
+    event(chat) -&gt; User    = wf:q(user),
+                   Message = wf:q(message),
+                   n2o_async:send("looper",{chat,User,Message}).
 
-    loop() -&gt;
-        receive { message, Username, Message} -&gt;
-                  Terms = [ #span { body=Username }, ": ",
-                            #span { body=Message }, #br{} ],
-                  wf:insert_bottom(chatHistory, Terms),
-                  wf:flush(room) end, loop().</div><p>Just try to build the similar functionality with your favorite language/framework and feel the difference!</p><!--TOC subsection id="sec18" Changes from Nitrogen-->
+    loop({chat,User,Message}) -&gt;
+        Terms = #panel { body = [
+                #span  { body = User }, ": ",
+                #span  { body = Message } ]},
+        wf:insert_bottom(history, Terms),
+        wf:flush(room).</div><p>Just try to build the similar functionality with your favorite
+language/framework and feel the difference! Here are one message bus,
+one async <span style="font-weight:bold">gen_server</span> worker under supervision, NITRO DSL, DTL template,
+WebSockets, HTML and JavaScript generation in a simple file that you can
+put in your N2O application directory tree without restart and
+manual compilation. Also you can create single-file bundle
+which is able to run in Windows, Linux and Mac.</p><!--TOC subsection id="sec18" Changes from Nitrogen-->
 <h3 id="sec18" class="subsection">Changes from Nitrogen</h3><!--SEC END --><p>
 We took a liberty to break some compatibility with the original
 Nitrogen framework, mostly because we wanted to have a clean codebase
 and achieve better performance. However, it’s still possible to port
-Nitrogen web sites to N2O quite easily. E.g., N2O returns id and class semantics
-of HTML and not <span style="font-weight:bold">html_id</span>.</p>
-<!--TOC paragraph id="sec19" -->
-<!--SEC END --><p>
+Nitrogen web sites to N2O quite easily. E.g., N2O returns id and
+class semantics of HTML and not <span style="font-weight:bold">html_id</span>.
 We simplified HTML rendering without using
 <span style="font-weight:bold">html_encode</span> which should be handled by application layer.</p>
-<!--TOC paragraph id="sec20" -->
+<!--TOC paragraph id="sec19" -->
 <!--SEC END --><p>
 Nitrogen.js, originally created by Rusty Klophaus, was removed
 because of the pure WebSocket nature of N2O which doesn’t
-require XHR helper methods on the client-side anymore. XHR fallback
-handling by using ’Bullet’ library written by Loïc Hoguin was added as the replacement.</p>
-<!--TOC paragraph id="sec21" -->
+require jQuery on the client-side anymore. In terms of lines of code
+we have impressive showing. New <span style="font-weight:bold">xhr.js</span> 25 LOC and <span style="font-weight:bold">bullet.js</span> 18 LOC
+was added as the replacement, also <span style="font-weight:bold">nitrogen.js</span> takes only 45 LOC.
+UTF-8 <span style="font-weight:bold">utf8.js</span> 38 LOC could be plugged separately only when you’re
+using <span style="font-weight:bold">bert.js</span> 200 LOC formatter. <span style="font-weight:bold">n2o.js</span> protocol handler is about 20 LOC.</p>
+<!--TOC paragraph id="sec20" -->
 <!--SEC END --><p>
 We also removed <span style="font-weight:bold">simple_bridge</span> and optimized N2O on each level to
 unlock maximum performance and simplicity. We hope you will enjoy
 using N2O. We are fully convinced it is the most efficient way to
 build Web applications in Erlang.</p>
-<!--TOC paragraph id="sec22" -->
+<!--TOC paragraph id="sec21" -->
 <!--SEC END --><p>
 Original Nitrogen was already tested in production under high load and we
 decided to remove <span style="font-weight:bold">nprocreg</span> process registry along
 with <span style="font-weight:bold">action_comet</span> heavy process creation. N2O creates a single
-process for an async WebSocket handler, all asynchronous operations
+process for an async WebSocket handler, all operations
 are handled within Cowboy processes.</p>
-<!--TOC paragraph id="sec23" -->
+<!--TOC paragraph id="sec22" -->
 <!--SEC END --><p>
 Also, we introduced new levels of abstraction. You can extend
-the set of available protocols (Nitrogen, Heartbeat, Binary), change protocol formatters (BERT,
-JSON, MessagePack, BED), inject your code on almost any level. The code structure
-is clean and Nitrogen compatibility layer is fully detachable from N2O.
+the set of available protocols (Nitrogen, Heartbeat, Binary),
+change protocol formatters to BERT, JSON or MessagePack, inject
+your code on almost any level. The code structure
+is clean and Nitrogen compatibility layer NITRO is fully detachable
+from N2O and lives in a separate <span style="font-weight:bold">synrc/nitro</span> application.
 
 <br><br>
 <h2><a name="testimonials"><b>N2O in Production</b></a></h2><blockquote>In this framework, most of all I liked the fact that most of the
