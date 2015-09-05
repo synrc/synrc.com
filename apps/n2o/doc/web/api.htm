@@ -146,22 +146,34 @@ Erlang lists or JavaScript/OTP.</p>
 <!--SEC END --><p>
 Any action, wired with <span style="font-weight:bold">wf:wire</span>, is enveloped in <span style="font-weight:bold">#wire{actions=[]}</span>,
 which is also an action capable of polymorphic rendering of custom or built-in actions, specified in the list.
-Following nested action embedding is also valid:</p><div class="lstlisting">    wf:wire(#wire{actions=[#alert{text="N2O"}]}).</div><p>You mau try to see how internally wiring is working:</p><div class="lstlisting">  &gt; wf:actions().
-  []
+Following nested action embedding is also valid:</p><div class="lstlisting">    wf:wire(#wire{actions=[#alert{text="N2O"}]}).</div><p>You mau try to see how internally wiring is working:</p><div class="lstlisting">    &gt; wf:actions().
+      []
 
-  &gt; wf:wire(#alert{text="N2O"}).
-  [#wire{ancestor = action,trigger = undefined,
-         target = undefined,module = action_wire,
-         actions = #alert{ancestor = action,
-                          trigger = undefined,
-                          target = undefined,
-                          module = action_alert,
-                          actions = undefined,
-                          source = [], text = "N2O"},
-         source = []}]
+    &gt; wf:wire(#alert{text="N2O"}).
+      [#wire{ancestor = action,trigger = undefined,
+             target = undefined,module = action_wire,
+             actions = #alert{ancestor = action,
+                              trigger = undefined,
+                              target = undefined,
+                              module = action_alert,
+                              actions = undefined,
+                              source = [], text = "N2O"},
+              source = []}]
 
-  &gt; iolist_to_binary(wf:render(wf:actions())).
-  &lt;&lt;"alert(\"N2O\");"&gt;&gt;</div>
+    &gt; iolist_to_binary(wf:render(wf:actions())).
+      &lt;&lt;"alert(\"N2O\");"&gt;&gt;</div><p>Consider wiring <span style="font-weight:bold">#event</span> if you want to add listener to
+existed element on page:</p><div class="lstlisting">
+    &gt; wf:wire(#event{target=btn,postback=evt}).
+      []
+
+    &gt; rp(iolist_to_binary(wf:render(wf:actions()))).
+      &lt;&lt;"{var x=qi('btn'); x &amp;&amp; x.addEventListener('default',
+      function (event){{ if (validateSources([])) ws.send(enc
+      (tuple(atom('pickle'),bin('btn'),bin('g2gCaAVkAAJldmQAB
+      WluZGV4ZAADZXZ0awADYnRuZAAFZXZlbnRoA2IAAAWhYgAG8wViAAHk
+      tw=='),[tuple(tuple(utf8_toByteArray('btn'),bin('detail
+      ')),event.detail)])));else console.log('Validation Erro
+      r'); }});};"&gt;&gt;</div>
 <!--TOC subsection id="sec13" Message Bus <span style="font-weight:bold">wf:reg</span> and <span style="font-weight:bold">wf:send</span>-->
 <h3 id="sec13" class="subsection">Message Bus <span style="font-weight:bold">wf:reg</span> and <span style="font-weight:bold">wf:send</span></h3><!--SEC END --><p>
 N2O uses <span style="font-weight:bold">gproc</span> process registry for managing async processes pools.
