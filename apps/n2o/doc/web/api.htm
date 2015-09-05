@@ -88,7 +88,8 @@ element or even raw HTML. N2O comes with NITRO template engine
 based on Erlang records syntax and optimized to be as fast as DTL or EEX template engines.
 You may use them with <span style="font-weight:bold">#dtl</span> and <span style="font-weight:bold">#eex</span> template NITRO elements.
 N2O Review application provides a sample how to use DTL templates.
-Here is an example of simple <span style="font-weight:bold">#span</span> NITRO element with an HTML counterpart:</p><div class="lstlisting">    wf:update(history,[#span{body="Hello"}]).</div><p>It generates DOM update script and sends it to
+For using Nitrogen like DSL first you should include <span style="font-weight:bold">nitro</span> application to your
+rebar.config</p><div class="lstlisting">    {nitro,".*",{git,"git://github.com/synrc/nitro",{tag,"2.9"}}},</div><p>And also plug it in headers to your erlang page module:</p><div class="lstlisting">    -include("nitro/include/nitro.hrl").</div><p>Here is an example of simple <span style="font-weight:bold">#span</span> NITRO element with an HTML counterpart.</p><div class="lstlisting">    wf:update(history,[#span{body="Hello"}]).</div><p>It generates DOM update script and sends it to
 WebSocket channel for evaluation:</p><div class="lstlisting">    document.querySelector('#history')
             .outerHTML = '&lt;span&gt;Hello&lt;/span&gt;';</div><p>Companions are also provided for updating head and tail
 of the elements list: <span style="font-weight:bold">wf:insert_top/2</span> and
@@ -103,7 +104,10 @@ JavaScript methods <span style="font-weight:bold">insertBefore</span> and <span 
 <!--SEC END --><p>
 For relative updates use <span style="font-weight:bold">wf:insert_before/2</span> and <span style="font-weight:bold">wf:insert_after/2</span>.
 To remove an element use <span style="font-weight:bold">wf:remove/2</span>.
-Updates are covered in detail in <span style="font-weight:bold">Section 7</span>.</p>
+Updates are covered in detail in <span style="font-weight:bold">Section 7</span>.
+If you want to see how custom element are being implemented you may refer
+to <span style="font-weight:bold">synrc/extra</span> packages where some useful controls may be found like
+file uploader, calendar, autocompletion textboxlist and HTML editor.</p>
 <!--TOC paragraph id="sec6" <span style="font-weight:bold">Element Naming</span>-->
 <h4 id="sec6" class="paragraph"><span style="font-weight:bold">Element Naming</span></h4><!--SEC END --><p>
 You can specify element’s id with Erlang atoms,
@@ -142,58 +146,149 @@ Erlang lists or JavaScript/OTP.</p>
 <!--SEC END --><p>
 Any action, wired with <span style="font-weight:bold">wf:wire</span>, is enveloped in <span style="font-weight:bold">#wire{actions=[]}</span>,
 which is also an action capable of polymorphic rendering of custom or built-in actions, specified in the list.
-Following nested action embedding is also valid:</p><div class="lstlisting">    wf:wire(#wire{actions=[#alert{text="N2O"}]}).</div>
-<!--TOC subsection id="sec13" Async Processes <span style="font-weight:bold">wf:async</span> and <span style="font-weight:bold">wf:flush</span>-->
-<h3 id="sec13" class="subsection">Async Processes <span style="font-weight:bold">wf:async</span> and <span style="font-weight:bold">wf:flush</span></h3><!--SEC END --><p>
-Function <span style="font-weight:bold">wf:async</span> creates Erlang process, which communicate with the primary page
-process by sending messages. <span style="font-weight:bold">wf:flush</span> should be called to redirect all updates and
-wire actions back to the page process from its async counterpart.
-Usually you send messages to async processes over N2O
-message bus, but you can use any of these options.</p><div class="lstlisting">    body() -&gt; [ #span   { id=display, body="0" }, #br{},
-                #button { id=send, body="Inc", postback=inc } ].
+Following nested action embedding is also valid:</p><div class="lstlisting">    wf:wire(#wire{actions=[#alert{text="N2O"}]}).</div><p>You mau try to see how internally wiring is working:</p><div class="lstlisting">  &gt; wf:actions().
+  []
 
-    event(init) -&gt; wf:async("counter",fun counter:loop/1);
-    event(inc) -&gt; n2o_async:send("counter",up).
+  &gt; wf:wire(#alert{text="N2O"}).
+  [#wire{ancestor = action,trigger = undefined,
+         target = undefined,module = action_wire,
+         actions = #alert{ancestor = action,
+                          trigger = undefined,
+                          target = undefined,
+                          module = action_alert,
+                          actions = undefined,
+                          source = [], text = "N2O"},
+         source = []}]
 
-    loop(up) -&gt;
-        C = case get(counter) of I when is_integer(I) -&gt; I+1;
-                                 _ -&gt; 1 end,
-        put(counter,C),
-        wf:update(display, #span{id=display,body=wf:to_list(C)}),
-        wf:flush().</div>
-<!--TOC paragraph id="sec14" <span style="font-weight:bold">Process Naming</span>-->
-<h4 id="sec14" class="paragraph"><span style="font-weight:bold">Process Naming</span></h4><!--SEC END --><p>
-The name of async process is globally unique. There are two
-versions, <span style="font-weight:bold">wf:async/1</span> and <span style="font-weight:bold">wf:async/2</span>. In the given example
-the name of async process is specified as “counter”, otherwise,
-if the first parameter was not specified, the default name “looper” will be used.</p>
-<!--TOC subsection id="sec15" Message Bus <span style="font-weight:bold">wf:reg</span> and <span style="font-weight:bold">wf:send</span>-->
-<h3 id="sec15" class="subsection">Message Bus <span style="font-weight:bold">wf:reg</span> and <span style="font-weight:bold">wf:send</span></h3><!--SEC END --><p>
-N2O uses GProc process registry for managing async processes pools.
-It is used as a PubSub message bus for N2O communications, but later you can switch to robust RabbitMQ.
-You can associate a process with the pool with <span style="font-weight:bold">wf:reg</span> and send a message to the pool with <span style="font-weight:bold">wf:send</span>.</p><div class="lstlisting">    loop() -&gt;
+  &gt; iolist_to_binary(wf:render(wf:actions())).
+  &lt;&lt;"alert(\"N2O\");"&gt;&gt;</div>
+<!--TOC subsection id="sec13" Message Bus <span style="font-weight:bold">wf:reg</span> and <span style="font-weight:bold">wf:send</span>-->
+<h3 id="sec13" class="subsection">Message Bus <span style="font-weight:bold">wf:reg</span> and <span style="font-weight:bold">wf:send</span></h3><!--SEC END --><p>
+N2O uses <span style="font-weight:bold">gproc</span> process registry for managing async processes pools.
+It is used as a PubSub message bus for N2O communications.
+You can associate a process with the pool with <span style="font-weight:bold">wf:reg</span>
+and send a message to the pool with <span style="font-weight:bold">wf:send</span>.</p><div class="lstlisting">    loop() -&gt;
         receive M -&gt;
             wf:info(?MODULE, "P: ~p, M: ~p",[self(),M]) end, loop().</div><p>Now you can test it</p><div class="lstlisting">    &gt; spawn(fun() -&gt; wf:reg(topic), loop() end).
     &gt; spawn(fun() -&gt; wf:reg(topic), loop() end).
     &gt; wf:send(topic,"Hello").</div><p>It should print in REPL something like:</p><div class="lstlisting">    &gt; [info] P: &lt;0.2012.0&gt;, M: "Hello"
     &gt; [info] P: &lt;0.2015.0&gt;, M: "Hello"</div>
-<!--TOC subsection id="sec16" Parse URL and Context parameters <span style="font-weight:bold">wf:q</span> and <span style="font-weight:bold">wf:qp</span>-->
-<h3 id="sec16" class="subsection">Parse URL and Context parameters <span style="font-weight:bold">wf:q</span> and <span style="font-weight:bold">wf:qp</span></h3><!--SEC END --><p>
-These are used to extract URL parameters or read from the process context. <span style="font-weight:bold">wf:q</span> extracts variables
-from the context stored by controls postbacks. <span style="font-weight:bold">wf:qp</span> extracts variables from HTTP forms.</p>
-<!--TOC subsection id="sec17" Render <span style="font-weight:bold">wf:render</span>-->
-<h3 id="sec17" class="subsection">Render <span style="font-weight:bold">wf:render</span></h3><!--SEC END --><p>
-Render elements or actions with common render.</p>
-<!--TOC subsection id="sec18" Redirects <span style="font-weight:bold">wf:redirect</span>-->
-<h3 id="sec18" class="subsection">Redirects <span style="font-weight:bold">wf:redirect</span></h3><!--SEC END --><p>
+<!--TOC paragraph id="sec14" <span style="font-weight:bold">Custom Registrator</span>-->
+<h4 id="sec14" class="paragraph"><span style="font-weight:bold">Custom Registrator</span></h4><!--SEC END --><p>You may want to replace built-in <span style="font-weight:bold">gproc</span> based PubSub registrator
+with something more robust like MQTT and AMQP or something more
+internal like <span style="font-weight:bold">pg2</span>. All you need is to implement following API:</p><div class="lstlisting">    -module(mqtt_mq).
+    -compile(export_all).
+
+    send(Topic, Message) -&gt; mqtt:publish(Topic, Message).
+    reg(Topic)           -&gt; mqtt:subscribe(Topic, Message).
+    reg(Topic,Tag)       -&gt; mqtt:subscribe(Topic, Tag, Message).
+    unreg(Topic)         -&gt; mqtt:unsubscribe(Topic).</div><p>And set it in runtime:</p><div class="lstlisting">    &gt; application:set_env(n2o,mq,mqtt_mq).</div>
+<!--TOC subsection id="sec15" Async Processes <span style="font-weight:bold">wf:async</span> and <span style="font-weight:bold">wf:flush</span>-->
+<h3 id="sec15" class="subsection">Async Processes <span style="font-weight:bold">wf:async</span> and <span style="font-weight:bold">wf:flush</span></h3><!--SEC END --><p>
+Function <span style="font-weight:bold">wf:async</span> creates Erlang process, which communicate with the primary page
+process by sending messages. <span style="font-weight:bold">wf:flush</span> should be called to redirect all updates and
+wire actions back to the page process from its async counterpart.
+Usually you send messages to async processes over N2O
+message bus <span style="font-weight:bold">wf:send</span>, but you can use also <span style="font-weight:bold">n2o_async:send</span>. In following
+example different variants are gives, both incrementing counter by 2. Also notice
+the async process initialization throung <span style="font-weight:bold">init</span> message.</p><div class="lstlisting">    body()      -&gt; [ #span   { id=display, body="0"},
+                     #button { id=send, body="Inc",
+                               postback=inc} ].
+
+    event(init) -&gt; wf:async("counter",fun counter:loop/1);
+    event(inc)  -&gt; wf:send(counter,up),
+                   n2o_async:send("counter",up).
+
+    loop(init)  -&gt; wf:reg(counter), put(counter,0);
+    loop(up)    -&gt; C = get(counter) + 1,
+                   put(counter,C),
+                   wf:update(display,
+                      #span{id=display,body=wf:to_binary(C)}),
+                   wf:flush().</div>
+<!--TOC paragraph id="sec16" <span style="font-weight:bold">Process Naming</span>-->
+<h4 id="sec16" class="paragraph"><span style="font-weight:bold">Process Naming</span></h4><!--SEC END --><p>
+The name of async process is globally unique. There are two
+versions, <span style="font-weight:bold">wf:async/1</span> and <span style="font-weight:bold">wf:async/2</span>. In the given example
+the name of async process is specified as “counter”, otherwise,
+if the first parameter was not specified, the default name “looper”
+will be used. Internally each async process includes custom key which is settled by
+default to session id.</p><div class="lstlisting">  &gt; supervisor:which_children(n2o_sup).
+    [{{async,{"counter",&lt;&lt;"d43adcc79dd64393a1eb559227a2d3fd"&gt;&gt;}},
+      &lt;0.11564.0&gt;,worker,
+      [n2o_async]}]</div>
+<!--TOC subsection id="sec17" Parse URL and Context parameters <span style="font-weight:bold">wf:q</span> and <span style="font-weight:bold">wf:qp</span>-->
+<h3 id="sec17" class="subsection">Parse URL and Context parameters <span style="font-weight:bold">wf:q</span> and <span style="font-weight:bold">wf:qp</span></h3><!--SEC END --><p>
+These are used to extract URL parameters or read from the process context.
+<span style="font-weight:bold">wf:q</span> extracts variables from the context stored by controls postbacks.
+<span style="font-weight:bold">wf:qp</span> extracts variables from URL params provieded by cowboy bridge.
+<span style="font-weight:bold">wf:qc</span> extracts variables from <span style="font-weight:bold">#cx.params</span> context parsed with
+custom query handler during endpoint initialization usually performed
+inside N2O with something like.</p><div class="lstlisting">    Ctx = wf_context:init_context(Req),
+    NewCtx = wf_context:fold(init,Ctx#cx.handlers,Ctx),
+    wf:context(NewCtx),</div>
+<!--TOC subsection id="sec18" Render <span style="font-weight:bold">wf:render</span> or <span style="font-weight:bold">nitro:render</span>-->
+<h3 id="sec18" class="subsection">Render <span style="font-weight:bold">wf:render</span> or <span style="font-weight:bold">nitro:render</span></h3><!--SEC END --><p>
+Render elements or actions with common render. Rendering is usually
+done automatically inside N2O, when you use DOM or Wiring API, but sometime you may
+need manual render, e.g. in static site generators and other NITRO applications
+which couldn’t be even dependent from N2O. For that purposes you may use NITRO API</p><div class="lstlisting">    &gt; nitro:render(#button{id=id,postback=signal}).
+      &lt;&lt;"&lt;button id=\"id\" type=\"button\"&gt;&lt;/button&gt;"&gt;&gt;</div>
+<!--TOC paragraph id="sec19" -->
+<!--SEC END --><p>
+This is simple sample you may use in static site generators, but in N2O context
+you also may need to manual render JavaScript actions produced during HTML rendering.
+First of all you should know that process in which you want to render should be
+initialized with N2O <span style="font-weight:bold">#cx</span> context. Here is example of JavaScript
+produced during previous <span style="font-weight:bold">#button</span> rendering:</p><div class="lstlisting">    &gt; wf:context(wf_context:init_context([])).
+      undefined
+
+    &gt; rp(iolist_to_binary(nitro:render(wf:actions()))).
+      &lt;&lt;"{var x=qi('id'); x &amp;&amp; x.addEventListener('click',
+      function (event){{ if (validateSources([])) ws.send(
+      enc(tuple(atom('pickle'),bin('id'),bin('g2gCaAVkAAJl
+      dmQABWluZGV4ZAAGc2lnbmFsawACaWRkAAVldmVudGgDYgAABaFi
+      AAbo0GIACnB4'),[tuple(tuple(utf8_toByteArray('id'),b
+      in('detail')),event.detail)])));else console.log('Va
+      lidation Error'); }});};"&gt;&gt;</div>
+<!--TOC paragraph id="sec20" -->
+<!--SEC END --><p>
+Here is another more complex example of menu rendering using NITRO DSL:</p><div class="lstlisting">   menu(Files,Author) -&gt;
+      #panel{id=navcontainer,body=[#ul{id=nav,body=[
+
+      #li{body=[#link{href="#",body="Navigation"},#ul{body=[
+                #li{body=#link{href="/1.htm",body="Root"}},
+                #li{body=#link{href="../1.htm",body="Parent"}},
+                #li{body=#link{href="1.htm",body="This"}}]}]},
+
+      #li{body=[#link{href="#",body="Download"},#ul{body=[
+                #li{body=#link{href=F,body=F}}|| F &lt;- Files ] }]},
+
+      #li{body=[#link{href="#",body="Translations"},#ul{body=[
+                #li{body=#link{href="#",body=Author}}]}]}]}]}.</div><div class="lstlisting">    &gt; rp(iolist_to_binary(wf:render(menu(["1","2"],"5HT")))).
+      &lt;&lt;"&lt;div id=\"navcontainer\"&gt;&lt;ul id=\"nav\"&gt;&lt;li&gt;
+      &lt;a href=\"#\"&gt;Navigation&lt;/a&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=\"/
+      1.htm\"&gt;Root&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=\"../1.htm\"&gt;P
+      arent&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=\"1.htm\"&gt;This&lt;/a&gt;&lt;/l
+      i&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=\"#\"&gt;Download&lt;/a&gt;&lt;ul&gt;&lt;
+      li&gt;&lt;a href=\"1\"&gt;1&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=\"2\"&gt;2&lt;
+      /a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=\"#\"&gt;Translation
+      s&lt;/a&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=\"#\"&gt;5HT&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/l
+      i&gt;&lt;/ul&gt;&lt;/div&gt;"&gt;&gt;</div>
+<!--TOC paragraph id="sec21" -->
+<!--SEC END --><p>
+Also notice some helpful functions to preprocess HTML and JavaScript
+escaping to avois XSS attacks:</p><div class="lstlisting">    &gt; wf:html_encode(wf:js_escape("alert('N2O');")).
+    "alert(\\&amp;#39;N2O\\&amp;#39;);"</div>
+<!--TOC subsection id="sec22" Redirects <span style="font-weight:bold">wf:redirect</span>-->
+<h3 id="sec22" class="subsection">Redirects <span style="font-weight:bold">wf:redirect</span></h3><!--SEC END --><p>
 Redirects are implemented not with HTTP headers, but with JavaScript action modifying <span style="font-weight:bold">window.location</span>.
 This saves login context information which is sent in the first packet upon establishing a WebSocket connection.</p>
-<!--TOC subsection id="sec19" Session Information <span style="font-weight:bold">wf:session</span>-->
-<h3 id="sec19" class="subsection">Session Information <span style="font-weight:bold">wf:session</span></h3><!--SEC END --><p>
+<!--TOC subsection id="sec23" Session Information <span style="font-weight:bold">wf:session</span>-->
+<h3 id="sec23" class="subsection">Session Information <span style="font-weight:bold">wf:session</span></h3><!--SEC END --><p>
 Store any session information in ETS tables. Use <span style="font-weight:bold">wf:user</span>, <span style="font-weight:bold">wf:role</span> for
 login and authorization. Consult <span style="font-weight:bold">AVZ</span> library documentation.</p>
-<!--TOC subsection id="sec20" Bridge information <span style="font-weight:bold">wf:header</span> and <span style="font-weight:bold">wf:cookie</span>-->
-<h3 id="sec20" class="subsection">Bridge information <span style="font-weight:bold">wf:header</span> and <span style="font-weight:bold">wf:cookie</span></h3><!--SEC END --><p>
+<!--TOC subsection id="sec24" Bridge information <span style="font-weight:bold">wf:header</span> and <span style="font-weight:bold">wf:cookie</span>-->
+<h3 id="sec24" class="subsection">Bridge information <span style="font-weight:bold">wf:header</span> and <span style="font-weight:bold">wf:cookie</span></h3><!--SEC END --><p>
 You can read and issue cookie and headers information using internal Web-Server routines.
 You can also read peer IP with <span style="font-weight:bold">wf:peer</span>. Usually you do Bridge operations
 inside handlers or endpoints.</p><div class="lstlisting">    wf:cookies_req(?REQ),

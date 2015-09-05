@@ -58,9 +58,13 @@ create_book()
     for article in $1/doc/*.tex; do create_article `basename ${article%%.*}` $1; done
     cp index.htm ../../index.htm
     cd -
-#    cd apps/`basename $1`/doc
-#    pdflatex book.tex
-#    cd -
+}
+
+create_pdf()
+{
+    cd apps/`basename $1`/doc
+    pdflatex book.tex
+    cd -
 }
 
 create_hevea "5HT"
@@ -74,5 +78,7 @@ create_book ~/depot/synrc/n2o
 create_book ~/depot/spawnproc/upl
 create_book ~/depot/spawnproc/forms
 create_book ~/depot/spawnproc/bpe
+
+create_book ~/depot/synrc/n2o
 
 cp apps.htm apps/index.htm
