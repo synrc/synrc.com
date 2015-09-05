@@ -84,13 +84,13 @@
 <h2 id="sec3" class="section">Protocols</h2><!--SEC END --><p>We made it to make you happy.
 You can plug any binary formatting protocol like BERT, BED, MessagePack
 or even textual ones like TXT, JSON or custom binary protocols like MQTT, AMQP or legacy XMPP.
-Nitrogen-support here is just three protocol messages: <span style="font-weight:bold">pickle</span>, <span style="font-weight:bold">flush</span> and <span style="font-weight:bold">delivery</span>.
+Nitrogen-support here is just three protocol messages: <span style="font-weight:bold">pickle</span>, <span style="font-weight:bold">flush</span> and <span style="font-weight:bold">direct</span>.
 N2O also provides basic heartbeat protocol that can be formatted at your whim.
-Currently N2O supports 4 protocols: Heartbeat, Nitrogen, Client/Server, Binary.</p><div class="lstlisting">    protocols() -&gt;
+Currently N2O supports 4 protocols: Heartbeat, Nitrogen, Client/Server and File Transfer Protocol.</p><div class="lstlisting">    protocols() -&gt;
        wf:config(n2o,protocols,[ n2o_heart,
                                  n2o_nitrogen,
                                  n2o_client,
-                                 n2o_binary  ]).</div><p>
+                                 n2o_file  ]).</div><p>
 
 <img src="/images/n2o_protocols.png" style="margin-left: -20px;margin-botton: 30px; padding:20 20 20 20px;"><br>
 
@@ -98,8 +98,8 @@ Picture. <span style="font-weight:bold">Messaging Pipeline</span><br>
 <br>
 
 
-For example in Skyline (DSL) application you use only nitrogen and binary:</p><div class="lstlisting">    &gt; wf:config(n2o,protocols).
-    [n2o_heart,n2o_nitrogen,n2o_binary]</div><p>And in Games (SPA) application you need only client/server protocol:</p><div class="lstlisting">    &gt; wf:config(n2o,protocols).
+For example in Skyline (DSL) application you use only nitrogen:</p><div class="lstlisting">    &gt; wf:config(n2o,protocols).
+    [n2o_heart,n2o_nitrogen]</div><p>And in Games (SPA) application you need only client/server protocol:</p><div class="lstlisting">    &gt; wf:config(n2o,protocols).
     [n2o_heart,n2o_client]</div>
 <!--TOC subsection id="sec4" Heartbeat-->
 <h3 id="sec4" class="subsection">Heartbeat</h3><!--SEC END --><p>Heartbeat protocol is essential WebSocket application level protocol for
@@ -147,8 +147,7 @@ for images or other raw data, you can ask server like this:</p><div class="lstli
         &lt;&lt;84,0,0,0,108&gt;&gt;;</div><p>NOTE: if event returns not the binary, client will receive BERT encoded message.</p><!--TOC subsection id="sec10" BERT-->
 <h3 id="sec10" class="subsection">BERT</h3><!--SEC END --><p>Erlang RPC protocol interconnection with JavaScript nodes should be transferred as BERT answers.</p><div class="lstlisting">    function handle_web_socket(body) {
         console.log(String(dec(body))); }</div><!--TOC subsection id="sec11" RAW Binary-->
-<h3 id="sec11" class="subsection">RAW Binary</h3><!--SEC END --><p>Raw images for fastest possible speed should be transferred as binary answers.</p><div class="lstlisting">    function handle_web_socket_blob(body) { }</div><div class="lstlisting">    E&gt; Unknown Raw Binary Received: [72,101,108,108,111]</div>
-<!--TOC subsection id="sec12" Rails-like State Protocol-->
+<h3 id="sec11" class="subsection">RAW Binary</h3><!--SEC END --><p>Raw images for fastest possible speed should be transferred as binary answers.</p><div class="lstlisting">    function handle_web_socket_blob(body) { }</div><div class="lstlisting">    E&gt; Unknown Raw Binary Received: [72,101,108,108,111]</div><!--TOC subsection id="sec12" Rails-like State Protocol-->
 <h3 id="sec12" class="subsection">Rails-like State Protocol</h3><!--SEC END --><p>N2O ships also with state protocol that requires from developer
 to specify explicitly the return values from events. It also allows you
 to use Rails-like semantic for backends:</p><div class="lstlisting">     Controller:Action(Event,Context).</div><p>It allows you also to name your events with any name like in ChicagoBoss.</p><p>

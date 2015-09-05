@@ -119,11 +119,10 @@ based on Bullet library created by Loïc Hoguin.</p>
 <!--TOC paragraph id="sec9" -->
 <!--SEC END --><p>
 You can send several types of events directly from JavaScript
-using various protocols. E.g. you man need to use client protocol:</p><div class="lstlisting">JavaScript&gt; ws.send(enc(tuple(atom('client'),
-                   tuple(atom('phone_auth'),"+380.."))));</div><p>And catch this event at Erlang side:</p><div class="lstlisting">event({client,{phone_auth,Phone}}) -&gt;
-    io:format("Phone: ~p~n",[Phone]).</div><p>You can also send direct messages to event/1, but use it carefully
-because it may violate security rules.</p><div class="lstlisting">&gt; ws.send(enc(tuple(atom('direct'),atom('init'))));</div><p>With catching at Erlang side:</p><div class="lstlisting">event(init) -&gt;
-    io:format("Init called~n").</div>
+using various protocols. E.g. you man need to use client protocol:</p><div class="lstlisting">  JavaScript&gt; ws.send(enc(tuple(atom('client'),
+                   tuple(atom('phone_auth'),"+380.."))));</div><p>And catch this event at Erlang side:</p><div class="lstlisting">  event({client,{phone_auth,Phone}}) -&gt;
+      io:format("Phone: ~p~n",[Phone]).</div><p>You can also send direct messages to event/1, but use it carefully
+because it may violate security rules.</p><div class="lstlisting">    &gt; ws.send(enc(tuple(atom('direct'),atom('init'))));</div><p>With catching at Erlang side:</p><div class="lstlisting">    event(init) -&gt; io:format("Init called~n").</div>
 <!--TOC subsection id="sec10" HTTP API over REST-->
 <h3 id="sec10" class="subsection">HTTP API over REST</h3><!--SEC END --><p>
 REST handler’s request context initialization differs for the one

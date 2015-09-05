@@ -109,8 +109,11 @@ and other time consuming operations.</p>
 This processes are applicable only to the case when you serving not static HTML,
 but dynamically rendered pages with NITRO, DTL or ET template engines.
 The very first HTTP handler only renders HTML. All created on the way
-JavaScript actions are stored in the transition process.</p><div class="lstlisting">    transition(Actions) -&gt;
-        receive {'N2O',Pid} -&gt; Pid ! Actions end.</div>
+JavaScript actions are stored in the transition process.</p><div class="lstlisting">    main() -&gt; #dtl { file     = "login",
+                     app      = review,
+                     bindings = [ { body,
+                          #button { id       = send,
+                                    postback = chat } } ] }.</div>
 <!--TOC paragraph id="sec7" -->
 <!--SEC END --><p>
 HTTP handler will die immediately after returning HTML. Transition process
@@ -120,14 +123,21 @@ stores actions and waits for a request from a WebSocket handler.</p>
 Right after receiving HTML the browser initiates WebSocket connection
 thus starting WebSocket handler on the server. After responding with
 JavaScript actions the Transition process dies and the only process left
-running is WebSocket handler. At this point initialization phase is complete.</p>
+running is WebSocket handler. At this point initialization phase is complete.</p><div class="lstlisting">    transition(Actions) -&gt;
+        receive {'N2O',Pid} -&gt; Pid ! Actions end.</div><p>Transition process is only applicable to dynamically rendered pages
+served by <span style="font-weight:bold">n2o_document</span> endpoint. You never deal with it manually.</p>
 <!--TOC subsection id="sec9" Events Process-->
 <h3 id="sec9" class="subsection">Events Process</h3><!--SEC END --><p>
 After that all client/server communication is performed over
 WebSocket channel. All events coming from the browser are
 handled by N2O, which renders elements to HTML and actions to
 JavaScript. Each user at any time has only one WebSocket process
-per connection.</p>
+per connection.</p><div class="lstlisting">    event(init) -&gt; wf:reg(room);
+    event(chat) -&gt; #insert_top(history,#span{body="message"}),
+                   wf:send(room,#flush{data=wf:actions()}).</div><p>This code will register all WebSocket processes under the same
+topic in pubsub and broadcast history changing to all registered
+process in the system under the same topic using <span style="font-weight:bold">#flush</span>
+NITRO protocol message.</p>
 <!--TOC subsection id="sec10" Async Processes-->
 <h3 id="sec10" class="subsection">Async Processes</h3><!--SEC END --><p>
 These are user processes that were created with <span style="font-weight:bold">wf:async</span> invocation.
@@ -139,7 +149,11 @@ Async processes are optional and only needed when you have a UI event taking too
 time to be processed, like gigabyte file uploads. You can create
 multiple async processes per user. Starting from N2O 2.9 all async
 processes are being created as <span style="font-weight:bold">gen_server</span> under
-<span style="font-weight:bold">n2o_sup</span> supervision tree and new .</p>
+<span style="font-weight:bold">n2o_sup</span> supervision tree.</p><div class="lstlisting">    event(init) -&gt; wf:reg(room),
+                   wf:async("looper", fun async/1);
+
+    async(init) -&gt; ok;
+    aynsc(Chat) -&gt; io:format("Chat: ~p~n",[Chat]).</div>
 <!--TOC subsection id="sec11" SPA Mode-->
 <h3 id="sec11" class="subsection">SPA Mode</h3><!--SEC END --><p>
 In SPA mode your N2O can serve no HTML at all. N2O elements are

@@ -83,7 +83,7 @@
 <h2 id="sec3" class="section">Setup</h2><!--SEC END -->
 <!--TOC subsection id="sec4" Prerequisites-->
 <h3 id="sec4" class="subsection">Prerequisites</h3><!--SEC END --><p>
-To run N2O websites you need to install Erlang R18 or higher.
+To run N2O websites you need to install Erlang version 18 or higher.
 N2O works on Windows, Mac and Linux.</p>
 <!--TOC subsection id="sec5" Kickstart Bootstrap-->
 <h3 id="sec5" class="subsection">Kickstart Bootstrap</h3><!--SEC END --><p>
@@ -92,33 +92,84 @@ fancy scripts, so building process is OTP compatible: bootstrap site
 is bundled as an Erlang release.</p><div class="lstlisting">    $ git clone git://github.com/synrc/n2o
     $ cd n2o/samples
     $ ./mad deps compile plan repl</div><p>Now you can try: <a href="http://localhost:8000">http://localhost:8000</a>.</p><p>On Linux you should do at first:</p><div class="lstlisting">    $ sudo apt-get install inotify-tools</div>
-<!--TOC subsection id="sec6" Manual Setup-->
-<h3 id="sec6" class="subsection">Manual Setup</h3><!--SEC END --><p>
+<!--TOC subsection id="sec6" Application Template-->
+<h3 id="sec6" class="subsection">Application Template</h3><!--SEC END --><p>
 If you want to start using N2O inside your application, you can use Cowboy dispatch parameter
-for passing HTTP, REST, WebSocket and Static N2O endpoints:</p><div class="center">Listing 1: web_sup.erl</div><p><br>
-</p><div class="lstlisting">    cowboy:start_http(http, 100,
-         [{port, wf:config(n2o,port)}],
-         [{env, [{dispatch, dispatch_rules()}]}]),
+for passing HTTP, REST, WebSocket and Static N2O endpoints:</p><div class="center">Listing 1: review.erl</div><p><br>
+</p><div class="lstlisting">
+  -module(review).
+  -behaviour(supervisor).
+  -behaviour(application).
+  -export([init/1, start/0, start/2, stop/1, main/1]).
 
-    mime() -&gt; [{mimetypes,cow_mimetypes,all}].
+  main(A) -&gt; mad:main(A).
 
-    dispatch_rules() -&gt;
-      cowboy_router:compile(
-        [{'_', [
-      {"/css/[...]", n2o_dynalo, {dir, "apps/hello/priv", mime()}},
-      {"/n2o/[...]", n2o_dynalo, {dir, "deps/n2o/priv", mime()}},
-      {"/rest/:resource", rest_cowboy, []},
-      {"/rest/:resource/:id", rest_cowboy, []},
-      {"/ws/[...]", bullet_handler, [{handler, n2o_bullet}]},
-      {'_', n2o_cowboy, []}
-        ]}]).</div><p>N2O uses two ports for SSL and non-SSL connections:</p><div class="lstlisting">    wf:config(n2o,port,443)</div><p>You can also redefine these ports in bullet connection inside template:</p><div class="lstlisting">    &lt;script&gt;
-        var transition = {pid: '', host: 'localhost', port: '443' };
-    &lt;/script&gt;</div><p>And then add a minimal <span style="font-weight:bold">index.erl</span> page:</p><div class="center">Listing 2: index.erl</div><p><br>
+  start() -&gt; start(normal, []).
+  stop(_State) -&gt; ok.
+  start(_StartType, _StartArgs) -&gt;
+    supervisor:start_link({local, ?MODULE}, ?MODULE, []).
+
+  init([]) -&gt; case cowboy:start_http(http, 3,
+    [ { port, wf:config(n2o,port,8000)      } ],
+    [ { env, [{dispatch, dispatch_rules()}] } ]) of
+      { ok, _ } -&gt; ok;
+              X -&gt; io:format("Unknown Error: ~p~n",[X]),
+                   halt(abort,[]) end,
+
+      { ok, {{one_for_one, 5, 10}, []} }.
+
+  mime()   -&gt; [ { mimetypes, cow_mimetypes, all } ].
+  static() -&gt;   { dir, "apps/review/priv/static", mime() }.
+  n2o()    -&gt;   { dir, "deps/n2o/priv", mime() }.
+  ws()     -&gt; [ { handler, n2o_bullet } ].
+  nop()    -&gt; [ ].
+
+  dispatch_rules() -&gt; cowboy_router:compile([  { '_', [
+    { "/static/[...]",       n2o_dynalo,     static() },
+    { "/n2o/[...]",          n2o_dynalo,     n2o()    },
+    { "/rest/:resource",     rest_cowboy,    nop()    },
+    { "/rest/:resource/:id", rest_cowboy,    nop()    },
+    { "/ws/[...]",           bullet_handler, ws()     },
+    { '_',                   n2o_cowboy,     nop()    } ] } ] ).</div><p>While Listing 2 is a little bit criptic we want to say that N2O
+intentionally not introduced here any syntax sugar.
+For any Erlang application you need to create application
+and supervisor behavior modules which we combined in the
+same Erlang file for simplicity.</p>
+<!--TOC paragraph id="sec7" -->
+<!--SEC END --><p>
+Cowboy routing rules also leaved as is.
+We’d better to leave our efforts for making N2O protocol
+and N2O internals simplier. Here we can’t fix a much. Just use this
+as template for bootstrapping N2O based applications.</p>
+<!--TOC subsection id="sec8" Companion Dependencies-->
+<h3 id="sec8" class="subsection">Companion Dependencies</h3><!--SEC END --><p>
+For raw N2O use with BERT message formatter you need only
+one N2O dependecy, but if you want to use DTL templates,
+JSON message formatter, SHEN JavaScript Compiler or NITRO
+Nitrogen DSL you can plug all of them separately.</p><div class="lstlisting">    https://github.com/synrc/n2o        2.9
+    https://github.com/synrc/nitro      2.9
+    https://github.com/synrc/extra      2.9
+    https://github.com/synrc/kvs        2.9
+    https://github.com/synrc/active     2.9
+    https://github.com/synrc/shen       1.5
+    https://github.com/spawnproc/bpe    1.5
+    https://github.com/spawnproc/forms  1.5</div>
+<!--TOC subsection id="sec9" Configuration-->
+<h3 id="sec9" class="subsection">Configuration</h3><!--SEC END --><!--TOC subsection id="sec10" Ports-->
+<h3 id="sec10" class="subsection">Ports</h3><!--SEC END --><p>
+N2O uses two ports for WebSocket and HTTP connections.</p><div class="lstlisting">    wf:config(n2o,port,443)
+    wf:config(n2o,websocket_port,443)</div><p>You can also redefine these ports in bullet connection inside template:</p><div class="lstlisting">    &lt;script&gt; var transition = { pid: '',
+                                host: 'localhost',
+                                port: '443' }; &lt;/script&gt;</div>
+<!--TOC paragraph id="sec11" -->
+<!--SEC END --><p>
+And then add a minimal <span style="font-weight:bold">index.erl</span> page:</p><div class="center">Listing 2: index.erl</div><p><br>
 </p><div class="lstlisting">    -module(index).
     -compile(export_all).
-    -include_lib("n2o/include/wf.hrl").
+    -include_lib("nitroo/include/nitro.hrl").
 
     main() -&gt; #span{body="Hello"}.</div><p>
+
 
     <div id="disqus_thread"></div>
     <script type="text/javascript">

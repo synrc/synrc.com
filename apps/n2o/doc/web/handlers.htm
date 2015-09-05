@@ -83,14 +83,14 @@
 <!--TOC section id="sec3" Handlers-->
 <h2 id="sec3" class="section">Handlers</h2><!--SEC END --><p>
 HTML and JavaScript Web Server HTTP handlers share the same system
-of context initialization. </p><div class="lstlisting">    init_context(Req) -&gt; #context{
+of context initialization.</p><div class="lstlisting">    init_context(Req) -&gt; #context{
         actions=[], module=index, path=[],
         req=Req, params=[], session=undefined,
         handlers= [ {'query', wf:config('query', n2o_query)},
                     {session, wf:config(session, n2o_session)},
                     {route,   wf:config(route,   n2o_route)} ]}.</div><p>Chain of three N2O handlers that are always called
 on each HTTP request. You can redefine any of them or plug your own
-additional handler in the chain to transform web server requests.</p><div class="center">Listing 1: wf_core:fold/3</div><p><br>
+additional handler in the chain to transform web server requests.</p><div class="center">Listing 1: wf_context:fold/3</div><p><br>
 </p><div class="lstlisting">    fold(Fun,Handlers,Ctx) -&gt;
         lists:foldl(fun({_,Module},Ctx1) -&gt;
             {ok,_,NewCtx} = Module:Fun([],Ctx1),
