@@ -104,7 +104,7 @@ JavaScript methods <span style="font-weight:bold">insertBefore</span> and <span 
 <!--SEC END --><p>
 For relative updates use <span style="font-weight:bold">wf:insert_before/2</span> and <span style="font-weight:bold">wf:insert_after/2</span>.
 To remove an element use <span style="font-weight:bold">wf:remove/2</span>.
-Updates are covered in detail in <span style="font-weight:bold">Section 7</span>.
+Updates are covered in detail in <span style="font-weight:bold">Chapter 8</span>.
 If you want to see how custom element are being implemented you may refer
 to <span style="font-weight:bold">synrc/extra</span> packages where some useful controls may be found like
 file uploader, calendar, autocompletion textboxlist and HTML editor.</p>
@@ -207,7 +207,7 @@ the async process initialization throung <span style="font-weight:bold">init</sp
                      #button { id=send, body="Inc",
                                postback=inc} ].
 
-    event(init) -&gt; wf:async("counter",fun counter:loop/1);
+    event(init) -&gt; wf:async("counter",fun loop/1);
     event(inc)  -&gt; wf:send(counter,up),
                    n2o_async:send("counter",up).
 
