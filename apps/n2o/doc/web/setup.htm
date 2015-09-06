@@ -166,21 +166,14 @@ means different error log levels.</p><div class="lstlisting">    -module(config)
     -compile(export_all).
 
     log_level() -&gt; info.
-    log_modules() -&gt; [ login, index ].</div><!--TOC subsection id="sec10" Application-->
-<h3 id="sec10" class="subsection">Application</h3><!--SEC END --><p>
-In <span style="font-weight:bold">app</span> setting you should place the name of your OTP application
-that will be treated by N2O and NITRO as a source for templates and
-other static data with <span style="font-weight:bold">code:priv_dir</span>.</p><!--TOC subsection id="sec11" Routes-->
-<h3 id="sec11" class="subsection">Routes</h3><!--SEC END --><p>
-Setting <span style="font-weight:bold">route</span> is a place for the name of Erlang module where
-resides mappings from URL to page modules.</p><!--TOC subsection id="sec12" Message Queue-->
-<h3 id="sec12" class="subsection">Message Queue</h3><!--SEC END --><p>
+    log_modules() -&gt; [ login, index ].</div><!--TOC subsection id="sec10" Message Queue-->
+<h3 id="sec10" class="subsection">Message Queue</h3><!--SEC END --><p>
 In <span style="font-weight:bold">mq</span> settings you should place the name of Erlang module which supports
-message queue API. By default N2O provides <span style="font-weight:bold">n2o_mq</span> module.</p><!--TOC subsection id="sec13" Formatter-->
-<h3 id="sec13" class="subsection">Formatter</h3><!--SEC END --><p>
+message queue API. By default N2O provides <span style="font-weight:bold">n2o_mq</span> module.</p><!--TOC subsection id="sec11" Formatter-->
+<h3 id="sec11" class="subsection">Formatter</h3><!--SEC END --><p>
 With <span style="font-weight:bold">formatter</span> option you may set the formatter parameter.
-As for N2O version 2.9 only <span style="font-weight:bold">bert</span> or <span style="font-weight:bold">json</span> are supported.</p><!--TOC subsection id="sec14" Minimal Page-->
-<h3 id="sec14" class="subsection">Minimal Page</h3><!--SEC END --><p>
+As for N2O version 2.9 only <span style="font-weight:bold">bert</span> or <span style="font-weight:bold">json</span> are supported.</p><!--TOC subsection id="sec12" Minimal Page-->
+<h3 id="sec12" class="subsection">Minimal Page</h3><!--SEC END --><p>
 And then add a minimal <span style="font-weight:bold">index.erl</span> page:</p><div class="center">Listing 2: index.erl</div><p><br>
 </p><div class="lstlisting">    -module(index).
     -compile(export_all).
