@@ -108,7 +108,9 @@ and other time consuming operations.</p>
 <h3 id="sec6" class="subsection">Page Serving Process</h3><!--SEC END --><p>
 This processes are applicable only to the case when you serving not static HTML,
 but dynamically rendered pages with NITRO, DTL or ET template engines.
-The very first HTTP handler only renders HTML. All created on the way
+The very first HTTP handler only renders HTML. During page initialization
+function Module:<span style="font-weight:bold">main/0</span> is called. This function should return raw HTML or
+NITRO elements that could be rendered into raw HTML. All created on the way
 JavaScript actions are stored in the transition process.</p><div class="lstlisting">    main() -&gt; #dtl { file     = "login",
                      app      = review,
                      bindings = [ { body,
@@ -138,8 +140,13 @@ per connection.</p><div class="lstlisting">    event(init) -&gt; wf:reg(room);
 topic in pubsub and broadcast history changing to all registered
 process in the system under the same topic using <span style="font-weight:bold">#flush</span>
 NITRO protocol message.</p>
-<!--TOC subsection id="sec10" Async Processes-->
-<h3 id="sec10" class="subsection">Async Processes</h3><!--SEC END --><p>
+<!--TOC paragraph id="sec10" -->
+<!--SEC END --><p>
+During page initialization before Module:<span style="font-weight:bold">event(init)</span>,
+Module:<span style="font-weight:bold">main/0</span> is called to render initial postbacks for
+elements. So you can share the same code to use SPA or DSL/DTL approach.</p>
+<!--TOC subsection id="sec11" Async Processes-->
+<h3 id="sec11" class="subsection">Async Processes</h3><!--SEC END --><p>
 These are user processes that were created with <span style="font-weight:bold">wf:async</span> invocation.
 This processes was very useful to organize persiste stateful connection
 for legacy async technology like COMET for XHR channel. If you have problem with
@@ -154,15 +161,18 @@ processes are being created as <span style="font-weight:bold">gen_server</span> 
 
     async(init) -&gt; ok;
     aynsc(Chat) -&gt; io:format("Chat: ~p~n",[Chat]).</div>
-<!--TOC subsection id="sec11" SPA Mode-->
-<h3 id="sec11" class="subsection">SPA Mode</h3><!--SEC END --><p>
-In SPA mode your N2O can serve no HTML at all. N2O elements are
-bound during INIT handshake and thus can be used regularly as in DSL mode.
+<!--TOC subsection id="sec12" SPA Mode-->
+<h3 id="sec12" class="subsection">SPA Mode</h3><!--SEC END --><p>
+In SPA mode N2O can serve no HTML at all. N2O elements are
+bound during initialization handshake and thus can be used
+regularly as in DSL mode.</p>
+<!--TOC paragraph id="sec13" -->
+<!--SEC END --><p>
 In the example provided in n2o/samples you can find two different
 front end to the same <span style="font-weight:bold">review</span> application which consist of
 two page modules <span style="font-weight:bold">index</span> and <span style="font-weight:bold">login</span>. You can access this application
 involving no HTML rendering by using static file serving that could be
-switched to direct nginx serving.</p><div class="lstlisting">    open http://localhost:8000/static/app/login.htm</div><p>Or you can see DTL rendered HTML pages which resides at following address:</p><div class="lstlisting">    open http://localhost:8000/login.htm</div><p>
+switched to direct nginx serving in production.</p><div class="lstlisting">    open http://localhost:8000/static/app/login.htm</div><p>Or you can see DTL rendered HTML pages which resides at following address:</p><div class="lstlisting">    open http://localhost:8000/login.htm</div><p>
 
     <div id="disqus_thread"></div>
     <script type="text/javascript">

@@ -162,17 +162,17 @@ Following nested action embedding is also valid:</p><div class="lstlisting">    
     &gt; iolist_to_binary(wf:render(wf:actions())).
       &lt;&lt;"alert(\"N2O\");"&gt;&gt;</div><p>Consider wiring <span style="font-weight:bold">#event</span> if you want to add listener to
 existed element on page:</p><div class="lstlisting">
-    &gt; wf:wire(#event{target=btn,postback=evt}).
+    &gt; wf:wire(#event{target=btn,postback=evt,type=click}),
       []
 
     &gt; rp(iolist_to_binary(wf:render(wf:actions()))).
-      &lt;&lt;"{var x=qi('btn'); x &amp;&amp; x.addEventListener('default',
-      function (event){{ if (validateSources([])) ws.send(enc
-      (tuple(atom('pickle'),bin('btn'),bin('g2gCaAVkAAJldmQAB
-      WluZGV4ZAADZXZ0awADYnRuZAAFZXZlbnRoA2IAAAWhYgAG8wViAAHk
-      tw=='),[tuple(tuple(utf8_toByteArray('btn'),bin('detail
-      ')),event.detail)])));else console.log('Validation Erro
-      r'); }});};"&gt;&gt;</div>
+      &lt;&lt;"{var x=qi('element_id'); x &amp;&amp; x.addEventListener('cl
+      ick',function (event){{ if (validateSources([])) ws.sen
+      d(enc(tuple(atom('pickle'),bin('element_id'),bin('g2gCa
+      AVkAAJldmQABWluZGV4ZAADZXZ0awAKZWxlbWVudF9pZGQABWV2ZW50
+      aANiAAAFoWIAB8kuYgAOvJA='),[tuple(tuple(utf8_toByteArra
+      y('element_id'),bin('detail')),event.detail)])));else c
+      onsole.log('Validation Error'); }});};"&gt;&gt;</div>
 <!--TOC subsection id="sec13" Message Bus <span style="font-weight:bold">wf:reg</span> and <span style="font-weight:bold">wf:send</span>-->
 <h3 id="sec13" class="subsection">Message Bus <span style="font-weight:bold">wf:reg</span> and <span style="font-weight:bold">wf:send</span></h3><!--SEC END --><p>
 N2O uses <span style="font-weight:bold">gproc</span> process registry for managing async processes pools.

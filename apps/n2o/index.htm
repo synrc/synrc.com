@@ -188,13 +188,15 @@ elements and components in the host language.</p>
 Template-based approach (Yesod, ASP, PHP, JSP, Rails, Yaws and ChicagoBoss)
 requires developers to deal with raw HTML. It allows
 defining pages in terms of top-level controls, placeholders
-and panels. Thus N2O combines both approaches.</p>
+and panels. N2O also support this approach by proving bindings
+to DTL and ET template engines.</p>
 <!--TOC paragraph id="sec17" -->
 <!--SEC END --><p>
-The main N2O advantage is its sutability for large-scale projects without sacrificing simplicity and comfort of prototyping solutions in fast and dynamic manner.
-Below is an example of complete Web Chat implementation using
-WebSockets that shows how Templates, DSL and asynchronous
-inter-process communication work in N2O.</p><div class="center">Listing 1: chat.erl</div><p><br>
+The main N2O advantage is its sutability for large-scale projects
+without sacrificing simplicity and comfort of prototyping solutions
+in fast and dynamic manner. Below is an example of complete Web Chat
+implementation using WebSockets that shows how Templates, DSL and
+asynchronous inter-process communication work in N2O.</p><div class="center">Listing 1: chat.erl</div><p><br>
 </p><div class="lstlisting">    -module(chat).
     -include_lib("nitro/include/nitro.hrl").
     -compile(export_all).
@@ -229,7 +231,8 @@ one async <span style="font-weight:bold">gen_server</span> worker under supervis
 WebSockets, HTML and JavaScript generation in a simple file that you can
 put in your N2O application directory tree without restart and
 manual compilation. Also you can create single-file bundle
-which is able to run in Windows, Linux and Mac.</p><!--TOC subsection id="sec18" Changes from Nitrogen-->
+which is able to run in Windows, Linux and Mac. Moreover this
+application is ready to run under multiplatform LING Erlang virtual machine.</p><!--TOC subsection id="sec18" Changes from Nitrogen-->
 <h3 id="sec18" class="subsection">Changes from Nitrogen</h3><!--SEC END --><p>
 We took a liberty to break some compatibility with the original
 Nitrogen framework, mostly because we wanted to have a clean codebase

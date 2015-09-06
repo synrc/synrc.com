@@ -152,17 +152,35 @@ Nitrogen DSL you can plug all of them separately.</p><div class="lstlisting">   
     https://github.com/synrc/kvs        2.9
     https://github.com/synrc/active     2.9
     https://github.com/synrc/shen       1.5
+    https://github.com/synrc/rest       1.5
     https://github.com/spawnproc/bpe    1.5
     https://github.com/spawnproc/forms  1.5</div>
 <!--TOC subsection id="sec9" Configuration-->
-<h3 id="sec9" class="subsection">Configuration</h3><!--SEC END --><!--TOC subsection id="sec10" Ports-->
-<h3 id="sec10" class="subsection">Ports</h3><!--SEC END --><p>
-N2O uses two ports for WebSocket and HTTP connections.</p><div class="lstlisting">    wf:config(n2o,port,443)
-    wf:config(n2o,websocket_port,443)</div><p>You can also redefine these ports in bullet connection inside template:</p><div class="lstlisting">    &lt;script&gt; var transition = { pid: '',
-                                host: 'localhost',
-                                port: '443' }; &lt;/script&gt;</div>
-<!--TOC paragraph id="sec11" -->
-<!--SEC END --><p>
+<h3 id="sec9" class="subsection">Configuration</h3><!--SEC END --><p>First argument is a module from which function is being called. By using this
+N2O can filter all log messages with special filter settled with <span style="font-weight:bold">log_modules</span> option.
+It says in which Erlang module function <span style="font-weight:bold">log_modules/0</span> exists that
+returns allowed Erlang modules to log. Option <span style="font-weight:bold">log_level</span> which specified
+in a similar way, it specifies the module with function <span style="font-weight:bold">log_level/0</span> that could
+return one of <span style="font-weight:bold">none</span>, <span style="font-weight:bold">error</span>, <span style="font-weight:bold">warning</span> or <span style="font-weight:bold">info</span> atom values which
+means different error log levels.</p><div class="lstlisting">    -module(config).
+    -compile(export_all).
+
+    log_level() -&gt; info.
+    log_modules() -&gt; [ login, index ].</div><!--TOC subsection id="sec10" Application-->
+<h3 id="sec10" class="subsection">Application</h3><!--SEC END --><p>
+In <span style="font-weight:bold">app</span> setting you should place the name of your OTP application
+that will be treated by N2O and NITRO as a source for templates and
+other static data with <span style="font-weight:bold">code:priv_dir</span>.</p><!--TOC subsection id="sec11" Routes-->
+<h3 id="sec11" class="subsection">Routes</h3><!--SEC END --><p>
+Setting <span style="font-weight:bold">route</span> is a place for the name of Erlang module where
+resides mappings from URL to page modules.</p><!--TOC subsection id="sec12" Message Queue-->
+<h3 id="sec12" class="subsection">Message Queue</h3><!--SEC END --><p>
+In <span style="font-weight:bold">mq</span> settings you should place the name of Erlang module which supports
+message queue API. By default N2O provides <span style="font-weight:bold">n2o_mq</span> module.</p><!--TOC subsection id="sec13" Formatter-->
+<h3 id="sec13" class="subsection">Formatter</h3><!--SEC END --><p>
+With <span style="font-weight:bold">formatter</span> option you may set the formatter parameter.
+As for N2O version 2.9 only <span style="font-weight:bold">bert</span> or <span style="font-weight:bold">json</span> are supported.</p><!--TOC subsection id="sec14" Minimal Page-->
+<h3 id="sec14" class="subsection">Minimal Page</h3><!--SEC END --><p>
 And then add a minimal <span style="font-weight:bold">index.erl</span> page:</p><div class="center">Listing 2: index.erl</div><p><br>
 </p><div class="lstlisting">    -module(index).
     -compile(export_all).
