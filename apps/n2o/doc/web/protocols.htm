@@ -83,8 +83,8 @@
 <h2 id="sec3" class="section">Protocols</h2><!--SEC END --><p>
 If you put regular JSON on the wire sooner or later you will
 discover your own wire protocol. Here is description of
-N2O binary precise protocols stack for a broad range of application.
-N2O also has ASN.1 formal description, however here we will speak on it freely.</p><p>
+N2O binary precise protocols stack for a broad range of applications.
+N2O protocol also has ASN.1 formal description, however here we will speak on it freely.</p><p>
 
 <img src="http://synrc.com/apps/n2o/doc/images/n2o-proto.png" style="margin-left: -20px;margin-botton: 30px; padding:20 20 20 20px;"><br>
 
@@ -100,27 +100,27 @@ We combine all these ideas into one single protocols
 stack for any application/formatter you will ever need
 and provide you stable and mature implementation
 for Erlang in a form of N2O application server that covers
-core protocols.</p><!--TOC subsection id="sec4" Compatibility-->
-<h3 id="sec4" class="subsection">Compatibility</h3><!--SEC END --><p>
-N2O application server
-implemented to support N2O protocol reference implementation
-in Erlang which is widely used in production applications.
+core protocols.</p><!--TOC subsection id="sec4" Cross Language Compatibility-->
+<h3 id="sec4" class="subsection">Cross Language Compatibility</h3><!--SEC END --><p>
+N2O application server implemented to support N2O protocol reference implementation
+in Erlang which is widely used in enterprise applications.
 Experimental implementation in Haskell <span style="font-weight:bold">n2o.hs</span> exists
-which suppors core <span style="font-weight:bold">heart</span> protocol along with <span style="font-weight:bold">bert</span> formatter.
-We will show you that N2O clients are compatible across
+which supports core <span style="font-weight:bold">heart</span> protocol along with <span style="font-weight:bold">bert</span> formatter.
+We will show you how N2O clients are compatible across
 different server implementations in different languages.</p><!--TOC subsection id="sec5" Web Protocols: <span style="font-weight:bold">nitro</span>, <span style="font-weight:bold">spa</span>, <span style="font-weight:bold">bin</span>-->
 <h3 id="sec5" class="subsection">Web Protocols: <span style="font-weight:bold">nitro</span>, <span style="font-weight:bold">spa</span>, <span style="font-weight:bold">bin</span></h3><!--SEC END --><p>
-N2O application server provides definition
-support for several unoverlapped protocol layers. N2O application server covers
-four protocol layers <span style="font-weight:bold">heart</span>, <span style="font-weight:bold">nitro</span>, <span style="font-weight:bold">spa</span> and <span style="font-weight:bold">bin</span> protocols:
-Heartbeat protocol for
-reliable connections and WebSocket initialization; Nitrogen protocol
-for Element and Actions client/server interoperability; SPA protocol
-for games and static page applications that involves no HTML, such as SVG based games, etc;
-and Binary File Transfer Protocol for images and gigabyte file upload and download.</p><!--TOC subsection id="sec6" Social Protocols: <span style="font-weight:bold">roster</span>, <span style="font-weight:bold">muc</span>, <span style="font-weight:bold">search</span>-->
+N2O protocols stack provides definition for several unoverlapped protocol layers.
+N2O application server implementaion of N2O protocol supports
+four protocol layers from this stack: <span style="font-weight:bold">heart</span>, <span style="font-weight:bold">nitro</span>, <span style="font-weight:bold">spa</span> and <span style="font-weight:bold">bin</span> protocols.
+Heartbeat protocol is for reliable connections and WebSocket initialization.
+Nitrogen protocol for <span style="font-weight:bold">#element</span> and <span style="font-weight:bold">#action</span> client/server interoperability.
+SPA protocol dedicated for games and static page applications that involves no HTML,
+such as SVG based games or non-gui IoT applications.
+And finally binary file transfer protocol for images and gigabyte file uploads and downloads.</p><!--TOC subsection id="sec6" Social Protocols: <span style="font-weight:bold">roster</span>, <span style="font-weight:bold">muc</span>, <span style="font-weight:bold">search</span>-->
 <h3 id="sec6" class="subsection">Social Protocols: <span style="font-weight:bold">roster</span>, <span style="font-weight:bold">muc</span>, <span style="font-weight:bold">search</span></h3><!--SEC END --><p>
-For social connectivity one may need to use <span style="font-weight:bold">synrc/roster</span> instant messagin protocol
-with variation for enabling public rooms <span style="font-weight:bold">muc</span> or full-text <span style="font-weight:bold">search</span> facilities.</p><!--TOC subsection id="sec7" Enterprise Protocols: <span style="font-weight:bold">bpe</span>, <span style="font-weight:bold">mq</span>, <span style="font-weight:bold">rest</span>-->
+For social connectivity one may need to use <span style="font-weight:bold">synrc/roster</span> instant messaging server
+that supports <span style="font-weight:bold">roster</span> protocol with variation
+for enabling public rooms <span style="font-weight:bold">muc</span> or full-text <span style="font-weight:bold">search</span> facilities.</p><!--TOC subsection id="sec7" Enterprise Protocols: <span style="font-weight:bold">bpe</span>, <span style="font-weight:bold">mq</span>, <span style="font-weight:bold">rest</span>-->
 <h3 id="sec7" class="subsection">Enterprise Protocols: <span style="font-weight:bold">bpe</span>, <span style="font-weight:bold">mq</span>, <span style="font-weight:bold">rest</span></h3><!--SEC END --><p>
 There is no single system shipped to support all of N2O protocols but it
 could exist theoretically. For other protocols implementation you may refer
@@ -155,7 +155,7 @@ Picture. <span style="font-weight:bold">Messaging Pipeline</span><br>
 <br>
 
 
-ere is pseudocode how message travels for each protocol until some
+Here is pseudocode how message travels for each protocol until some
 of them handle the message. Note tnat this logic is subject to change.</p><div class="center">Listing 1: Top-level protocol loop in n2o_proto</div><p><br>
 </p><div class="lstlisting">    info(M,R,S)               -&gt; push(M,R,S,protocols(),[]).
     stream({text,_}=M,R,S)    -&gt; push(M,R,S,protocols(),[]);
