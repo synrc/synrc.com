@@ -83,14 +83,14 @@
 <!--TOC section id="sec3" Handlers-->
 <h2 id="sec3" class="section">Handlers</h2><!--SEC END --><p>
 HTML and JavaScript Web Server HTTP handlers share the same system
-of context initialization.</p><div class="lstlisting">    init_context(Req) -&gt; #context{
+of context initialization.</p><div class="lstlisting">    init_context(Req) -&gt; #cx{
         actions=[], module=index, path=[],
         req=Req, params=[], session=undefined,
         handlers= [ {'query', wf:config('query', n2o_query)},
                     {session, wf:config(session, n2o_session)},
                     {route,   wf:config(route,   n2o_route)} ]}.</div><p>Chain of three N2O handlers that are always called
 on each HTTP request. You can redefine any of them or plug your own
-additional handler in the chain to transform web server requests.</p><div class="center">Listing 1: wf_context:fold/3</div><p><br>
+additional handler in the chain to transform web server requests.</p><div class="center">Listing 1: wf:fold/3</div><p><br>
 </p><div class="lstlisting">    fold(Fun,Handlers,Ctx) -&gt;
         lists:foldl(fun({_,Module},Ctx1) -&gt;
             {ok,_,NewCtx} = Module:Fun([],Ctx1),
@@ -103,28 +103,25 @@ Query Handler parses URL query and HTTP form information from HTTP request.</p>
 Session Handler manages key-value in-memory database ETS table.</p>
 <!--TOC subsection id="sec6" Router-->
 <h3 id="sec6" class="subsection">Router</h3><!--SEC END --><p>
-You can specify routing table with application config:</p><div class="lstlisting">    {n2o, [{route,custom_router}]}</div><p>Remember that routing handler should be kept very simple because it
-influences overall initial page load latency and HTTP capacity.</p><div class="center">Listing 2: n2o_route.erl</div><p><br>
-</p><div class="lstlisting">    -module (n2o_route).
-    -author('Maxim Sokhatsky').
+You can specify routing table with application config:</p><div class="lstlisting">    {n2o, [{route,n2o_route}]}</div><p>Remember that routing handler should be kept very simple because it
+influences overall initial page load latency and HTTP capacity.</p><div class="lstlisting">    -module(n2o_route).
     -include_lib("n2o/include/wf.hrl").
     -export(?ROUTING_API).
 
-    finish(State, Ctx) -&gt; {ok, State, Ctx}.
-    init(State, Ctx) -&gt;
-        Path = wf:path(Ctx#context.req),
-        Module = route_prefix(Path),
-        {ok, State, Ctx#context{path=Path,module=Module}}.
+    finish(S, Cx) -&gt; {ok, S, Cx}.
+    init(S, Cx)   -&gt; P = wf:path(Cx#context.req),
+                     M = prefix(Path),
+                     {ok, S, Cx#cx{path=P,module=M}}.
 
-    route_prefix(&lt;&lt;"/ws/",P/binary&gt;&gt;) -&gt; route(P);
-    route_prefix(&lt;&lt;"/",P/binary&gt;&gt;) -&gt; route(P);
-    route_prefix(P) -&gt; route(P).
+    prefix(&lt;&lt;"/ws/",P/binary&gt;&gt;) -&gt; route(P);
+    prefix(&lt;&lt;"/",P/binary&gt;&gt;)    -&gt; route(P);
+    prefix(P)                   -&gt; route(P).
 
-    route(&lt;&lt;&gt;&gt;)              -&gt; index;
-    route(&lt;&lt;"index"&gt;&gt;)       -&gt; index;
-    route(&lt;&lt;"login"&gt;&gt;)       -&gt; login;
-    route(&lt;&lt;"favicon.ico"&gt;&gt;) -&gt; static_file;
-    route(_) -&gt; index.</div><p>
+    route(&lt;&lt;&gt;&gt;)                 -&gt; index;
+    route(&lt;&lt;"index"&gt;&gt;)          -&gt; index;
+    route(&lt;&lt;"login"&gt;&gt;)          -&gt; login;
+    route(&lt;&lt;"favicon.ico"&gt;&gt;)    -&gt; index;
+    route(_)                    -&gt; index.</div><p>
 
     <div id="disqus_thread"></div>
     <script type="text/javascript">

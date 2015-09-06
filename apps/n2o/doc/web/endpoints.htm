@@ -91,10 +91,10 @@ However you are not required to use any of these.
 You can implement your own endpoint handlers, e.g. for using with
 Meteor.js or Angular.js and providing Erlang back-end event streaming
 from server-side. Here is an example of using HTTP, WebSocket and
-REST endpoint handlers with Cowboy Web Server.</p><div class="lstlisting">    {"/rest/:resource", rest_cowboy, []},
+REST endpoint handlers with Cowboy Web Server.</p><div class="lstlisting">    {"/rest/:resource",     rest_cowboy, []},
     {"/rest/:resource/:id", rest_cowboy, []},
-    {"/ws/[...]", bullet_handler, [{handler, n2o_bullet}]},
-    {'_', n2o_cowboy, []}</div>
+    {"/ws/[...]",           n2o_stream,  []},
+    {'_',                   n2o_cowboy,  []}</div>
 <!--TOC subsection id="sec5" HTML Pages over HTTP-->
 <h3 id="sec5" class="subsection">HTML Pages over HTTP</h3><!--SEC END --><p>
 This handler is used for serving initial dynamic HTML page.
@@ -114,8 +114,8 @@ of N2O handlers is called.</p>
 <!--TOC paragraph id="sec8" -->
 <!--SEC END --><p>
 This handler knows how to deal with XHR and WebSocket requests.
-<span style="font-weight:bold">n2o</span><span style="font-weight:bold">_</span><span style="font-weight:bold">bullet</span> is a default JavaScript event handler
-based on Bullet library created by Loïc Hoguin.</p>
+<span style="font-weight:bold">n2o</span><span style="font-weight:bold">_</span><span style="font-weight:bold">stream</span> is a default JavaScript event handler
+based on Bullet library created by Loïc Hoguin, optimized and refined.</p>
 <!--TOC paragraph id="sec9" -->
 <!--SEC END --><p>
 You can send several types of events directly from JavaScript

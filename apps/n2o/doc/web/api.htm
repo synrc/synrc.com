@@ -231,7 +231,7 @@ will be used. Internally each async process includes custom key which
 is settled by default to session id.</p><p>So let’s mimic <span style="font-weight:bold">session_id</span> and <span style="font-weight:bold">#cx</span> in the shell:</p><div class="lstlisting">    &gt; put(session_id,&lt;&lt;"d43adcc79dd64393a1eb559227a2d3fd"&gt;&gt;).
       undefined
 
-    &gt; wf:context(wf_context:init_context(undefined)).
+    &gt; wf:context(wf:init_context(undefined)).
       {cx,[{query,n2o_query},
            {session,n2o_session},
            {route,routes}],
@@ -268,8 +268,8 @@ These are used to extract URL parameters or read from the process context.
 <span style="font-weight:bold">wf:qp</span> extracts variables from URL params provieded by cowboy bridge.
 <span style="font-weight:bold">wf:qc</span> extracts variables from <span style="font-weight:bold">#cx.params</span> context parsed with
 custom query handler during endpoint initialization usually performed
-inside N2O with something like.</p><div class="lstlisting">    Ctx = wf_context:init_context(Req),
-    NewCtx = wf_context:fold(init,Ctx#cx.handlers,Ctx),
+inside N2O with something like.</p><div class="lstlisting">    Ctx = wf:init_context(Req),
+    NewCtx = wf:fold(init,Ctx#cx.handlers,Ctx),
     wf:context(NewCtx),</div>
 <!--TOC subsection id="sec18" Render <span style="font-weight:bold">wf:render</span> or <span style="font-weight:bold">nitro:render</span>-->
 <h3 id="sec18" class="subsection">Render <span style="font-weight:bold">wf:render</span> or <span style="font-weight:bold">nitro:render</span></h3><!--SEC END --><p>
@@ -284,7 +284,7 @@ This is simple sample you may use in static site generators, but in N2O context
 you also may need to manual render JavaScript actions produced during HTML rendering.
 First of all you should know that process in which you want to render should be
 initialized with N2O <span style="font-weight:bold">#cx</span> context. Here is example of JavaScript
-produced during previous <span style="font-weight:bold">#button</span> rendering:</p><div class="lstlisting">    &gt; wf:context(wf_context:init_context([])).
+produced during previous <span style="font-weight:bold">#button</span> rendering:</p><div class="lstlisting">    &gt; wf:context(wf:init_context([])).
       undefined
 
     &gt; rp(iolist_to_binary(nitro:render(wf:actions()))).

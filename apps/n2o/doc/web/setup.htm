@@ -116,7 +116,6 @@ for passing HTTP, REST, WebSocket and Static N2O endpoints:</p><div class="cente
   static() -&gt;   { dir, "apps/review/priv/static", mime() }.
   n2o()    -&gt;   { dir, "deps/n2o/priv",           mime() }.
   mime()   -&gt; [ { mimetypes, cow_mimetypes, all   } ].
-
   points() -&gt; cowboy_router:compile([{'_', [
 
               { "/static/[...]",       n2o_static,  static()},
@@ -171,7 +170,8 @@ Nitrogen DSL you can plug all of them separately.</p><div class="lstlisting">   
                       kvs_subscription ]} ]} ].</div><!--TOC subsection id="sec10" Ports-->
 <h3 id="sec10" class="subsection">Ports</h3><!--SEC END --><p>
 N2O uses two ports for WebSocket and HTTP connections.</p><div class="lstlisting">    wf:config(n2o,port,443)
-    wf:config(n2o,websocket_port,443)</div><p>You can also redefine these ports in bullet connection inside template:</p><div class="lstlisting">    &lt;script&gt; var transition = { pid: '',
+    wf:config(n2o,websocket_port,443)</div><p>If you use server pages mode N2O will render HTML with nessesary ports values.
+For single page application mode you should redefine these ports inside the template:</p><div class="lstlisting">    &lt;script&gt; var transition = { pid: '',
                                 host: 'localhost',
                                 port: '443' }; &lt;/script&gt;</div><!--TOC subsection id="sec11" Application-->
 <h3 id="sec11" class="subsection">Application</h3><!--SEC END --><p>
