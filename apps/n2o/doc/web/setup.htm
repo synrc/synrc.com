@@ -156,7 +156,41 @@ Nitrogen DSL you can plug all of them separately.</p><div class="lstlisting">   
     https://github.com/spawnproc/bpe    1.5
     https://github.com/spawnproc/forms  1.5</div>
 <!--TOC subsection id="sec9" Configuration-->
-<h3 id="sec9" class="subsection">Configuration</h3><!--SEC END --><p>First argument is a module from which function is being called. By using this
+<h3 id="sec9" class="subsection">Configuration</h3><!--SEC END --><div class="center">Listing 2: sys.config</div><p><br>
+</p><div class="lstlisting">    [{n2o, [{port,8000},
+            {app,review},
+            {route,routes},
+            {mq,n2o_mq},
+            {formatter,bert},
+            {log_modules,config},
+            {log_level,config},
+            {log_backend,n2o_log},
+            {session,n2o_session},
+            {origin,&lt;&lt;"*"&gt;&gt;},
+            {bridge,n2o_cowboy},
+            {pickler,n2o_pickler},
+            {erroring,n2o_error}]},
+     {kvs, [{dba,store_mnesia},
+            {schema, [kvs_user,
+                      kvs_acl,
+                      kvs_feed,
+                      kvs_subscription ]} ]} ].</div><!--TOC subsection id="sec10" Ports-->
+<h3 id="sec10" class="subsection">Ports</h3><!--SEC END --><p>
+N2O uses two ports for WebSocket and HTTP connections.</p><div class="lstlisting">    wf:config(n2o,port,443)
+    wf:config(n2o,websocket_port,443)</div><p>You can also redefine these ports in bullet connection inside template:</p><div class="lstlisting">    &lt;script&gt; var transition = { pid: '',
+                                host: 'localhost',
+                                port: '443' }; &lt;/script&gt;</div><!--TOC subsection id="sec11" Application-->
+<h3 id="sec11" class="subsection">Application</h3><!--SEC END --><p>
+In <span style="font-weight:bold">app</span> setting you should place the name of your OTP application
+that will be treated by N2O and NITRO as a source for templates and
+other static data with <span style="font-weight:bold">code:priv_dir</span>.</p><!--TOC subsection id="sec12" Routes-->
+<h3 id="sec12" class="subsection">Routes</h3><!--SEC END --><p>
+Setting <span style="font-weight:bold">route</span> is a place for the name of Erlang module where
+resides mappings from URL to page modules.</p><!--TOC subsection id="sec13" Logging-->
+<h3 id="sec13" class="subsection">Logging</h3><!--SEC END --><p>
+N2O supports logging API and you can plug different logging module.
+It ships with <span style="font-weight:bold">n2o_io</span> and <span style="font-weight:bold">n2o_log</span> modules which you can set in the
+<span style="font-weight:bold">log_backend</span> option. This is how loggin is looks like in N2O:</p><div class="lstlisting">    wf:info(index,"Message: ~p",[Message]),</div><p>First argument is a module from which function is being called. By using this
 N2O can filter all log messages with special filter settled with <span style="font-weight:bold">log_modules</span> option.
 It says in which Erlang module function <span style="font-weight:bold">log_modules/0</span> exists that
 returns allowed Erlang modules to log. Option <span style="font-weight:bold">log_level</span> which specified
@@ -166,15 +200,15 @@ means different error log levels.</p><div class="lstlisting">    -module(config)
     -compile(export_all).
 
     log_level() -&gt; info.
-    log_modules() -&gt; [ login, index ].</div><!--TOC subsection id="sec10" Message Queue-->
-<h3 id="sec10" class="subsection">Message Queue</h3><!--SEC END --><p>
+    log_modules() -&gt; [ login, index ].</div><!--TOC subsection id="sec14" Message Queue-->
+<h3 id="sec14" class="subsection">Message Queue</h3><!--SEC END --><p>
 In <span style="font-weight:bold">mq</span> settings you should place the name of Erlang module which supports
-message queue API. By default N2O provides <span style="font-weight:bold">n2o_mq</span> module.</p><!--TOC subsection id="sec11" Formatter-->
-<h3 id="sec11" class="subsection">Formatter</h3><!--SEC END --><p>
+message queue API. By default N2O provides <span style="font-weight:bold">n2o_mq</span> module.</p><!--TOC subsection id="sec15" Formatter-->
+<h3 id="sec15" class="subsection">Formatter</h3><!--SEC END --><p>
 With <span style="font-weight:bold">formatter</span> option you may set the formatter parameter.
-As for N2O version 2.9 only <span style="font-weight:bold">bert</span> or <span style="font-weight:bold">json</span> are supported.</p><!--TOC subsection id="sec12" Minimal Page-->
-<h3 id="sec12" class="subsection">Minimal Page</h3><!--SEC END --><p>
-And then add a minimal <span style="font-weight:bold">index.erl</span> page:</p><div class="center">Listing 2: index.erl</div><p><br>
+As for N2O version 2.9 only <span style="font-weight:bold">bert</span> or <span style="font-weight:bold">json</span> are supported.</p><!--TOC subsection id="sec16" Minimal Page-->
+<h3 id="sec16" class="subsection">Minimal Page</h3><!--SEC END --><p>
+And then add a minimal <span style="font-weight:bold">index.erl</span> page:</p><div class="center">Listing 3: index.erl</div><p><br>
 </p><div class="lstlisting">    -module(index).
     -compile(export_all).
     -include_lib("nitroo/include/nitro.hrl").
