@@ -136,7 +136,7 @@ handled by N2O, which renders elements to HTML and actions to
 JavaScript. Each user at any time has only one WebSocket process
 per connection.</p><div class="lstlisting">    event(init) -&gt; wf:reg(room);
     event(chat) -&gt; #insert_top(history,#span{body="message"}),
-                   wf:send(room,#flush{data=wf:actions()}).</div><p>This code will register all WebSocket processes under the same
+                   wf:flush(room).</div><p>This code will register all WebSocket processes under the same
 topic in pubsub and broadcast history changing to all registered
 process in the system under the same topic using <span style="font-weight:bold">#flush</span>
 NITRO protocol message.</p>
