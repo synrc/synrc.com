@@ -97,40 +97,34 @@ is bundled as an Erlang release.</p><div class="lstlisting">    $ git clone git:
 If you want to start using N2O inside your application, you can use Cowboy dispatch parameter
 for passing HTTP, REST, WebSocket and Static N2O endpoints:</p><div class="center">Listing 1: review.erl</div><p><br>
 </p><div class="lstlisting">
-  -module(review).
-  -behaviour(supervisor).
-  -behaviour(application).
-  -export([init/1, start/0, start/2, stop/1, main/1]).
+-module(review).
+-behaviour(supervisor).
+-behaviour(application).
+-export([init/1, start/2, stop/1, main/1]).
+-include_lib("kvs/include/user.hrl").
 
-  main(A) -&gt; mad:main(A).
+main(A)    -&gt; mad:main(A).
+start(_,_) -&gt; supervisor:start_link({local,review},review,[]).
+stop(_)    -&gt; ok.
+init([])   -&gt; case cowboy:start_http(http,3,port(),env()) of
+                   {ok, _}   -&gt; ok;
+                   {error,_} -&gt; halt(abort,[]) end, sup().
 
-  start() -&gt; start(normal, []).
-  stop(_State) -&gt; ok.
-  start(_StartType, _StartArgs) -&gt;
-    supervisor:start_link({local, ?MODULE}, ?MODULE, []).
+sup()    -&gt; { ok, { { one_for_one, 5, 100 }, [] } }.
+port()   -&gt; [ { port, wf:config(n2o,port,8000)  } ].
+env()    -&gt; [ { env, [ { dispatch, points() } ] } ].
+static() -&gt;   { dir, "apps/review/priv/static", mime() }.
+n2o()    -&gt;   { dir, "deps/n2o/priv",           mime() }.
+mime()   -&gt; [ { mimetypes, cow_mimetypes, all   } ].
 
-  init([]) -&gt; case cowboy:start_http(http, 3,
-    [ { port, wf:config(n2o,port,8000)      } ],
-    [ { env, [{dispatch, dispatch_rules()}] } ]) of
-      { ok, _ } -&gt; ok;
-              X -&gt; io:format("Unknown Error: ~p~n",[X]),
-                   halt(abort,[]) end,
+points() -&gt; cowboy_router:compile([{'_', [
 
-      { ok, {{one_for_one, 5, 10}, []} }.
-
-  mime()   -&gt; [ { mimetypes, cow_mimetypes, all } ].
-  static() -&gt;   { dir, "apps/review/priv/static", mime() }.
-  n2o()    -&gt;   { dir, "deps/n2o/priv", mime() }.
-  ws()     -&gt; [ { handler, n2o_bullet } ].
-  nop()    -&gt; [ ].
-
-  dispatch_rules() -&gt; cowboy_router:compile([  { '_', [
-    { "/static/[...]",       n2o_dynalo,     static() },
-    { "/n2o/[...]",          n2o_dynalo,     n2o()    },
-    { "/rest/:resource",     rest_cowboy,    nop()    },
-    { "/rest/:resource/:id", rest_cowboy,    nop()    },
-    { "/ws/[...]",           bullet_handler, ws()     },
-    { '_',                   n2o_cowboy,     nop()    } ] } ] ).</div><p>While Listing 2 is a little bit criptic we want to say that N2O
+            { "/static/[...]",       n2o_static,  static()},
+            { "/n2o/[...]",          n2o_static,  n2o()},
+            { "/rest/:resource",     rest_cowboy, []},
+            { "/rest/:resource/:id", rest_cowboy, []},
+            { "/ws/[...]",           n2o_stream,  []},
+            { '_',                   n2o_cowboy,  []} ]}]).</div><p>While Listing 2 is a little bit criptic we want to say that N2O
 intentionally not introduced here any syntax sugar.
 For any Erlang application you need to create application
 and supervisor behavior modules which we combined in the
