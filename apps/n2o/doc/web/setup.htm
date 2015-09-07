@@ -95,13 +95,12 @@ is bundled as an Erlang release.</p><div class="lstlisting">    $ git clone git:
 <!--TOC subsection id="sec6" Application Template-->
 <h3 id="sec6" class="subsection">Application Template</h3><!--SEC END --><p>
 If you want to start using N2O inside your application, you can use Cowboy dispatch parameter
-for passing HTTP, REST, WebSocket and Static N2O endpoints:</p><div class="center">Listing 1: review.erl</div><p><br>
+for passing HTTP, REST, WebSocket and Static N2O endpoints:</p><div class="center">Listing 1: sample.erl</div><p><br>
 </p><div class="lstlisting">
-  -module(review).
+  -module(sample).
   -behaviour(supervisor).
   -behaviour(application).
   -export([init/1, start/2, stop/1, main/1]).
-  -include_lib("kvs/include/user.hrl").
 
   main(A)    -&gt; mad:main(A).
   start(_,_) -&gt; supervisor:start_link({local,review},review,[]).
@@ -113,15 +112,13 @@ for passing HTTP, REST, WebSocket and Static N2O endpoints:</p><div class="cente
   sup()    -&gt; { ok, { { one_for_one, 5, 100 }, [] } }.
   port()   -&gt; [ { port, wf:config(n2o,port,8000)  } ].
   env()    -&gt; [ { env, [ { dispatch, points() } ] } ].
-  static() -&gt;   { dir, "apps/review/priv/static", mime() }.
+  static() -&gt;   { dir, "apps/sample/priv/static", mime() }.
   n2o()    -&gt;   { dir, "deps/n2o/priv",           mime() }.
   mime()   -&gt; [ { mimetypes, cow_mimetypes, all   } ].
   points() -&gt; cowboy_router:compile([{'_', [
 
               { "/static/[...]",       n2o_static,  static()},
               { "/n2o/[...]",          n2o_static,  n2o()},
-              { "/rest/:resource",     rest_cowboy, []},
-              { "/rest/:resource/:id", rest_cowboy, []},
               { "/ws/[...]",           n2o_stream,  []},
               { '_',                   n2o_cowboy,  []} ]}]).</div><p>While Listing 2 is a little bit criptic we want to say that N2O
 intentionally not introduced here any syntax sugar.
