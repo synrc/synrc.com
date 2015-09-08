@@ -162,15 +162,13 @@ In typed theory Pi-calculus defines also the typing system (could be System F, e
 input and outputs of processes or function signatures specified in process definition.
 In BPE the role of types was taken by document types, which is simple Erlang records,
 so in BPE workflow processing is type-safe on compilation stage with respect to document types.</p><div class="lstlisting">    1&gt; #deposit{} = bpe:doc(#deposit{}, pid(0,185,0)).</div>
-<!--TOC subsection id="sec16" Systems-->
-<h3 id="sec16" class="subsection">Systems</h3><!--SEC END -->
-<!--TOC subsection id="sec17" Scenarios-->
-<h3 id="sec17" class="subsection">Scenarios</h3><!--SEC END --><p>
+<!--TOC subsection id="sec16" Scenarios-->
+<h3 id="sec16" class="subsection">Scenarios</h3><!--SEC END --><p>
 Workflows are complimentary to business rules and could be specified separately.
 BPE definitions provides front API to the end-user application.
 Workflow Engine – is an Erlang/OTP application which handles process definitions,
 process instances, and provides very clean API for Workplaces.</p>
-<!--TOC paragraph id="sec18" -->
+<!--TOC paragraph id="sec17" -->
 <!--SEC END --><p>
 Before using Process Engine you need to define the set of business process
 workflows of your enterprise. This could be done via Erlang terms or some DSL
@@ -206,11 +204,11 @@ workflow definition:</p><div class="lstlisting">    bpe:start(#process{name="Ord
              #messageEvent{name="PaymentReceived"}
         ]
     }.</div>
-<!--TOC subsection id="sec19" Actions-->
-<h3 id="sec19" class="subsection">Actions</h3><!--SEC END --><p>Business rules should be specified by developers.
+<!--TOC subsection id="sec18" Actions-->
+<h3 id="sec18" class="subsection">Actions</h3><!--SEC END --><p>Business rules should be specified by developers.
 RETE is used for rules specifications which can be triggered during workflow.</p>
-<!--TOC subsection id="sec20" BPMN 2.0-->
-<h3 id="sec20" class="subsection">BPMN 2.0</h3><!--SEC END --><p>The workflow definition uses following persistent workflow model which is stored in KVS:</p><div class="lstlisting">    -record(task,         { name, id, roles, module }).
+<!--TOC subsection id="sec19" BPMN 2.0-->
+<h3 id="sec19" class="subsection">BPMN 2.0</h3><!--SEC END --><p>The workflow definition uses following persistent workflow model which is stored in KVS:</p><div class="lstlisting">    -record(task,         { name, id, roles, module }).
     -record(userTask,     { name, id, roles, module }).
     -record(serviceTask,  { name, id, roles, module }).
     -record(messageEvent, { name, id, payload }).
@@ -224,38 +222,37 @@ RETE is used for rules specifications which can be triggered during workflow.</p
                             docs=[], task, beginEvent,
                             endEvent }).</div><p>Full set of BPMN 2.0 fields could be obtained at <a href="http://www.omg.org/spec/BPMN/2.0">OMG definition document, page 3-7</a>.</p><p>Unusual that BPE process implemented as <span style="font-weight:bold">gen_server</span> rather
 that <span style="font-weight:bold">gen_fsm</span>:</p><div class="center">Listing 1: Boundary Event</div><p><br>
-</p><div class="lstlisting">    process_event(Event, Proc) -&gt;
-        Targets = bpe_task:targets(Event#messageEvent.name,Proc),
-        {Status,{Reason,Target},ProcState} =
-               bpe_event:handle_event(Event,
-                  bpe_task:find_flow(Targets),Proc),
-        NewProcState = ProcState#process{task = Target},
-        FlowReply = fix_reply({Status,{Reason,Target},NewProcState}),
-        kvs:put(NewProcState),
-        FlowReply.</div><div class="center">Listing 2: Flow Processing</div><p><br>
-</p><div class="lstlisting">    process_flow(Proc) -&gt;
-        Curr = Proc#process.task,
-        Term = [],
-        Task = bpe:task(Curr,Proc),
-        Targets = bpe_task:targets(Curr,Proc),
-        {Status,{Reason,Target},ProcState}
-          = case {Targets,Proc#process.task} of
-             {[],Term} -&gt; bpe_task:already_finished(Proc);
-             {[],Curr} -&gt; bpe_task:handle_task(Task,Curr,Curr,Proc);
-             {[],_}    -&gt; bpe_task:denied_flow(Curr,Proc);
-             {List,_}  -&gt; bpe_task:handle_task(Task,Curr,
-                          bpe_task:find_flow(List),Proc) end,
+</p><div class="lstlisting">  process_event(Event, Proc) -&gt;
+    Targets = bpe_task:targets(element(#event.name,Event),Proc),
+    {Status,{Reason,Target},ProcState} =
+      bpe_event:handle_event(Event,
+        bpe_task:find_flow(Targets),Proc),
+    NewState = ProcState#process{task = Target},
+    FlowReply = fix_reply({Status,{Reason,Target},NewState}),
+    kvs:put(NewState),
+    FlowReply.</div><div class="center">Listing 2: Flow Processing</div><p><br>
+</p><div class="lstlisting">  process_flow(Proc) -&gt;
+    Curr = Proc#process.task,
+    Term = [],
+    Task = bpe:task(Curr,Proc),
+    Targets = bpe_task:targets(Curr,Proc),
+    {Status,{Reason,Target},ProcState}
+      = case {Targets,Proc#process.task} of
+    {[],Term} -&gt; bpe_task:already_finished(Proc);
+    {[],Curr} -&gt; bpe_task:handle_task(Task,Curr,Curr,Proc);
+    {[],_}    -&gt; bpe_task:denied_flow(Curr,Proc);
+    {List,_}  -&gt; bpe_task:handle_task(Task,Curr,
+                bpe_task:find_flow(List),Proc) end,
 
-        kvs:add(#history{ id = kvs:next_id("history",1),
-                          feed_id = {history,ProcState#process.id},
-                          name = ProcState#process.name,
-                          task = {task, Curr} }),
+    kvs:add(#history{ id = kvs:next_id("history",1),
+        feed_id = {history,ProcState#process.id},
+        name = ProcState#process.name,
+        task = {task, Curr} }),
 
-        NewProcState = ProcState#process{task = Target},
-
-        FlowReply = fix_reply({Status,{Reason,Target},NewProcState}),
-        kvs:put(NewProcState),
-        FlowReply.</div><div class="center">Listing 3: BPE protocol</div><p><br>
+    NewState = ProcState#process{task = Target},
+    FlowReply = fix_reply({Status,{Reason,Target},NewState}),
+    kvs:put(NewState),
+    FlowReply.</div><div class="center">Listing 3: BPE protocol</div><p><br>
 </p><div class="lstlisting">    {run}
     {until,_}
     {complete}
@@ -263,13 +260,8 @@ that <span style="font-weight:bold">gen_fsm</span>:</p><div class="center">Listi
     {amend,_}
     {amend,_,_}
     {event,_}</div>
-<!--TOC subsection id="sec21" Sample Process-->
-<h3 id="sec21" class="subsection">Sample Process</h3><!--SEC END -->
-<!--TOC subsection id="sec22" Erlang Session-->
-<h3 id="sec22" class="subsection">Erlang Session</h3><!--SEC END --><p>
-<br>
-
-</p><div class="lstlisting">  &gt; kvs:join().
+<!--TOC subsection id="sec20" Erlang Session-->
+<h3 id="sec20" class="subsection">Erlang Session</h3><!--SEC END --><div class="lstlisting">  &gt; kvs:join().
     ok
 
   &gt; rr(bpe).
@@ -293,20 +285,21 @@ that <span style="font-weight:bold">gen_fsm</span>:</p><div class="center">Listi
   &gt; gen_server:call(39,{complete}).
 
   &gt; bpe:history(39).
-    [#history{id = 28,version = undefined,container = feed,
-              feed_id = {history,39},
-              prev = 27,next = undefined,feeds = [],guard = true,
-              etc = undefined,name = "Order1",
+    [#history{id = 28, version = undefined, container = feed,
+              feed_id = {history,39}, prev = 27,next = undefined,
+              feeds = [], guard = true,
+              etc = undefined, name = "Order1",
               task = {task,'Start'}},
-     #history{id = 27,version = undefined,container = feed,
-              feed_id = {history,39},
-              prev = 26,next = 28,feeds = [],guard = true,etc = undefined,
+     #history{id = 27, version = undefined, container = feed,
+              feed_id = {history,39}, prev = 26, next = 28
+              feeds = [], guard = true,
+              etc = undefined,
               name = "Order1",
               task = {task,'Mid'}},
-     #history{id = 26,version = undefined,container = feed,
-              feed_id = {history,39},
-              prev = undefined,next = 27,feeds = [],guard = true,
-              etc = undefined,name = 'Order1',
+     #history{id = 26, version = undefined, container = feed,
+              feed_id = {history,39}, prev = undefined,
+              next = 27, feeds = [], guard = true,
+              etc = undefined, name = 'Order1',
               task = {task,'Finish'}}]</div><p>
 
     <div id="disqus_thread"></div>
