@@ -274,12 +274,12 @@ that <span style="font-weight:bold">gen_fsm</span>:</p><div class="center">Listi
      messageEvent,process,sequenceFlow,serviceTask,task,userTask]
 
   &gt; bpe:start(#process{name="Order1",
-             flows=[#sequenceFlow{source="begin",target="mid"},
-                    #sequenceFlow{source="mid",target="end"}],
-             tasks=[#userTask{name="begin"},
-                    #userTask{name="mid"},
-                    #userTask{name="end"}],
-             task="begin",beginEvent="begin",endEvent="end"},[]).
+             flows=[#sequenceFlow{source='begin',target='mid'},
+                    #sequenceFlow{source='mid',target='end'}],
+             tasks=[#userTask{name='begin'},
+                    #userTask{name='mid'},
+                    #userTask{name='end'}],
+             task='begin',beginEvent='begin',endEvent='end'},[]).
     bpe_proc:Process 39 spawned &lt;0.12399.0&gt;
     {ok,39}
 
@@ -293,18 +293,18 @@ that <span style="font-weight:bold">gen_fsm</span>:</p><div class="center">Listi
     [#history{id = 28,version = undefined,container = feed,
               feed_id = {history,39},
               prev = 27,next = undefined,feeds = [],guard = true,
-              etc = undefined,name = "Order11",
-              task = {task,"end"}},
+              etc = undefined,name = "Order1",
+              task = {task,'end'}},
      #history{id = 27,version = undefined,container = feed,
               feed_id = {history,39},
               prev = 26,next = 28,feeds = [],guard = true,etc = undefined,
-              name = "Order11",
-              task = {task,"mid"}},
+              name = "Order1",
+              task = {task,'mid'}},
      #history{id = 26,version = undefined,container = feed,
               feed_id = {history,39},
               prev = undefined,next = 27,feeds = [],guard = true,
-              etc = undefined,name = "Order11",
-              task = {task,"begin"}}]</div><p>
+              etc = undefined,name = 'Order1',
+              task = {task,'begin'}}]</div><p>
 
     <div id="disqus_thread"></div>
     <script type="text/javascript">
