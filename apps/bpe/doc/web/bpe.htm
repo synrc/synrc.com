@@ -48,15 +48,15 @@
 <h2 id="sec1" class="section">TOC</h2><!--SEC END -->
 <!--TOC paragraph id="sec2" -->
 <!--SEC END --><p>
-<a href="http://synrc.com/apps/bpe/doc/web">Intro</a> <br>
+<a href="index.htm">Intro</a> <br>
 
-<a href="http://synrc.com/apps/bpe/doc/web/tps.htm">1. Processing</a> <br>
+<a href="tps.htm">1. Processing</a> <br>
 
-<a href="http://synrc.com/apps/bpe/doc/web/bpe.htm">2. Workflows</a> <br>
+<a href="bpe.htm">2. Workflows</a> <br>
 
-<a href="http://synrc.com/apps/bpe/doc/web/forms.htm">3. Forms</a> <br>
+<a href="forms.htm">3. Forms</a> <br>
 
-<a href="http://synrc.com/apps/bpe/doc/web/upl.htm">4. Language</a> <br>
+<a href="upl.htm">4. Language</a> <br>
 </p><p><a href="http://synrc.com/apps/bpe/doc/book.pdf">Download PDF</a> <br>
 
 </p></div>
@@ -175,13 +175,13 @@ process instances, and provides very clean API for Workplaces.</p>
 Before using Process Engine you need to define the set of business process
 workflows of your enterprise. This could be done via Erlang terms or some DSL
 that lately converted to Erlang terms. Internally BPE uses Erlang terms
-workflow definition:</p><div class="lstlisting">    bpe:start(#process{name="Order Form",
-       flows=[ #sequenceFlow{source="begin",target="fill_form"},
-               #sequenceFlow{source="fill_form",target="end"}],
-       tasks=[ #userTask{name="begin"},
-               #userTask{name="fill_form"},
-               #endEvent{name="end"}],
-       task="begin",beginEvent="begin",endEvent="end"},[]).</div><p>Slightly bigger example:</p><div class="lstlisting">    deposit_app() -&gt; #process { name = 'Create Deposit Account',
+workflow definition:</p><div class="lstlisting">    bpe:start(#process{name="Order1",
+             flows=[#sequenceFlow{source='Start',target='Mid'},
+                    #sequenceFlow{source='Mid',target='Finish'}],
+             tasks=[#userTask{name='Start'},
+                    #userTask{name='Mid'},
+                    #userTask{name='Finish'}],
+             beginEvent='Start',endEvent='Finish'},[]).</div><p>Slightly bigger example:</p><div class="lstlisting">    deposit_app() -&gt; #process { name = 'Create Deposit Account',
 
         flows = [
             #sequenceFlow{source='Init',      target='Payment'},
@@ -189,7 +189,7 @@ workflow definition:</p><div class="lstlisting">    bpe:start(#process{name="Ord
             #sequenceFlow{source='Payment',   target='Process'},
             #sequenceFlow{source='Process',   target='Final'},
             #sequenceFlow{source='Signatory', target='Process'},
-            #sequenceFlow{source='Signatory', target='Final'}
+            #sequenceFlow{source='Signatory', target='Finish'}
         ],
 
         tasks = [
@@ -197,7 +197,7 @@ workflow definition:</p><div class="lstlisting">    bpe:start(#process{name="Ord
             #userTask    { name='Signatory', module = deposit},
             #serviceTask { name='Payment',   module = deposit},
             #serviceTask { name='Process',   module = deposit},
-            #endEvent    { name='Final'}
+            #endEvent    { name='Finish'}
         ],
 
         beginEvent = 'Init',
@@ -266,7 +266,10 @@ that <span style="font-weight:bold">gen_fsm</span>:</p><div class="center">Listi
 <!--TOC subsection id="sec21" Sample Process-->
 <h3 id="sec21" class="subsection">Sample Process</h3><!--SEC END -->
 <!--TOC subsection id="sec22" Erlang Session-->
-<h3 id="sec22" class="subsection">Erlang Session</h3><!--SEC END --><div class="lstlisting">  &gt; kvs:join().
+<h3 id="sec22" class="subsection">Erlang Session</h3><!--SEC END --><p>
+<br>
+
+</p><div class="lstlisting">  &gt; kvs:join().
     ok
 
   &gt; rr(bpe).
@@ -274,12 +277,12 @@ that <span style="font-weight:bold">gen_fsm</span>:</p><div class="center">Listi
      messageEvent,process,sequenceFlow,serviceTask,task,userTask]
 
   &gt; bpe:start(#process{name="Order1",
-             flows=[#sequenceFlow{source='begin',target='mid'},
-                    #sequenceFlow{source='mid',target='end'}],
-             tasks=[#userTask{name='begin'},
-                    #userTask{name='mid'},
-                    #userTask{name='end'}],
-             task='begin',beginEvent='begin',endEvent='end'},[]).
+             flows=[#sequenceFlow{source='Start',target='Mid'},
+                    #sequenceFlow{source='Mid',target='Finish'}],
+             tasks=[#userTask{name='Start'},
+                    #userTask{name='Mid'},
+                    #userTask{name='Finish'}],
+             beginEvent='Start',endEvent='Finish'},[]).
     bpe_proc:Process 39 spawned &lt;0.12399.0&gt;
     {ok,39}
 
@@ -294,17 +297,17 @@ that <span style="font-weight:bold">gen_fsm</span>:</p><div class="center">Listi
               feed_id = {history,39},
               prev = 27,next = undefined,feeds = [],guard = true,
               etc = undefined,name = "Order1",
-              task = {task,'end'}},
+              task = {task,'Start'}},
      #history{id = 27,version = undefined,container = feed,
               feed_id = {history,39},
               prev = 26,next = 28,feeds = [],guard = true,etc = undefined,
               name = "Order1",
-              task = {task,'mid'}},
+              task = {task,'Mid'}},
      #history{id = 26,version = undefined,container = feed,
               feed_id = {history,39},
               prev = undefined,next = 27,feeds = [],guard = true,
               etc = undefined,name = 'Order1',
-              task = {task,'begin'}}]</div><p>
+              task = {task,'Finish'}}]</div><p>
 
     <div id="disqus_thread"></div>
     <script type="text/javascript">
@@ -359,7 +362,7 @@ that <span style="font-weight:bold">gen_fsm</span>:</p><div class="center">Listi
                       
                       </script>
 
-<script type="text/javascript" src="//synrc.com/hi.js"></script>
+<script type="text/javascript" src="http://synrc.com/hi.js"></script>
 <!--ENDHTML-->
 </body>
 </html>

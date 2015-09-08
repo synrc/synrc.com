@@ -48,15 +48,15 @@
 <h2 id="sec1" class="section">TOC</h2><!--SEC END -->
 <!--TOC paragraph id="sec2" -->
 <!--SEC END --><p>
-<a href="http://synrc.com/apps/bpe/doc/web">Intro</a> <br>
+<a href="index.htm">Intro</a> <br>
 
-<a href="http://synrc.com/apps/bpe/doc/web/tps.htm">1. Processing</a> <br>
+<a href="tps.htm">1. Processing</a> <br>
 
-<a href="http://synrc.com/apps/bpe/doc/web/bpe.htm">2. Workflows</a> <br>
+<a href="bpe.htm">2. Workflows</a> <br>
 
-<a href="http://synrc.com/apps/bpe/doc/web/forms.htm">3. Forms</a> <br>
+<a href="forms.htm">3. Forms</a> <br>
 
-<a href="http://synrc.com/apps/bpe/doc/web/upl.htm">4. Language</a> <br>
+<a href="upl.htm">4. Language</a> <br>
 </p><p><a href="http://synrc.com/apps/bpe/doc/book.pdf">Download PDF</a> <br>
 
 </p></div>
@@ -64,17 +64,18 @@
 <div class="articlecol">
 
 <!--TOC section id="sec3" TPS: Financial Processing-->
-<h2 id="sec3" class="section">TPS: Financial Processing</h2><!--SEC END --><p>The TPS is an transactional database application that
+<h2 id="sec3" class="section">TPS: Financial Processing</h2><!--SEC END --><p>
+The TPS is an transactional database application that
 provides distributed, fault tolerant, network-split
 resistant, performant, transactional intermediary processing.
 It also guarantees data locality for storing customer objects which allows
-TPS to be easily scalable and maintainable. TPS is supported following backends:
-1) SQL transactional processing;
-2) <span style="font-weight:bold">riak_kv</span> application;
-3) <span style="font-weight:bold">mnesia</span> application;
-and is based on KVS. Rules for TPS are to be defined using UPL language.</p>
+TPS to be easily scalable and maintainable. TPS is supported following backends:</p><table style="border-spacing:6px;border-collapse:separate;" class="cellpading0"><tr><td style="text-align:left;white-space:nowrap" >1</td><td style="text-align:left;white-space:nowrap" ><span style="font-weight:bold">sql</span> transactional processing;</td></tr>
+<tr><td style="text-align:left;white-space:nowrap" >2</td><td style="text-align:left;white-space:nowrap" ><span style="font-weight:bold">riak_kv</span> application;</td></tr>
+<tr><td style="text-align:left;white-space:nowrap" >3</td><td style="text-align:left;white-space:nowrap" ><span style="font-weight:bold">mnesia</span> application;</td></tr>
+</table><p>and is based on KVS. Rules for TPS are to be defined using UPL language.</p>
 <!--TOC subsection id="sec4" Data Locality Cache Ring-->
-<h3 id="sec4" class="subsection">Data Locality Cache Ring</h3><!--SEC END --><p>All customers of bank are being grouped or sharded using custom
+<h3 id="sec4" class="subsection">Data Locality Cache Ring</h3><!--SEC END --><p>
+All customers of bank are being grouped or sharded using custom
 hash function that is known to be linear and consistent.
 This function allows TPS to store all customer information for
 a given master of its key on a single node. Thus all TPS operations
@@ -82,14 +83,16 @@ on transactions, cards, account of a given customer are passed
 to a hash function with a same customer ID key. In TPS all properties of
 a top customer object with the same key are stored in the same VNODE.</p>
 <!--TOC subsection id="sec5" Riak-->
-<h3 id="sec5" class="subsection">Riak</h3><!--SEC END --><p>All interface operations and application data are stored and
+<h3 id="sec5" class="subsection">Riak</h3><!--SEC END --><p>
+All interface operations and application data are stored and
 being read from Riak TPS Ring, which is in fact Riak Core application.
 Each VNODE should be treated as Bank department or isolated Bank part
 which could be detached to other place or Data Center.
 Each Riak Core VNODE TPS application also has access to its SQL warehouse,
 the primary source of transactions.</p>
 <!--TOC subsection id="sec6" Transactions Rate Calculation-->
-<h3 id="sec6" class="subsection">Transactions Rate Calculation</h3><!--SEC END --><p>Here we define the formula of expected Transactions per month,
+<h3 id="sec6" class="subsection">Transactions Rate Calculation</h3><!--SEC END --><p>
+Here we define the formula of expected Transactions per month,
 that is the source for all system configuration. Here is example:</p>
 <!--TOC paragraph id="sec7" -->
 <!--SEC END --><p>
@@ -103,34 +106,39 @@ by the number of nodes with accuracy to a coefficient of replication for TPS Rin
 For SQL warehouse we double its size for SQL warm stand by failover.
 Also the number of VNODEs in TPS Ring is exactly the number of failover SQL instances.</p>
 <!--TOC subsection id="sec8" Financial Warehouse Operations-->
-<h3 id="sec8" class="subsection">Financial Warehouse Operations</h3><!--SEC END --><p>– CHARGE, unconditional INSERT and head UPDATE inside TRANSACTION, Cache Write-Back
-– WITHDRAW, conditional INSERT, based on last known amount of latest customer transaction, and chain root UPDATE inside TRANSACTION, Cache Write-Back</p><p>All SQL Operations also perform write backs to TPS Cache, which is backed by Riak.</p>
+<h3 id="sec8" class="subsection">Financial Warehouse Operations</h3><!--SEC END --><table style="border-spacing:6px;border-collapse:separate;" class="cellpading0"><tr><td style="text-align:left;white-space:nowrap" >CHARGE</td><td style="text-align:left;white-space:nowrap" >unconditional INSERT and head UPDATE </td></tr>
+<tr><td style="text-align:left;white-space:nowrap" >&nbsp;</td><td style="text-align:left;white-space:nowrap" >inside TRANSACTION, Cache Write-Back</td></tr>
+<tr><td style="text-align:left;white-space:nowrap" >WITHDRAW</td><td style="text-align:left;white-space:nowrap" >conditional INSERT, based on last known </td></tr>
+<tr><td style="text-align:left;white-space:nowrap" >&nbsp;</td><td style="text-align:left;white-space:nowrap" >amount of latest customer transaction,</td></tr>
+<tr><td style="text-align:left;white-space:nowrap" >&nbsp;</td><td style="text-align:left;white-space:nowrap" >and chain root UPDATE inside TRANSACTION,</td></tr>
+<tr><td style="text-align:left;white-space:nowrap" >&nbsp;</td><td style="text-align:left;white-space:nowrap" >Cache Write-Back</td></tr>
+</table><p>All SQL Operations also perform write backs to TPS Cache, which is backed by Riak.</p>
 <!--TOC subsection id="sec9" Cache Operations-->
-<h3 id="sec9" class="subsection">Cache Operations</h3><!--SEC END --><p>– Retrieval of Transactions list for a given Customer Account
-– Display list of Accounts for a Customer
-– Display list of Cards for a Customer
-– Retrieval of details of an TPS object</p>
+<h3 id="sec9" class="subsection">Cache Operations</h3><!--SEC END --><p>
+<br>
+– Retrieval of Transactions list for a given Customer Account<br>
+– Display list of Accounts for a Customer<br>
+– Display list of Cards for a Customer<br>
+– Retrieval of details of an TPS object<br>
+
+</p>
 <!--TOC subsection id="sec10" Maintenance Operations-->
-<h3 id="sec10" class="subsection">Maintenance Operations</h3><!--SEC END --><p>– Cutting Tails of a given Time Range in Transactions list
-– Perform Recalculation of UPL rule for a Time Range
-– Adding/Removing Nodes</p>
-<!--TOC subsection id="sec11" KVS Schema-->
-<h3 id="sec11" class="subsection">KVS Schema</h3><!--SEC END --><p>– customer
-– account
-– card
-– transaction
-– cashback
-– program</p>
-<!--TOC subsection id="sec12" SQL Schema-->
-<h3 id="sec12" class="subsection">SQL Schema</h3><!--SEC END --><p>SQL schema is to be generated by KVS using built-in modified MEKAO library.</p>
-<!--TOC subsection id="sec13" Updating KVS Schema-->
-<h3 id="sec13" class="subsection">Updating KVS Schema</h3><!--SEC END -->
-<!--TOC subsection id="sec14" Updating SQL Schema-->
-<h3 id="sec14" class="subsection">Updating SQL Schema</h3><!--SEC END -->
-<!--TOC subsection id="sec15" Synchronizing KVS and SQL Schema Updates-->
-<h3 id="sec15" class="subsection">Synchronizing KVS and SQL Schema Updates</h3><!--SEC END -->
-<!--TOC subsection id="sec16" SQL Warm Standby Failover-->
-<h3 id="sec16" class="subsection">SQL Warm Standby Failover</h3><!--SEC END --><p>
+<h3 id="sec10" class="subsection">Maintenance Operations</h3><!--SEC END --><p>
+<br>
+– Cutting Tails of a given Time Range in Transactions list<br>
+– Perform Recalculation of UPL rule for a Time Range<br>
+– Adding/Removing Nodes<br>
+
+</p>
+<!--TOC subsection id="sec11" Database Schema-->
+<h3 id="sec11" class="subsection">Database Schema</h3><!--SEC END --><p>
+<br>
+– customer: basic bank client profile <br>
+– account: IBAN identified bank account <br>
+– card: EMV issued card<br>
+– transaction: tracking record between beneficiary and subsidiary<br>
+– cashback: dfferent programs for credit transactions<br>
+– program: UPL encoded deposit or credit program<br>
 
 
     <div id="disqus_thread"></div>
@@ -186,7 +194,7 @@ Also the number of VNODEs in TPS Ring is exactly the number of failover SQL inst
                       
                       </script>
 
-<script type="text/javascript" src="//synrc.com/hi.js"></script>
+<script type="text/javascript" src="http://synrc.com/hi.js"></script>
 <!--ENDHTML-->
 </body>
 </html>
