@@ -95,19 +95,19 @@ code, div.lstlisting .comment              { color: grey }
 
 p br:nth-child(1) {display: none;}
 
-#dsq-content #disqus_thread #dsq-comments .dsq-comment-message  { font-size: 26px; font-family: "Nokia Pure Text"; }
-.post-content { font-size: 26px; font-family: "Nokia Pure Text"; }
+#dsq-content #disqus_thread #dsq-comments .dsq-comment-message  { font-size: 26px; font-family: 'local'; }
+.post-content { font-size: 26px; font-family: 'local'; }
 
 @font-face {
     font-family: 'local';
-    src: url('http://5ht.github.io/Geometria-Light.otf');
+    src: url('http://synrc.com/Geometria-Light.otf');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'mono';
-    src: url('http://5ht.github.io/SourceCodePro-Regular.otf');
+    src: url('http://synrc.com/SourceCodePro-Regular.otf');
     font-weight: normal;
     font-style: normal;
 }
