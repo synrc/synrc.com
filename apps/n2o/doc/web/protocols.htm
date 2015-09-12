@@ -277,14 +277,16 @@ server by sending <span style="font-weight:bold">info</span> notifications direc
 It is up to your application and client/server handlers how to handle such messages.</p>
 <!--TOC subsection id="sec16" BIN-->
 <h3 id="sec16" class="subsection">BIN</h3><!--SEC END --><p>When you need raw binary Blob on client-side,
-for images or other raw data, you can ask server like this:</p><div class="lstlisting">    ws.send(enc(tuple(atom('bin'),bin('request'))));</div><p>Ensure you have defined <span style="font-weight:bold">#bin</span> handler and page you are
+for images or other raw data, you can ask server like this:</p><div class="lstlisting">    &gt; ws.send(enc(tuple(atom('bin'),bin('request'))));</div><p>Ensure you have defined <span style="font-weight:bold">#bin</span> handler and page you are
 asking is visible by router:</p><div class="lstlisting">    event(#bin{data=Data}) -&gt;
         wf:info(?MODULE,"Binary Delivered ~p~n",[Data]),
         #bin{data = "SERVER v1"};</div><p>Having enabled all loggin in module <span style="font-weight:bold">n2o_file</span>, <span style="font-weight:bold">idnex</span> and <span style="font-weight:bold">wf_convert</span>
 you will see:</p><div class="lstlisting">    n2o_file:BIN Message: {bin,&lt;&lt;"request"&gt;&gt;}
     index:Binary Delivered &lt;&lt;"request"&gt;&gt;
     wf_convert:BERT {bin,_}: "SERVER v1"</div><p>In JavaScript when you enable ‘debug=true‘ you can see:</p><div class="lstlisting">    &gt; {"t":104,"v":[{"t":100,"v":"bin"},
-                    {"t":107,"v":"SERVER v1"}]}</div><p>
+                    {"t":107,"v":"SERVER v1"}]}</div><p>Or by adding handling for BIN protocol:</p><div class="lstlisting">    &gt; function (x) { console.log('BIN received: ' + x.v[1].v); }
+    &gt; ws.send(enc(tuple(atom('bin'),bin('request'))));
+    &gt; BIN received: SERVER v1</div><p>The formal description of BIN is simple relay:</p><div class="lstlisting">    issue BERT {bin,_} expect {bin,_}</div><p>
 
 
     <div id="disqus_thread"></div>
