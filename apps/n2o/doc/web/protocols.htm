@@ -182,7 +182,10 @@ enabling or disabling some of them on the fly.</p><div class="lstlisting">    pr
 <h3 id="sec11" class="subsection">HEART</h3><!--SEC END --><p>HEART protocol is essential WebSocket application level protocol for PING and N2O initialization.
 It pings every 4-5 seconds from client-side to server thus allowing to
 determine client online presence. On reconnection or initial connect
-client sends N2O init marker telling to server to reinitialize the context.</p><div class="lstlisting">    log_modules() -&gt; [n2o_heart].</div><p>The <span style="font-weight:bold">heart</span> protocol defined client originated messages N2O, PING
+client sends N2O init marker telling to server to reinitialize the context.</p>
+<!--TOC paragraph id="sec12" -->
+<!--SEC END --><p>
+The <span style="font-weight:bold">heart</span> protocol defined client originated messages N2O, PING
 and server originated messages PONG, IO and NOP. IO message contains EVAL
 that contains UTF-8 JavaScript string and DATA reply contains any
 binary string, including BERT encoded data. "PING" and "N2O," are
@@ -191,8 +194,8 @@ any text string. NOP is 0-byte acknowledging packet.
 This is heart essence protocol which is enough for any rpc and code
 transfering interface. Normally heart protocol is not for active
 client usage but for supporting active connection with notifications
-and possibly DOM updates.</p><!--TOC subsection id="sec12" Session Initialization-->
-<h3 id="sec12" class="subsection">Session Initialization</h3><!--SEC END --><p>After page load you should start N2O session in JavaScript with configured
+and possibly DOM updates.</p><!--TOC subsection id="sec13" Session Initialization-->
+<h3 id="sec13" class="subsection">Session Initialization</h3><!--SEC END --><p>After page load you should start N2O session in JavaScript with configured
 formatters and starting function that will start message loop on the client:</p><div class="lstlisting">    var transition = {pid: '', host: 'localhost', port:'8000'};
     protos = [ $bert, $client ];
     N2O_start();</div><p>Id <span style="font-weight:bold">pid</span> field is not set in <span style="font-weight:bold">transition</span> variable then you
@@ -202,24 +205,27 @@ disregarding set or empty will be bypassed as a parameter to N2O init marker.</p
 protocol on the server you will recieve the IO message event.
 IO events are containers for function and data which can be used as parameters.
 There is no predefined semantic to IO message. Second element of a tuple
-will be directly evaluated in WebBrowser. IO events are normally not
-constructed on client. Heartbeat protocol PING request returns PONG
-or empty message NOP binary response; N2O messages returns IO messages
-with .</p><div class="lstlisting">    issue TEXT N2O expect IO
+will be directly evaluated in WebBrowser. Third element can contain data or error
+as for SPA and BIN protocols, and can contain only error for NITRO protocol.
+IO events are not constructed on client. N2O request returns IO messages with
+evaluation string and empty data or empty evaluation string
+with error in data field.</p><div class="lstlisting">    issue TEXT N2O expect IO
    N2O is TEXT "N2O," ++ PID
    PID is TEXT "" or any
-    IO is BERT {io,_,_} or
-          JSON {name:'io',eval,data}</div><!--TOC subsection id="sec13" Online Presence-->
-<h3 id="sec13" class="subsection">Online Presence</h3><!--SEC END --><div class="lstlisting">    ws.send('PING');</div><p>You can try manually send this messag in web console to see whats happening,
+    IO is BERT {io,&lt;&lt;&gt;&gt;,Error}
+            or {io,Eval,&lt;&lt;&gt;&gt;}</div><!--TOC subsection id="sec14" Online Presence-->
+<h3 id="sec14" class="subsection">Online Presence</h3><!--SEC END --><div class="lstlisting">    ws.send('PING');</div><p>You can try manually send this messag in web console to see whats happening,
 also you can enable logging the heartbeat protocol by including its
-module in <span style="font-weight:bold">log_modules</span>:</p><div class="lstlisting">    issue TEXT PING expect PONG
+module in <span style="font-weight:bold">log_modules</span>:</p><div class="lstlisting">    log_modules() -&gt; [n2o_heart].</div><p>Heartbeat protocol PING request returns PONG or empty NOP binary response.</p><div class="lstlisting">    issue TEXT PING expect PONG
   PONG is TEXT "PONG" or ""</div>
-<!--TOC subsection id="sec14" NITRO-->
-<h3 id="sec14" class="subsection">NITRO</h3><!--SEC END --><p>NITRO protocol consist of three protocol messages: <span style="font-weight:bold">pickle</span>, <span style="font-weight:bold">flush</span> and <span style="font-weight:bold">direct</span>.
+<!--TOC subsection id="sec15" NITRO-->
+<h3 id="sec15" class="subsection">NITRO</h3><!--SEC END --><p>NITRO protocol consist of three protocol messages: <span style="font-weight:bold">pickle</span>, <span style="font-weight:bold">flush</span> and <span style="font-weight:bold">direct</span>.
 Pickled messages are used if you send messages over unencrypted
 channel and want to hide the content of the message,
 that was generated on server. You can use BASE64 pickling mechanisms
-with optional AES/RIPEMD160 encrypting.</p><p>Here is definition to NITRO protocol in expect language:</p><div class="lstlisting">        issue BERT PICKLE expect IO
+with optional AES/RIPEMD160 encrypting. NITRO messages on success alway
+return empty data field in IO message and
+error otherwise. Here is definition to NITRO protocol in expect language:</p><div class="lstlisting">        issue BERT PICKLE expect IO
         issue BERT DIRECT expect IO
         issue BERT FLUSH  expect IO
     PICKLE is BERT {pickle,_,_,_,_}
@@ -263,15 +269,16 @@ and <span style="font-weight:bold">pass</span> could be retrieved with <span sty
                                 ":pass:",wf:q(pass)])).</div><p>This is Nitrogen-based messaging model. Nitrogen WebSocket processes receive also
 flush and delivery protocol messages, but originated from server, which is internal
 NITRO protocol messages. All client requests originate IO message as a response.</p>
-<!--TOC subsection id="sec15" SPA-->
-<h3 id="sec15" class="subsection">SPA</h3><!--SEC END --><p>If you are creating SVG based game you don’t need HTML5 nitro elements at all.
+<!--TOC subsection id="sec16" SPA-->
+<h3 id="sec16" class="subsection">SPA</h3><!--SEC END --><p>If you are creating SVG based game you don’t need HTML5 nitro elements at all.
 Instead you need simple and clean JavaScript based protocol for updating DOM SVG elements
 but based on <span style="font-weight:bold">shen</span> generated or manual JavaScript code sent from server.
 Thus you need still IO messages as a reply but originating massesage shouldn’t
 rely in <span style="font-weight:bold">nitro</span> at all. For that purposes ingeneral and for <span style="font-weight:bold">synrc/games</span> sample
 in particular we created SPA protocol layer. SPA protocol consist of CLIENT originated message
 and SERVER message that could be originated both from client and server. All messages expects
-IO as a response.</p><div class="lstlisting">        issue BERT CLIENT expect IO
+IO as a response. In IO response data field is always set with return value of the event
+while eval field is set with rendered actions as in NITRO protocol.</p><div class="lstlisting">        issue BERT CLIENT expect IO
         issue BERT SERVER expect IO
     SERVER is BERT {server,_}
     CLIENT is BERT {client,_}</div><p>Client messages usually originated at client and represent the Client API Requests:</p><div class="lstlisting">    ws.send(enc(tuple(
@@ -279,8 +286,8 @@ IO as a response.</p><div class="lstlisting">        issue BERT CLIENT expect IO
         tuple(atom('join_game'),1000001))));</div><p>Server messages are usually being sent to client originated on the
 server by sending <span style="font-weight:bold">info</span> notifications directly to Web Socket process:</p><div class="lstlisting">    &gt; WebSocketPid ! {server, Message}</div><p>You can obtain this Pid during page init:</p><div class="lstlisting">    event(init) -&gt; io:format("Pid: ~p",[self()]);</div><p>You can also send server messages from client relays and vice versa.
 It is up to your application and client/server handlers how to handle such messages.</p>
-<!--TOC subsection id="sec16" BIN-->
-<h3 id="sec16" class="subsection">BIN</h3><!--SEC END --><p>When you need raw binary Blob on client-side,
+<!--TOC subsection id="sec17" BIN-->
+<h3 id="sec17" class="subsection">BIN</h3><!--SEC END --><p>When you need raw binary Blob on client-side,
 for images or other raw data, you can ask server like this:</p><div class="lstlisting">    &gt; ws.send(enc(tuple(atom('bin'),bin('request'))));</div><p>Ensure you have defined <span style="font-weight:bold">#bin</span> handler and page you are
 asking is visible by router:</p><div class="lstlisting">    event(#bin{data=Data}) -&gt;
         wf:info(?MODULE,"Binary Delivered ~p~n",[Data]),
