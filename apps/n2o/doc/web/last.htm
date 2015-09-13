@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html >
+<head>
+
+  <link rel=stylesheet type="text/css" href="http://synrc.com/synrc.css">
+  <meta name="Author" content="5HT">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta property="og:image" content="images/s_64.png"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=IE10,chrome=1" />
+  <!--link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'-->
+  <title>N2O History
+</title>
+</head>
+<body >
+<!--HEVEA command line is: hevea last.tex -o last.htm -->
+<!--CUT STYLE article--><!--HTMLHEAD-->
+
+<div class="nonselectedwrapper white" style="padding: 10px 0px 10px 0px;margin: 0px 0px 10px 0px;">
+    <a href="//synrc.com/">
+    <img style="flat:left; margin-left: 55px; margin-top: 5px; margin-bottom:-5px;" src="http://synrc.com/images/synrc.png" border="0"></a>
+    <div align=right style="margin: -50px 50px 0px 0px;">
+        <script language="JavaScript">
+
+        var args = (window.location).toString().split('/');
+        var page_name = args[args.length-1];
+        var menu = {'http://synrc.com/index.htm':    'Home',
+                    'http://synrc.com/research.htm': 'Showcase',
+                    'http://synrc.com/apps/':   'Apps',
+                    'http://synrc.com/feedback.htm': 'Contacts',
+                    'http://spawnproc.com':   '<b>Spawnproc</b>', };
+
+        Object.keys(menu).forEach(function (key) {
+            if (page_name == key) { document.write('<div class="menu" style="font-weight: bold;">'+menu[key]+'</div>'); }
+            else { document.write('<a class="menu" href="'+key+'">'+menu[key]+'</a>'); }
+        });
+
+        </script>
+    </div>
+</div>
+
+<hr size="1">
+
+<!--ENDHTML-->
+<!--CUT DEF section 1 --><div class="nonselectedwrapper">
+<div class="article">
+<div class="toc">
+<!--TOC section id="sec1" TOC-->
+<h2 id="sec1" class="section">TOC</h2><!--SEC END -->
+<!--TOC paragraph id="sec2" -->
+<!--SEC END --><p>
+<a href="http://synrc.com/apps/n2o/doc/web">1. Framework</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/setup.htm">2. Setup</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/processes.htm">3. Processes</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/endpoints.htm">4. Endpoints</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/handlers.htm">5. Handlers</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/protocols.htm">6. Protocols</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/api.htm">7. API</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/elements.htm">8. Elements</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/actions.htm">9. Actions</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/macros.htm">10. JavaScript</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/utf8.htm">11. UTF-8</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/packages.htm">12. Packages</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/persistence.htm">13. Persistence</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/last.htm">14. History</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/book.pdf">Download PDF</a> <br>
+
+</p></div>
+
+<div class="articlecol">
+
+<!--TOC section id="sec3" History-->
+<h2 id="sec3" class="section">History</h2><!--SEC END -->
+<!--TOC paragraph id="sec4" -->
+<!--SEC END --><p>
+The N2O was born in 2013 in spring. It’s started as a process of
+reimplementation of Nitrogen Web Framework behavior for better
+performance and code reducing. The initial version had its own
+render core along with pure websocket nature of the IO protocol.</p>
+<!--TOC paragraph id="sec5" -->
+<!--SEC END --><p>
+First official release of N2O was made in October 2013 when
+N2O was presented as one having AES/CBC pickling,
+REST transformations, own TeX handbook and
+JavaScript compiler. It is also known as version 0.10.</p>
+<!--TOC paragraph id="sec6" -->
+<!--SEC END --><p>
+In this minor release BERT transformations mainly were improved using parse_transform.
+Was introduced ETS caching. Tiny 50 LOC Makefile called <span style="font-weight:bold">otp.mk</span> was
+suggested for easy production deployment. It’s still best option to deploy
+applications. It was release 0.11.</p>
+<!--TOC paragraph id="sec7" -->
+<!--SEC END --><p>
+In January 2014 release xen hosting in LING VM
+was initially introduced. Dependencies
+start to freezing; asset and deploy options were improved.</p>
+<!--TOC paragraph id="sec8" -->
+<!--SEC END --><p>
+April 2014 release was a giving hand to pure
+JavaScript SPA applications. Now pages could be served
+in nginx behind Erlang cowboy web server. Initial version of
+N2O protocol was introduced in this release. New twitter-format
+stack trace messages was added for error reporting. <span style="font-weight:bold">bert.js</span>
+was rewritten and jQuery was removed in this release. In 1.4 release
+was also introduced unified logging schema for KVS and N2O. And main
+WebSocket endpoint was totally rewritten to support N2O protocol.</p>
+<!--TOC paragraph id="sec9" -->
+<!--SEC END --><p>
+The release of May 2014 is still supported. In this release
+new build tool <span style="font-weight:bold">mad</span> was initially introduced. Version 1.5.</p>
+<!--TOC paragraph id="sec10" -->
+<!--SEC END --><p>
+August 2014 version 1.8 received new cookie session manager
+synchronized with ETS table where all entries zipped with session keys.
+Client binary requests was made to exists in <span style="font-weight:bold">bin</span> sub-protocol.
+KVS was first added to sample application in this release.
+Full HTML elements and attributes were added, which caused the growth of
+the nitrogen DSL size to the size of N2O.</p>
+<!--TOC paragraph id="sec11" -->
+<!--SEC END --><p>
+September 2014 release was numbered 1.9.
+New client side protocol pipeline along with new <span style="font-weight:bold">n2o.js</span>.
+For mad was issued new dynamic loader
+which is able to host working directory inside ETS table and readable
+from erlang executable script on Windows, Linux and Mac. UTF-8 support
+was optimized in <span style="font-weight:bold">utf8.js</span>. New experimental <span style="font-weight:bold">rails</span> protocol and <span style="font-weight:bold">crashdump.io</span>
+logging backend module were added in version 1.9.</p>
+<!--TOC paragraph id="sec12" -->
+<!--SEC END --><p>
+October 2014 version 1.10 was minor again. The only message in changelog
+were added: "nothing special". The first malfunction bug which was fixed is the
+racing which happened during async DOM bulding. Yes, N2O is faster than browser.</p>
+<!--TOC paragraph id="sec13" -->
+<!--SEC END --><p>
+January 2015 version 2.1. Major Release. N2O book from now
+on can be purchased in a hardcover print. For business
+applications validations were introduced. <span style="font-weight:bold">n2o.js</span>, <span style="font-weight:bold">binary.js</span>, <span style="font-weight:bold">nitrogen.js</span>,
+<span style="font-weight:bold">template.js</span> were slightly optimized. KJELL color support from now on enabled in
+new <span style="font-weight:bold">review</span> sample application.
+Log level support and several field and racing fixes in HTML elements.</p>
+<!--TOC paragraph id="sec14" -->
+<!--SEC END --><p>
+March 2015 version 2.3. Initial Haskell implentation of N2O server is introduced.
+New N2O WebSocket protocol specification for all stack of <span style="font-weight:bold">synrc</span> and <span style="font-weight:bold">spawnproc</span> applications.
+New auto-expiring cookie-based session and cache managers. Revised and more sane XHR fallback.
+Automatic language detection from routes in context.
+Several element fixes and latest Cowboy 1.0.1.</p><div class="center">Listing 1: Bootstraping in a minute</div><p><br>
+</p><div class="lstlisting">
+  $ ./mad app sample
+  Create File: "sample/sys.config"
+  Create File: "sample/apps/sample/priv/static/synrc.css"
+  Create File: "sample/apps/sample/src/web_app.erl"
+  Create File: "sample/apps/rebar.config"
+  Create File: "sample/apps/sample/rebar.config"
+  Create File: "sample/apps/sample/src/sample.app.src"
+  Create File: "sample/apps/sample/src/index.erl"
+  Create File: "sample/apps/sample/src/web_sup.erl"
+  Create File: "sample/apps/sample/priv/static/spa/index.htm"
+  Create File: "sample/rebar.config"
+  Create File: "sample/apps/sample/priv/templates/index.html"
+  Create File: "sample/apps/sample/src/routes.erl"
+  $ cd sample
+  $ time ./mad dep com pla
+  ...
+  Ordered: [kernel,stdlib,fs,cowlib,crypto,
+            compiler,syntax_tools,ranch,gproc,
+            cowboy,erlydtl,n2o,sample,active,mad,sh]
+
+  real    0m41.901s
+  user    0m17.785s
+  sys 0m5.108s
+  $ /.mad rep
+  Configuration: [{n2o,[{port,8000},
+                        {route,routes},
+                        {log_modules,web_app}]},
+                  {kvs,[{dba,store_mnesia},
+                        {schema,[kvs_user,
+                                 kvs_acl,kvs_feed,
+                                 kvs_subscription]}]}]
+  Applications: [kernel,stdlib,fs,cowlib,crypto,
+                 compiler,syntax_tools,ranch,
+                 gproc,cowboy,erlydtl,n2o,
+                 sample,active,mad,sh]
+
+  Erlang/OTP 17 [erts-6.2] [source] [64-bit] [smp:4:4]
+         [async-threads:10] [hipe] [kernel-poll:false]
+
+  Eshell V6.2  (abort with ^G)
+  1&gt;</div>
+<!--TOC paragraph id="sec15" -->
+<!--SEC END --><p>
+N2O is fast energy efficient binary protocol for IoT and WebSocket applications.
+I hope you will find this retrospective useful in your discovering of N2O.</p>
+<!--TOC section id="sec16" Afterword-->
+<h2 id="sec16" class="section">Afterword</h2><!--SEC END --><p>Hope you find <a href="https://synrc.com/apps/n2o">N2O</a>,
+<a href="https://synrc.com/apps/kvs">KVS</a>, and
+<a href="https://synrc.com/apps/mad">MAD</a> stack small and concise,
+because it was the main goal during development.
+We stay with minimal viable functionality criteria.</p>
+<!--TOC paragraph id="sec17" -->
+<!--SEC END --><p>
+N2O is free from unnecessary layers and code calls as much as possible.
+At the same time it covers all your needs to build
+flexible web messaging relays using rich stack of protocols.</p>
+<!--TOC paragraph id="sec18" -->
+<!--SEC END --><p>
+Minimalistic criteria allows you to see the system’s
+most general representation, which drives you to describe efficiently.
+You could be more productive by focusing on core.
+Erlang N2O and companion libraries altogether make
+your life managing web applications easy without
+efforts due to its naturally compact and simple design, and absence of code bloat.</p>
+<!--TOC paragraph id="sec19" -->
+<!--SEC END --><p>
+You can see that parse_transform is very useful, especially in JavaScript
+protocol generation (SHEN) and REST record-to-proplist generators. So having
+quote/unquote in language would be very useful. Fast and small
+Erlang Lisp (LOL) is expecting compiler is this field as universal
+Lisp-based macro system.</p>
+<!--TOC paragraph id="sec20" -->
+<!--SEC END --><p>
+All apps in stack operate on its own DSL records-based language:
+N2O — #action/#element; KVS — #iterator/#container.
+This language is accessible directly from Erlang-based languages: Joxa, Elixir, Erlang, Lol.</p>
+<!--TOC paragraph id="sec21" -->
+<!--SEC END --><p>
+We hope that this book will guide you in the wild world of Erlang web development
+and you will be enlightened by its minimalistic power.</p><p>
+
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'synrc'; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    
+
+</p></div>
+</div>
+</div><div class="clear"> </div><p>
+
+<script type="text/javascript" src="http://synrc.com/hi.js"></script>
+</p><!--CUT END -->
+<!--HTMLFOOT-->
+
+<div class="nonselectedwrapper">
+<div class="verywidecol">
+
+    <div style="width:100%;height:300px;float:left;font-size:16pt;" align=center>
+    	<hr size=1>
+    	<br><br><br>
+        <a href="//synrc.com/news/index.htm">Events</a> |
+    	<a href="//synrc.com/privacy.htm">Privacy Policy</a> |
+        <a href="//synrc.com/feedback.htm">Feedback</a> |
+        <a href="//synrc.com/brandbook.htm">Brandbook</a><br>
+    	Copyright &copy; 2005&ndash;2015 <a href="//synrc.com/index.htm"> Synrc Research Center s.r.o.</a>
+    </div>
+
+</div>
+</div>
+
+<div class="clear"></div>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-29227518-1']);
+      _gaq.push(['_trackPageview']);
+      
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'https://www') + '.google-analytics.com/ga.js';
+                    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+                      })();
+                      
+                      </script>
+
+<script type="text/javascript" src="http://synrc.com/hi.js"></script>
+<!--ENDHTML-->
+</body>
+</html>

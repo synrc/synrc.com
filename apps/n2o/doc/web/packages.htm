@@ -8,7 +8,7 @@
   <meta property="og:image" content="images/s_64.png"/>
   <meta http-equiv="X-UA-Compatible" content="IE=IE10,chrome=1" />
   <!--link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'-->
-  <title>N2O WebSocket Protocol
+  <title>N2O Packaging
 </title>
 </head>
 <body >
@@ -60,20 +60,23 @@
 
 <a href="http://synrc.com/apps/n2o/doc/web/protocols.htm">6. Protocols</a> <br>
 
-<a href="http://synrc.com/apps/n2o/doc/web/macros.htm">7. JavaScript</a> <br>
+<a href="http://synrc.com/apps/n2o/doc/web/api.htm">7. API</a> <br>
 
-<a href="http://synrc.com/apps/n2o/doc/web/api.htm">8. API</a> <br>
+<a href="http://synrc.com/apps/n2o/doc/web/elements.htm">8. Elements</a> <br>
 
-<a href="http://synrc.com/apps/n2o/doc/web/elements.htm">9. Elements</a> <br>
+<a href="http://synrc.com/apps/n2o/doc/web/actions.htm">9. Actions</a> <br>
 
-<a href="http://synrc.com/apps/n2o/doc/web/actions.htm">10. Actions</a> <br>
+<a href="http://synrc.com/apps/n2o/doc/web/macros.htm">10. JavaScript</a> <br>
 
 <a href="http://synrc.com/apps/n2o/doc/web/utf8.htm">11. UTF-8</a> <br>
 
 <a href="http://synrc.com/apps/n2o/doc/web/packages.htm">12. Packages</a> <br>
 
 <a href="http://synrc.com/apps/n2o/doc/web/persistence.htm">13. Persistence</a> <br>
-</p><p><a href="http://synrc.com/apps/n2o/doc/book.pdf">Download PDF</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/last.htm">14. History</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/book.pdf">Download PDF</a> <br>
 
 </p></div>
 
@@ -143,10 +146,10 @@ Also bundles are compatible with active online realoading and recompilation.</p>
 <h3 id="sec10" class="subsection">Templates</h3><!--SEC END --><p>mad also comes with N2O templates. So you can bootstrap an N2O-based site
 just having a single copy of mad binary.</p><div class="lstlisting">    # mad app sample
     # cd sample
-    # mad deps compile plan bundle web\_app</div><p>After that you can just run escript web_app under Windows, Linux and
-Mac and open <a href="http://localhost:8000">http://localhost:8000</a>.</p><div class="lstlisting">C:\&gt; escript web_app
+    # mad deps compile plan bundle sample</div><p>After that you can just run escript web_app under Windows, Linux and
+Mac and open <a href="http://localhost:8000">http://localhost:8000</a>.</p><div class="lstlisting">C:\&gt; escript sample
 Applications: [kernel,stdlib,crypto,cowlib,ranch,cowboy,compiler,
-               syntax_tools,erlydtl,gproc,xmerl,n2o,n2o_sample,
+               syntax_tools,erlydtl,gproc,xmerl,n2o,sample,
                fs,active,mad,sh]
 Configuration: [{n2o,[{port,8000},{route,routes}]},
                 {kvs,[{dba,store_mnesia},

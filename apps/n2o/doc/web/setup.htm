@@ -60,20 +60,23 @@
 
 <a href="http://synrc.com/apps/n2o/doc/web/protocols.htm">6. Protocols</a> <br>
 
-<a href="http://synrc.com/apps/n2o/doc/web/macros.htm">7. JavaScript</a> <br>
+<a href="http://synrc.com/apps/n2o/doc/web/api.htm">7. API</a> <br>
 
-<a href="http://synrc.com/apps/n2o/doc/web/api.htm">8. API</a> <br>
+<a href="http://synrc.com/apps/n2o/doc/web/elements.htm">8. Elements</a> <br>
 
-<a href="http://synrc.com/apps/n2o/doc/web/elements.htm">9. Elements</a> <br>
+<a href="http://synrc.com/apps/n2o/doc/web/actions.htm">9. Actions</a> <br>
 
-<a href="http://synrc.com/apps/n2o/doc/web/actions.htm">10. Actions</a> <br>
+<a href="http://synrc.com/apps/n2o/doc/web/macros.htm">10. JavaScript</a> <br>
 
 <a href="http://synrc.com/apps/n2o/doc/web/utf8.htm">11. UTF-8</a> <br>
 
 <a href="http://synrc.com/apps/n2o/doc/web/packages.htm">12. Packages</a> <br>
 
 <a href="http://synrc.com/apps/n2o/doc/web/persistence.htm">13. Persistence</a> <br>
-</p><p><a href="http://synrc.com/apps/n2o/doc/book.pdf">Download PDF</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/last.htm">14. History</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/book.pdf">Download PDF</a> <br>
 
 </p></div>
 
@@ -151,7 +154,8 @@ Nitrogen DSL you can plug all of them separately.</p><div class="lstlisting">   
             {app,review},
             {route,routes},
             {mq,n2o_mq},
-            {formatter,bert},
+            {formatter,json},
+            {json,jsone},
             {log_modules,config},
             {log_level,config},
             {log_backend,n2o_log},
@@ -197,7 +201,11 @@ In <span style="font-weight:bold">mq</span> settings you should place the name o
 message queue API. By default N2O provides <span style="font-weight:bold">n2o_mq</span> module.</p><!--TOC subsection id="sec15" Formatter-->
 <h3 id="sec15" class="subsection">Formatter</h3><!--SEC END --><p>
 With <span style="font-weight:bold">formatter</span> option you may set the WebSocket channel
-termination formatter such as <span style="font-weight:bold">bert</span> or <span style="font-weight:bold">json</span>.</p><!--TOC subsection id="sec16" Minimal Page-->
+termination formatter such as <span style="font-weight:bold">bert</span> or <span style="font-weight:bold">json</span>. If you will select json as formatter
+you may want also to chose a json encoder in <span style="font-weight:bold">json</span> option. By default in n2o enabled
+<span style="font-weight:bold">json</span> formatter and <span style="font-weight:bold">jsone</span> encoder. The main reason is that <span style="font-weight:bold">jsone</span> is
+written in pure erlang idiomatic code and is ready to run on LING without C NIF linkage.
+But you may want to switch to <span style="font-weight:bold">jsonx</span> on BEAM or whatever.</p><!--TOC subsection id="sec16" Minimal Page-->
 <h3 id="sec16" class="subsection">Minimal Page</h3><!--SEC END --><p>
 And then add a minimal <span style="font-weight:bold">index.erl</span> page:</p><div class="center">Listing 3: index.erl</div><p><br>
 </p><div class="lstlisting">    -module(index).
