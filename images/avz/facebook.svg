@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.1 (12002) - http://www.bohemiancoding.com/sketch -->
+    <title>facebook</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="49.9987946%" y1="0.000330201286%" x2="49.9987946%" y2="100.000531%" id="linearGradient-1">
+            <stop stop-color="#4B71B8" offset="0%"></stop>
+            <stop stop-color="#293F7E" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="facebook" sketch:type="MSLayerGroup">
+            <path d="M48,41.2285792 C48,44.4724493 45.3117841,47.1026939 41.9997501,47.1026939 L5.99925022,47.1026939 C2.68521681,47.1026939 0,44.4685221 0,41.2285792 L0,5.96130944 C0,2.7135121 2.68621652,0.0822857143 5.99925022,0.0822857143 L41.9997501,0.0822857143 C45.3107844,0.0822857143 48,2.7144939 48,5.96130944 L48,41.2285792 L48,41.2285792 Z" id="Shape-Copy-2" fill="url(#linearGradient-1)" sketch:type="MSShapeGroup"></path>
+            <path d="M39.7841633,9.25028838 L33.744,9.25028838 C30.1567347,9.25028838 26.1697959,10.7580588 26.1697959,15.9640415 C26.1884082,17.7763129 26.1697959,19.5129501 26.1697959,21.4676493 L22.0222041,21.4676493 L22.0222041,28.0763005 L26.299102,28.0763005 L26.299102,47.1026939 L34.1564082,47.1026939 L34.1564082,27.9495889 L39.3433469,27.9495889 L39.8125714,21.4489863 L34.0202449,21.4489863 C34.0202449,21.4489863 34.0359184,18.5552458 34.0202449,17.716395 C34.0202449,15.6605229 36.1596735,15.777412 36.2850612,15.777412 C37.3057959,15.777412 39.2816327,15.7803588 39.7900408,15.777412 L39.7900408,9.24930612 L39.7841633,9.24930612 L39.7841633,9.25028838 Z" id="Shape-Copy" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>

@@ -41,6 +41,10 @@ h2.subsection { margin-left: 0px; }
 .articlecol > h2 { margin-left: 0px; margin-bottom: 0px; }
 .verywidecol > h2 { margin-left: 0px; margin-bottom: 0px; }
 
+textarea { padding: 10px; }
+input { font-size:28pt; width: 50%; margin:10px 0px 0px 10px; }
+button { font-size:20pt; margin-top:15px; padding: 10px; }
+
 .logo_font { font-family: "Palatino Linotype"; margin-bottom: 0px; line-height: 60%; }
 .menu { font-size:18pt; color: red; padding: 0 0 15px 15px; margin-right:10px; display: inline-block;}
 .menu:hover { }
@@ -128,3 +132,19 @@ p br:nth-child(1) {display: none;}
   }
 }
 
+.svg.facebook { background: url("images/avz/facebook.svg") no-repeat; }
+.svg.microsoft { background: url("images/avz/microsoft.svg") no-repeat; }
+.svg.google { background: url("images/avz/google.svg") no-repeat; }
+.svg.twitter { background: url("images/avz/twitter.svg") no-repeat; }
+.svg.github { background: url("images/avz/github.svg") no-repeat; }
+
+.svg {
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  margin-top: -2px;
+  margin-left: -2px;
+  padding: 10px;
+  text-indent: -999em;
+  text-align: left;
+  }
