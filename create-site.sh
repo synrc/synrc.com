@@ -6,11 +6,8 @@ create_page()
 {
 	cat templates/begin.htx > $1.htm
 	cat templates/head-hevea.htx >> $1.htm
-	echo "</p>" >> $1.htm
 	cat templates/$1.htx >> $1.htm
-	echo "<p>" >> $1.htm
 	cat templates/foot.htx >> $1.htm
-	echo "</p>" >> $1.htm
 	cat templates/end.htx >> $1.htm
 	echo "generated $1.htm"
 }

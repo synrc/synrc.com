@@ -50,7 +50,7 @@ h2.subsection { margin-left: 0px; }
 .articlecol  { max-width: 850px; min-width: 850px; padding-rigt: 20px; margin: 0 auto; text-align: left; display: inline-block; }
 .verywidecol { max-width: 800px; margin-left: auto; margin-right: auto; text-align: normal; }
 .paper { background-color: #fAfAfA; margin-top: 10px;}
-.white { background-color: white; margin-bottom: 10px; }
+.white { background-color: white; margin-bottom: 10px; height: auto; }
 p > img { padding-left:20px;}
 blockquote { background-color: #fAfAfA; padding: 20px 20px 20px 20px;}
 .selectedwrapper {
