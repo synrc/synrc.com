@@ -140,8 +140,8 @@ p br:nth-child(1) {display: none;}
 
 .svg {
   display: inline-block;
-  width: 48px;
-  height: 48px;
+  width: 72px;
+  height: 72px;
   margin-top: -2px;
   margin-left: -2px;
   padding: 10px;
