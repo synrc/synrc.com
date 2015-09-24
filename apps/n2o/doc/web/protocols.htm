@@ -195,7 +195,7 @@ and possibly DOM updates.</p><!--TOC subsection id="sec13" Session Initializatio
 <h3 id="sec13" class="subsection">Session Initialization</h3><!--SEC END --><p>After page load you should start N2O session in JavaScript with configured
 formatters and starting function that will start message loop on the client:</p><div class="lstlisting">    var transition = {pid: '', host: 'localhost', port:'8000'};
     protos = [ $bert, $client ];
-    N2O_start();</div><p>Id <span style="font-weight:bold">pid</span> field is not set in <span style="font-weight:bold">transition</span> variable then you
+    N2O_start();</div><p>If <span style="font-weight:bold">pid</span> field is not set in <span style="font-weight:bold">transition</span> variable then you
 will request new session otherwise you may put here information from
 previously settled cookies for attaching to existing session. This <span style="font-weight:bold">pid</span>
 disregarding set or empty will be bypassed as a parameter to N2O init marker.</p><p>You can manually invoke session initialization inside existing session:</p><div class="lstlisting">    ws.send('N2O,');</div><p>In response on successfull WebSocket connection and enabled <span style="font-weight:bold">heart</span>

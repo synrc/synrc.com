@@ -1,0 +1,13 @@
+[
+  {[core,beam],["7.0.3"],[bin]},
+  {[core,crypto],["2.6"],[priv]},
+  {[synrc,fs],["1.9"],[priv]},
+  {[synrc,sh],["1.9"],[priv]},
+  {[synrc,active],["1.9"]},
+  {[synrc,mad],["1.9"]},
+  {[synrc,kvs],["2.9"]},
+  {[synrc,n2o],["2.9"]},
+  {[synrc,nitro],["0.9"]},
+  {[spawnproc,forms],["1.9"]},
+  {[spawnproc,bpe],["1.9"]}
+].

@@ -72,11 +72,29 @@
                 start | stop | repl</div><p>It seems to us more natural, you can specify random
 commands set with different specifiers (options).</p>
 <!--TOC subsection id="sec4" deps-->
-<h3 id="sec4" class="subsection">deps</h3><!--SEC END -->
-<!--TOC subsection id="sec5" compile-->
-<h3 id="sec5" class="subsection">compile</h3><!--SEC END -->
-<!--TOC subsection id="sec6" plan-->
-<h3 id="sec6" class="subsection">plan</h3><!--SEC END -->
+<h3 id="sec4" class="subsection">deps</h3><!--SEC END --><p>In rebar-like managers we are selecting deps from rebar.config:
+
+</p><div class="lstlisting">  {sub_dirs,["apps"]}.
+  {deps_dir,"deps"}.
+  {deps, [active,{nitro,"2.9"},{n2o,"2.9"}]}.</div>
+<!--TOC subsection id="sec5" compile, com-->
+<h3 id="sec5" class="subsection">compile, com</h3><!--SEC END --><p>
+Performs compilation of all known compilations backends in complilation profile of mad:
+
+</p><div class="lstlisting">    1. mad_app — app.src erlang templating.
+    2. mad_dtl — DTL compiler.
+    3. mad_erl — BEAM compiler.
+    4. mad_port — for gcc cland and other native compilation.
+    5. mad_script — .script file used in projects like gproc.
+    6. mad_yecc/mad_leex — DSL language parser compilers.
+    7. mad_upl — UPL compiler.</div>
+<!--TOC subsection id="sec6" pla-->
+<h3 id="sec6" class="subsection">pla</h3><!--SEC END --><p>
+Taking all dependecies and resolve boot sequence according to dependecy order. Storing this value in .applist.
+
+</p><div class="lstlisting">  Ordered: [kernel,stdlib,fs,ranch,crypto,compiler,syntax_tools,
+            gproc,cowlib,cowboy,n2o,sample,active,erlydtl,jsone,
+            mad,nitro,sh]</div>
 <!--TOC subsection id="sec7" repl-->
 <h3 id="sec7" class="subsection">repl</h3><!--SEC END -->
 <!--TOC subsection id="sec8" bundle-->

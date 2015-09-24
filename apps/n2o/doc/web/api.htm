@@ -145,7 +145,7 @@ Erlang lists or JavaScript/OTP.</p>
 <!--SEC END --><p>
 Any action, wired with <span style="font-weight:bold">wf:wire</span>, is enveloped in <span style="font-weight:bold">#wire{actions=[]}</span>,
 which is also an action capable of polymorphic rendering of custom or built-in actions, specified in the list.
-Following nested action embedding is also valid:</p><div class="lstlisting">    wf:wire(#wire{actions=[#alert{text="N2O"}]}).</div><p>You mau try to see how internally wiring is working:</p><div class="lstlisting">    &gt; wf:actions().
+Following nested action embedding is also valid:</p><div class="lstlisting">    wf:wire(#wire{actions=[#alert{text="N2O"}]}).</div><p>You may try to see how internally wiring is working:</p><div class="lstlisting">    &gt; wf:actions().
       []
 
     &gt; wf:wire(#alert{text="N2O"}).
@@ -206,7 +206,7 @@ message bus <span style="font-weight:bold">wf:send/2</span> which is similar to 
 But you can use also <span style="font-weight:bold">n2o_async:send/2</span> selectively to async worker what reminds
 <span style="font-weight:bold">wf:flush/0</span>. In following
 example different variants are gives, both incrementing counter by 2. Also notice
-the async process initialization throung <span style="font-weight:bold">init</span> message. It is not nessesary
+the async process initialization through <span style="font-weight:bold">init</span> message. It is not nessesary
 to include init clause to async looper.</p><div class="lstlisting">    body()      -&gt; [ #span   { id=display, body="0"},
                      #button { id=send, body="Inc",
                                postback=inc} ].
