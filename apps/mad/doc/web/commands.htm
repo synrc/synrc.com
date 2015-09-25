@@ -65,12 +65,11 @@
 
 <!--TOC section id="sec3" Commands-->
 <h2 id="sec3" class="section">Commands</h2><!--SEC END --><p>Synrc mad has a simple interface as follows:</p><div class="lstlisting">  MAD Container Tool version b547fa
-  BNF:
+
       invoke = mad params
-      params = [] | run params
-         run = command [ options ]
+      params = [] | command [ options  ] params
      command = app     | deps  | clean | compile | up
-             | release [ beam  | ling  | script  | runc | depot ]
+             | release [ beam  | ling  | script  | runc ]
              | deploy  | start | stop  | attach  | sh</div><p>It seems to us more natural, you can specify random
 commands set with different specifiers (options).</p>
 <!--TOC subsection id="sec4" deps-->
