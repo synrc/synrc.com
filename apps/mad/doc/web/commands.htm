@@ -77,7 +77,24 @@ commands set with different specifiers (options).</p>
 
 </p><div class="lstlisting">  {sub_dirs,["apps"]}.
   {deps_dir,"deps"}.
-  {deps, [active,{nitro,"2.9"},{n2o,"2.9"}]}.</div>
+  {deps, [active,{nitro,"2.9"},{n2o,"2.9"}]}.</div><p>The search sequence for dependecies is follows. First mad will try to
+reach global package repository at <a href="http://synrc.com/apps/index.txt">http://synrc.com/apps/index.txt</a>,
+this address is configurable. No application server is required for mad
+package management, only static files with OTP application format.</p><div class="lstlisting">  {application,bpe,
+      [{description,"BPE SRC Business Process Engine"},
+       {vsn,"1.9"},
+       {registered,[]},
+       {applications,[kernel,stdlib,kvs,n2o]},
+       {dependencies,[kernel,stdlib,fs,ranch,crypto,mnesia,
+                      gproc,cowlib,kvs,cowboy,n2o,active,
+                      jsone,mad,nitro,sh,bpe]},
+       {mod,{bpe_app,[]}},
+       {env,[]},
+       {modules,[bpe,bpe_app,bpe_date,bpe_event,bpe_metainfo,bpe_proc,
+                 bpe_sup,bpe_task,default_railing,log_allow,routes,
+                 sampleproc,sampleproc_process]}]}.</div><p>If no file is found or server is unavailable then application registry will
+be taken from mad built-in index.txt. If no luck then the name of application,
+e.g. "spawnproc/rete" will be interpreted as github repository address.</p><div class="lstlisting">   $ mad dep active n2o kvs ling "spawnproc/rete"</div>
 <!--TOC subsection id="sec5" compile, com-->
 <h3 id="sec5" class="subsection">compile, com</h3><!--SEC END --><p>
 Performs compilation of all known compilations backends in complilation profile of mad:
@@ -108,8 +125,7 @@ then <span style="font-weight:bold">script</span> release will be taken as a def
     OK:  "mad"</div><p>MAD supports several releasing backends:</p><div class="lstlisting">    script — script bundles, like mad itself
     beam — ERTS releases with systools
     ling — LING portable unikernels
-    runc — Docker-compatible containers
-    depot — releases from binary repositories</div>
+    runc — Docker-compatible containers</div>
 <!--TOC subsection id="sec7" sh, repl, rep-->
 <h3 id="sec7" class="subsection">sh, repl, rep</h3><!--SEC END --><p>Start REPL shell session.
 
