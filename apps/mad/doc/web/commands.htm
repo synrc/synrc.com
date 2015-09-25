@@ -64,12 +64,14 @@
 <div class="articlecol">
 
 <!--TOC section id="sec3" Commands-->
-<h2 id="sec3" class="section">Commands</h2><!--SEC END --><p>Synrc mad has a simple interface as follows:</p><div class="lstlisting">  BNF:
-      invoke := mad params
-      params := [] | run params
-         run := command [ options ]
-     command := app | lib | deps | compile | bundle
-                start | stop | repl</div><p>It seems to us more natural, you can specify random
+<h2 id="sec3" class="section">Commands</h2><!--SEC END --><p>Synrc mad has a simple interface as follows:</p><div class="lstlisting">  MAD Container Tool version b547fa
+  BNF:
+      invoke = mad params
+      params = [] | run params
+         run = command [ options ]
+     command = app     | deps  | clean | compile | up
+             | release [ beam  | ling  | script  | runc | depot ]
+             | deploy  | start | stop  | attach  | sh</div><p>It seems to us more natural, you can specify random
 commands set with different specifiers (options).</p>
 <!--TOC subsection id="sec4" deps-->
 <h3 id="sec4" class="subsection">deps</h3><!--SEC END --><p>In rebar-like managers we are selecting deps from rebar.config:
@@ -81,26 +83,37 @@ commands set with different specifiers (options).</p>
 <h3 id="sec5" class="subsection">compile, com</h3><!--SEC END --><p>
 Performs compilation of all known compilations backends in complilation profile of mad:
 
-</p><div class="lstlisting">    1. mad_app — app.src erlang templating.
-    2. mad_dtl — DTL compiler.
-    3. mad_erl — BEAM compiler.
-    4. mad_port — for gcc cland and other native compilation.
-    5. mad_script — .script file used in projects like gproc.
-    6. mad_yecc/mad_leex — DSL language parser compilers.
-    7. mad_upl — UPL compiler.</div>
-<!--TOC subsection id="sec6" pla-->
-<h3 id="sec6" class="subsection">pla</h3><!--SEC END --><p>
-Taking all dependecies and resolve boot sequence according to dependecy order. Storing this value in .applist.
+</p><div class="lstlisting">    app — app.src erlang templating
+    dtl — DTL compiler
+    erl — BEAM compiler
+    c/c++ — for gcc cland and other native compilation
+    script — .script file used in projects like gproc
+    yrl/xrl — DSL language parser compilers
+    upl — UPL compiler</div>
+<!--TOC subsection id="sec6" release, rel-->
+<h3 id="sec6" class="subsection">release, rel</h3><!--SEC END --><p>
+Taking all dependecies and resolve boot sequence according to dependecy order.
+Storing this value in .applist. If release type is not defined (<span style="font-weight:bold">beam</span> in following example),
+then <span style="font-weight:bold">script</span> release will be taken as a default.
 
-</p><div class="lstlisting">  Ordered: [kernel,stdlib,fs,ranch,crypto,compiler,syntax_tools,
-            gproc,cowlib,cowboy,n2o,sample,active,erlydtl,jsone,
-            mad,nitro,sh]</div>
-<!--TOC subsection id="sec7" repl-->
-<h3 id="sec7" class="subsection">repl</h3><!--SEC END -->
-<!--TOC subsection id="sec8" bundle-->
-<h3 id="sec8" class="subsection">bundle</h3><!--SEC END -->
-<!--TOC subsection id="sec9" app-->
-<h3 id="sec9" class="subsection">app</h3><!--SEC END --><p>
+</p><div class="lstlisting">    $ mad release beam sample
+    Ordered: [kernel,stdlib,fs,ranch,crypto,compiler,syntax_tools,
+              gproc,cowlib,cowboy,n2o,sample,active,erlydtl,jsone,
+              mad,nitro,sh]
+    *WARNING* : Missing application sasl. Can not upgrade with this release
+    sample.boot: ok
+    OK:  "sample"
+
+    $ mad rel mad
+    Ordered: [kernel,stdlib,inets,sh,mad]
+    OK:  "mad"</div><p>MAD supports several releasing backends:</p><div class="lstlisting">    script — script bundles, like mad itself
+    beam — ERTS releases with systools
+    ling — LING portable unikernels
+    runc — Docker-compatible containers
+    depot — releases from binary repositories</div>
+<!--TOC subsection id="sec7" sh-->
+<h3 id="sec7" class="subsection">sh</h3><!--SEC END --><p>Start REPL shell session.
+
 
     <div id="disqus_thread"></div>
     <script type="text/javascript">
