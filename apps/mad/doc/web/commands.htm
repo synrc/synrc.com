@@ -72,8 +72,8 @@
              | release [ beam  | ling  | script  | runc ]
              | deploy  | start | stop  | attach  | sh</div><p>It seems to us more natural, you can specify random
 commands set with different specifiers (options).</p>
-<!--TOC subsection id="sec4" deps-->
-<h3 id="sec4" class="subsection">deps</h3><!--SEC END --><p>In rebar-like managers we are selecting deps from rebar.config:
+<!--TOC subsection id="sec4" deps, dep-->
+<h3 id="sec4" class="subsection">deps, dep</h3><!--SEC END --><p>In rebar-like managers we are selecting deps from rebar.config:
 
 </p><div class="lstlisting">  {sub_dirs,["apps"]}.
   {deps_dir,"deps"}.
@@ -89,8 +89,8 @@ Performs compilation of all known compilations backends in complilation profile 
     script — .script file used in projects like gproc
     yrl/xrl — DSL language parser compilers
     upl — UPL compiler</div>
-<!--TOC subsection id="sec6" release, rel-->
-<h3 id="sec6" class="subsection">release, rel</h3><!--SEC END --><p>
+<!--TOC subsection id="sec6" release, rel, bundle, bun-->
+<h3 id="sec6" class="subsection">release, rel, bundle, bun</h3><!--SEC END --><p>
 Taking all dependecies and resolve boot sequence according to dependecy order.
 Storing this value in .applist. If release type is not defined (<span style="font-weight:bold">beam</span> in following example),
 then <span style="font-weight:bold">script</span> release will be taken as a default.
@@ -110,8 +110,8 @@ then <span style="font-weight:bold">script</span> release will be taken as a def
     ling — LING portable unikernels
     runc — Docker-compatible containers
     depot — releases from binary repositories</div>
-<!--TOC subsection id="sec7" sh-->
-<h3 id="sec7" class="subsection">sh</h3><!--SEC END --><p>Start REPL shell session.
+<!--TOC subsection id="sec7" sh, repl, rep-->
+<h3 id="sec7" class="subsection">sh, repl, rep</h3><!--SEC END --><p>Start REPL shell session.
 
 
     <div id="disqus_thread"></div>
