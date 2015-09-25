@@ -83,6 +83,7 @@ Specifically two kinds of directory layouts:</p><div class="center">Listing 1: 
 mad currently creates releases with systools, but manually manages binary access:
 from local erlang or public applcation depot.</p><p>To bundle binary BEAM or LING along with synrc spplications MAD can use
 global repository statically avaliable at Github Pages:</p><div class="lstlisting">
+  $ curl -X GET http://synrc.com/apps/index.txt
   [ {bin,[beam],     ["7.0.3"]},
     {lib,[active],   ["0.9"]},
     {lib,[compiler], ["6.0"]},

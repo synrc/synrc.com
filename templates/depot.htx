@@ -1,6 +1,8 @@
 
 <br><br>
 <code style="font-weight:lighter;">
+
+  $ curl -X GET http://synrc.com/apps/index.txt
   [
       {bin,[<a href="http://synrc.com/apps/beam/bin/beam.txt">beam</a>],     ["7.0.3"]},
       {lib,[<a href="http://synrc.com/apps/kernel/ebin/kernel.txt">kernel</a>],   ["4.0"]},
