@@ -65,25 +65,24 @@
 
 <!--TOC section id="sec3" MAD: Erlang Containers-->
 <h2 id="sec3" class="section">MAD: Erlang Containers</h2><!--SEC END -->
-<!--TOC subsection id="sec4" Introduction-->
-<h3 id="sec4" class="subsection">Introduction</h3><!--SEC END --><p>
+<!--TOC subsection id="sec4" Purpose-->
+<h3 id="sec4" class="subsection">Purpose</h3><!--SEC END --><p>
 We were trying to make something minimalistic that fits out <a href="https://github.com/synrc">application stack</a>.
 The main idea of mad is to provide clean and simple rebar-like fast dependency manager that
-is able to build several types of packages and provide interface of deployment to containered environments.</p>
+is able to build several types of packages and provides interface of containered deployments
+to virtualiezed environments.</p>
 <!--TOC subsection id="sec5" Several Types of Packaging-->
 <h3 id="sec5" class="subsection">Several Types of Packaging</h3><!--SEC END --><p>
 The key feature of mad is ability to create single-file bundled web sites.
-Thus making dream to boot simpler than node.js come true.
 This target escript is ready to run on Windows, Linux and Mac.</p>
 <!--TOC subsection id="sec6" Deployment Options-->
 <h3 id="sec6" class="subsection">Deployment Options</h3><!--SEC END --><p>
-mad is also supposed to be a deploy tool with ability to
-deploy not only to our resources like Erlang on Xen, Voxoz (LXC/Xen) but
-also to Heroku and others.</p>
+As a deploy tool mad is also supposed to launch, start, stop and manage containers, locally or remote.
+You can make containers from different type of packages, like making runc container with beam release.</p>
 <!--TOC subsection id="sec7" OTP Compliant-->
 <h3 id="sec7" class="subsection">OTP Compliant</h3><!--SEC END --><p>
-mad supports rebar umbrella project structure.
-Specifically two kinds of directory layouts:</p>
+Mad supports ERTS boot files generation with systools and erlang application format used by OTP.
+This is the main format of application repository. Also boot files are suported on both LING and BEAM.</p>
 <!--TOC subsection id="sec8" Tiny Size-->
 <h3 id="sec8" class="subsection">Tiny Size</h3><!--SEC END --><p>
 And the good part:</p><div class="lstlisting">                      Sources        Binary
