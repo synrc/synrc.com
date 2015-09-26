@@ -63,10 +63,10 @@
 
 <div class="articlecol">
 
-<!--TOC section id="sec3" Bundles-->
-<h2 id="sec3" class="section">Bundles</h2><!--SEC END -->
-<!--TOC subsection id="sec4" Single-file SCRIPT Bundles-->
-<h3 id="sec4" class="subsection">Single-file SCRIPT Bundles</h3><!--SEC END --><p>The key feature of mad is ability to create single-file bundled web sites.
+<!--TOC section id="sec3" Container Bundles-->
+<h2 id="sec3" class="section">Container Bundles</h2><!--SEC END -->
+<!--TOC subsection id="sec4" ESCRIPT Bundles-->
+<h3 id="sec4" class="subsection">ESCRIPT Bundles</h3><!--SEC END --><p>The key feature of mad is ability to create single-file bundled web sites.
 Thus making dream to boot simpler than node.js come true.
 This bundle target is ready to run on Windows, Linux and Mac.</p><p>To make this possible we implemented a zip filesytem inside escript.
 mad packages priv directories along with ebin and configs.
@@ -81,8 +81,8 @@ function defined, which will boot up the bundle. This function could be like tha
      main(Params) -&gt;
           RebarConfig = [],
           mad_repl:main(Params,RebarConfig).</div>
-<!--TOC subsection id="sec5" BEAM Releases-->
-<h3 id="sec5" class="subsection">BEAM Releases</h3><!--SEC END --><p>As you may know you can create OTP releases with
+<!--TOC subsection id="sec5" BEAM ERTS Releases-->
+<h3 id="sec5" class="subsection">BEAM ERTS Releases</h3><!--SEC END --><p>As you may know you can create OTP releases with
 reltool (rebar generate) or systools (relx). mad creates releases boot
 script with systools and pack tra by itself.</p><div class="lstlisting">    # mad release beam sample</div>
 <!--TOC subsection id="sec6" LING Unikernels-->
@@ -141,7 +141,8 @@ of application using run_erl and to_erl tools from OTP distribution.
 We use that way in poduction. This is the best option also in
 development mode because all directory structure is open and mutable,
 so you can reload modified files and perform recompilation on the fly.</p><p>It uses the original code to fast resolve dependencies into the right
-boot sequence to start.</p><div class="lstlisting">    # make console</div><p>
+boot sequence to start. If you want more powerful Makefile-based erlang
+package management you may take a look onto ERLANG.MK by Ninenines.</p><div class="lstlisting">    # make console</div><p>
 
     <div id="disqus_thread"></div>
     <script type="text/javascript">
