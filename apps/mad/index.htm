@@ -65,8 +65,32 @@
 
 <!--TOC section id="sec3" MAD: Erlang Containers-->
 <h2 id="sec3" class="section">MAD: Erlang Containers</h2><!--SEC END -->
-<!--TOC subsection id="sec4" History-->
-<h3 id="sec4" class="subsection">History</h3><!--SEC END --><p>We came to conclusion that no matter how perfect your libraries are,
+<!--TOC subsection id="sec4" Introduction-->
+<h3 id="sec4" class="subsection">Introduction</h3><!--SEC END --><p>
+We were trying to make something minimalistic that fits out <a href="https://github.com/synrc">application stack</a>.
+The main idea of mad is to provide clean and simple rebar-like fast dependency manager that
+is able to build several types of packages and provide interface of deployment to containered environments.</p>
+<!--TOC subsection id="sec5" Several Types of Packaging-->
+<h3 id="sec5" class="subsection">Several Types of Packaging</h3><!--SEC END --><p>
+The key feature of mad is ability to create single-file bundled web sites.
+Thus making dream to boot simpler than node.js come true.
+This target escript is ready to run on Windows, Linux and Mac.</p>
+<!--TOC subsection id="sec6" Deployment Options-->
+<h3 id="sec6" class="subsection">Deployment Options</h3><!--SEC END --><p>
+mad is also supposed to be a deploy tool with ability to
+deploy not only to our resources like Erlang on Xen, Voxoz (LXC/Xen) but
+also to Heroku and others.</p>
+<!--TOC subsection id="sec7" OTP Compliant-->
+<h3 id="sec7" class="subsection">OTP Compliant</h3><!--SEC END --><p>
+mad supports rebar umbrella project structure.
+Specifically two kinds of directory layouts:</p>
+<!--TOC subsection id="sec8" Tiny Size-->
+<h3 id="sec8" class="subsection">Tiny Size</h3><!--SEC END --><p>
+And the good part:</p><div class="lstlisting">                      Sources        Binary
+    mad               967 LOC        52 KB
+    rebar             7717 LOC       181 KB</div>
+<!--TOC subsection id="sec9" History-->
+<h3 id="sec9" class="subsection">History</h3><!--SEC END --><p>We came to conclusion that no matter how perfect your libraries are,
 the comfort and ease come mostly from developing tools.
 Everything got started when <a href="https://github.com/proger">Vladimir Kirillov</a> decided to
 replace Rusty’s sync beam reloader. As you know sync uses
@@ -93,37 +117,7 @@ In a month I forked mad and took over the development under the same name.</p><d
     mad deps compile               54.097s    0.899s</div><div class="center">Listing 2: Example of building Cowboy</div><p><br>
 </p><div class="lstlisting">                                   Hot
     make (erlang.mk)               2.588s
-    mad compile                    2.521s</div>
-<!--TOC subsection id="sec5" Introduction-->
-<h3 id="sec5" class="subsection">Introduction</h3><!--SEC END --><p>We were trying to make something minimalistic that fits out <a href="https://github.com/synrc">Web Stack</a>.
-Besides we wanted to use our knowledge of other build tools like lein, sbt etc.
-Also for sure we tried sinan, ebt, Makefile-based scripts.</p><p>Synrc mad has a simple interface as follows:</p><div class="lstlisting">  BNF:
-      invoke := mad params
-      params := [] | run params
-         run := command [ options ]
-     command := app | lib | deps | compile | bundle
-                start | stop | repl</div><p>It seems to us more natural, you can specify random
-commands set with different specifiers (options).</p>
-<!--TOC subsection id="sec6" Several Types of Packaging-->
-<h3 id="sec6" class="subsection">Several Types of Packaging</h3><!--SEC END --><p>The key feature of mad is ability to create single-file bundled web sites.
-Thus making dream to boot simpler than node.js come true.
-This target escript is ready to run on Windows, Linux and Mac.</p>
-<!--TOC subsection id="sec7" Deployment Options-->
-<h3 id="sec7" class="subsection">Deployment Options</h3><!--SEC END --><p>mad is also supposed to be a deploy tool with ability to
-deploy not only to our resources like Erlang on Xen, Voxoz (LXC/Xen) but
-also to Heroku and others.</p>
-<!--TOC subsection id="sec8" OTP Compliant-->
-<h3 id="sec8" class="subsection">OTP Compliant</h3><!--SEC END --><p>mad supports rebar umbrella project structure.
-Specifically two kinds of directory layouts:</p>
-<!--TOC subsection id="sec9" Fast Apps Ordering-->
-<h3 id="sec9" class="subsection">Fast Apps Ordering</h3><!--SEC END --><p>As you may know you can create OTP releases with
-reltool (rebar generate) or systools (relx). mad currently
-creates releases with relx but is going to do it independently soon.
-Now it can only order applications.</p>
-<!--TOC subsection id="sec10" Tiny Size-->
-<h3 id="sec10" class="subsection">Tiny Size</h3><!--SEC END --><p>And the good part:</p><div class="lstlisting">                      Sources        Binary
-    mad               567 LOC        39 KB
-    rebar             7717 LOC       181 KB</div><p>
+    mad compile                    2.521s</div><p>
 
 <br><br>
 <h2><a name="testimonials"><b>About MAD</b></a></h2><blockquote>At the beginning, Mad was supposed to be only a Rebar-compatible dependency manager, after a while,
