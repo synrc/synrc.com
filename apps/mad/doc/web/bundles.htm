@@ -77,10 +77,7 @@ N2O also comes with custom cowboy static handler that is able to
 read static files from this cached ETS filesystem.
 Also bundle are compatible with active online realoading and recompilation.</p><p>E.g. you main create a single file site with:</p><div class="lstlisting">    # mad bundle app_name</div><p>app_name shoul be the same as a valid Erlang module, with app_module:main/1
 function defined, which will boot up the bundle. This function could be like that:</p><div class="lstlisting">     -module(app_name).
-
-     main(Params) -&gt;
-          RebarConfig = [],
-          mad_repl:main(Params,RebarConfig).</div>
+     main(Params) -&gt; mad_repl:sh(Params).</div>
 <!--TOC subsection id="sec5" BEAM ERTS Releases-->
 <h3 id="sec5" class="subsection">BEAM ERTS Releases</h3><!--SEC END --><p>As you may know you can create OTP releases with
 reltool (rebar generate) or systools (relx). mad creates releases boot
@@ -173,6 +170,8 @@ package management you may take a look onto ERLANG.MK by Nine Nines.</p><div cla
     	<br><br><br>
         <a href="//synrc.com/news/index.htm">Events</a> |
     	<a href="//synrc.com/privacy.htm">Privacy Policy</a> |
+        <a class="muut" href="https://muut.com/i/synrc">Forum</a> |
+        <script src="//cdn.muut.com/1/moot.min.js"></script>
         <a href="//synrc.com/feedback.htm">Feedback</a> |
         <a href="//synrc.com/brandbook.htm">Brandbook</a><br>
     	Copyright &copy; 2005&ndash;2015 <a href="//synrc.com/index.htm"> Synrc Research Center s.r.o.</a>
@@ -180,6 +179,7 @@ package management you may take a look onto ERLANG.MK by Nine Nines.</p><div cla
 
 </div>
 </div>
+
 
 <div class="clear"></div>
 
