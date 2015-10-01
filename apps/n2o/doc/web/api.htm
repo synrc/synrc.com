@@ -340,12 +340,9 @@ inside handlers or endpoints.</p><div class="lstlisting">    wf:cookies_req(?REQ
     wf:cookie_req(Name,Value,Path,TTL,Req)</div><p>You can set cookies for the page using public cookies API during initial page rendering.</p><div class="lstlisting">    body() -&gt; wf:cookie("user","Joe"), [].</div><p>You should use wiring inside WebSocket events:</p><div class="lstlisting">    event(_) -&gt;
         wf:wire(wf:f("document.cookie='~s=~s'",["user","Joe"])).</div><p>
 
-    <div id="disqus_thread"></div>
+    <!--div id="disqus_thread"></div>
     <script type="text/javascript">
-        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
         var disqus_shortname = 'synrc'; // required: replace example with your forum shortname
-
-        /* * * DON'T EDIT BELOW THIS LINE * * */
         (function() {
             var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
             dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
@@ -353,8 +350,8 @@ inside handlers or endpoints.</p><div class="lstlisting">    wf:cookies_req(?REQ
         })();
     </script>
     <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-    <a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-    
+    <a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a-->
+
 
 </p></div>
 </div>
