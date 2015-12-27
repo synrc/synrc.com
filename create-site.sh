@@ -70,12 +70,12 @@ create_hevea "feedback"
 create_hevea "research"
 create_hevea "apps"
 
-create_book ~/depot/synrc/mad
-create_book ~/depot/synrc/n2o
-create_book ~/depot/spawnproc/upl
-create_book ~/depot/spawnproc/forms
-create_book ~/depot/spawnproc/bpe
+#create_book ~/depot/synrc/mad
+#create_book ~/depot/synrc/n2o
+#create_book ~/depot/spawnproc/upl
+#create_book ~/depot/spawnproc/forms
+#create_book ~/depot/spawnproc/bpe
 
-create_book ~/depot/synrc/n2o
+#create_book ~/depot/synrc/n2o
 
 cp apps.htm apps/index.htm
