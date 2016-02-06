@@ -16,7 +16,15 @@
 
 <div class="nonselectedwrapper white" style="padding: 10px 0px 10px 0px;margin: 0px 0px 10px 0px;">
     <a href="//synrc.com/">
-    <img style="flat:left; margin-left: 55px; margin-top: 5px; margin-bottom:-5px;" src="http://synrc.com/images/synrc.png" border="0"></a>
+    <img style="float:left; margin-left: 55px; margin-top: 5px; margin-bottom:-5px;" src="http://synrc.com/images/synrc.png" border="0"></a>
+
+
+    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" style="margin-top:39px;">
+     <input type="hidden" name="cmd" value="_s-xclick">
+     <input type="hidden" name="hosted_button_id" value="P8WQHAQK5HWWW">
+     <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif" border="0" name="submit" style="width:74px;margin-top:0px;">
+    </form>
+
     <div align=right style="height: auto; margin: -50px 50px 0px 0px;">
           <script type="text/javascript"><!--
         var args = (window.location).toString().split('/');
@@ -105,11 +113,9 @@ for passing HTTP, REST, WebSocket and Static N2O endpoints:</p><div class="cente
   main(A)    -&gt; mad:main(A).
   start(_,_) -&gt; supervisor:start_link({local,review},review,[]).
   stop(_)    -&gt; ok.
-  init([])   -&gt; case cowboy:start_http(http,3,port(),env()) of
-                     {ok, _}   -&gt; ok;
-                     {error,_} -&gt; halt(abort,[]) end, sup().
+  init([])   -&gt; { ok, { { one_for_one, 5, 100 }, [spec()] } }.
 
-  sup()    -&gt; { ok, { { one_for_one, 5, 100 }, [] } }.
+  spec()   -&gt; ranch:child_spec(http, 100, ranch_tcp, port(), cowboy_protocol, env()).
   port()   -&gt; [ { port, wf:config(n2o,port,8000)  } ].
   env()    -&gt; [ { env, [ { dispatch, points() } ] } ].
   static() -&gt;   { dir, "apps/sample/priv/static", mime() }.
@@ -151,7 +157,6 @@ Nitrogen DSL you can plug all of them separately.</p><div class="lstlisting">   
             {app,review},
             {route,routes},
             {mq,n2o_mq},
-            {formatter,json},
             {json,jsone},
             {log_modules,config},
             {log_level,config},

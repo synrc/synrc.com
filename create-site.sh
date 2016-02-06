@@ -71,7 +71,7 @@ create_hevea "research"
 create_hevea "apps"
 
 #create_book ~/depot/synrc/mad
-#create_book ~/depot/synrc/n2o
+create_book ~/depot/synrc/n2o
 #create_book ~/depot/spawnproc/upl
 #create_book ~/depot/spawnproc/forms
 #create_book ~/depot/spawnproc/bpe
