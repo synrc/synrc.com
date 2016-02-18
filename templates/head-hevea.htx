@@ -3,8 +3,14 @@
     <a href="//synrc.com/">
     <img style="float:left; margin-left: 55px; margin-top: 5px; margin-bottom:-5px;" src="http://synrc.com/images/synrc.png" border="0"></a>
 
-    <div align=right style="height: auto; margin: -50px 50px 0px 0px;">
-          <script type="text/javascript"><!--
+    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" style="display:none;margin-top:39px;">
+      <input type="hidden" name="cmd" value="_s-xclick">
+      <input type="hidden" name="hosted_button_id" value="P8WQHAQK5HWWW">
+      <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif" border="0" name="submit" style="width:74px;margin-top:0px;">
+     </form>
+
+    <div align=right style="height: auto; margin: 20px 50px 0px 0px;">
+          <script type="text/javascript">
 
         var args = (window.location).toString().split('/');
         var page_name = args[args.length-1];
@@ -18,7 +24,7 @@
             if (page_name == key) { document.write('<div class="menu" style="font-weight: bold;">'+menu[key]+'</div>'); }
             else { document.write('<a class="menu" href="'+key+'">'+menu[key]+'</a>'); }
         });
-        -->
+
         </script>
     </div>
 </div>
