@@ -10,7 +10,7 @@
 
 <div id="slideshow" height=600><div id="slides"><div class="slide">
 
-    <div class="block" style="font-size: 20pt; color: royalblue; margin-top:30px;">
+    <div class="block2" style="font-size: 20pt; color: royalblue; margin-top:30px;">
 
     MVC/M+VC<br>
     Elixir/Joxa/Erlang Samples<br>
@@ -34,7 +34,7 @@
 
 </div><div class="slide">
 
-    <div class="block" style="font-size: 20pt; color: royalblue; margin-top:30px;">
+    <div class="block2" style="font-size: 20pt; color: royalblue; margin-top:30px;">
 
     Polymorphic Tuples <br>
     Managing Linked-Lists <br>
@@ -56,7 +56,7 @@
 
 </div><div class="slide">
 
-    <div class="block" style="font-size: 20pt; color: royalblue; margin-top:30px;">
+    <div class="block2" style="font-size: 20pt; color: royalblue; margin-top:30px;">
 
     Damn Fast <br>
     Core is about 300 LOC <br>
@@ -79,7 +79,7 @@
 
 </div><!--div class="slide">
 
-    <div class="block" style="font-size: 20pt; color: royalblue; margin-top:30px;">
+    <div class="block2" style="font-size: 20pt; color: royalblue; margin-top:30px;">
 
     Damn Fast <br>
     Development =:= Production <br>

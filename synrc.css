@@ -49,6 +49,7 @@ button { font-size:20pt; margin-top:15px; padding: 10px; }
 .menu { font-size:18pt; color: red; padding: 0 0 15px 15px; margin-right:10px; display: inline-block;}
 .menu:hover { }
 .block { margin-top: 15px; height: 400px; width:400px; background-color: transparent; vertical-align: top; display: inline-block; text-align: left; }
+.block2 { margin-top: 15px; height: 400px; width:400px; background-color: transparent; vertical-align: top; display: inline-block; text-align: left; }
 .wrapper     { max-width: 1200px; margin: 15px auto; text-align:center;}
 .article     { margin: 0 auto; text-align: center;}
 .articlecol  { max-width: 850px; min-width: 850px; padding-rigt: 20px; margin: 0 auto; text-align: left; display: inline-block; }
@@ -70,7 +71,7 @@ blockquote { background-color: #fAfAfA; padding: 20px 20px 20px 20px;}
     padding-bottom: 10px; 
     background-color: #fafafa;
     background-repeat: repeat; }
-.nonselectedwrapper { margin:auto; padding:auto;width: max-width; overflow: hidden; }
+.nonselectedwrapper { margin:auto; padding:auto; width: max-width; overflow: hidden; }
 .widecol    { width: 40%; float: left; padding: 10px; }
 .smallcol   { width: 200px; padding: 50 0; text-align: left; display: inline-block; vertical-align: top;}
 .toc   { font-size: 16pt; width: 200px; text-align: left; padding-rigt: 20px; margin-left: 20px; display: inline-block; vertical-align: top;}
@@ -115,7 +116,11 @@ p br:nth-child(1) {display: none;}
     font-weight: normal;
     font-style: normal;
 }
-
+@media screen and (max-width: 1200px) {
+  .block2 {
+    display: none;
+  }
+}
 @media screen and (max-width: 880px) {
   .nonselectedwrapper > a {
     display: block;
@@ -127,8 +132,6 @@ p br:nth-child(1) {display: none;}
   }
   .nonselectedwrapper [align='right'] .menu {
     display: block;
-    width: 100%;
-    text-align: center;
   }
 }
 
