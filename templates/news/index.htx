@@ -1,3 +1,124 @@
+<DIV CLASS="nonselectedwrapper"><DIV CLASS="article"><DIV CLASS="smallcol"></DIV>
+<DIV CLASS="articlecol">  <h1>2016</h1> </div></div></div>
+
+<DIV CLASS="nonselectedwrapper">
+<DIV CLASS="article">
+<DIV CLASS="smallcol">
+    <center><IMG style="padding-right:50px;" SRC="../images/lambda.png" width=200></center>
+</DIV>
+<DIV CLASS="articlecol">
+
+    <H2><a href="2016/groupoid.htm">Kyiv fprog: Первый теоретикотиповой<br> категорный митап<br> в Киеве!</a></H2>
+
+<p>В мире типизированного лямбда-исчисления есть более слабая и надежная
+формальная система Calculus of Construction (CoC), единственной
+операцией на типах в которой является тип зависимых функций, а также
+более сильная и выразительная Calculus of Inductive Constructions
+(CIC), включающая индуктивные типы. Предположим, мы хотим использовать
+в нашем языке все преимущества наличия индуктивных типов CIC, оставив
+бекэнд простым, основанным на CoC. Классические методы достигнуть
+этого&nbsp;&mdash; так называемые кодировки, например, кодировка
+Черча-Бёма-Берардуччи,&nbsp;&mdash; либо не позволяют выразить в получившейся
+системе аксиому индукции, необходимую для полноценного обращения с
+зависимыми типами, либо требуют расширения CoC другими экзотическими
+операциями. Сегодня мы опишем кодировку индуктивных и коиндуктивных
+типов, работающую в неизмененном CoC, которая основана на
+использовании известных конструкций из теории категорий. Будут
+рассмотрены варианты кодировки для непредикативной и предикативной
+иерархии универсумов, а также для кодирования самого типа-универсума.
+Кодировка допускает обобщение на высшие индуктивные типы в таких
+современных вариантах теории типов, как HoTT.</p>
+
+</div>
+</div>
+</div>
+
+
+<DIV CLASS="nonselectedwrapper"><DIV CLASS="article"><DIV CLASS="smallcol"></DIV>
+<DIV CLASS="articlecol">  <h1>2015</h1> </div></div></div>
+
+<DIV CLASS="nonselectedwrapper">
+<DIV CLASS="article" height=100>
+<DIV class="smallcol" height=100 style='background-color:transparent;'>
+    <center><IMG style="padding-right:50px;" SRC="../images/fby.png" width=200></center>
+
+</DIV>
+<DIV CLASS="articlecol">
+
+    <H2><a name="2015/fby.htm">«Unikernel Full-Stack на Erlang»<br> by Максим Сохацкий</a></H2>
+
+<p>CTO of «Synrc Research Center». More than 14 years in IT.
+   Erlang engaged since 2010. Ranked in the top 5 Erlang committers on Github.
+   In May 2014 he took part in the Erlang User Conference in California with
+   web framework talk. Maxim is developing the fastest web framework N2O for
+   Erlang completely built on WebSockets, SVG and binary protocols.</p>
+
+   <iframe width="600" height="400" src="https://www.youtube.com/embed/E_at53wDH1w" frameborder="0" allowfullscreen></iframe>
+
+</div>
+</div>
+</div>
+
+
+<DIV CLASS="nonselectedwrapper">
+<DIV CLASS="article" height=100>
+<DIV class="smallcol" height=100 style='background-color:transparent;'>
+    <center><IMG style="padding-right:50px;" SRC="../images/iforum.png" width=200></center>
+</DIV>
+<DIV CLASS="articlecol">
+
+    <H2><a name="2015/iforum.htm">Расширяемый протокол прикладного уровня N2O для IoT и WebSoсket приложений</a></H2>
+
+<iframe width="600" height="400" src="http://www.youtube.com/embed/vnymtEeYTjE" frameborder="0"
+  allowfullscreen="allowfullscreen" data-link="http://www.youtube.com/watch?v=vnymtEeYTjE"></iframe>
+
+</div>
+</div>
+</div>
+
+
+<DIV CLASS="nonselectedwrapper">
+<DIV CLASS="article" height=100>
+<DIV class="smallcol" height=100 style='background-color:transparent;'>
+WebCamp, Odessa
+</DIV>
+<DIV CLASS="articlecol">
+
+    <H2><a name="2015/iforum.htm">Стек протоколов &mdash; N2O, KVS и BPE</a></H2>
+
+<p>RoR подобные веб фреймворки для Erlang. Как адаптироваться с минимальными усилиями
+с Ruby on Rails на Erlang? Какие преимущества дает перенос серверной части на
+Erlang в контексте интеграции с остальными сервисами. Новый веб фреймворк для
+Erlang &mdash; N2O: JavaScript компилятор, База данных, REST тулкит, WebSockets.</p>
+
+</div>
+</div>
+</div>
+
+
+<DIV CLASS="nonselectedwrapper">
+<DIV CLASS="article" height=100>
+<DIV class="smallcol" height=100 style='background-color:transparent;'>
+EAX podcast
+</DIV>
+<DIV CLASS="articlecol">
+
+<H2><a name="2015/iforum.htm">Интервью с Максимом Сохацким об Erlang, проекте Erlang on Xen и веб-фреймворке N2O</a></H2>
+
+<p>Темы четырнадцатого выпуска: как убедить джавников и .NET-чиков перейти на
+   функциональные языки, история создания веб-фреймворка N2O, проекты Erlang
+   on Xen и Voxoz.com, а также Functional programming Meetup, который состоится
+   в Москве 16-го августа 2014. сколько форкнуть Xen’ов, Erlang-девочки и теория категорий,
+   системы типов и сиподобная лапша, а также ответы на вопросы слушателей.
+   <a href="http://eax.me/eaxcast-s02e07">Первый</a> и <a href="http://eax.me/eaxcast-s02e08">второй</a> выпуски.</p>
+
+</div>
+</div>
+</div>
+
+
+
+
 
 <DIV CLASS="nonselectedwrapper"><DIV CLASS="article"><DIV CLASS="smallcol"></DIV>
 <DIV CLASS="articlecol">  <h1>2014</h1> </div></div></div>
@@ -48,10 +169,8 @@ Erlang сообщество не только в Украине, но и за е
 
 <DIV CLASS="nonselectedwrapper">
 <DIV CLASS="article" height=100>
-<DIV class="smallcol" height=100 style='background-color:silver;'>
-    <center>
-        <IMG style="background-color:silver;margin-left:-150px;margin-top:-50px;" SRC="http://webcamp.in.ua/img/logo.png" width=300>
-        </center>
+<DIV class="smallcol" height=100 style='background-color:transparent;'>
+&nbsp;
 </DIV>
 <DIV CLASS="articlecol">
 
@@ -131,10 +250,10 @@ We talk about Erlang on Xen, Releases, Dev ops and more.</p>
 
     <H2><a href="2013/fprog-2.htm">Kiev fprog: KVS Abstract Term Database</a></H2>
 
-<p>RoR подобные веб фреймворки для Erlang. Как адаптироваться с минимальными усилиями
-с Ruby on Rails на Erlang? Какие преимущества дает перенос серверной части на
-Erlang в контексте интеграции с остальными сервисами. Новый веб фреймворк для
-Erlang &mdash; N2O: JavaScript компилятор, База данных, REST тулкит, WebSockets.</p>
+<p>Мы расскажем, как использовать различные базы данных для Erlang: Mnesia, Riak, KAI; особенности
+    использования секондари индексов, автоматическое построение REST интерфейсов к данным,
+    использование Parse Transform для генерации JSON парсеров, обеспечение конкурентного
+    доступа к данным, аспекты использования Feed Server и Feed UI.</p>
 
 </div>
 </div>
@@ -186,8 +305,8 @@ expertise leaders. Inspirational Talk on Building Erlang Company.</p>
     <H2><a href="2013/fprog-1.htm">Kiev fprog: Voxoz Erlang PaaS</a></H2>
 
 <p>Компания «Synrc Research Center» представит прототип Erlang PaaS
-и расскажет о том, как написать свой PaaS на Erlang за месяц. Также будет презентацию
-ключевых для PaaS приложений KVS, MQS и N2O а также описание промо проектов: Skyline.</p>
+и расскажет о том, как написать свой PaaS на Erlang за месяц. Кроме этого будет презентация
+ключевых для PaaS приложений KVS, MQS и N2O, а также описание промо проектов: Skyline.</p>
 
 </div>
 </div>
@@ -219,7 +338,7 @@ expertise leaders. Inspirational Talk on Building Erlang Company.</p>
     <H2><a href="2013/courses.htm">Kiev Erlang Courses</a></H2>
 
 <p>Компания «Synrc Research Center», которая занимается разработкой
-проектов на Erlang, готова поделиться своим опытом в лучших традиция
+проектов на Erlang, готова поделиться своим опытом в лучших традициях
 стокгольмской Erlang конференции. Эти курсы будут интересны всем, кто
 хочет познакомиться с Erlang на практике. Особенно полезными будут
 для тех, кто хочет попробовать внедрить Erlang у себя на производстве.
