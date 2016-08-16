@@ -10,8 +10,5 @@ create_pdf()
 }
 
 #create_pdf ~/depot/synrc/mad
-#create_pdf ~/depot/spawnproc/upl
-#create_pdf ~/depot/spawnproc/forms
-#create_pdf ~/depot/spawnproc/bpe
 create_pdf ~/depot/synrc/n2o
-#create_pdf ~/depot/spawnproc/bpe
+create_pdf ~/depot/spawnproc/bpe
