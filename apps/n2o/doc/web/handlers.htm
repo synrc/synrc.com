@@ -49,48 +49,12 @@
 <!--ENDHTML-->
 <!--CUT DEF section 1 --><div class="nonselectedwrapper">
 <div class="article">
-<div class="toc">
-<!--TOC section id="sec1" TOC-->
-<h2 id="sec1" class="section">TOC</h2><!--SEC END -->
-<!--TOC paragraph id="sec2" -->
-<!--SEC END --><p>
-<a href="http://synrc.com/apps/n2o/doc/web">1. Framework</a> <br>
-
-<a href="http://synrc.com/apps/n2o/doc/web/setup.htm">2. Setup</a> <br>
-
-<a href="http://synrc.com/apps/n2o/doc/web/processes.htm">3. Processes</a> <br>
-
-<a href="http://synrc.com/apps/n2o/doc/web/endpoints.htm">4. Endpoints</a> <br>
-
-<a href="http://synrc.com/apps/n2o/doc/web/handlers.htm">5. Handlers</a> <br>
-
-<a href="http://synrc.com/apps/n2o/doc/web/protocols.htm">6. Protocols</a> <br>
-
-<a href="http://synrc.com/apps/n2o/doc/web/api.htm">7. API</a> <br>
-
-<a href="http://synrc.com/apps/n2o/doc/web/elements.htm">8. Elements</a> <br>
-
-<a href="http://synrc.com/apps/n2o/doc/web/actions.htm">9. Actions</a> <br>
-
-<a href="http://synrc.com/apps/n2o/doc/web/macros.htm">10. JavaScript</a> <br>
-
-<a href="http://synrc.com/apps/n2o/doc/web/utf8.htm">11. UTF-8</a> <br>
-
-<a href="http://synrc.com/apps/n2o/doc/web/packages.htm">12. Packages</a> <br>
-
-<a href="http://synrc.com/apps/n2o/doc/web/persistence.htm">13. Persistence</a> <br>
-
-<a href="http://synrc.com/apps/n2o/doc/web/last.htm">14. History</a> <br>
-
-<a href="http://synrc.com/apps/n2o/doc/book.pdf">Download PDF</a> <br>
-
-</p></div>
 
 <div class="articlecol">
 
 
-<!--TOC section id="sec3" Handlers-->
-<h2 id="sec3" class="section">Handlers</h2><!--SEC END --><p>
+<!--TOC section id="sec1" Handlers-->
+<h2 id="sec1" class="section">Handlers</h2><!--SEC END --><p>
 HTML and JavaScript Web Server HTTP handlers share the same system
 of context initialization.</p><div class="lstlisting">    init_context(Req) -&gt; #cx{
         actions=[], module=index, path=[],
@@ -104,14 +68,14 @@ additional handler in the chain to transform web server requests.</p><div class=
         lists:foldl(fun({_,Module},Ctx1) -&gt;
             {ok,_,NewCtx} = Module:Fun([],Ctx1),
             NewCtx end,Ctx,Handlers).</div>
-<!--TOC subsection id="sec4" Query-->
-<h3 id="sec4" class="subsection">Query</h3><!--SEC END --><p>
+<!--TOC subsection id="sec2" Query-->
+<h3 id="sec2" class="subsection">Query</h3><!--SEC END --><p>
 Query Handler parses URL query and HTTP form information from HTTP request.</p>
-<!--TOC subsection id="sec5" Session-->
-<h3 id="sec5" class="subsection">Session</h3><!--SEC END --><p>
+<!--TOC subsection id="sec3" Session-->
+<h3 id="sec3" class="subsection">Session</h3><!--SEC END --><p>
 Session Handler manages key-value in-memory database ETS table.</p>
-<!--TOC subsection id="sec6" Router-->
-<h3 id="sec6" class="subsection">Router</h3><!--SEC END --><p>
+<!--TOC subsection id="sec4" Router-->
+<h3 id="sec4" class="subsection">Router</h3><!--SEC END --><p>
 You can specify routing table with application config:</p><div class="lstlisting">    {n2o, [{route,n2o_route}]}</div><p>Remember that routing handler should be kept very simple because it
 influences overall initial page load latency and HTTP capacity.</p><div class="lstlisting">    -module(n2o_route).
     -include_lib("n2o/include/wf.hrl").

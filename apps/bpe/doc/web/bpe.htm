@@ -7,8 +7,7 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta property="og:image" content="images/s_64.png"/>
   <meta http-equiv="X-UA-Compatible" content="IE=IE10,chrome=1" />
-  <title>BPE
-</title>
+  <title>bpe</title>
 </head>
 <body >
 <!--HEVEA command line is: hevea bpe.tex -o bpe.htm -->
@@ -49,28 +48,11 @@
 <!--ENDHTML-->
 <!--CUT DEF section 1 --><div class="nonselectedwrapper">
 <div class="article">
-<div class="toc">
-<!--TOC section id="sec1" TOC-->
-<h2 id="sec1" class="section">TOC</h2><!--SEC END -->
-<!--TOC paragraph id="sec2" -->
-<!--SEC END --><p>
-<a href="http://synrc.com/apps/bpe/doc/web/index.htm">Intro</a> <br>
-
-<a href="http://synrc.com/apps/bpe/doc/web/tps.htm">1. Processing</a> <br>
-
-<a href="http://synrc.com/apps/bpe/doc/web/bpe.htm">2. Workflows</a> <br>
-
-<a href="http://synrc.com/apps/bpe/doc/web/forms.htm">3. Forms</a> <br>
-
-<a href="http://synrc.com/apps/bpe/doc/web/upl.htm">4. Language</a> <br>
-</p><p><a href="http://synrc.com/apps/bpe/doc/book.pdf">Download PDF</a> <br>
-
-</p></div>
 
 <div class="articlecol">
 
-<!--TOC section id="sec3" BPE: Business Processes-->
-<h2 id="sec3" class="section">BPE: Business Processes</h2><!--SEC END --><p>What is BPE? BPE is an production grade business workflow engine that
+<!--TOC section id="sec1" BPE: Business Processes-->
+<h2 id="sec1" class="section">BPE: Business Processes</h2><!--SEC END --><p>What is BPE? BPE is an production grade business workflow engine that
 is enought for managing automated procesess.
 It can substitute WWF, BizTalk, Activity or Oracle BPM for those who
 understand the basic features of workflow systems.
@@ -84,7 +66,7 @@ Picture. <span style="font-weight:bold">Process Sample</span><br>
 
 
 </p>
-<!--TOC paragraph id="sec4" -->
+<!--TOC paragraph id="sec2" -->
 <!--SEC END --><p>
 This project was written essentially for biggest ukrainian commercial
 bank and is based on previous research work already done by athor
@@ -93,7 +75,7 @@ theory written by BPE author earlier while this book is dedicated
 essentially to BPE application and its companion libraries.
 The same way as web frameworks are the core of web applications,
 the workflow engine is a core of business applications.</p>
-<!--TOC paragraph id="sec5" -->
+<!--TOC paragraph id="sec3" -->
 <!--SEC END --><p>
 In its core BPE is microkernel that accept native Erlang record-based
 process definition in Erlang language along with Event-Condition-Action
@@ -103,13 +85,13 @@ like FSM machine, runned under Erlang supervision and is totally persisted,
 which means no data loss can be happened. It has very clean and minimalistic
 API for keeping this product robust and stable, th approach you already
 can find in Synrc stack in common and in N2O framework in particular.</p>
-<!--TOC paragraph id="sec6" -->
+<!--TOC paragraph id="sec4" -->
 <!--SEC END --><p>
 BPE context holds KVS documents which in fact typed Erlang
 records and are defined by KVS schema. Each process has its own persistent
 execution log and is fully fault-resistant with migration capabilities.
 The BPE protocol is well defined and is a part of N2O protocols stack.</p>
-<!--TOC paragraph id="sec7" -->
+<!--TOC paragraph id="sec5" -->
 <!--SEC END --><p>
 The author of BPE has implemented business workflow engine for CLR virtual
 machine using C# language. However Erlang implementation more idiomatic
@@ -117,23 +99,23 @@ and canonical due to semantic corresponding of process calculus and
 the core of underlying virtual machine. Send async messages across processes
 means exactly what it says up to Erlang pids. For sending documents to
 business process you can use process’s name or its Pid:</p><div class="lstlisting">    1&gt; bpe:amend(Process#process.id,#deposit{}).</div>
-<!--TOC paragraph id="sec8" -->
+<!--TOC paragraph id="sec6" -->
 <!--SEC END --><p>
 Thanks to this isomorphic corresponding between Erlang process and Calculus process,
 code size of core BPE server was reduced to 400 lines of code. This is definitely
 most clean functional implementation of workflow engine avalible in electronical banking systems.</p>
-<!--TOC subsection id="sec9" Pi-calculus and Petri nets-->
-<h3 id="sec9" class="subsection">Pi-calculus and Petri nets</h3><!--SEC END --><p>
+<!--TOC subsection id="sec7" Pi-calculus and Petri nets-->
+<h3 id="sec7" class="subsection">Pi-calculus and Petri nets</h3><!--SEC END --><p>
 The nice thing about all palette of different implementation of workflow models is
 that all of them reduced to one of two kinds of encoding: one is algebraic one and
 the other is geometric.</p>
-<!--TOC paragraph id="sec10" -->
+<!--TOC paragraph id="sec8" -->
 <!--SEC END --><p>
 The geometric one is <span style="font-weight:bold">Petri nets</span>. Carl Petri introduced it in 1962 during discrete
 analysis of asynchronous computer systems. Any its graphical representation could be
 defined with Petri nets formalism. Petri modeling in one of its forms is a good
 complementation to process algebra useful as computational model.</p>
-<!--TOC paragraph id="sec11" -->
+<!--TOC paragraph id="sec9" -->
 <!--SEC END --><p>
 The algebraic one is <span style="font-weight:bold">Pi-calculus</span> developed by Robin Milner who gained
 Turing award for 1) Meta Language ML, 2) Calculus for Communication Systems CCS (1980),
@@ -144,37 +126,37 @@ background of virtual environment of Erlang infrastructure, so BPE
 implementation fully relies on Pi-calculus (1999), the successor of CCS notion.
 Thus providing effective computational model for implementation of workflow
 process management.</p>
-<!--TOC subsection id="sec12" Finite State Machines-->
-<h3 id="sec12" class="subsection">Finite State Machines</h3><!--SEC END --><p>
+<!--TOC subsection id="sec10" Finite State Machines-->
+<h3 id="sec10" class="subsection">Finite State Machines</h3><!--SEC END --><p>
 One of the common known types of encoding process calculus is well developed <span style="font-weight:bold">FSM framework</span> (60-s).
 This language is widely used almost in any programming language presented as core
 feature or as library. The process defines with an extension to Turing machine
 with states, input, outputs and functions.</p>
-<!--TOC subsection id="sec13" SADT-->
-<h3 id="sec13" class="subsection">SADT</h3><!--SEC END --><p>
+<!--TOC subsection id="sec11" SADT-->
+<h3 id="sec11" class="subsection">SADT</h3><!--SEC END --><p>
 The next language (framework) that used in (80-s, 90-s) to describe similar
 to process calculus definitions with graphical Petri nets and model definitions
 was <span style="font-weight:bold">SADT</span> introduced by Marca and MacGowan 1988, 1991.</p>
-<!--TOC subsection id="sec14" Reactive Systems-->
-<h3 id="sec14" class="subsection">Reactive Systems</h3><!--SEC END --><p>
+<!--TOC subsection id="sec12" Reactive Systems-->
+<h3 id="sec12" class="subsection">Reactive Systems</h3><!--SEC END --><p>
 One of the wide range of semantics is Reactive Systems based on message passing
 and event routing, but also it could be known as Functional Reactive Programming FRP
 which is rather a set of combinators over streams. Both interpretations are
 used in languages and frameworks, depending on involvement of stream in core
 definition (2010-s).</p>
-<!--TOC subsection id="sec15" Typing Pi-calculus-->
-<h3 id="sec15" class="subsection">Typing Pi-calculus</h3><!--SEC END --><p>
+<!--TOC subsection id="sec13" Typing Pi-calculus-->
+<h3 id="sec13" class="subsection">Typing Pi-calculus</h3><!--SEC END --><p>
 In typed theory Pi-calculus defines also the typing system (could be System F, e.g.) for
 input and outputs of processes or function signatures specified in process definition.
 In BPE the role of types was taken by document types, which is simple Erlang records,
 so in BPE workflow processing is type-safe on compilation stage with respect to document types.</p><div class="lstlisting">    1&gt; #deposit{} = bpe:doc(#deposit{}, pid(0,185,0)).</div>
-<!--TOC subsection id="sec16" Scenarios-->
-<h3 id="sec16" class="subsection">Scenarios</h3><!--SEC END --><p>
+<!--TOC subsection id="sec14" Scenarios-->
+<h3 id="sec14" class="subsection">Scenarios</h3><!--SEC END --><p>
 Workflows are complimentary to business rules and could be specified separately.
 BPE definitions provides front API to the end-user application.
 Workflow Engine – is an Erlang/OTP application which handles process definitions,
 process instances, and provides very clean API for Workplaces.</p>
-<!--TOC paragraph id="sec17" -->
+<!--TOC paragraph id="sec15" -->
 <!--SEC END --><p>
 Before using Process Engine you need to define the set of business process
 workflows of your enterprise. This could be done via Erlang terms or some DSL
@@ -210,11 +192,11 @@ workflow definition:</p><div class="lstlisting">    bpe:start(#process{name="Ord
              #messageEvent{name="PaymentReceived"}
         ]
     }.</div>
-<!--TOC subsection id="sec18" Actions-->
-<h3 id="sec18" class="subsection">Actions</h3><!--SEC END --><p>Business rules should be specified by developers.
+<!--TOC subsection id="sec16" Actions-->
+<h3 id="sec16" class="subsection">Actions</h3><!--SEC END --><p>Business rules should be specified by developers.
 RETE is used for rules specifications which can be triggered during workflow.</p>
-<!--TOC subsection id="sec19" BPMN 2.0-->
-<h3 id="sec19" class="subsection">BPMN 2.0</h3><!--SEC END --><p>The workflow definition uses following persistent workflow model which is stored in KVS:</p><div class="lstlisting">    -record(task,         { name, id, roles, module }).
+<!--TOC subsection id="sec17" BPMN 2.0-->
+<h3 id="sec17" class="subsection">BPMN 2.0</h3><!--SEC END --><p>The workflow definition uses following persistent workflow model which is stored in KVS:</p><div class="lstlisting">    -record(task,         { name, id, roles, module }).
     -record(userTask,     { name, id, roles, module }).
     -record(serviceTask,  { name, id, roles, module }).
     -record(messageEvent, { name, id, payload }).
@@ -266,8 +248,8 @@ that <span style="font-weight:bold">gen_fsm</span>:</p><div class="center">Listi
     {amend,_}
     {amend,_,_}
     {event,_}</div>
-<!--TOC subsection id="sec20" Erlang Session-->
-<h3 id="sec20" class="subsection">Erlang Session</h3><!--SEC END --><div class="lstlisting">  &gt; bpe:start(spawnproc:def(),[]).
+<!--TOC subsection id="sec18" Erlang Session-->
+<h3 id="sec18" class="subsection">Erlang Session</h3><!--SEC END --><div class="lstlisting">  &gt; bpe:start(spawnproc:def(),[]).
     bpe_proc:Process 18 spawned &lt;0.961.0&gt;
     {ok,18}
 
@@ -303,8 +285,8 @@ that <span style="font-weight:bold">gen_fsm</span>:</p><div class="center">Listi
     bpe_proc:Process 18 Flow Reply {stop,{normal,'Final'}}
     'Final'
     bpe_proc:Terminating session Id cache: 18
-    Reason: normal</div><!--TOC subsection id="sec21" Take last two from history-->
-<h3 id="sec21" class="subsection">Take last two from history</h3><!--SEC END --><div class="lstlisting">  &gt; bpe:history(18,2).
+    Reason: normal</div><!--TOC subsection id="sec19" Take last two from history-->
+<h3 id="sec19" class="subsection">Take last two from history</h3><!--SEC END --><div class="lstlisting">  &gt; bpe:history(18,2).
     [#history{id = 9,version = undefined,container = feed,
               feed_id = {history,18},
               prev = 8,next = 10,feeds = [],guard = true,etc = undefined,
@@ -320,8 +302,8 @@ that <span style="font-weight:bold">gen_fsm</span>:</p><div class="center">Listi
 <br>
 <br>
 
-</p><!--TOC subsection id="sec22" Load terminated process and try to spawn-->
-<h3 id="sec22" class="subsection">Load terminated process and try to spawn</h3><!--SEC END --><div class="lstlisting">  &gt; bpe:start(bpe:load(18),[]).
+</p><!--TOC subsection id="sec20" Load terminated process and try to spawn-->
+<h3 id="sec20" class="subsection">Load terminated process and try to spawn</h3><!--SEC END --><div class="lstlisting">  &gt; bpe:start(bpe:load(18),[]).
     bpe_proc:Process 18 spawned &lt;0.1008.0&gt;
     {ok,18}
 

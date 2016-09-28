@@ -49,62 +49,26 @@
 <!--ENDHTML-->
 <!--CUT DEF section 1 --><div class="nonselectedwrapper">
 <div class="article">
-<div class="toc">
-<!--TOC section id="sec1" TOC-->
-<h2 id="sec1" class="section">TOC</h2><!--SEC END -->
-<!--TOC paragraph id="sec2" -->
-<!--SEC END --><p>
-<a href="http://synrc.com/apps/n2o/doc/web">1. Framework</a> <br>
-
-<a href="http://synrc.com/apps/n2o/doc/web/setup.htm">2. Setup</a> <br>
-
-<a href="http://synrc.com/apps/n2o/doc/web/processes.htm">3. Processes</a> <br>
-
-<a href="http://synrc.com/apps/n2o/doc/web/endpoints.htm">4. Endpoints</a> <br>
-
-<a href="http://synrc.com/apps/n2o/doc/web/handlers.htm">5. Handlers</a> <br>
-
-<a href="http://synrc.com/apps/n2o/doc/web/protocols.htm">6. Protocols</a> <br>
-
-<a href="http://synrc.com/apps/n2o/doc/web/api.htm">7. API</a> <br>
-
-<a href="http://synrc.com/apps/n2o/doc/web/elements.htm">8. Elements</a> <br>
-
-<a href="http://synrc.com/apps/n2o/doc/web/actions.htm">9. Actions</a> <br>
-
-<a href="http://synrc.com/apps/n2o/doc/web/macros.htm">10. JavaScript</a> <br>
-
-<a href="http://synrc.com/apps/n2o/doc/web/utf8.htm">11. UTF-8</a> <br>
-
-<a href="http://synrc.com/apps/n2o/doc/web/packages.htm">12. Packages</a> <br>
-
-<a href="http://synrc.com/apps/n2o/doc/web/persistence.htm">13. Persistence</a> <br>
-
-<a href="http://synrc.com/apps/n2o/doc/web/last.htm">14. History</a> <br>
-
-<a href="http://synrc.com/apps/n2o/doc/book.pdf">Download PDF</a> <br>
-
-</p></div>
 
 <div class="articlecol">
 
-<!--TOC section id="sec3" JavaScript Compiler-->
-<h2 id="sec3" class="section">JavaScript Compiler</h2><!--SEC END -->
-<!--TOC subsection id="sec4" Compilation and Macros-->
-<h3 id="sec4" class="subsection">Compilation and Macros</h3><!--SEC END --><p>
+<!--TOC section id="sec1" JavaScript Compiler-->
+<h2 id="sec1" class="section">JavaScript Compiler</h2><!--SEC END -->
+<!--TOC subsection id="sec2" Compilation and Macros-->
+<h3 id="sec2" class="subsection">Compilation and Macros</h3><!--SEC END --><p>
 Erlang JavaScript/OTP Parse Transform has two modes defined
 by <span style="font-weight:bold">jsmacro</span> and <span style="font-weight:bold">js</span> Erlang module attributes.
 The first mode precompiles Erlang module functions
 into JavaScript strings. The second one exports Erlang functions
 into a separate JavaScript file ready to run in the browser or Node.js.</p>
-<!--TOC paragraph id="sec5" -->
+<!--TOC paragraph id="sec3" -->
 <!--SEC END --><p>
 Sample usage of <span style="font-weight:bold">jsmacro</span> and <span style="font-weight:bold">js</span>:</p><div class="lstlisting">    -module(sample).
     -compile({parse_transform, shen}).
     -jsmacro([tabshow/0,doc_ready/1,event/3]).
     -js(doc_ready/1).</div>
-<!--TOC subsection id="sec6" Erlang Macro Functions-->
-<h3 id="sec6" class="subsection">Erlang Macro Functions</h3><!--SEC END --><p>
+<!--TOC subsection id="sec4" Erlang Macro Functions-->
+<h3 id="sec4" class="subsection">Erlang Macro Functions</h3><!--SEC END --><p>
 Macro functions are useful for using N2O as a server-side framework.
 Functions get rewritten during Erlang compilation into a JavaScript format
 string ready for embedding. Here is an example from N2O pages:</p><div class="lstlisting">    tabshow() -&gt;
@@ -150,20 +114,20 @@ string ready for embedding. Here is an example from N2O pages:</p><div class="ls
         var t = $('a[href="#' + 'tab' + '"]');
         return t.tab('show');
     });</div><p>As you see, no source-map needed.</p>
-<!--TOC subsection id="sec7" JavaScript File Compilation-->
-<h3 id="sec7" class="subsection">JavaScript File Compilation</h3><!--SEC END --><p>
+<!--TOC subsection id="sec5" JavaScript File Compilation-->
+<h3 id="sec5" class="subsection">JavaScript File Compilation</h3><!--SEC END --><p>
 Export Erlang function to JavaScript file with <span style="font-weight:bold">-js([sample/0,fun_</span><span style="font-weight:bold">args</span><span style="font-weight:bold">/2])</span>.
 You could include functions for both <span style="font-weight:bold">macro</span> and <span style="font-weight:bold">js</span> definitions.</p>
-<!--TOC subsection id="sec8" Mapping Erlang/OTP to JavaScript/OTP-->
-<h3 id="sec8" class="subsection">Mapping Erlang/OTP to JavaScript/OTP</h3><!--SEC END --><p>
+<!--TOC subsection id="sec6" Mapping Erlang/OTP to JavaScript/OTP-->
+<h3 id="sec6" class="subsection">Mapping Erlang/OTP to JavaScript/OTP</h3><!--SEC END --><p>
 Following OTP libraries are partially supported in Erlang JavaScript Parse Transform:
 <span style="font-weight:bold">lists</span>, <span style="font-weight:bold">proplists</span>, <span style="font-weight:bold">queue</span>, <span style="font-weight:bold">string</span>.</p>
-<!--TOC paragraph id="sec9" <span style="font-weight:bold">Example 1</span>-->
-<h4 id="sec9" class="paragraph"><span style="font-weight:bold">Example 1</span></h4><!--SEC END --><div class="lstlisting">    S = lists:map(fun(X) -&gt; X * X end,[1,2,3,4]),</div><p>transforms to:</p><div class="lstlisting">    s = [1,2,3,4].map(function(x) {
+<!--TOC paragraph id="sec7" <span style="font-weight:bold">Example 1</span>-->
+<h4 id="sec7" class="paragraph"><span style="font-weight:bold">Example 1</span></h4><!--SEC END --><div class="lstlisting">    S = lists:map(fun(X) -&gt; X * X end,[1,2,3,4]),</div><p>transforms to:</p><div class="lstlisting">    s = [1,2,3,4].map(function(x) {
         return x * x;
     });</div>
-<!--TOC paragraph id="sec10" <span style="font-weight:bold">Example 2</span>-->
-<h4 id="sec10" class="paragraph"><span style="font-weight:bold">Example 2</span></h4><!--SEC END --><div class="lstlisting">    M = lists:foldl(fun(X, Acc) -&gt; Acc + X end,0,[1,2,3,4]),</div><p>transforms to:</p><div class="lstlisting">    m = [1,2,3,4].reduce(function(x,acc) {
+<!--TOC paragraph id="sec8" <span style="font-weight:bold">Example 2</span>-->
+<h4 id="sec8" class="paragraph"><span style="font-weight:bold">Example 2</span></h4><!--SEC END --><div class="lstlisting">    M = lists:foldl(fun(X, Acc) -&gt; Acc + X end,0,[1,2,3,4]),</div><p>transforms to:</p><div class="lstlisting">    m = [1,2,3,4].reduce(function(x,acc) {
         return acc + x;
     },0);</div><p>
 

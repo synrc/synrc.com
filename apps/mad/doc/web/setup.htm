@@ -49,41 +49,21 @@
 <!--ENDHTML-->
 <!--CUT DEF section 1 --><div class="nonselectedwrapper">
 <div class="article">
-<div class="toc">
-<!--TOC section id="sec1" TOC-->
-<h2 id="sec1" class="section">TOC</h2><!--SEC END -->
-<!--TOC paragraph id="sec2" -->
-<!--SEC END --><p>
-<a href="http://synrc.com/apps/mad/doc/web">Overview</a> <br>
-
-<a href="http://synrc.com/apps/mad/doc/web/setup.htm">1. Setup</a> <br>
-
-<a href="http://synrc.com/apps/mad/doc/web/deps.htm">2. Deps</a> <br>
-
-<a href="http://synrc.com/apps/mad/doc/web/config.htm">3. Configuration</a> <br>
-
-<a href="http://synrc.com/apps/mad/doc/web/commands.htm">4. Commands</a> <br>
-
-<a href="http://synrc.com/apps/mad/doc/web/bundles.htm">5. Bundles</a> <br>
-
-<a href="http://synrc.com/apps/mad/doc/book.pdf">Download PDF</a> <br>
-
-</p></div>
 
 <div class="articlecol">
 
-<!--TOC section id="sec3" Setup-->
-<h2 id="sec3" class="section">Setup</h2><!--SEC END -->
-<!--TOC subsection id="sec4" Installing Binary-->
-<h3 id="sec4" class="subsection">Installing Binary</h3><!--SEC END --><p>Fresh version of mad included as a binary in its primary github repository:</p><div class="lstlisting">    # curl -fsSL https://raw.github.com/synrc/mad/master/mad &gt; mad \
+<!--TOC section id="sec1" Setup-->
+<h2 id="sec1" class="section">Setup</h2><!--SEC END -->
+<!--TOC subsection id="sec2" Installing Binary-->
+<h3 id="sec2" class="subsection">Installing Binary</h3><!--SEC END --><p>Fresh version of mad included as a binary in its primary github repository:</p><div class="lstlisting">    # curl -fsSL https://raw.github.com/synrc/mad/master/mad &gt; mad \
               &amp;&amp; chmod +x mad \
               &amp;&amp; sudo cp /usr/local/bin</div><p>Or you may want to add mad to your PATH.</p>
-<!--TOC subsection id="sec5" Compiling Sources-->
-<h3 id="sec5" class="subsection">Compiling Sources</h3><!--SEC END --><p>If you want you can compile mad by yourself:</p><div class="lstlisting">    # git clone http://github.com/synrc/mad \
+<!--TOC subsection id="sec3" Compiling Sources-->
+<h3 id="sec3" class="subsection">Compiling Sources</h3><!--SEC END --><p>If you want you can compile mad by yourself:</p><div class="lstlisting">    # git clone http://github.com/synrc/mad \
              &amp;&amp; cd mad \
              &amp;&amp; make</div><p>Note that mad uses mad to build mad. It’s mad.</p>
-<!--TOC subsection id="sec6" Creating a sample N2O project-->
-<h3 id="sec6" class="subsection">Creating a sample N2O project</h3><!--SEC END --><p>mad also comes with N2O templates. So you can bootstrap a N2O-based site
+<!--TOC subsection id="sec4" Creating a sample N2O project-->
+<h3 id="sec4" class="subsection">Creating a sample N2O project</h3><!--SEC END --><p>mad also comes with N2O templates. So you can bootstrap a N2O-based site
 just having a single copy of mad binary.</p><div class="lstlisting">    # mad app sample
     # cd sample
     # mad deps compile release sample</div><p>After that you can just run escript web_app under Windows, Linux and

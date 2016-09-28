@@ -49,49 +49,13 @@
 <!--ENDHTML-->
 <!--CUT DEF section 1 --><div class="nonselectedwrapper">
 <div class="article">
-<div class="toc">
-<!--TOC section id="sec1" TOC-->
-<h2 id="sec1" class="section">TOC</h2><!--SEC END -->
-<!--TOC paragraph id="sec2" -->
-<!--SEC END --><p>
-<a href="http://synrc.com/apps/n2o/doc/web">1. Framework</a> <br>
-
-<a href="http://synrc.com/apps/n2o/doc/web/setup.htm">2. Setup</a> <br>
-
-<a href="http://synrc.com/apps/n2o/doc/web/processes.htm">3. Processes</a> <br>
-
-<a href="http://synrc.com/apps/n2o/doc/web/endpoints.htm">4. Endpoints</a> <br>
-
-<a href="http://synrc.com/apps/n2o/doc/web/handlers.htm">5. Handlers</a> <br>
-
-<a href="http://synrc.com/apps/n2o/doc/web/protocols.htm">6. Protocols</a> <br>
-
-<a href="http://synrc.com/apps/n2o/doc/web/api.htm">7. API</a> <br>
-
-<a href="http://synrc.com/apps/n2o/doc/web/elements.htm">8. Elements</a> <br>
-
-<a href="http://synrc.com/apps/n2o/doc/web/actions.htm">9. Actions</a> <br>
-
-<a href="http://synrc.com/apps/n2o/doc/web/macros.htm">10. JavaScript</a> <br>
-
-<a href="http://synrc.com/apps/n2o/doc/web/utf8.htm">11. UTF-8</a> <br>
-
-<a href="http://synrc.com/apps/n2o/doc/web/packages.htm">12. Packages</a> <br>
-
-<a href="http://synrc.com/apps/n2o/doc/web/persistence.htm">13. Persistence</a> <br>
-
-<a href="http://synrc.com/apps/n2o/doc/web/last.htm">14. History</a> <br>
-
-<a href="http://synrc.com/apps/n2o/doc/book.pdf">Download PDF</a> <br>
-
-</p></div>
 
 <div class="articlecol">
 
-<!--TOC section id="sec3" Erlang Processes-->
-<h2 id="sec3" class="section">Erlang Processes</h2><!--SEC END -->
-<!--TOC subsection id="sec4" Reduced Latency-->
-<h3 id="sec4" class="subsection">Reduced Latency</h3><!--SEC END --><p>
+<!--TOC section id="sec1" Erlang Processes-->
+<h2 id="sec1" class="section">Erlang Processes</h2><!--SEC END -->
+<!--TOC subsection id="sec2" Reduced Latency-->
+<h3 id="sec2" class="subsection">Reduced Latency</h3><!--SEC END --><p>
 The secret to reducing latency is simple. We try to deliver rendered HTML
 as soon as possible and render JavaScript only when WebSocket initialization is complete.
 It takes three steps and three Erlang processes for doing that.</p><p>
@@ -107,14 +71,14 @@ N2O request lifetime begins with the start of HTTP process serving the first HTM
 After that it dies and spawns Transition process.
 Then the browser initiates WebSocket connections to the similar URL endpoint.
 N2O creates persistent WebSocket process and the Transition process dies.</p>
-<!--TOC paragraph id="sec5" -->
+<!--TOC paragraph id="sec3" -->
 <!--SEC END --><p>
 Your page could also spawn processes with <span style="font-weight:bold">wf:async</span>.
 These are persistent processes that act like regular Erlang processes.
 This is a usual approach to organize non-blocking UI for file uploads
 and other time consuming operations.</p>
-<!--TOC subsection id="sec6" Page Serving Process-->
-<h3 id="sec6" class="subsection">Page Serving Process</h3><!--SEC END --><p>
+<!--TOC subsection id="sec4" Page Serving Process-->
+<h3 id="sec4" class="subsection">Page Serving Process</h3><!--SEC END --><p>
 This processes are applicable only to the case when you serving not static HTML,
 but dynamically rendered pages with NITRO, DTL or ET template engines.
 The very first HTTP handler only renders HTML. During page initialization
@@ -125,20 +89,20 @@ JavaScript actions are stored in the transition process.</p><div class="lstlisti
                      bindings = [ { body,
                           #button { id       = send,
                                     postback = chat } } ] }.</div>
-<!--TOC paragraph id="sec7" -->
+<!--TOC paragraph id="sec5" -->
 <!--SEC END --><p>
 HTTP handler will die immediately after returning HTML. Transition process
 stores actions and waits for a request from a WebSocket handler.</p>
-<!--TOC subsection id="sec8" Transition Process-->
-<h3 id="sec8" class="subsection">Transition Process</h3><!--SEC END --><p>
+<!--TOC subsection id="sec6" Transition Process-->
+<h3 id="sec6" class="subsection">Transition Process</h3><!--SEC END --><p>
 Right after receiving HTML the browser initiates WebSocket connection
 thus starting WebSocket handler on the server. After responding with
 JavaScript actions the Transition process dies and the only process left
 running is WebSocket handler. At this point initialization phase is complete.</p><div class="lstlisting">    transition(Actions) -&gt;
         receive {'N2O',Pid} -&gt; Pid ! Actions end.</div><p>Transition process is only applicable to dynamically rendered pages
 served by <span style="font-weight:bold">n2o_document</span> endpoint. You never deal with it manually.</p>
-<!--TOC subsection id="sec9" Events Process-->
-<h3 id="sec9" class="subsection">Events Process</h3><!--SEC END --><p>
+<!--TOC subsection id="sec7" Events Process-->
+<h3 id="sec7" class="subsection">Events Process</h3><!--SEC END --><p>
 After that all client/server communication is performed over
 WebSocket channel. All events coming from the browser are
 handled by N2O, which renders elements to HTML and actions to
@@ -149,13 +113,13 @@ per connection.</p><div class="lstlisting">    event(init) -&gt; wf:reg(room);
 topic in pubsub and broadcast history changing to all registered
 process in the system under the same topic using <span style="font-weight:bold">#flush</span>
 NITRO protocol message.</p>
-<!--TOC paragraph id="sec10" -->
+<!--TOC paragraph id="sec8" -->
 <!--SEC END --><p>
 During page initialization before Module:<span style="font-weight:bold">event(init)</span>,
 Module:<span style="font-weight:bold">main/0</span> is called to render initial postbacks for
 elements. So you can share the same code to use SPA or DSL/DTL approach.</p>
-<!--TOC subsection id="sec11" Async Processes-->
-<h3 id="sec11" class="subsection">Async Processes</h3><!--SEC END --><p>
+<!--TOC subsection id="sec9" Async Processes-->
+<h3 id="sec9" class="subsection">Async Processes</h3><!--SEC END --><p>
 These are user processes that were created with <span style="font-weight:bold">wf:async</span> invocation.
 This processes was very useful to organize persistent stateful connection
 for legacy async technology like COMET for XHR channel. If you have problem with
@@ -170,12 +134,12 @@ processes are being created as <span style="font-weight:bold">gen_server</span> 
 
     async(init) -&gt; ok;
     aynsc(Chat) -&gt; io:format("Chat: ~p~n",[Chat]).</div>
-<!--TOC subsection id="sec12" SPA Mode-->
-<h3 id="sec12" class="subsection">SPA Mode</h3><!--SEC END --><p>
+<!--TOC subsection id="sec10" SPA Mode-->
+<h3 id="sec10" class="subsection">SPA Mode</h3><!--SEC END --><p>
 In SPA mode N2O can serve no HTML at all. N2O elements are
 bound during initialization handshake and thus can be used
 regularly as in DSL mode.</p>
-<!--TOC paragraph id="sec13" -->
+<!--TOC paragraph id="sec11" -->
 <!--SEC END --><p>
 In the example provided in n2o/samples you can find two different
 front end to the same <span style="font-weight:bold">review</span> application which consist of

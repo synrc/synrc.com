@@ -14,15 +14,20 @@
 %HEVEA \begin{divstyle}{block}
 \section*{\footahref{http://voxoz.com}{Voxoz Platform}}
 \paragraph{}
-Build your awesome LXC/XEN Erlang Cloud using famous \footahref{https://docker.io}{Docker} and glorious \footahref{https://erlangonxen.org}{Erlang on Xen} technology.
+Build your awesome LXC/XEN Erlang Cloud using
+famous \footahref{https://docker.io}{Docker} and
+glorious \footahref{https://erlangonxen.org}{Erlang on Xen} technology.
 Run you first Erlang App Store demo web application with SSH access in 4 clicks.
 %HEVEA \end{divstyle}
 
 %HEVEA \begin{divstyle}{block}
 \section*{\footahref{apps.htm}{N2O Stack}}
 \paragraph{}
-N2O application server is twice as fast as Nitrogen, ten times faster than ChicagoBoss and designed special for WebSockets unlike Yaws.
-It is in TOP-15 Erlang projects and ready for highly available real world applications running on top of fastest Erlang Web Server Cowboy.
+N2O WebSocket application server not only fastest Erlang web
+framework that introduce zero additional {\bf gen_server} layer for chanells.
+But also provides client JavaScript library that equals triple MSS size.
+It is in TOP-15 Erlang projects and ready for highly available
+real world applications running on top of fastest Erlang web server {\bf cowboy}.
 %HEVEA \end{divstyle}
 
 %HEVEA \begin{divstyle}{block}
@@ -77,13 +82,20 @@ and companion libraries to core of their business.
 %HEVEA \begin{divstyle}{verywidecol}
 \section*{Full Stack Erlang Applications}
 \paragraph{}
-Our success would be impossible without the support of widely accepted tools
-for the Erlang/OTP platform. Due to the existence of RabbbitMQ, Riak, LING, gproc,
-N2O and Cowboy we were able to deliver the state
-of the art solutions to our customers. Our secret is beneath the way of
-what we are using and how. And this is not only Full Web Stack Apps like Web Framework,
-Databases and Social Connectivity but also DNS, LDAP, SMPP, MPLS and other internet
-protocols and services.
+
+Staring from {\bf kernel} and {\bf stdlib} we distilled and refined Erlang Base Library
+fixing by the way such things as bundling creation, like OTP releases
+but in form of {\bf escript} files, providing abstract ETS based filesystem layer,
+compact and embadable buildtool {\bf mad}, and native file-system listener {\bf fs}
+used by Elixir community. We also have our own {\bf gen_server} replacement and much more.
+
+In the storage API we have {\bf kvs} abstract term database that is driven by community and
+has MongoDB, Riak, Mnesia, Redis, SQL and Filesystem backends. It provides schema and
+versioning and powers enterpise and banking. As the transactional log library {\bf disk_log}
+replacement can utilise half of the SSD drive throughput.
+
+Supervised hashtable of servers {\bf ring} and transactional layer {\bf xa} dedicated
+for builing scalabale distributed processing engines.
 
 \footahref{research.htm}{Lay cards on the Table}
 
