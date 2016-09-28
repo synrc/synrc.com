@@ -89,9 +89,10 @@ used by Elixir community. We also have our own {\bf gen_server} replacement and 
 
 In the storage API we have {\bf kvs} abstract term database that is driven by community and
 has MongoDB, Riak, Mnesia, Redis, SQL and Filesystem backends. It provides schema and
-versioning and powers enterpise and banking. As the transactional log library {\bf disk_log}
-replacement can utilise half of the SSD drive throughput.
+versioning and powers enterpise and banking.
 
+As the transactional log library {\bf disk_log}
+replacement can utilise half of the SSD drive throughput.
 Supervised hashtable of servers {\bf ring} and transactional layer {\bf xa} dedicated
 for builing scalabale distributed processing engines.
 
