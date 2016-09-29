@@ -12,17 +12,14 @@
 
     <div class="block2" style="font-size: 20pt; color: royalblue; margin-top:30px;">
 
-    MVC/M+VC<br>
-    Elixir/Joxa/Erlang Samples<br>
     DSL and/or Templates<br>
-    WebSockets/XHR Events<br>
-    Erlang to JavaScript Compiler<br>
+    TCP/WebSockets/XHR Events<br>
     Rapid REST Backends<br>
-    Mnesia/Riak/KAI Support<br>
+    Mnesia/Riak/Redis Backends<br>
     Rich JavaScript Controls<br>
-    Facebook/G+/Twitter Login<br>
     Fastest Erlang Web Framework<br>
     AES-CBC/RIPEMD Security</div>
+
     <div class="block" style="width: 740px; margin-top:50px; margin-left: 40px;">
         <div style="font-size: 45pt; color: royalblue; font-weight: bold;">N2O &mdash; <br> The Most Powerful <br> Erlang Web Framework</div>
         <div align=center style="margin-top:40px; line-height: 50px;">
@@ -36,15 +33,14 @@
 
     <div class="block2" style="font-size: 20pt; color: royalblue; margin-top:30px;">
 
-    Polymorphic Tuples <br>
-    Managing Linked-Lists <br>
-    KAI/Mnesia/Riak <br>
-    Sequential Consistency <br>
-    Extendable Schema <br>
-    Secondary Indexes <br>
-    QLC joins in Mnesia <br>
-    Xen Ready <br>
-    KVS REST Access</div>
+Polymorphic Tuples<br>
+Functional Streams<br>
+Sequential Consistency <br>
+Extendable Schema<br>
+Versioning<br>
+Secondary Indexes<br>
+SQL-Like Queries<br>
+REST Access</div>
 
     <div class="block" style="width: 740px; margin-top:50px; margin-left: 40px;">
         <div style="font-size: 45pt; color: royalblue; font-weight: bold;">KVS &mdash; <br> Abstract Erlang Term Database </div>
@@ -64,7 +60,7 @@
     BPMN 2.0 compatible <br>
     Used in E-Banking <br>
     WebSocket and REST interface <br>
-    As simple as BASIC<br>
+    Lua Scripting<br>
     </div>
 
     <div class="block" style="width: 740px; margin-top:50px; margin-left: 40px;">
