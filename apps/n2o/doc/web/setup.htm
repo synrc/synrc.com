@@ -49,24 +49,60 @@
 <!--ENDHTML-->
 <!--CUT DEF section 1 --><div class="nonselectedwrapper">
 <div class="article">
+<div class="toc">
+<!--TOC section id="sec1" TOC-->
+<h2 id="sec1" class="section">TOC</h2><!--SEC END -->
+<!--TOC paragraph id="sec2" -->
+<!--SEC END --><p>
+<a href="http://synrc.com/apps/n2o/doc/web">1. Framework</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/setup.htm">2. Setup</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/processes.htm">3. Processes</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/endpoints.htm">4. Endpoints</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/handlers.htm">5. Handlers</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/protocols.htm">6. Protocols</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/api.htm">7. API</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/elements.htm">8. Elements</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/actions.htm">9. Actions</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/macros.htm">10. JavaScript</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/utf8.htm">11. UTF-8</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/packages.htm">12. Packages</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/persistence.htm">13. Persistence</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/last.htm">14. History</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/book.pdf">Download PDF</a> <br>
+
+</p></div>
 
 <div class="articlecol">
 
-<!--TOC section id="sec1" Setup-->
-<h2 id="sec1" class="section">Setup</h2><!--SEC END -->
-<!--TOC subsection id="sec2" Prerequisites-->
-<h3 id="sec2" class="subsection">Prerequisites</h3><!--SEC END --><p>
+<!--TOC section id="sec3" Setup-->
+<h2 id="sec3" class="section">Setup</h2><!--SEC END -->
+<!--TOC subsection id="sec4" Prerequisites-->
+<h3 id="sec4" class="subsection">Prerequisites</h3><!--SEC END --><p>
 To run N2O websites you need to install Erlang version 18 or higher.
 N2O works on Windows, Mac and Linux.</p>
-<!--TOC subsection id="sec3" Kickstart Bootstrap-->
-<h3 id="sec3" class="subsection">Kickstart Bootstrap</h3><!--SEC END --><p>
+<!--TOC subsection id="sec5" Kickstart Bootstrap-->
+<h3 id="sec5" class="subsection">Kickstart Bootstrap</h3><!--SEC END --><p>
 To try N2O you only need to fetch it from Github and build. We don’t use
 fancy scripts, so building process is OTP compatible: bootstrap site
 is bundled as an Erlang release.</p><div class="lstlisting">    $ git clone git://github.com/synrc/n2o
     $ cd n2o/samples
     $ ./mad deps compile plan repl</div><p>Now you can try: <a href="http://localhost:8000">http://localhost:8000</a>.</p><p>On Linux you should do at first:</p><div class="lstlisting">    $ sudo apt-get install inotify-tools</div>
-<!--TOC subsection id="sec4" Application Template-->
-<h3 id="sec4" class="subsection">Application Template</h3><!--SEC END --><p>
+<!--TOC subsection id="sec6" Application Template-->
+<h3 id="sec6" class="subsection">Application Template</h3><!--SEC END --><p>
 If you want to start using N2O inside your application, you can use Cowboy dispatch parameter
 for passing HTTP, REST, WebSocket and Static N2O endpoints:</p><div class="center">Listing 1: sample.erl</div><p><br>
 </p><div class="lstlisting">
@@ -96,14 +132,14 @@ intentionally not introduced here any syntax sugar.
 For any Erlang application you need to create application
 and supervisor behavior modules which we combined in the
 same Erlang file for simplicity.</p>
-<!--TOC paragraph id="sec5" -->
+<!--TOC paragraph id="sec7" -->
 <!--SEC END --><p>
 Cowboy routing rules also leaved as is.
 We’d better to leave our efforts for making N2O protocol
 and N2O internals simplier. Here we can’t fix a much. Just use this
 as template for bootstrapping N2O based applications.</p>
-<!--TOC subsection id="sec6" Companion Dependencies-->
-<h3 id="sec6" class="subsection">Companion Dependencies</h3><!--SEC END --><p>
+<!--TOC subsection id="sec8" Companion Dependencies-->
+<h3 id="sec8" class="subsection">Companion Dependencies</h3><!--SEC END --><p>
 For raw N2O use with BERT message formatter you need only
 one N2O dependecy, but if you want to use DTL templates,
 JSON message formatter, SHEN JavaScript Compiler or NITRO
@@ -116,8 +152,8 @@ Nitrogen DSL you can plug all of them separately.</p><div class="lstlisting">   
     https://github.com/synrc/rest       1.5
     https://github.com/spawnproc/bpe    1.5
     https://github.com/spawnproc/forms  1.5</div>
-<!--TOC subsection id="sec7" Configuration-->
-<h3 id="sec7" class="subsection">Configuration</h3><!--SEC END --><div class="center">Listing 2: sys.config</div><p><br>
+<!--TOC subsection id="sec9" Configuration-->
+<h3 id="sec9" class="subsection">Configuration</h3><!--SEC END --><div class="center">Listing 2: sys.config</div><p><br>
 </p><div class="lstlisting">    [{n2o, [{port,8000},
             {app,review},
             {route,routes},
@@ -135,21 +171,21 @@ Nitrogen DSL you can plug all of them separately.</p><div class="lstlisting">   
             {schema, [kvs_user,
                       kvs_acl,
                       kvs_feed,
-                      kvs_subscription ]} ]} ].</div><!--TOC subsection id="sec8" Ports-->
-<h3 id="sec8" class="subsection">Ports</h3><!--SEC END --><p>
+                      kvs_subscription ]} ]} ].</div><!--TOC subsection id="sec10" Ports-->
+<h3 id="sec10" class="subsection">Ports</h3><!--SEC END --><p>
 N2O uses two ports for WebSocket and HTTP connections.</p><div class="lstlisting">    wf:config(n2o,port,443)
     wf:config(n2o,websocket_port,443)</div><p>If you use server pages mode N2O will render HTML with nessesary ports values.
 For single page application mode you should redefine these ports inside the template:</p><div class="lstlisting">    &lt;script&gt; var transition = { pid: '',
                                 host: 'localhost',
-                                port: '443' }; &lt;/script&gt;</div><!--TOC subsection id="sec9" Application-->
-<h3 id="sec9" class="subsection">Application</h3><!--SEC END --><p>
+                                port: '443' }; &lt;/script&gt;</div><!--TOC subsection id="sec11" Application-->
+<h3 id="sec11" class="subsection">Application</h3><!--SEC END --><p>
 In <span style="font-weight:bold">app</span> setting you should place the name of your OTP application
 that will be treated by N2O and NITRO as a source for templates and
-other static data with <span style="font-weight:bold">code:priv_dir</span>.</p><!--TOC subsection id="sec10" Routes-->
-<h3 id="sec10" class="subsection">Routes</h3><!--SEC END --><p>
+other static data with <span style="font-weight:bold">code:priv_dir</span>.</p><!--TOC subsection id="sec12" Routes-->
+<h3 id="sec12" class="subsection">Routes</h3><!--SEC END --><p>
 Setting <span style="font-weight:bold">route</span> is a place for the name of Erlang module where
-resides mappings from URL to page modules.</p><!--TOC subsection id="sec11" Logging-->
-<h3 id="sec11" class="subsection">Logging</h3><!--SEC END --><p>
+resides mappings from URL to page modules.</p><!--TOC subsection id="sec13" Logging-->
+<h3 id="sec13" class="subsection">Logging</h3><!--SEC END --><p>
 N2O supports logging API and you can plug different logging module.
 It ships with <span style="font-weight:bold">n2o_io</span> and <span style="font-weight:bold">n2o_log</span> modules which you can set in the
 <span style="font-weight:bold">log_backend</span> option. This is how logging looks like in N2O:</p><div class="lstlisting">    wf:info(index,"Message: ~p",[Message]),</div><p>First argument is a module from which function is being called. By using this
@@ -162,18 +198,18 @@ means different error log levels.</p><div class="lstlisting">    -module(config)
     -compile(export_all).
 
     log_level() -&gt; info.
-    log_modules() -&gt; [ login, index ].</div><!--TOC subsection id="sec12" Message Queue-->
-<h3 id="sec12" class="subsection">Message Queue</h3><!--SEC END --><p>
+    log_modules() -&gt; [ login, index ].</div><!--TOC subsection id="sec14" Message Queue-->
+<h3 id="sec14" class="subsection">Message Queue</h3><!--SEC END --><p>
 In <span style="font-weight:bold">mq</span> settings you should place the name of Erlang module which supports
-message queue API. By default N2O provides <span style="font-weight:bold">n2o_mq</span> module.</p><!--TOC subsection id="sec13" Formatter-->
-<h3 id="sec13" class="subsection">Formatter</h3><!--SEC END --><p>
+message queue API. By default N2O provides <span style="font-weight:bold">n2o_mq</span> module.</p><!--TOC subsection id="sec15" Formatter-->
+<h3 id="sec15" class="subsection">Formatter</h3><!--SEC END --><p>
 With <span style="font-weight:bold">formatter</span> option you may set the WebSocket channel
 termination formatter such as <span style="font-weight:bold">bert</span> or <span style="font-weight:bold">json</span>. If you will select json as formatter
 you may want also to chose a json encoder in <span style="font-weight:bold">json</span> option. By default in n2o enabled
 <span style="font-weight:bold">json</span> formatter and <span style="font-weight:bold">jsone</span> encoder. The main reason is that <span style="font-weight:bold">jsone</span> is
 written in pure erlang idiomatic code and is ready to run on LING without C NIF linkage.
-But you may want to switch to <span style="font-weight:bold">jsonx</span> on BEAM or whatever.</p><!--TOC subsection id="sec14" Minimal Page-->
-<h3 id="sec14" class="subsection">Minimal Page</h3><!--SEC END --><p>
+But you may want to switch to <span style="font-weight:bold">jsonx</span> on BEAM or whatever.</p><!--TOC subsection id="sec16" Minimal Page-->
+<h3 id="sec16" class="subsection">Minimal Page</h3><!--SEC END --><p>
 And then add a minimal <span style="font-weight:bold">index.erl</span> page:</p><div class="center">Listing 3: index.erl</div><p><br>
 </p><div class="lstlisting">    -module(index).
     -compile(export_all).

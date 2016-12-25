@@ -49,12 +49,48 @@
 <!--ENDHTML-->
 <!--CUT DEF section 1 --><div class="nonselectedwrapper">
 <div class="article">
+<div class="toc">
+<!--TOC section id="sec1" TOC-->
+<h2 id="sec1" class="section">TOC</h2><!--SEC END -->
+<!--TOC paragraph id="sec2" -->
+<!--SEC END --><p>
+<a href="http://synrc.com/apps/n2o/doc/web">1. Framework</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/setup.htm">2. Setup</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/processes.htm">3. Processes</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/endpoints.htm">4. Endpoints</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/handlers.htm">5. Handlers</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/protocols.htm">6. Protocols</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/api.htm">7. API</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/elements.htm">8. Elements</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/actions.htm">9. Actions</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/macros.htm">10. JavaScript</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/utf8.htm">11. UTF-8</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/packages.htm">12. Packages</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/persistence.htm">13. Persistence</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/last.htm">14. History</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/book.pdf">Download PDF</a> <br>
+
+</p></div>
 
 <div class="articlecol">
 
-<!--TOC section id="sec1" Actions-->
-<h2 id="sec1" class="section">Actions</h2><!--SEC END -->
-<!--TOC paragraph id="sec2" -->
+<!--TOC section id="sec3" Actions-->
+<h2 id="sec3" class="section">Actions</h2><!--SEC END -->
+<!--TOC paragraph id="sec4" -->
 <!--SEC END --><p>
 <span style="font-weight:bold">#action</span> is the basic record for all actions. It means that each action
 has <span style="font-weight:bold">#action</span> as its ancestor.</p><div class="lstlisting">    #action { ancestor,
@@ -62,8 +98,8 @@ has <span style="font-weight:bold">#action</span> as its ancestor.</p><div class
               module,
               actions,
               source=[] }.</div><p><span style="font-weight:bold">target</span> specifies an element where this action will arise.</p>
-<!--TOC subsection id="sec3" JavaScript DSL <span style="font-weight:bold">#jq</span>-->
-<h3 id="sec3" class="subsection">JavaScript DSL <span style="font-weight:bold">#jq</span></h3><!--SEC END --><p>
+<!--TOC subsection id="sec5" JavaScript DSL <span style="font-weight:bold">#jq</span>-->
+<h3 id="sec5" class="subsection">JavaScript DSL <span style="font-weight:bold">#jq</span></h3><!--SEC END --><p>
 JavaScript query selector action mimics JavaScript calls and assignments.
 Specific action may be performed depending on filling<span style="font-weight:bold">property</span> or <span style="font-weight:bold">method</span> fields.</p><div class="lstlisting">    -record(jq, {?ACTION_BASE(action_jq),
             property,
@@ -79,27 +115,27 @@ Specific action may be performed depending on filling<span style="font-weight:bo
         document.querySelector('#history').scrollHeight;</div><p>
 Part of N2O API is implemented using #jq actions (updates and redirect).
 This action is introduced as transitional in order to move
-from Nitrogen DSL to using pure JavaScript transformations.</p><!--TOC subsection id="sec4" Event Actions-->
-<h3 id="sec4" class="subsection">Event Actions</h3><!--SEC END --><p>
+from Nitrogen DSL to using pure JavaScript transformations.</p><!--TOC subsection id="sec6" Event Actions-->
+<h3 id="sec6" class="subsection">Event Actions</h3><!--SEC END --><p>
 Objects passed over WebSockets channel from server to client are called <span style="font-weight:bold">actions</span>.
 Objects passed over the same channel from client to server are called <span style="font-weight:bold">events</span>. However
 events themselves are bound to HTML elements with <span style="font-weight:bold">addEventListener</span> and in order to perform these bindings,
 actions should be sent first. Such actions are called <span style="font-weight:bold">event actions</span>. There are three types of event actions.</p>
-<!--TOC subsection id="sec5" Page Events <span style="font-weight:bold">#event</span>-->
-<h3 id="sec5" class="subsection">Page Events <span style="font-weight:bold">#event</span></h3><!--SEC END --><p>
+<!--TOC subsection id="sec7" Page Events <span style="font-weight:bold">#event</span>-->
+<h3 id="sec7" class="subsection">Page Events <span style="font-weight:bold">#event</span></h3><!--SEC END --><p>
 Page events are regular events routed to the calling module. Postback field is used as the main
 routing argument for <span style="font-weight:bold">event</span> module function. By providing <span style="font-weight:bold">source</span> elements list you specify
 HTML controls values sent to the server and accessed with <span style="font-weight:bold">wf:q</span> accessor from the page context.
 Page events are normally generated by active elements like <span style="font-weight:bold">#button</span>, <span style="font-weight:bold">#link</span>,
 <span style="font-weight:bold">#textbox</span>, <span style="font-weight:bold">#dropdown</span>, <span style="font-weight:bold">#select</span>, <span style="font-weight:bold">#radio</span> and others elements
 contain postback field.</p>
-<!--TOC paragraph id="sec6" -->
+<!--TOC paragraph id="sec8" -->
 <!--SEC END --><p>
 Control events are used to solve the need of element writers. When you develop your
 own control elements, you usually want events to be routed not to page but to element module.
 Control events were introduced for this purpose.</p>
-<!--TOC subsection id="sec7" API Events <span style="font-weight:bold">#api</span>-->
-<h3 id="sec7" class="subsection">API Events <span style="font-weight:bold">#api</span></h3><!--SEC END --><p>
+<!--TOC subsection id="sec9" API Events <span style="font-weight:bold">#api</span>-->
+<h3 id="sec9" class="subsection">API Events <span style="font-weight:bold">#api</span></h3><!--SEC END --><p>
 When you need to call Erlang function from JavaScript directly you should use API events.
 API events are routed to page module with <span style="font-weight:bold">api_event/3</span> function. API events were
 used in <span style="font-weight:bold">AVZ</span> authorization library. Here is an example of how JSON login could be
@@ -111,13 +147,13 @@ And from JavaScript you call it like this:
 
 </p><div class="lstlisting">    document.appLogin(JSON.stringify(response));</div><p>
 All API events are bound to root of the HTML document.</p>
-<!--TOC subsection id="sec8" Message Box <span style="font-weight:bold">#alert</span>-->
-<h3 id="sec8" class="subsection">Message Box <span style="font-weight:bold">#alert</span></h3><!--SEC END --><p>
+<!--TOC subsection id="sec10" Message Box <span style="font-weight:bold">#alert</span>-->
+<h3 id="sec10" class="subsection">Message Box <span style="font-weight:bold">#alert</span></h3><!--SEC END --><p>
 Message box <span style="font-weight:bold">alert</span> is a very simple dialog that could be used for client debugging.
 You can use <span style="font-weight:bold">console.log</span> along with alerts.</p><div class="lstlisting">    event({debug,Var}) -&gt;
         wf:wire(#alert{text="Debug: " ++ wf:to_list(Var)}),</div>
-<!--TOC subsection id="sec9" Confirmation Box <span style="font-weight:bold">#confirm</span>-->
-<h3 id="sec9" class="subsection">Confirmation Box <span style="font-weight:bold">#confirm</span></h3><!--SEC END --><p>
+<!--TOC subsection id="sec11" Confirmation Box <span style="font-weight:bold">#confirm</span>-->
+<h3 id="sec11" class="subsection">Confirmation Box <span style="font-weight:bold">#confirm</span></h3><!--SEC END --><p>
 You can use confirmation boxes for simple approval with JavaScript <span style="font-weight:bold">confirm</span> dialogs.
 You should extend this action in order to build custom dialogs. Confirmation box is just an example of how to
 organize this type of logic.</p><div class="lstlisting">    event(confirm) -&gt;

@@ -49,11 +49,47 @@
 <!--ENDHTML-->
 <!--CUT DEF section 1 --><div class="nonselectedwrapper">
 <div class="article">
+<div class="toc">
+<!--TOC section id="sec1" TOC-->
+<h2 id="sec1" class="section">TOC</h2><!--SEC END -->
+<!--TOC paragraph id="sec2" -->
+<!--SEC END --><p>
+<a href="http://synrc.com/apps/n2o/doc/web">1. Framework</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/setup.htm">2. Setup</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/processes.htm">3. Processes</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/endpoints.htm">4. Endpoints</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/handlers.htm">5. Handlers</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/protocols.htm">6. Protocols</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/api.htm">7. API</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/elements.htm">8. Elements</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/actions.htm">9. Actions</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/macros.htm">10. JavaScript</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/utf8.htm">11. UTF-8</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/packages.htm">12. Packages</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/persistence.htm">13. Persistence</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/last.htm">14. History</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/book.pdf">Download PDF</a> <br>
+
+</p></div>
 
 <div class="articlecol">
 
-<!--TOC section id="sec1" Protocols-->
-<h2 id="sec1" class="section">Protocols</h2><!--SEC END --><p>
+<!--TOC section id="sec3" Protocols-->
+<h2 id="sec3" class="section">Protocols</h2><!--SEC END --><p>
 N2O is more that just web framework or even application server.
 It also has protocol specification that covers broad range of application domains.
 In this chapter we go deep inside network capabilities of N2O communications.
@@ -71,15 +107,15 @@ You may find it similar to XML-based XMPP, binary COM/CORBA,
 JSON-based WAMP, Apache Camel or Microsoft WCF communication foundations.
 We took best from all and put into one protocols stack for web,
 social and enterprise domains providing stable and mature implementation for Erlang
-in a form of N2O application server.</p><!--TOC subsection id="sec2" Cross Language Compatibility-->
-<h3 id="sec2" class="subsection">Cross Language Compatibility</h3><!--SEC END --><p>
+in a form of N2O application server.</p><!--TOC subsection id="sec4" Cross Language Compatibility-->
+<h3 id="sec4" class="subsection">Cross Language Compatibility</h3><!--SEC END --><p>
 N2O application server implemented to support N2O protocol definition
 in Erlang which is widely used in enterprise applications.
 Experimental implementation in Haskell <span style="font-weight:bold">n2o.hs</span> exists
 which supports only core <span style="font-weight:bold">heart</span> protocol along with <span style="font-weight:bold">bert</span> formatter.
 We will show you how N2O clients are compatible across
-different server implementations in different languages.</p><!--TOC subsection id="sec3" Web Protocols: <span style="font-weight:bold">nitro</span>, <span style="font-weight:bold">spa</span>, <span style="font-weight:bold">bin</span>-->
-<h3 id="sec3" class="subsection">Web Protocols: <span style="font-weight:bold">nitro</span>, <span style="font-weight:bold">spa</span>, <span style="font-weight:bold">bin</span></h3><!--SEC END --><p>
+different server implementations in different languages.</p><!--TOC subsection id="sec5" Web Protocols: <span style="font-weight:bold">nitro</span>, <span style="font-weight:bold">spa</span>, <span style="font-weight:bold">bin</span>-->
+<h3 id="sec5" class="subsection">Web Protocols: <span style="font-weight:bold">nitro</span>, <span style="font-weight:bold">spa</span>, <span style="font-weight:bold">bin</span></h3><!--SEC END --><p>
 N2O protocols stack provides definition for several unoverlapped protocol layers.
 N2O application server implementaion of N2O protocol specification supports
 four protocol layers from this stack for WebSocket and IoT applications:
@@ -89,16 +125,16 @@ The domain of NITRO protocol is HTML5 client/server interoperability, HTML event
 SPA protocol dedicated for games and static page applications that involves no HTML,
 such as SVG based games or non-gui IoT applications.
 And finally binary file transfer protocol for images and gigabyte file uploads and downloads.
-All these protocols transfers coexist in the same multi-channel stream.</p><!--TOC subsection id="sec4" Social Protocols: <span style="font-weight:bold">roster</span>, <span style="font-weight:bold">muc</span>, <span style="font-weight:bold">search</span>-->
-<h3 id="sec4" class="subsection">Social Protocols: <span style="font-weight:bold">roster</span>, <span style="font-weight:bold">muc</span>, <span style="font-weight:bold">search</span></h3><!--SEC END --><p>
+All these protocols transfers coexist in the same multi-channel stream.</p><!--TOC subsection id="sec6" Social Protocols: <span style="font-weight:bold">roster</span>, <span style="font-weight:bold">muc</span>, <span style="font-weight:bold">search</span>-->
+<h3 id="sec6" class="subsection">Social Protocols: <span style="font-weight:bold">roster</span>, <span style="font-weight:bold">muc</span>, <span style="font-weight:bold">search</span></h3><!--SEC END --><p>
 For social connectivity one may need to use <span style="font-weight:bold">synrc/roster</span> instant messaging server
 that supports <span style="font-weight:bold">roster</span> protocol with variation
-for enabling public rooms <span style="font-weight:bold">muc</span> or full-text <span style="font-weight:bold">search</span> facilities.</p><!--TOC subsection id="sec5" Enterprise Protocols: <span style="font-weight:bold">bpe</span>, <span style="font-weight:bold">mq</span>, <span style="font-weight:bold">rest</span>-->
-<h3 id="sec5" class="subsection">Enterprise Protocols: <span style="font-weight:bold">bpe</span>, <span style="font-weight:bold">mq</span>, <span style="font-weight:bold">rest</span></h3><!--SEC END --><p>
+for enabling public rooms <span style="font-weight:bold">muc</span> or full-text <span style="font-weight:bold">search</span> facilities.</p><!--TOC subsection id="sec7" Enterprise Protocols: <span style="font-weight:bold">bpe</span>, <span style="font-weight:bold">mq</span>, <span style="font-weight:bold">rest</span>-->
+<h3 id="sec7" class="subsection">Enterprise Protocols: <span style="font-weight:bold">bpe</span>, <span style="font-weight:bold">mq</span>, <span style="font-weight:bold">rest</span></h3><!--SEC END --><p>
 There is no single system shipped to support all of N2O protocols but it
 could exist theoretically. For other protocols implementation you may refer
-to other products like <span style="font-weight:bold">spawnproc/bpe</span>, <span style="font-weight:bold">synrc/rest</span> or <span style="font-weight:bold">synrc/mq</span>.</p><!--TOC subsection id="sec6" Channel Termination Formatters-->
-<h3 id="sec6" class="subsection">Channel Termination Formatters</h3><!--SEC END --><p>
+to other products like <span style="font-weight:bold">spawnproc/bpe</span>, <span style="font-weight:bold">synrc/rest</span> or <span style="font-weight:bold">synrc/mq</span>.</p><!--TOC subsection id="sec8" Channel Termination Formatters-->
+<h3 id="sec8" class="subsection">Channel Termination Formatters</h3><!--SEC END --><p>
 N2O protocol is formatter agnostic and it doesn’t strict you
 to use a particular encoder/decoder.
 Application developers could choose their own formatter per protocol.</p><div class="lstlisting">    1. BERT : {io,"fire();",1}
@@ -114,8 +150,8 @@ the channel stream. Each message during data stream could be formatted
 using only one protocol at a time. If you want to pass each message
 through more that one formatter you should write an echo protocol.</p><div class="lstlisting">    &lt;script src='/n2o/protocols/bert.js'&gt;&lt;/script&gt;
     &lt;script src='/n2o/protocols/client.js'&gt;&lt;/script&gt;
-    &lt;script&gt;protos = [ $bert, $client ]; N2O_start();&lt;/script&gt;</div><!--TOC subsection id="sec7" Protocol Loop-->
-<h3 id="sec7" class="subsection">Protocol Loop</h3><!--SEC END --><p>
+    &lt;script&gt;protos = [ $bert, $client ]; N2O_start();&lt;/script&gt;</div><!--TOC subsection id="sec9" Protocol Loop-->
+<h3 id="sec9" class="subsection">Protocol Loop</h3><!--SEC END --><p>
 After message arrives to endpoint and handlers chain is being initializes,
 message then comes to protocol stack. N2O selects appropropriative protocol
 module and handle the message. After than message is being formatted and
@@ -138,8 +174,8 @@ of them handle the message. Note tnat this logic is subject to change.</p><div c
         case H:info(M,R,S) of
               {unknown,_,_,_} -&gt; push(M,R,S,T,Acc);
              {reply,M1,R1,S1} -&gt; reply(M1,R1,S1);
-                            A -&gt; push(M,R,S,T,[A|Acc]) end.</div><!--TOC subsection id="sec8" Enabling Protocols-->
-<h3 id="sec8" class="subsection">Enabling Protocols</h3><!--SEC END --><p>
+                            A -&gt; push(M,R,S,T,[A|Acc]) end.</div><!--TOC subsection id="sec10" Enabling Protocols-->
+<h3 id="sec10" class="subsection">Enabling Protocols</h3><!--SEC END --><p>
 You may set up protocol from sys.config file,
 enabling or disabling some of them on the fly.</p><div class="lstlisting">    protocols() -&gt;
        wf:config(n2o,protocols,[ n2o_heart,
@@ -148,12 +184,12 @@ enabling or disabling some of them on the fly.</p><div class="lstlisting">    pr
                                  n2o_file  ]).</div><p>For example in Skyline (DSL) application you use only <span style="font-weight:bold">nitro</span> protocol:</p><div class="lstlisting">    &gt; wf:config(n2o,protocols).
     [n2o_heart,n2o_nitrogen]</div><p>And in Games (SPA) application you need only <span style="font-weight:bold">spa</span> protocol:</p><div class="lstlisting">    &gt; wf:config(n2o,protocols).
     [n2o_heart,n2o_client]</div>
-<!--TOC subsection id="sec9" HEART-->
-<h3 id="sec9" class="subsection">HEART</h3><!--SEC END --><p>HEART protocol is essential WebSocket application level protocol for PING and N2O initialization.
+<!--TOC subsection id="sec11" HEART-->
+<h3 id="sec11" class="subsection">HEART</h3><!--SEC END --><p>HEART protocol is essential WebSocket application level protocol for PING and N2O initialization.
 It pings every 4-5 seconds from client-side to server thus allowing to
 determine client online presence. On reconnection or initial connect
 client sends N2O init marker telling to server to reinitialize the context.</p>
-<!--TOC paragraph id="sec10" -->
+<!--TOC paragraph id="sec12" -->
 <!--SEC END --><p>
 The <span style="font-weight:bold">heart</span> protocol defined client originated messages N2O, PING
 and server originated messages PONG, IO and NOP. IO message contains EVAL
@@ -164,8 +200,8 @@ any text string. NOP is 0-byte acknowledging packet.
 This is heart essence protocol which is enough for any rpc and code
 transfering interface. Normally heart protocol is not for active
 client usage but for supporting active connection with notifications
-and possibly DOM updates.</p><!--TOC subsection id="sec11" Session Initialization-->
-<h3 id="sec11" class="subsection">Session Initialization</h3><!--SEC END --><p>After page load you should start N2O session in JavaScript with configured
+and possibly DOM updates.</p><!--TOC subsection id="sec13" Session Initialization-->
+<h3 id="sec13" class="subsection">Session Initialization</h3><!--SEC END --><p>After page load you should start N2O session in JavaScript with configured
 formatters and starting function that will start message loop on the client:</p><div class="lstlisting">    var transition = {pid: '', host: 'localhost', port:'8000'};
     protos = [ $bert, $client ];
     N2O_start();</div><p>If <span style="font-weight:bold">pid</span> field is not set in <span style="font-weight:bold">transition</span> variable then you
@@ -183,13 +219,13 @@ with error in data field.</p><div class="lstlisting">    issue TEXT N2O expect I
    N2O is TEXT "N2O," ++ PID
    PID is TEXT "" or any
     IO is BERT {io,&lt;&lt;&gt;&gt;,Error}
-            or {io,Eval,&lt;&lt;&gt;&gt;}</div><!--TOC subsection id="sec12" Online Presence-->
-<h3 id="sec12" class="subsection">Online Presence</h3><!--SEC END --><div class="lstlisting">    ws.send('PING');</div><p>You can try manually send this messag in web console to see whats happening,
+            or {io,Eval,&lt;&lt;&gt;&gt;}</div><!--TOC subsection id="sec14" Online Presence-->
+<h3 id="sec14" class="subsection">Online Presence</h3><!--SEC END --><div class="lstlisting">    ws.send('PING');</div><p>You can try manually send this messag in web console to see whats happening,
 also you can enable logging the heartbeat protocol by including its
 module in <span style="font-weight:bold">log_modules</span>:</p><div class="lstlisting">    log_modules() -&gt; [n2o_heart].</div><p>Heartbeat protocol PING request returns PONG or empty NOP binary response.</p><div class="lstlisting">    issue TEXT PING expect PONG
   PONG is TEXT "PONG" or ""</div>
-<!--TOC subsection id="sec13" NITRO-->
-<h3 id="sec13" class="subsection">NITRO</h3><!--SEC END --><p>NITRO protocol consist of three protocol messages: <span style="font-weight:bold">pickle</span>, <span style="font-weight:bold">flush</span> and <span style="font-weight:bold">direct</span>.
+<!--TOC subsection id="sec15" NITRO-->
+<h3 id="sec15" class="subsection">NITRO</h3><!--SEC END --><p>NITRO protocol consist of three protocol messages: <span style="font-weight:bold">pickle</span>, <span style="font-weight:bold">flush</span> and <span style="font-weight:bold">direct</span>.
 Pickled messages are used if you send messages over unencrypted
 channel and want to hide the content of the message,
 that was generated on server. You can use BASE64 pickling mechanisms
@@ -239,8 +275,8 @@ and <span style="font-weight:bold">pass</span> could be retrieved with <span sty
                                 ":pass:",wf:q(pass)])).</div><p>This is Nitrogen-based messaging model. Nitrogen WebSocket processes receive also
 flush and delivery protocol messages, but originated from server, which is internal
 NITRO protocol messages. All client requests originate IO message as a response.</p>
-<!--TOC subsection id="sec14" SPA-->
-<h3 id="sec14" class="subsection">SPA</h3><!--SEC END --><p>If you are creating SVG based game you don’t need HTML5 nitro elements at all.
+<!--TOC subsection id="sec16" SPA-->
+<h3 id="sec16" class="subsection">SPA</h3><!--SEC END --><p>If you are creating SVG based game you don’t need HTML5 nitro elements at all.
 Instead you need simple and clean JavaScript based protocol for updating DOM SVG elements
 but based on <span style="font-weight:bold">shen</span> generated or manual JavaScript code sent from server.
 Thus you need still IO messages as a reply but originating massesage shouldn’t
@@ -256,8 +292,8 @@ while eval field is set with rendered actions as in NITRO protocol.</p><div clas
         tuple(atom('join_game'),1000001))));</div><p>Server messages are usually being sent to client originated on the
 server by sending <span style="font-weight:bold">info</span> notifications directly to Web Socket process:</p><div class="lstlisting">    &gt; WebSocketPid ! {server, Message}</div><p>You can obtain this Pid during page init:</p><div class="lstlisting">    event(init) -&gt; io:format("Pid: ~p",[self()]);</div><p>You can also send server messages from client relays and vice versa.
 It is up to your application and client/server handlers how to handle such messages.</p>
-<!--TOC subsection id="sec15" BIN-->
-<h3 id="sec15" class="subsection">BIN</h3><!--SEC END --><p>When you need raw binary Blob on client-side,
+<!--TOC subsection id="sec17" BIN-->
+<h3 id="sec17" class="subsection">BIN</h3><!--SEC END --><p>When you need raw binary Blob on client-side,
 for images or other raw data, you can ask server like this:</p><div class="lstlisting">    &gt; ws.send(enc(tuple(atom('bin'),bin('request'))));</div><p>Ensure you have defined <span style="font-weight:bold">#bin</span> handler and page you are
 asking is visible by router:</p><div class="lstlisting">    event(#bin{data=Data}) -&gt;
         wf:info(?MODULE,"Binary Delivered ~p~n",[Data]),

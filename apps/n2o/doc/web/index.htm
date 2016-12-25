@@ -49,32 +49,68 @@
 <!--ENDHTML-->
 <!--CUT DEF section 1 --><div class="nonselectedwrapper">
 <div class="article">
+<div class="toc">
+<!--TOC section id="sec1" TOC-->
+<h2 id="sec1" class="section">TOC</h2><!--SEC END -->
+<!--TOC paragraph id="sec2" -->
+<!--SEC END --><p>
+<a href="http://synrc.com/apps/n2o/doc/web">1. Framework</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/setup.htm">2. Setup</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/processes.htm">3. Processes</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/endpoints.htm">4. Endpoints</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/handlers.htm">5. Handlers</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/protocols.htm">6. Protocols</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/api.htm">7. API</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/elements.htm">8. Elements</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/actions.htm">9. Actions</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/macros.htm">10. JavaScript</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/utf8.htm">11. UTF-8</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/packages.htm">12. Packages</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/persistence.htm">13. Persistence</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/last.htm">14. History</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/book.pdf">Download PDF</a> <br>
+
+</p></div>
 
 <div class="articlecol">
 
-<!--TOC section id="sec1" N2O: Application Server-->
-<h2 id="sec1" class="section">N2O: Application Server</h2><!--SEC END --><p>N2O was started as the first Erlang Web Framework
+<!--TOC section id="sec3" N2O: Application Server-->
+<h2 id="sec3" class="section">N2O: Application Server</h2><!--SEC END --><p>N2O was started as the first Erlang Web Framework
 that uses WebSocket protocol only. We saved great compatibility with Nitrogen
 and added many improvements, such as binary page construction,
 binary data transfer, minimized process spawns, transmission of all events over the WebSocket
 and work within Cowboy processes. N2O renders pages several times faster than Nitrogen.</p>
-<!--TOC subsection id="sec2" Wide Coverage-->
-<h3 id="sec2" class="subsection">Wide Coverage</h3><!--SEC END --><p>
+<!--TOC subsection id="sec4" Wide Coverage-->
+<h3 id="sec4" class="subsection">Wide Coverage</h3><!--SEC END --><p>
 N2O is unusual in that it solves problems in different web development domains
 and stays small and concise at the same time. Started as a Nitrogen concept
 of server-side framework it can also build offline client-side applications
 using the same source code. This became possible with powerful Erlang JavaScript Parse
 Transform which enables running Erlang on JavaScript platform and brings in Erlang and JavaScript
 interoperability. You can use Elixir, LFE and Joxa languages for backend development as well.</p>
-<!--TOC paragraph id="sec3" -->
+<!--TOC paragraph id="sec5" -->
 <!--SEC END --><p>
 N2O supports DSL and HTML templates. It lets you build JavaScript
 control elements in Erlang and perform inline rendering with DSL using
 the same code base for both client and server-side.
 How to use N2O is up to you. You can build mobile applications using server-side rendering
 for both HTML and JavaScript thus reducing CPU cycles and saving the battery of a mobile device.
-Or you can create rich offline desktop applications using Erlang JavaScript compiler.</p><!--TOC subsection id="sec4" Why Erlang in Web?-->
-<h3 id="sec4" class="subsection">Why Erlang in Web?</h3><!--SEC END --><p>
+Or you can create rich offline desktop applications using Erlang JavaScript compiler.</p><!--TOC subsection id="sec6" Why Erlang in Web?-->
+<h3 id="sec6" class="subsection">Why Erlang in Web?</h3><!--SEC END --><p>
 We have benchmarked all the existing modern web frameworks that were built using functional
 languages and Cowboy was still the winner. The chart below shows raw HTTP
 performance of functional and C-based languages with concurrent
@@ -93,33 +129,33 @@ and extreme concurrency. Thinking of WebSocket channels as binary
 telecom streams and web pages as user binary sessions
 helps to get an understanding reasons behind choosing Erlang
 over other alternatives for web development.</p>
-<!--TOC paragraph id="sec5" -->
+<!--TOC paragraph id="sec7" -->
 <!--SEC END --><p>
 Using Erlang for web allows you to unleash the full power of telecom systems for
 building web-scale, event-driven, message-passing, NoSQL, asynchronous, non-blocking,
 reliable, highly-available, performant, secure, real-time, distributed applications.
 See Erlang: The Movie II.</p>
-<!--TOC paragraph id="sec6" -->
+<!--TOC paragraph id="sec8" -->
 <!--SEC END --><p>
 N2O outperforms full Nitrogen stack with only 2X raw HTTP Cowboy
 performance downgrade thus upgrading rendering performance several
 times compared to any other functional web framework. And
 sure it’s faster than raw HTTP performance of Node.js.</p>
-<!--TOC subsection id="sec7" Rich and Lightweight Applications-->
-<h3 id="sec7" class="subsection">Rich and Lightweight Applications</h3><!--SEC END --><p>
+<!--TOC subsection id="sec9" Rich and Lightweight Applications-->
+<h3 id="sec9" class="subsection">Rich and Lightweight Applications</h3><!--SEC END --><p>
 There are two approaches for designing client/server communication.
 The first one is called ’data-on-wire’. With this approach only JSON, XML or binary
 data are transferred over RPC and REST channels. All HTML rendering
 is performed on the client-side. This is the most suitable approach for building desktop
 applications. Examples include React, Meteor and ClojureScript.
 This approach can also be used for building mobile clients.</p>
-<!--TOC paragraph id="sec8" -->
+<!--TOC paragraph id="sec10" -->
 <!--SEC END --><p>
 Another approach is sending pre-rendered parts of pages and JS
 and then replacing HTML and executing JavaScript on the client-side. This approach
 is better suited for mobile web development since the
 client doesn’t have much resources.</p>
-<!--TOC paragraph id="sec9" -->
+<!--TOC paragraph id="sec11" -->
 <!--SEC END --><p>
 With N2O you can create both types of applications. You can use N2O REST framework
 for desktop applications based on Cowboy REST API along with DTL
@@ -127,13 +163,13 @@ templates for initial HTML rendering for mobile applications.
 You can also use Nitrogen DSL-based approach for modeling parts of pages
 as widgets and control elements, thanks to Nitrogen
 rich collection of elements provided by Nitrogen community.</p>
-<!--TOC paragraph id="sec10" -->
+<!--TOC paragraph id="sec12" -->
 <!--SEC END --><p>
 In cases when your system is built around Erlang infrastructure, N2O
 is the best choice for fast web prototyping, bringing simplicity
 of use and clean codebase. Despite HTML being transfered over the wire,
 you still have access to all your Erlang services directly.</p>
-<!--TOC paragraph id="sec11" -->
+<!--TOC paragraph id="sec13" -->
 <!--SEC END --><p>
 You can also create offline applications using Erlang JavaScript compiler
 just the way you would use ClojureScript, Scala.js, Elm, WebSharper
@@ -143,27 +179,27 @@ WebSocket events streaming, JavaScript generation
 and JavaScript macro system along with <span style="font-weight:bold">AVZ</span> authorization
 library (Facebook, Google, Twitter, Github, Microsoft), key-value storages
 access library <span style="font-weight:bold">KVS</span> and <span style="font-weight:bold">MQS</span> Message Bus client library (gproc, emqttd).</p>
-<!--TOC subsection id="sec12" JSON and BERT-->
-<h3 id="sec12" class="subsection">JSON and BERT</h3><!--SEC END --><p>
+<!--TOC subsection id="sec14" JSON and BERT-->
+<h3 id="sec14" class="subsection">JSON and BERT</h3><!--SEC END --><p>
 N2O uses JSON and BERT. All messages passed over
 WebSockets are encoded in native Erlang External Term Format.
 It is easy to parse it in JavaScript with <span style="font-weight:bold">dec(msg)</span>
 and it helps to avoid complexity on the server-side. Please refer
 to <a href="http://bert-rpc.org">http://bert-rpc.org</a> for detailed information.</p>
-<!--TOC subsection id="sec13" DSL and Templates-->
-<h3 id="sec13" class="subsection">DSL and Templates</h3><!--SEC END --><p>
+<!--TOC subsection id="sec15" DSL and Templates-->
+<h3 id="sec15" class="subsection">DSL and Templates</h3><!--SEC END --><p>
 We like Nitrogen for the simple and elegant way it constructs typed
 HTML with internal DSL. This is analogous to Scala Lift,
 OCaml Ocsigen and Haskell Blaze approach. It lets you develop reusable control
 elements and components in the host language.</p>
-<!--TOC paragraph id="sec14" -->
+<!--TOC paragraph id="sec16" -->
 <!--SEC END --><p>
 Template-based approach (Yesod, ASP, PHP, JSP, Rails, Yaws and ChicagoBoss)
 requires developers to deal with raw HTML. It allows
 defining pages in terms of top-level controls, placeholders
 and panels. N2O also support this approach by proving bindings
 to DTL and ET template engines.</p>
-<!--TOC paragraph id="sec15" -->
+<!--TOC paragraph id="sec17" -->
 <!--SEC END --><p>
 The main N2O advantage is its sutability for large-scale projects
 without sacrificing simplicity and comfort of prototyping solutions
@@ -205,8 +241,8 @@ WebSockets, HTML and JavaScript generation in a simple file that you can
 put in your N2O application directory tree without restart and
 manual compilation. Also you can create single-file bundle
 which is able to run in Windows, Linux and Mac. Moreover this
-application is ready to run under multiplatform LING Erlang virtual machine.</p><!--TOC subsection id="sec16" Changes from Nitrogen-->
-<h3 id="sec16" class="subsection">Changes from Nitrogen</h3><!--SEC END --><p>
+application is ready to run under multiplatform LING Erlang virtual machine.</p><!--TOC subsection id="sec18" Changes from Nitrogen-->
+<h3 id="sec18" class="subsection">Changes from Nitrogen</h3><!--SEC END --><p>
 We took a liberty to break some compatibility with the original
 Nitrogen framework, mostly because we wanted to have a clean codebase
 and achieve better performance. However, it’s still possible to port
@@ -214,7 +250,7 @@ Nitrogen web sites to N2O quite easily. E.g., N2O returns id and
 class semantics of HTML and not <span style="font-weight:bold">html_id</span>.
 We simplified HTML rendering without using
 <span style="font-weight:bold">html_encode</span> which should be handled by application layer.</p>
-<!--TOC paragraph id="sec17" -->
+<!--TOC paragraph id="sec19" -->
 <!--SEC END --><p>
 Nitrogen.js, originally created by Rusty Klophaus, was removed
 because of the pure WebSocket nature of N2O which doesn’t
@@ -223,20 +259,20 @@ we have impressive showing. New <span style="font-weight:bold">xhr.js</span> 25 
 was added as the replacement, also <span style="font-weight:bold">nitrogen.js</span> takes only 45 LOC.
 UTF-8 <span style="font-weight:bold">utf8.js</span> 38 LOC could be plugged separately only when you’re
 using <span style="font-weight:bold">bert.js</span> 200 LOC formatter. <span style="font-weight:bold">n2o.js</span> protocol handler is about 20 LOC.</p>
-<!--TOC paragraph id="sec18" -->
+<!--TOC paragraph id="sec20" -->
 <!--SEC END --><p>
 We also removed <span style="font-weight:bold">simple_bridge</span> and optimized N2O on each level to
 unlock maximum performance and simplicity. We hope you will enjoy
 using N2O. We are fully convinced it is the most efficient way to
 build Web applications in Erlang.</p>
-<!--TOC paragraph id="sec19" -->
+<!--TOC paragraph id="sec21" -->
 <!--SEC END --><p>
 Original Nitrogen was already tested in production under high load and we
 decided to remove <span style="font-weight:bold">nprocreg</span> process registry along
 with <span style="font-weight:bold">action_comet</span> heavy process creation. N2O creates a single
 process for an async WebSocket handler, all operations
 are handled within Cowboy processes.</p>
-<!--TOC paragraph id="sec20" -->
+<!--TOC paragraph id="sec22" -->
 <!--SEC END --><p>
 Also, we introduced new levels of abstraction. You can extend
 the set of available protocols (Nitrogen, Heartbeat, Binary),

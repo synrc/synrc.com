@@ -49,18 +49,54 @@
 <!--ENDHTML-->
 <!--CUT DEF section 1 --><div class="nonselectedwrapper">
 <div class="article">
+<div class="toc">
+<!--TOC section id="sec1" TOC-->
+<h2 id="sec1" class="section">TOC</h2><!--SEC END -->
+<!--TOC paragraph id="sec2" -->
+<!--SEC END --><p>
+<a href="http://synrc.com/apps/n2o/doc/web">1. Framework</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/setup.htm">2. Setup</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/processes.htm">3. Processes</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/endpoints.htm">4. Endpoints</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/handlers.htm">5. Handlers</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/protocols.htm">6. Protocols</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/api.htm">7. API</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/elements.htm">8. Elements</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/actions.htm">9. Actions</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/macros.htm">10. JavaScript</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/utf8.htm">11. UTF-8</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/packages.htm">12. Packages</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/persistence.htm">13. Persistence</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/last.htm">14. History</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/book.pdf">Download PDF</a> <br>
+
+</p></div>
 
 <div class="articlecol">
 
-<!--TOC section id="sec1" Elements-->
-<h2 id="sec1" class="section">Elements</h2><!--SEC END -->
-<!--TOC paragraph id="sec2" -->
+<!--TOC section id="sec3" Elements-->
+<h2 id="sec3" class="section">Elements</h2><!--SEC END -->
+<!--TOC paragraph id="sec4" -->
 <!--SEC END --><p>
 With N2O you don’t need to use HTML at all. Instead you define your page
 in the form of Erlang records so that the page is type checked at the compile time.
 This is a classic CGI approach for compiled pages and it gives us all the benefits of
 compile time error checking and provides DSL for client and server-side rendering.</p>
-<!--TOC paragraph id="sec3" -->
+<!--TOC paragraph id="sec5" -->
 <!--SEC END --><p>
 Nitrogen elements, by their nature, are UI control primitives
 that can be used to construct Nitrogen pages with Erlang internal DSL.
@@ -68,11 +104,11 @@ They are compiled into HTML and JavaScript.
 Behavior of all elements is controlled on server-side and all the communication
 between browser and server-side is performed over WebSocket channels.
 Hence there is no need to use POST requests or HTML forms.</p>
-<!--TOC subsection id="sec4" Static Elements: HTML-->
-<h3 id="sec4" class="subsection">Static Elements: HTML</h3><!--SEC END --><p>
+<!--TOC subsection id="sec6" Static Elements: HTML-->
+<h3 id="sec6" class="subsection">Static Elements: HTML</h3><!--SEC END --><p>
 The core set of HTML elements includes br, headings, links, tables, lists and image tags.
 Static elements are transformed into HTML during rendering.</p>
-<!--TOC paragraph id="sec5" -->
+<!--TOC paragraph id="sec7" -->
 <!--SEC END --><p>
 Static elements could also be used as placeholders for other HTML elements.
 Usually “static” means elements that don’t use postback parameter:</p><div class="lstlisting">    #textbox { id=userName, body= &lt;&lt;"Anonymous"&gt;&gt; },
@@ -80,8 +116,8 @@ Usually “static” means elements that don’t use postback parameter:</p><div
 
 </p><div class="lstlisting">    &lt;input value="Anonymous" id="userName" type="text"/&gt;
     &lt;div id="chatHistory" class="chat_history"&gt;&lt;/div&gt;</div>
-<!--TOC subsection id="sec6" Active Elements: HTML and JavaScript-->
-<h3 id="sec6" class="subsection">Active Elements: HTML and JavaScript</h3><!--SEC END --><p>
+<!--TOC subsection id="sec8" Active Elements: HTML and JavaScript-->
+<h3 id="sec8" class="subsection">Active Elements: HTML and JavaScript</h3><!--SEC END --><p>
 There are form elements that provide information for the server
 and gather user input: button, radio and check buttons, text box area and password box.
 Form elements usually allow to assign an Erlang postback handler to specify action behavior.
@@ -104,8 +140,8 @@ Element definition specifies the list of <span style="font-weight:bold">source</
 </p><div class="lstlisting">    event({chat,Pid}) -&gt;
         wf:info(?MODULE, "User ~p Msg ~p",
                 [wf:q(userName),wf:q(message)]).</div>
-<!--TOC subsection id="sec7" Base Element-->
-<h3 id="sec7" class="subsection">Base Element</h3><!--SEC END --><p>
+<!--TOC subsection id="sec9" Base Element-->
+<h3 id="sec9" class="subsection">Base Element</h3><!--SEC END --><p>
 Each HTML element in N2O DSL has record compatibility with the base element.</p><div class="lstlisting">    #element { ancestor=element,
                module,
                id,
@@ -124,15 +160,15 @@ Each HTML element in N2O DSL has record compatibility with the base element.</p>
 Data and Aria HTML custom fields are common attributes for all elements.
 In case element name doesn’t correspond to HTML tag, <span style="font-weight:bold">html_tag</span> field provided.
 <span style="font-weight:bold">body</span> field is used as element contents for all elements.</p>
-<!--TOC paragraph id="sec8" -->
+<!--TOC paragraph id="sec10" -->
 <!--SEC END --><p>
 Most HTML elements are defined as basic elements. You can even choose element’s
 name different from its original HTML tag name:</p><div class="lstlisting">    -record(h6,    ?DEFAULT_BASE).
     -record(tbody, ?DEFAULT_BASE).
     -record(panel, ?DEFAULT_BASE_TAG(&lt;&lt;"div"&gt;&gt;)).
     -record('div', ?DEFAULT_BASE_TAG(&lt;&lt;"div"&gt;&gt;)).</div>
-<!--TOC subsection id="sec9" DTL Template <span style="font-weight:bold">#dtl</span>-->
-<h3 id="sec9" class="subsection">DTL Template <span style="font-weight:bold">#dtl</span></h3><!--SEC END --><p>
+<!--TOC subsection id="sec11" DTL Template <span style="font-weight:bold">#dtl</span>-->
+<h3 id="sec11" class="subsection">DTL Template <span style="font-weight:bold">#dtl</span></h3><!--SEC END --><p>
 DTL stands for Django Template Language. A DTL element lets to construct HTML
 snippet from template with given placeholders for further substitution.
 Fields contain substitution bindings proplist, filename and templates folder.</p><div class="lstlisting">    -record(dtl, {?ELEMENT_BASE(element_dtl),
@@ -156,9 +192,9 @@ to use DTL iterators for constructing list elements:</p><div class="center">List
         {[{name, "Google"},    {url, "http://google.com"}]},
         {[{name, "Microsoft"}, {url, "http://microsoft.com"}]} ]}]}.</div><p>bind_script should be set to true for page templates. When control elements are rendered from DTL,
 bind_script should be set to false.</p>
-<!--TOC subsection id="sec10" Button <span style="font-weight:bold">#button</span>-->
-<h3 id="sec10" class="subsection">Button <span style="font-weight:bold">#button</span></h3><!--SEC END -->
-<!--TOC paragraph id="sec11" -->
+<!--TOC subsection id="sec12" Button <span style="font-weight:bold">#button</span>-->
+<h3 id="sec12" class="subsection">Button <span style="font-weight:bold">#button</span></h3><!--SEC END -->
+<!--TOC paragraph id="sec13" -->
 <!--SEC END --><div class="lstlisting">    -record(button, {?ELEMENT_BASE(element_button),
             type= &lt;&lt;"button"&gt;&gt;,
             name,
@@ -166,12 +202,12 @@ bind_script should be set to false.</p>
             postback,
             delegate,
             disabled}).</div>
-<!--TOC paragraph id="sec12" -->
+<!--TOC paragraph id="sec14" -->
 <!--SEC END --><p>
 Sample:</p><div class="lstlisting">#button { id=sendButton, body= &lt;&lt;"Send"&gt;&gt;,
           postback={chat,Pid}, source=[userName,message] }.</div>
-<!--TOC subsection id="sec13" Link <span style="font-weight:bold">#dropdown</span>-->
-<h3 id="sec13" class="subsection">Link <span style="font-weight:bold">#dropdown</span></h3><!--SEC END --><div class="lstlisting">    -record(dropdown, {?ELEMENT_BASE(element_dropdown),
+<!--TOC subsection id="sec15" Link <span style="font-weight:bold">#dropdown</span>-->
+<h3 id="sec15" class="subsection">Link <span style="font-weight:bold">#dropdown</span></h3><!--SEC END --><div class="lstlisting">    -record(dropdown, {?ELEMENT_BASE(element_dropdown),
             options,
             postback,
             delegate,
@@ -185,7 +221,7 @@ Sample:</p><div class="lstlisting">#button { id=sendButton, body= &lt;&lt;"Send"
             value,
             selected=false,
             disabled}).</div>
-<!--TOC paragraph id="sec14" -->
+<!--TOC paragraph id="sec16" -->
 <!--SEC END --><p>
 Sample:</p><div class="lstlisting">    #dropdown { id=drop,
                 value="2",
@@ -195,18 +231,18 @@ Sample:</p><div class="lstlisting">    #dropdown { id=drop,
         #option { label= &lt;&lt;"Google"&gt;&gt;,    value= &lt;&lt;"Android"&gt;&gt; },
         #option { label= &lt;&lt;"Apple"&gt;&gt;,     value= &lt;&lt;"Mac"&gt;&gt; }
     ]},</div>
-<!--TOC subsection id="sec15" Link <span style="font-weight:bold">#link</span>-->
-<h3 id="sec15" class="subsection">Link <span style="font-weight:bold">#link</span></h3><!--SEC END -->
-<!--TOC paragraph id="sec16" -->
+<!--TOC subsection id="sec17" Link <span style="font-weight:bold">#link</span>-->
+<h3 id="sec17" class="subsection">Link <span style="font-weight:bold">#link</span></h3><!--SEC END -->
+<!--TOC paragraph id="sec18" -->
 <!--SEC END --><div class="lstlisting">    -record(link, {?ELEMENT_BASE(element_link),
             target,
             url="javascript:void(0);",
             postback,
             delegate,
             name}).</div>
-<!--TOC subsection id="sec17" Text Editor <span style="font-weight:bold">#textarea</span>-->
-<h3 id="sec17" class="subsection">Text Editor <span style="font-weight:bold">#textarea</span></h3><!--SEC END -->
-<!--TOC paragraph id="sec18" -->
+<!--TOC subsection id="sec19" Text Editor <span style="font-weight:bold">#textarea</span>-->
+<h3 id="sec19" class="subsection">Text Editor <span style="font-weight:bold">#textarea</span></h3><!--SEC END -->
+<!--TOC paragraph id="sec20" -->
 <!--SEC END --><div class="lstlisting">    -record(textarea, {?ELEMENT_BASE(element_textarea),
             placeholder,
             name,
