@@ -7,8 +7,7 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta property="og:image" content="images/s_64.png"/>
   <meta http-equiv="X-UA-Compatible" content="IE=IE10,chrome=1" />
-  <title>MAD Commands
-</title>
+  <title>commands</title>
 </head>
 <body >
 <!--HEVEA command line is: hevea commands.tex -o commands.htm -->
@@ -49,11 +48,31 @@
 <!--ENDHTML-->
 <!--CUT DEF section 1 --><div class="nonselectedwrapper">
 <div class="article">
+<div class="toc">
+<!--TOC section id="sec1" TOC-->
+<h2 id="sec1" class="section">TOC</h2><!--SEC END -->
+<!--TOC paragraph id="sec2" -->
+<!--SEC END --><p>
+<a href="http://synrc.com/apps/mad/doc/web">Overview</a> <br>
+
+<a href="http://synrc.com/apps/mad/doc/web/setup.htm">1. Setup</a> <br>
+
+<a href="http://synrc.com/apps/mad/doc/web/deps.htm">2. Deps</a> <br>
+
+<a href="http://synrc.com/apps/mad/doc/web/config.htm">3. Configuration</a> <br>
+
+<a href="http://synrc.com/apps/mad/doc/web/commands.htm">4. Commands</a> <br>
+
+<a href="http://synrc.com/apps/mad/doc/web/bundles.htm">5. Bundles</a> <br>
+
+<a href="http://synrc.com/apps/mad/doc/book.pdf">Download PDF</a> <br>
+
+</p></div>
 
 <div class="articlecol">
 
-<!--TOC section id="sec1" Commands-->
-<h2 id="sec1" class="section">Commands</h2><!--SEC END --><p>Synrc mad has a simple interface as follows:</p><div class="lstlisting">  MAD Container Tool version b547fa
+<!--TOC section id="sec3" Commands-->
+<h2 id="sec3" class="section">Commands</h2><!--SEC END --><p>Synrc mad has a simple interface as follows:</p><div class="lstlisting">  MAD Container Tool version b547fa
 
       invoke = mad params
       params = [] | command [ options  ] params
@@ -61,8 +80,8 @@
              | release [ beam  | ling  | script  | runc ]
              | deploy  | start | stop  | attach  | sh</div><p>It seems to us more natural, you can specify random
 commands set with different specifiers (options).</p>
-<!--TOC subsection id="sec2" deps, dep-->
-<h3 id="sec2" class="subsection">deps, dep</h3><!--SEC END --><p>In rebar-like managers we are selecting deps from rebar.config:
+<!--TOC subsection id="sec4" deps, dep-->
+<h3 id="sec4" class="subsection">deps, dep</h3><!--SEC END --><p>In rebar-like managers we are selecting deps from rebar.config:
 
 </p><div class="lstlisting">  {sub_dirs,["apps"]}.
   {deps_dir,"deps"}.
@@ -84,8 +103,8 @@ package management, only static files with OTP application format.</p><div class
                  sampleproc,sampleproc_process]}]}.</div><p>If no file is found or server is unavailable then application registry will
 be taken from mad built-in index.txt. If no luck then the name of application,
 e.g. "spawnproc/rete" will be interpreted as github repository address.</p><div class="lstlisting">   $ mad dep active n2o kvs ling "spawnproc/rete"</div>
-<!--TOC subsection id="sec3" compile, com-->
-<h3 id="sec3" class="subsection">compile, com</h3><!--SEC END --><p>
+<!--TOC subsection id="sec5" compile, com-->
+<h3 id="sec5" class="subsection">compile, com</h3><!--SEC END --><p>
 Performs compilation of all known compilations backends in complilation profile of mad:
 
 </p><div class="lstlisting">    app — app.src erlang templating
@@ -95,8 +114,8 @@ Performs compilation of all known compilations backends in complilation profile 
     script — .script file used in projects like gproc
     yrl/xrl — DSL language parser compilers
     upl — UPL compiler</div>
-<!--TOC subsection id="sec4" release, rel, bundle, bun-->
-<h3 id="sec4" class="subsection">release, rel, bundle, bun</h3><!--SEC END --><p>
+<!--TOC subsection id="sec6" release, rel, bundle, bun-->
+<h3 id="sec6" class="subsection">release, rel, bundle, bun</h3><!--SEC END --><p>
 Taking all dependecies and resolve boot sequence according to dependecy order.
 Storing this value in .applist. If release type is not defined (<span style="font-weight:bold">beam</span> in following example),
 then <span style="font-weight:bold">script</span> release will be taken as a default.
@@ -115,8 +134,8 @@ then <span style="font-weight:bold">script</span> release will be taken as a def
     beam — ERTS releases with systools
     ling — LING portable unikernels
     runc — Docker-compatible containers</div>
-<!--TOC subsection id="sec5" sh, repl, rep-->
-<h3 id="sec5" class="subsection">sh, repl, rep</h3><!--SEC END --><p>Start REPL shell session.
+<!--TOC subsection id="sec7" sh, repl, rep-->
+<h3 id="sec7" class="subsection">sh, repl, rep</h3><!--SEC END --><p>Start REPL shell session.
 
 
     <!--div id="disqus_thread"></div>

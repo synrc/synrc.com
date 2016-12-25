@@ -7,8 +7,7 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta property="og:image" content="images/s_64.png"/>
   <meta http-equiv="X-UA-Compatible" content="IE=IE10,chrome=1" />
-  <title>MAD
-</title>
+  <title>index</title>
 </head>
 <body >
 <!--HEVEA command line is: hevea index.tex -o index.htm -->
@@ -49,36 +48,56 @@
 <!--ENDHTML-->
 <!--CUT DEF section 1 --><div class="nonselectedwrapper">
 <div class="article">
+<div class="toc">
+<!--TOC section id="sec1" TOC-->
+<h2 id="sec1" class="section">TOC</h2><!--SEC END -->
+<!--TOC paragraph id="sec2" -->
+<!--SEC END --><p>
+<a href="http://synrc.com/apps/mad/doc/web">Overview</a> <br>
+
+<a href="http://synrc.com/apps/mad/doc/web/setup.htm">1. Setup</a> <br>
+
+<a href="http://synrc.com/apps/mad/doc/web/deps.htm">2. Deps</a> <br>
+
+<a href="http://synrc.com/apps/mad/doc/web/config.htm">3. Configuration</a> <br>
+
+<a href="http://synrc.com/apps/mad/doc/web/commands.htm">4. Commands</a> <br>
+
+<a href="http://synrc.com/apps/mad/doc/web/bundles.htm">5. Bundles</a> <br>
+
+<a href="http://synrc.com/apps/mad/doc/book.pdf">Download PDF</a> <br>
+
+</p></div>
 
 <div class="articlecol">
 
-<!--TOC section id="sec1" MAD: Erlang Containers-->
-<h2 id="sec1" class="section">MAD: Erlang Containers</h2><!--SEC END -->
-<!--TOC subsection id="sec2" Purpose-->
-<h3 id="sec2" class="subsection">Purpose</h3><!--SEC END --><p>
+<!--TOC section id="sec3" MAD: Erlang Containers-->
+<h2 id="sec3" class="section">MAD: Erlang Containers</h2><!--SEC END -->
+<!--TOC subsection id="sec4" Purpose-->
+<h3 id="sec4" class="subsection">Purpose</h3><!--SEC END --><p>
 We were trying to make something minimalistic that fits out <a href="https://github.com/synrc">application stack</a>.
 The main idea of mad is to provide clean and simple rebar-like fast dependency manager that
 is able to build several types of packages and provides interface of containered deployments
 to virtualiezed environments.</p>
-<!--TOC subsection id="sec3" Several Types of Packaging-->
-<h3 id="sec3" class="subsection">Several Types of Packaging</h3><!--SEC END --><p>
+<!--TOC subsection id="sec5" Several Types of Packaging-->
+<h3 id="sec5" class="subsection">Several Types of Packaging</h3><!--SEC END --><p>
 The key feature of mad is ability to create single-file bundled web sites.
 This target escript is ready to run on Windows, Linux and Mac.</p>
-<!--TOC subsection id="sec4" Deployment Options-->
-<h3 id="sec4" class="subsection">Deployment Options</h3><!--SEC END --><p>
+<!--TOC subsection id="sec6" Deployment Options-->
+<h3 id="sec6" class="subsection">Deployment Options</h3><!--SEC END --><p>
 As a deploy tool mad is also supposed to launch, start, stop and manage containers, locally or remote.
 You can make containers from different type of packages, like making runc container with beam release.</p>
-<!--TOC subsection id="sec5" OTP Compliant-->
-<h3 id="sec5" class="subsection">OTP Compliant</h3><!--SEC END --><p>
+<!--TOC subsection id="sec7" OTP Compliant-->
+<h3 id="sec7" class="subsection">OTP Compliant</h3><!--SEC END --><p>
 Mad supports ERTS boot files generation with systools and erlang application format used by OTP.
 This is the main format of application repository. Also boot files are suported on both LING and BEAM.</p>
-<!--TOC subsection id="sec6" Tiny Size-->
-<h3 id="sec6" class="subsection">Tiny Size</h3><!--SEC END --><p>
+<!--TOC subsection id="sec8" Tiny Size-->
+<h3 id="sec8" class="subsection">Tiny Size</h3><!--SEC END --><p>
 And the good part:</p><div class="lstlisting">                      Sources        Binary
     mad               967 LOC        52 KB
     rebar             7717 LOC       181 KB</div>
-<!--TOC subsection id="sec7" History-->
-<h3 id="sec7" class="subsection">History</h3><!--SEC END --><p>We came to conclusion that no matter how perfect your libraries are,
+<!--TOC subsection id="sec9" History-->
+<h3 id="sec9" class="subsection">History</h3><!--SEC END --><p>We came to conclusion that no matter how perfect your libraries are,
 the comfort and ease come mostly from developing tools.
 Everything got started when <a href="https://github.com/proger">Vladimir Kirillov</a> decided to
 replace Rusty’s sync beam reloader. As you know sync uses
