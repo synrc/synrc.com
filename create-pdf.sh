@@ -9,6 +9,6 @@ create_pdf()
     cd -
 }
 
-#create_pdf ~/depot/synrc/mad
+create_pdf ~/depot/synrc/mad
 create_pdf ~/depot/synrc/n2o
 create_pdf ~/depot/spawnproc/bpe
