@@ -279,7 +279,7 @@ NITRO protocol messages. All client requests originate IO message as a response.
 <h3 id="sec16" class="subsection">SPA</h3><!--SEC END --><p>If you are creating SVG based game you don’t need HTML5 nitro elements at all.
 Instead you need simple and clean JavaScript based protocol for updating DOM SVG elements
 but based on <span style="font-weight:bold">shen</span> generated or manual JavaScript code sent from server.
-Thus you need still IO messages as a reply but originating massage shouldn’t
+Thus you need still IO messages as a reply but originating message shouldn’t
 rely in <span style="font-weight:bold">nitro</span> at all. For that purposes in general and for <span style="font-weight:bold">synrc/games</span> sample
 in particular we created SPA protocol layer. SPA protocol consist of CLIENT originated message
 and SERVER message that could be originated both from client and server. All messages expects
