@@ -16,7 +16,7 @@
 
 <div class="nonselectedwrapper white" style="padding: 10px 0px 10px 0px;margin: 0px 0px 10px 0px;">
     <a href="//synrc.com/">
-    <img style="float:left; margin-left: 55px; margin-top: 5px; margin-bottom:-5px;" src="http://synrc.com/images/synrc.png" border="0"></a>
+    <img style="float:left; margin-left: 55px; margin-top: 5px; margin-bottom:-5px;" src="//synrc.com/images/synrc.png" border="0"></a>
 
     <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" style="display:none;margin-top:39px;">
       <input type="hidden" name="cmd" value="_s-xclick">
@@ -29,11 +29,11 @@
 
         var args = (window.location).toString().split('/');
         var page_name = args[args.length-1];
-        var menu = {'http://synrc.com/index.htm':    'Home',
-                    'http://synrc.com/research.htm': 'Showcase',
-                    'http://synrc.com/apps/':   'Apps',
-                    'http://synrc.com/feedback.htm': 'Contacts',
-                    'http://spawnproc.com':   '<b>Spawnproc</b>', };
+        var menu = {'//synrc.com/index.htm':    'Home',
+                    '//synrc.com/research.htm': 'Showcase',
+                    '//synrc.com/apps/':   'Apps',
+                    '//synrc.com/feedback.htm': 'Contacts',
+                    '//spawnproc.com':   '<b>Spawnproc</b>', };
 
         Object.keys(menu).forEach(function (key) {
             if (page_name == key) { document.write('<div class="menu" style="font-weight: bold;">'+menu[key]+'</div>'); }
@@ -400,7 +400,7 @@ inside handlers or endpoints.</p><div class="lstlisting">    wf:cookies_req(?REQ
                       
                       </script>
 
-<script type="text/javascript" src="http://synrc.com/hi.js"></script>
+<script type="text/javascript" src="//synrc.com/hi.js"></script>
 <!--ENDHTML-->
 </body>
 </html>

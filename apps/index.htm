@@ -16,7 +16,7 @@
 
 <div class="nonselectedwrapper white" style="padding: 10px 0px 10px 0px;margin: 0px 0px 10px 0px;">
     <a href="//synrc.com/">
-    <img style="float:left; margin-left: 55px; margin-top: 5px; margin-bottom:-5px;" src="http://synrc.com/images/synrc.png" border="0"></a>
+    <img style="float:left; margin-left: 55px; margin-top: 5px; margin-bottom:-5px;" src="//synrc.com/images/synrc.png" border="0"></a>
 
     <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" style="display:none;margin-top:39px;">
       <input type="hidden" name="cmd" value="_s-xclick">
@@ -29,11 +29,11 @@
 
         var args = (window.location).toString().split('/');
         var page_name = args[args.length-1];
-        var menu = {'http://synrc.com/index.htm':    'Home',
-                    'http://synrc.com/research.htm': 'Showcase',
-                    'http://synrc.com/apps/':   'Apps',
-                    'http://synrc.com/feedback.htm': 'Contacts',
-                    'http://spawnproc.com':   '<b>Spawnproc</b>', };
+        var menu = {'//synrc.com/index.htm':    'Home',
+                    '//synrc.com/research.htm': 'Showcase',
+                    '//synrc.com/apps/':   'Apps',
+                    '//synrc.com/feedback.htm': 'Contacts',
+                    '//spawnproc.com':   '<b>Spawnproc</b>', };
 
         Object.keys(menu).forEach(function (key) {
             if (page_name == key) { document.write('<div class="menu" style="font-weight: bold;">'+menu[key]+'</div>'); }
@@ -175,29 +175,29 @@ can use global repository statically avaliable at Github Pages:</p><p>
 <br><br>
 <code style="font-weight:lighter;">
 
-  $ curl -X GET <a href="http://synrc.com/apps/index.txt">http://synrc.com/apps/index.txt</a>
+  $ curl -X GET <a href="//synrc.com/apps/index.txt">http://synrc.com/apps/index.txt</a>
   [
-      {bin,[<a href="http://synrc.com/apps/beam/bin/beam.txt">beam</a>],     ["7.0.3"]},
-      {lib,[<a href="http://synrc.com/apps/kernel/ebin/kernel.txt">kernel</a>],   ["4.0"]},
-      {lib,[<a href="http://synrc.com/apps/stdlib/ebin/stdlib.txt">stdlib</a>],   ["2.5"]},
-      {lib,[<a href="http://synrc.com/apps/mnesia/ebin/mnesia.txt">mnesia</a>],   ["4.13"]},
-      {lib,[<a href="http://synrc.com/apps/syntax_tools/ebin/syntax_tools.txt">syntax_tools</a>], ["1.7"]},
-      {lib,[<a href="http://synrc.com/apps/compiler/ebin/compiler.txt">compiler</a>], ["6.0"]},
-      {lib,[<a href="http://synrc.com/apps/crypto/ebin/crypto.txt">crypto</a>],   ["3.6"]},
-      {lib,[<a href="http://synrc.com/apps/cowboy/ebin/cowboy.txt">cowboy</a>],   ["1.0.1"]},
-      {lib,[<a href="http://synrc.com/apps/cowlib/ebin/cowlib.txt">cowlib</a>],   ["1.0.0"]},
-      {lib,[<a href="http://synrc.com/apps/ranch/ebin/ranch.txt">ranch</a>],    ["1.0.0"]},
-      {lib,[<a href="http://synrc.com/apps/erlydtl/ebin/erlydtl.txt">erlydtl</a>],  ["0.8.0"]},
-      {lib,[<a href="http://synrc.com/apps/gproc/ebin/gproc.txt">gproc</a>],    ["0.3"]},
-      {lib,[<a href="http://synrc.com/apps/jsone/ebin/jsone.txt">jsone</a>],    ["v0.3.3"]},
-      {lib,[<a href="http://synrc.com/apps/kvs/ebin/kvs.txt">kvs</a>],      ["2.9"]},
-      {lib,[<a href="http://synrc.com/apps/mad/ebin/mad.txt">mad</a>],      ["2.9"]},
-      {lib,[<a href="http://synrc.com/apps/n2o/ebin/n2o.txt">n2o</a>],      ["2.9"]},
-      {lib,[<a href="http://synrc.com/apps/rest/ebin/rest.txt">rest</a>],     ["2.9"]},
-      {lib,[<a href="http://synrc.com/apps/active/ebin/active.txt">active</a>],   ["1.9"]},
-      {lib,[<a href="http://synrc.com/apps/fs/ebin/fs.txt">fs</a>],       ["1.9"]},
-      {lib,[<a href="http://synrc.com/apps/sh/ebin/sh.txt">sh</a>],       ["1.9"]},
-      {lib,[<a href="http://synrc.com/apps/nitro/ebin/nitro.txt">nitro</a>],    ["0.9"]}
+      {bin,[<a href="//synrc.com/apps/beam/bin/beam.txt">beam</a>],     ["7.0.3"]},
+      {lib,[<a href="//synrc.com/apps/kernel/ebin/kernel.txt">kernel</a>],   ["4.0"]},
+      {lib,[<a href="//synrc.com/apps/stdlib/ebin/stdlib.txt">stdlib</a>],   ["2.5"]},
+      {lib,[<a href="//synrc.com/apps/mnesia/ebin/mnesia.txt">mnesia</a>],   ["4.13"]},
+      {lib,[<a href="//synrc.com/apps/syntax_tools/ebin/syntax_tools.txt">syntax_tools</a>], ["1.7"]},
+      {lib,[<a href="//synrc.com/apps/compiler/ebin/compiler.txt">compiler</a>], ["6.0"]},
+      {lib,[<a href="//synrc.com/apps/crypto/ebin/crypto.txt">crypto</a>],   ["3.6"]},
+      {lib,[<a href="//synrc.com/apps/cowboy/ebin/cowboy.txt">cowboy</a>],   ["1.0.1"]},
+      {lib,[<a href="//synrc.com/apps/cowlib/ebin/cowlib.txt">cowlib</a>],   ["1.0.0"]},
+      {lib,[<a href="//synrc.com/apps/ranch/ebin/ranch.txt">ranch</a>],    ["1.0.0"]},
+      {lib,[<a href="//synrc.com/apps/erlydtl/ebin/erlydtl.txt">erlydtl</a>],  ["0.8.0"]},
+      {lib,[<a href="//synrc.com/apps/gproc/ebin/gproc.txt">gproc</a>],    ["0.3"]},
+      {lib,[<a href="//synrc.com/apps/jsone/ebin/jsone.txt">jsone</a>],    ["v0.3.3"]},
+      {lib,[<a href="//synrc.com/apps/kvs/ebin/kvs.txt">kvs</a>],      ["2.9"]},
+      {lib,[<a href="//synrc.com/apps/mad/ebin/mad.txt">mad</a>],      ["2.9"]},
+      {lib,[<a href="//synrc.com/apps/n2o/ebin/n2o.txt">n2o</a>],      ["2.9"]},
+      {lib,[<a href="//synrc.com/apps/rest/ebin/rest.txt">rest</a>],     ["2.9"]},
+      {lib,[<a href="//synrc.com/apps/active/ebin/active.txt">active</a>],   ["1.9"]},
+      {lib,[<a href="//synrc.com/apps/fs/ebin/fs.txt">fs</a>],       ["1.9"]},
+      {lib,[<a href="//synrc.com/apps/sh/ebin/sh.txt">sh</a>],       ["1.9"]},
+      {lib,[<a href="//synrc.com/apps/nitro/ebin/nitro.txt">nitro</a>],    ["0.9"]}
     ].
 </code>
 
@@ -240,7 +240,7 @@ can use global repository statically avaliable at Github Pages:</p><p>
                       
                       </script>
 
-<script type="text/javascript" src="http://synrc.com/hi.js"></script>
+<script type="text/javascript" src="//synrc.com/hi.js"></script>
 <!--ENDHTML-->
 </body>
 </html>

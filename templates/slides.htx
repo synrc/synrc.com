@@ -2,36 +2,36 @@
 <h2><a name="testimonials"><b>N2O in Production</b></a></h2><blockquote>In this framework, most of all I liked the fact that most of the
 tasks solving in one code, in one language. And is not spread to the
 front-end & back-end.<div align=right>Alex Radetsky,
-<a href="http://pearlpbx.com/">PearlPBX</a></div></blockquote>
+<a href="//pearlpbx.com/">PearlPBX</a></div></blockquote>
 
 <blockquote>Writing asynchronous web-applications has never been so easy for me.
 Now I really like to push data to client!<div align=right>Max Treskin,
-<a href="http://metachord.com/">Metachord</a></div></blockquote>
+<a href="//metachord.com/">Metachord</a></div></blockquote>
 
 <blockquote>N2O is the easiest way how to write different webapps. It just works.
 <div align=right>Alexander Karpich,
-<a href="http://rontel.ru/">RON-Telecom CJSC</a></div></blockquote>
+<a href="//rontel.ru/">RON-Telecom CJSC</a></div></blockquote>
 
 <blockquote>N2O is nice way to deal with WebSockets.
 <div align=right>Roman Gladkov
-<a href="http://crashkeeper.com/">Crashkeeper, Inc.</a></div></blockquote>
+<a href="//crashkeeper.com/">Crashkeeper, Inc.</a></div></blockquote>
 
 <h2><a name="trendsetters"><b>Erlang Trendsetters on N2O</b></a></h2>
 
 <!--blockquote>This [N2O] makes Websockets so easy. Thanks for this, it's great.
 <div align=right>Joe Armstrong,
-<a href="http://ericsson.com/">Ericsson AG</a></div></blockquote-->
+<a href="//ericsson.com/">Ericsson AG</a></div></blockquote-->
 
 <blockquote>Excited to see these guys pushing boundaries; that's exactly what
-inspired Nitrogen in the first place. My hat is off to the <a href="http://synrc.com">synrc.com</a>
+inspired Nitrogen in the first place. My hat is off to the <a href="//synrc.com">synrc.com</a>
 team for their work on N2O...
 <div align=right style="margin-top: 10px;">Rusty Klophaus, Nitrogen author,
-<a href="http://basho.com/">Basho Technologies, Inc.</a></div></blockquote>
+<a href="//basho.com/">Basho Technologies, Inc.</a></div></blockquote>
 
 <blockquote>N2O is one of the most interesting Cowboy based frameworks.
 <div align=right style="margin-top: 10px;">Loïc Hoguin, Cowboy,
-<a href="http://ninenines.eu/">Nine Nines</a></div></blockquote>
+<a href="//ninenines.eu/">Nine Nines</a></div></blockquote>
 
 <br><center>
-<iframe src="http://slid.es/maximsokhatsky/n2o/embed" width="600" height="400" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="//slid.es/maximsokhatsky/n2o/embed" width="600" height="400" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 </center><br>

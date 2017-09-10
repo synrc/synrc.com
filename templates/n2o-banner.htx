@@ -66,9 +66,9 @@ REST Access</div>
     <div class="block" style="width: 740px; margin-top:50px; margin-left: 40px;">
         <div style="font-size: 45pt; color: royalblue; font-weight: bold;">BPE &mdash; <br> Business Processing <br> Workflow Engine </div>
         <div align=center style="margin-top:40px; line-height: 50px;">
-            <a href="https://github.com/spawnproc/bpe" style="font-size:18pt; background-color: royalblue; color:white; padding:10px 10px 10px 10px; margin-left: 30px;">Sources</a>
+            <a href="//github.com/spawnproc/bpe" style="font-size:18pt; background-color: royalblue; color:white; padding:10px 10px 10px 10px; margin-left: 30px;">Sources</a>
             <a href="apps/bpe/doc/book.pdf" style="background-color: royalblue; color:white; font-size:18pt; padding:10px 10px 10px 10px; margin-left: 30px;">E-Book</a>
-            <a href="http://5ht.co/spawnproc.htm" style="font-size:18pt; background-color: royalblue; color:white; padding:10px 10px 10px 10px; margin-left: 30px;">Success Stories</a>
+            <a href="//5ht.co/spawnproc.htm" style="font-size:18pt; background-color: royalblue; color:white; padding:10px 10px 10px 10px; margin-left: 30px;">Success Stories</a>
         </div>
         </div>
     </div>
@@ -88,7 +88,7 @@ REST Access</div>
     <div class="block" style="width: 740px; margin-top:50px; margin-left: 40px;">
         <div style="font-size: 45pt; color: royalblue; font-weight: bold;">VOXOZ &mdash; <br> Your Next <br> Erlang Cloud Platform </div>
         <div align=center style="margin-top:40px; line-height: 50px;">
-            <a href="http://voxoz.com" style="font-size:18pt; background-color: royalblue; color:white; padding:10px 10px 10px 10px; margin-left: 30px;">Demo</a>
+            <a href="//voxoz.com" style="font-size:18pt; background-color: royalblue; color:white; padding:10px 10px 10px 10px; margin-left: 30px;">Demo</a>
             &nbsp; Launch in Spring 2016
         </div>
     </div>
