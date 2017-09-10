@@ -105,14 +105,14 @@ p br:nth-child(1) {display: none;}
 
 @font-face {
     font-family: 'local';
-    src: url('http://synrc.com/Geometria-Light.otf');
+    src: url('//synrc.com/Geometria-Light.otf');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'mono';
-    src: url('http://synrc.com/SourceCodePro-Regular.otf');
+    src: url('//synrc.com/SourceCodePro-Regular.otf');
     font-weight: normal;
     font-style: normal;
 }
