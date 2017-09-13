@@ -10,41 +10,37 @@
 
 <div id="slideshow" height=600><div id="slides"><div class="slide">
 
-    <div class="block" style="font-size: 20pt; color: royalblue; margin-top:30px;">
+    <div class="block2" style="font-size: 20pt; color: royalblue; margin-top:30px;">
 
-    MVC/M+VC<br>
-    Elixir/Joxa/Erlang Samples<br>
     DSL and/or Templates<br>
-    WebSockets/XHR Events<br>
-    Erlang to JavaScript Compiler<br>
+    TCP/WebSockets/XHR Events<br>
     Rapid REST Backends<br>
-    Mnesia/Riak/KAI Support<br>
+    Mnesia/Riak/Redis Backends<br>
     Rich JavaScript Controls<br>
-    Facebook/G+/Twitter Login<br>
     Fastest Erlang Web Framework<br>
     AES-CBC/RIPEMD Security</div>
+
     <div class="block" style="width: 740px; margin-top:50px; margin-left: 40px;">
         <div style="font-size: 45pt; color: royalblue; font-weight: bold;">N2O &mdash; <br> The Most Powerful <br> Erlang Web Framework</div>
         <div align=center style="margin-top:40px; line-height: 50px;">
             <a href="https://github.com/5HT/n2o" style="font-size:18pt; background-color: royalblue; color:white; padding:10px 10px 10px 10px; margin-left: 30px;">Sources</a>
             <a href="apps/n2o/doc/book.pdf" style="background-color: royalblue; color:white; font-size:18pt; padding:10px 10px 10px 10px; margin-left: 30px;">E-Book</a>
-            <a href="apps/n2o/doc/web/" style="font-size:18pt; background-color: royalblue; color:white; padding:10px 10px 10px 10px; margin-left: 30px;">Get&nbsp;Started</a>
+            <a href="apps/n2o/" style="font-size:18pt; background-color: royalblue; color:white; padding:10px 10px 10px 10px; margin-left: 30px;">Get&nbsp;Started</a>
         </div>
     </div>
 
 </div><div class="slide">
 
-    <div class="block" style="font-size: 20pt; color: royalblue; margin-top:30px;">
+    <div class="block2" style="font-size: 20pt; color: royalblue; margin-top:30px;">
 
-    Polymorphic Tuples <br>
-    Managing Linked-Lists <br>
-    KAI/Mnesia/Riak <br>
-    Sequential Consistency <br>
-    Extendable Schema <br>
-    Secondary Indexes <br>
-    QLC joins in Mnesia <br>
-    Xen Ready <br>
-    KVS REST Access</div>
+Polymorphic Tuples<br>
+Functional Streams<br>
+Sequential Consistency <br>
+Extendable Schema<br>
+Versioning<br>
+Secondary Indexes<br>
+SQL-Like Queries<br>
+REST Access</div>
 
     <div class="block" style="width: 740px; margin-top:50px; margin-left: 40px;">
         <div style="font-size: 45pt; color: royalblue; font-weight: bold;">KVS &mdash; <br> Abstract Erlang Term Database </div>
@@ -56,7 +52,30 @@
 
 </div><div class="slide">
 
-    <div class="block" style="font-size: 20pt; color: royalblue; margin-top:30px;">
+    <div class="block2" style="font-size: 20pt; color: royalblue; margin-top:30px;">
+
+    Damn Fast <br>
+    Core is about 300 LOC <br>
+    Persistent <br>
+    BPMN 2.0 compatible <br>
+    Used in E-Banking <br>
+    WebSocket and REST interface <br>
+    Lua Scripting<br>
+    </div>
+
+    <div class="block" style="width: 740px; margin-top:50px; margin-left: 40px;">
+        <div style="font-size: 45pt; color: royalblue; font-weight: bold;">BPE &mdash; <br> Business Processing <br> Workflow Engine </div>
+        <div align=center style="margin-top:40px; line-height: 50px;">
+            <a href="//github.com/spawnproc/bpe" style="font-size:18pt; background-color: royalblue; color:white; padding:10px 10px 10px 10px; margin-left: 30px;">Sources</a>
+            <a href="apps/bpe/doc/book.pdf" style="background-color: royalblue; color:white; font-size:18pt; padding:10px 10px 10px 10px; margin-left: 30px;">E-Book</a>
+            <a href="//5ht.co/spawnproc.htm" style="font-size:18pt; background-color: royalblue; color:white; padding:10px 10px 10px 10px; margin-left: 30px;">Success Stories</a>
+        </div>
+        </div>
+    </div>
+
+</div><!--div class="slide">
+
+    <div class="block2" style="font-size: 20pt; color: royalblue; margin-top:30px;">
 
     Damn Fast <br>
     Development =:= Production <br>
@@ -69,12 +88,12 @@
     <div class="block" style="width: 740px; margin-top:50px; margin-left: 40px;">
         <div style="font-size: 45pt; color: royalblue; font-weight: bold;">VOXOZ &mdash; <br> Your Next <br> Erlang Cloud Platform </div>
         <div align=center style="margin-top:40px; line-height: 50px;">
-            <a href="http://voxoz.com" style="font-size:18pt; background-color: royalblue; color:white; padding:10px 10px 10px 10px; margin-left: 30px;">Demo</a>
-            &nbsp; Launch in Spring 2015
+            <a href="//voxoz.com" style="font-size:18pt; background-color: royalblue; color:white; padding:10px 10px 10px 10px; margin-left: 30px;">Demo</a>
+            &nbsp; Launch in Spring 2016
         </div>
     </div>
 
-</div></div></div>
+</div--></div></div>
 
 </div>
 </div>

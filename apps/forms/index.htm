@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html >
+<head>
+
+  <link rel=stylesheet type="text/css" href="//synrc.com/synrc.css">
+  <meta name="Author" content="5HT">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta property="og:image" content="images/s_64.png"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=IE10,chrome=1" />
+  <title>FORMS
+</title>
+</head>
+<body >
+<!--HEVEA command line is: hevea index.tex -o index.htm -->
+<!--CUT STYLE article--><!--HTMLHEAD-->
+
+<div class="nonselectedwrapper white" style="padding: 10px 0px 10px 0px;margin: 0px 0px 10px 0px;">
+    <a href="//synrc.com/">
+    <img style="float:left; margin-left: 55px; margin-top: 5px; margin-bottom:-5px;" src="//synrc.com/images/synrc.png" border="0"></a>
+
+    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" style="display:none;margin-top:39px;">
+      <input type="hidden" name="cmd" value="_s-xclick">
+      <input type="hidden" name="hosted_button_id" value="P8WQHAQK5HWWW">
+      <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif" border="0" name="submit" style="width:74px;margin-top:0px;">
+     </form>
+
+    <div align=right style="float:right;width:700px;height: auto; margin: 20px 50px 0px 0px;">
+          <script type="text/javascript">
+
+        var args = (window.location).toString().split('/');
+        var page_name = args[args.length-1];
+        var menu = {'//synrc.com/index.htm':    'Home',
+                    '//synrc.com/research.htm': 'Showcase',
+                    '//synrc.com/apps/':   'Apps',
+                    '//synrc.com/feedback.htm': 'Contacts',
+                    '//spawnproc.com':   '<b>Spawnproc</b>', };
+
+        Object.keys(menu).forEach(function (key) {
+            if (page_name == key) { document.write('<div class="menu" style="font-weight: bold;">'+menu[key]+'</div>'); }
+            else { document.write('<a class="menu" href="'+key+'">'+menu[key]+'</a>'); }
+        });
+
+        </script>
+    </div>
+</div>
+
+<hr size="1">
+
+<!--ENDHTML-->
+<!--CUT DEF section 1 --><div class="nonselectedwrapper">
+<div class="article">
+
+<div class="articlecol">
+
+<!--TOC section id="sec1" FORMS: User Applications-->
+<h2 id="sec1" class="section">FORMS: User Applications</h2><!--SEC END --><p>
+FORMS application provides set of CSS stylesheets for compact forms definitions
+and also it provides database model for storing metadata information about
+documents, fields and validations.</p>
+<!--TOC subsection id="sec2" Overview-->
+<h3 id="sec2" class="subsection">Overview</h3><!--SEC END --><p>
+The basic idea that stands behind form models is that N2O forms are able to be
+generated from its metamodel which is also a root for other generated
+persisted Erlang records for KVS storage. N2O book is the best for the taxonomy
+of N2O forms and KVS interface. This kind of metainterpretation and unification of
+containers is usual for enterprise and common object oriented systems.</p>
+<!--TOC subsection id="sec3" Metainformation-->
+<h3 id="sec3" class="subsection">Metainformation</h3><!--SEC END --><p>
+Metainformation declares the documents (#document) and its
+fields (#field) which forms a document level entity that can
+be stored in database. Usually somewhere in ACT or in DBS
+applications you can find its document definition in Erlang
+records which is entered with forms.</p>
+<!--TOC subsection id="sec4" Application-->
+<h3 id="sec4" class="subsection">Application</h3><!--SEC END --><p>
+JavaScript Web Application is generated using Metainformation and Data Model.
+N2O is used as DSL language for forms generation.
+JavaScript/OTP is also used for forms generation.
+Forms average render speed is 50 FPS (forms per second).</p>
+<!--TOC subsection id="sec5" Documents-->
+<h3 id="sec5" class="subsection">Documents</h3><!--SEC END --><p>
+The #document object is an application form definition.
+It consists of sections (#sec) that include fields with
+its descriptions and validations.</p><div class="lstlisting">    -record(document,   { ?ITERATOR(feed),
+                          name,
+                          base,
+                          sections,
+                          fields,
+                          buttons,
+                          access }).</div>
+<!--TOC subsection id="sec6" Sections-->
+<h3 id="sec6" class="subsection">Sections</h3><!--SEC END --><p>Each section #sec of forms are entitled with heading font.</p><div class="lstlisting">    -record(sec,        { id, name, desc="" }).</div>
+<!--TOC subsection id="sec7" Buttons-->
+<h3 id="sec7" class="subsection">Buttons</h3><!--SEC END --><p>Forms are given with its control buttons (#but).
+The information from field postback in button is directly translated
+to N2O element postback during forms:new/2.</p><div class="lstlisting">    -record(but,        { id, postback, name, title,
+                          sources=[], class }).</div>
+<!--TOC subsection id="sec8" Fields-->
+<h3 id="sec8" class="subsection">Fields</h3><!--SEC END --><div class="lstlisting">    -record(opt,        { id, name, title, postback,
+                          checked=false, disabled=false,
+                          noRadioButton=false }).
+
+    -record(sel,        { id, name, title, postback }).
+
+    -record(field,      { id, sec=1, name, pos, title,
+                          layout, visible=true,
+                          disabled=false, format="~w",
+                          curr="", postfun=[], desc,
+                          wide=normal, type=binary,
+                          etc, labelClass=label,
+                          fieldClass=field,
+                          boxClass=box,
+                          access, tooltips=[],
+                          options=[], min=0, max=1000000,
+                          length=10, postback }).</div>
+<!--TOC subsection id="sec9" Validation-->
+<h3 id="sec9" class="subsection">Validation</h3><!--SEC END --><p>
+Since document consists of validations and fields, here is their
+record definitions in FORMS model:</p><div class="lstlisting">    -record(validation, { name, type, msg,
+                          extract = fun(X) -&gt; X end,
+                          options=[], function,
+                          field={record,pos} }).</div>
+<!--TOC subsection id="sec10" Domain Model-->
+<h3 id="sec10" class="subsection">Domain Model</h3><!--SEC END --><p>
+KVS Data Model is being generated from its metainformation.
+KVS layer provide persistence facilities. Buy you can defined
+your document ad-hoc by declaring good known Erlang record.</p><div class="lstlisting">    -record(phone,      { ?ITERATOR(feed),
+                          number = "+380676631870" }).</div>
+<!--TOC subsection id="sec11" FORMS DSL-->
+<h3 id="sec11" class="subsection">FORMS DSL</h3><!--SEC END --><p>
+Document encoding</p><div class="lstlisting">
+  document(Name,Phone) -&gt; #document { name = Name,
+
+  sections = [
+      #sec { name=[&lt;&lt;"Input the password "
+                     "you have received by SMS"/utf8&gt;&gt;,
+            wf:to_list(Phone#phone.number)] } ],
+
+  buttons  = [   #but { name='decline',
+                        title=&lt;&lt;"Cancel"/utf8&gt;&gt;,
+                        class=cancel,
+                        postback={'CloseOpenedForm',Name} },
+
+                 #but { name='proceed',
+                        title = &lt;&lt;"Proceed"/utf8&gt;&gt;,
+                        class = [button,sgreen],
+                        sources = [otp],
+                        postback = {'Spinner',{'OpenForm',Name}}}],
+
+  fields   = [ #field { name='otp',
+                        type=otp,
+                        title= &lt;&lt;"Password:"/utf8&gt;&gt;,
+                        labelClass=label,
+                        fieldClass=column3}]}.</div>
+<!--TOC subsection id="sec12" N2O DSL-->
+<h3 id="sec12" class="subsection">N2O DSL</h3><!--SEC END --><p>
+The above form is being automatically rendered to N2O forms which can be
+later rendered to XML, HTML, Windows or Cocoa code.</p><div class="lstlisting">  form(Name,Phone) -&gt;
+
+  #panel{id=deposits:atom([form,Name]),class=line,body=[
+  #panel{id=form,class=form,body=[
+
+    #panel{class=caption,body=[
+        #h4{body= &lt;&lt;"Input the password "
+                    "you have received by SMS"/utf8&gt;&gt;},
+        #h3{body= Phone#phone.number} ]},
+
+    #panel{class=row,body=[
+        #panel{class=label,body= &lt;&lt;"Password:"/utf8&gt;&gt;},
+        #panel{class=field,body=
+            #input{id=otp,onkeypress="searchKeyPress(event);"}}]},
+
+    #panel{class=buttons,body=[
+        #link{class=decline,
+            postback={'CloseOpenedForm',Name},
+            body= &lt;&lt;"Cancel"/utf8&gt;&gt;},
+        #link{id=proceed,
+            source=[otp],
+            postback={'OpenForm',Name},
+            class= [button,sgreen],
+            body= &lt;&lt;"Proceed"/utf8&gt;&gt;}]} ]}]}.</div><p>
+
+<img src="http://synrc.com/apps/forms/doc//images/otp.png" style="margin-left: -20px;margin-botton: 30px; padding:20 20 20 20px;"><br>
+
+Picture. <span style="font-weight:bold">OTP Form Sample</span><br>
+<br>
+
+
+</p>
+<!--TOC subsection id="sec13" Fields-->
+<h3 id="sec13" class="subsection">Fields</h3><!--SEC END -->
+<!--TOC subsection id="sec14" Validation Rules-->
+<h3 id="sec14" class="subsection">Validation Rules</h3><!--SEC END --><p>
+Validation rules should be applied by developer.
+Erlang and JavaScript/OTP is used to define validation
+rules applied to documents during workflow.</p>
+<!--TOC subsection id="sec15" Form Autogeneration-->
+<h3 id="sec15" class="subsection">Form Autogeneration</h3><!--SEC END --><!--TOC subsection id="sec16" XForms and XMPP Data Forms-->
+<h3 id="sec16" class="subsection">XForms and XMPP Data Forms</h3><!--SEC END --><p>
+The other well known standard is XForms that could be easily converted
+to both directions by FORMS application. XForms W3C standard strives to be supported by browsers.
+The other XML forms standard is XEP-0004 Data Forms which is supported by most XMPP clients:</p><div class="lstlisting">    &lt;x xmlns='jabber:x:data' type='{form-type}'&gt;
+        &lt;title/&gt;
+        &lt;instructions/&gt;
+        &lt;desc/&gt;
+        &lt;field var='OS' type='int' label='description'&gt;
+            &lt;value&gt;3&lt;/value&gt;
+            &lt;option label='Windows'&gt;&lt;value&gt;3&lt;/value&gt;&lt;/option&gt;
+            &lt;option label='Mac'&gt;    &lt;value&gt;2&lt;/value&gt;&lt;/option&gt;
+            &lt;option label='Linux'&gt;  &lt;value&gt;1&lt;/value&gt;&lt;/option&gt;
+        &lt;/field&gt;
+    &lt;/x&gt;</div><p>
+
+    <!--div id="disqus_thread"></div>
+    <script type="text/javascript">
+        var disqus_shortname = 'synrc'; // required: replace example with your forum shortname
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a-->
+
+
+</p></div>
+</div>
+</div><div class="clear"> </div><!--CUT END -->
+<!--HTMLFOOT-->
+
+<div class="nonselectedwrapper">
+<div class="verywidecol">
+
+    <div style="width:100%;height:300px;float:left;font-size:16pt;" align=center>
+    	<hr size=1>
+    	<br><br><br>
+        <a href="//synrc.com/news/index.htm">Events</a> |
+    	<a href="//synrc.com/privacy.htm">Privacy Policy</a> |
+        <a href="//synrc.com/feedback.htm">Feedback</a> |
+        <a href="//synrc.com/brandbook.htm">Brandbook</a><br>
+    	Copyright &copy; 2005&ndash;2016 <a href="//synrc.com/index.htm"> Synrc Research Center s.r.o.</a>
+    </div>
+
+</div>
+</div>
+
+
+<div class="clear"></div>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-29227518-1']);
+      _gaq.push(['_trackPageview']);
+      
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'https://www') + '.google-analytics.com/ga.js';
+                    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+                      })();
+                      
+                      </script>
+
+<script type="text/javascript" src="//synrc.com/hi.js"></script>
+<!--ENDHTML-->
+</body>
+</html>

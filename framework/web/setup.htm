@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html >
+<head>
+
+  <link rel=stylesheet type="text/css" href="http://synrc.com/synrc.css">
+  <meta name="Author" content="5HT">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta property="og:image" content="images/s_64.png"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=IE10,chrome=1" />
+  <title>N2O Setup
+</title>
+</head>
+<body >
+<!--HEVEA command line is: hevea setup.tex -o setup.htm -->
+<!--CUT STYLE article--><!--HTMLHEAD-->
+
+<div class="nonselectedwrapper white" style="padding: 10px 0px 10px 0px;margin: 0px 0px 10px 0px;">
+    <a href="//synrc.com/">
+    <img style="float:left; margin-left: 55px; margin-top: 5px; margin-bottom:-5px;" src="http://synrc.com/images/synrc.png" border="0"></a>
+
+    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" style="display:none;margin-top:39px;">
+      <input type="hidden" name="cmd" value="_s-xclick">
+      <input type="hidden" name="hosted_button_id" value="P8WQHAQK5HWWW">
+      <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif" border="0" name="submit" style="width:74px;margin-top:0px;">
+     </form>
+
+    <div align=right style="float:right;width:700px;height: auto; margin: 20px 50px 0px 0px;">
+          <script type="text/javascript">
+
+        var args = (window.location).toString().split('/');
+        var page_name = args[args.length-1];
+        var menu = {'http://synrc.com/index.htm':    'Home',
+                    'http://synrc.com/research.htm': 'Showcase',
+                    'http://synrc.com/apps/':   'Apps',
+                    'http://synrc.com/feedback.htm': 'Contacts',
+                    'http://spawnproc.com':   '<b>Spawnproc</b>', };
+
+        Object.keys(menu).forEach(function (key) {
+            if (page_name == key) { document.write('<div class="menu" style="font-weight: bold;">'+menu[key]+'</div>'); }
+            else { document.write('<a class="menu" href="'+key+'">'+menu[key]+'</a>'); }
+        });
+
+        </script>
+    </div>
+</div>
+
+<hr size="1">
+
+<!--ENDHTML-->
+<!--CUT DEF section 1 --><div class="nonselectedwrapper">
+<div class="article">
+<div class="toc">
+<!--TOC section id="sec1" TOC-->
+<h2 id="sec1" class="section">TOC</h2><!--SEC END -->
+<!--TOC paragraph id="sec2" -->
+<!--SEC END --><p>
+<a href="http://synrc.com/apps/n2o/doc/web">1. Framework</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/setup.htm">2. Setup</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/processes.htm">3. Processes</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/endpoints.htm">4. Endpoints</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/handlers.htm">5. Handlers</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/protocols.htm">6. Protocols</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/api.htm">7. API</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/elements.htm">8. Elements</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/actions.htm">9. Actions</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/macros.htm">10. JavaScript</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/utf8.htm">11. UTF-8</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/packages.htm">12. Packages</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/persistence.htm">13. Persistence</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/web/last.htm">14. History</a> <br>
+
+<a href="http://synrc.com/apps/n2o/doc/book.pdf">Download PDF</a> <br>
+
+</p></div>
+
+<div class="articlecol">
+
+<!--TOC section id="sec3" Setup-->
+<h2 id="sec3" class="section">Setup</h2><!--SEC END -->
+<!--TOC subsection id="sec4" Prerequisites-->
+<h3 id="sec4" class="subsection">Prerequisites</h3><!--SEC END --><p>
+To run N2O websites you need to install Erlang version 18 or higher.
+N2O works on Windows, Mac and Linux.</p>
+<!--TOC subsection id="sec5" Kickstart Bootstrap-->
+<h3 id="sec5" class="subsection">Kickstart Bootstrap</h3><!--SEC END --><p>
+To try N2O you only need to fetch it from Github and build. We don’t use
+fancy scripts, so building process is OTP compatible: bootstrap site
+is bundled as an Erlang release.</p><div class="lstlisting">    $ git clone git://github.com/synrc/n2o
+    $ cd n2o/samples
+    $ ./mad deps compile plan repl</div><p>Now you can try: <a href="http://localhost:8000">http://localhost:8000</a>.</p><p>On Linux you should do at first:</p><div class="lstlisting">    $ sudo apt-get install inotify-tools</div>
+<!--TOC subsection id="sec6" Application Template-->
+<h3 id="sec6" class="subsection">Application Template</h3><!--SEC END --><p>
+If you want to start using N2O inside your application, you can use Cowboy dispatch parameter
+for passing HTTP, REST, WebSocket and Static N2O endpoints:</p><div class="center">Listing 1: sample.erl</div><p><br>
+</p><div class="lstlisting">
+  -module(sample).
+  -behaviour(supervisor).
+  -behaviour(application).
+  -export([init/1, start/2, stop/1, main/1]).
+
+  main(A)    -&gt; mad:main(A).
+  start(_,_) -&gt; supervisor:start_link({local,review},review,[]).
+  stop(_)    -&gt; ok.
+  init([])   -&gt; { ok, { { one_for_one, 5, 100 }, [spec()] } }.
+
+  spec()   -&gt; ranch:child_spec(http, 100, ranch_tcp, port(), cowboy_protocol, env()).
+  port()   -&gt; [ { port, wf:config(n2o,port,8000)  } ].
+  env()    -&gt; [ { env, [ { dispatch, points() } ] } ].
+  static() -&gt;   { dir, "apps/sample/priv/static", mime() }.
+  n2o()    -&gt;   { dir, "deps/n2o/priv",           mime() }.
+  mime()   -&gt; [ { mimetypes, cow_mimetypes, all   } ].
+  points() -&gt; cowboy_router:compile([{'_', [
+
+              { "/static/[...]",       n2o_static,  static()},
+              { "/n2o/[...]",          n2o_static,  n2o()},
+              { "/ws/[...]",           n2o_stream,  []},
+              { '_',                   n2o_cowboy,  []} ]}]).</div><p>While Listing 2 is a little bit criptic we want to say that N2O
+intentionally not introduced here any syntax sugar.
+For any Erlang application you need to create application
+and supervisor behavior modules which we combined in the
+same Erlang file for simplicity.</p>
+<!--TOC paragraph id="sec7" -->
+<!--SEC END --><p>
+Cowboy routing rules also leaved as is.
+We’d better to leave our efforts for making N2O protocol
+and N2O internals simplier. Here we can’t fix a much. Just use this
+as template for bootstrapping N2O based applications.</p>
+<!--TOC subsection id="sec8" Companion Dependencies-->
+<h3 id="sec8" class="subsection">Companion Dependencies</h3><!--SEC END --><p>
+For raw N2O use with BERT message formatter you need only
+one N2O dependecy, but if you want to use DTL templates,
+JSON message formatter, SHEN JavaScript Compiler or NITRO
+Nitrogen DSL you can plug all of them separately.</p><div class="lstlisting">    https://github.com/synrc/n2o        2.9
+    https://github.com/synrc/nitro      2.9
+    https://github.com/synrc/extra      2.9
+    https://github.com/synrc/kvs        2.9
+    https://github.com/synrc/active     2.9
+    https://github.com/synrc/shen       1.5
+    https://github.com/synrc/rest       1.5
+    https://github.com/spawnproc/bpe    1.5
+    https://github.com/spawnproc/forms  1.5</div>
+<!--TOC subsection id="sec9" Configuration-->
+<h3 id="sec9" class="subsection">Configuration</h3><!--SEC END --><div class="center">Listing 2: sys.config</div><p><br>
+</p><div class="lstlisting">    [{n2o, [{port,8000},
+            {app,review},
+            {route,routes},
+            {mq,n2o_mq},
+            {json,jsone},
+            {log_modules,config},
+            {log_level,config},
+            {log_backend,n2o_log},
+            {session,n2o_session},
+            {origin,&lt;&lt;"*"&gt;&gt;},
+            {bridge,n2o_cowboy},
+            {pickler,n2o_pickle},
+            {erroring,n2o_error}]},
+     {kvs, [{dba,store_mnesia},
+            {schema, [kvs_user,
+                      kvs_acl,
+                      kvs_feed,
+                      kvs_subscription ]} ]} ].</div><!--TOC subsection id="sec10" Ports-->
+<h3 id="sec10" class="subsection">Ports</h3><!--SEC END --><p>
+N2O uses two ports for WebSocket and HTTP connections.</p><div class="lstlisting">    wf:config(n2o,port,443)
+    wf:config(n2o,websocket_port,443)</div><p>If you use server pages mode N2O will render HTML with nessesary ports values.
+For single page application mode you should redefine these ports inside the template:</p><div class="lstlisting">    &lt;script&gt; var transition = { pid: '',
+                                host: 'localhost',
+                                port: '443' }; &lt;/script&gt;</div><!--TOC subsection id="sec11" Application-->
+<h3 id="sec11" class="subsection">Application</h3><!--SEC END --><p>
+In <span style="font-weight:bold">app</span> setting you should place the name of your OTP application
+that will be treated by N2O and NITRO as a source for templates and
+other static data with <span style="font-weight:bold">code:priv_dir</span>.</p><!--TOC subsection id="sec12" Routes-->
+<h3 id="sec12" class="subsection">Routes</h3><!--SEC END --><p>
+Setting <span style="font-weight:bold">route</span> is a place for the name of Erlang module where
+resides mappings from URL to page modules.</p><!--TOC subsection id="sec13" Logging-->
+<h3 id="sec13" class="subsection">Logging</h3><!--SEC END --><p>
+N2O supports logging API and you can plug different logging module.
+It ships with <span style="font-weight:bold">n2o_io</span> and <span style="font-weight:bold">n2o_log</span> modules which you can set in the
+<span style="font-weight:bold">log_backend</span> option. This is how logging looks like in N2O:</p><div class="lstlisting">    wf:info(index,"Message: ~p",[Message]),</div><p>First argument is a module from which function is being called. By using this
+N2O can filter all log messages with special filter settled with <span style="font-weight:bold">log_modules</span> option.
+It says in which Erlang module function <span style="font-weight:bold">log_modules/0</span> exists that
+returns allowed Erlang modules to log. Option <span style="font-weight:bold">log_level</span> which specified
+in a similar way, it specifies the module with function <span style="font-weight:bold">log_level/0</span> that could
+return one of <span style="font-weight:bold">none</span>, <span style="font-weight:bold">error</span>, <span style="font-weight:bold">warning</span> or <span style="font-weight:bold">info</span> atom values which
+means different error log levels.</p><div class="lstlisting">    -module(config).
+    -compile(export_all).
+
+    log_level() -&gt; info.
+    log_modules() -&gt; [ login, index ].</div><!--TOC subsection id="sec14" Message Queue-->
+<h3 id="sec14" class="subsection">Message Queue</h3><!--SEC END --><p>
+In <span style="font-weight:bold">mq</span> settings you should place the name of Erlang module which supports
+message queue API. By default N2O provides <span style="font-weight:bold">n2o_mq</span> module.</p><!--TOC subsection id="sec15" Formatter-->
+<h3 id="sec15" class="subsection">Formatter</h3><!--SEC END --><p>
+With <span style="font-weight:bold">formatter</span> option you may set the WebSocket channel
+termination formatter such as <span style="font-weight:bold">bert</span> or <span style="font-weight:bold">json</span>. If you will select json as formatter
+you may want also to chose a json encoder in <span style="font-weight:bold">json</span> option. By default in n2o enabled
+<span style="font-weight:bold">json</span> formatter and <span style="font-weight:bold">jsone</span> encoder. The main reason is that <span style="font-weight:bold">jsone</span> is
+written in pure erlang idiomatic code and is ready to run on LING without C NIF linkage.
+But you may want to switch to <span style="font-weight:bold">jsonx</span> on BEAM or whatever.</p><!--TOC subsection id="sec16" Minimal Page-->
+<h3 id="sec16" class="subsection">Minimal Page</h3><!--SEC END --><p>
+And then add a minimal <span style="font-weight:bold">index.erl</span> page:</p><div class="center">Listing 3: index.erl</div><p><br>
+</p><div class="lstlisting">    -module(index).
+    -compile(export_all).
+    -include_lib("nitro/include/nitro.hrl").
+
+    main() -&gt; #span{body="Hello"}.</div><p>
+
+
+    <!--div id="disqus_thread"></div>
+    <script type="text/javascript">
+        var disqus_shortname = 'synrc'; // required: replace example with your forum shortname
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a-->
+
+
+</p></div>
+</div>
+</div><div class="clear"> </div><p>
+
+<script type="text/javascript" src="http://synrc.com/hi.js"></script>
+</p><!--CUT END -->
+<!--HTMLFOOT-->
+
+<div class="nonselectedwrapper">
+<div class="verywidecol">
+
+    <div style="width:100%;height:300px;float:left;font-size:16pt;" align=center>
+    	<hr size=1>
+    	<br><br><br>
+        <a href="//synrc.com/news/index.htm">Events</a> |
+    	<a href="//synrc.com/privacy.htm">Privacy Policy</a> |
+        <a href="//synrc.com/feedback.htm">Feedback</a> |
+        <a href="//synrc.com/brandbook.htm">Brandbook</a><br>
+    	Copyright &copy; 2005&ndash;2016 <a href="//synrc.com/index.htm"> Synrc Research Center s.r.o.</a>
+    </div>
+
+</div>
+</div>
+
+
+<div class="clear"></div>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-29227518-1']);
+      _gaq.push(['_trackPageview']);
+      
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'https://www') + '.google-analytics.com/ga.js';
+                    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+                      })();
+                      
+                      </script>
+
+<script type="text/javascript" src="http://synrc.com/hi.js"></script>
+<!--ENDHTML-->
+</body>
+</html>

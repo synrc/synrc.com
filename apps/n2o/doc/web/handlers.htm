@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html >
+<head>
+
+  <link rel=stylesheet type="text/css" href="//synrc.com/synrc.css">
+  <meta name="Author" content="5HT">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta property="og:image" content="images/s_64.png"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=IE10,chrome=1" />
+  <title>N2O Handlers
+</title>
+</head>
+<body >
+<!--HEVEA command line is: hevea handlers.tex -o handlers.htm -->
+<!--CUT STYLE article--><!--HTMLHEAD-->
+
+<div class="nonselectedwrapper white" style="padding: 10px 0px 10px 0px;margin: 0px 0px 10px 0px;">
+    <a href="//synrc.com/">
+    <img style="float:left; margin-left: 55px; margin-top: 5px; margin-bottom:-5px;" src="//synrc.com/images/synrc.png" border="0"></a>
+
+    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" style="display:none;margin-top:39px;">
+      <input type="hidden" name="cmd" value="_s-xclick">
+      <input type="hidden" name="hosted_button_id" value="P8WQHAQK5HWWW">
+      <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif" border="0" name="submit" style="width:74px;margin-top:0px;">
+     </form>
+
+    <div align=right style="float:right;width:700px;height: auto; margin: 20px 50px 0px 0px;">
+          <script type="text/javascript">
+
+        var args = (window.location).toString().split('/');
+        var page_name = args[args.length-1];
+        var menu = {'//synrc.com/index.htm':    'Home',
+                    '//synrc.com/research.htm': 'Showcase',
+                    '//synrc.com/apps/':   'Apps',
+                    '//synrc.com/feedback.htm': 'Contacts',
+                    '//spawnproc.com':   '<b>Spawnproc</b>', };
+
+        Object.keys(menu).forEach(function (key) {
+            if (page_name == key) { document.write('<div class="menu" style="font-weight: bold;">'+menu[key]+'</div>'); }
+            else { document.write('<a class="menu" href="'+key+'">'+menu[key]+'</a>'); }
+        });
+
+        </script>
+    </div>
+</div>
+
+<hr size="1">
+
+<!--ENDHTML-->
+<!--CUT DEF section 1 --><div class="nonselectedwrapper">
+<div class="article">
+<div class="toc">
+<!--TOC section id="sec1" TOC-->
+<h2 id="sec1" class="section">TOC</h2><!--SEC END -->
+<!--TOC paragraph id="sec2" -->
+<!--SEC END --><p>
+<a href="//synrc.com/apps/n2o/doc/web">1. Framework</a> <br>
+
+<a href="//synrc.com/apps/n2o/doc/web/setup.htm">2. Setup</a> <br>
+
+<a href="//synrc.com/apps/n2o/doc/web/processes.htm">3. Processes</a> <br>
+
+<a href="//synrc.com/apps/n2o/doc/web/endpoints.htm">4. Endpoints</a> <br>
+
+<a href="//synrc.com/apps/n2o/doc/web/handlers.htm">5. Handlers</a> <br>
+
+<a href="//synrc.com/apps/n2o/doc/web/protocols.htm">6. Protocols</a> <br>
+
+<a href="//synrc.com/apps/n2o/doc/web/api.htm">7. API</a> <br>
+
+<a href="//synrc.com/apps/n2o/doc/web/elements.htm">8. Elements</a> <br>
+
+<a href="//synrc.com/apps/n2o/doc/web/actions.htm">9. Actions</a> <br>
+
+<a href="//synrc.com/apps/n2o/doc/web/macros.htm">10. JavaScript</a> <br>
+
+<a href="//synrc.com/apps/n2o/doc/web/utf8.htm">11. UTF-8</a> <br>
+
+<a href="//synrc.com/apps/n2o/doc/web/packages.htm">12. Packages</a> <br>
+
+<a href="//synrc.com/apps/n2o/doc/web/persistence.htm">13. Persistence</a> <br>
+
+<a href="//synrc.com/apps/n2o/doc/web/last.htm">14. History</a> <br>
+
+<a href="//synrc.com/apps/n2o/doc/book.pdf">Download PDF</a> <br>
+
+</p></div>
+
+<div class="articlecol">
+
+
+<!--TOC section id="sec3" Handlers-->
+<h2 id="sec3" class="section">Handlers</h2><!--SEC END --><p>
+HTML and JavaScript Web Server HTTP handlers share the same system
+of context initialization.</p><div class="lstlisting">    init_context(Req) -&gt; #cx{
+        actions=[], module=index, path=[],
+        req=Req, params=[], session=undefined,
+        handlers= [ {'query', wf:config('query', n2o_query)},
+                    {session, wf:config(session, n2o_session)},
+                    {route,   wf:config(route,   n2o_route)} ]}.</div><p>Chain of three N2O handlers that are always called
+on each HTTP request. You can redefine any of them or plug your own
+additional handler in the chain to transform web server requests.</p><div class="center">Listing 1: wf:fold/3</div><p><br>
+</p><div class="lstlisting">    fold(Fun,Handlers,Ctx) -&gt;
+        lists:foldl(fun({_,Module},Ctx1) -&gt;
+            {ok,_,NewCtx} = Module:Fun([],Ctx1),
+            NewCtx end,Ctx,Handlers).</div>
+<!--TOC subsection id="sec4" Query-->
+<h3 id="sec4" class="subsection">Query</h3><!--SEC END --><p>
+Query Handler parses URL query and HTTP form information from HTTP request.</p>
+<!--TOC subsection id="sec5" Session-->
+<h3 id="sec5" class="subsection">Session</h3><!--SEC END --><p>
+Session Handler manages key-value in-memory database ETS table.</p>
+<!--TOC subsection id="sec6" Router-->
+<h3 id="sec6" class="subsection">Router</h3><!--SEC END --><p>
+You can specify routing table with application config:</p><div class="lstlisting">    {n2o, [{route,n2o_route}]}</div><p>Remember that routing handler should be kept very simple because it
+influences overall initial page load latency and HTTP capacity.</p><div class="lstlisting">    -module(n2o_route).
+    -include_lib("n2o/include/wf.hrl").
+    -export(?ROUTING_API).
+
+    finish(S, Cx) -&gt; {ok, S, Cx}.
+    init(S, Cx)   -&gt; P = wf:path(Cx#context.req),
+                     M = prefix(Path),
+                     {ok, S, Cx#cx{path=P,module=M}}.
+
+    prefix(&lt;&lt;"/ws/",P/binary&gt;&gt;) -&gt; route(P);
+    prefix(&lt;&lt;"/",P/binary&gt;&gt;)    -&gt; route(P);
+    prefix(P)                   -&gt; route(P).
+
+    route(&lt;&lt;&gt;&gt;)                 -&gt; index;
+    route(&lt;&lt;"index"&gt;&gt;)          -&gt; index;
+    route(&lt;&lt;"login"&gt;&gt;)          -&gt; login;
+    route(&lt;&lt;"favicon.ico"&gt;&gt;)    -&gt; index;
+    route(_)                    -&gt; index.</div><p>
+
+    <!--div id="disqus_thread"></div>
+    <script type="text/javascript">
+        var disqus_shortname = 'synrc'; // required: replace example with your forum shortname
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a-->
+
+
+</p></div>
+</div>
+</div><div class="clear"> </div><!--CUT END -->
+<!--HTMLFOOT-->
+
+<div class="nonselectedwrapper">
+<div class="verywidecol">
+
+    <div style="width:100%;height:300px;float:left;font-size:16pt;" align=center>
+    	<hr size=1>
+    	<br><br><br>
+        <a href="//synrc.com/news/index.htm">Events</a> |
+    	<a href="//synrc.com/privacy.htm">Privacy Policy</a> |
+        <a href="//synrc.com/feedback.htm">Feedback</a> |
+        <a href="//synrc.com/brandbook.htm">Brandbook</a><br>
+    	Copyright &copy; 2005&ndash;2016 <a href="//synrc.com/index.htm"> Synrc Research Center s.r.o.</a>
+    </div>
+
+</div>
+</div>
+
+
+<div class="clear"></div>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-29227518-1']);
+      _gaq.push(['_trackPageview']);
+      
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'https://www') + '.google-analytics.com/ga.js';
+                    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+                      })();
+                      
+                      </script>
+
+<script type="text/javascript" src="//synrc.com/hi.js"></script>
+<!--ENDHTML-->
+</body>
+</html>

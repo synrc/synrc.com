@@ -1,0 +1,10 @@
+{application,kvs,
+             [{description,"KVS Abstract Term Database"},
+              {vsn,"2.9"},
+              {registered,[]},
+              {applications,[kernel,stdlib,mnesia]},
+              {mod,{kvs_app,[]}},
+              {env,[]},
+              {modules,[kvs,kvs_acl,kvs_app,kvs_feed,kvs_subscription,kvs_sup,
+                        kvs_user,store_fs,store_kai,store_mnesia,store_mongo,
+                        store_redis,store_riak,store_sql]}]}.

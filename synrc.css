@@ -2,14 +2,14 @@ html { zoom: 0.8; }
 A { color: royalblue; }
 A:hover { color: darkblue;  text-shadow: 0 0 1px; }
 .hacklogo { font-family:Monaco;background-color:white;display:inline;margin:3;padding:2 4 6 5; }
-body { font-size: 18pt; padding: 0; margin: 0; font-family: "Open Sans"; background-color: #f2f2f2;} 
+body { font-size: 18pt; padding: 0; margin: 0; font-family: "local"; background-color: #fffff8; line-height: 1.4; } 
 TD { margin-top: 8px; margin-bottom: 0px; font-size:14pt;}
-H1 { font-size:28pt; font-weight: bold; margin-top:20px; margin-bottom:0px; margin-right:6px; margin-left:10px; padding-bottom:10px; }
-H2 { font-size:26pt; font-weight: bold; margin-top:20px; margin-bottom:-30px; margin-right:6px; margin-left:0px; padding-bottom:10px; }
+H1 { font-size:28pt; font-weight: bold; margin-top:20px; margin-bottom:20px; margin-right:6px; margin-left:10px; padding-bottom:10px; }
+H2 { font-size:26pt; font-weight: bold; margin-top:20px; margin-bottom:30px; margin-right:6px; margin-left:30px; padding-bottom:30px; }
 H3 { font-size:22pt; font-weight: bold; margin-top:36px; margin-bottom:0px; margin-right:6px; margin-left:8px; } 
 H4 { font-size:20pt; font-weight: normal; margin-top:0px; margin-bottom:0px; margin-right:0px; } 
 H5 { font-size:18pt; font-weight: normal; padding-top:0px;margin-top:0px; margin-bottom:20px; margin-left:10px; } 
-P { font-size:18pt; padding-top:10px;margin-top:0px;padding-right:10px;padding-left:10px;  }
+P { font-size:18pt; padding-top:10px;margin-top:0px;padding-right:10px;padding-left:0px;  }
 hr { margin-top:-10px;}
 LI { font-size:14pt; }
 input { font-size:18pt; }
@@ -33,24 +33,30 @@ input { font-size:18pt; }
 #slides {}
 #slide {}
 
-.section { margin-left: 12px; margin-bottom: 0px;}
-.subsection { margin-left: 8px; }
+.section { margin-left: 12px; margin-bottom: -20px;}
+.subsection { margin-left: 0px; }
 .verywidecol > .section { margin-left: 0px; margin-bottom: -20px;}
-h2.section { margin-left: 8px; }
-h2 { margin-left: 10px; }
-.articlecol > h2 { margin-left: 10px; margin-bottom: 0px; }
-.verywidecol > h2 { margin-left: 10px; margin-bottom: 0px; }
+h2.section { margin-left: 0px; }
+h2.subsection { margin-left: 0px; }
+.articlecol > h2 { margin-left: 0px; margin-bottom: 0px; }
+.verywidecol > h2 { margin-left: 0px; margin-bottom: 0px; }
+
+textarea { padding: 10px; }
+input { font-size:28pt; width: 50%; margin:10px 0px 0px 10px; }
+button { font-size:20pt; margin-top:15px; padding: 10px; }
 
 .logo_font { font-family: "Palatino Linotype"; margin-bottom: 0px; line-height: 60%; }
 .menu { font-size:18pt; color: red; padding: 0 0 15px 15px; margin-right:10px; display: inline-block;}
 .menu:hover { }
 .block { margin-top: 15px; height: 400px; width:400px; background-color: transparent; vertical-align: top; display: inline-block; text-align: left; }
+.block2 { margin-top: 15px; height: 400px; width:400px; background-color: transparent; vertical-align: top; display: inline-block; text-align: left; }
 .wrapper     { max-width: 1200px; margin: 15px auto; text-align:center;}
 .article     { margin: 0 auto; text-align: center;}
 .articlecol  { max-width: 850px; min-width: 850px; padding-rigt: 20px; margin: 0 auto; text-align: left; display: inline-block; }
 .verywidecol { max-width: 800px; margin-left: auto; margin-right: auto; text-align: normal; }
 .paper { background-color: #fAfAfA; margin-top: 10px;}
-.white { background-color: white; margin-bottom: 10px; }
+.white { background-color: white; margin-bottom: 10px; height: auto; }
+p > img { padding-left:20px;}
 blockquote { background-color: #fAfAfA; padding: 20px 20px 20px 20px;}
 .selectedwrapper {
     margin-top: -12px;
@@ -65,7 +71,7 @@ blockquote { background-color: #fAfAfA; padding: 20px 20px 20px 20px;}
     padding-bottom: 10px; 
     background-color: #fafafa;
     background-repeat: repeat; }
-.nonselectedwrapper { margin:auto; padding:auto;width: max-width; overflow: hidden; }
+.nonselectedwrapper { margin:auto; padding:auto; width: max-width; overflow: hidden; }
 .widecol    { width: 40%; float: left; padding: 10px; }
 .smallcol   { width: 200px; padding: 50 0; text-align: left; display: inline-block; vertical-align: top;}
 .toc   { font-size: 16pt; width: 200px; text-align: left; padding-rigt: 20px; margin-left: 20px; display: inline-block; vertical-align: top;}
@@ -80,8 +86,8 @@ blockquote { background-color: #fAfAfA; padding: 20px 20px 20px 20px;}
           box-sizing: border-box;
 }
 
-code, div.lstlisting { font-size:14pt; margin: 0px 0px 30px -10px; 
-                        padding: 15px 30px 20px 0px; font-family: monospace; 
+code, div.lstlisting { font-size:14pt; margin: 0px 0px 30px -10px;
+                        padding: 15px 30px 20px 0px; font-family: mono;
                         white-space: pre; background-color: white; display: inline-block;
                          border-left:20px solid #afafaf; }
 code, div.lstlisting .keyword              { font-weight: bold }
@@ -94,16 +100,27 @@ code, div.lstlisting .comment              { color: grey }
 
 p br:nth-child(1) {display: none;}
 
-#dsq-content #disqus_thread #dsq-comments .dsq-comment-message  { font-size: 26px; font-family: "Nokia Pure Text"; }
-.post-content { font-size: 26px; font-family: "Nokia Pure Text"; }
+#dsq-content #disqus_thread #dsq-comments .dsq-comment-message  { font-size: 26px; font-family: 'local'; }
+.post-content { font-size: 26px; font-family: 'local'; }
 
 @font-face {
     font-family: 'local';
-    src: url('http://5ht.github.io/Geometria-Light.otf');
+    src: url('//synrc.com/Geometria-Light.otf');
     font-weight: normal;
-    font-style: normal
+    font-style: normal;
 }
 
+@font-face {
+    font-family: 'mono';
+    src: url('//synrc.com/SourceCodePro-Regular.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+@media screen and (max-width: 1200px) {
+  .block2 {
+    display: none;
+  }
+}
 @media screen and (max-width: 880px) {
   .nonselectedwrapper > a {
     display: block;
@@ -115,8 +132,22 @@ p br:nth-child(1) {display: none;}
   }
   .nonselectedwrapper [align='right'] .menu {
     display: block;
-    width: 100%;
-    text-align: center;
   }
 }
 
+.svg.facebook { background: url("images/avz/facebook.svg") no-repeat; }
+.svg.microsoft { background: url("images/avz/microsoft.svg") no-repeat; }
+.svg.google { background: url("images/avz/google.svg") no-repeat; }
+.svg.twitter { background: url("images/avz/twitter.svg") no-repeat; }
+.svg.github { background: url("images/avz/github.svg") no-repeat; }
+
+.svg {
+  display: inline-block;
+  width: 72px;
+  height: 72px;
+  margin-top: -2px;
+  margin-left: -2px;
+  padding: 10px;
+  text-indent: -999em;
+  text-align: left;
+  }

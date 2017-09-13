@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html >
+<head>
+
+  <link rel=stylesheet type="text/css" href="//synrc.com/synrc.css">
+  <meta name="Author" content="5HT">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta property="og:image" content="images/s_64.png"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=IE10,chrome=1" />
+  <title>TPS
+</title>
+</head>
+<body >
+<!--HEVEA command line is: hevea tps.tex -o tps.htm -->
+<!--CUT STYLE article--><!--HTMLHEAD-->
+
+<div class="nonselectedwrapper white" style="padding: 10px 0px 10px 0px;margin: 0px 0px 10px 0px;">
+    <a href="//synrc.com/">
+    <img style="float:left; margin-left: 55px; margin-top: 5px; margin-bottom:-5px;" src="//synrc.com/images/synrc.png" border="0"></a>
+
+    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" style="display:none;margin-top:39px;">
+      <input type="hidden" name="cmd" value="_s-xclick">
+      <input type="hidden" name="hosted_button_id" value="P8WQHAQK5HWWW">
+      <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif" border="0" name="submit" style="width:74px;margin-top:0px;">
+     </form>
+
+    <div align=right style="float:right;width:700px;height: auto; margin: 20px 50px 0px 0px;">
+          <script type="text/javascript">
+
+        var args = (window.location).toString().split('/');
+        var page_name = args[args.length-1];
+        var menu = {'//synrc.com/index.htm':    'Home',
+                    '//synrc.com/research.htm': 'Showcase',
+                    '//synrc.com/apps/':   'Apps',
+                    '//synrc.com/feedback.htm': 'Contacts',
+                    '//spawnproc.com':   '<b>Spawnproc</b>', };
+
+        Object.keys(menu).forEach(function (key) {
+            if (page_name == key) { document.write('<div class="menu" style="font-weight: bold;">'+menu[key]+'</div>'); }
+            else { document.write('<a class="menu" href="'+key+'">'+menu[key]+'</a>'); }
+        });
+
+        </script>
+    </div>
+</div>
+
+<hr size="1">
+
+<!--ENDHTML-->
+<!--CUT DEF section 1 --><div class="nonselectedwrapper">
+<div class="article">
+
+<div class="articlecol">
+
+<!--TOC section id="sec1" TPS: Financial Processing-->
+<h2 id="sec1" class="section">TPS: Financial Processing</h2><!--SEC END --><p>
+The TPS is an transactional database application that
+provides distributed, fault tolerant, network-split
+resistant, performant, transactional intermediary processing.
+It also guarantees data locality for storing customer objects which allows
+TPS to be easily scalable and maintainable. TPS is supported following backends:</p><p><br>
+
+</p><table style="border-spacing:6px;border-collapse:separate;" class="cellpading0"><tr><td style="text-align:left;white-space:nowrap" >1</td><td style="text-align:left;white-space:nowrap" ><span style="font-weight:bold">sql</span> transactional processing;</td></tr>
+<tr><td style="text-align:left;white-space:nowrap" >2</td><td style="text-align:left;white-space:nowrap" ><span style="font-weight:bold">riak_kv</span> application;</td></tr>
+<tr><td style="text-align:left;white-space:nowrap" >3</td><td style="text-align:left;white-space:nowrap" ><span style="font-weight:bold">mnesia</span> application;</td></tr>
+</table><p>
+<br>
+</p><p>TPS is based on KVS and CR. Rules for TPS are to be
+defined using UPL language.</p>
+<!--TOC subsection id="sec2" Data Locality Cache Ring-->
+<h3 id="sec2" class="subsection">Data Locality Cache Ring</h3><!--SEC END --><p>
+All customers of bank are being grouped or sharded using custom
+hash function that is known to be linear and consistent.
+This function allows TPS to store all customer information for
+a given master of its key on a single node. Thus all TPS operations
+on transactions, cards, account of a given customer are passed
+to a hash function with a same customer ID key. In TPS all properties of
+a top customer object with the same key are stored in the same VNODE.</p>
+<!--TOC subsection id="sec3" Riak-->
+<h3 id="sec3" class="subsection">Riak</h3><!--SEC END --><p>
+All interface operations and application data are stored and
+being read from Riak TPS Ring, which is in fact Riak Core application.
+Each VNODE should be treated as Bank department or isolated Bank part
+which could be detached to other place or Data Center.
+Each Riak Core VNODE TPS application also has access to its SQL warehouse,
+the primary source of transactions.</p>
+<!--TOC subsection id="sec4" Transactions Rate Calculation-->
+<h3 id="sec4" class="subsection">Transactions Rate Calculation</h3><!--SEC END --><p>
+Here we define the formula of expected Transactions per month,
+that is the source for all system configuration. Here is example:</p><p>The operational data is fixed. E.g. we have 30M customers.
+Consider each customer performs 10 transactions in a month,
+thus we have 300M transaction. Each transaction has 2K in its size.
+So wee need 600G space of a cluster in a month.
+After each month we could outsource this data or even reduce it
+by cutting the tails of transactions list. Also these 600G can be divided
+by the number of nodes with accuracy to a coefficient of replication for TPS Ring.
+For SQL warehouse we double its size for SQL warm stand by failover.
+Also the number of VNODEs in TPS Ring is exactly the number of failover SQL instances.</p>
+<!--TOC subsection id="sec5" Financial Warehouse Operations-->
+<h3 id="sec5" class="subsection">Financial Warehouse Operations</h3><!--SEC END --><table style="border-spacing:6px;border-collapse:separate;" class="cellpading0"><tr><td style="text-align:left;white-space:nowrap" >CHARGE</td><td style="text-align:left;white-space:nowrap" >unconditional INSERT and head UPDATE </td></tr>
+<tr><td style="text-align:left;white-space:nowrap" >&nbsp;</td><td style="text-align:left;white-space:nowrap" >inside TRANSACTION, Cache Write-Back</td></tr>
+<tr><td style="text-align:left;white-space:nowrap" >WITHDRAW</td><td style="text-align:left;white-space:nowrap" >conditional INSERT, based on last known </td></tr>
+<tr><td style="text-align:left;white-space:nowrap" >&nbsp;</td><td style="text-align:left;white-space:nowrap" >amount of latest customer transaction,</td></tr>
+<tr><td style="text-align:left;white-space:nowrap" >&nbsp;</td><td style="text-align:left;white-space:nowrap" >and chain root UPDATE inside TRANSACTION,</td></tr>
+<tr><td style="text-align:left;white-space:nowrap" >&nbsp;</td><td style="text-align:left;white-space:nowrap" >Cache Write-Back</td></tr>
+</table><p>All SQL Operations also perform write backs to TPS Cache, which is backed by Riak.</p>
+<!--TOC subsection id="sec6" Cache Operations-->
+<h3 id="sec6" class="subsection">Cache Operations</h3><!--SEC END --><p>— Retrieval Transactions for an Account<br>
+<br>
+— Display Accounts for a Customer<br>
+— Display list of Cards for a Customer<br>
+— Retrieval of details of an TPS object<br>
+
+</p>
+<!--TOC subsection id="sec7" Maintenance Operations-->
+<h3 id="sec7" class="subsection">Maintenance Operations</h3><!--SEC END --><p>— Cutting Tails in Transactions list <br>
+<br>
+— Perform Recalculation of UPL rule for a Time Range <br>
+— Adding/Removing Nodes <br>
+
+</p>
+<!--TOC subsection id="sec8" Database Schema-->
+<h3 id="sec8" class="subsection">Database Schema</h3><!--SEC END --><p>— customer: basic bank client profile <br>
+<br>
+— account: IBAN identified bank account <br>
+— card: EMV issued card<br>
+— transaction: tracking record for beneficiary and subsidiary<br>
+— cashback: dfferent programs for credit transactions<br>
+— program: UPL encoded deposit or credit program<br>
+
+
+
+    <!--div id="disqus_thread"></div>
+    <script type="text/javascript">
+        var disqus_shortname = 'synrc'; // required: replace example with your forum shortname
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a-->
+
+
+</p></div>
+</div>
+</div><div class="clear"> </div><!--CUT END -->
+<!--HTMLFOOT-->
+
+<div class="nonselectedwrapper">
+<div class="verywidecol">
+
+    <div style="width:100%;height:300px;float:left;font-size:16pt;" align=center>
+    	<hr size=1>
+    	<br><br><br>
+        <a href="//synrc.com/news/index.htm">Events</a> |
+    	<a href="//synrc.com/privacy.htm">Privacy Policy</a> |
+        <a href="//synrc.com/feedback.htm">Feedback</a> |
+        <a href="//synrc.com/brandbook.htm">Brandbook</a><br>
+    	Copyright &copy; 2005&ndash;2016 <a href="//synrc.com/index.htm"> Synrc Research Center s.r.o.</a>
+    </div>
+
+</div>
+</div>
+
+
+<div class="clear"></div>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-29227518-1']);
+      _gaq.push(['_trackPageview']);
+      
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'https://www') + '.google-analytics.com/ga.js';
+                    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+                      })();
+                      
+                      </script>
+
+<script type="text/javascript" src="//synrc.com/hi.js"></script>
+<!--ENDHTML-->
+</body>
+</html>

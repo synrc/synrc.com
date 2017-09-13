@@ -16,28 +16,30 @@
 %HEVEA \begin{divstyle}{block}
 \section*{Data Consulting}
 \paragraph{}
-    We are mainly using NoSQL products. In case we need high throughtput
-    scalable storages we use Riak. For transactional, query featured, highly
-    available cases we use Mnesia. We also maintain our own Amazon Dynamo implementation
-     \footahref{https://synrc.github.io/kai/}{KAI} along with our
+    Tired with SQL and ORM mapping? Feel the power with typed Erlang
+    records format as a native storage with gateway to Filysystem,
+    Riak, mongoDB, Mnesia, KAI and SQL backends using our
     \footahref{https://synrc.github.io/kvs/}{KVS} Abstract Database with REST interface.
 %HEVEA \end{divstyle}
 
 %HEVEA \begin{divstyle}{block}
 \section*{System Architect}
 \paragraph{}
-    In cases where we need lightweight Erlang solution we use GProc as PubSub messaging.
-    For language independent solutions we use RabbitMQ along with our \footahref{https://synrc.github.io/mqs/}{MQS} library.
-    In some projects less probably we can use ZMQ.
+    Want Erlang to power your enterprise business?
+    Just check our Spawnproc stack which is already used for
+    serving millions of customers in Eastern Europe.
+    \footahref{http://spawnproc.github.io/bpe/}{BPE} workflow engine and
+    \footahref{http://spawnproc.github.io/upl/}{UPL} processing language
+    are undestood and yet manageable.
 %HEVEA \end{divstyle}
 
 %HEVEA \begin{divstyle}{block}
 \section*{Web Applications}
 \paragraph{}
-    We used to embed WebMachine/MochiWeb as web server and web framework.
-    But currently we have sticked with Cowboy web server.
-    For products which require pure TCP listeners and switchable protocols we use Ranch.
-    For Web Apps and Binary Push we use \footahref{https://synrc.com/apps/n2o}{N2O}.
+    Forget about fat JSON and XML exchange.
+    We use tiny binary BERT messages on top of robust and extensible
+    N2O protocol for IoT and WebSoсket applications.
+    Our reference implementation \footahref{http://synrc.com/apps/n2o}{N2O} WebSocket Application Server is known as most powerful Erlang Web Framework.
 %HEVEA \end{divstyle}
 
 %HEVEA \end{divstyle}
@@ -46,29 +48,34 @@
 
 %HEVEA \begin{divstyle}{nonselectedwrapper}
 %HEVEA \begin{divstyle}{verywidecol}
-\section*{\footahref{https://panel.voxoz.com}{Voxoz Erlang Cloud Control Panel}}
+\section*{Voxoz Erlang Cloud Control Panel}
 \paragraph{}
-    Erlang PaaS front end built using N2O, KVS and MQS the key erlang
-    applications for Voxoz Xen Cloud.
+    Enter the future now with Voxoz cloud platform which is able to run
+    Elrang virtual machine on top of raw hardware in Xen environment.
+    LING virtual machine has also ports to POSIX, ARM and MIPS platforms.
+    Or you can run BEAM virtual machine in docker. The application is a file.
+    As simple as that. This is Voxoz.
 
 %HEVEA \rawhtmlinput{templates/voxoz.htx}
 
-\@fontsize{2}{Backend: Maxim Sokhatsky \@br Design: Andrii Zadorozhnii \@br}
+\@fontsize{3}{Mentor: Vladimir Kirillov \@br Parnerts: Cloudozer, LLC. \@br}
 
 %HEVEA \end{divstyle}
 %HEVEA \end{divstyle}
 
 %HEVEA \begin{divstyle}{nonselectedwrapper}
 %HEVEA \begin{divstyle}{verywidecol}
-\section*{\footahref{http://skyline.synrc.com}{Skyline App Store}}
+\section*{Skyline App Store}
 \paragraph{}
-    Skyline App Store is Voxoz PaaS and Xen ready web shop in Erlang designed as
-    promo N2O example application. It uses N2O, KVS, Bootstrap style with
-    node js tools for JavaScript minification and LESS assembling.
+    Don't know how to start using N2O and need more sophisticated project that N2O sample?
+    Just clone \footahref{http://synrc.github.io/skyline/}{Skyline} web shop sample with AVZ
+    avtoriazation for Google, Facebook, Github, Twitter and Microsoft providers.
+    Skyline App Store is Voxoz and Xen ready application. It uses N2O, KVS,
+    Bootstrap style with node js tools for JavaScript minification and LESS assembling.
 
 %HEVEA \rawhtmlinput{templates/skyline.htx}
 
-\@fontsize{2}{Backend: Maxim Sokhatsky \@br Design: Andrii Zadorozhnii \@br}
+\@fontsize{3}{Backend: Maxim Sokhatsky \@br Design: Andrii Zadorozhnii \@br}
 
 %HEVEA \end{divstyle}
 %HEVEA \end{divstyle}
@@ -76,10 +83,10 @@
 
 %HEVEA \begin{divstyle}{nonselectedwrapper}
 %HEVEA \begin{divstyle}{verywidecol}
-\section*{\footahref{http://synrc.com:8080/static/app/index.htm}{Scalable Web and Gaming Platform}}
+\section*{Scalable Web and Gaming Platform}
 \paragraph{}
     For the Turkish audience we created scalable distributed system using Erlang, Riak,
-    GProc, Cowboy, AMF, RabbitMQ, Nitrogen, GlusterFS, NGINX and other tools. 
+    Cowboy, RabbitMQ, N2O, GlusterFS, NGINX and other tools.
     Please read the technical description
     \footahref{https://speakerdeck.com/5ht/kakaranet-presentation}{Kakaranet Tech}.
     We have implemented Facebook, Paypal, Credit Cards, Mobile and Wired Payments,
@@ -88,16 +95,15 @@
     Facebook-like application with feeds, subscriptions and messaging along with
     powerful turn-based board games engine. The heart of the system the RabbitMQ
     cluster. The System runs on top of Riak cluster with easy maintenance from Web
-    and supports hot code reload using sync and update scripts approach 
-    instead of native OTP mechanism despite using native OTP releases. 
+    and supports hot code reload using ACTIVE native file system listener.
 
 %HEVEA \rawhtmlinput{templates/kakaranet.htx}
 
-\@fontsize{2}{Mentor: Maxim Sokhatsky \@br Game Server: Serge Polkovnikov \@br}
+\@fontsize{3}{Mentor: Maxim Sokhatsky \@br Game Server: Serge Polkovnikov \@br}
 
 \paragraph{}
     Full size of codebase is fit 2.88MB floppy disk and is quite managable yet.
-    The system inside is essentially built upon binary protocols AMQP, BER and AMF
+    The system inside is essentially built upon binary protocols AMQP, BER
     except content delivery to Web clients which is in fact gzipped.
 
 %HEVEA \end{divstyle}
@@ -114,20 +120,19 @@
 
 %HEVEA \rawhtmlinput{templates/hal.htx}
 
-\@fontsize{2}Mentor: Andrew Zadorozhny \@br Design: Alex Kalenuk
+\@fontsize{3}Mentor: Andrew Zadorozhny \@br Design: Alex Kalenuk
 
 %HEVEA \end{divstyle}
 %HEVEA \end{divstyle}
 
 %HEVEA \begin{divstyle}{nonselectedwrapper}
 %HEVEA \begin{divstyle}{verywidecol}
-\section*{Rich HTML5 Clients}
+\section*{SVG and WebSockets}
 \paragraph{}
     For the HTML5 web platform and pure JavaScript client-side we would recommend to use
-    Chaplin and Brunch which is agnostic to frameworks and libraries HTML5 application assembler.
-    We are also stick with functional languages approach on client side.
-    In that way we are using LiveScript a CoffeeScript derivative as main functional language for JavaScript replacement.
-    In short: we are using pure HTML5 on client side and pure Erlang on server side.
+    SVG and WebSockets. N2O provides all facilities for dealing with DOM and fast binary
+    real-time WebSocket channels. We don't use Xml HTTP Requests since 2010.
+
 %HEVEA \end{divstyle}
 %HEVEA \end{divstyle}
 
@@ -136,12 +141,12 @@
 %HEVEA \begin{divstyle}{verywidecol}
 \section*{Binary Protocols}
 \paragraph{}
-    We are trying to build our products
-    and services around single core of technologies. We believe that focusing on understandable
-    and manageable, proven in industry technologies will bring significant benefits to all users.
+    We are trying to build our products and services around single core of technologies.
+    We believe that focusing on understandable and manageable,
+    proven in industry technologies will bring significant benefits to all users.
     We have chosen set of technologies that have proved its maturity, clarity and efficiency.
     We oriented on strong and mature binary protocols and data formats such as BER and ASN.1.
-    We are not accepting text formats and preffer binary protocols :)
+    Please read more on \footahref{http://5ht.co}{N2O PROTOCOL} at dedicated site.
 
 \footahref{apps.htm}{Follow The Source}
 

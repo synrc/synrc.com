@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html >
+<head>
+
+  <link rel=stylesheet type="text/css" href="//synrc.com/synrc.css">
+  <meta name="Author" content="5HT">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta property="og:image" content="images/s_64.png"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=IE10,chrome=1" />
+  <title>MAD Setup
+</title>
+</head>
+<body >
+<!--HEVEA command line is: hevea setup.tex -o setup.htm -->
+<!--CUT STYLE article--><!--HTMLHEAD-->
+
+<div class="nonselectedwrapper white" style="padding: 10px 0px 10px 0px;margin: 0px 0px 10px 0px;">
+    <a href="//synrc.com/">
+    <img style="float:left; margin-left: 55px; margin-top: 5px; margin-bottom:-5px;" src="//synrc.com/images/synrc.png" border="0"></a>
+
+    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" style="display:none;margin-top:39px;">
+      <input type="hidden" name="cmd" value="_s-xclick">
+      <input type="hidden" name="hosted_button_id" value="P8WQHAQK5HWWW">
+      <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif" border="0" name="submit" style="width:74px;margin-top:0px;">
+     </form>
+
+    <div align=right style="float:right;width:700px;height: auto; margin: 20px 50px 0px 0px;">
+          <script type="text/javascript">
+
+        var args = (window.location).toString().split('/');
+        var page_name = args[args.length-1];
+        var menu = {'//synrc.com/index.htm':    'Home',
+                    '//synrc.com/research.htm': 'Showcase',
+                    '//synrc.com/apps/':   'Apps',
+                    '//synrc.com/feedback.htm': 'Contacts',
+                    '//spawnproc.com':   '<b>Spawnproc</b>', };
+
+        Object.keys(menu).forEach(function (key) {
+            if (page_name == key) { document.write('<div class="menu" style="font-weight: bold;">'+menu[key]+'</div>'); }
+            else { document.write('<a class="menu" href="'+key+'">'+menu[key]+'</a>'); }
+        });
+
+        </script>
+    </div>
+</div>
+
+<hr size="1">
+
+<!--ENDHTML-->
+<!--CUT DEF section 1 --><div class="nonselectedwrapper">
+<div class="article">
+<div class="toc">
+<!--TOC section id="sec1" TOC-->
+<h2 id="sec1" class="section">TOC</h2><!--SEC END -->
+<!--TOC paragraph id="sec2" -->
+<!--SEC END --><p>
+<a href="http://synrc.com/apps/mad/doc/web">Overview</a> <br>
+
+<a href="http://synrc.com/apps/mad/doc/web/setup.htm">1. Setup</a> <br>
+
+<a href="http://synrc.com/apps/mad/doc/web/deps.htm">2. Deps</a> <br>
+
+<a href="http://synrc.com/apps/mad/doc/web/config.htm">3. Configuration</a> <br>
+
+<a href="http://synrc.com/apps/mad/doc/web/commands.htm">4. Commands</a> <br>
+
+<a href="http://synrc.com/apps/mad/doc/web/bundles.htm">5. Bundles</a> <br>
+
+<a href="http://synrc.com/apps/mad/doc/book.pdf">Download PDF</a> <br>
+
+</p></div>
+
+<div class="articlecol">
+
+<!--TOC section id="sec3" Setup-->
+<h2 id="sec3" class="section">Setup</h2><!--SEC END -->
+<!--TOC subsection id="sec4" Installing Binary-->
+<h3 id="sec4" class="subsection">Installing Binary</h3><!--SEC END --><p>Fresh version of mad included as a binary in its primary github repository:</p><div class="lstlisting">    # curl -fsSL https://raw.github.com/synrc/mad/master/mad &gt; mad \
+              &amp;&amp; chmod +x mad \
+              &amp;&amp; sudo cp /usr/local/bin</div><p>Or you may want to add mad to your PATH.</p>
+<!--TOC subsection id="sec5" Compiling Sources-->
+<h3 id="sec5" class="subsection">Compiling Sources</h3><!--SEC END --><p>If you want you can compile mad by yourself:</p><div class="lstlisting">    # git clone http://github.com/synrc/mad \
+             &amp;&amp; cd mad \
+             &amp;&amp; make</div><p>Note that mad uses mad to build mad. It’s mad.</p>
+<!--TOC subsection id="sec6" Creating a sample N2O project-->
+<h3 id="sec6" class="subsection">Creating a sample N2O project</h3><!--SEC END --><p>mad also comes with N2O templates. So you can bootstrap a N2O-based site
+just having a single copy of mad binary.</p><div class="lstlisting">    # mad app sample
+    # cd sample
+    # mad deps compile release sample</div><p>After that you can just run escript web_app under Windows, Linux and
+Mac and open <a href="http://localhost:8000">http://localhost:8000</a>.</p><div class="lstlisting">    C:\&gt; escript sample
+    Applications: [kernel,stdlib,crypto,cowlib,ranch,
+                   cowboy,compiler,syntax_tools,
+                   erlydtl,gproc,xmerl,n2o,sample,
+                   fs,active,mad,sh]
+    Configuration: [{n2o,[{port,8000},
+                          {route,routes}]},
+                    {kvs,[{dba,store_mnesia},
+                          {schema,[kvs_user,
+                                   kvs_acl,
+                                   kvs_feed,
+                                   kvs_subscription]}]}]
+    Erlang/OTP 17 [erts-6.0] [64-bit] [smp:4:4]
+                  [async-threads:10] [kernel-poll:false]
+
+    Eshell V6.0  (abort with ^G)
+    1&gt;</div><p>
+
+    <!--div id="disqus_thread"></div>
+    <script type="text/javascript">
+        var disqus_shortname = 'synrc'; // required: replace example with your forum shortname
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a-->
+
+
+</p></div>
+</div>
+</div><div class="clear"> </div><!--CUT END -->
+<!--HTMLFOOT-->
+
+<div class="nonselectedwrapper">
+<div class="verywidecol">
+
+    <div style="width:100%;height:300px;float:left;font-size:16pt;" align=center>
+    	<hr size=1>
+    	<br><br><br>
+        <a href="//synrc.com/news/index.htm">Events</a> |
+    	<a href="//synrc.com/privacy.htm">Privacy Policy</a> |
+        <a href="//synrc.com/feedback.htm">Feedback</a> |
+        <a href="//synrc.com/brandbook.htm">Brandbook</a><br>
+    	Copyright &copy; 2005&ndash;2016 <a href="//synrc.com/index.htm"> Synrc Research Center s.r.o.</a>
+    </div>
+
+</div>
+</div>
+
+
+<div class="clear"></div>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-29227518-1']);
+      _gaq.push(['_trackPageview']);
+      
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'https://www') + '.google-analytics.com/ga.js';
+                    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+                      })();
+                      
+                      </script>
+
+<script type="text/javascript" src="//synrc.com/hi.js"></script>
+<!--ENDHTML-->
+</body>
+</html>

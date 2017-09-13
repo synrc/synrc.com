@@ -25,7 +25,7 @@
     JavaScript протоколы на языке Erlang. Сейчас N2O развивается
     в сторону поддержки SVG клиентов и бинарных протоколов.</p>
 
-    <p><img src="images/n2o.jpg" width=600></p>
+    <p><img src="../../images/n2o.jpg" width=600></p>
 
     <p><iframe width="600" height="400" src="//www.youtube.com/embed/jHVb1-048TI" frameborder="0" allowfullscreen></iframe></p>
 

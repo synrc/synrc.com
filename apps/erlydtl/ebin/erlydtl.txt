@@ -1,0 +1,12 @@
+{application,erlydtl,
+             [{description,"ErlyDTL compiles the Django Template Language to Erlang bytecode"},
+              {vsn,"0.8.0"},
+              {modules,[blocktrans_extractor,blocktrans_parser,
+                        blocktrans_scanner,erlydtl,erlydtl_compiler,
+                        erlydtl_contrib_humanize,erlydtl_dateformat,
+                        erlydtl_deps,erlydtl_filters,erlydtl_i18n,
+                        erlydtl_parser,erlydtl_runtime,erlydtl_scanner,
+                        erlydtl_slice,erlydtl_unparser,i18n_manager,
+                        po_generator,po_scanner,sources_parser]},
+              {applications,[kernel,stdlib,compiler,syntax_tools]},
+              {registered,[]}]}.

@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html >
+<head>
+
+  <link rel=stylesheet type="text/css" href="//synrc.com/synrc.css">
+  <meta name="Author" content="5HT">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta property="og:image" content="images/s_64.png"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=IE10,chrome=1" />
+  <title>N2O Elements
+</title>
+</head>
+<body >
+<!--HEVEA command line is: hevea elements.tex -o elements.htm -->
+<!--CUT STYLE article--><!--HTMLHEAD-->
+
+<div class="nonselectedwrapper white" style="padding: 10px 0px 10px 0px;margin: 0px 0px 10px 0px;">
+    <a href="//synrc.com/">
+    <img style="float:left; margin-left: 55px; margin-top: 5px; margin-bottom:-5px;" src="//synrc.com/images/synrc.png" border="0"></a>
+
+    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" style="display:none;margin-top:39px;">
+      <input type="hidden" name="cmd" value="_s-xclick">
+      <input type="hidden" name="hosted_button_id" value="P8WQHAQK5HWWW">
+      <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif" border="0" name="submit" style="width:74px;margin-top:0px;">
+     </form>
+
+    <div align=right style="float:right;width:700px;height: auto; margin: 20px 50px 0px 0px;">
+          <script type="text/javascript">
+
+        var args = (window.location).toString().split('/');
+        var page_name = args[args.length-1];
+        var menu = {'//synrc.com/index.htm':    'Home',
+                    '//synrc.com/research.htm': 'Showcase',
+                    '//synrc.com/apps/':   'Apps',
+                    '//synrc.com/feedback.htm': 'Contacts',
+                    '//spawnproc.com':   '<b>Spawnproc</b>', };
+
+        Object.keys(menu).forEach(function (key) {
+            if (page_name == key) { document.write('<div class="menu" style="font-weight: bold;">'+menu[key]+'</div>'); }
+            else { document.write('<a class="menu" href="'+key+'">'+menu[key]+'</a>'); }
+        });
+
+        </script>
+    </div>
+</div>
+
+<hr size="1">
+
+<!--ENDHTML-->
+<!--CUT DEF section 1 --><div class="nonselectedwrapper">
+<div class="article">
+<div class="toc">
+<!--TOC section id="sec1" TOC-->
+<h2 id="sec1" class="section">TOC</h2><!--SEC END -->
+<!--TOC paragraph id="sec2" -->
+<!--SEC END --><p>
+<a href="//synrc.com/apps/n2o/doc/web">1. Framework</a> <br>
+
+<a href="//synrc.com/apps/n2o/doc/web/setup.htm">2. Setup</a> <br>
+
+<a href="//synrc.com/apps/n2o/doc/web/processes.htm">3. Processes</a> <br>
+
+<a href="//synrc.com/apps/n2o/doc/web/endpoints.htm">4. Endpoints</a> <br>
+
+<a href="//synrc.com/apps/n2o/doc/web/handlers.htm">5. Handlers</a> <br>
+
+<a href="//synrc.com/apps/n2o/doc/web/protocols.htm">6. Protocols</a> <br>
+
+<a href="//synrc.com/apps/n2o/doc/web/api.htm">7. API</a> <br>
+
+<a href="//synrc.com/apps/n2o/doc/web/elements.htm">8. Elements</a> <br>
+
+<a href="//synrc.com/apps/n2o/doc/web/actions.htm">9. Actions</a> <br>
+
+<a href="//synrc.com/apps/n2o/doc/web/macros.htm">10. JavaScript</a> <br>
+
+<a href="//synrc.com/apps/n2o/doc/web/utf8.htm">11. UTF-8</a> <br>
+
+<a href="//synrc.com/apps/n2o/doc/web/packages.htm">12. Packages</a> <br>
+
+<a href="//synrc.com/apps/n2o/doc/web/persistence.htm">13. Persistence</a> <br>
+
+<a href="//synrc.com/apps/n2o/doc/web/last.htm">14. History</a> <br>
+
+<a href="//synrc.com/apps/n2o/doc/book.pdf">Download PDF</a> <br>
+
+</p></div>
+
+<div class="articlecol">
+
+<!--TOC section id="sec3" Elements-->
+<h2 id="sec3" class="section">Elements</h2><!--SEC END -->
+<!--TOC paragraph id="sec4" -->
+<!--SEC END --><p>
+With N2O you don’t need to use HTML at all. Instead you define your page
+in the form of Erlang records so that the page is type checked at the compile time.
+This is a classic CGI approach for compiled pages and it gives us all the benefits of
+compile time error checking and provides DSL for client and server-side rendering.</p>
+<!--TOC paragraph id="sec5" -->
+<!--SEC END --><p>
+Nitrogen elements, by their nature, are UI control primitives
+that can be used to construct Nitrogen pages with Erlang internal DSL.
+They are compiled into HTML and JavaScript.
+Behavior of all elements is controlled on server-side and all the communication
+between browser and server-side is performed over WebSocket channels.
+Hence there is no need to use POST requests or HTML forms.</p>
+<!--TOC subsection id="sec6" Static Elements: HTML-->
+<h3 id="sec6" class="subsection">Static Elements: HTML</h3><!--SEC END --><p>
+The core set of HTML elements includes br, headings, links, tables, lists and image tags.
+Static elements are transformed into HTML during rendering.</p>
+<!--TOC paragraph id="sec7" -->
+<!--SEC END --><p>
+Static elements could also be used as placeholders for other HTML elements.
+Usually “static” means elements that don’t use postback parameter:</p><div class="lstlisting">    #textbox { id=userName, body= &lt;&lt;"Anonymous"&gt;&gt; },
+    #panel { id=chatHistory, class=chat_history }</div><p>This will produce the following HTML code:
+
+</p><div class="lstlisting">    &lt;input value="Anonymous" id="userName" type="text"/&gt;
+    &lt;div id="chatHistory" class="chat_history"&gt;&lt;/div&gt;</div>
+<!--TOC subsection id="sec8" Active Elements: HTML and JavaScript-->
+<h3 id="sec8" class="subsection">Active Elements: HTML and JavaScript</h3><!--SEC END --><p>
+There are form elements that provide information for the server
+and gather user input: button, radio and check buttons, text box area and password box.
+Form elements usually allow to assign an Erlang postback handler to specify action behavior.
+These elements are compiled into HTML and JavaScript. For example, during rendering, some
+Actions are converted to JavaScript and sent to be executed in the browser.
+Element definition specifies the list of <span style="font-weight:bold">source</span> elements that provide data for event’s callback.</p><div class="lstlisting">    {ok,Pid} = wf:async(fun() -&gt; chat_loop() end),
+    #button { id=sendButton, body= &lt;&lt;"Send"&gt;&gt;,
+              postback={chat,Pid}, source=[userName,message] }.</div><p>This will produce the following HTML:
+</p><div class="lstlisting">    &lt;input value="Chat" id="sendButton" type="button"/&gt;</div><p>and JavaScript code:
+</p><div class="lstlisting">    $('#sendButton').bind('click',function anonymous(event) {
+        ws.send(Bert.encodebuf({
+            source: Bert.binary('sendButton'),
+            pickle: Bert.binary('g1AAAINQAAAAdX...'),
+            linked: [
+                Bert.tuple(Bert.atom('userName'),
+                utf8.toByteArray($('#userName').val())),
+                Bert.tuple(Bert.atom('message'),
+                utf8.toByteArray($('#message').val()))] })); });</div><p>If postback action is specified then the page module must include a callback to handle postback info:
+
+</p><div class="lstlisting">    event({chat,Pid}) -&gt;
+        wf:info(?MODULE, "User ~p Msg ~p",
+                [wf:q(userName),wf:q(message)]).</div>
+<!--TOC subsection id="sec9" Base Element-->
+<h3 id="sec9" class="subsection">Base Element</h3><!--SEC END --><p>
+Each HTML element in N2O DSL has record compatibility with the base element.</p><div class="lstlisting">    #element { ancestor=element,
+               module,
+               id,
+               actions,
+               class=[],
+               style=[],
+               source=[],
+               data_fields=[],
+               aria_states=[],
+               body,
+               role,
+               tabindex,
+               show_if=true,
+               html_tag=Tag,
+               title }.</div><p>Here <span style="font-weight:bold">module</span> is an Erlang module that contains a render function.
+Data and Aria HTML custom fields are common attributes for all elements.
+In case element name doesn’t correspond to HTML tag, <span style="font-weight:bold">html_tag</span> field provided.
+<span style="font-weight:bold">body</span> field is used as element contents for all elements.</p>
+<!--TOC paragraph id="sec10" -->
+<!--SEC END --><p>
+Most HTML elements are defined as basic elements. You can even choose element’s
+name different from its original HTML tag name:</p><div class="lstlisting">    -record(h6,    ?DEFAULT_BASE).
+    -record(tbody, ?DEFAULT_BASE).
+    -record(panel, ?DEFAULT_BASE_TAG(&lt;&lt;"div"&gt;&gt;)).
+    -record('div', ?DEFAULT_BASE_TAG(&lt;&lt;"div"&gt;&gt;)).</div>
+<!--TOC subsection id="sec11" DTL Template <span style="font-weight:bold">#dtl</span>-->
+<h3 id="sec11" class="subsection">DTL Template <span style="font-weight:bold">#dtl</span></h3><!--SEC END --><p>
+DTL stands for Django Template Language. A DTL element lets to construct HTML
+snippet from template with given placeholders for further substitution.
+Fields contain substitution bindings proplist, filename and templates folder.</p><div class="lstlisting">    -record(dtl, {?ELEMENT_BASE(element_dtl),
+            file="index",
+            bindings=[],
+            app=web,
+            folder="priv/templates",
+            ext="html",
+            bind_script=true }).</div><p>Consider we have <span style="font-weight:bold">prod.dtl</span> file in <span style="font-weight:bold">priv/templates</span> folder with two
+placeholders {{title}}, {{body}} and default placeholder for JavaScript {{script}}.
+All placeholders except {{script}} should be specified in #dtl element.
+Here is an example of how to use it:</p><div class="lstlisting">    body() -&gt; "HTML Body".
+    main() -&gt;
+      [ #dtl { file="prod", ext="dtl",
+               bindings=[{title,&lt;&lt;"Title"&gt;&gt;},{body,body()}]} ].</div><p>You can use templates not only for pages, but for controls as well. Let’s say we want
+to use DTL iterators for constructing list elements:</p><div class="center">Listing 1: table.html</div><p><br>
+</p><div class="lstlisting">    {% for i in items %} &lt;a href="{{i.url}}"&gt;{{i.name}}&lt;/a&gt;&lt;br&gt;
+             {% empty %} &lt;span&gt;No items available :-(&lt;/span&gt;
+            {% endfor %}</div><p>Here is an example of how to pass variables to the DTL template we’ve just defined:</p><div class="lstlisting">    #dtl{file="table", bind_script=false, bindings=[{items,
+      [ {[{name, "Apple"},     {url, "http://apple.com"}]},
+        {[{name, "Google"},    {url, "http://google.com"}]},
+        {[{name, "Microsoft"}, {url, "http://microsoft.com"}]} ]}]}.</div><p>bind_script should be set to true for page templates. When control elements are rendered from DTL,
+bind_script should be set to false.</p>
+<!--TOC subsection id="sec12" Button <span style="font-weight:bold">#button</span>-->
+<h3 id="sec12" class="subsection">Button <span style="font-weight:bold">#button</span></h3><!--SEC END -->
+<!--TOC paragraph id="sec13" -->
+<!--SEC END --><div class="lstlisting">    -record(button, {?ELEMENT_BASE(element_button),
+            type= &lt;&lt;"button"&gt;&gt;,
+            name,
+            value,
+            postback,
+            delegate,
+            disabled}).</div>
+<!--TOC paragraph id="sec14" -->
+<!--SEC END --><p>
+Sample:</p><div class="lstlisting">#button { id=sendButton, body= &lt;&lt;"Send"&gt;&gt;,
+          postback={chat,Pid}, source=[userName,message] }.</div>
+<!--TOC subsection id="sec15" Link <span style="font-weight:bold">#dropdown</span>-->
+<h3 id="sec15" class="subsection">Link <span style="font-weight:bold">#dropdown</span></h3><!--SEC END --><div class="lstlisting">    -record(dropdown, {?ELEMENT_BASE(element_dropdown),
+            options,
+            postback,
+            delegate,
+            value,
+            multiple=false,
+            disabled=false,
+            name}).
+
+    -record(option, {?ELEMENT_BASE(element_select),
+            label,
+            value,
+            selected=false,
+            disabled}).</div>
+<!--TOC paragraph id="sec16" -->
+<!--SEC END --><p>
+Sample:</p><div class="lstlisting">    #dropdown { id=drop,
+                value="2",
+                postback=combo,
+                source=[drop], options=[
+        #option { label= &lt;&lt;"Microsoft"&gt;&gt;, value= &lt;&lt;"Windows"&gt;&gt; },
+        #option { label= &lt;&lt;"Google"&gt;&gt;,    value= &lt;&lt;"Android"&gt;&gt; },
+        #option { label= &lt;&lt;"Apple"&gt;&gt;,     value= &lt;&lt;"Mac"&gt;&gt; }
+    ]},</div>
+<!--TOC subsection id="sec17" Link <span style="font-weight:bold">#link</span>-->
+<h3 id="sec17" class="subsection">Link <span style="font-weight:bold">#link</span></h3><!--SEC END -->
+<!--TOC paragraph id="sec18" -->
+<!--SEC END --><div class="lstlisting">    -record(link, {?ELEMENT_BASE(element_link),
+            target,
+            url="javascript:void(0);",
+            postback,
+            delegate,
+            name}).</div>
+<!--TOC subsection id="sec19" Text Editor <span style="font-weight:bold">#textarea</span>-->
+<h3 id="sec19" class="subsection">Text Editor <span style="font-weight:bold">#textarea</span></h3><!--SEC END -->
+<!--TOC paragraph id="sec20" -->
+<!--SEC END --><div class="lstlisting">    -record(textarea, {?ELEMENT_BASE(element_textarea),
+            placeholder,
+            name,
+            cols,
+            rows,
+            value}).</div><p>
+
+
+    <!--div id="disqus_thread"></div>
+    <script type="text/javascript">
+        var disqus_shortname = 'synrc'; // required: replace example with your forum shortname
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a-->
+
+
+</p></div>
+</div>
+</div><div class="clear"> </div><!--CUT END -->
+<!--HTMLFOOT-->
+
+<div class="nonselectedwrapper">
+<div class="verywidecol">
+
+    <div style="width:100%;height:300px;float:left;font-size:16pt;" align=center>
+    	<hr size=1>
+    	<br><br><br>
+        <a href="//synrc.com/news/index.htm">Events</a> |
+    	<a href="//synrc.com/privacy.htm">Privacy Policy</a> |
+        <a href="//synrc.com/feedback.htm">Feedback</a> |
+        <a href="//synrc.com/brandbook.htm">Brandbook</a><br>
+    	Copyright &copy; 2005&ndash;2016 <a href="//synrc.com/index.htm"> Synrc Research Center s.r.o.</a>
+    </div>
+
+</div>
+</div>
+
+
+<div class="clear"></div>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-29227518-1']);
+      _gaq.push(['_trackPageview']);
+      
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'https://www') + '.google-analytics.com/ga.js';
+                    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+                      })();
+                      
+                      </script>
+
+<script type="text/javascript" src="//synrc.com/hi.js"></script>
+<!--ENDHTML-->
+</body>
+</html>
