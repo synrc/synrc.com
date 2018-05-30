@@ -11,7 +11,7 @@ Then you need to checkout Synrc Site and all Synrc Repositories:
 
     $ sudo apt-get install texlive-full
     $ sudo apt-get install hevea
-    $ git clone git@github.com:synrc/synrc.com
+    $ git clone git@github.com:synrc/synrc.space
 
 Usage
 =====
