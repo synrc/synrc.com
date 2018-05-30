@@ -48,54 +48,71 @@
 <!--ENDHTML-->
 <!--CUT DEF section 1 --><div class="nonselectedwrapper">
 <div class="article">
+<div class="toc">
+<!--TOC section id="sec1" TOC-->
+<h2 id="sec1" class="section">TOC</h2><!--SEC END -->
+<!--TOC paragraph id="sec2" -->
+<!--SEC END --><p>
+<a href="http://synrc.space/apps/bpe/doc/web/index.htm">Intro</a> <br>
+
+<a href="http://synrc.space/apps/bpe/doc/web/tps.htm">1. Processing</a> <br>
+
+<a href="http://synrc.space/apps/bpe/doc/web/bpe.htm">2. Workflows</a> <br>
+
+<a href="http://synrc.space/apps/bpe/doc/web/forms.htm">3. Forms</a> <br>
+
+<a href="http://synrc.space/apps/bpe/doc/web/upl.htm">4. Language</a> <br>
+</p><p><a href="http://synrc.space/apps/bpe/doc/book.pdf">Download PDF</a> <br>
+
+</p></div>
 
 <div class="articlecol">
 
-<!--TOC section id="sec1" BPE: Business Processes-->
-<h2 id="sec1" class="section">BPE: Business Processes</h2><!--SEC END -->
-<!--TOC subsection id="sec2" Overview-->
-<h3 id="sec2" class="subsection">Overview</h3><!--SEC END --><p>
+<!--TOC section id="sec3" BPE: Business Processes-->
+<h2 id="sec3" class="section">BPE: Business Processes</h2><!--SEC END -->
+<!--TOC subsection id="sec4" Overview-->
+<h3 id="sec4" class="subsection">Overview</h3><!--SEC END --><p>
 BPE is a part of Synrc business application stack that
 unlocks Erlang for for enterprise core processing.
 It provides infrastructure for workflow definitions, process orchestration,
 rule-based production systems and distributed storage. This book is dedicated to cover
 all parts needed for bootstrapping operational document processing model along with
 workflow, models, forms, validations and other aspects of systems with similar requirements.</p>
-<!--TOC subsection id="sec3" Fullstack Business Applications-->
-<h3 id="sec3" class="subsection">Fullstack Business Applications</h3><!--SEC END --><p>
+<!--TOC subsection id="sec5" Fullstack Business Applications-->
+<h3 id="sec5" class="subsection">Fullstack Business Applications</h3><!--SEC END --><p>
 This book is also about the foundations of banking implementation (TPS) up to external
 connectors and services which is closed by security policies. So it also defines
 transactional processing model, storage model, and distribution capabilities such as
 Dynamo hashing to achieve data locality for transactions and documents which
 belongs to bank customers.</p>
-<!--TOC subsection id="sec4" FORMS: Applications-->
-<h3 id="sec4" class="subsection">FORMS: Applications</h3><!--SEC END --><p>
+<!--TOC subsection id="sec6" FORMS: Applications-->
+<h3 id="sec6" class="subsection">FORMS: Applications</h3><!--SEC END --><p>
 The FORMS application is dedicated to bring forms under the common
 ontological model of data that are entering, storing and processing.
 The forms model gives a root to the essence of information system circulation.</p>
-<!--TOC subsection id="sec5" BPE: Workflows-->
-<h3 id="sec5" class="subsection">BPE: Workflows</h3><!--SEC END --><p>
+<!--TOC subsection id="sec7" BPE: Workflows-->
+<h3 id="sec7" class="subsection">BPE: Workflows</h3><!--SEC END --><p>
 The core of document processing is BPE which runs in native Erlang process semantic
 as Pi-calculus execution environment. Different bank departments represented
 as ACT workflow scenarios, such as deposit, credit or operational processes along with
 transfer and withdraw or charge operations. All these operations represented
 as document forms which flows along workflow. Activity service knows only
 customer information and does not know card numbers or other sensitive transactional data.</p>
-<!--TOC subsection id="sec6" TPS: Processing-->
-<h3 id="sec6" class="subsection">TPS: Processing</h3><!--SEC END --><p>
+<!--TOC subsection id="sec8" TPS: Processing-->
+<h3 id="sec8" class="subsection">TPS: Processing</h3><!--SEC END --><p>
 The monetary processing core is TPS service driven by scripts in UPL language.
 All constraints and rules are applied from UPL definitions to transactions.
 Transactional service knows nothing about customer information.</p>
-<!--TOC subsection id="sec7" CR: Database-->
-<h3 id="sec7" class="subsection">CR: Database</h3><!--SEC END --><p>
+<!--TOC subsection id="sec9" CR: Database-->
+<h3 id="sec9" class="subsection">CR: Database</h3><!--SEC END --><p>
 The basic database schema DBS to work with BPE and TPS applications.
 There are two implementations of TPS service: one is using <span style="font-weight:bold">riak_core</span>
 database ifrastructure, the other is based on chain replication CR database
 using <span style="font-weight:bold">kvs</span> database infrastructure and rafter protocol as oracul.
 The CR database is based on Robert van Renessee papers. CR has also
 XA protocol capabilities.</p>
-<!--TOC subsection id="sec8" UPL: Language-->
-<h3 id="sec8" class="subsection">UPL: Language</h3><!--SEC END --><p>
+<!--TOC subsection id="sec10" UPL: Language-->
+<h3 id="sec10" class="subsection">UPL: Language</h3><!--SEC END --><p>
 UPL allows to define transaction tarification rules in human readable form.
 
 

@@ -48,13 +48,30 @@
 <!--ENDHTML-->
 <!--CUT DEF section 1 --><div class="nonselectedwrapper">
 <div class="article">
+<div class="toc">
+<!--TOC section id="sec1" TOC-->
+<h2 id="sec1" class="section">TOC</h2><!--SEC END -->
+<!--TOC paragraph id="sec2" -->
+<!--SEC END --><p>
+<a href="http://synrc.space/apps/bpe/doc/web/index.htm">Intro</a> <br>
+
+<a href="http://synrc.space/apps/bpe/doc/web/tps.htm">1. Processing</a> <br>
+
+<a href="http://synrc.space/apps/bpe/doc/web/bpe.htm">2. Workflows</a> <br>
+
+<a href="http://synrc.space/apps/bpe/doc/web/forms.htm">3. Forms</a> <br>
+
+<a href="http://synrc.space/apps/bpe/doc/web/upl.htm">4. Language</a> <br>
+</p><p><a href="http://synrc.space/apps/bpe/doc/book.pdf">Download PDF</a> <br>
+
+</p></div>
 
 <div class="articlecol">
 
-<!--TOC section id="sec1" UPL: Universal Processing Language-->
-<h2 id="sec1" class="section">UPL: Universal Processing Language</h2><!--SEC END -->
-<!--TOC subsection id="sec2" History-->
-<h3 id="sec2" class="subsection">History</h3><!--SEC END --><p>Pocessing systems are using manually crafted application
+<!--TOC section id="sec3" UPL: Universal Processing Language-->
+<h2 id="sec3" class="section">UPL: Universal Processing Language</h2><!--SEC END -->
+<!--TOC subsection id="sec4" History-->
+<h3 id="sec4" class="subsection">History</h3><!--SEC END --><p>Pocessing systems are using manually crafted application
 relays to handle card processing business rules. Being defined by business
 analysts these rules are fallen down to engineering teams informally.
 Approach we provide pushes card processing to solid background in a form
@@ -77,14 +94,14 @@ verification strategies and compactifications.</p><div class="center">Listing 1
                         to account 'users/:client/tax'</div><p>This language could be easily extended to other domain areas like
 internet payment processing, shopping mall bonus programs, mobile
 operators tariff plans.</p>
-<!--TOC subsection id="sec3" Objectives-->
-<h3 id="sec3" class="subsection">Objectives</h3><!--SEC END --><p>The aim is to create small and compact language for payment
+<!--TOC subsection id="sec5" Objectives-->
+<h3 id="sec5" class="subsection">Objectives</h3><!--SEC END --><p>The aim is to create small and compact language for payment
 transaction processing. Underlying instrumentation
 code should be KVS layer for storing transaction chains but
 naturally should be extended to different backends like Java,
 PL/SQL and other languages currently involved in banking card processing.
 We have several criteria to satisfy:</p>
-<!--TOC paragraph id="sec4" -->
+<!--TOC paragraph id="sec6" -->
 <!--SEC END --><table style="border-spacing:6px;border-collapse:separate;" class="cellpading0"><tr><td style="text-align:left;white-space:nowrap" > <span style="font-weight:bold">English</span></td><td style="text-align:left;white-space:nowrap" >Self-explanatory </td></tr>
 <tr><td style="text-align:left;white-space:nowrap" > <span style="font-weight:bold">Fasten </span></td><td style="text-align:left;white-space:nowrap" >Time-to-market </td></tr>
 <tr><td style="text-align:left;white-space:nowrap" > <span style="font-weight:bold">Optimized</span></td><td style="text-align:left;white-space:nowrap" >Minimal Back-end Operations </td></tr>
@@ -92,9 +109,9 @@ We have several criteria to satisfy:</p>
 <tr><td style="text-align:left;white-space:nowrap" > <span style="font-weight:bold">Taxonomy</span></td><td style="text-align:left;white-space:nowrap" >Sane structure for extensions
 </td></tr>
 </table>
-<!--TOC subsection id="sec5" Operations-->
-<h3 id="sec5" class="subsection">Operations</h3><!--SEC END -->
-<!--TOC paragraph id="sec6" -->
+<!--TOC subsection id="sec7" Operations-->
+<h3 id="sec7" class="subsection">Operations</h3><!--SEC END -->
+<!--TOC paragraph id="sec8" -->
 <!--SEC END --><p>User Creation:</p><div class="lstlisting">    prepare user ':client'
         name     ':fullname'
         age      ':birth'
@@ -103,13 +120,13 @@ We have several criteria to satisfy:</p>
         accounts
             credit '/users/:client/credit' program 'PB-UNIVERSAL'
             account '/users/:client/:acc' program ':tariff'</div>
-<!--TOC paragraph id="sec7" -->
+<!--TOC paragraph id="sec9" -->
 <!--SEC END --><p>Process Transaction:</p><div class="lstlisting">    prepare transaction from account 'users/:client'
                           to account ':beneficiar'</div>
-<!--TOC paragraph id="sec8" -->
+<!--TOC paragraph id="sec10" -->
 <!--SEC END --><p>Notifying:</p><div class="lstlisting">    prepare event 'users/:client'</div>
-<!--TOC subsection id="sec9" Programs-->
-<h3 id="sec9" class="subsection">Programs</h3><!--SEC END --><p>Programs are tariff programs, set of rules that we plug to transaction processing.
+<!--TOC subsection id="sec11" Programs-->
+<h3 id="sec11" class="subsection">Programs</h3><!--SEC END --><p>Programs are tariff programs, set of rules that we plug to transaction processing.
 It feels like set of filters triggered each time we fire money
 movements on account with a given card defenition.</p><div class="center">Listing 2: BNF</div><p><br>
 </p><div class="lstlisting">
@@ -129,8 +146,8 @@ movements on account with a given card defenition.</p><div class="center">Listin
     /programs/PB-DEPOSIT-PLUS.card
     /programs/API.code
     /programs/UA.user</div>
-<!--TOC subsection id="sec10" Language Forms-->
-<h3 id="sec10" class="subsection">Language Forms</h3><!--SEC END --><p>Top level tariffs of billing rules are pluggable slangs that
+<!--TOC subsection id="sec12" Language Forms-->
+<h3 id="sec12" class="subsection">Language Forms</h3><!--SEC END --><p>Top level tariffs of billing rules are pluggable slangs that
 share some common part of the languages. These common part we will
 call language forms.</p><div class="center">Listing 4: BNF</div><p><br>
 </p><div class="lstlisting">
@@ -149,24 +166,24 @@ call language forms.</p><div class="center">Listing 4: BNF</div><p><br>
                  | annual ChargeRule
 
          Account = &lt;credit | rate | deposit&gt; Name</div>
-<!--TOC subsection id="sec11" Accounts-->
-<h3 id="sec11" class="subsection">Accounts</h3><!--SEC END --><p>Enterprise Tree handles clients, accounts, transactions, programs, events.
+<!--TOC subsection id="sec13" Accounts-->
+<h3 id="sec13" class="subsection">Accounts</h3><!--SEC END --><p>Enterprise Tree handles clients, accounts, transactions, programs, events.
 Programs could be assigned to each node and fires atomatically on access.</p><div class="lstlisting">    /personal/:client
     /personal/:client/bonus
     /personal/:client/credit
     /personal/:client/deposit
     /personal/:client/rate</div>
-<!--TOC subsection id="sec12" External Services-->
-<h3 id="sec12" class="subsection">External Services</h3><!--SEC END --><p>External service has its own endpoints, and could be
+<!--TOC subsection id="sec14" External Services-->
+<h3 id="sec14" class="subsection">External Services</h3><!--SEC END --><p>External service has its own endpoints, and could be
 addressed/mounted? to local system.</p><div class="lstlisting">    /external/visa/:client
     /external/master/:client
     /external/swift/:client
     /internet/paypal/:client
     /bonus/:client</div>
-<!--TOC subsection id="sec13" Transactions-->
-<h3 id="sec13" class="subsection">Transactions</h3><!--SEC END --><p>Transactions are stored per each client’s account.</p><div class="lstlisting">    /personal/:client/transactions</div>
-<!--TOC subsection id="sec14" Deposit-->
-<h3 id="sec14" class="subsection">Deposit</h3><!--SEC END --><p>Deposit program forms ususally provides such attributes of
+<!--TOC subsection id="sec15" Transactions-->
+<h3 id="sec15" class="subsection">Transactions</h3><!--SEC END --><p>Transactions are stored per each client’s account.</p><div class="lstlisting">    /personal/:client/transactions</div>
+<!--TOC subsection id="sec16" Deposit-->
+<h3 id="sec16" class="subsection">Deposit</h3><!--SEC END --><p>Deposit program forms ususally provides such attributes of
 account as duration, rate, withdraw locking, charge
 limits, fee options and other deposit specific options.
 Deposit forms usually have "deposit" account name.</p><div class="lstlisting">    Enabled = enabled | disabled
@@ -179,8 +196,8 @@ Deposit forms usually have "deposit" account name.</p><div class="lstlisting">  
             | final Periodically move from Id to Id
             | fee ChargeRule
             | Periodically</div>
-<!--TOC subsection id="sec15" Credit-->
-<h3 id="sec15" class="subsection">Credit</h3><!--SEC END --><p>Credit programs forms mainly provide transaction
+<!--TOC subsection id="sec17" Credit-->
+<h3 id="sec17" class="subsection">Credit</h3><!--SEC END --><p>Credit programs forms mainly provide transaction
 filtering and other default account name "credit".</p><div class="lstlisting">    Credit = transaction [TransRule]
            | sratus Enabled Ammount
            | Periodically
