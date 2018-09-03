@@ -1,3 +1,9 @@
+@font-face {
+    font-family: 'local';
+    font-weight: normal;
+    font-style: normal;
+    src: url('Geometria-Light.otf');
+}
 
 * {
     box-sizing: border-box;
@@ -6,7 +12,7 @@
 }
 
 body {
-    font-family: 'M PLUS 1p',sans-serif; }
+    font-family: local, sans-serif; }
     font-size: 24px;
 }
 
