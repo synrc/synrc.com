@@ -6,8 +6,7 @@
     <meta name="description" content=""/>
     <meta name="author" content="Maxim Sokhatsky"/>
     <title>N2O</title>
-    <link rel="stylesheet" href="n2o.css?v=9"/>
-    <!--link href="https://fonts.googleapis.com/css?family=M+PLUS+1p" rel="stylesheet"-->
+    <link rel="stylesheet" href="synrc.css?v=1"/>
 </head>
 <body>
 <header>
@@ -22,9 +21,8 @@
         <ul>
            <li><a href="#arch">Architecture</a></li>
            <li><a href="#proto">Prototyping</a></li>
-           <li><a href="#courses">Training</a></li>
-           <li><a href="#sup">Supervision</a></li>
-           <li><a href="#open">Open Source Subscription</a></li>
+           <li><a href="#train">Training</a></li>
+           <li><a href="#sign">Subscription Contract</a></li>
         </ul></div>
     </section>
         <section>
@@ -52,13 +50,53 @@
 <main>
     <section>
         <a name=arch><h3>Architecture</h3></a>
-        <p></p>
+        <p>Software architecture defines services running in
+           your environment using heterogeneous protocols and languages.
+           Two crucial services for modern applications are messgae bus
+           and storage services.</p>
+        <p>Locally, the message bus service could be exposed using EMQ or Mosquitto brokers,
+           and in clouds by using MQTT IoT at AWS or Azure.
+           The second service is a distributed database which is usually installed
+           as DHT ring in cloud (S3, DynamoDB, Cosmos DB) or locally (Redis, SQL, Cassandra, Aerospike).</P>
+        <p>We also provide expertise in: 1) AMQP, XMPP and other less known
+           protocols as for core bus protocols; 2) distributed
+           databases. Depending on your needs we create simple and
+           managable architecture, probably involving other services,
+           like auth service, business process management, etc.
+           The result of this phase is protocol specification
+           for distributed application.</p>
     </section>
     <section>
         <a name=proto><h3>Prototyping</h3></a>
+        <p>We create prototypes using Erlang language,
+           as it allows the code to be small and concise,
+           yet undestandable and manageable by engineers. Usually this
+           phase can take couple months. As a result you get a demo of
+           runnable proof of concept.</p>
     </section>
     <section>
-        <a name=open><h3>Open Source Subscription</h3></a>
+        <a name=train><h3>Training</h3></a>
+        <p>We did open and private trainings for
+        Crytek, PrivatBank, TecSynt and other less remarkable companies.
+        We have written books, turtorial, articles, and other support
+        materials forming a courses program.</p>
+        <figure>
+            <img src="images/3.jpg" width="90%">
+            <figcaption>Erlang Courses 2013</figcaption>
+        </figure>
+        <figure>
+            <img src="images/2.jpg" width="90%">
+            <figcaption>Erlang Courses 2014</figcaption>
+        </figure>
+    </section>
+    <section>
+        <a name=sign><h3>Subscription Contract</h3></a>
+        <p>If you want to push our work in your own direction,
+           you can contract us to provide paid services for
+           your company by commiting to Synrc open source repositories.
+           By signing the contract you will get the author's supervision,
+           architecture lead, and trainings by request for your team.
+        </p>
     </section>
 </main>
 <footer>
