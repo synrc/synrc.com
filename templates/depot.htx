@@ -2,29 +2,29 @@
 <br><br>
 <code style="font-weight:lighter;">
 
-  $ curl -X GET <a href="//synrc.space/apps/index.txt">http://synrc.space/apps/index.txt</a>
+  $ curl -X GET <a href="//synrc.com/apps/index.txt">http://synrc.com/apps/index.txt</a>
   [
-      {bin,[<a href="//synrc.space/apps/beam/bin/beam.txt">beam</a>],     ["7.0.3"]},
-      {lib,[<a href="//synrc.space/apps/kernel/ebin/kernel.txt">kernel</a>],   ["4.0"]},
-      {lib,[<a href="//synrc.space/apps/stdlib/ebin/stdlib.txt">stdlib</a>],   ["2.5"]},
-      {lib,[<a href="//synrc.space/apps/mnesia/ebin/mnesia.txt">mnesia</a>],   ["4.13"]},
-      {lib,[<a href="//synrc.space/apps/syntax_tools/ebin/syntax_tools.txt">syntax_tools</a>], ["1.7"]},
-      {lib,[<a href="//synrc.space/apps/compiler/ebin/compiler.txt">compiler</a>], ["6.0"]},
-      {lib,[<a href="//synrc.space/apps/crypto/ebin/crypto.txt">crypto</a>],   ["3.6"]},
-      {lib,[<a href="//synrc.space/apps/cowboy/ebin/cowboy.txt">cowboy</a>],   ["1.0.1"]},
-      {lib,[<a href="//synrc.space/apps/cowlib/ebin/cowlib.txt">cowlib</a>],   ["1.0.0"]},
-      {lib,[<a href="//synrc.space/apps/ranch/ebin/ranch.txt">ranch</a>],    ["1.0.0"]},
-      {lib,[<a href="//synrc.space/apps/erlydtl/ebin/erlydtl.txt">erlydtl</a>],  ["0.8.0"]},
-      {lib,[<a href="//synrc.space/apps/gproc/ebin/gproc.txt">gproc</a>],    ["0.3"]},
-      {lib,[<a href="//synrc.space/apps/jsone/ebin/jsone.txt">jsone</a>],    ["v0.3.3"]},
-      {lib,[<a href="//synrc.space/apps/kvs/ebin/kvs.txt">kvs</a>],      ["2.9"]},
-      {lib,[<a href="//synrc.space/apps/mad/ebin/mad.txt">mad</a>],      ["2.9"]},
-      {lib,[<a href="//synrc.space/apps/n2o/ebin/n2o.txt">n2o</a>],      ["2.9"]},
-      {lib,[<a href="//synrc.space/apps/rest/ebin/rest.txt">rest</a>],     ["2.9"]},
-      {lib,[<a href="//synrc.space/apps/active/ebin/active.txt">active</a>],   ["1.9"]},
-      {lib,[<a href="//synrc.space/apps/fs/ebin/fs.txt">fs</a>],       ["1.9"]},
-      {lib,[<a href="//synrc.space/apps/sh/ebin/sh.txt">sh</a>],       ["1.9"]},
-      {lib,[<a href="//synrc.space/apps/nitro/ebin/nitro.txt">nitro</a>],    ["0.9"]}
+      {bin,[<a href="//synrc.com/apps/beam/bin/beam.txt">beam</a>],     ["7.0.3"]},
+      {lib,[<a href="//synrc.com/apps/kernel/ebin/kernel.txt">kernel</a>],   ["4.0"]},
+      {lib,[<a href="//synrc.com/apps/stdlib/ebin/stdlib.txt">stdlib</a>],   ["2.5"]},
+      {lib,[<a href="//synrc.com/apps/mnesia/ebin/mnesia.txt">mnesia</a>],   ["4.13"]},
+      {lib,[<a href="//synrc.com/apps/syntax_tools/ebin/syntax_tools.txt">syntax_tools</a>], ["1.7"]},
+      {lib,[<a href="//synrc.com/apps/compiler/ebin/compiler.txt">compiler</a>], ["6.0"]},
+      {lib,[<a href="//synrc.com/apps/crypto/ebin/crypto.txt">crypto</a>],   ["3.6"]},
+      {lib,[<a href="//synrc.com/apps/cowboy/ebin/cowboy.txt">cowboy</a>],   ["1.0.1"]},
+      {lib,[<a href="//synrc.com/apps/cowlib/ebin/cowlib.txt">cowlib</a>],   ["1.0.0"]},
+      {lib,[<a href="//synrc.com/apps/ranch/ebin/ranch.txt">ranch</a>],    ["1.0.0"]},
+      {lib,[<a href="//synrc.com/apps/erlydtl/ebin/erlydtl.txt">erlydtl</a>],  ["0.8.0"]},
+      {lib,[<a href="//synrc.com/apps/gproc/ebin/gproc.txt">gproc</a>],    ["0.3"]},
+      {lib,[<a href="//synrc.com/apps/jsone/ebin/jsone.txt">jsone</a>],    ["v0.3.3"]},
+      {lib,[<a href="//synrc.com/apps/kvs/ebin/kvs.txt">kvs</a>],      ["2.9"]},
+      {lib,[<a href="//synrc.com/apps/mad/ebin/mad.txt">mad</a>],      ["2.9"]},
+      {lib,[<a href="//synrc.com/apps/n2o/ebin/n2o.txt">n2o</a>],      ["2.9"]},
+      {lib,[<a href="//synrc.com/apps/rest/ebin/rest.txt">rest</a>],     ["2.9"]},
+      {lib,[<a href="//synrc.com/apps/active/ebin/active.txt">active</a>],   ["1.9"]},
+      {lib,[<a href="//synrc.com/apps/fs/ebin/fs.txt">fs</a>],       ["1.9"]},
+      {lib,[<a href="//synrc.com/apps/sh/ebin/sh.txt">sh</a>],       ["1.9"]},
+      {lib,[<a href="//synrc.com/apps/nitro/ebin/nitro.txt">nitro</a>],    ["0.9"]}
     ].
 </code>
 
