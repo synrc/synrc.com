@@ -1,8 +1,0 @@
-{application,active,
-             [{description,"ACT VXZ Continuous Compilation"},
-              {vsn,"1.9"},
-              {registered,[]},
-              {applications,[kernel,stdlib,fs]},
-              {mod,{active_app,[]}},
-              {env,[]},
-              {modules,[active,active_app,active_events,active_sup]}]}.
