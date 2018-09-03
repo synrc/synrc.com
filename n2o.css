@@ -13,7 +13,7 @@
 
 body {
     font-family: 'M PLUS 1p', sans-serif;
-    font-size: 24px;
+    font-size: 16px; // SMALL
 }
 
 h1, h2, h3, h4 {
@@ -197,7 +197,7 @@ figcaption {
 
 figure code {
     font-family: monospace;
-    font-size: 14px;
+    font-size: 16px;
     display: block;
     overflow-x: auto;
     max-width: 100%;
@@ -250,7 +250,7 @@ footer {
 
 @media(min-width: 768px) {
     body {
-        font-size: 20px;
+        font-size: 18px; // MIDDLE
     }
 
     li { list-style-position: inside; }
@@ -298,6 +298,7 @@ footer {
 
     .desk { display: inline-block; }
     li { list-style-position: outside; }
+    body { font-size: 20px; }
 
     header h1 {
         font-size: 70px;
@@ -313,7 +314,7 @@ footer {
         display: inline-block;
         vertical-align: top;
         text-align: left;
-        font-size: 20px;
+        font-size: 20px; // BIG
     }
 
 
