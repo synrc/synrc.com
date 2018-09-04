@@ -12,6 +12,7 @@
 }
 
 body {
+    background-color: #ECF8FE;
     font-family: 'local', sans-serif;
     font-size: 16px; // SMALL
 }
@@ -21,7 +22,6 @@ h1, h2, h3, h4 {
 }
 
 nav {
-    font-size: 0;
     margin: 10px 0;
     display: flex;
     flex-direction: column;
@@ -30,8 +30,8 @@ nav {
 
 nav a {
     font-size: 16px;
-    background-color: white;
     border: 2px solid #dedede;
+    background-color: white;
     color: lightblue;
     text-decoration: none;
     margin: 5px 5px;
