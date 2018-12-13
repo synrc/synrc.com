@@ -48,7 +48,9 @@ nav a:hover {
     border-bottom: 2px solid #00b8cf;
 }
 
+
 @media(min-width: 550px) {
+    .logo { display: none; }
     nav {
         display: flex;
         flex-direction: row;
@@ -292,11 +294,11 @@ footer {
     figure code {
         font-size: 16px;
     }
- 
 }
 
 @media(min-width: 1280px) {
     .desk { display: inline-block; }
+    .logo { display: block; }
     li { list-style-position: outside; }
     body { font-size: 20px; }
 
