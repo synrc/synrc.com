@@ -48,9 +48,9 @@ nav a:hover {
     border-bottom: 2px solid #00b8cf;
 }
 
+.logo { display: none; }
 
 @media(min-width: 550px) {
-    .logo { display: none; }
     nav {
         display: flex;
         flex-direction: row;
