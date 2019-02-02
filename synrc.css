@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'local';
+    font-family: 'Geometria';
     font-weight: normal;
     font-style: normal;
     src: url('Geometria-Light.otf');
@@ -13,7 +13,7 @@
 
 body {
     background-color: #ECF8FE;
-    font-family: 'local', sans-serif;
+    font-family: 'Geometria', sans-serif;
     font-size: 16px; // SMALL
 }
 
