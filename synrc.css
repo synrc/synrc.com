@@ -72,7 +72,7 @@ header {
 header h1 {
     line-height: 1;
     margin: 40px 20px 40px;
-    padding-left: 20px;
+    padding-left: 30px;
     font-size: 38px;
     border-left: 2px solid #00b8cf;
     display: inline-block;
@@ -213,7 +213,7 @@ figure code {
 }
 
 header img {
-    margin-right:20px;
+    margin-right:0px;
     margin-bottom:-20px;
     width: 100px;
 }
@@ -277,6 +277,9 @@ footer {
         margin: 40px auto;
     }
 
+    header img {
+        margin-right: 20px;
+    }
 
 
     main p {
@@ -310,6 +313,10 @@ footer {
     aside {
         text-align: center;
         padding-bottom: 100px;
+    }
+
+    header img {
+        margin-right: 20px;
     }
 
     aside section {
