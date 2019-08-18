@@ -27,7 +27,7 @@ h1, h2, h3, h4 {
     font-weight: normal;
 }
 
-nav { padding: 10px 0 10px 0; display: block; position: fixed; width: 100%;
+nav { padding: 20px 0 20px 0; display: block; position: fixed; width: 100%;
       display: float; text-align: center; align-items: center; background-color: #ECF8FE; }
 nav a:visited { color: #00bcd4; }
 nav a:hover { border-bottom: 2px solid #00b8cf; }
@@ -39,16 +39,8 @@ nav a { font-size: 16px; border: 2px solid #dedede; color: blue; text-decoration
 .logo { display: none; }
 
 @media(min-width: 550px) {
-    nav {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-    }
-
-    nav a {
-        font-size: 18px;
-        min-width: initial;
-    }
+    nav { padding: 10px 0 10px 0; display: flex; justify-content: center; line-height: 1; }
+    nav a { font-size: 18px; min-width: initial; }
 }
 
 header {
