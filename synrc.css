@@ -27,32 +27,14 @@ h1, h2, h3, h4 {
     font-weight: normal;
 }
 
-nav {
-    margin: 10px 0;
-    display: none;
-    flex-direction: column;
-    align-items: center;
-}
+nav { padding: 10px 0 10px 0; display: block; position: fixed; width: 100%;
+      display: float; text-align: center; align-items: center; background-color: #ECF8FE; }
+nav a:visited { color: #00bcd4; }
+nav a:hover { border-bottom: 2px solid #00b8cf; }
+nav a { font-size: 16px; border: 2px solid #dedede; color: blue; text-decoration: none;
+        margin: 5px 5px; padding: 7px 12px; text-align: center; background-color: white; }
 
-nav a {
-    font-size: 16px;
-    border: 2px solid #dedede;
-    background-color: white;
-    color: lightblue;
-    text-decoration: none;
-    margin: 5px 5px;
-    padding: 7px 12px;
-    min-width: 150px;
-    text-align: center;
-}
 
-nav a:visited {
-    color: lightblue;
-}
-
-nav a:hover {
-    border-bottom: 2px solid #00b8cf;
-}
 
 .logo { display: none; }
 
@@ -72,7 +54,7 @@ nav a:hover {
 header {
     text-align: center;
     background-color: #ECF8FE;
-    padding-top: 20px;
+    padding-top: 80px;
 }
 
 header h1 {
