@@ -18,4 +18,4 @@ research in HoTT and formalization of mathematics.</div>
 
 ## Copyright
 
-2005—2019 © Synrc Research Center
+2005—2023 © Synrc Research Center
