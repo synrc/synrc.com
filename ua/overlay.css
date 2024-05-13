@@ -1,0 +1,7 @@
+@font-face{ 
+ font-family:"e-ukraine";
+ font-style:normal;
+ src:url("e-Ukraine-Light.woff") format("woff");
+}
+
+* { font-family: "e-ukraine"; }
