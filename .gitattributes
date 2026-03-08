@@ -2,7 +2,6 @@
 *.htm linguist-detectable=false
 *.tex linguist-detectable=false
 *.sty linguist-detectable=false
-*.1 linguist-detectable=false
 *.sketch linguist-detectable=false
 *.sh linguist-detectable=false
 *.webmanifest linguist-detectable=false

@@ -74,7 +74,7 @@ header {
     justify-content:center;
     text-align:center;
     padding:0 24px;
-    background:linear-gradient(to bottom, #0f1115, #1a1f2e);
+    background:linear-gradient(to top, #0f1115, #1a1f2e);
 }
 .hero-content {
     max-width:900px;
@@ -197,7 +197,7 @@ h2 {
 /* Footer */
 footer {
     background:#0a0c10;
-    padding:5rem 24px 3rem;
+    padding:1rem 24px 3rem;
     border-top:1px solid var(--border);
 }
 .footer-columns {
@@ -227,4 +227,10 @@ footer {
 @media (max-width:768px) {
     .nav-container { flex-wrap:wrap; height:auto; padding:16px 24px; }
     .nav-links { gap:16px; font-size:14px; }
+}
+
+@media (max-width: 480px) {
+    nav, .sticky { padding: 0 16px; }
+    h1 { font-size: 50px; }
+    footer { padding-left: 16px; padding-right: 16px; }
 }
