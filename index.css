@@ -237,12 +237,30 @@ footer {
 
 /* DESCRIPTION & STANDARDS */
 .section-standards ul,
+
 .section-products > div {
-    max-width: 760px;
-    margin: 0 auto;
+    margin-top: 30px;
     font-size: 1.15rem;
     color: var(--text-secondary);
     line-height: 1.8;
+}
+
+.standards-list {
+    list-style: none;
+}
+
+.standards-list li {
+    padding: 1.25rem 0;
+    border-top: 1px solid var(--border);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.standards-list li::before {
+    content: '→';
+    color: var(--accent);
+    font-size: 1.5rem;
 }
 
 .standards-list {
