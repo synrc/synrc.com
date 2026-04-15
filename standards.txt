@@ -45,13 +45,13 @@ X.1      | (none)          | X.1 (03/2000)      | International user classes of 
 X.2      | (none)          | X.2 (03/2000)      | International data transmission services and optional user facilities in public data networks and ISDNs
 X.3      | (none)          | X.3 (03/2000)      | Packet assembly/disassembly facility (PAD) in a public data network
 X.4      | (none)          | X.4 (11/1988)      | General structure of signals of International Alphabet No. 5 code for character oriented data transmission over public data networks
-X.20     | (none)          | X.20 (11/1988)     | Interface between Data Terminal Equipment (DTE) and Data Circuit-terminating Equipment (DCE) for start-stop transmission services on public data networks
-X.21     | (none)          | X.21 (09/1992)     | Interface between Data Terminal Equipment and Data Circuit-terminating Equipment for synchronous operation on public data networks
-X.25     | (none)          | X.25 (10/1996)     | Interface between Data Terminal Equipment (DTE) and Data Circuit-terminating Equipment (DCE) for terminals operating in the packet mode and connected to public data networks by dedicated circuit
+X.20     | (none)          | X.20 (11/1988)     | DTE/DCE interface for start-stop transmission services on public data networks
+X.21     | (none)          | X.21 (09/1992)     | DTE/DCE interface for synchronous operation on public data networks
+X.25     | (none)          | X.25 (10/1996)     | DTE/DCE interface for terminals operating in the packet mode and connected to public data networks by dedicated circuit
 X.28     | (none)          | X.28 (12/1997)     | DTE/DCE interface for a start-stop mode Data Terminal Equipment accessing the Packet Assembly/Disassembly facility (PAD) in a public data network situated in the same country
 X.29     | (none)          | X.29 (12/1997)     | Procedures for the exchange of control information and user data between a Packet Assembly/Disassembly (PAD) facility and a packet mode DTE or another PAD
-X.32     | (none)          | X.32 (10/1996)     | Interface between Data Terminal Equipment (DTE) and Data Circuit-terminating Equipment (DCE) for terminals operating in the packet mode and accessing a packet-switched public data network through a public switched telephone network or an integrated services digital network or a circuit-switched public data network
-X.36     | (none)          | X.36 (02/2003)     | Interface between data terminal equipment (DTE) and data circuit-terminating equipment (DCE) for public data networks providing frame relay data transmission service by dedicated circuit
+X.32     | (none)          | X.32 (10/1996)     | DTE/DCE interface for terminals operating in the packet mode and accessing a packet-switched public data network through a public switched telephone network or an integrated services digital network or a circuit-switched public data network
+X.36     | (none)          | X.36 (02/2003)     | DTE/DCE interface for public data networks providing frame relay data transmission service by dedicated circuit
 X.400    | ISO/IEC 10021-1 | X.400 (06/1999)    | Message handling system and service overview
 X.402    | ISO/IEC 10021-2 | X.402 (06/1999)    | Information technology - Message Handling Systems (MHS): Overall architecture
 X.403    | (none)          | X.403 (11/1988)    | Message handling systems: conformance testing
