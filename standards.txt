@@ -48,9 +48,9 @@ X.4      | (none)          | X.4 (11/1988)      | General structure of signals o
 X.20     | (none)          | X.20 (11/1988)     | DTE/DCE interface for start-stop transmission services on public data networks
 X.21     | (none)          | X.21 (09/1992)     | DTE/DCE interface for synchronous operation on public data networks
 X.25     | (none)          | X.25 (10/1996)     | DTE/DCE interface for terminals operating in the packet mode and connected to public data networks by dedicated circuit
-X.28     | (none)          | X.28 (12/1997)     | DTE/DCE interface for a start-stop mode Data Terminal Equipment accessing the Packet Assembly/Disassembly facility (PAD) in a public data network situated in the same country
+X.28     | (none)          | X.28 (12/1997)     | DTE/DCE interface for a start-stop mode DTE accessing the Packet Assembly/Disassembly facility (PAD) in a public data network situated in the same country
 X.29     | (none)          | X.29 (12/1997)     | Procedures for the exchange of control information and user data between a Packet Assembly/Disassembly (PAD) facility and a packet mode DTE or another PAD
-X.32     | (none)          | X.32 (10/1996)     | DTE/DCE interface for terminals operating in the packet mode and accessing a packet-switched public data network through a public switched telephone network or an integrated services digital network or a circuit-switched public data network
+X.32     | (none)          | X.32 (10/1996)     | DTE/DCE interface for terminals operating in the packet mode and accessing a PSPDN through a PSTN or an ISDN or a circuit-switched public data network
 X.36     | (none)          | X.36 (02/2003)     | DTE/DCE interface for public data networks providing frame relay data transmission service by dedicated circuit
 X.400    | ISO/IEC 10021-1 | X.400 (06/1999)    | Message handling system and service overview
 X.402    | ISO/IEC 10021-2 | X.402 (06/1999)    | Information technology - Message Handling Systems (MHS): Overall architecture
@@ -89,7 +89,7 @@ X.607    | ISO/IEC 14476-3 | X.607 (02/2007)    | ECTS: Specification of duplex 
 X.607.1  | ISO/IEC 14476-4 | X.607.1 (02/2007)  | ECTS: Specification of QoS management for duplex multicast transport
 X.608    | ISO/IEC 14476-5 | X.608 (02/2007)    | ECTS: Specification of N-plex multicast transport
 X.608.1  | ISO/IEC 14476-6 | X.608.1 (02/2007)  | ECTS: Specification of QoS management for n-plex multicast transport
-X.609    | (none)          | X.609 (06/2015)    |  Managed peer-to-peer (P2P) communications: Functional architecture
+X.609    | (none)          | X.609 (06/2015)    | Managed peer-to-peer (P2P) communications: Functional architecture
 X.609.1  | (none)          | X.609.1 (06/2016)  | Managed P2P communications: Peer activity management protocol (PAMP)
 X.609.2  | (none)          | X.609.2 (06/2016)  | Managed P2P communications: Overlay resource control protocol (ORCP)
 X.609.3  | (none)          | X.609.3 (08/2017)  | Managed P2P communications: Multimedia streaming signalling requirements
