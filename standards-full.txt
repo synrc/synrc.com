@@ -7192,63 +7192,40 @@ Q.2961.3-1997            | (none)          | (09/97)            | Digital Subscr
 Q.2961.4-1997            | (none)          | (09/97)            | Digital Subscriber Signalling System No. 2 - Additional Traffic Parameters: Signalling Capabilities to Support Traffic Parameters for the ATM Block Transfer (ABT) ATM Transfer Capability - Study Group 11; 16 pp
 Q.2961.5-1999            | (none)          | (03/99)            | Digital Subscriber Signalling System No. 2 - Additional Traffic Parameters: Additional Traffic Parameters for Cell Delay Variation Tolerance Indication - Series Q: Switching and Signalling Broadband ISDN - B-ISDN Application Protocols for Access Signalling - Study Group 11; 21 pp
 Q.2961.6-1998            | (none)          | (05/98)            | Digital Subscriber Signalling System No. 2 - Additional Traffic Parameters: Additional Signalling Procedures for the Support of the SBR2 and SBR3 ATM Transfer Capabilities - Study Group 11; 15 pp
-Q.2962 B-2000            | (none)          | (12/00)            | Digital subscriber signalling system No. 2 鈥?Connection characteristics negotiation during call/connection establishment phase: Protocol implementation conformance statement (PICS) proforma
-Q.2962 C-2000            | (none)          | (12/00)            | Digital subscriber signalling system No. 2 鈥?Connection characteristics negotiation during call/connection establishment phase: Test suite structure and test purposes (TSS & TP) for the user
-Q.2962 D-2000            | (none)          | (12/00)            | Digital subscriber signalling system No. 2 鈥?Connection characteristics negotiation during call/connection establishment phase: Abstract test suite (ATS) and partial protocol implementation extra information for testing (PIXIT) proforma for the user
+Q.2962 B-2000            | (none)          | (12/00)            | Digital subscriber signalling system No. 2 - Connection characteristics negotiation during call/connection establishment phase: Protocol implementation conformance statement (PICS) proforma
+Q.2962 C-2000            | (none)          | (12/00)            | Digital subscriber signalling system No. 2 - Connection characteristics negotiation during call/connection establishment phase: Test suite structure and test purposes (TSS & TP) for the user
+Q.2962 D-2000            | (none)          | (12/00)            | Digital subscriber signalling system No. 2 - Connection characteristics negotiation during call/connection establishment phase: Abstract test suite (ATS) and partial protocol implementation extra information for testing (PIXIT) proforma for the user
 Q.2962 E-2000            | (none)          | (12/00)            | Digital subscriber signalling system No. 2 - Connection characteristics negotiation during call/connection establishment phase: Test Suite Structure and Test Purposes (TSS & TP) for the network
-Q.2962 F-2000            | (none)          | (12/00)            | Digital subscriber signalling system No. 2 鈥?Connection characteristics negotiation during call/connection establishment phase: Abstract test suite (ATS) and partial protocol implementation extra information for testing (PIXIT) proforma for the network
+Q.2962 F-2000            | (none)          | (12/00)            | Digital subscriber signalling system No. 2 - Connection characteristics negotiation during call/connection establishment phase: Abstract test suite (ATS) and partial protocol implementation extra information for testing (PIXIT) proforma for the network
 Q.2962-1998              | (none)          | (05/98)            | Digital Subscriber Signalling System No. 2 - Connection Characteristics Negotiation During Call/Connection Establishment Phase - Series Q: Switching and Signalling - Broadband ISDN - B-ISDN Application Protocols for Access Signalling - Study Group 11; 15 pp
-Q.2963.1 B-2000          | (none)          | (12/00)            | Digital subscriber signalling system No. 2 鈥?Connection modification: Peak cell rate modification by the connection owner: Protocol implementation conformance statement (PICS) proforma
-Q.2963.1 C-2000          | (none)          | (12/00)            | Digital subscriber signalling system No. 2 鈥?Connection modification: Peak cell rate modification by the connection owner: Test suite structure and test purposes (TSS & TP) for the user
-Q.2963.1 D-2000          | (none)          | (12/00)            | Digital subscriber signalling system No. 2 鈥?Connection modification: Peak cell rate modification by the connection owner: Abstract test suite (ATS) and partial protocol implementation extra information for testing (PIXIT) proforma for the user
-Q.2963.1 E-2000          | (none)          | (12/00)            | Digital subscriber signalling system No. 2 鈥?Connection modification: Peak cell rate modification by the connection owner: Test suite structure and test purposes (TSS & TP) for the network
-Q.2963.1 F-2000          | (none)          | (12/00)            | Digital subscriber signalling system No. 2 鈥?Connection modification: Peak cell rate modification by the connection owner: Abstract test suite (ATS) and partial protocol implementation extra information for testing (PIXIT) proforma for the network
+Q.2963.1 B-2000          | (none)          | (12/00)            | Digital subscriber signalling system No. 2 - Connection modification: Peak cell rate modification by the connection owner: Protocol implementation conformance statement (PICS) proforma
+Q.2963.1 C-2000          | (none)          | (12/00)            | Digital subscriber signalling system No. 2 - Connection modification: Peak cell rate modification by the connection owner: Test suite structure and test purposes (TSS & TP) for the user
+Q.2963.1 D-2000          | (none)          | (12/00)            | Digital subscriber signalling system No. 2 - Connection modification: Peak cell rate modification by the connection owner: Abstract test suite (ATS) and partial protocol implementation extra information for testing (PIXIT) proforma for the user
+Q.2963.1 E-2000          | (none)          | (12/00)            | Digital subscriber signalling system No. 2 - Connection modification: Peak cell rate modification by the connection owner: Test suite structure and test purposes (TSS & TP) for the network
+Q.2963.1 F-2000          | (none)          | (12/00)            | Digital subscriber signalling system No. 2 - Connection modification: Peak cell rate modification by the connection owner: Abstract test suite (ATS) and partial protocol implementation extra information for testing (PIXIT) proforma for the network
 Q.2963.1-1999            | (none)          | (12/99)            | Digital Subscriber Signalling System No. 2 - Connection Modification: Peak Cell Rate Modification by the Connection Owner - Series Q: Switching and Signalling Broadband ISDN - B-ISDN Application Protocols for Access Signalling - Study Group 11; 40 pp
-Q.2963.2                 | (none)          | (09/97)            | Digital Subscriber Signalling System No. 2 - Connection modification: Modification procedures for sustainable cell rate parameters
-Q.2963.2                 | (none)          | (09/97)            | Digital Subscriber Signalling System No. 2 鈥?Connection modification: Modification procedures for sustainable cell rate parameters
-Q.2963.2-1997            | (none)          | (09/97)            | Digital Subscriber Signalling System No. 2 鈥?Connection modification: Modification procedures for sustainable cell rate parameters
-Q.2963.3                 | (none)          | (05/98)            | Digital Subscriber Signalling System No. 2 鈥?Connection modification: ATM traffic descriptor modification with negotiation by the connection owner
-Q.2963.3-1998            | (none)          | (05/98)            | Digital Subscriber Signalling System No. 2 鈥?Connection modification: ATM traffic descriptor modification with negotiation by the connection owner - Study Group 11; 20 pp
-Q.2964.1                 | (none)          | (07/96)            | Digital Subscriber Signalling System No. 2: Basic Look-Ahead
+Q.2963.2-1997            | (none)          | (09/97)            | Digital Subscriber Signalling System No. 2 - Connection modification: Modification procedures for sustainable cell rate parameters
+Q.2963.3-1998            | (none)          | (05/98)            | Digital Subscriber Signalling System No. 2 - Connection modification: ATM traffic descriptor modification with negotiation by the connection owner - Study Group 11; 20 pp
 Q.2964.1-1996            | (none)          | (07/96)            | Digital Subscriber Signalling System No. 2: Basic Look-Ahead - Series Q: Switching and Signalling Broadband ISDN - B-ISDN Application Protocols for Access Signalling - Study Group 11; 24 pp
-Q.2965.1                 | (none)          | (03/99)            | Digital Subscriber Signalling System No. 2 - Support of Quality of Service Classes
-Q.2965.1 AMD 1           | (none)          | (06/00)            | Digital Subscriber Signalling System No. 2 - Support of Quality of Service Classes Amendment 1
 Q.2965.1 AMD 1-2000      | (none)          | (06/00)            | Digital Subscriber Signalling System No. 2 - Support of Quality of Service Classes Amendment 1
-Q.2965.1 B               | (none)          | (12/00)            | Digital subscriber signalling system No. 2 鈭?Support of Quality of Service classes: Protocol Implementation Conformance Statement (PICS) proforma
-Q.2965.1 B-2000          | (none)          | (12/00)            | Digital subscriber signalling system No. 2 鈭?Support of Quality of Service classes: Protocol Implementation Conformance Statement (PICS) proforma
+Q.2965.1 B-2000          | (none)          | (12/00)            | Digital subscriber signalling system No. 2 - Support of Quality of Service classes: Protocol Implementation Conformance Statement (PICS) proforma
 Q.2965.1-1999            | (none)          | (03/99)            | Digital Subscriber Signalling System No. 2 - Support of Quality of Service Classes - Study Group 11; 15 pp
-Q.2965.2                 | (none)          | (12/99)            | Digital Subscriber Signalling System No. 2 - Signalling of Individual Quality of Service Parameters
-Q.2965.2 B               | (none)          | (12/00)            | Digital subscriber signalling system No. 2 - Signalling of individual Quality of Service parameters: Protocol Implementation Conformance Statement (PICS) proforma
+Q.2965.2-1999            | (none)          | (12/99)            | Digital Subscriber Signalling System No. 2 - Signalling of Individual Quality of Service Parameters
 Q.2965.2 B-2000          | (none)          | (12/00)            | Digital subscriber signalling system No. 2 - Signalling of individual Quality of Service parameters: Protocol Implementation Conformance Statement (PICS) proforma
 Q.2965.2-1999            | (none)          | (12/99)            | Digital Subscriber Signalling System No. 2 - Signalling of Individual Quality of Service Parameters
 Q.297-1988               | (none)          | (11/88)            | 10. Network Management - Specifications of Signalling System No. 6 (Study Group XI) 13 pp
-Q.2971                   | (none)          | (10/95)            | BROADBAND INTEGRATED SERVICES DIGITAL NETWORK (B-ISDN) 鈥?DIGITAL SUBSCRIBER SIGNALLING SYSTEM No. 2 (DSS 2) 鈥?USER-NETWORK INTERFACE LAYER 3 SPECIFICATION FOR POINT-TO-MULTIPOINT CALL/CONNECTION CONTROL
-Q.2971 C                 | (none)          | (12/99)            | Digital Subscriber Signalling System No. 2 - User-Network Interface Layer 3 Specification for Point-to-Multipoint Call/Connection Control: Test Suite Structure and Test Purposes (TSS & TP) for the User
 Q.2971 C-1999            | (none)          | (12/99)            | Digital Subscriber Signalling System No. 2 - User-Network Interface Layer 3 Specification for Point-to-Multipoint Call/Connection Control: Test Suite Structure and Test Purposes (TSS & TP) for the User Series Q: Switching and Signalling Broadband ISDN - B-ISDN Application Protocols for Access Signalling - Study Group 11; 12 pp
-Q.2971 CORR 1            | (none)          | (12/99)            | Digital subscriber signalling system No. 2 (DSS2) 鈥?User-Network Interface Layer 3 specification for point-to-multipoint Call/Connection Control Corrigendum 1
-Q.2971 CORR 1-1999       | (none)          | (12/99)            | Digital Subscriber Signalling System No.2 (DSS2) - User-Network Interface Layer 3 Specification for Point-to-Multipoint Call/Connection Control - Corrigendum 1 - Series Q: Switching and Signalling - Broadband ISDN - B-ISDN Application Protocols for Access Signalling - Study Group 11; 15pp
-Q.2971 D                 | (none)          | (12/99)            | Digital subscriber signalling system No. 2 - User-network interface layer 3 specification for point-to-multipoint call/connection control: Abstract Test Suite (ATS) and partial Protocol Implementation extra Information for Testing (PIXIT) proforma for the user
-Q.2971 D                 | (none)          | (12/99)            | Digital subscriber signalling system No. 2 - User-network interface layer 3 specification for point-to-multipoint call/connection control: Abstract Test Suite (ATS) and partial Protocol Implementation eXtra Information for Testing (PIXIT) proforma for the user
+Q.2971 CORR 1-1999       | (none)          | (12/99)            | Digital Subscriber Signalling System No. 2 (DSS2) - User-Network Interface Layer 3 Specification for Point-to-Multipoint Call/Connection Control - Corrigendum 1 - Series Q: Switching and Signalling - Broadband ISDN - B-ISDN Application Protocols for Access Signalling - Study Group 11; 15pp
 Q.2971 D-1999            | (none)          | (12/99)            | Digital Subscriber Signalling System No. 2 - User-Network Interface Layer 3 Specification for Point-to-Multipoint Call/Connection Control: Abstract Test Suite (ATS) and Partial Protocol Implementation eXtra Information for Testing (PIXIT) Proforma for the User Series Q: Switching and Signalling Broadband ISDN - B-ISDN Application Protocols for Access Signalling - Study Group 11; 18 pp
-Q.2971 E                 | (none)          | (12/99)            | Digital subscriber signalling system No. 2 - User-network interface layer 3 specification for point-to-multipoint call/connection control : Test Suite Structure and Test Purposes (TSS & TP) for the network
-Q.2971 E                 | (none)          | (12/99)            | Digital subscriber signalling system No. 2 - User-network interface layer 3 specification for point-to-multipoint call/connection control: Test Suite Structure and Test Purposes (TSS & TP) for the network
 Q.2971 E-1999            | (none)          | (12/99)            | Digital Subscriber Signalling System No. 2 - User-Network Interface Layer 3 Specification for Point-to-Multipoint Call/Connection Control: Test Suite Structure and Test Purposes (TSS & TP) for the Network Series Q: Switching and Signalling Broadband ISDN - B-ISDN Application Protocols for Access Signalling - Study Group 11; 14 pp
-Q.2971 F                 | (none)          | (12/99)            | Digital Subscriber Signalling System No. 2 - User-network interface layer 3 specification for point-to-multipoint call/connection control : Abstract Test Suite (ATS) and partial Protocol Implementation extra Information for Testing (PIXIT) proforma for the network
 Q.2971 F-1999            | (none)          | (12/99)            | Digital Subscriber Signalling System No. 2 - User-Network Interface Layer 3 Specification for Point-to-Multipoint Call/Connection Control: Abstract Test Suite (ATS) and Partial Protocol Implementation eXtra Information for Testing (PIXIT) Proforma for the Network Series Q: Switching and Signalling Broadband ISDN - B-ISDN Application Protocols for Access Signalling - Study Group 11; 24 pp
 Q.2971-1995              | (none)          | (01/95)            | Broadband Integrated Services Digital Network (B-ISDN) - Digital Subscriber Signalling System No. 2 (DSS 2) - User-Network Interface Layer 3 Specification for Point-to-Multipoint Call/Connection Control - B-ISDN Application Protocols for Access Signalling (Study Group 11) 174 pp
-Q.2981                   | (none)          | (12/99)            | Broadband Integrated Services Digital Network (B-ISDN) and Broadband Private Integrated Services Network (B-PISN) - Call Control Protocol
 Q.2981-1999              | (none)          | (12/99)            | Broadband Integrated Services Digital Network (B-ISDN) and Broadband Private Integrated Services Network (B-PISN) - Call Control Protocol
-Q.2982                   | (none)          | (12/99)            | Broadband integrated services digital network (B-ISDN) - Digital subscriber signalling No. 2 (DSS2) - Q.2931-based separated call control protocol
-Q.2982                   | (none)          | (12/99)            | Broadband integrated services digital network (B-ISDN) - Digital subscriber signalling No. 2 (DSSZ) - Q.2931 -based separated call control protocol
 Q.2982-1999              | (none)          | (12/99)            | Broadband Integrated Services Digital Network (B-ISDN) - Digital Subscriber Signalling No.2 (DSS2) - Q.2931-Based Separated Call Control Protocol - Series Q: Switching and Signalling Broadband ISDN - B-ISDN Application Protocols for Access Signalling - Study Group 11; 30pp
-Q.2983                   | (none)          | (12/99)            | Broadband integrated services digital network (B-ISDN) - Digital subscriber signalling No. 2 (DSS2) - Bearer control protocol
 Q.2983-1999              | (none)          | (12/99)            | Broadband Integrated Services Digital Network (B-ISDN) - Digital Subscriber Signalling No.2 (DSS2) - Bearer Control Protocol - Series Q: Switching and Signalling - Broadband ISDN - B-ISDN Application Protocols for Access Signalling - Study Group 11; 19pp
-Q.2984                   | (none)          | (12/99)            | Broadband Integrated Services Digital Network (B-ISDN) and Broadband Private Integrated Services Network (B-PISN) - Prenegotiation
 Q.2984-1999              | (none)          | (12/99)            | Broadband Integrated Services Digital Network (B-ISDN) and Broadband Private Integrated Services Network (B-PISN) - Prenegotiation - Study Group 11; 28 pp
-Q.2991.1                 | (none)          | (12/99)            | Abstract test suite for the network integration testing for B-ISDN and B-ISDN/N-ISDN: TSS & TP
 Q.2991.1-1999            | (none)          | (12/99)            | Abstract Test Suite for the Network Integration Testing for B-ISDN and B-ISDN/N-ISDN: TSS & TP Series Q: Switching and Signalling Broadband ISDN - B-ISDN Application Protocols for Access Signalling
 Q.2991.2-1999            | (none)          | (12/99)            | Abstract Test Suite for the Network Integration Testing for B-ISDN and B-ISDN/N-ISDN: ICS & IXIT and ATS Series Q: Switching and Signalling Broadband ISDN - B-ISDN Application Protocols for Access Signalling
-Q.30                     | (none)          | (11/88)            | IMPROVING THE RELIABILITY OF CONTACTS IN SPEECH CIRCUITS
 Q.30-1988                | (none)          | (11/88)            | IMPROVING THE RELIABILITY OF CONTACTS IN SPEECH CIRCUITS
 Q.300-1988               | (none)          | (11/88)            | Interworking Between CCITT Signalling System No. 6 and National Common Channel Signalling Systems - Specifications of Signalling System No. 6 (Study Group XI) 4 pp
 Q.3030-2008              | (none)          | (02/08)            | Signalling architecture for the NGN service control plane
@@ -7266,7 +7243,6 @@ Q.3058-2020              | (none)          | (09/20)            | Signalling arc
 Q.3059-2020              | (none)          | (09/20)            | Signalling requirements for service function discovery
 Q.3060-2020              | (none)          | (12/20)            | Signalling architecture of fast deployment emergency telecommunication networks to be used in a natural disaster
 Q.3060-2020              | (none)          | (12/20)            | Signalling architecture of the fast deployment emergency telecommunication network to be used in a natural disaster
-Q.31                     | (none)          | (11/88)            | NOISE IN A NATIONAL 4-WIRE AUTOMATIC EXCHANGE
 Q.31-1988                | (none)          | (11/88)            | NOISE IN A NATIONAL 4-WIRE AUTOMATIC EXCHANGE
 Q.310-Q.332              | (none)          | (11/88)            | Specifications of Signalling System R1
 Q.310-Q.332-1988         | (none)          | (11/88)            | Specifications of Signalling System R1 - Study Group XI
@@ -7281,7 +7257,6 @@ Q.316-1988               | (none)          | (11/88)            | PCM Line Signa
 Q.317-1988               | (none)          | (11/88)            | Further Specification Clauses Relative to Line Signalling - Specifications of Signalling Systems R1 and R2 (Study Group XI) 2 pp
 Q.318-1988               | (none)          | (11/88)            | Double Seizing with Both-Way Operation - Specifications of Signalling Systems R1 and R2 (Study Group XI) 1 pp
 Q.319-1988               | (none)          | (11/88)            | Speed of Switching in International Exchanges - Specifications of Signalling Systems R1 and R2 (Study Group XI) 1 pp
-Q.32                     | (none)          | (11/88)            | REDUCTION OF THE RISK OF INSTABILITY BY SWITCHING MEANS
 Q.32-1988                | (none)          | (11/88)            | REDUCTION OF THE RISK OF INSTABILITY BY SWITCHING MEANS
 Q.320-1989               | (none)          | (01/89)            | Register Signalling- Signal Code for Register Signalling - Specifications of Signalling Systems R1 and R2 (Study Group XI) 2 pp
 Q.3201-2007              | (none)          | (10/07)            | EAP-based security signalling protocol architecture for network attachment
@@ -7306,7 +7281,6 @@ Q.326-1989               | (none)          | (01/89)            | Switching to t
 Q.327-1989               | (none)          | (01/89)            | Testing Arrangements- General Arrangements - Specifications of Signalling Systems R1 and R2 (Study Group XI) 1 pp
 Q.328-1989               | (none)          | (01/89)            | Routine Testing of Equipment (Local Maintenance) - Specifications of Signalling Systems R1 and R2 (Study Group XI) 2 pp
 Q.329-1989               | (none)          | (01/89)            | Manual Testing - Specifications of Signalling Systems R1 and R2 (Study Group XI) 1 pp
-Q.33                     | (none)          | (11/88)            | PROTECTION AGAINST THE EFFECTS OF FAULTY TRANSMISSION ON GROUPS OF CIRCUITS
 Q.33-1988                | (none)          | (11/88)            | PROTECTION AGAINST THE EFFECTS OF FAULTY TRANSMISSION ON GROUPS OF CIRCUITS
 Q.330-1989               | (none)          | (01/89)            | Automatic Transmission and Signallimg Testing - Specifications of Signalling Systems R1 and R2 (Study Group XI) 1 pp
 Q.3300-2008              | (none)          | (01/08)            | Architectural framework for the Q.33xx series of Recommendations
@@ -7401,7 +7375,6 @@ Q.3720-2020              | (none)          | (09/20)            | Procedures for
 Q.3740-2018              | (none)          | (01/18)            | Signalling requirements for software-defined networking and network function virtualization based central office services
 Q.3741-2019              | (none)          | (07/19)            | Signalling requirements for SD-WAN service
 Q.3745-2020              | (none)          | (04/20)            | Protocol for time constraint Internet of thingsbased applications over software-defined networking
-Q.3900                   | (none)          | (09/06)            | Methods of testing and model network architecture for NGN technical means testing as applied to public telecommunication networks
 Q.3900-2006              | (none)          | (09/06)            | Methods of testing and model network architecture for NGN technical means testing as applied to public telecommunication networks
 Q.3901-2008              | (none)          | (01/08)            | Testing topology for networks and services based on NGN technical means
 Q.3902-2008              | (none)          | (01/08)            | Operational parameters to be monitored when implementing NGN technical means in public telecommunication networks
@@ -7461,7 +7434,6 @@ Q.3960-2016              | (none)          | (07/16)            | Framework of I
 Q.3961-2020              | (none)          | (09/20)            | Parameters for bottleneck evaluation of the web-browsing service
 Q.3961-2020              | (none)          | (09/20)            | Parameters for evaluating bottleneck of webbrowsing service
 Q.3963-2020              | (none)          | (04/20)            | Compatibility testing of software-defined networking (SDN)-based equipment using the OpenFlow protocol
-Q.4                      | (none)          | (11/88)            | AUTOMATIC SWITCHING FUNCTIONS FOR USE IN NATIONAL NETWORKS
 Q.4-1988                 | (none)          | (11/88)            | AUTOMATIC SWITCHING FUNCTIONS FOR USE IN NATIONAL NETWORKS
 Q.40-1989                | (none)          | (01/89)            | Transmission Plan - General Recommendations on Telephone Switching and Signalling - Functions and Information Flows for Services in the ISDN - Supplements - Study Group XI; 5 pp; Cancelled
 Q.400-Q.490              | (none)          | (11/88)            | Specifications of Signalling System R2
@@ -7534,12 +7506,10 @@ Q.422-1988               | (none)          | (11/88)            | Line Signallin
 Q.424-1989               | (none)          | (01/89)            | Line Signalling, Digital Version - Protection Against the Effects of Faulty Transmission - Specifications of Signalling Systems R1 and R2 (Study Group XI) 2 pp
 Q.43-1989                | (none)          | (01/89)            | Transmission Losses, Relative Levels - General Recommendations on Telephone Switching and Signalling - Functions and Information Flows for Services in the ISDN - Supplements - Study Group XI; 6 pp; Cancelled
 Q.430-1988               | (none)          | (11/88)            | Line Signalling, Digital Version - Conversion between Analogue and Digital Versions of System R2 Line Signalling - Specifications of Signalling Systems R1 and R2 (Study Group XI) 21 pp
-Q.44                     | (none)          | (11/88)            | ATTENUATION DISTORTION
 Q.44-1988                | (none)          | (11/88)            | ATTENUATION DISTORTION
 Q.440-1989               | (none)          | (01/89)            | Interregister Signalling - General - Specifications of Signalling Systems R1 and R2 (Study Group XI) 4 pp
 Q.441-1989               | (none)          | (01/89)            | Interregister Signalling - Signalling Code - Specifications of Signalling Systems R1 and R2 (Study Group XI) 10 pp
 Q.442-1989               | (none)          | (01/89)            | Interregister Signalling - Pulse Transmission of Backward Signals A-3, A-4, A-6 or A-15. Multifrequency Signalling Equipment - Specifications of Signalling Systems R1 and R2 (Study Group XI) 2 pp
-Q.45                     | (none)          | (10/84)            | TRANSMISSION CHARACTERISTICS OF AN ANALOGUE INTERNATIONAL EXCHANGE
 Q.45 BIS                 | (none)          | (11/88)            | TRANSMISSION CHARACTERISTICS OF AN ANALOGUE INTERNATIONAL EXCHANGE
 Q.45 BIS-1988            | (none)          | (11/88)            | TRANSMISSION CHARACTERISTICS OF AN ANALOGUE INTERNATIONAL EXCHANGE
 Q.45-1984                | (none)          | (10/84)            | TRANSMISSION CHARACTERISTICS OF AN ANALOGUE INTERNATIONAL EXCHANGE
@@ -7566,23 +7536,16 @@ Q.475-1989               | (none)          | (01/89)            | Signalling Pro
 Q.476-1989               | (none)          | (01/89)            | Signalling Procedures - Abnormal Release of Outgoing and Incoming R2 Registers - Specifications of Signalling Systems R1 and R2 (Study Group XI) 2 pp
 Q.478-1989               | (none)          | (01/89)            | Signalling Procedures - Relay and Regeneration of R2 Interregister Signals by an Outgoing R2 Register in a Transit Exchange - Specifications of Signalling Systems R1 and R2 (Study Group XI) 2 pp
 Q.479-1989               | (none)          | (01/89)            | Signalling Procedures - Echo-Suppressor Control - Signalling Requirements - Specifications of Signalling Systems R1 and R2 (Study Group XI) 4 pp
-Q.48                     | (none)          | (11/88)            | Demand assignment signalling systems
-Q.48                     | (none)          | (11/88)            | DEMAND ASSIGNMENT SIGNALLING SYSTEMS
 Q.48-1988                | (none)          | (11/88)            | Demand assignment signalling systems
 Q.480-1989               | (none)          | (01/89)            | Signalling Procedures - Miscellaneous Procedures - Specifications of Signalling Systems R1 and R2 (Study Group XI) 2 pp
 Q.49-1989                | (none)          | (01/89)            | Specification for the CCITT Automatic Transmission Measuring and Signalling Testing Equipment ATME No. 2 - General Recommendations on Telephone Switching and Signalling - Functions and Information Flows for Services in the ISDN - Supplements - Study Group XI; 1 pp; Cancelled
 Q.490-1988               | (none)          | (11/88)            | Testing and Maintenance - Specifications of Signalling Systems R1 and R2 (Study Group XI) 5 pp
-Q.5                      | (none)          | (11/88)            | ADVANTAGES OF SEMI-AUTOMATIC SERVICE IN THE INTERNATIONAL TELEPHONE SERVICE
 Q.5-1988                 | (none)          | (11/88)            | ADVANTAGES OF SEMI-AUTOMATIC SERVICE IN THE INTERNATIONAL TELEPHONE SERVICE
-Q.50                     | (none)          | (07/01)            | Signalling between Circuit Multiplication Equipment (CME) and International Switching Centres (ISC)
 Q.50 NOTE                | (none)          | (08/06)            | Signalling between Circuit Multiplication Equipment (CME) and International Switching Centres (ISC)
 Q.50 NOTE-2006           | (none)          | (08/06)            | Signalling between Circuit Multiplication Equipment (CME) and International Switching Centres (ISC)
 Q.50-2001                | (none)          | (07/01)            | Signalling between Circuit Multiplication Equipment (CME) and International Switching Centres (ISC)
-Q.50.1                   | (none)          | (07/01)            | Signalling between International Switching Centres (ISC) and Digital Circuit Multiplication Equipment (DCME) including the control of compression/decompression
 Q.50.1-2001              | (none)          | (07/01)            | Signalling between International Switching Centres (ISC) and Digital Circuit Multiplication Equipment (DCME) including the control of compression/decompression
-Q.50.2                   | (none)          | (12/02)            | Signalling between International Switching Centres (ISC) and Digital Circuit Multiplication Equipment (DCME) including the control of compression/decompression over an IP network
 Q.50.2-2002              | (none)          | (12/02)            | Signalling between International Switching Centres (ISC) and Digital Circuit Multiplication Equipment (DCME) including the control of compression/decompression over an IP network SERIES Q: SWITCHING AND SIGNALLING International automatic and semi-automatic working 鈥?Signalling for circuit multiplication equipment
-Q.500                    | (none)          | (11/88)            | DIGITAL LOCAL, COMBINED, TRANSIT AND INTERNATIONAL EXCHANGES - INTRODUCTION AND FIELD OF APPLICATION
 Q.500-1988               | (none)          | (11/88)            | DIGITAL LOCAL, COMBINED, TRANSIT AND INTERNATIONAL EXCHANGES - INTRODUCTION AND FIELD OF APPLICATION
 Q.5001-2018              | (none)          | (10/18)            | Signalling requirements and architecture of intelligent edge computing
 Q.5002-2019              | (none)          | (12/19)            | Signalling requirements and architecture for media service entity attachment
@@ -7591,45 +7554,27 @@ Q.5021-2019              | (none)          | (07/19)            | Protocol for m
 Q.5022-2020              | (none)          | (04/20)            | Signalling procedure of energy efficient device-to-device communication for IMT-2020 networks
 Q.5023-2021              | (none)          | (08/21)            | Protocol for managing intelligent network slicing with AI-assisted analysis in IMT-2020 networks
 Q.5050-2019              | (none)          | (03/19)            | Framework for solutions to combat counterfeit ICT devices
-Q.5051                   | (none)          | (03/20)            | Framework for combating the use of stolen mobile devices
 Q.5051-2020              | (none)          | (03/20)            | Framework for combating the use of stolen mobile devices
 Q.5052-2020              | (none)          | (09/20)            | Addressing mobile devices with a duplicate unique identifier
 Q.5052-2020              | (none)          | (09/20)            | Addressing mobile devices with duplicate unique identifier
 Q.5053-2021              | (none)          | (01/21)            | Mobile device access list audit interface
-Q.511                    | (none)          | (11/88)            | EXCHANGE INTERFACES TOWARDS OTHER EXCHANGES
 Q.511-1988               | (none)          | (11/88)            | EXCHANGE INTERFACES TOWARDS OTHER EXCHANGES
-Q.512                    | (none)          | (02/95)            | DIGITAL EXCHANGE INTERFACES FOR SUBSCRIBER ACCESS
 Q.512-1995               | (none)          | (01/95)            | Digital Exchange Interfaces for Subscriber Access - Digital Exchanges (Study Group 11) 14 pp
-Q.513                    | (none)          | (03/93)            | DIGITAL EXCHANGE INTERFACES FOR OPERATIONS, ADMINISTRATION AND MAINTENANCE
 Q.513-1993               | (none)          | (01/93)            | Digital Exchange Interfaces for Operations, Administration and Maintenance - Digital Exchanges (Study Group XI) 7 pp
-Q.52                     | (none)          | (03/01)            | Signalling between international switching centres and stand-alone echo control devices
 Q.52-2001                | (none)          | (03/01)            | Signalling between international switching centres and stand-alone echo control devices
-Q.521                    | (none)          | (03/93)            | DIGITAL EXCHANGE FUNCTIONS
 Q.521-1993               | (none)          | (01/93)            | Digital Exchange Functions - Digital Exchanges (Study Group XI) 10 pp
-Q.522                    | (none)          | (11/88)            | DIGITAL EXCHANGE CONNECTIONS, SIGNALLING AND ANCILLARY FUNCTIONS
 Q.522-1988               | (none)          | (11/88)            | DIGITAL EXCHANGE CONNECTIONS, SIGNALLING AND ANCILLARY FUNCTIONS
-Q.541                    | (none)          | (03/93)            | DIGITAL EXCHANGE DESIGN OBJECTIVES - GENERAL
 Q.541-1993               | (none)          | (03/93)            | Digital Exchange Design Objectives - General - Digital Exchanges (Study Group XI) 9 pp
-Q.542                    | (none)          | (03/93)            | DIGITAL EXCHANGE DESIGN OBJECTIVES - OPERATIONS AND MAINTENANCE
 Q.542-1989               | (none)          | (01/89)            | Digital Exchange Design Objectives - Operations and Maintenance - Digital Local, Transit, Combined and International Exchanges in Integrated Digital Networks and Mixed Analogue-Digital Networks - Supplements (Study Group XI) 21 pp
 Q.542-1993               | (none)          | (03/93)            | Digital Exchange Design Objectives - Operations and Maintenance - Digital Exchanges (Study Group XI) 24 pp
-Q.543                    | (none)          | (03/93)            | Digital Exchange Performance Design Objectives
 Q.543-1993               | (none)          | (03/93)            | Digital Exchange Performance Design Objectives (Study Group XI) 39 pp
-Q.544                    | (none)          | (11/88)            | DIGITAL EXCHANGE MEASUREMENTS
 Q.544-1988               | (none)          | (11/88)            | DIGITAL EXCHANGE MEASUREMENTS
-Q.55                     | (none)          | (12/99)            | Signalling Between Signal Processing Network Equipments (SPNE) and International Switching Centres (ISC)
 Q.55-1999                | (none)          | (12/99)            | Signalling Between Signal Processing Network Equipments (SPNE) and International Switching Centres (ISC) - Series Q: Switching and Signalling International Automatic and Semi-Automatic Working - Signalling for Circuit Multiplication Equipment
-Q.551                    | (none)          | (01/02)            | Transmission characteristics of digital exchanges
 Q.551-2002               | (none)          | (01/02)            | Transmission Characteristics of Digital Exchanges
-Q.552                    | (none)          | (11/01)            | Transmission characteristics at 2-wire analogue interfaces of digital exchanges
 Q.552-2001               | (none)          | (11/01)            | Transmission Characteristics at 2-Wire Analogue Interfaces of Digital Exchanges Series Q: Switching and Signalling Digital Exchanges - Transmission Characteristics
-Q.553                    | (none)          | (11/01)            | Transmission characteristics at 4-wire analogue interfaces of digital exchanges
 Q.553-2001               | (none)          | (11/01)            | Transmission Characteristics at 4-Wire Analogue Interfaces of Digital Exchanges - Series Q: Switching and Signalling Digital Exchanges - Transmission Characteristics
-Q.554                    | (none)          | (11/96)            | Transmission characteristics at digital interfaces of digital exchanges
 Q.554-1996               | (none)          | (11/96)            | Transmission Characteristics at Digital Interfaces of Digital Exchanges - Series Q: Switching and Signalling Digital Exchanges - Transmission Characteristics - Study Group 15; 11 pp
-Q.56                     | (none)          | (05/01)            | Signalling between signal processing network equipment (SPNE) and international switching centres (ISC) over an IP network
 Q.56-2001                | (none)          | (05/01)            | Signalling Between Signal Processing Network Equipment (SPNE) and International Switching Centres (ISC) over an IP Network Series Q: Switching and Signalling International Automatic and Semi-Automatic Working - Signalling for Circuit Multiplication Equipment
-Q.6                      | (none)          | (11/88)            | ADVANTAGES OF INTERNATIONAL AUTOMATIC WORKING
 Q.6-1988                 | (none)          | (11/88)            | ADVANTAGES OF INTERNATIONAL AUTOMATIC WORKING
 Q.601-1993               | (none)          | (01/93)            | Interworking of Signalling Systems - General - Interworking of Signalling Systems (Study Group XI) 4 pp
 Q.601-Q.695 ANNEX A      | (none)          | (03/93)            | Interworking of Signalling Systems 鈥?Lists and meanings of FITEs, BITEs and SPITEs 鈥?Representation of information contents of signals of the Signalling Systems
@@ -7638,590 +7583,317 @@ Q.601-Q.695 ANNEX A-1993 | (none)          | (03/93)            | interworking o
 Q.601-Q.695 ANNEX B      | (none)          | (03/93)            | INTERWORKING OF SIGNALLING SYSTEMS - NARRATIVE PRESENTATION OF INTERWORKING
 Q.601-Q.695 ANNEX B-1993 | (none)          | (01/93)            | Interworking of Signalling Systems - Narrative Presentation of Interworking of Signalling Systems - Study Group XI
 Q.601-Q.695 ANNEX B-1993 | (none)          | (03/93)            | Interworking of Signalling Systems - Narrative Presentation of Interworking - Interworking of Signalling Systems - Study Group XI; 26 pp
-Q.602                    | (none)          | (03/93)            | INTERWORKING OF SIGNALLING SYSTEMS - INTRODUCTION
 Q.602-1993               | (none)          | (01/93)            | Interworking of Signalling Systems - Introduction - Interworking of Signalling Systems (Study Group XI) 6 pp
-Q.603                    | (none)          | (11/88)            | INTERWORKING OF SIGNALLING SYSTEMS - EVENTS
 Q.603-1988               | (none)          | (11/88)            | INTERWORKING OF SIGNALLING SYSTEMS - EVENTS
-Q.604                    | (none)          | (03/93)            | INTERWORKING OF SIGNALLING SYSTEMS - INFORMATION ANALYSIS TABLES
 Q.604-1993               | (none)          | (03/93)            | Interworking of Signalling Systems - Information Analysis Tables (Study Group XI) 5 pp
-Q.605                    | (none)          | (11/88)            | INTERWORKING OF SIGNALING SYSTEMS 鈥?DRAWING CONVENTIONS
 Q.605-1988               | (none)          | (11/88)            | INTERWORKING OF SIGNALING SYSTEMS 鈥?DRAWING CONVENTIONS
-Q.606                    | (none)          | (11/88)            | LOGIC PROCEDURES
 Q.606-1988               | (none)          | (11/88)            | LOGIC PROCEDURES
-Q.607                    | (none)          | (11/88)            | INTERWORKING OF SIGNALLING SYSTEMS - INTERWORKING REQUIREMENTS FOR NEW SIGNALLING SYSTEMS
 Q.607-1988               | (none)          | (11/88)            | INTERWORKING REQUIREMENTS FOR NEW SIGNALLING SYSTEMS
-Q.608                    | (none)          | (11/88)            | MISCELLANEOUS INTERWORKING ASPECTS
 Q.608-1988               | (none)          | (11/88)            | MISCELLANEOUS INTERWORKING ASPECTS
-Q.611                    | (none)          | (11/88)            | LOGIC PROCEDURES FOR INCOMING SIGNALLING SYSTEM NO. 4
 Q.611-1988               | (none)          | (11/88)            | LOGIC PROCEDURES FOR INCOMING SIGNALLING SYSTEM No. 4
-Q.612                    | (none)          | (11/88)            | LOGIC PROCEDURES FOR INCOMING SIGNALLING SYSTEM NO. 5
 Q.612-1988               | (none)          | (11/88)            | Logic procedures for incoming signalling system No. 5
-Q.613                    | (none)          | (11/88)            | LOGIC PROCEDURES FOR INCOMING SIGNALLING SYSTEM NO. 6
 Q.613-1988               | (none)          | (11/88)            | Logic procedures for incoming signalling system No. 6
-Q.614                    | (none)          | (03/93)            | INTERWORKING OF SIGNALLING SYSTEMS 鈥?LOGIC PROCEDURES FOR INCOMING SIGNALLING SYSTEM No. 7 (TUP)
 Q.614-1993               | (none)          | (03/93)            | Interworking of Signalling Systems - Logic Procedures for Incoming Signalling System No. 7 (TUP) (Study Group XI) 18 pp
-Q.615                    | (none)          | (11/88)            | LOGIC PROCEDURES FOR INCOMING SIGNALLING SYSTEM R1
 Q.615-1988               | (none)          | (11/88)            | LOGIC PROCEDURES FOR INCOMING SIGNALLING SYSTEM R1
-Q.616                    | (none)          | (11/88)            | LOGIC PROCEDURES FOR INCOMING SIGNALLING SYSTEM R2
 Q.616-1988               | (none)          | (11/88)            | LOGIC PROCEDURES FOR INCOMING SIGNALLING SYSTEM R2
-Q.617                    | (none)          | (03/93)            | INTERWORKING OF SIGNALLING SYSTEMS 鈥?LOGIC PROCEDURES FOR INCOMING SIGNALLING SYSTEM No. 7 (ISUP)
 Q.617-1993               | (none)          | (03/93)            | Interworking of Signalling Systems - Logic Procedures for Incoming Signalling System No. 7 (ISUP) (Study Group XI) 20 pp
-Q.621                    | (none)          | (11/88)            | LOGIC PROCEDURES FOR OUTGOING SIGNALLING SYSTEM NO. 4
 Q.621-1988               | (none)          | (11/88)            | LOGIC PROCEDURES FOR OUTGOING SIGNALLING SYSTEM NO. 4
-Q.622                    | (none)          | (11/88)            | LOGIC PROCEDURES FOR OUTGOING SIGNALLING SYSTEM NO. 5
 Q.622-1988               | (none)          | (11/88)            | LOGIC PROCEDURES FOR OUTGOING SIGNALLING SYSTEM NO. 5
-Q.623                    | (none)          | (11/88)            | Logic Procedures for Outgoing Signalling System No. 6
 Q.623-1988               | (none)          | (11/88)            | Logic Procedures for Outgoing Signalling System No. 6
-Q.624                    | (none)          | (03/93)            | INTERWORKING OF SIGNALLING SYSTEMS 鈥?LOGIC PROCEDURES FOR OUTGOING SIGNALLING SYSTEM No. 7 (TUP)
 Q.624-1993               | (none)          | (03/93)            | INTERWORKING OF SIGNALLING SYSTEMS 鈥?LOGIC PROCEDURES FOR OUTGOING SIGNALLING SYSTEM No. 7 (TUP) - Study Group XI
-Q.625                    | (none)          | (11/88)            | Logic Procedures for Outgoing Signalling System R1
 Q.625-1988               | (none)          | (11/88)            | Logic Procedures for Outgoing Signalling System R1
-Q.626                    | (none)          | (11/88)            | Logic Procedures for Outgoing Signalling System R2
-Q.626                    | (none)          | (11/88)            | PROCEDIMIENTOS LÓGICOS PARA EL SISTEMA DE SEÑALIZACIÓN R2 DE SALIDA
 Q.626-1988               | (none)          | (11/88)            | Logic Procedures for Outgoing Signalling System R2
-Q.627                    | (none)          | (03/93)            | INTERWORKING OF SIGNALLING SYSTEMS - LOGIC PROCEDURES FOR OUTGOING SIGNALLING SYSTEM No. 7 (ISUP)
 Q.627-1993               | (none)          | (03/93)            | Interworking of Signalling Systems - Logic Procedures for Outgoing Signalling System No. 7 (ISUP) (Study Group XI) 12 pp
-Q.634                    | (none)          | (11/88)            | Logic Procedures for Interworking of Signalling System No. 4 to R2
 Q.634-1988               | (none)          | (11/88)            | Logic Procedures for Interworking of Signalling System No. 4 to R2
-Q.642                    | (none)          | (11/88)            | Logic Procedures for Interworking of Signalling System No. 5 to No. 6
 Q.642-1988               | (none)          | (11/88)            | Logic Procedures for Interworking of Signalling System No. 5 to No. 6
-Q.643                    | (none)          | (11/88)            | LOGIC PROCEDURES FOR INTERWORKING OF SIGNALLING SYSTEM No.5 TO No.7 (TUP)
 Q.643-1988               | (none)          | (11/88)            | LOGIC PROCEDURES FOR INTERWORKING OF SIGNALLING SYSTEM No.5 TO No.7 (TUP)
-Q.644                    | (none)          | (11/88)            | Logic procedures for interworking of signalling system No. 5 to R1
 Q.644-1989               | (none)          | (01/89)            | Logic Procedures for Interworking of Signalling System No. 5 to R1 - Interworking of Signalling Systems (Study Group XI) 2 pp
-Q.645                    | (none)          | (11/88)            | Logic procedures for interworking of signalling system No. 5 to R2
 Q.645-1988               | (none)          | (11/88)            | Logic procedures for interworking of signalling system No. 5 to R2
-Q.646                    | (none)          | (03/93)            | INTERWORKING OF SIGNALLING SYSTEMS - LOGIC PROCEDURES FOR INTERWORKING OF SIGNALLING SYSTEM No. 5 TO SIGNALLING SYSTEM No. 7 (ISUP)
 Q.646-1993               | (none)          | (03/93)            | Interworking of Signalling Systems - Logic Procedures for Interworking of Signalling System No. 5 to Signalling System No. 7 (ISUP) - Interworking of Signalling Systems (Study Group XI) 9 pp
-Q.65                     | (none)          | (06/00)            | The unified functional methodology for the characterization of services and network capabilities including alternative object-oriented techniques
 Q.65-2000                | (none)          | (06/00)            | Unified Functional Methodology for the Characterization of Services and Network Capabilities Including Alternative Object-Oriented Techniques Series Q: Switching and Signalling Functions and Information Flows for Services in the ISDN - Methodology
-Q.652                    | (none)          | (11/88)            | Logic procedures for interworking of signalling system No. 6 to No. 5
 Q.652-1988               | (none)          | (11/88)            | Logic procedures for interworking of signalling system No. 6 to No. 5
-Q.653                    | (none)          | (11/88)            | Logic procedures for interworking of signalling system No. 6 to No. 7 (TUP)
 Q.653-1988               | (none)          | (11/88)            | Logic procedures for interworking of signalling system No. 6 to No. 7 (TUP)
-Q.654                    | (none)          | (11/88)            | Logic procedures for interworking of signalling system No. 6 to R1
 Q.654-1988               | (none)          | (11/88)            | Logic procedures for interworking of signalling system No. 6 to R1
-Q.655                    | (none)          | (11/88)            | Logic procedures for interworking of signalling system No. 6 to R2
 Q.655-1988               | (none)          | (11/88)            | Logic procedures for interworking of signalling system No. 6 to R2
-Q.656                    | (none)          | (03/93)            | INTERWORKING OF SIGNALLING SYSTEMS - LOGIC PROCEDURES FOR INTERWORKING OF SIGNALLING SYSTEM No. 6 TO SIGNALLING SYSTEM No. 7 (ISUP)
 Q.656-1993               | (none)          | (01/93)            | Interworking of Signalling Systems - Logic Procedures for Interworking of Signalling System No. 6 to Signalling System No. 7 (ISUP) - Interworking of Signalling Systems (Study Group XI) 12 pp
-Q.662                    | (none)          | (11/88)            | Logic procedures for interworking of signalling system No. 7 (TUP) to No. 5
 Q.662-1988               | (none)          | (11/88)            | Logic procedures for interworking of signalling system No. 7 (TUP) to No. 5
-Q.663                    | (none)          | (11/88)            | Logic procedures for interworking of signalling system No. 7 (TUP) to No. 6
 Q.663-1988               | (none)          | (11/88)            | Logic procedures for interworking of signalling system No. 7 (TUP) to No. 6
-Q.664                    | (none)          | (11/88)            | LOGIC PROCEDURES FOR INTERWORKING OF SIGNALLING SYSTEM No. 7 (TUP) TO No. 7 (TUP)
 Q.664-1988               | (none)          | (11/88)            | LOGIC PROCEDURES FOR INTERWORKING OF SIGNALLING SYSTEM No. 7 (TUP) TO No. 7 (TUP)
-Q.665                    | (none)          | (11/88)            | LOGIC PROCEDURES FOR INTERWORKING OF SIGNALLING SYSTEM No. 7 (TUP) TO R1
 Q.665-1988               | (none)          | (11/88)            | LOGIC PROCEDURES FOR INTERWORKING OF SIGNALLING SYSTEM No. 7 (TUP) TO R1
-Q.666                    | (none)          | (11/88)            | LOGIC PROCEDURES FOR INTERWORKING OF SIGNALLING SYSTEM No. 7 (TUP) TO R2
 Q.666-1988               | (none)          | (11/88)            | LOGIC PROCEDURES FOR INTERWORKING OF SIGNALLING SYSTEM No. 7 (TUP) TO R2
-Q.667                    | (none)          | (03/93)            | INTERWORKING OF SIGNALLING SYSTEMS - LOGIC PROCEDURES FOR INTERWORKING OF SIGNALLING SYSTEM No. 7 (TUP) TO SIGNALLING SYSTEM No. 7 (ISUP)
 Q.667-1993               | (none)          | (03/93)            | Interworking of Signalling Systems - Logic Procedures for Interworking of Signalling System No. 7 (TUP) to Signalling System No. 7 (ISUP) - Interworking of Signalling Systems (Study Group XI) 10 pp
-Q.671                    | (none)          | (11/88)            | LOGIC PROCEDURES FOR INTERWORKING OF SIGNALLING SYSTEM R1 TO No. 5
 Q.671-1988               | (none)          | (11/88)            | LOGIC PROCEDURES FOR INTERWORKING OF SIGNALLING SYSTEM R1 TO No. 5
-Q.672                    | (none)          | (11/88)            | LOGIC PROCEDURES FOR INTERWORKING OF SIGNALLING SYSTEM R1 TO No. 6
 Q.672-1988               | (none)          | (11/88)            | LOGIC PROCEDURES FOR INTERWORKING OF SIGNALLING SYSTEM R1 TO No. 6
-Q.673                    | (none)          | (11/88)            | LOGIC PROCEDURES FOR INTERWORKING OF SIGNALLING SYSTEM R1 TO No. 7 (TUP)
 Q.673-1988               | (none)          | (11/88)            | LOGIC PROCEDURES FOR INTERWORKING OF SIGNALLING SYSTEM R1 TO No. 7 (TUP)
-Q.674                    | (none)          | (11/88)            | LOGIC PROCEDURES FOR INTERWORKING OF SIGNALLING SYSTEM R1 TO R2
 Q.674-1988               | (none)          | (11/88)            | LOGIC PROCEDURES FOR INTERWORKING OF SIGNALLING SYSTEM R1 TO R2
-Q.675                    | (none)          | (03/93)            | Interworking of Signalling Systems - Logic Procedures for Interworking of Signalling System R1 to Signalling System No. 7 (ISUP)
 Q.675-1993               | (none)          | (03/93)            | Interworking of Signalling Systems - Logic Procedures for Interworking of Signalling System R1 to Signalling System No. 7 (ISUP) (Study Group XI) 9 pp
-Q.68                     | (none)          | (03/93)            | Overview of methodology for developing management services
 Q.68-1993                | (none)          | (03/93)            | Overview of Methodology for Developing Management Services - General Recommendations on Telephone Switching and Signalling Functions and Information Flows for Services in the ISDN (Study Group XI) 7 pp
-Q.681                    | (none)          | (11/88)            | LOGIC PROCEDURES FOR INTERWORKING OF SIGNALLING SYSTEM R2 TO No. 4
 Q.681-1988               | (none)          | (11/88)            | LOGIC PROCEDURES FOR INTERWORKING OF SIGNALLING SYSTEM R2 TO No. 4
-Q.682                    | (none)          | (11/88)            | LOGIC PROCEDURES FOR INTERWORKING OF SIGNALLING SYSTEM R2 TO No. 5 (TUP)
 Q.682-1988               | (none)          | (11/88)            | LOGIC PROCEDURES FOR INTERWORKING OF SIGNALLING SYSTEM R2 TO No. 5 (TUP)
-Q.683                    | (none)          | (11/88)            | LOGIC PROCEDURES FOR INTERWORKING OF SIGNALLING SYSTEM R2 TO No. 6
 Q.683-1988               | (none)          | (11/88)            | LOGIC PROCEDURES FOR INTERWORKING OF SIGNALLING SYSTEM R2 TO No. 6
-Q.684                    | (none)          | (11/88)            | LOGIC PROCEDURES FOR INTERWORKING OF SIGNALLING SYSTEM R2 TO No. 7 (TUP)
 Q.684-1988               | (none)          | (11/88)            | LOGIC PROCEDURES FOR INTERWORKING OF SIGNALLING SYSTEM R2 TO No. 7 (TUP)
-Q.685                    | (none)          | (11/88)            | LOGIC PROCEDURES FOR INTERWORKING OF SIGNALLING SYSTEM R2 TO R1
 Q.685-1988               | (none)          | (11/88)            | LOGIC PROCEDURES FOR INTERWORKING OF SIGNALLING SYSTEM R2 TO R1
-Q.686                    | (none)          | (03/93)            | INTERWORKING OF SIGNALLING SYSTEMS - LOGIC PROCEDURES FOR INTERWORKING OF SIGNALLING SYSTEM R2 TO SIGNALLING SYSTEM No. 7 (ISUP)
 Q.686-1993               | (none)          | (03/93)            | Interworking of Signalling Systems - Logic Procedures for Interworking of Signalling System R2 to Signalling System No. 7 (ISUP) (Study Group XI) 9 pp
-Q.690                    | (none)          | (03/93)            | INTERWORKING OF SIGNALLING SYSTEMS - LOGIC PROCEDURES FOR INTERWORKING OF SIGNALLING SYSTEM No. 7 (ISUP) TO No.5
 Q.690-1993               | (none)          | (03/93)            | Interworking of Signalling Systems - Logic Procedures for Interworking of Signalling System No. 7 (ISUP) to No. 5 (Study Group XI) 10 pp
-Q.691                    | (none)          | (03/93)            | INTERWORKING OF SIGNALLING SYSTEMS - LOGIC PROCEDURES FOR INTERWORKING OF SIGNALLING SYSTEM No. 7 (ISUP) TO No. 6
 Q.691-1993               | (none)          | (03/93)            | Interworking of Signalling Systems - Logic Procedures for Interworking of Signalling System No. 7 (ISUP) to No. 6 (Study Group XI) 8 pp
-Q.692                    | (none)          | (03/93)            | INTERWORKING OF SIGNALLING SYSTEMS - LOGIC PROCEDURES FOR INTERWORKING OF SIGNALLING SYSTEM No. 7 (ISUP) TO No. 7 (TUP)
 Q.692-1993               | (none)          | (03/93)            | Interworking of Signalling Systems - Logic Procedures for Interworking of Signalling System No. 7 (ISUP) to No. 7 (TUP) (Study Group XI) 8 pp
-Q.694                    | (none)          | (03/93)            | INTERWORKING OF SIGNALLING SYSTEMS - LOGIC PROCEDURES FOR INTERWORKING OF SIGNALLING SYSTEM No. 7 (ISUP) TO RI
 Q.694-1993               | (none)          | (03/93)            | Interworking of Signalling Systems - Logic Procedures for Interworking of Signalling System No. 7 (ISUP) to R1 - Interworking of Signalling Systems (Study Group XI) 8 pp
-Q.695                    | (none)          | (03/93)            | INTERWORKING OF SIGNALLING SYSTEMS - LOGIC PROCEDURES FOR INTERWORKING OF SIGNALLING SYSTEM No. 7 (ISUP) TO R2
 Q.695-1993               | (none)          | (03/93)            | Interworking of Signalling Systems - Logic Procedures for Interworking of Signalling System No. 7 (ISUP) to R2 - Interworking of Signalling Systems (Study Group XI) 10 pp
-Q.696                    | (none)          | (06/97)            | Interworking between the Signalling System No. 7 ISDN User Part (ISUP) and Signalling Systems No. 5, R2 and Signalling System No. 7 TUP
 Q.696-1997               | (none)          | (06/97)            | Interworking between the Signalling System No.7 ISDN User Part (ISUP) and Signalling Systems No.5, R2 and Signalling System No.7 TUP - Study Group 11; 50 pp
-Q.698                    | (none)          | (03/93)            | INTERWORKING OF SIGNALLING SYSTEM No. 7 ISUP, TUP AND SIGNALLING SYSTEM No. 6 USING ARROW DIAGRAMS
 Q.698-1993               | (none)          | (03/93)            | Interworking of Signalling System No. 7 ISUP, TUP and Signalling System No. 6 Using Arrow Diagrams - Interworking of Signalling Systems (Study Group XI) 53 pp
-Q.699                    | (none)          | (09/97)            | Interworking between ISDN access and non-ISDN access over ISDN User Part of Signalling System No. 7
 Q.699 ADD 1              | (none)          | (12/99)            | Interworking between ISDN access and non-ISDN access over ISDN user part of Signalling System No. 7 Addendum 1 : DSSI -SS7 interworking for call completion on no reply
 Q.699 ADD 1-1999         | (none)          | (12/99)            | Interworking between ISDN Access and Non-ISDN Access over ISDN User Part of Signalling System No.7 Addendum 1: DSS1-SS7 Interworking for Call Completion on No Reply - Series Q: Switching and Signalling Interworking of Signalling Systems - Interworking between Digital Subscriber Signalling System No. 1 and Signalling System No. 7 - Study Group 11; 11 pp
 Q.699-1997               | (none)          | (09/97)            | Interworking between ISDN Access and Non-ISDN Access Over ISDN User Part of Signalling System No.7 - Series Q: Switching and Signalling - Interworking of Signalling Systems - Interworking between Digital Subscriber Signalling System No.1 and Signalling System No.7 - Study Group 11; 144 pp
-Q.699.1                  | (none)          | (05/98)            | Interfuncionamiento entre un acceso RDSI y un acceso distinto de uno RDSI a través de la parte usuario de RDSI del sistema de señalización N.° 7: Soporte de aplicaciones de red privada virtual con flujos de información del sistema de señ
-Q.699.1                  | (none)          | (05/98)            | Interworking between ISDN access and non-ISDN access over ISDN user part of Signalling System No. 7: Support of VPN applications with PSS1 information flows
 Q.699.1-1998             | (none)          | (05/98)            | Interworking between ISDN Access and Non-ISDN Access Over ISDN User Part of Signalling System No. 7: Support of VPN Applications with PSS1 Information Flows - Series Q: Switching and Signalling - Interworking of Signalling Systems - Interworking between Digital Subscriber Signalling System No. 1 and Signalling System No. 7 - Study Group 11; 29 pp
-Q.7                      | (none)          | (11/88)            | Signalling systems to be used for international automatic and semi-automatic telephone working
 Q.7-1988                 | (none)          | (11/88)            | Signalling systems to be used for international automatic and semi-automatic telephone working
-Q.700                    | (none)          | (03/93)            | INTRODUCTION TO CCITT SIGNALLING SYSTEM No. 7
 Q.700-1993               | (none)          | (01/93)            | Introduction to CCITT Signalling System No. 7 - Specifications of Signalling System No. 7 (Study Group XI) 23 pp
-Q.701                    | (none)          | (03/93)            | FUNCTIONAL DESCRIPTION OF THE MESSAGE TRANSFER PART (MTP) OF SIGNALLING SYSTEM No. 7
 Q.701-1993               | (none)          | (01/93)            | Functional Description of the Message Transfer Part (MTP) of Signalling System No. 7 - Specifications of Signalling System No. 7 (Study Group XI) 24 pp
-Q.702                    | (none)          | (11/88)            | SIGNALLING DATA LINK
 Q.702-1988               | (none)          | (11/88)            | SIGNALLING DATA LINK
-Q.703                    | (none)          | (07/96)            | Signalling link
 Q.703-1996               | (none)          | (07/96)            | Signalling Link
-Q.704                    | (none)          | (07/96)            | SIGNALLING NETWORK FUNCTIONS AND MESSAGES
 Q.704 ERRATA-1999        | (none)          | (09/99)            | Signalling Network Functions and Messages - Telecommunication Standardization Sector of ITU
 Q.704-1996               | (none)          | (07/96)            | Signalling Network Functions and Messages
-Q.705                    | (none)          | (03/93)            | Signalling System No. 7 - Signalling Network Structure
 Q.705-1993               | (none)          | (01/93)            | Signalling System No. 7 Signalling Network Structure - Study Group XI
-Q.706                    | (none)          | (03/93)            | Signalling System No. 7 - Message Transfer Part Signalling Performance
 Q.706-1993               | (none)          | (01/93)            | Signalling System No. 7 - Message Transfer Part Signalling Performance
-Q.707                    | (none)          | (11/88)            | TESTING AND MAINTENANCE
 Q.707-1988               | (none)          | (11/88)            | TESTING AND MAINTENANCE
-Q.708                    | (none)          | (03/99)            | ASSIGNMENT PROCEDURES FOR INTERNATIONAL SIGNALLING POINT CODES
 Q.708-1999               | (none)          | (03/99)            | Assignment Procedures for International Signalling Point Codes Series Q: Switching and Signalling Specifications of Signalling System No. 7 - Message Transfer Part (MTP) - Study Group 11; 18 pp
-Q.709                    | (none)          | (03/93)            | SIGNALLING SYSTEM NO. 7 - HYPOTHETICAL SIGNALLING REFERENCE CONNECTION
 Q.709-1993               | (none)          | (01/93)            | Signalling System No. 7 - Hypothetical Signalling Reference Connection - Specifications of Signalling System No. 7 (Study Group XI) 17 pp
-Q.71                     | (none)          | (03/93)            | ISDN Circuit Mode Switched Bearer Services
 Q.71-1993                | (none)          | (03/93)            | ISDN Circuit Mode Switched Bearer Services - (Study Group XI)
-Q.710                    | (none)          | (11/88)            | SIMPLIFIED MTP VERSION FOR SMALL SYSTEMS
 Q.710-1988               | (none)          | (11/88)            | SIMPLIFIED MTP VERSION FOR SMALL SYSTEMS
-Q.711                    | (none)          | (03/01)            | Descripción funcional de la parte control de la conexión de señalización
-Q.711                    | (none)          | (03/01)            | Functional description of the signalling connection control part
 Q.711-2001               | (none)          | (03/01)            | Functional description of the signalling connection control part
-Q.712                    | (none)          | (07/96)            | Definition and Function of Signalling Connection Control Part Messages
 Q.712-1996               | (none)          | (07/96)            | Definition and Function of Signalling Connection Control Part Messages - Series Q: Switching and Signalling - Specifications of Signalling System No.7 - Signalling Connection Control Part - Study Group 11; 15 pp
-Q.713                    | (none)          | (03/01)            | Signalling connection control part formats and codes
 Q.713-2001               | (none)          | (03/01)            | Signalling connection control part formats and codes
-Q.714                    | (none)          | (05/01)            | Signalling connection control part procedures
 Q.714-2001               | (none)          | (05/01)            | Signalling connection control part procedures
-Q.715                    | (none)          | (04/02)            | Signalling connection control part user guide
 Q.715-2002               | (none)          | (04/02)            | Signalling connection control part user guide
-Q.716                    | (none)          | (03/93)            | Signalling System No. 7 - Signalling Connection Control Part (SCCP) Performance
 Q.716-1993               | (none)          | (03/93)            | Signalling System No. 7 - Signalling Connection Control Part (SCCP) Performance
-Q.72                     | (none)          | (03/93)            | Stage 2 Description for Packet Mode
 Q.72-1993                | (none)          | (03/93)            | Stage 2 Description for Packet Mode - Study Group XI
-Q.721                    | (none)          | (11/88)            | FUNCTIONAL DESCRIPTION OF THE SIGNALLING SYSTEM No. 7 TELEPHONE USER PART (TUP)
 Q.721-1988               | (none)          | (11/88)            | FUNCTIONAL DESCRIPTION OF THE SIGNALLING SYSTEM No. 7 TELEPHONE USER PART (TUP)
-Q.722                    | (none)          | (11/88)            | GENERAL FUNCTION OF TELEPHONE MESSAGES AND SIGNALS
 Q.722-1988               | (none)          | (11/88)            | GENERAL FUNCTION OF TELEPHONE MESSAGES AND SIGNALS
-Q.723                    | (none)          | (11/88)            | Formats and Codes
 Q.723 NOTE               | (none)          | (11/01)            | Telephone user part formats and codes
 Q.723 NOTE-2001          | (none)          | (11/01)            | Telephone user part formats and codes
 Q.723-1988               | (none)          | (11/88)            | Formats and Codes
-Q.724                    | (none)          | (11/88)            | Signalling Procedures
 Q.724 NOTE               | (none)          | (11/01)            | Telephone user part signalling procedures
 Q.724 NOTE-2001          | (none)          | (11/01)            | Telephone user part signalling procedures
 Q.724-1988               | (none)          | (11/88)            | Signalling Procedures
-Q.725                    | (none)          | (03/93)            | SIGNALLING SYSTEM NO. 7 - SIGNALLING PERFORMANCE IN THE TELEPHONE APPLICATION
 Q.725-1993               | (none)          | (03/93)            | Signalling System No. 7 - Signalling Performance in the Telephone Application - Specifications of Signalling System No. 7 (Study Group XI) 11 pp
-Q.730                    | (none)          | (12/99)            | ISDN user part supplementary services
 Q.730-1999               | (none)          | (12/99)            | ISDN User part Supplementary Services - Series Q: Switching and Signalling - Specifications of Signalling System No. 7 - ISDN Supplementary Services - Study Group 11; 47 pp
 Q.731-1993               | (none)          | (03/93)            | Stage 3 Description for Number Identification Supplementary Services Using Signalling System No. 7 - Clause 3 - Calling Line Identification Presentation (CLIP) Clause 4 - Calling Line Identification Restriction (CLIR) Clause 5 - Connected Line Identification Presentation (COLP) Clause 6 - Connected Line Identification Restriction (COLR) - Specifications of Signalling System No. 7 - Study Group XI
-Q.731.1                  | (none)          | (07/96)            | Stage 3 description for numbering identification supplementary services using SS No. 7: Direct-Dialling-In (DDI)
-Q.731.1                  | (none)          | (07/96)            | STAGE 3 DESCRIPTION FOR NUMBERING IDENTIFICATION SUPPLEMENTARY SERVICES USING SS NO. 7: DIRECT-DIALLING-IN (DDI)
 Q.731.1-1996             | (none)          | (07/96)            | Stage 3 Description for Numbering Identification Supplementary Services Using SS No. 7: Direct-Dialling-in (DDI) - Series Q: Switching and Signalling; Specifications of Signalling System No. 7 - ISDN Supplementary Services - Study Group 11; 15 pp
-Q.731.3                  | (none)          | (03/93)            | STAGE 3 DESCRIPTION FOR NUMBER IDENTIFICATION SUPPLEMENTARY SERVICES USING SIGNALLING SYSTEM No. 7 - CLAUSE 3 - CALLING LINE IDENTIFICATION PRESENTATION (CLIP)
 Q.731.3-2019             | (none)          | (04/19)            | Stage 3 description for number identification supplementary services using Signalling System No. 7 – Calling line identification presentation
 Q.731.4-1993             | (none)          | (03/93)            | STAGE 3 DESCRIPTION FOR NUMBER IDENTIFICATION SUPPLEMENTARY SERVICES USING SIGNALLING SYSTEM No. 7 - CLAUSE 4 - CALLING LINE IDENTIFICATION RESTRICTION (CLIR) - Study Group XI
 Q.731.4-2019             | (none)          | (04/19)            | Stage 3 description for number identification supplementary services using Signalling System No. 7 – Calling line identification restriction
-Q.731.5                  | (none)          | (03/93)            | STAGE 3 DESCRIPTION FOR NUMBER IDENTIFICATION SUPPLEMENTARY SERVICES USING SIGNALLING SYSTEM No. 7 - CLAUSE 5 - CONNECTED LINE IDENTIFICATION PRESENTATION (COLP)
 Q.731.5-1993             | (none)          | (03/93)            | STAGE 3 DESCRIPTION FOR NUMBER IDENTIFICATION SUPPLEMENTARY SERVICES USING SIGNALLING SYSTEM No. 7 - CLAUSE 5 - CONNECTED LINE IDENTIFICATION PRESENTATION (COLP) - Study Group XI
 Q.731.5-2019             | (none)          | (04/19)            | Stage 3 description for number identification supplementary services using Signalling system No.7 – Connected line identification presentation
 Q.731.6-2019             | (none)          | (04/19)            | Stage 3 description for number identification supplementary services using Signalling System No. 7 – Connected line identification restriction
-Q.731.7                  | (none)          | (06/97)            | Stage 3 description for number identification supplementary services using Signalling System No. 7: Malicious call identification (MCID)
-Q.731.7                  | (none)          | (06/97)            | Stage 3 Description for Number Identification Supplementary Services Using Signalling System No.7: Malicious Call Identification (MCID)
 Q.731.7-1997             | (none)          | (06/97)            | Stage 3 Description for Number Identification Supplementary Services Using Signalling System No.7: Malicious Call Identification (MCID)
-Q.731.8                  | (none)          | (02/92)            | STAGE 3 DESCRIPTION FOR NUMBER IDENTIFICATION SUPPLEMENTARY SERVICES USING SIGNALLING SYSTEM No. 7 SECTION 8 - SUB-ADDRESSING (SUB)
 Q.731.8-1992             | (none)          | (02/92)            | Stage 3 Description for Number Identification Supplementary Services Using Signalling System No. 7 Section 8 - Sub-Addressing (Sub) - Specifications of Signalling System No. 7 - Study Group XI; 6 pp
 Q.732-1993               | (none)          | (01/93)            | Stage 3 Description for Call Offering Supplementary Services Using Signalling System No. 7 - Clause 2 - Call Diversion Services - Specifications of Signalling System No. 7 (Study Group XI) 35 pp (ETSI ETS 300 356-15: 1995)
 Q.732.2 AMD 1-2001       | (none)          | (07/01)            | Pre-published Stage 3 Description for Call Offering Supplementary Services Using Signalling System No.7: Call Diversion Services Series Q: Switching and Signalling - Specifications of Signalling System No.7 - ISDN Supplementary Services - Amendment 1
 Q.732.2-1996             | (none)          | (07/96)            | Stage 3 Description for Call Offering Supplementary Services Using Signalling System No.7: Call Diversion Services: - Call Forwarding Busy - Call Forwarding No Reply - Call Forwarding Unconditional - Call Deflection - Series Q: Switching and Signalling - Specifications of Signalling System No.7 - ISDN Supplementary Services - Study Group 11; 41 pp
-Q.732.2-5                | (none)          | (12/99)            | Stage 3 description for call offering supplementary services using signalling system No. 7: Call diversion services - Q.732.5 鈥?Call Deflection (CD)
-Q.732.2-5 AMD 1          | (none)          | (07/01)            | Stage 3 description for call offering supplementary services using Signalling System No. 7: Call diversion services Amendment 1
 Q.732.2-5 AMD 1-2001     | (none)          | (07/01)            | Stage 3 Description for Call Offering Supplementary Services Using Signalling System No.7: Call Diversion Services Series Q: Switching and Signalling - Specifications of Signalling System No.7 - ISDN Supplementary Services
 Q.732.2-5-1999           | (none)          | (12/99)            | Stage 3 description for call offering supplementary services using signalling system No. 7: Call diversion services - Q.732.5 鈥?Call Deflection (CD) - Study Group 11; 41 pp
-Q.732.7                  | (none)          | (07/96)            | Stage 3 description for call offering supplementary services using Signalling system no. 7: Explicit call Transfer
 Q.732.7-1996             | (none)          | (07/96)            | Stage 3 description for call offering supplementary services using Signalling system no. 7: Explicit call Transfer - Study Group 11; 31 pp
-Q.733.1                  | (none)          | (02/92)            | Stage 3 Description for Call Completion Supplementary Services Using No. 7 Signalling System Section 1 - Call Waiting (CW)
 Q.733.1-1992             | (none)          | (02/92)            | Stage 3 Description for Call Completion Supplementary Services Using No. 7 Signalling System Section 1 - Call Waiting (CW)
-Q.733.2                  | (none)          | (03/93)            | Stage 3 Description for Call Completion Supplementary Services Using SS No. 7 Clause 2 - Call Hold (HOLD)
 Q.733.2-1993             | (none)          | (03/93)            | Stage 3 Description for Call Completion Supplementary Services Using SS No. 7 Clause 2 - Call Hold (HOLD) - Study Group XI
-Q.733.3                  | (none)          | (06/97)            | Stage 3 description for call completion supplementary services using Signalling System No. 7: Completion of calls to busy subscriber (CCBS)
-Q.733.3 AMD 1            | (none)          | (07/01)            | Stage 3 description for call completion supplementary services using Signalling System No. 7: Completion of calls to busy subscriber (CCBS) Amendment 1
 Q.733.3 AMD 1-2001       | (none)          | (07/01)            | Stage 3 description for call completion supplementary services using Signalling System No. 7: Completion of calls to busy subscriber (CCBS) Amendment 1
 Q.733.3-1997             | (none)          | (06/97)            | Network element information model for MTP accounting - Study Group 11; 41 pp
-Q.733.4                  | (none)          | (03/93)            | DESCRIPCIÓN DE LA ETAPA 3 DE LOS SERVICIOS SUPLEMENTARIOS DE COMPLECIÓN DE LLAMADAS QUE UTILIZAN EL SISTEMA DE SEÑALIZACIÓN N.° 7 - CLÁUSULA 4 – PORTABILIDAD DEL TERMINAL
-Q.733.4                  | (none)          | (03/93)            | STAGE 3 DESCRIPTION FOR CALL COMPLETION SUPPLEMENTARY SERVICES USING SS No. 7 - CLAUSE 4 - TERMINAL PORTABILITY (TP)
 Q.733.4-1993             | (none)          | (01/93)            | Stage 3 Description for Call Completion Supplementary Services Using SS No. 7 - Clause 2 - Call Hold (HOLD) Clause 4 - Terminal Portability (TP) - Specifications of Signalling System No. 7 (Study Group XI) 16 pp
-Q.733.5                  | (none)          | (12/99)            | Stage 3 description for call completion supplementary services using Signalling System No. 7: Completion of Calls on No Reply
 Q.733.5-1999             | (none)          | (12/99)            | Stage 3 description for call completion supplementary services using Signalling System No. 7: Completion of Calls on No Reply - Study Group 11; 42 pp
-Q.734.1                  | (none)          | (03/93)            | Stage 3 Description for Multiparty Supplementary Services Using Signalling System No. 7 Clause 1 - Conference Calling
 Q.734.1-1993             | (none)          | (03/93)            | Stage 3 Description for Multiparty Supplementary Services Using Signalling System No. 7 Clause 1 - Conference Calling - Study Group 11; Covering Note Information Note June 1999
-Q.734.2                  | (none)          | (07/96)            | Stage 3 Description for Multiparty Supplementary Services Using Signalling System No. 7: Three-Party Service
 Q.734.2-1996             | (none)          | (07/96)            | Stage 3 Description for Multiparty Supplementary Services Using Signalling System No. 7: Three-Party Service - Study Group 11; 22 pp
-Q.735.1                  | (none)          | (03/93)            | Stage 3 Description for Community of Interest Supplementary Services Using SS No. 7 Clause 1 - Closed User Group (CUG)
 Q.735.1-1993             | (none)          | (03/93)            | Stage 3 Description for Community of Interest Supplementary Services Using SS No. 7 Clause 1 - Closed User Group (CUG) - Study Group XI
-Q.735.3                  | (none)          | (03/93)            | DESCRIPCIÓN DE LA ETAPA 3 DE LOS SERVICIOS SUPLEMENTARIOS CON COMUNIDAD DE INTERESES QUE UTILIZAN EL SISTEMA DE SEÑALIZACIÓN N.o 7 - Cláusula 3 – Precedencia con apropiación multinivel
-Q.735.3                  | (none)          | (03/93)            | STAGE 3 DESCRIPTION FOR COMMUNITY OF INTEREST SUPPLEMENTARY SERVICES USING SS No. 7 - Clause 3 - Multilevel precedence and preemption
 Q.735.3-1993             | (none)          | (03/93)            | Stage 3 Description for Community of Interest Supplementary Services Using SS No. 7 Clause 1 - Closed User Group (CUG) Clause 3 - Multilevel Precedence and Preemption - Specifications of Signalling System No. 7 (Study Group XI) 71 pp (ETSI ETS 300 356-9: 1995)
-Q.735.6                  | (none)          | (07/96)            | Stage 3 Description for Community of Interest Supplementary Services Using Signalling System No. 7: Global Virtual Network Service (GVNS)
 Q.735.6-1996             | (none)          | (07/96)            | Stage 3 Description for Community of Interest Supplementary Services Using Signalling System No. 7: Global Virtual Network Service (GVNS) - Study Group 11; 24 pp
-Q.736.1                  | (none)          | (10/95)            | Stage 3 Description for Charging Supplementary Services Using Signalling System No. 7 Clause 1 - International Telecommunication Charge Card (ITCC)
 Q.736.1-1995             | (none)          | (10/95)            | Stage 3 Description for Charging Supplementary Services Using Signalling System No. 7 Clause 1 - International Telecommunication Charge Card (ITCC)
-Q.736.3                  | (none)          | (10/95)            | Stage 3 Description for Charging Supplementary Services Using Signalling System No. 7 Clause 3 - Reverse Charging (REV)
 Q.736.3-1995             | (none)          | (10/95)            | Stage 3 Description for Charging Supplementary Services Using Signalling System No. 7 Clause 3 - Reverse Charging (REV)
 Q.737-1993               | (none)          | (01/93)            | Stage 3 Description for Additional Information Transfer Supplementary Services Using SS No. 7 Clause 1 - User-to-User Signalling (UUS) - Specifications of Signalling System No. 7 (Study Group XI) 30 pp (ETSI ETS 300 356-8: 1995)
-Q.737.1                  | (none)          | (06/97)            | Stage 3 Description for Additional Information Transfer Supplementary Services Using Signalling System No.7: User-to-User Signalling (UUS)
 Q.737.1-1997             | (none)          | (06/97)            | Stage 3 Description for Additional Information Transfer Supplementary Services Using Signalling System No.7: User-to-User Signalling (UUS) - Study Group 11; 40 pp
-Q.750                    | (none)          | (06/97)            | Overview of Signalling System No. 7 management
 Q.750-1997               | (none)          | (06/97)            | Overview of Signalling System No. 7 management - Study Group 11; 26 pp
-Q.751.1                  | (none)          | (10/95)            | Network Element Management Information Model for the Message Transfer Part (MTP)
 Q.751.1-1995             | (none)          | (10/95)            | Network Element Management Information Model for the Message Transfer Part (MTP)
-Q.751.2                  | (none)          | (06/97)            | Network element management information model for the Signalling Connection Control Part
 Q.751.2-1997             | (none)          | (06/97)            | Network element management information model for the Signalling Connection Control Part - Study Group 11; 101 pp
-Q.751.3                  | (none)          | (09/97)            | Network Element Information Model for MTP Accounting
 Q.751.3-1997             | (none)          | (09/97)            | Network Element Information Model for MTP Accounting - Study Group 11; 32 pp
-Q.751.4                  | (none)          | (05/98)            | Network element information model for SCCP accounting and accounting verification
 Q.751.4-1998             | (none)          | (05/98)            | Network element information model for SCCP accounting and accounting verification - Study Group 11; 23 pp
-Q.752                    | (none)          | (06/97)            | Monitoring and Measurements for Signalling System No.7 Networks
 Q.752-1997               | (none)          | (06/97)            | Monitoring and Measurements for Signalling System No.7 Networks - Study Group 11; 59 pp
-Q.753                    | (none)          | (06/97)            | Signalling System No.7 Management Functions MRVT, SRVT and CVT and Definition of the OMASE-User
 Q.753-1997               | (none)          | (06/97)            | Signalling System No.7 Management Functions MRVT, SRVT and CVT and Definition of the OMASE-User
-Q.754                    | (none)          | (06/97)            | Signalling System No.7 Management Application Service Element (ASE) Definitions
 Q.754-1997               | (none)          | (06/97)            | Signalling System No.7 Management Application Service Element (ASE) Definitions
-Q.755                    | (none)          | (03/93)            | SIGNALLING SYSTEMS No. 7 PROTOCOL TESTS
 Q.755-1993               | (none)          | (01/93)            | SIGNALLING SYSTEM NO. 7 PROTOCOL TESTS - Study Group XI
-Q.755.1                  | (none)          | (05/98)            | MTP Protocol Tester
 Q.755.1-1998             | (none)          | (05/98)            | MTP Protocol Tester
-Q.755.2                  | (none)          | (09/97)            | Transaction capabilities test responder
 Q.755.2-1997             | (none)          | (09/97)            | Transaction capabilities test responder
-Q.756                    | (none)          | (06/97)            | Guidebook to Operations, Maintenance and Administration Part (OMAP)
 Q.756-1997               | (none)          | (06/97)            | Guidebook to Operations, Maintenance and Administration Part (OMAP) - Study Group 11; 17 pp
-Q.76                     | (none)          | (02/95)            | Service Procedures for Universal Personal Telecommunication - Functional Modelling and Information Flows
-Q.76                     | (none)          | (02/95)            | SERVICE PROCEDURES FOR UNIVERSAL PERSONAL TELECOMMUNICATION - FUNCTIONAL MODELLING AND INFORMATION FLOWS
 Q.76-1995                | (none)          | (02/95)            | Service Procedures for Universal Personal Telecommunication - Functional Modelling and Information Flows
-Q.761                    | (none)          | (12/99)            | Signalling system No. 7 - ISDN user part functional description
-Q.761                    | (none)          | (12/99)            | Signalling system No. 7 鈭?ISDN user part functional description
-Q.761 AMD 1              | (none)          | (07/01)            | Signalling system No. 7 鈭?ISDN user part functional description Amendment 1
 Q.761 AMD 1-2001         | (none)          | (07/01)            | Signalling system No. 7 鈭?ISDN user part functional description Amendment 1
-Q.761 AMD 2              | (none)          | (12/02)            | Signalling System No. 7 鈥?ISDN User Part functional description Amendment 2: Support for the International Emergency Preference Scheme
 Q.761 AMD 2-2002         | (none)          | (12/02)            | Signalling System No. 7 鈥?ISDN User Part functional description Amendment 2: Support for the International Emergency Preference Scheme
-Q.761 AMD 3              | (none)          | (01/06)            | Signalling System No. 7 鈥?ISDN User Part functional description Amendment 3: Support for the International Emergency Preference Scheme
 Q.761 AMD 3-2006         | (none)          | (01/06)            | Signalling System No. 7 鈥?ISDN User Part functional description Amendment 3: Support for the International Emergency Preference Scheme
 Q.761 AMD 4-2009         | (none)          | (10/09)            | Signalling System No. 7 鈥?ISDN user part functional description Amendment 4: Support for the customized alerting tone (CAT) service
 Q.761-1999               | (none)          | (12/99)            | Signalling System No. 7 - ISDN User Part Functional Description - Series Q: Switching and Signalling - Specifications of Signalling System NO. 7 - ISDN User Part - Study Group 11; 22 pp
-Q.762                    | (none)          | (12/99)            | Signalling System No. 7 鈥?ISDN User Part general functions of messages and signals
-Q.762 ADD 1              | (none)          | (06/00)            | Signalling System No. 7 - ISDN user part general functions of messages and signals Addendum 1
 Q.762 ADD 1-2000         | (none)          | (06/00)            | Signalling System No. 7 鈥?ISDN user part general functions of messages and signals Addendum 1
-Q.762 AMD 1              | (none)          | (12/02)            | Signalling System No. 7 鈥?ISDN User Part general functions of messages and signals Amendment 1: Support for the International Emergency Preference Scheme
 Q.762 AMD 1-2002         | (none)          | (12/02)            | Signalling System No. 7 鈥?ISDN User Part general functions of messages and signals Amendment 1: Support for the International Emergency Preference Scheme SERIES Q: SWITCHING AND SIGNALLING Specifications of Signalling System No. 7 鈥?ISDN user part
-Q.762 AMD 2              | (none)          | (04/04)            | Signalling System No. 7 鈥?ISDN User Part general functions of messages and signals Amendment 2
 Q.762 AMD 2-2004         | (none)          | (04/04)            | Signalling System No. 7 鈥?ISDN User Part general functions of messages and signals Amendment 2
-Q.762 AMD 3              | (none)          | (01/06)            | Signalling System No. 7 鈥?ISDN User Part general functions of messages and signals Amendment 3: Support for the International Emergency Preference Scheme
 Q.762 AMD 3-2006         | (none)          | (01/06)            | Signalling System No. 7 鈥?ISDN User Part general functions of messages and signals Amendment 3: Support for the International Emergency Preference Scheme
-Q.762 AMD 4              | (none)          | (09/06)            | Signalling System No. 7 鈥?ISDN user part general functions of messages and signals Amendment 4: Transport of Voice Enhancement Device related information
 Q.762 AMD 4-2006         | (none)          | (09/06)            | Signalling System No. 7 鈥?ISDN user part general functions of messages and signals Amendment 4: Transport of Voice Enhancement Device related information
 Q.762 AMD 5-2009         | (none)          | (10/09)            | Signalling System No. 7 鈥?ISDN User Part general functions of messages and signals Amendment 5: Support for the customized alerting tone (CAT) service
 Q.762-1999               | (none)          | (12/99)            | Signalling System No. 7 鈥?ISDN User Part general functions of messages and signals
-Q.763                    | (none)          | (12/99)            | Signalling System No. 7 - ISDN user part formats and codes
 Q.763 ADD 1-2000         | (none)          | (06/00)            | Signalling System No. 7 - ISDN User Part Formats and Codes Addendum 1: Series Q: Switching and Signalling Specifications of Signalling System No. 7 - ISDN User Part
-Q.763 AMD 1              | (none)          | (03/01)            | Signalling System No. 7 - ISDN user part formats and codes Amendment 1: Coding of the application transport parameter
 Q.763 AMD 1-2001         | (none)          | (03/01)            | Signalling System No. 7 聳 ISDN user part formats and codes Amendment 1: Coding of the application transport parameter
-Q.763 AMD 2              | (none)          | (12/02)            | Signalling System No. 7 鈥?ISDN User Part formats and codes Amendment 2: Support for the International Emergency Preference Scheme
 Q.763 AMD 2-2002         | (none)          | (12/02)            | Signalling System No. 7 鈥?ISDN User Part formats and codes Amendment 2: Support for the International Emergency Preference Scheme SERIES Q: SWITCHING AND SIGNALLING Specifications of Signalling System No. 7 鈥?ISDN user part
-Q.763 AMD 3              | (none)          | (04/04)            | Signalling System No. 7 鈥?ISDN user part formats and codes Amendment 3
 Q.763 AMD 3-2004         | (none)          | (04/04)            | Signalling System No. 7 鈥?ISDN user part formats and codes Amendment 3 SERIES Q: SWITCHING AND SIGNALLING Specifications of Signalling System No. 7 鈥?ISDN user part
-Q.763 AMD 4              | (none)          | (01/06)            | Signalling System No. 7 鈥?ISDN User Part formats and codes Amendment 4: Support for the International Emergency Preference Scheme
 Q.763 AMD 4-2006         | (none)          | (01/06)            | Signalling System No. 7 鈥?ISDN User Part formats and codes Amendment 4: Support for the International Emergency Preference Scheme
-Q.763 AMD 5              | (none)          | (09/06)            | Signalling System No. 7 鈥?ISDN user part formats and codes Amendment 5: Transport of Voice Enhancement Device related information
 Q.763 AMD 5-2006         | (none)          | (09/06)            | Signalling System No. 7 鈥?ISDN user part formats and codes Amendment 5: Transport of Voice Enhancement Device related information
 Q.763 AMD 6-2009         | (none)          | (10/09)            | Signalling System No. 7 鈥?ISDN user part formats and codes Amendment 6: Support for the customized alerting tone (CAT) service
-Q.763 CORR 1             | (none)          | (07/01)            | Signalling system No. 7 鈥?ISDN user part formats and codes Corrigendum 1
 Q.763 CORR 1-2001        | (none)          | (07/01)            | Signalling system No. 7 鈥?ISDN user part formats and codes Corrigendum 1
 Q.763-1999               | (none)          | (12/99)            | Signalling System No. 7 - ISDN User Part Formats and Codes - Series Q: Switching and Signalling - Specifications of Signalling System No. 7 - ISDN User Part
-Q.764                    | (none)          | (12/99)            | Signalling system No. 7 - ISDN user part signalling procedures
-Q.764 AMD 1              | (none)          | (07/01)            | Signalling system No. 7 - ISDN user part signalling procedures Amendment 1
-Q.764 AMD 2              | (none)          | (12/02)            | Signalling System No. 7 鈥?ISDN User Part signalling procedures Amendment 2: Support for the International Emergency Preference Scheme
 Q.764 AMD 2-2002         | (none)          | (12/02)            | Signalling System No. 7 鈥?ISDN User Part signalling procedures Amendment 2: Support for the International Emergency Preference Scheme SERIES Q: SWITCHING AND SIGNALLING Specifications of Signalling System No. 7 鈥?ISDN user part
-Q.764 AMD 3              | (none)          | (04/04)            | Signalling System No. 7 鈥?ISDN user part signalling procedures Amendment 3
 Q.764 AMD 3-2004         | (none)          | (04/04)            | Signalling System No. 7 鈥?ISDN user part signalling procedures Amendment 3 SERIES Q: SWITCHING AND SIGNALLING Specifications of Signalling System No. 7 鈥?ISDN user part
-Q.764 AMD 4              | (none)          | (01/06)            | Signalling System No. 7 鈥?ISDN User Part signalling procedures Amendment 4: Support for the International Emergency Preference Scheme
 Q.764 AMD 4-2006         | (none)          | (01/06)            | Signalling System No. 7 鈥?ISDN User Part signalling procedures Amendment 4: Support for the International Emergency Preference Scheme
-Q.764 AMD 5              | (none)          | (09/06)            | Signalling System No. 7 鈥?ISDN user part signalling procedures Amendment 5: Transport of Voice Enhancement Device related information
 Q.764 AMD 5-2006         | (none)          | (09/06)            | Signalling System No. 7 鈥?ISDN user part signalling procedures Amendment 5: Transport of Voice Enhancement Device related information
-Q.764 AMD. 1-2001        | (none)          | (07/01)            | Signalling System No. 7 - ISDN User Part Signalling Procedures Series Q: Switching and Signalling Specifications of Signalling System No. 7 - ISDN User Part
+Q.764 AMD.1-2001         | (none)          | (07/01)            | Signalling System No. 7 - ISDN User Part Signalling Procedures Series Q: Switching and Signalling Specifications of Signalling System No. 7 - ISDN User Part
 Q.764-1999               | (none)          | (12/99)            | Signalling System No. 7 - ISDN User Part Signalling Procedures - Series Q: Switching and Signalling Specifications of Signalling System No. 7 - ISDN User Part
-Q.765                    | (none)          | (06/00)            | Signalling System No. 7 - Application transport mechanism
-Q.765                    | (none)          | (06/00)            | Signalling System No. 7 鈥?Application transport mechanism
 Q.765 BIS                | (none)          | (12/99)            | Signalling System No. 7 - Application Transport Mechanism: Test Suite Structure and Test Purposes (TSS & TP)
 Q.765-2000               | (none)          | (06/00)            | Signalling System No. 7 - Application Transport Mechanism - Series Q: Switching and Signalling Specifications of Signalling System No. 7 - ISDN User Part
-Q.765.1                  | (none)          | (05/98)            | Signalling System No. 7 - Application Transport Mechanism - Support of VPN Applications with PSS1 Information Flows
 Q.765.1 BIS              | (none)          | (12/99)            | Abstract test suite for the APM support of VPN applications
 Q.765.1 BIS AMD 1-2000   | (none)          | (06/00)            | Abstract Test Suite for the APM Support of VPN Applications Series Q: Switching and Signalling Specifications of Signalling System No.7 ISDN User Parts
 Q.765.1 BIS-1999         | (none)          | (12/99)            | Abstract test suite for the APM support of VPN applications
 Q.765.1-1998             | (none)          | (05/98)            | Signalling System No. 7 - Application Transport Mechanism - Support of VPN Applications with PSS1 Information Flows - Study Group 11; 56 pp
-Q.765.4                  | (none)          | (06/00)            | Signalling system No. 7 - Application transport mechanism: Support of the generic addressing and transport protocol
 Q.765.4-2000             | (none)          | (06/00)            | Signalling System No. 7 - Application Transport Mechanism: Support of the Generic Addressing and Transport Protocol Series Q: Switching and Signalling Specifications of Signalling System No. 7 - ISDN User Part
-Q.765.5                  | (none)          | (04/04)            | Signalling system No. 7 鈥?Application transport mechanism: Bearer Independent Call Control (BICC)
 Q.765.5-2004             | (none)          | (04/04)            | Signalling system No. 7 鈥?Application transport mechanism: Bearer Independent Call Control (BICC) SERIES Q: SWITCHING AND SIGNALLING Specifications of Signalling System No. 7 鈥?ISDN user part
-Q.766                    | (none)          | (03/93)            | PERFORMANCE OBJECTIVES IN THE INTEGRATED SERVICES DIGITAL NETWORK APPLICATION
 Q.766-1993               | (none)          | (03/93)            | Performance Objectives in the Integrated Services Digital Network Application - Specifications of Signalling System No. 7 ISDN User Part (Study Group XI) 7 pp
-Q.767                    | (none)          | (02/91)            | APPLICATION OF THE ISDN USER PART OF CCITT SIGNALLING SYSTEM No. 7 FOR INTERNATIONAL ISDN INTERCONNECTIONS
 Q.767 AMD 1              | (none)          | (12/02)            | Application of the ISDN User Part of CCITT Signalling System No. 7 for international ISDN interconnections Amendment 1: Support for the International Emergency Preference Scheme
 Q.767 AMD 1-2002         | (none)          | (12/02)            | Application of the ISDN User Part of CCITT Signalling System No. 7 for international ISDN interconnections Amendment 1: Support for the International Emergency Preference Scheme SERIES Q: SWITCHING AND SIGNALLING Specifications of Signalling System No. 7 鈥?ISDN user part
 Q.767-1991               | (none)          | (02/91)            | Application of the ISDN User Part of CCITT Signalling System No. 7 for International ISDN Interconnections (Study Group XI) 274 pp
-Q.768                    | (none)          | (10/95)            | SIGNALLING INTERFACE BETWEEN AN INTERNATIONAL SWITCHING CENTRE (ISC) AND AN ISDN SATELLITE SUBNETWORK
 Q.768-1995               | (none)          | (10/95)            | SIGNALLING INTERFACE BETWEEN AN INTERNATIONAL SWITCHING CENTRE (ISC) AND AN ISDN SATELLITE SUBNETWORK
-Q.769.1                  | (none)          | (12/99)            | Signalling system No. 7 鈥?ISDN user part enhancements for the support of number portability
 Q.769.1-1999             | (none)          | (12/99)            | Signalling system No. 7 鈥?ISDN user part enhancements for the support of number portability
-Q.771                    | (none)          | (06/97)            | Functional description of transaction capabilities
 Q.771-1997               | (none)          | (06/97)            | Functional description of transaction capabilities
-Q.772                    | (none)          | (06/97)            | Transaction capabilities information element definitions
 Q.772-1997               | (none)          | (06/97)            | Transaction capabilities information element definitions - Study Group 11; 14 pp
-Q.773                    | (none)          | (06/97)            | Transaction capabilities formats and encoding
 Q.773-1997               | (none)          | (06/97)            | Transaction capabilities formats and encoding - Study Group 11; 38 pp
-Q.774                    | (none)          | (06/97)            | Transaction capabilities procedures
 Q.774-1997               | (none)          | (06/97)            | Transaction capabilities procedures - Study Group 11; 66 pp
-Q.775                    | (none)          | (06/97)            | Guidelines for using transaction capabilities
 Q.775-1997               | (none)          | (06/97)            | Guidelines for Using Transaction Capabilities - Series Q: Switching and Signalling Specifications of Signalling System No. 7 - Transaction Capabilities Application Part - Study Group 11; 66 pp
-Q.780                    | (none)          | (10/95)            | SIGNALLING SYSTEM NO. 7 TEST SPECIFICATION 鈥?GENERAL DESCRIPTION
 Q.780-1995               | (none)          | (01/95)            | Signalling System No. 7 Test Specification - General Description - Specifications of Signalling System No. 7 (Study Group 11) 31 pp
-Q.781                    | (none)          | (04/02)            | MTP level 2 test specification
 Q.781-2002               | (none)          | (04/02)            | SERIES Q: SWITCHING AND SIGNALLING Specifications of Signalling System No. 7 鈥?Test specification MTP level 2 test specification
-Q.782                    | (none)          | (04/02)            | MTP level 3 test specification
 Q.782-2002               | (none)          | (04/02)            | SERIES Q: SWITCHING AND SIGNALLING Specifications of Signalling System No. 7 鈥?Test specification MTP level 3 test specification
-Q.783                    | (none)          | (11/88)            | TUP TEST SPECIFICATION
 Q.783-1988               | (none)          | (11/88)            | TUP TEST SPECIFICATION
-Q.784                    | (none)          | (02/91)            | ISUP BASIC CALL TEST SPECIFICATION
-Q.784 ANX A              | (none)          | (03/93)            | TTCN Version of Recommendation Q.784
 Q.784 ANX A-1993         | (none)          | (03/93)            | TTCN Version of Recommendation Q.784 - Study Group XI; 139 pp
 Q.784-1991               | (none)          | (01/91)            | ISUP Basic Call Test Specification (Study Group XI) 83 pp
-Q.784.1                  | (none)          | (07/96)            | ISUP Basic Call Test Specification: Validation and Compatibility for ISUP'92 and Q.767 Protocols
-Q.784.1 CORR 1           | (none)          | (12/99)            | ISUP Basic Call Test Specification: Validation and Compatibility for ISUP'92 and Q.767 Protocols - Corrigendum 1
 Q.784.1 CORR 1-1999      | (none)          | (12/99)            | ISUP Basic Call Test Specification: Validation and Compatibility for ISUP'92 and Q.767 Protocols - Corrigendum 1 - Study Group 11; 8 pp
 Q.784.1-1996             | (none)          | (07/96)            | ISUP Basic Call Test Specification: Validation and Compatibility for ISUP'92 and Q.767 Protocols - Study Group 11; 145 pp
-Q.784.2                  | (none)          | (06/97)            | ISUP basic call test specification: Abstract test suite for ISUP'92 basic call control procedures
-Q.784.2                  | (none)          | (06/97)            | ISUP basic call test specification: Abstract test suite for ISUP92 basic call control procedures
 Q.784.2-1997             | (none)          | (06/97)            | ISUP Basic Call Test Specification: Abstract Test Suite for ISUP'92 Basic Call Control Procedures - Series Q: Switching and Signalling Specifications of Signalling System No. 7 - Test Specification - Study Group 11; 97 pp
-Q.784.3                  | (none)          | (12/99)            | ISUP'97 basic call control procedures 鈥?Test Suite Structure and Test Purposes (TSS & TP)
 Q.784.3 AMD 1-2000       | (none)          | (12/00)            | ISUP'97 Basic Call Control Procedures - Test Suite Structure and Test Purposes (TSS & TP) Series Q: Switching and Signalling Specifications of Signalling System No. 7 - Test Specification
 Q.784.3-1999             | (none)          | (12/99)            | ISUP'97 Basic Call Control Procedures - Test Suite Structure and Test Purposes (TSS & TP) - Series Q: Switching and Signalling Specifications of Signalling System No. 7 - Test Specification
-Q.785                    | (none)          | (09/91)            | ISUP PROTOCOL TEST SPECIFICATION FOR SUPPLEMENTARY SERVICES
 Q.785-1991               | (none)          | (09/91)            | ISUP PROTOCOL TEST SPECIFICATION FOR SUPPLEMENTARY SERVICES - Study Group XI
-Q.785.2                  | (none)          | (03/99)            | ISUP'97 supplementary services 鈥?Test suite structure and test purposes (TSS & TP)
-Q.785.2 AMD 1            | (none)          | (12/00)            | ISUP'97 supplementary services - Test suite structure and test purposes (TSS & TP) Amendment 1 : New Appendix I - Additional test conf ig Urat ion for ISU P'97 supplementary services
 Q.785.2 AMD 1-2000       | (none)          | (12/00)            | ISUP'97 Supplementary Services - Test Suite Structure and Test Purposes (TSS & TP) Amendment 1: New Appendix I - Additional Test Configuration for ISUP'97 Supplementary Services Series Q: Switching and Signalling Specifications of Signalling System No. 7 - Test Specification
-Q.785.2 ERTA 2           | (none)          | (02/02)            | ISUP97 supplementary services – Test suite structure and test purposes (TSS & TP)
-Q.785.2 ERTA 2           | (none)          | (02/02)            | Servicios suplementarios de la parte usuario de la red digital de servicios integrados (ISUP97) – Estructura de las sucesiones de pruebas abstractas y finalidades de las pruebas
 Q.785.2 ERTA 2-2002      | (none)          | (02/02)            | ISUP97 supplementary services - Test suite structure and test purposes (TSS & TP)
 Q.785.2-1999             | (none)          | (03/99)            | ISUP'97 Supplementary Services - Test Suite Structure and Test Purposes (TSS & TP) - Series Q: Switching and Signalling Specifications of Signalling System No. 7 - Test Specification
-Q.786                    | (none)          | (03/93)            | SIGNALLING SYSTEM No. 7 SCCP TEST SPECIFICATION
 Q.786-1993               | (none)          | (03/93)            | SIGNALLING SYSTEM No. 7 SCCP TEST SPECIFICATION
-Q.787                    | (none)          | (09/97)            | Transaction Capabilities (TC) test specification
 Q.787-1997               | (none)          | (09/97)            | Transaction Capabilities (TC) Test Specification - Series Q: Switching and Signalling - Specifications of Signalling System No. 7 - Test Specification - Study Group 11; 322 pp
-Q.788                    | (none)          | (06/97)            | User-network-interface to user-network-interface compatibility test specifications for ISDN, non-ISDN and undetermined accesses interworking over international ISUP
 Q.788-1997               | (none)          | (06/97)            | User-Network-Interface to User-Network-Interface Compatibility Test Specifications for ISDN, Non-ISDN and Undetermined Accesses Interworking over International ISUP - Series Q: Switching and Signalling Specifications of Signalling System No.7 - Test Specification - Study Group 11; 241 pp
 Q.791-1989               | (none)          | (01/89)            | Monitoring and Measurements for Signalling System No. 7 Networks - Specifications of Signalling System No.7 - Study Group XI; 20 pp; Cancelled
 Q.795-1989               | (none)          | (01/89)            | Operations, Maintenance and Administration Part (OMAP) - Specifications of Signalling System No. 7 - Study Group XI; 47 pp; Cancelled
-Q.8                      | (none)          | (11/88)            | SIGNALLING SYSTEMS TO BE USED FOR INTERNATIONAL MANUAL AND AUTOMATIC WORKING ON ANALOGUE LEASED CIRCUITS
 Q.8-1988                 | (none)          | (11/88)            | SIGNALLING SYSTEMS TO BE USED FOR INTERNATIONAL MANUAL AND AUTOMATIC WORKING ON ANALOGUE LEASED CIRCUITS
-Q.80                     | (none)          | (11/88)            | INTRODUCTION TO STAGE 2 SERVICE DESCRIPTIONS FOR SUPPLEMENTARY SERVICES
 Q.80-1988                | (none)          | (11/88)            | INTRODUCTION TO STAGE 2 SERVICE DESCRIPTIONS FOR SUPPLEMENTARY SERVICES
 Q.81-1992                | (none)          | (02/92)            | Addenda - Stage 2 Description for Number Identification Supplementary Services Section 2 - Multiple Subscriber Number Section 8 - Sub-Addressing (SUB) Functions and Information Flows for Services in the ISDN - Study Group XI
-Q.81.1                   | (none)          | (11/88)            | Stage 2 Description for Number Identification Supplementary Services - Direct Dialling-in
-Q.81.1-1988              | (none)          | (11/88)            | Stage 2 Description for Number Identification Supplementary Services - Direct Dialling-in
-Q.81.2                   | (none)          | (02/92)            | Stage 2 description for number identification supplementary services section 2 - Multiple subscriber number
-Q.81.3                   | (none)          | (09/91)            | STAGE 2 DESCRIPTION FOR NUMBER IDENTIFICATION SUPPLEMENTARY SERVICES SECTION 3 - CALLING LINE IDENTIFICATION PRESENTATION (CLIP) AND CALLING LINE IDENTIFICATION RESTRICTION (CLIR)
+Q.81.1-1988              | (none)          | (11/88)            | Stage 2 Description for Number Identification Supplementary Services - section 1 - Direct Dialling-in
+Q.81.2-1992              | (none)          | (02/92)            | Stage 2 description for number identification supplementary services - section 2 - Multiple subscriber number
 Q.81.3-1991              | (none)          | (01/91)            | Stage 2 Description for Number Identification Supplementary Services - SECTION 3 - CALLING LINE IDENTIFICATION PRESENTATION (CLIP) AND CALLING LINE IDENTIFICATION RESTRICTION (CLIR), SECTION 5 - CONNECTED LINE IDENTIFICATION, PRESENTATIO
-Q.81.4                   | (none)          | (11/88)            | NUMBER IDENTIFICATION SUPPLEMENTARY SERVICES 鈥?CALLING LINE IDENTIFICATION RESTRICTION (CLIR)
 Q.81.4-1988              | (none)          | (11/88)            | NUMBER IDENTIFICATION SUPPLEMENTARY SERVICES 鈥?CALLING LINE IDENTIFICATION RESTRICTION (CLIR)
 Q.81.5-1991              | (none)          | (09/91)            | STAGE 2 DESCRIPTION FOR NUMBER IDENTIFICATION SUPPLEMENTARY SERVICES SECTION 5 – CONNECTED LINE IDENTIFICATION, PRESENTATION SECTION 5 – AND RESTRICTION (COLP AND COLR)
-Q.81.6                   | (none)          | (11/88)            | NUMBER IDENTIFICATION SUPPLEMENTARY SERVICES 鈥?CONNECTED LINE IDENTIFICATION RESTRICTION (COLR)
 Q.81.6-1988              | (none)          | (11/88)            | NUMBER IDENTIFICATION SUPPLEMENTARY SERVICES 鈥?CONNECTED LINE IDENTIFICATION RESTRICTION (COLR)
-Q.81.7                   | (none)          | (06/97)            | Descripción de la etapa 2 para los servicios suplementarios de identificación de número: Identificación de llamadas malintencionadas
 Q.81.7-1997              | (none)          | (06/97)            | Stage 2 Description for Number Identification Supplementary Services: Malicious Call Identification (MCID) - Series Q: Switching and Signalling Functions and Information Flows for Services in the ISDN - Supplementary Services - Study Group 11; 28 pp
-Q.81.8                   | (none)          | (02/92)            | DESCRIPCIÓN DE LA ETAPA 2 PARA LOS SERVICIOS SUPLEMENTARIOS DE IDENTIFICACIÓN DE NÚMEROS SECCIÓN 8 – SUBDIRECCIONAMIENTO
-Q.81.8                   | (none)          | (02/92)            | STAGE 2 DESCRIPTION FOR NUMBER IDENTIFICATION SUPPLEMENTARY SERVICES SECTION 8 – SUB-ADDRESSING (SUB)
 Q.81.8-1992              | (none)          | (02/92)            | STAGE 2 DESCRIPTION FOR NUMBER IDENTIFICATION SUPPLEMENTARY SERVICES SECTION 8 – SUB-ADDRESSING (SUB) - Study Group XI
-Q.811                    | (none)          | (02/04)            | Lower layer protocol profiles for the Q and X interfaces
 Q.811-2004               | (none)          | (02/04)            | Lower layer protocol profiles for the Q and X interfaces SERIES Q: SWITCHING AND SIGNALLING Q3 interface
-Q.812                    | (none)          | (02/04)            | Upper layer protocol profiles for the Q and X interfaces
 Q.812-2004               | (none)          | (02/04)            | Upper layer protocol profiles for the Q and X interfaces SERIES Q: SWITCHING AND SIGNALLING Q3 interface
-Q.813                    | (none)          | (06/98)            | Security Transformations Application Service Element for Remote Operations Service Element (STASE-ROSE)
 Q.813-1998               | (none)          | (06/98)            | Security Transformations Application Service Element for Remote Operations Service Element (STASE-ROSE) - Series Q: Switching and Signalling - Specifications of Signalling System No. 7 - Q3 Interface - Study Group 4; 70 pp
-Q.814                    | (none)          | (02/00)            | Specification of an electronic data interchange interactive agent
 Q.814-2000               | (none)          | (02/00)            | Specification of an Electric Data Interchange Interactive Agent Series Q: Switching and Signalling Specifications of Signalling System No. 7 - Q3 Interface
-Q.815                    | (none)          | (02/00)            | Specification of a security module for whole message protection
 Q.815-2000               | (none)          | (02/00)            | Specification of a Security Module for Whole Message Protection Series Q: Switching and Signalling Specifications of Signalling System No. 7 - Q3 Interface
-Q.816                    | (none)          | (01/01)            | CORBA-based TMN services
-Q.816 AMD 1              | (none)          | (08/01)            | COBRA-based TMN services Amendment 1: OMG services profile
 Q.816 AMD 1-2001         | (none)          | (08/01)            | COBRA-Based TMN Services Amendment 1: OMG Services Profile Series Q: Switching and Signalling Q3 Interface
-Q.816 AMD 2              | (none)          | (05/02)            | CORBA-based TMN services Amendment 2: User guide for local name resolution
 Q.816 AMD 2-2002         | (none)          | (05/02)            | SERIES Q: SWITCHING AND SIGNALLING Q3 interface CORBA- based TMN services Amendment 2: User guide for local name resolution
-Q.816 CORR 1             | (none)          | (08/01)            | CORBA-based TMN services Corrigendum 1
 Q.816 CORR 1-2001        | (none)          | (08/01)            | CORBA-Based TMN Services Series Q: Switching and Signalling Q3 Interface
-Q.816 CORR 2             | (none)          | (08/02)            | CORBA-based TMN services Corrigendum 2
 Q.816 CORR 2-2002        | (none)          | (08/02)            | SERIES Q: SWITCHING AND SIGNALLING Q3 interface CORBA- based TMN services Corrigendum 2
 Q.816-2001               | (none)          | (01/01)            | CORBA-Based TMN Services Series Q: Switching and Signalling Q3 Interface
-Q.816.1                  | (none)          | (08/01)            | CORBA-based TMN services: Extensions to support coarse-grained interfaces
 Q.816.1-2001             | (none)          | (08/01)            | CORBA-Based TMN Services: Extensions to Support Coarse-Grained Interfaces Series Q: Switching and Signalling Q3 Interface
 Q.816.2-2007             | (none)          | (03/07)            | CORBA-based TMN services: Extensions to support service-oriented interfaces
-Q.817                    | (none)          | (01/01)            | TMN PKI 鈭?Digital certificates and certificate revocation lists profiles
-Q.817-2001               | (none)          | (01/01)            | TMN PKI 鈭?Digital certificates and certificate revocation lists profiles
+Q.817-2001               | (none)          | (01/01)            | TMN PKI - Digital certificates and certificate revocation lists profiles
 Q.818 CORR 1-2013        | (none)          | (03/13)            | Web services-based management services Corrigendum 1
 Q.818-2012               | (none)          | (05/12)            | Web-Services based Management Services
-Q.82.2                   | (none)          | (03/93)            | STAGE 2 DESCRIPTION FOR CALL OFFERING SUPPLEMENTARY SERVICES CLAUSE 2 - CALL FORWARDING
 Q.82.2-1993              | (none)          | (01/93)            | Stage 2 Description for Call Offering Supplementary Services Clause 2 - Call Forwarding Clause 3 - Call Deflection - General Recommendations on Telephone Switching and Signalling - Functions and Information Flows for Services in the ISDN (Study Group XI) 88 pp
-Q.82.3                   | (none)          | (03/93)            | DESCRIPCIÓN DE LA ETAPA 2 DE LOS SERVICIOS SUPLEMENTARIOS DE OFRECIMIENTO DE LLAMADA CLÁUSULA 3 – DESVIACIÓN DE LLAMADA
-Q.82.3                   | (none)          | (03/93)            | STAGE 2 DESCRIPTION FOR CALL OFFERING SUPPLEMENTARY SERVICES CLAUSE 3 - CALL DEFLECTION
 Q.82.3-1993              | (none)          | (03/93)            | STAGE 2 DESCRIPTION FOR CALL OFFERING SUPPLEMENTARY SERVICES CLAUSE 3 - CALL DEFLECTION - Study Group XI
-Q.82.4                   | (none)          | (11/88)            | STAGE 2 DESCRIPTION FOR CALL OFFERING SUPPLEMENTARY SERVICES 鈥?LINE HUNTING
 Q.82.4-1988              | (none)          | (11/88)            | Stage 2 Description for Call Offering Supplementary Services - Line Hunting - General Recommendations on Telephone Switching and Signalling Functions and Information Flows for Services in the ISDN - 7 pp
-Q.82.7                   | (none)          | (07/96)            | STAGE 2 DESCRIPTION FOR CALL OFFERING SUPPLEMENTARY SERVICES: EXPLICIT CALL TRANSFER
 Q.82.7-1996              | (none)          | (07/96)            | Stage 2 Decription for Call Offering Supplementary Services: Explicit Call Transfer - Series Q: Switching and Signalling; Functions and Information Flows for Services in the ISDN - Supplementary Services - Study Group 11; 37 pp
-Q.821                    | (none)          | (02/00)            | Stage 2 and stage 3 description for the Q3 interface - Alarm surveillance
-Q.821                    | (none)          | (02/00)            | Stage 2 and Stage 3 Description for the Q3 Interface - Alarm Surveillance
 Q.821-2000               | (none)          | (02/00)            | Stage 2 and Stage 3 Description for the Q3 Interface - Alarm Surveillance Series Q: Switching and Signalling Q3 Interface
-Q.821.1                  | (none)          | (09/01)            | CORBA-based TMN alarm surveillance service
 Q.821.1-2001             | (none)          | (09/01)            | COBRA-Based TMN Alarm Surveillance Service Series Q: Switching and Signalling Q3 Interface
-Q.822                    | (none)          | (04/94)            | STAGE 1, STAGE 2 AND STAGE 3 DESCRIPTION FOR THE Q3 INTERFACE 鈥?PERFORMANCE MANAGEMENT
-Q.822 AMD 1              | (none)          | (03/03)            | Stage 1, stage 2 and stage 3 description for the Q3 interface 鈥?Performance management Amendment 1: Generic transport performance management
 Q.822 AMD 1-2003         | (none)          | (03/03)            | Stage 1, stage 2 and stage 3 description for the Q3 interface 鈥?Performance management Amendment 1: Generic transport performance management SERIES Q: SWITCHING AND SIGNALLING Q3 interface - Amendment 1; Study Group 4
 Q.822-1994               | (none)          | (01/94)            | Stage 1, Stage 2 and Stage 3 Description for the Q3 Interface - Performance Management - Specifications of Signalling System No. 7 (Study Group 11) 54 pp
-Q.822.1                  | (none)          | (10/01)            | CORBA-based TMN performance management service
-Q.822.1 AMD 1            | (none)          | (03/03)            | CORBA-based TMN performance management service Amendment 1: Generic transport performance management
 Q.822.1 AMD 1-2003       | (none)          | (03/03)            | COBRA-Based TMN performance management service Amendment 1: Generic transport performance management Series Q: SWITCHING AND SIGNALLING Q3 interface - Amendment 1; Study Group 4
 Q.822.1-2001             | (none)          | (10/01)            | COBRA-Based TMN Performance Management Service Series Q: Switching and Signalling Q3 Interface
-Q.823                    | (none)          | (07/96)            | STAGE 2 AND STAGE 3 FUNCTIONAL SPECIFICATIONS FOR TRAFFIC MANAGEMENT
 Q.823-1996               | (none)          | (07/96)            | Stage 2 and Stage 3 Functional Specifications for Traffic Management - Series Q: Switching and Signalling Specifications of Signalling System No. 7 - Q3 Interface - Study Group 11; 116 pp
 Q.823.1-1997             | (none)          | (10/97)            | Management Conformance Statement Proformas - Series Q: Switching and Signalling Specifications of Signalling System No. 7 - Q3 Interface - Study Group 4; 293 pp
-Q.824. 0-1995            | (none)          | (01/95)            | Stages 2 and 3 Description for the Q3 Interface - Customer Administration - Common Information - Specifications of Signalling System No. 7 (Study Group 11) 52 pp
-Q.824. 1-1995            | (none)          | (01/95)            | Stages 2 and 3 Description for the Q3 Interface - Customer Administration - Integrated Services Digital Network (ISDN) Basic and Primary Rate Access - Specifications of Signalling System No. 7 (Study Group 11) 71 pp
-Q.824. 2-1995            | (none)          | (01/95)            | Stages 2 and 3 Description for the Q3 Interface - Customer Administration - Integrated Services Digital Network (ISDN) Supplementary Services - Specifications of Signalling System No. 7 (Study Group 11) 33 pp
-Q.824. 3-1995            | (none)          | (10/95)            | Stages 2 and 3 Description for the Q3 Interface - Customer Administration - Integrated Services Digital Network (ISDN), Optional User Facilities - Specifications of Signalling System No. 7 (Study Group 11) 16 pp
-Q.824. 4-1995            | (none)          | (01/95)            | Stages 2 and 3 Description for the Q3 Interface - Customer Administration - Integrated Services Digital Network (ISDN) - Teleservices - Specifications of Signalling System No. 7 (Study Group 11) 12 pp
-Q.824.0                  | (none)          | (10/95)            | STAGES 2 AND 3 DESCRIPTION FOR THE Q3 INTERFACE 鈥?CUSTOMER ADMINISTRATION 鈥?COMMON INFORMATION
-Q.824.1                  | (none)          | (10/95)            | STAGES 2 AND 3 DESCRIPTION FOR THE Q3 INTERFACE - CUSTOMER ADMINISTRATION - INTEGRATED SERVICES DIGITAL NETWORK (ISDN) BASIC AND PRIMARY RATE ACCESS
-Q.824.2                  | (none)          | (10/95)            | STAGES 2 AND 3 DESCRIPTION FOR THE Q3 INTERFACE 鈥?CUSTOMER ADMINISTRATION 鈥?INTEGRATED SERVICES DIGITAL NETWORK (ISDN) SUPPLEMENTARY SERVICES
-Q.824.3                  | (none)          | (10/95)            | STAGES 2 AND 3 DESCRIPTION FOR THE Q3 INTERFACE - CUSTOMER ADMINISTRATION - INTEGRATED SERVICES DIGITAL NETWORK (ISDN), OPTIONAL USER FACILITIES
-Q.824.3                  | (none)          | (10/95)            | STAGES 2 AND 3 DESCRIPTION FOR THE Q3 INTERFACE 鈥?CUSTOMER ADMINISTRATION 鈥?INTEGRATED SERVICES DIGITAL NETWORK (ISDN), OPTIONAL USER FACILITIES
-Q.824.4                  | (none)          | (10/95)            | STAGES 2 AND 3 DESCRIPTION FOR THE Q3 INTERFACE 鈥?CUSTOMER ADMINISTRATION 鈥?INTEGRATED SERVICES DIGITAL NETWORK (ISDN) 鈥?TELESERVICES
-Q.824.5                  | (none)          | (10/97)            | Stage 2 and stage 3 description for the Q3 interface - Customer administration: Configuration management of V5 interface environments and associated customer profiles
-Q.824.5 CORR 1           | (none)          | (02/00)            | Stage 2 and stage 3 description for the Q3 interface 鈥?Customer administration: Configuration management of V5 interface environments and associated customer profiles Corrigendum 1
+Q.824.0-1995             | (none)          | (01/95)            | Stages 2 and 3 Description for the Q3 Interface - Customer Administration - Common Information - Specifications of Signalling System No. 7 (Study Group 11) 52 pp
+Q.824.1-1995             | (none)          | (01/95)            | Stages 2 and 3 Description for the Q3 Interface - Customer Administration - Integrated Services Digital Network (ISDN) Basic and Primary Rate Access - Specifications of Signalling System No. 7 (Study Group 11) 71 pp
+Q.824.2-1995             | (none)          | (01/95)            | Stages 2 and 3 Description for the Q3 Interface - Customer Administration - Integrated Services Digital Network (ISDN) Supplementary Services - Specifications of Signalling System No. 7 (Study Group 11) 33 pp
+Q.824.3-1995             | (none)          | (10/95)            | Stages 2 and 3 Description for the Q3 Interface - Customer Administration - Integrated Services Digital Network (ISDN), Optional User Facilities - Specifications of Signalling System No. 7 (Study Group 11) 16 pp
+Q.824.4-1995             | (none)          | (01/95)            | Stages 2 and 3 Description for the Q3 Interface - Customer Administration - Integrated Services Digital Network (ISDN) - Teleservices - Specifications of Signalling System No. 7 (Study Group 11) 12 pp
+Q.824.5 CORR 1           | (none)          | (02/00)            | Stage 2 and stage 3 description for the Q3 interface - Customer administration: Configuration management of V5 interface environments and associated customer profiles Corrigendum 1
 Q.824.5 CORR 1-2000      | (none)          | (02/00)            | Stage 2 and Stage 3 Description for the Q3 Interface - Customer Administration: Configuration Management of V5 Interface Environments and Associated Customer Profiles - Series Q: Switching and Signalling Specifications of Signalling System No. 7 - Q3 Interface - Corrigendum 1
 Q.824.5-1997             | (none)          | (10/97)            | Stage 2 and Stage 3 Description for the Q3 Interface - Customer Administration: Configuration Management of V5 Interface Environment and Associated Customer Profiles - Series Q: Switching and Signalling Specifications of Signalling System No. 7 - Q3 Interface - Study Group 4; 114 pp
-Q.824.6                  | (none)          | (06/98)            | Stage 2 and stage 3 description for the Q3 interface 鈥?Customer administration: Broadband switch management
 Q.824.6-1998             | (none)          | (06/98)            | Stage 2 and Stage 3 Description for the Q3 Interface - Customer Administration: Broadband Switch Management - Series Q: Switching and Signalling - Specifications of Signalling System No. 7 - Q3 Interface - Study Group 4; 124 pp
-Q.824.7                  | (none)          | (02/00)            | Stage 2 and stage 3 description for the Q3 interface 鈭?Customer administration: Enhanced broadband switch management
 Q.824.7-2000             | (none)          | (02/00)            | Stage 2 and Stage 3 Description for the Q3 Interface - Customer Administration: Enhanced Broadband Switch Management Series Q: Switching and Signalling Q3 Interface
-Q.825                    | (none)          | (06/98)            | Specification of TMN applications at the Q3 interface: Call detail recording
 Q.825-1998               | (none)          | (06/98)            | Specification of TMN Applications at the Q3 Interface: Call Detail Recording - Series Q: Switching and Signalling - Specifications of Signalling System No. 7 - Q3 Interface - Study Group 4; 90 pp
-Q.826                    | (none)          | (02/00)            | Routing management model
 Q.826-2000               | (none)          | (02/00)            | Routing Management Model Series Q: Switching and Signalling Q3 Interface
-Q.827.1                  | (none)          | (10/04)            | Requirements and analysis for the common management functions of NMS-EMS interfaces
-Q.827.1 AMD 1            | (none)          | (03/07)            | Requirements and analysis for the common management functions of NMS-EMS interfaces Amendment 1: Addition of a common managed entity EMS
 Q.827.1 AMD 1-2007       | (none)          | (03/07)            | Requirements and analysis for the common management functions of NMS-EMS interfaces Amendment 1: Addition of a common managed entity EMS
 Q.827.1-2004             | (none)          | (10/04)            | Requirements and analysis for the common management functions of NMS-EMS interfaces
-Q.83.1                   | (none)          | (09/91)            | STAGE 2 DESCRIPTION FOR CALL COMPLETION SUPPLEMENTARY SERVICES SECTION 1 - CALL WAITING (CW)
 Q.83.1-1991              | (none)          | (09/91)            | STAGE 2 DESCRIPTION FOR CALL COMPLETION SUPPLEMENTARY SERVICES SECTION 1 - CALL WAITING (CW) - Study Group XI
-Q.83.2                   | (none)          | (02/92)            | STAGE 2 DESCRIPTION FOR CALL COMPLETION SUPPLEMENTARY SERVICES SECTION 2 鈥?CALL HOLD (REV.1)
-Q.83.4                   | (none)          | (09/91)            | STAGE 2 DESCRIPTION FOR CALL COMPLETION SUPPLEMENTARY SERVICES - SECTION 4 - TERMINAL PORTABILITY
+Q.83.2                   | (none)          | (02/92)            | STAGE 2 DESCRIPTION FOR CALL COMPLETION SUPPLEMENTARY SERVICES SECTION 2 - CALL HOLD (REV.1)
 Q.83.4-1991              | (none)          | (01/91)            | Stage 2 Description for Call Completion Supplementary Services Section 1 - Call Waiting (CW) Section 4 - Terminal Portability - Functions and Information Flows for Services in the ISDN - Modifications and Addenda to: Recommendation Q.83; Study Group XI; 27 pp
-Q.831                    | (none)          | (10/97)            | Fault and performance management of V5 interface environments and associated customer profiles
-Q.831 CORR 1             | (none)          | (03/01)            | Fault and performance management of V5 interface environments and associated customer profiles Corrigendum 1
 Q.831 CORR.1-2001        | (none)          | (03/01)            | Fault and Performance Management of V5 Interface Environments and Associated Customer Profiles Series Q: Switching and Signalling Q3 Interface
-Q.831-1997               | (none)          | (10/97)            | Fault and Performance Management of V5 Interface Environments and Associated Customer Profiles - Series Q: Switching and Signalling Specifications of Signalling System No. 7 - Q3 Interface - Study Group 4; 51 pp
-Q.831.1                  | (none)          | (02/00)            | Access management for V5
+Q.831-1997               | (none)          | (10/97)            | Fault and Performance Management of V5 Interface Environments and Associated Customer Profiles Series Q: Switching and Signalling Specifications of Signalling System No. 7 - Q3 Interface - Study Group 4; 51 pp
 Q.831.1-2000             | (none)          | (02/00)            | Access Management for V5 - Series Q: Switching and Signalling Specifications of Signalling System No. 7 - Q3 Interface
-Q.832.1                  | (none)          | (06/98)            | VB5.1 Management
-Q.832.1 CORR 1           | (none)          | (03/01)            | VB5.1 Management Corrigendum 1
-Q.832.1 CORR. 1-2001     | (none)          | (03/01)            | VB5.1 Management
+Q.832.1 CORR.1-2001      | (none)          | (03/01)            | VB5.1 Management
 Q.832.1-1998             | (none)          | (06/98)            | VB5.1 Management - Study Group 4; 52 pp
-Q.832.2                  | (none)          | (03/99)            | VB5.2 Management
 Q.832.2-1999             | (none)          | (03/99)            | VB5.2 Management
-Q.832.3                  | (none)          | (01/01)            | Broadband Access Coordination
 Q.832.3-2001             | (none)          | (01/01)            | Broadband Access Coordination
-Q.833.1                  | (none)          | (01/01)            | Asymmetric digital subscriber line (ADSL) 鈭? Network element management: CMIP model
 Q.833.1-2001             | (none)          | (01/01)            | Asymmetric Digital Subscriber Line (ADSL) - Network Element Management: CMIP Model Series Q: Switching and Signalling Q3 Interface
-Q.834.1                  | (none)          | (06/04)            | ATM-PON requirements and managed entities for the network and network element views
 Q.834.1-2004             | (none)          | (06/04)            | ATM-PON requirements and managed entities for the network and network element views SERIES Q: SWITCHING AND SIGNALLING Q3 interface
-Q.834.2                  | (none)          | (04/01)            | ATM-PON requirements and managed entities for the network view
 Q.834.2-2001             | (none)          | (04/01)            | ATM-PON requirements and managed entities for the network view
 Q.834.3-2004             | (none)          | (06/04)            | A UML description for management interface requirements for Broadband Passive Optical Networks
-Q.834.4                  | (none)          | (07/03)            | A CORBA interface specification for Broadband Passive Optical Networks based on UML interface requirements
 Q.834.4 AMD 1            | (none)          | (01/04)            | A CORBA interface specification for Broadband Passive Optical Networks based on UML interface requirements Amendment 1
 Q.834.4 AMD 1-2004       | (none)          | (01/04)            | A CORBA interface specification for Broadband Passive Optical Networks based on UML interface requirements Amendment 1 SERIES Q: SWITCHING AND SIGNALLING Q3 interface
 Q.834.4 CORR 1-2004      | (none)          | (01/04)            | A CORBA Interface Specification for Broadband Passive Optical Networks based on UML Interface Requirements Corrigendum 1: SERIES Q: SWITCHING AND SIGNALLING Q3 interface
 Q.834.4-2003             | (none)          | (07/03)            | A CORBA interface specification for Broadband Passive Optical Networks based on UML interface requirements
-Q.835                    | (none)          | (03/99)            | Line and line circuit test management of ISDN and analogue customer accesses
 Q.835 CORR 1             | (none)          | (03/01)            | Line and line circuit test management of ISDN and analogue customer accesses Corrigendum 1
 Q.835 CORR 1-2001        | (none)          | (03/01)            | Line and line circuit test management of ISDN and analogue customer accesses Corrigendum 1
 Q.835-1999               | (none)          | (03/99)            | Line and Line Circuit Test Management of ISDN and Analogue Customer Accesses
-Q.836.1                  | (none)          | (02/00)            | SSF management information model
 Q.836.1-2000             | (none)          | (02/00)            | SSF Management Information Model Series Q: Switching and Signalling Specifications of Signalling System No. 7 - Q3 Interface
-Q.837.1                  | (none)          | (02/04)            | SDH-DLC functional requirements for the network and network element views
 Q.837.1-2004             | (none)          | (02/04)            | SDH-DLC functional requirements for the network and network element views SERIES Q: SWITCHING AND SIGNALLING Q3 interface
 Q.837.2-2007             | (none)          | (10/07)            | Use case descriptions and analysis for SDH-DLC network level management interface
-Q.838.1                  | (none)          | (10/04)            | Requirements and analysis for the management interface of Ethernet Passive Optical Networks (EPON)
 Q.838.1-2004             | (none)          | (10/04)            | Requirements and analysis for the management interface of Ethernet Passive Optical Networks (EPON) SERIES Q: SWITCHING AND SIGNALLING Q3 interface
-Q.84.1                   | (none)          | (03/93)            | STAGE 2 DESCRIPTION FOR MULTIPARTY SUPPLEMENTARY SERVICES CLAUSE 1 鈥?CONFERENCE CALLING (CONF)
 Q.84.1-1993              | (none)          | (03/93)            | Stage 2 Description for Multiparty Supplementary Services Clause 1 - Conference Calling (CONF) - General Recommendations on Telephone Switching and Signalling Functions and Information Flows for Services in the ISDN - Study Group XI
-Q.84.2                   | (none)          | (10/95)            | STAGE 2 DESCRIPTION FOR MULTIPARTY SUPPLEMENTARY SERVICES CLAUSE 2 - THREE-PARTY SERVICE
 Q.84.2-1995              | (none)          | (10/95)            | Stage 2 Description for Multiparty Supplementary Services Clause 2 - Three-Party Service - General Recommendations on Telephone Switching and Signalling Functions and Information Flows for Services in the ISDN
 Q.840.1-2007             | (none)          | (03/07)            | Requirements and analysis for NMS-EMS management interface of Ethernet over Transport and Metro Ethernet Network (EoT/MEN)
-Q.85.1                   | (none)          | (02/92)            | STAGE 2 DESCRIPTION FOR COMMUNITY OF INTEREST SUPPLEMENTARY SERVICES SECTION 1 - CLOSED USER GROUP (CUG)
 Q.85.1-1992              | (none)          | (02/92)            | STAGE 2 DESCRIPTION FOR COMMUNITY OF INTEREST SUPPLEMENTARY SERVICES SECTION 1 - CLOSED USER GROUP (CUG)
-Q.85.3                   | (none)          | (02/92)            | DESCRIPCIÓN DE LA ETAPA 2 DE LOS SERVICIOS SUPLEMENTARIOS PARA COMUNIDAD DE INTERESES - SECCIÓN 3 – SERVICIO DE PRECEDENCIA CON APROPIACIÓN MULTINIVEL (N.o 1)
-Q.85.3                   | (none)          | (02/92)            | STAGE 2 DESCRIPTION FOR COMMUNITY OF INTEREST SUPPLEMENTARY SERVICES SECTION 3 - MULTI-LEVEL PRECEDENCE AND PREEMPTION (MLPP) (rev.1)
 Q.85.3-1992              | (none)          | (02/92)            | STAGE 2 DESCRIPTION FOR COMMUNITY OF INTEREST SUPPLEMENTARY SERVICES SECTION 3 - MULTI-LEVEL PRECEDENCE AND PREEMPTION (MLPP) (rev.1) - Study Group XI
-Q.85.6                   | (none)          | (02/95)            | STAGE 2 DESCRIPTION FOR COMMUNITY OF INTEREST SUPPLEMENTARY SERVICES CLAUSE 6 - GLOBAL VIRTUAL NETWORK SERVICE (GVNS)
-Q.85.6 ANNEX A           | (none)          | (07/96)            | Stage 2 description for community of interest supplementary services: Global Virtual Network Service (GVNS) Annex A: Service procedures and information flows based on Intelligent Network CS-I capabilities
 Q.85.6 ANNEX A-1996      | (none)          | (07/96)            | Stage 2 Description for Community of Interest Supplementary Services: Global Virtual Network Service (GVNS) Annex A: Service Procedures and Information Flows Based on Intelligent Network CS-1 Capabilities - Series Q: Switching and Signalling Functions and Information Flows for Services in the ISDN - Supplementary Services - 62 pp
 Q.85.6-1995              | (none)          | (02/95)            | Stage 2 Description for Community of Interest Supplementary Services - Clause 6 - Global Virtual Network Service (GVNS) General Recommendations on Telephone Switching and Signalling - Functions and Information Flows for Services in the ISDN
-Q.850                    | (none)          | (05/98)            | Usage of Cause and Location in the Digital Subscriber Signalling System No. 1 and the Signalling System No. 7 ISDN User Part
-Q.850 ADD 1              | (none)          | (06/00)            | Usage of cause and location in the Digital Subscriber Signalling System No. 1 and the Signalling System No. 7 ISDN User part Addendum 1
 Q.850 ADD 1-2000         | (none)          | (06/00)            | Usage of Cause and Location in the Digital Subscriber Signalling System No. 1 and the Signalling System No. 7 ISDN User Part - Addendum 1 - Series Q: Switching and Signalling - Digital Subscriber Signalling System No. 1 - General
 Q.850 ADD 1-2001         | (none)          | (07/01)            | Usage of Cause and Location in the Digital Subscriber Signalling System No. 1 (DSS1) and the Signalling System No. 7 (SS No.7) ISDN User Part (ISUP) Series Q: Switching and Signalling - Digital Subscriber Signalling System No. 1 - General
-Q.850 AMD 1              | (none)          | (07/01)            | Usage of cause and location in the Digital Subscriber Signalling System No. 1 (DSS1) and the Signalling System No. 7 ISDN user part (ISUP) Amendment 1
 Q.850 AMD 1-2001         | (none)          | (07/01)            | Usage of Cause and Location in the Digital Subscriber Signalling System No. 1 (DSS1) and the Signalling System No. 7 ISDN User Part (ISUP) Series Q: Switching and Signalling - Digital Subscriber Signalling System No. 1 - General
 Q.850 AMD 1-2019         | (none)          | (04/19)            | Usage of cause and location in the Digital Subscriber Signalling System No. 1 and the Signalling System No. 7 ISDN user part Amendment 1
 Q.850-1998               | (none)          | (05/98)            | Usage of Cause and Location in the Digital Subscriber Signalling System No. 1 and the Signalling System No. 7 ISDN User Part - Study Group 11; 32 pp
 Q.850-2018               | (none)          | (10/18)            | USAGE OF CAUSE AND LOCATION IN THE DIGITAl SUBSCRIBER SIGNALLING SYSTEM No. 1 AND THE SIGNALLING SYSTEM No. 7 ISDN USER PART
 Q.86-1989                | (none)          | (01/89)            | Charging Supplementary Services - General Recommendations on Telephone Switching and Signalling - Functions and Information Flows for Services in the ISDN - Supplements (Study Group XI) 22 pp
-Q.86.2                   | (none)          | (10/95)            | STAGE 2 DESCRIPTION FOR CHARGING SUPPLEMENTARY SERVICES CLAUSE 2 - ADVICE OF CHARGE (AOC)
 Q.86.2-1995              | (none)          | (10/95)            | Stage 2 Description for Charging Supplementary Services Clause 2 - Advice of Charge (AOC) - General Recommendations on Telephone Switching and Signalling Functions and Information Flows for Services in the ISDN
-Q.86.3                   | (none)          | (03/93)            | STAGE 2 DESCRIPTION FOR CHARGING SUPPLEMENTARY SERVICES CLAUSE 3 - REVERSE CHARGING (REV)
 Q.86.3-1993              | (none)          | (03/93)            | Stage 2 Description for Charging Supplementary Services Clause 3 - Reverse Charging (REV) - General Recommendations on Telephone Switching and Signalling Functions and Information Flows for Services in the ISDN - Study Group XI
-Q.86.4                   | (none)          | (06/97)            | Stage 2 description for charging supplementary services: International Freephone Service (IFS)
 Q.86.4-1997              | (none)          | (06/97)            | Stage 2 Description for Charging Supplementary Services: International Freephone Service (IFS) - Series Q: Switching and Signalling Functions and Information Flows for Services in the ISDN - Supplementary Services - Study Group 11; 22 pp
-Q.86.7                   | (none)          | (10/95)            | STAGE 2 DESCRIPTION FOR CHARGING SUPPLEMENTARY SERVICES CLAUSE 7 - INTERNATIONAL TELECOMMUNICATION CHARGE CARD (ITCC)
 Q.86.7-1995              | (none)          | (10/95)            | Stage 2 Description for Charging Supplementary Services Clause 7 - International Telecommunication Charge Card (ITCC) - General Recommendations on Telephone Switching and Signalling Functions and Information Flows for Services in the ISDN
-Q.860                    | (none)          | (06/00)            | Integrated services digital network (ISDN) and broadband integrated services digital network (B-ISDN) generic addressing and transport (GAT) protocol
 Q.860-2000               | (none)          | (06/00)            | Integrated services digital network (ISDN) and broadband integrated services digital network (B-ISDN) generic addressing and transport (GAT) protocol
-Q.87.1                   | (none)          | (03/93)            | STAGE 2 DESCRIPTION FOR ADDITIONAL INFORMATION TRANSFER SUPPLEMENTARY SERVICES CLAUSE 1 - USER-TO-USER SIGNALLING (UUS)
 Q.87.1-1993              | (none)          | (03/93)            | Stage 2 Description for Additional Information Transfer Supplementary Services Clause 1 - User-to-User Signalling (UUS) - General Recommendations on Telephone Switching and Signalling Functions and Information Flows for Services in the ISDN - Study Group XI
-Q.9                      | (none)          | (11/98)            | Vocabulary of switching and signalling terms
 Q.9-1988                 | (none)          | (11/88)            | VOCABULARY OF SWITCHING AND SIGNALLING TERMS
-Q.920                    | (none)          | (03/93)            | DIGITAL SUBSCRIBER SIGNALLING SYSTEM NO. 1 (DSS1) ISDN USER-NETWORK INTERFACE DATA LINK LAYER 鈥?GENERAL ASPECTS
 Q.920 AMD 1              | (none)          | (06/00)            | ISDN user-network interface data link layer - General aspects Amendment 1
 Q.920 AMD 1-2000         | (none)          | (06/00)            | ISDN user-network interface data link layer - General aspects Amendment 1
 Q.920-1993               | (none)          | (03/93)            | DIGITAL SUBSCRIBER SIGNALLING SYSTEM NO. 1 (DSS1) ISDN USER-NETWORK INTERFACE DATA LINK LAYER 鈥?GENERAL ASPECTS
-Q.921                    | (none)          | (09/97)            | ISDN user-network interface 鈥?Data link layer specification
 Q.921 AMD 1              | (none)          | (06/00)            | ISDN user-network interface 鈥?Data link layer specification Amendment 1
 Q.921 AMD 1-2000         | (none)          | (06/00)            | ISDN user-network interface 鈥?Data link layer specification Amendment 1
 Q.921 BIS-1993           | (none)          | (01/93)            | Abstract Test Suite for LAPD Conformance Testing (Study Group XI) 13 pp
 Q.921-1997               | (none)          | (09/97)            | ISDN user-network interface 鈥?Data link layer specification - Study Group 11; 269 pp
-Q.922                    | (none)          | (02/92)            | ISDN Data Link Layer Specification for Frame Mode Bearer Services
 Q.922-1992               | (none)          | (02/92)            | ISDN Data Link Layer Specification for Frame Mode Bearer Services
-Q.923                    | (none)          | (02/95)            | SPECIFICATION OF A SYNCHRONIZATION AND COORDINATION FUNCTION FOR THE PROVISION OF THE OSI CONNECTION-MODE NETWORK SERVICE IN AN ISDN ENVIRONMENT
 Q.923-1995               | (none)          | (02/95)            | SPECIFICATION OF A SYNCHRONIZATION AND COORDINATION FUNCTION FOR THE PROVISION OF THE OSI CONNECTION-MODE NETWORK SERVICE IN AN ISDN ENVIRONMENT
-Q.930                    | (none)          | (03/93)            | Digital Subscriber Signalling System No. 1 (DSS 1) - ISDN User-Network Interface Layer 3 - General Aspects
 Q.930-1993               | (none)          | (03/93)            | Digital Subscriber Signalling System No. 1 (DSS 1) - ISDN User-Network Interface Layer 3 - General Aspects - Study Group XI; 6 pp
-Q.931                    | (none)          | (05/98)            | ISDN user-network interface layer 3 specification for basic call control
 Q.931 AMD 1              | (none)          | (12/02)            | ISDN user-network interface layer 3 specification for basic call control Amendment 1: Extensions for the support of digital multiplexing equipment
 Q.931 AMD 1-2002         | (none)          | (12/02)            | ISDN user-network interface layer 3 specification for basic call control SERIES Q: SWITCHING AND SIGNALLING Digital subscriber Signalling System No. 1 鈥?Network layer
 Q.931 BIS                | (none)          | (02/95)            | PICS AND ABSTRACT TEST SUITE FOR ISDN DSS 1 LAYER 3 - CIRCUIT MODE, BASIC CALL CONTROL CONFORMANCE TESTING
@@ -8229,64 +7901,38 @@ Q.931 BIS-1995           | (none)          | (02/95)            | PICS AND ABSTR
 Q.931 NOTE               | (none)          | (02/03)            | ISDN user-network interface layer 3 specification for basic call control
 Q.931 NOTE-2003          | (none)          | (02/03)            | ISDN user-network interface layer 3 specification for basic call control
 Q.931-1998               | (none)          | (05/98)            | ISDN user-network interface layer 3 specification for basic call control
-Q.932                    | (none)          | (05/98)            | Digital Subscriber Signalling System No. 1 鈥?Generic procedures for the control of ISDN supplementary services
 Q.932 AMD 1              | (none)          | (06/00)            | Digital Subscriber Signalling System No. 1 鈥?Generic procedures for the control of ISDN supplementary services Amendment 1
 Q.932 AMD 1-2000         | (none)          | (06/00)            | Digital Subscriber Signalling System No. 1 - Generic Procedures for the Control of ISDN Supplementary Services Amendment 1 Series Q: Switching and Signalling Digital Subscriber Signalling System No.1 - Network Layer
 Q.932-1998               | (none)          | (05/98)            | Digital Subscriber Signalling System No. 1 - Generic Procedures for the Control of ISDN Supplementary Services - Series Q: Switching and Signalling - Digital Subscriber Signalling System No.1 - Network Layer - Study Group 11; 126 pp
-Q.933                    | (none)          | (02/03)            | ISDN Digital Subscriber Signalling System No. 1 (DSS1) 鈥?Signalling specifications for frame mode switched and permanent virtual connection control and status monitoring
 Q.933 BIS-1995           | (none)          | (01/95)            | Abstract Test Suite for Digital Subscriber Signalling System No. 1 (DSS 1) - Signalling Specification for Frame Mode Basic Call Control Conformance Testing for Permanent Virtual Connections (PVCs) (Annex A to Recommendation Q.933) - Digital Subscriber Signalling System No. 1 (Study Group 11) 10 pp
 Q.933-2003               | (none)          | (02/03)            | ISDN Digital Subscriber Signalling System No. 1 (DSS1) 鈥?Signalling specifications for frame mode switched and permanent virtual connection control and status monitoring SERIES Q: SWITCHING AND SIGNALLING Digital subscriber Signalling System No. 1 鈥?Network layer
-Q.939                    | (none)          | (03/93)            | Digital Subscriber Signalling System No. 1 (DSS 1) - Typical DSS 1 Service Indicator Codings for ISDN Telecommunications Services
 Q.939-1993               | (none)          | (03/93)            | Digital Subscriber Signalling System No. 1 (DSS 1) - Typical DSS 1 Service Indicator Codings for ISDN Telecommunications Services - Study Group XI
-Q.940                    | (none)          | (11/88)            | ISDN User-Network Interface Protocol for Management - General Aspects
 Q.940-1988               | (none)          | (11/88)            | ISDN User-Network Interface Protocol for Management - General Aspects - Digital Subscriber Signalling System No. 1 (DSS 1), Network Layer, User-Network Management (Study Group XI) 11 pp
-Q.941                    | (none)          | (03/93)            | Digital Subscriber Signalling System No. 1 (DSS 1) - ISDN User-Network Interface Protocol Profile for Management
 Q.941-1993               | (none)          | (03/93)            | Digital Subscriber Signalling System No. 1 (DSS 1) - ISDN User-Network Interface Protocol Profile for Management - Study Group XI; 12 pp
-Q.950                    | (none)          | (06/00)            | Supplementary services protocols, structure and general principles
 Q.950-2000               | (none)          | (06/00)            | Supplementary Services Protocols, Structure and General Principles Series Q: Switching and Signalling Digital Subscriber Signalling System No.1 - Stage 3 Description for Supplementary Services Using DSS 1
 Q.951-1993               | (none)          | (03/93)            | Stage 3 Description for Number Identification Supplementary Services Using DSS 1 Clause 3 - Calling Line Identification Presentation (CLIP) Clause 4 - Calling Line Identification Restriction (CLIR) Clause 5 - Connected Line Identification Presentation (COLP) Clause 6 - Calling Line Identification Restriction (COLR) Digital Subscriber Signalling System No. 1 Stage 3 Desc. for Supp. Services Using - Study Group XI
-Q.951.1                  | (none)          | (02/92)            | STAGE 3 DESCRIPTION FOR NUMBER IDENTIFICATION SUPPLEMENTARY SERVICES USING DSS 1 SECTION 1 鈥?Direct-Dialling-In (DDI)
 Q.951.1-1992             | (none)          | (02/92)            | STAGE 3 DESCRIPTION FOR NUMBER IDENTIFICATION SUPPLEMENTARY SERVICES USING DSS 1 SECTION 1 鈥?Direct-Dialling-In (DDI) - Study Group XI
-Q.951.2                  | (none)          | (02/92)            | STAGE 3 DESCRIPTION FOR NUMBER IDENTIFICATION SUPPLEMENTARY SERVICES USING DSS 1 - SECTION 2 鈥?Multiple Subscriber Number (MSN)
 Q.951.2-1992             | (none)          | (02/92)            | STAGE 3 DESCRIPTION FOR NUMBER IDENTIFICATION SUPPLEMENTARY SERVICES USING DSS 1 - SECTION 2 鈥?Multiple Subscriber Number (MSN) - Study Group XI
-Q.951.3                  | (none)          | (03/93)            | STAGE 3 DESCRIPTION FOR NUMBER IDENTIFICATION SUPPLEMENTARY SERVICES USING DSS 1 Clause 3 - Calling Line Identification Presentation (CLIP)
 Q.951.3-1993             | (none)          | (03/93)            | STAGE 3 DESCRIPTION FOR NUMBER IDENTIFICATION SUPPLEMENTARY SERVICES USING DSS 1 Clause 3 - Calling Line Identification Presentation (CLIP) - Study Group XI
-Q.951.4                  | (none)          | (03/93)            | STAGE 3 DESCRIPTION FOR NUMBER IDENTIFICATION SUPPLEMENTARY SERVICES USING DSS 1 - Clause 4 - Calling Line Identification Restriction (CLIR)
 Q.951.4-1993             | (none)          | (03/93)            | STAGE 3 DESCRIPTION FOR NUMBER IDENTIFICATION SUPPLEMENTARY SERVICES USING DSS 1 - Clause 4 - Calling Line Identification Restriction (CLIR) - Study Group XI
-Q.951.7                  | (none)          | (06/97)            | Stage 3 description for number identification supplementary services using DSS 1 : Malicious Call Identification (MCID)
-Q.951.7                  | (none)          | (06/97)            | STAGE 3 DESCRIPTION FOR NUMBER IDENTIFICATION SUPPLEMENTARY SERVICES USING DSS 1: MALICIOUS CALL IDENTIFICATION (MCID)
 Q.951.7-1997             | (none)          | (06/97)            | Stage 3 Description for Number Identification Supplementary Services Using DSS 1: Malicious Call Identification (MCID) - Sereis Q: Switching and Signalling Digital Subscriber Signalling System No.1 - Stage 3 Description for Supplementary Services Using DSS 1 - Study Group 11; 17 pp
-Q.952                    | (none)          | (03/93)            | STAGE 3 SERVICE DESCRIPTION FOR CALL OFFERING SUPPLEMENTARY SERVICES USING DSS 1 鈥?DIVERSION SUPPLEMENTARY SERVICES
 Q.952-1993               | (none)          | (03/93)            | Stage 3 Service Description for Call Offering Supplementary Services Using DSS 1 - Diversion Supplementary Services - Digital Subscriber Signalling System No. 1 (Study Group XI) 69 pp
-Q.952.7                  | (none)          | (06/97)            | Stage 3 description for call offering supplementary services using DSS I : Explicit Call Transfer (ECT)
 Q.952.7-1997             | (none)          | (06/97)            | Stage 3 Description for Call Offering Supplementary Services Using DSS 1: Explicit Call Transfer (ECT) - Series Q: Switching and Signalling Digital Subscriber Signalling System No.1 - Stage 3 Description for Supplementary Services Using DSS 1 - Study Group 11; 55 pp
 Q.953-1995               | (none)          | (01/95)            | Integrated Services Digital Network (ISDN) - Stage 3 Description for Call Completion Supplementary Services Using DSS 1 Clause 4 - Terminal Portability (TP) - Digital Subscriber Signalling System No. 1 (Study Group 11) 11 pp
-Q.953.1                  | (none)          | (02/92)            | STAGE 3 DESCRIPTION FOR CALL COMPLETION SUPPLEMENTARY SERVICES USING DSS 1 SECTION 1 - CALL WAITING
 Q.953.1-1992             | (none)          | (02/92)            | STAGE 3 DESCRIPTION FOR CALL COMPLETION SUPPLEMENTARY SERVICES USING DSS 1 SECTION 1 - CALL WAITING - Study Group XI
-Q.953.2                  | (none)          | (03/93)            | STAGE 3 DESCRIPTION FOR CALL COMPLETION SUPPLEMENTARY SERVICES USING DSS 1 CLAUSE 2: CALL HOLD
 Q.953.2-1993             | (none)          | (03/93)            | STAGE 3 DESCRIPTION FOR CALL COMPLETION SUPPLEMENTARY SERVICES USING DSS 1 CLAUSE 2: CALL HOLD - Study Group XI
-Q.953.3                  | (none)          | (06/97)            | Stage 3 description for call completion supplementary services using DSS 1: Completion of Calls to Busy Subscribers (CCBS)
 Q.953.3-1997             | (none)          | (06/97)            | Stage 3 Description for Call Completion Supplementary Services Using DSS 1: Completion of Calls to Busy Subscribers (CCBS) - Series Q: Switching and Signalling Digital Subscriber Signalling System No. 1 - Stage 3 Description for Supplementary Services Using DSS 1 - Study Group 11; 107 pp
-Q.953.4                  | (none)          | (10/95)            | INTEGRATED SERVICES DIGITAL NETWORK (ISDN) 鈥?STAGE 3 DESCRIPTION FOR CALL COMPLETION SUPPLEMENTARY SERVICES USING DSS 1 Clause 4 - Terminal Portability (TP)
 Q.953.4-1995             | (none)          | (10/95)            | INTEGRATED SERVICES DIGITAL NETWORK (ISDN) 鈥?STAGE 3 DESCRIPTION FOR CALL COMPLETION SUPPLEMENTARY SERVICES USING DSS 1 Clause 4 - Terminal Portability (TP)
-Q.953.5                  | (none)          | (12/99)            | Stage 3 description for call completion supplementary services using DSS1: Call Completion on No Reply (CCNR)
 Q.953.5-1999             | (none)          | (12/99)            | Stage 3 Description for Call Completion Supplementary Services Using DSS1: Call Completion on No Reply (CCNR) Series Q: Switching and Signalling Digital Subscriber Signalling System No. 1 - Stage 3 Description for Supplementary Services Using DSS1 - Study Group 11; 91 pp
-Q.954.1                  | (none)          | (03/93)            | STAGE 3 DESCRIPTION FOR MULTIPARTY SUPPLEMENTARY SERVICES USING DSS 1 CLAUSE 1 - CONFERENCE CALLING
 Q.954.1-1993             | (none)          | (01/93)            | Stage 3 Description for Multiparty Supplementary Services Using DSS 1 Clause 1 - Conference Calling Clause 2 - Three-Party Service - Digital Subscriber Signalling System No. 1 Stage 3 Description for Supplementary Services Using DSS 1 - Study Group XI; 65 pp; Covering Note June 1999
-Q.954.2                  | (none)          | (10/95)            | INTEGRATED SERVICES DIGITAL NETWORK (ISDN) 鈥?STAGE 3 DESCRIPTION FOR MULTIPARTY SUPPLEMENTARY SERVICES USING DSS 1 CLAUSE 2 - THREE PARTY (3PTY)
 Q.954.2-1995             | (none)          | (01/95)            | Integrated Services Digital Network (ISDN) - Stage 3 Description for Multiparty Supplementary Services Using DSS 1 Clause 2 - Three Party (3PTY) - Digital Subscriber Signalling System No. 1 (Study Group 11) 39 pp
 Q.955-1993               | (none)          | (01/93)            | Stage 3 Description for Community of Interest Supplementary Services Using DSS 1 Clause 3 - Multi-Level Precedence and Preemption (MLPP) - Digital Subscriber Signalling System No. 1 Stage 3 Description for Supplementary Services Using DSS 1 (Study Group XI) 62 pp
-Q.955.1                  | (none)          | (02/92)            | STAGE 3 DESCRIPTION FOR COMMUNITY OF INTEREST SUPPLEMENTARY SERVICES USING DSS 1 SECTION 1 - CLOSED USER GROUP
 Q.955.1-1992             | (none)          | (02/92)            | STAGE 3 DESCRIPTION FOR COMMUNITY OF INTEREST SUPPLEMENTARY SERVICES USING DSS 1 SECTION 1 - CLOSED USER GROUP - Study Group XI
-Q.955.3                  | (none)          | (03/93)            | STAGE 3 DESCRIPTION FOR COMMUNITY OF INTEREST SUPPLEMENTARY SERVICES USING DSS 1 CLAUSE 3 - MULTI-LEVEL PRECEDENCE AND PREEMPTION (MLPP)
 Q.955.3-1993             | (none)          | (03/93)            | STAGE 3 DESCRIPTION FOR COMMUNITY OF INTEREST SUPPLEMENTARY SERVICES USING DSS 1 CLAUSE 3 - MULTI-LEVEL PRECEDENCE AND PREEMPTION (MLPP) - Study Group XI
 Q.956-1995               | (none)          | (01/95)            | Integrated Services Digital Network (ISDN) - Stage 3 Description for Charging Supplementary Services Using DSS 1 - Clause 3 - Reverse Charging - Digital Subscriber Signalling System No. 1 (Study Group 11) 39 pp
-Q.956.2                  | (none)          | (10/95)            | INTEGRATED SERVICES DIGITAL NETWORK (ISDN) 鈥?STAGE 3 SERVICE DESCRIPTION FOR CHARGING SUPPLEMENTARY SERVICES USING DSS 1 Clause 2 鈥?Advice Of Charge (AOC)
 Q.956.2-1995             | (none)          | (10/95)            | Integrated Services Digital Network (ISDN) - Stage 3 Service Description for Charging Supplementary Services Using DSS 1 Clause 2 - Advice of Charge (AOC) - Digital Subscriber Signalling System No. 1 (Study Group 11) 51 pp
-Q.956.3                  | (none)          | (10/95)            | Integrated Services Digital Network (ISDN) - Stage 3 Service Description for Charging Supplementary Services Using DSS 1 Clause 3 - Reverse charging
 Q.956.3-1995             | (none)          | (10/95)            | Integrated Services Digital Network (ISDN) - Stage 3 Service Description for Charging Supplementary Services Using DSS 1 Clause 3 - Reverse charging
 Q.957-1993               | (none)          | (01/93)            | Stage 3 Description for Additional Information Information Transfer Supplementary Services Using DSS 1 Clause 1 - User-to-User Signalling (UUS) - Digital Subscriber Signalling System No. 1 - Stage 3 Description for Supp. Services Using DSS 1 (Study Group XI) 23 pp
-Q.957.1                  | (none)          | (07/96)            | Stage 3 Description for Additional Information Transfer Supplementary Services Using DSS 1: User-to-User Signalling (UUS)
 Q.957.1-1996             | (none)          | (07/96)            | Stage 3 Description for Additional Information Transfer Supplementary Services Using DSS 1: User-to-User Signalling (UUS) - Study Group 11; 36 pp
 QUESTION 1-4/5-2007      | (none)          | (01/07)            | Interference protection ratios and minimum field strengths required in the land mobile services
 QUESTION 1/1-E-2000      | (none)          | (05/00)            | (WITHDRAWN) Questions Assigned to Radiocommunications Study Group 1 by the Radiocommunication Assembly Spectrum Management - Study Group 1; 27 pp
@@ -8541,189 +8187,99 @@ QUESTION 96-2/5-2007     | (none)          | (01/07)            | Improved effic
 QUESTION 98/5-1990       | (none)          | (01/90)            | Transmission of digital data for the updating of electronic chart display systems
 QUESTION 99-1/5-2007     | (none)          | (01/07)            | Interference due to intermodulation products in the land mobile services between 25 and 6 000 MHz
 QUESTION 99/6-1998       | (none)          | (01/98)            | Relationship between quality, quality evaluation methodology, and type of application, in a multimedia environment
-R.100                    | (none)          | (03/93)            | TRANSMISSION CHARACTERISTICS OF INTERNATIONAL TDM LINKS
 R.100-1993               | (none)          | (01/93)            | Transmission Characteristics of International TDM Links - Telegraphy Telegraph Transmission (Study Group IX) 7 pp
-R.101                    | (none)          | (03/93)            | CODE AND SPEED DEPENDENT TDM SYSTEM FOR ANISOCHRONOUS TELEGRAPH AND DATA TRANSMISSION USING BIT INTERLEAVING
 R.101-1993               | (none)          | (01/93)            | Code and Speed Dependent TDM System for Anisochronous Telegraph and Data Transmission Using Bit Interleaving - Telegraphy Telegraph Transmission (Study Group IX) 18 pp
-R.102                    | (none)          | (03/93)            | 4800 bit/s CODE AND SPEED DEPENDENT AND HYBRID TDM SYSTEMS FOR ANISOCHRONOUS TELEGRAPH AND DATA TRANSMISSION USING BIT INTERLEAVING
 R.102-1993               | (none)          | (01/93)            | 4800 bit/s Code and Speed Dependent and Hybrid TDM Systems for Anisochronous Telegraph and Data Transmission Using Bit Interleaving - Telegraphy Telegraph Transmission (Study Group IX) 15 pp
-R.103                    | (none)          | (11/88)            | CODE AND SPEED-DEPENDANT TDM 600 BIT/S SYSTEM FOR USE IN POINT-TO-POINT OR BRANCH-LINE MULDEX CONFIGURATIONS
 R.103-1988               | (none)          | (11/88)            | CODE AND SPEED-DEPENDANT TDM 600 BIT/S SYSTEM FOR USE IN POINT-TO-POINT OR BRANCH-LINE MULDEX CONFIGURATIONS
-R.105                    | (none)          | (03/93)            | DUPLEX MULDEX CONCENTRATOR, CONNECTING A GROUP OF GENTEX AND TELEX SUBSCRIBERS TO A TELEGRAPH EXCHANGE BY ASSIGNING VIRTUAL CHANNELS TO TIME SLOTS OF A BIT-INTERLEAVED TDM SYSTEM
 R.105-1993               | (none)          | (03/93)            | Duplex Muldex Concentrator, Connecting a Group of Gentex and Telex Subscribers to a Telegraph Exchange by Assigning Virtual Channels to Time Slots of a Bit-Interleaved TDM System - Telegraphy Telegraph Transmission (Study Group IX) 7 pp
-R.106                    | (none)          | (08/95)            | MULDEX UNIT FOR TELEGRAPH AND LOW SPEED DATA TRANSMISSION USING TDM BIT INTERLEAVING WITH AN AGGREGATE BIT RATE HIGHER THAN 4800 bit/s
 R.106-1995               | (none)          | (08/95)            | Muldex Unit for Telegraph and Low Speed Data Transmission Using TDM Bit Interleaving with an Aggregate Bit Rate Higher Than 4800 bit/s - Telegraphy (Study Group 14) 9 pp
-R.11                     | (none)          | (03/93)            | CALCULATION OF THE DEGREE OF DISTORTION OF A TELEGRAPHIE CIRCUIT IN TERMS OF THE DEGREES OF DISTORTION OF THE COMPONENT LINKS
 R.11-1993                | (none)          | (01/93)            | Calculation of the Degree of Distortion of a Telegraphie Circuit in Terms of the Degrees of Distortion of the Component Links - Telegraphy - Telegraph Transmission - Study Group IX; 5 pp
-R.111                    | (none)          | (03/93)            | CODE AND SPEED INDEPENDENT TDM SYSTEM FOR ANISOCHRONOUS TELEGRAPH AND DATA TRANSMISSION
 R.111-1993               | (none)          | (03/93)            | CODE AND SPEED INDEPENDENT TDM SYSTEM FOR ANISOCHRONOUS TELEGRAPH AND DATA TRANSMISSION
-R.112                    | (none)          | (03/93)            | TDM HYBRID SYSTEM FOR ANISOCHRONOUS TELEGRAPH AND DATA TRANSMISSION USING BIT INTERLEAVING
 R.112-1993               | (none)          | (01/93)            | TDM Hybrid System for Anisochronous Telegraph and Data Transmission Using Bit Interleaving - Telegraphy Telegraph Transmission (Study Group IX) 7 pp
-R.113                    | (none)          | (03/93)            | COMBINED MULDEX FOR TELEGRAPHY AND SYNCHRONOUS DATA TRANSMISSION
 R.113-1993               | (none)          | (01/93)            | Combined Muldex for Telegraphy and Synchronous Data Transmission - Telegraphy Telegraph Transmission (Study Group IX) 9 pp
-R.114                    | (none)          | (03/93)            | NUMBERING OF INTERNATIONAL TDM CHANNELS
 R.114-1993               | (none)          | (03/93)            | Numbering of International TDM Channels - Telegraphy Telegraph Transmission (Study Group IX) 7 pp
-R.115                    | (none)          | (03/93)            | MAINTENANCE LOOPS FOR TDM-SYSTEMS
 R.115-1993               | (none)          | (03/93)            | Maintenance Loops for TDM-Systems - Telegraphy Telegraph Transmission - Study Group IX; 11 pp
-R.116                    | (none)          | (11/88)            | MAINTENANCE TESTS TO BE CARRIED OUT ON INTERNATIONAL TDM SYSTEMS
 R.116-1988               | (none)          | (11/88)            | MAINTENANCE TESTS TO BE CARRIED OUT ON INTERNATIONAL TDM SYSTEMS
-R.117                    | (none)          | (03/93)            | END-TO-END ERROR PERFORMANCE FOR TELEGRAPH, TELEX AND GENTEX CONNECTIONS INVOLVING REGENERATIVE EQUIPMENT
 R.117-1993               | (none)          | (01/93)            | End-to-End Error Performance for Telegraph, Telex and Gentex Connections Involving Regenerative Equipment - Telegraphy Telegraph Transmission (Study Group IX) 6 pp
-R.118                    | (none)          | (03/93)            | PERFORMANCE AND AVAILABILITY MONITORING IN REGENERATIVE TDM
 R.118-1993               | (none)          | (03/93)            | Performance and Availability Monitoring in Regenerative TDM - Telegraphy Telegraph Transmission (Study Group IX) 3 pp
-R.120                    | (none)          | (11/88)            | TOLERABLE LIMITS FOR THE DEGREE OF ISOCHRONOUS DISTORTION OF CODE - INDEPENDENT TELEGRAPH CIRCUITS OPERATING AT MODULATION RATES OF 75, 100 AND 200 BAUDS
-R.120                    | (none)          | (11/88)            | TOLERABLE LIMITS FOR THE DEGREE OF ISOCHRONOUS DISTORTION OF CODE-INDEPENDENT TELEGRAPH CIRCUITS OPERATING AT MODULATION RATES OF 75, 100 AND 200 BAUDS
 R.120-1988               | (none)          | (11/88)            | TOLERABLE LIMITS FOR THE DEGREE OF ISOCHRONOUS DISTORTION OF CODE-INDEPENDENT TELEGRAPH CIRCUITS OPERATING AT MODULATION RATES OF 75, 100 AND 200 BAUDS
-R.121                    | (none)          | (11/88)            | STANDARD LIMITS OF TRANSMISSION QUALITY FOR START - STOP USER CLASSES OF SERVICE 1 AND 2 ON ANISOCHRONOUS DATA NETWORKS
-R.121                    | (none)          | (11/88)            | STANDARD LIMITS OF TRANSMISSION QUALITY FOR START-STOP USER CLASSES OF SERVICE 1 AND 2 ON ANISOCHRONOUS DATA NETWORKS
 R.121-1988               | (none)          | (11/88)            | STANDARD LIMITS OF TRANSMISSION QUALITY FOR START-STOP USER CLASSES OF SERVICE 1 AND 2 ON ANISOCHRONOUS DATA NETWORKS
-R.122                    | (none)          | (11/88)            | SUMMARY OF TRANSMISSION PLANS FOR RATES UP TO 300 BAUDS
 R.122-1988               | (none)          | (11/88)            | SUMMARY OF TRANSMISSION PLANS FOR RATES UP TO 300 BAUDS
-R.140                    | (none)          | (11/88)            | DEFINITIONS OF ESSENTIAL TECHNICAL TERMS IN THE FIELD OF TELEGRAPH TRANSMISSION
 R.140-1988               | (none)          | (11/88)            | DEFINITIONS OF ESSENTIAL TECHNICAL TERMS IN THE FIELD OF TELEGRAPH TRANSMISSION
-R.150                    | (none)          | (11/88)            | AUTOMATIC PROTECTION SWITCHING OF DUAL DIVERSITY BEARERS
 R.150-1988               | (none)          | (11/88)            | AUTOMATIC PROTECTION SWITCHING OF DUAL DIVERSITY BEARERS
-R.2                      | (none)          | (11/88)            | Element Error Rate
 R.2-1988                 | (none)          | (11/88)            | Element Error Rate
-R.20                     | (none)          | (11/88)            | TELEGRAPH MODEM FOR SUBSCRIBER LINES
 R.20-1988                | (none)          | (11/88)            | TELEGRAPH MODEM FOR SUBSCRIBER LINES
-R.21                     | (none)          | (08/96)            | 9600 bit/s modem standardized for use in the Telegraph TDM system
 R.21-1996                | (none)          | (08/96)            | 9600 bit/s Modem Standardized for Use in the Telegraph TDM System - Series R: Telegraph Transmission Voice-Frequency Telegraphy - Study Group 14; 11 pp
-R.22                     | (none)          | (08/96)            | DATA OVER VOICE 19 200 bit/s MODEM STANDARIZED FOR USE ON TELEPHONE NETWORK SUBSCRIBER LINES
 R.22-1996                | (none)          | (08/96)            | Data over Voice 19 200 bit/s Modem Standardized for Use on Telephone Network Subscriber Lines - Series R: Telegraph Transmission Voice-Frequency Telegraphy - Study Group 14; 9 pp
-R.30                     | (none)          | (11/88)            | TRANSMISSION CHARACTERISTIC FOR INTERNATIONAL VFT LINKS
 R.30-1988                | (none)          | (11/88)            | TRANSMISSION CHARACTERISTIC FOR INTERNATIONAL VFT LINKS
-R.31                     | (none)          | (11/88)            | STANDARDIZATION OF AMVFT SYSTEMS FOR A MODULATION RATE OF 50 BAUDS
 R.31-1988                | (none)          | (11/88)            | STANDARDIZATION OF AMVFT SYSTEMS FOR A MODULATION RATE OF 50 BAUDS
-R.35                     | (none)          | (11/88)            | STANDARDIZATION OF FMVFT SYSTEMS FOR A MODULATION RATE OF 50 BAUDS
 R.35 BIS                 | (none)          | (11/88)            | 50-BAUD WIDEBAND VFT SYSTEMS
 R.35 BIS-1988            | (none)          | (11/88)            | 50-BAUD WIDEBAND VFT SYSTEMS
 R.35-1988                | (none)          | (11/88)            | STANDARDIZATION OF FMVFT SYSTEMS FOR A MODULATION RATE OF 50 BAUDS
-R.36                     | (none)          | (11/88)            | COEXISTENCE OF 50-BAUD/120-Hz CHANNELS, 100-BAUD/240-Hz CHANNELS, 200-BAUD/360-Hz OR 480-Hz CHANNELS ON THE SAME VOICE - FREQUENCY TELEGRAPH SYSTEM
 R.36-1988                | (none)          | (11/88)            | COEXISTENCE OF 50-BAUD/120-Hz CHANNELS, 100-BAUD/240-Hz CHANNELS, 200-BAUD/360-Hz OR 480-Hz CHANNELS ON THE SAME VOICE - FREQUENCY TELEGRAPH SYSTEM
-R.37                     | (none)          | (11/88)            | STANDARDIZATION OF FMVFT SYSTEMS FOR A MODULATION RATE OF 100 BAUDS
 R.37-1988                | (none)          | (11/88)            | STANDARDIZATION OF FMVFT SYSTEMS FOR A MODULATION RATE OF 100 BAUDS
-R.38 A                   | (none)          | (11/88)            | STANDARDIZATION OF FMVFT SYSTEM FOR A MODULATION RATE OF 200 BAUDS WITH CHANNELS SPACED AT 480 Hz
 R.38 A-1988              | (none)          | (11/88)            | STANDARDIZATION OF FMVFT SYSTEM FOR A MODULATION RATE OF 200 BAUDS WITH CHANNELS SPACED AT 480 Hz
-R.38 B                   | (none)          | (11/88)            | Standardization of FMVFT systems for a modulation rate of 200 bauds with channels spaced at 360 Hz usable on long intercontinental bearer circuits generally used with a 3-kHz spacing
-R.38 B                   | (none)          | (11/88)            | STANDARDIZATION OF FMVFT SYSTEMS FOR A MODULATION RATE OF 200 BAUDS WITH CHANNELS SPACED AT 360 Hz USABLE ON LONG INTERCONTINENTAL BEARER CIRCUITS GENERALLY USED WITH A 3-kHz SPACING
 R.38 B-1988              | (none)          | (11/88)            | STANDARDIZATION OF FMVFT SYSTEMS FOR A MODULATION RATE OF 200 BAUDS WITH CHANNELS SPACED AT 360 Hz USABLE ON LONG INTERCONTINENTAL BEARER CIRCUITS GENERALLY USED WITH A 3-kHz SPACING
-R.39                     | (none)          | (11/88)            | VOICE - FREQUENCY TELEGRAPHY ON RADIO CIRCUITS
-R.39                     | (none)          | (11/88)            | VOICE-FREQUENCY TELEGRAPHY ON RADIO CIRCUITS
 R.39-1988                | (none)          | (11/88)            | VOICE - FREQUENCY TELEGRAPHY ON RADIO CIRCUITS
-R.4                      | (none)          | (11/88)            | METHODS FOR THE SEPARATE MEASUREMENTS OF THE DEGREES OF VARIOUS TYPES OF TELEGRAPH DISTORTION
 R.4-1988                 | (none)          | (11/88)            | METHODS FOR THE SEPARATE MEASUREMENTS OF THE DEGREES OF VARIOUS TYPES OF TELEGRAPH DISTORTION
-R.40                     | (none)          | (11/88)            | COEXISTENCE IN THE SAME CABLE OF TELEPHONY AND SUPER - TELEPHONE TELEGRAPHY
 R.40-1988                | (none)          | (11/88)            | COEXISTENCE IN THE SAME CABLE OF TELEPHONY AND SUPER - TELEPHONE TELEGRAPHY
-R.43                     | (none)          | (11/88)            | SIMULTANEOUS COMMUNICATION BY TELEPHONE AND TELEGRAPH ON A TELEPHONE - TYPE CIRCUIT
-R.43                     | (none)          | (11/88)            | SIMULTANEOUS COMMUNICATION BY TELEPHONE AND TELEGRAPH ON A TELEPHONE-TYPE CIRCUIT
 R.43-1988                | (none)          | (11/88)            | SIMULTANEOUS COMMUNICATION BY TELEPHONE AND TELEGRAPH ON A TELEPHONE-TYPE CIRCUIT
-R.44                     | (none)          | (11/88)            | 6-UNIT SYNCHRONOUS TIME-DIVISION 2-3-CHANNEL MULTIPLEX TELEGRAPH SYSTEM FOR USE OVER FMVFT CHANNELS SPACED AT 120 Hz FOR CONNECTION TO STANDARDIZED TELEPRINTER NETWORKS
 R.44-1988                | (none)          | (11/88)            | 6-UNIT SYNCHRONOUS TIME-DIVISION 2-3-CHANNEL MULTIPLEX TELEGRAPH SYSTEM FOR USE OVER FMVFT CHANNELS SPACED AT 120 Hz FOR CONNECTION TO STANDARDIZED TELEPRINTER NETWORKS
-R.49                     | (none)          | (11/88)            | INTERBAND TELEGRAPHY OVER OPEN - WIRE 3-CHANNEL CARRIER SYSTEMS
 R.49-1988                | (none)          | (11/88)            | INTERBAND TELEGRAPHY OVER OPEN - WIRE 3-CHANNEL CARRIER SYSTEMS
-R.5                      | (none)          | (03/93)            | OBSERVATION CON DITIONS RECOMMENDED FOR ROUTINE DISTORTION MEASUREMENTS ON INTERNATIONAL TELEGRAPH CIRCUITS
-R.5                      | (none)          | (03/93)            | OBSERVATION CONDITIONS RECOMMENDED FOR ROUTINE DISTORTION MEASUREMENTS ON INTERNATIONAL TELEGRAPH CIRCUITS
 R.5-1993                 | (none)          | (01/93)            | Observation Conditions Recommended for Routine Distortion Measurements on International Telegraph Circuits - Telegraphy Telegraph Transmission (Study Group IX) 3 pp
-R.50                     | (none)          | (11/88)            | TOLERABLE LIMITS FOR THE DEGREE OF ISOCHRONOUS DISTORTION OF CODE - INDEPENDENT 50-BAUD TELEGRAPH CIRCUITS
 R.50-1988                | (none)          | (11/88)            | TOLERABLE LIMITS FOR THE DEGREE OF ISOCHRONOUS DISTORTION OF CODE - INDEPENDENT 50-BAUD TELEGRAPH CIRCUITS
-R.51                     | (none)          | (11/88)            | STANDARDIZED TEXT FOR DISTORTION TESTING OF THE CODE - INDEPENDENT ELEMENTS OF A COMPLETE CIRCUIT
 R.51 BIS                 | (none)          | (11/88)            | STANDARDIZED TEXT FOR TESTING THE ELEMENTS OF A COMPLETE CIRCUIT
 R.51 BIS-1988            | (none)          | (11/88)            | STANDARDIZED TEXT FOR TESTING THE ELEMENTS OF A COMPLETE CIRCUIT
 R.51-1988                | (none)          | (11/88)            | STANDARDIZED TEXT FOR DISTORTION TESTING OF THE CODE - INDEPENDENT ELEMENTS OF A COMPLETE CIRCUIT
-R.52                     | (none)          | (11/88)            | STANDARDIZATION OF INTERNATIONAL TEXTS FOR THE MEASUREMENT OF THE MARGIN OF START - STOP EQUIPMENT
 R.52-1988                | (none)          | (11/88)            | STANDARDIZATION OF INTERNATIONAL TEXTS FOR THE MEASUREMENT OF THE MARGIN OF START - STOP EQUIPMENT
-R.53                     | (none)          | (11/88)            | PERMISSIBLE LIMITS FOR THE DEGREE OF DISTORTION ON AN INTERNATIONAL 50-BAUD/120-HZ VFT CHANNEL (FREQUENCY AND AMPLITUDE MODULATION)
 R.53-1988                | (none)          | (11/88)            | PERMISSIBLE LIMITS FOR THE DEGREE OF DISTORTION ON AN INTERNATIONAL 50-BAUD/120-HZ VFT CHANNEL (FREQUENCY AND AMPLITUDE MODULATION)
-R.54                     | (none)          | (03/93)            | Conventional Degree of Distortion Tolerable for Standardized Start-Stop 50-Baud Systems
-R.54                     | (none)          | (03/93)            | CONVENTIONAL DEGREE OF DISTORTION TOLERABLE FOR STANDARDIZED START-STOP 50-BAUD SYSTEMS
 R.54-1993                | (none)          | (01/93)            | Conventional Degree of Distortion Tolerable for Standardized Start-Stop 50-Baud Systems - Telegraphy Telegraph Transmission (Study Group IX) 4 pp
-R.55                     | (none)          | (03/93)            | CONVENTIONAL DEGREE OF DISTORTION
 R.55-1993                | (none)          | (03/93)            | CONVENTIONAL DEGREE OF DISTORTION
-R.56                     | (none)          | (03/93)            | TELEGRAPH DISTORTION LIMITS TO BE QUOTED IN RECOMMENDATIONS FOR EQUIPMENT AND TRANSMISSION PLANS
 R.56-1993                | (none)          | (01/93)            | Telegraph Distortion Limits to Be Quoted in Recommendations for Equipment and Transmission Plans - Telegraphy Telegraph Transmission (Study Group IX) 3 pp
-R.57                     | (none)          | (11/88)            | STANDARD LIMITS OF TRANSMISSION QUALITY FOR PLANNING CODE - INDEPENDENT INTERNATIONAL POINT-TO-POINT TELEGRAPH COMMUNICATIONS AND SWITCHED NETWORKS USING 50-BAUD START-STOP EQUIPMENT
 R.57-1988                | (none)          | (11/88)            | STANDARD LIMITS OF TRANSMISSION QUALITY FOR PLANNING CODE - INDEPENDENT INTERNATIONAL POINT-TO-POINT TELEGRAPH COMMUNICATIONS AND SWITCHED NETWORKS USING 50-BAUD START-STOP EQUIPMENT
-R.58                     | (none)          | (11/88)            | STANDARD LIMITS OF TRANSMISSION QUALITY FOR THE GENTEX AND TELEX NETWORKS
 R.58 BIS                 | (none)          | (11/88)            | LIMITS ON SIGNAL TRANSFER DELAY FOR TELEGRAPH, TELEX AND GENTEX NETWORKS
 R.58 BIS-1988            | (none)          | (11/88)            | LIMITS ON SIGNAL TRANSFER DELAY FOR TELEGRAPH, TELEX AND GENTEX NETWORKS
 R.58-1988                | (none)          | (11/88)            | STANDARD LIMITS OF TRANSMISSION QUALITY FOR THE GENTEX AND TELEX NETWORKS
-R.59                     | (none)          | (11/88)            | Interface requirements for 50-baud start-stop telegraph transmission in the maritime mobile satellite service
-R.59                     | (none)          | (11/88)            | REQUISITOS DE INTERFAZ PARA LA TRANSMISIÓN DE TELEGRAFÍA ARRÍTMICA A 50 BAUDIOS EN EL SERVICIO MÓVIL MARÍTIMO POR SATÉLITE
 R.59-1988                | (none)          | (11/88)            | Interface Requirements for 50-Baud Start-Stop Telegraph Transmission in the Maritime Mobile Satellite Service - Telegraph Transmission (Study Group IX) 2 pp
-R.60                     | (none)          | (11/88)            | CONDITIONS TO BE FULFILLED BY REGENERATIVE REPEATERS FOR START-STOP SIGNALS OF INTERNATIONAL TELEGRAPH ALPHABET No. 2
 R.60-1988                | (none)          | (11/88)            | CONDITIONS TO BE FULFILLED BY REGENERATIVE REPEATERS FOR START-STOP SIGNALS OF INTERNATIONAL TELEGRAPH ALPHABET No. 2
-R.62                     | (none)          | (11/88)            | SITING OF REGENERATIVE REPEATERS IN INTERNATIONAL TELEX CIRCUITS
 R.62-1988                | (none)          | (11/88)            | SITING OF REGENERATIVE REPEATERS IN INTERNATIONAL TELEX CIRCUITS
-R.70                     | (none)          | (11/88)            | Designation of international telegraph circuits
-R.70                     | (none)          | (11/88)            | DESIGNATION OF INTERNATIONAL TELEGRAPH CIRCUITS
 R.70 BIS                 | (none)          | (11/88)            | NUMBERING OF INTERNATIONAL VFT CHANNELS
 R.70 BIS-1988            | (none)          | (11/88)            | NUMBERING OF INTERNATIONAL VFT CHANNELS
 R.70-1988                | (none)          | (11/88)            | DESIGNATION OF INTERNATIONAL TELEGRAPH CIRCUITS
-R.71                     | (none)          | (11/88)            | ORGANIZATION OF THE MAINTENANCE OF INTERNATIONAL TELEGRAPH CIRCUITS
 R.71-1988                | (none)          | (11/88)            | ORGANIZATION OF THE MAINTENANCE OF INTERNATIONAL TELEGRAPH CIRCUITS
-R.72                     | (none)          | (11/88)            | PERIODICITY OF MAINTENANCE MEASUREMENTS TO BE CARRIED OUT ON THE CHANNELS OF INTERNATIONAL VFT SYSTEMS
 R.72-1988                | (none)          | (11/88)            | PERIODICITY OF MAINTENANCE MEASUREMENTS TO BE CARRIED OUT ON THE CHANNELS OF INTERNATIONAL VFT SYSTEMS
-R.73                     | (none)          | (11/88)            | MAINTENANCE MEASUREMENTS TO BE CARRIED OUT ON VFT SYSTEMS
 R.73-1988                | (none)          | (11/88)            | MAINTENANCE MEASUREMENTS TO BE CARRIED OUT ON VFT SYSTEMS
-R.74                     | (none)          | (11/88)            | CHOICE OF TYPE OF TELEGRAPH DISTORTION - MEASURING EQUIPMENT
 R.74-1988                | (none)          | (11/88)            | CHOICE OF TYPE OF TELEGRAPH DISTORTION-MEASURING EQUIPMENT
-R.75                     | (none)          | (11/88)            | MAINTENANCE MEASUREMENTS ON CODE - INDEPENDENT INTERNATIONAL SECTIONS OF INTERNATIONAL TELEGRAPH CIRCUITS
 R.75 BIS                 | (none)          | (11/88)            | MAINTENANCE MEASUREMENTS OF CHARACTER ERROR RATE ON INTERNATIONAL SECTIONS OF INTERNATIONAL TELEGRAPH CIRCUITS
 R.75 BIS-1988            | (none)          | (11/88)            | MAINTENANCE MEASUREMENTS OF CHARACTER ERROR RATE ON INTERNATIONAL SECTIONS OF INTERNATIONAL TELEGRAPH CIRCUITS
 R.75-1988                | (none)          | (11/88)            | MAINTENANCE MEASUREMENTS ON CODE - INDEPENDENT INTERNATIONAL SECTIONS OF INTERNATIONAL TELEGRAPH CIRCUITS
-R.76                     | (none)          | (11/88)            | RESERVE CHANNELS FOR MAINTENANCE MEASUREMENTS ON CHANNELS OF INTERNATIONAL VFT SYSTEMS
 R.76-1988                | (none)          | (11/88)            | RESERVE CHANNELS FOR MAINTENANCE MEASUREMENTS ON CHANNELS OF INTERNATIONAL VFT SYSTEMS
-R.77                     | (none)          | (11/88)            | USE OF BEARER CIRCUITS FOR VOICE - FREQUENCY TELEGRAPHY
 R.77-1988                | (none)          | (11/88)            | USE OF BEARER CIRCUITS FOR VOICE - FREQUENCY TELEGRAPHY
-R.78                     | (none)          | (11/88)            | PILOT CHANNEL FOR AMVFT SYSTEMS
 R.78-1988                | (none)          | (11/88)            | PILOT CHANNEL FOR AMVFT SYSTEMS
-R.79                     | (none)          | (11/88)            | AUTOMATIC TESTS OF TRANSMISSION QUALITY ON TELEGRAPH CIRCUITS BETWEEN SWITCHING CENTRES
 R.79-1988                | (none)          | (11/88)            | AUTOMATIC TESTS OF TRANSMISSION QUALITY ON TELEGRAPH CIRCUITS BETWEEN SWITCHING CENTRES
-R.80                     | (none)          | (11/88)            | CAUSES OF DISTURBANCES TO SIGNALS IN VFT CHANNELS AND THEIR EFFECT ON TELEGRAPH DISTORTION
 R.80-1988                | (none)          | (11/88)            | CAUSES OF DISTURBANCES TO SIGNALS IN VFT CHANNELS AND THEIR EFFECT ON TELEGRAPH DISTORTION
-R.81                     | (none)          | (11/88)            | MAXIMUM ACCEPTABLE LIMIT FOR THE DURATION OF INTERRUPTION OF TELEGRAPH CHANNELS ARISING FROM FAILURE OF THE NORMAL POWER SUPPLIES
 R.81-1988                | (none)          | (11/88)            | MAXIMUM ACCEPTABLE LIMIT FOR THE DURATION OF INTERRUPTION OF TELEGRAPH CHANNELS ARISING FROM FAILURE OF THE NORMAL POWER SUPPLIES
-R.82                     | (none)          | (11/88)            | APPEARANCE OF FALSE CALLING AND CLEARING SIGNALS IN CIRCUITS OPERATED BY SWITCHED TELEPRINTER SERVICES
 R.82-1988                | (none)          | (11/88)            | APPEARANCE OF FALSE CALLING AND CLEARING SIGNALS IN CIRCUITS OPERATED BY SWITCHED TELEPRINTER SERVICES
-R.83                     | (none)          | (11/88)            | CHANGES OF LEVEL AND INTERRUPTIONS IN VFT CHANNELS
 R.83-1988                | (none)          | (11/88)            | CHANGES OF LEVEL AND INTERRUPTIONS IN VFT CHANNELS
-R.9                      | (none)          | (03/93)            | HOW THE LAWS GOVERNING DISTRIBUTION OF DISTORTION SHOULD BE ARRIVED AT
 R.9-1993                 | (none)          | (01/93)            | How the Laws Governing Distribution of Distortion Should Be Arrived at - Telegraphy Telegraph Transmission (Study Group IX) 4 pp
-R.90                     | (none)          | (11/88)            | ORGANIZATION FOR LOCATING AND CLEARING FAULTS IN INTERNATIONAL TELEGRAPH SWITCHED NETWORKS
 R.90-1988                | (none)          | (11/88)            | ORGANIZATION FOR LOCATING AND CLEARING FAULTS IN INTERNATIONAL TELEGRAPH SWITCHED NETWORKS
-R.91                     | (none)          | (11/88)            | GENERAL MAINTENANCE ASPECTS FOR THE MARITIME SATELLITE TELEX SERVICE
 R.91-1988                | (none)          | (11/88)            | GENERAL MAINTENANCE ASPECTS FOR THE MARITIME SATELLITE TELEX SERVICE
-RA.1031-2                | (none)          | (01/07)            | Protection of the radio astronomy service in frequency bands shared with other services
 RA.1031-2-2007           | (none)          | (01/07)            | Protection of the radio astronomy service in frequency bands shared with other services
 RA.1237-1                | (none)          | (01/03)            | Protection of the radio astronomy service from unwanted emissions resulting from applications of wideband digital modulation
-RA.1237-2                | (none)          | (01/10)            | Protection of the radio astronomy service from unwanted emissions resulting from applications of wideband digital modulation
 RA.1237-2-2010           | (none)          | (01/10)            | Protection of the radio astronomy service from unwanted emissions resulting from applications of wideband digital modulation
-RA.1272-1                | (none)          | (01/02)            | Protection of radio astronomy measurements above 60 GHz from ground based interference
 RA.1272-1-2002           | (none)          | (01/02)            | Protection of radio astronomy measurements above 60 GHz from ground based interference
-RA.1417                  | (none)          | (01/99)            | A RADIO-QUIET ZONE IN THE VICINITY OF THE L2 SUN-EARTH LAGRANGE POINT
 RA.1417-1-2013           | (none)          | (12/13)            | A radio-quiet zone in the vicinity of the L2 Sun-Earth Lagrange point
 RA.1417-1999             | (none)          | (01/99)            | A Radio-Quiet Zone in the Vicinity of the L2 Sun-Earth Lagrange Point
-RA.1513-1                | (none)          | (01/03)            | Levels of data loss to radio astronomy observations and percentage-of-time criteria resulting from degradation by interference for frequency bands allocated to the radio astronomy on a primary basis
 RA.1513-1-2003           | (none)          | (01/03)            | Levels of data loss to radio astronomy observations and percentage-of-time criteria resulting from degradation by interference for frequency bands allocated to the radio astronomy on a primary basis - Question ITU-R 227/7
 RA.1513-2-2015           | (none)          | (03/15)            | Levels of data loss to radio astronomy observations and percentage-of-time criteria resulting from degradation by interference for frequency bands allocated to the radio astronomy service on a primary basis
-RA.1630                  | (none)          | (01/03)            | Technical and operational characteristics of ground-based astronomy systems for use in sharing studies with active services between 10 THz and 1 000 THz
 RA.1630-2003             | (none)          | (01/03)            | Technical and operational characteristics of ground-based astronomy systems for use in sharing studies with active services between 10 THz and 1 000 THz - Question ITU-R 235/7
-RA.1631                  | (none)          | (01/03)            | Reference radio astronomy antenna pattern to be used for compatibility analyses between non-GSO systems and radio astronomy service stations based on the epfd concept
 RA.1631-2003             | (none)          | (01/03)            | Reference radio astronomy antenna pattern to be used for compatibility analyses between non-GSO systems and radio astronomy service stations based on the epfd concept - Question ITU-R 146/7
-RA.1750                  | (none)          | (01/06)            | Mutual planning between the Earth exploration-satellite service (active) and the radio astronomy service in the 94 GHz and 130 GHz bands
 RA.1750-2006             | (none)          | (01/06)            | Mutual planning between the Earth exploration-satellite service (active) and the radio astronomy service in the 94 GHz and 130 GHz bands
-RA.1860                  | (none)          | (01/10)            | Preferred frequency bands for radio astronomical measurements in the range 1-3 THz
 RA.1860-2010             | (none)          | (01/10)            | Preferred frequency bands for radio astronomical measurements in the range 1-3 THz
-RA.314-10                | (none)          | (01/03)            | Preferred frequency bands for radio astronomical measurements
 RA.314-10-2003           | (none)          | (01/03)            | Preferred frequency bands for radio astronomical measurements - Question ITU-R 145/7
-RA.479-5                 | (none)          | (01/03)            | Protection of frequencies for radioastronomical measurements in the shielded zone of the Moon
 RA.479-5-2003            | (none)          | (01/03)            | Protection of frequencies for radioastronomical measurements in the shielded zone of the Moon - Question ITU-R 149/7
-RA.517-4                 | (none)          | (01/06)            | Protection of the radio astronomy service from transmitters operating in adjacent bands
 RA.517-4-2006            | (none)          | (01/06)            | Protection of the radio astronomy service from transmitters operating in adjacent bands
-RA.611-4                 | (none)          | (01/06)            | Protection of the radio astronomy service from spurious emissions
 RA.611-4-2006            | (none)          | (01/06)            | Protection of the radio astronomy service from spurious emissions - Question ITU-R 145/7
-RA.769-2                 | (none)          | (01/03)            | Protection criteria used for radio astronomical measurements
 RA.769-2-2003            | (none)          | (01/03)            | Protection criteria used for radio astronomical measurements - Question ITU-R 145/7
 RAPPORT 1008-1           | (none)          | (01/90)            | REFLECTION FROM THE SURFACE OF THE EARTH
 RAPPORT 1012-1           | (none)          | (01/90)            | OPERATIONAL MODELLING OF HF RADIO PROPAGATION CONDITIONS AT HIGH LATITUDES
