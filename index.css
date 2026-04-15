@@ -234,3 +234,31 @@ footer {
     h1 { font-size: 50px; }
     footer { padding-left: 16px; padding-right: 16px; }
 }
+
+/* DESCRIPTION & STANDARDS */
+.section-standards ul,
+.section-products > div {
+    max-width: 760px;
+    margin: 0 auto;
+    font-size: 1.15rem;
+    color: var(--text-secondary);
+    line-height: 1.8;
+}
+
+.standards-list {
+    list-style: none;
+}
+
+.standards-list li {
+    padding: 1.25rem 0;
+    border-top: 1px solid var(--border);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.standards-list li::before {
+    content: '→';
+    color: var(--accent);
+    font-size: 1.5rem;
+}
