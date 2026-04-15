@@ -18449,7 +18449,7 @@ DoD Adopted
 409	ITU-R F.753 SPANISH-1992	1992-01-01	Spanish	PREFERRED METHODS AND CHARACTERISTICS FOR THE SUPERVISION AND PROTECTION OF DIGITAL RADIO-RELAY SYSTEMS
 410	ITU-T D.192 (REV 1) SPANISH-1992	1992-01-01	Spanish	PRINCIPLES FOR CHARGING AND ACCOUNTING OF SERVICE TELECOMMUNICATIONS
 411	ITU-R F.754 SPANISH-1992	1992-01-01	Spanish	RADIO-RELAY SYSTEMS IN BANDS 8 AND 9 FOR THE PROVISION OF TELEPHONE TRUNK CONNECTIONS IN RURAL AREAS
-412	ITU-T D.192 (R脡V 1) FRENCH-1992	1992-01-01	French	PRINCIPLES FOR CHARGING AND ACCOUNTING OF SERVICE TELECOMMUNICATIONS
+412	ITU-T D.192 (REV 1) FRENCH-1992	1992-01-01	French	PRINCIPLES FOR CHARGING AND ACCOUNTING OF SERVICE TELECOMMUNICATIONS
 413	ITU-T D.95-1992	1992-01-01	English	Charging, Billing, Accounting and Refunds in the Data Messaging Land/Maritime Mobile-Satellite Service (Study Group III) 11 pp
 414	ITU-T D.192 (REV 1)-1992	1992-01-01	English	Principles for Charging and Accounting of Service Telecommunications (Study Group III) 5 pp
 415	ITU-T D.35-1992	1992-01-01	English	GENERAL CHARGING PRINCIPLES IN THE INTERNATIONAL PUBLIC MESSAGE HANDLING SERVICES AND ASSOCIATED APPLICATIONS - Study Group III
@@ -18465,7 +18465,7 @@ DoD Adopted
 425	ITU-T D.94 SPANISH-1992	1992-01-01	Spanish	CHARGING, BILLING AND ACCOUNTING PRINCIPLES FOR INTERNATIONAL AERONAUTICAL MOBILE SERVICE, AND INTERNATIONAL AERONAUTICAL MOBILE-SATELLITE SERVICE
 426	ITU-T E.850-1992	1992-01-01	English	Connection Retainability Objective for the International Telephone Service - Telephone Network and ISDN - Quality of Service, Network Management and Traffic Engineering (Study Group II) 7 pp
 427	ITU-T X.730 SPANISH-1992	1992-01-01	Spanish	INFORMATION TECHNOLOGY 鈥?OPEN SYSTEMS INTERCONNECTION 鈥?SYSTEMS MANAGEMENT: OBJECT MANAGEMENT FUNCTION
-428	ITU-T D.40 (R脡V 1) FRENCH-1992	1992-01-01	French	GENERAL TARIFF PRINCIPLES APPLICABLE TO TELEGRAMS EXCHANGED IN THE INTERNATIONAL PUBLIC TELEGRAM SERVICE
+428	ITU-T D.40 (REV 1) FRENCH-1992	1992-01-01	French	GENERAL TARIFF PRINCIPLES APPLICABLE TO TELEGRAMS EXCHANGED IN THE INTERNATIONAL PUBLIC TELEGRAM SERVICE
 429	ITU-T E.525 (REV 1) SPANISH-1992	1992-01-01	Spanish	Designing Networks to Control Grade of Service
 430	ITU-T F.17-1992	1992-01-01	English	Operational Aspects of Service Telecommunications - Study Group 1; 5 pp
 431	ITU-T E.503 (REV 1)-1992	1992-01-01	English	Traffic Measurement Data Analysis (Study Group II) 9 pp
@@ -18501,7 +18501,7 @@ DoD Adopted
 461	ITU-T D.45 (REV 1)-1992	1992-01-01	English	Charging and Accounting Principles for the International Telemessage Service (Study Group III) 5 pp
 462	ITU-T X.731 FRENCH-1992	1992-01-01	French	INFORMATION TECHNOLOGY - OPEN SYSTEMS INTERCONNECTION - SYSTEMS MANAGEMENT: STATE MANAGEMENT FUNCTION
 463	ITU-R SNG.722-1 FRENCH-1992	1992-01-01	French	Uniform technical standards (analogue) for satellite news gathering (SNG)
-464	ITU-T D.45 (R脡V.1) FRENCH-1992	1992-01-01	French	CHARGING AND ACCOUNTING PRINCIPLES FOR THE INTERNATIONAL TELEMESSAGE SERVICE
+464	ITU-T D.45 (REV.1) FRENCH-1992	1992-01-01	French	CHARGING AND ACCOUNTING PRINCIPLES FOR THE INTERNATIONAL TELEMESSAGE SERVICE
 465	ITU-R SF.766 SPANISH-1992	1992-01-01	Spanish	METHODS FOR DETERMINING THE EFFECTS OF INTERFERENCE ON THE PERFORMANCE AND THE AVAILABILITY OF TERRESTRIAL RADIO-RELAY SYSTEMS AND SYSTEMS IN THE FIXED-SATELLITE SERVICE
 466	ITU-R SF.766 FRENCH-1992	1992-01-01	French	METHODS FOR DETERMINING THE EFFECTS OF INTERFERENCE ON THE PERFORMANCE AND THE AVAILABILITY OF TERRESTRIAL RADIO-RELAY SYSTEMS AND SYSTEMS IN THE FIXED-SATELLITE SERVICE
 467	ITU-T D.110 (REV 1) FRENCH-1992	1992-01-01	French	CHARGING AND ACCOUNTING FOR CONFERENCE CALLS
@@ -18651,7 +18651,7 @@ DoD Adopted
 110	ITU-R BT.810 SPANISH-1992	1992-01-01	Spanish	CONDITIONAL-ACCESS BROADCASTING SYSTEMS
 111	ITU-R S.466-6 SPANISH-1992	1992-01-01	Spanish	Maximum permissible level of interference in a telephone channel of a geostationary-satellite network in the fixed-satellite service employing frequency modulation with frequency-division multiplex, caused by other networks of this service
 112	ITU-R S.466-6 FRENCH-1992	1992-01-01	French	Maximum permissible level of interference in a telephone channel of a geostationary-satellite network in the fixed-satellite service employing frequency modulation with frequency-division multiplex, caused by other networks of this service
-113	ITU-T D.103 (R脡V. 1) FRENCH-1992	1992-01-01	French	CHARGING IN AUTOMATIC SERVICE FOR CALLS TERMINATING ON A RECORDED ANNOUNCEMENT STATING THE REASON FOR THE CALL NOT BEING COMPLETED
+113	ITU-T D.103 (REV. 1) FRENCH-1992	1992-01-01	French	CHARGING IN AUTOMATIC SERVICE FOR CALLS TERMINATING ON A RECORDED ANNOUNCEMENT STATING THE REASON FOR THE CALL NOT BEING COMPLETED
 114	ITU-R S.464-2 SPANISH-1992	1992-01-01	Spanish	Pre-emphasis characteristics for frequency-modulation systems for frequency-division multiplex telephony in the fixed-satellite service
 115	ITU-R S.464-2 FRENCH-1992	1992-01-01	French	Pre-emphasis characteristics for frequency-modulation systems for frequency-division multiplex telephony in the fixed-satellite service
 116	ITU-T E.105-1992	1992-01-01	English	International Telephone Service (Study Group I) 8 pp
@@ -18708,7 +18708,7 @@ DoD Adopted
 167	ITU-T D.3-1992	1992-01-01	English	Principles for the Lease of Analogue International Circuits for Private Service (Study Group III) 5 pp
 168	ITU-T D.35 SPANISH-1992	1992-01-01	Spanish	GENERAL CHARGING PRINCIPLES IN THE INTERNATIONAL PUBLIC MESSAGE HANDLING SERVICES AND ASSOCIATED APPLICATIONS
 169	ITU-T F.410-1992	1992-01-01	English	Message Handling Services: Public Message Transfer Service - Study Group 1
-170	ITU-T D.70 (R脡V 1) FRENCH-1992	1992-01-01	French	General Tariff Principles for the International Public Facsimile Service between Public Bureaux (Bureaufax Service)
+170	ITU-T D.70 (REV 1) FRENCH-1992	1992-01-01	French	General Tariff Principles for the International Public Facsimile Service between Public Bureaux (Bureaufax Service)
 171	ITU-R P.532-1 FRENCH-1992	1992-01-01	French	Ionospheric Effects and Operational Considerations Associated with Artificial Modification of the Ionosphere and the Radio-Wave Channel
 172	ITU-R P.532-1-1992	1992-01-01	English	Ionospheric Effects and Operational Considerations Associated with Artificial Modification of the Ionosphere and the Radio-Wave Channel Section 6A - Ionospheric Properties
 173	ITU-R F.753 FRENCH-1992	1992-01-01	French	PREFERRED METHODS AND CHARACTERISTICS FOR THE SUPERVISION AND PROTECTION OF DIGITAL RADIO-RELAY SYSTEMS
@@ -18736,7 +18736,7 @@ DoD Adopted
 195	ITU-T F.60-1992	1992-01-01	English	Operational Provisions for the International Telex Service (Study Group I) 34 pp
 196	ITU-T X.610-1992	1992-01-01	English	Provision and Support of the OSI Connection-Mode Network Service - Data Communication Networks - Study Group VII; 31 pp
 197	ITU-T X.612-1992	1992-01-01	English	Information Technology - Provision of the OSI Connection-Mode Network Service by Packet-Mode Terminal Equipment Connected to an Integrated Services Digital Network (ISDN) 21 pp (ISO/CCIT Common Text)
-198	ITU-T D.73 (R脡V 1) FRENCH-1992	1992-01-01	French	GENERAL TARIFF AND INTERNATIONAL ACCOUNTING PRINCIPLES FOR INTERWORKING BETWEEN THE INTERNATIONAL BUREAUFAX AND TELEFAX SERVICES
+198	ITU-T D.73 (REV 1) FRENCH-1992	1992-01-01	French	GENERAL TARIFF AND INTERNATIONAL ACCOUNTING PRINCIPLES FOR INTERWORKING BETWEEN THE INTERNATIONAL BUREAUFAX AND TELEFAX SERVICES
 199	ITU-T F.14-1992	1992-01-01	English	General Provisions for One-Stop-Shopping Arrangements (Study Group I) 5 pp
 200	ITU-T D.73 (REV 1) SPANISH-1992	1992-01-01	Spanish	General Tariff and International Accounting Principles for Interworking between the International Bureaufax and Telefax Services
 201	ITU-T E.426-1992	1992-01-01	English	General Guide to the Percentage of Effective Attempts Which Should Be Observed for International Telephone Calls - Telephone Network and ISDN Quality of Service, Network Management and Traffic Engineering (Study Group II) 3 pp

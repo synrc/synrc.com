@@ -1,26 +1,17 @@
 #!/usr/bin/env ruby
 # frozen_string_literal: true
 
-# Ruby script to convert all.txt (full ITU standards catalog) into a pipe-separated
-# table file exactly like standards.txt.
-#
-# Features:
-# - Parses ~25,000 lines from all.txt (tab-separated)
-# - Extracts clean recommendation name (e.g. "Y.3057-2021", "D.251", "SERIES Y SUPP 60-2021")
-# - Hardcoded classification logic (series extraction + explicit ordering of sections)
-# - Converts date to the exact "(MM/YY)" format used in standards.txt
-# - Groups by series (T, X, Z, Y, G, H, ... + SERIES variants + ITU-R)
-# - Outputs a perfect replica of standards.txt layout (header + sections separated by ----- lines)
-# - Default ISO column = "(none)" (matching standards.txt; joint ISO/IEC not present in all.txt)
-# - Handles French/Spanish/English variants, (Pre-Published), Study Group suffixes, etc.
+# Ruby script to convert all.txt → standards_full.txt
+# FIXED: Name column padding now matches standards.txt style exactly
+#        (Name field = 25 characters wide to accommodate all 25k+ entries
+#         while keeping perfect visual alignment like the original standards.txt)
 
 INPUT_FILE = 'all.txt'
-OUTPUT_FILE = 'standards-full.txt'   # pipe-separated, exactly like standards.txt (you can rename to .csv if you want)
+OUTPUT_FILE = 'standards-full.txt'
 
 # =============================================
-# HARDCODED CLASSIFICATION (as requested)
+# HARDCODED CLASSIFICATION (unchanged)
 # =============================================
-# 1. How to extract the series key from a recommendation name
 def extract_series_key(name)
   case name
   when /^SERIES ([A-Z]) /i
@@ -36,17 +27,23 @@ def extract_series_key(name)
   end
 end
 
-# 2. Explicit order of sections (hardcoded – matches the spirit of standards.txt + covers all common ITU-T/ITU-R series)
 SERIES_ORDER = [
-  'D', 'E', 'F', 'G', 'H', 'J', 'K', 'L', 'M', 'P', 'Q', 'T', 'X', 'Y', 'Z',          # main ITU-T series
+  'D', 'E', 'F', 'G', 'H', 'J', 'K', 'L', 'M', 'P', 'Q', 'T', 'X', 'Y', 'Z',
   'SERIES D', 'SERIES E', 'SERIES F', 'SERIES G', 'SERIES H', 'SERIES J', 'SERIES K',
   'SERIES L', 'SERIES M', 'SERIES P', 'SERIES Q', 'SERIES T', 'SERIES X', 'SERIES Y', 'SERIES Z',
-  'R-M', 'R-BT', 'R-BS', 'R-B', 'R-F', 'R-P', 'R-S', 'R-SA', 'R-V',                     # ITU-R sub-series
+  'R-M', 'R-BT', 'R-BS', 'R-B', 'R-F', 'R-P', 'R-S', 'R-SA', 'R-V',
   'Other'
 ].freeze
 
 # =============================================
-# Parser for one line of all.txt
+# FIXED COLUMN WIDTHS (exactly like standards.txt style)
+# =============================================
+NAME_WIDTH = 25   # ← FIXED: was 9, now 25 to fit long names (Y.3057-2021, SERIES L SUPP 44-2021, etc.)
+ISO_WIDTH  = 16
+CODE_WIDTH = 19
+
+# =============================================
+# Parser
 # =============================================
 def parse_line(line)
   return nil if line.strip.empty?
@@ -56,41 +53,35 @@ def parse_line(line)
 
   rec_full = fields[1].strip
   pub_date = fields[2].strip
-  # lang = fields[3].strip   # we ignore language column for the table (title already reflects it)
   title    = fields[4..-1].join("\t").strip
 
-  # Clean recommendation name for the "Name" column (exactly like standards.txt)
+  # Clean name exactly as in standards.txt
   name = rec_full
-         .sub(/^ITU-[TR] /i, '')                  # remove ITU-T / ITU-R prefix
-         .sub(/ (FRENCH|SPANISH|ENGLISH)-?\d{4}$/i, '') # remove language suffix like " FRENCH-2088"
+         .sub(/^ITU-[TR] /i, '')
+         .sub(/ (FRENCH|SPANISH|ENGLISH)-?\d{4}$/i, '')
          .strip
 
-  # ISO column is always "(none)" in this dataset (matching standards.txt style)
   iso = '(none)'
 
-  # Convert date to "(MM/YY)" format used in standards.txt
+  # Code in (MM/YY) format
   code = '(N/A)'
   if pub_date =~ /^(\d{4})-(\d{2})-(\d{2})$/
-    year = $1.to_i
     month = $2.to_i
-    yy = year % 100
+    yy = $1.to_i % 100
     code = "(#{format('%02d', month)}/#{format('%02d', yy)})"
   elsif !pub_date.empty?
     code = "(#{pub_date})"
   end
 
-  # Clean description (remove trailing " - Study Group XX" to keep it clean like standards.txt)
-  desc = title
-         .sub(/ - Study Group \d+$/i, '')
-         .strip
+  desc = title.sub(/ - Study Group \d+$/i, '').strip
 
   [name, iso, code, desc]
 end
 
 # =============================================
-# Main logic
+# Main
 # =============================================
-puts "Reading #{INPUT_FILE} (this may take a few seconds for ~25k lines)..."
+puts "Reading #{INPUT_FILE}..."
 
 entries = []
 File.foreach(INPUT_FILE) do |line|
@@ -100,42 +91,40 @@ end
 
 puts "Parsed #{entries.size} standards."
 
-# Group by series using the hardcoded extraction logic
+# Group by series
 groups = Hash.new { |h, k| h[k] = [] }
 entries.each do |name, iso, code, desc|
   key = extract_series_key(name)
   groups[key] << [name, iso, code, desc]
 end
 
-# Build ordered list of sections (hardcoded order + any extra series that appeared)
+# Ordered sections
 active_series = SERIES_ORDER.select { |s| groups.key?(s) }
 remaining = (groups.keys - active_series).sort
 active_series += remaining
 
-# Write the output file exactly in the style of standards.txt
+# Write output with perfect padding
 File.open(OUTPUT_FILE, 'w:UTF-8') do |f|
-  f.puts 'Name     | ISO             | Code (40 chars)    | Description (Full STD Title)'
-  f.puts '------------------------------------------------------------------------------------------------------------------------------------------------------------------------------'
+  # Header exactly like standards.txt but with wider Name column
+  f.puts "Name#{' ' * (NAME_WIDTH - 4)} | ISO#{' ' * (ISO_WIDTH - 3)} | Code (40 chars)#{' ' * (CODE_WIDTH - 15)} | Description (Full STD Title)"
+  f.puts '-' * 180   # long separator
 
   active_series.each do |series|
     next unless groups[series]&.any?
 
-    # Sort entries inside each series (natural order by name)
     sorted = groups[series].sort_by { |e| e[0] }
 
     sorted.each do |name, iso, code, desc|
-      # Pad columns to look nice (matching standards.txt alignment)
-      name_col = name.ljust(9)
-      iso_col  = iso.ljust(16)
-      code_col = code.ljust(19)
+      name_col = name.ljust(NAME_WIDTH)      # ← FIXED PADDING
+      iso_col  = iso.ljust(ISO_WIDTH)
+      code_col = code.ljust(CODE_WIDTH)
       f.puts "#{name_col}| #{iso_col}| #{code_col}| #{desc}"
     end
 
-    # Separator between series groups (exactly like standards.txt)
-    f.puts '------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------'
+    f.puts '-' * 180
   end
 end
 
-puts "Done! Output written to #{OUTPUT_FILE}"
-puts "   → #{entries.size} standards categorized into #{active_series.size} series sections."
-puts "   → Open #{OUTPUT_FILE} in any text editor or spreadsheet (it is pipe-separated)."
+puts "Done! → #{OUTPUT_FILE}"
+puts "   Perfect column padding (Name = #{NAME_WIDTH} chars) like standards.txt"
+puts "   All #{entries.size} standards categorized and aligned."
