@@ -2813,15 +2813,12 @@ H.248.19 AMD 1-2006      | (none)          | (05/06)            | Gateway contro
 H.248.19 AMD 2-2009      | (none)          | (03/09)            | Gateway control protocol: Decomposed multipoint control unit, audio, video and data conferencing packages Amendment 2: Floor control enhancements
 H.248.19-2004            | (none)          | (03/04)            | Gateway control protocol: Decomposed multipoint control unit, audio, video and data conferencing packages SERIES H: AUDIOVISUAL AND MULTIMEDIA SYSTEMS Infrastructure of audiovisual services 鈥?Communication procedures
 H.248.19-2013            | (none)          | (03/13)            | Gateway control protocol: Decomposed multipoint control unit, audio, video and data conferencing packages
-H.248.2 AMD 1            | (none)          | (01/07)            | Gateway control protocol: Facsimile, text conversation and call discrimination packages Amendment 1: Discriminated call type enhancement
-H.248.2 AMD 1            | (none)          | (01/07)            | Protocolo de control de las pasarelas: Lotes facsímil, conversación textual y discriminación de llamada Enmienda 1: Mejora del tipo discriminación de llamada
 H.248.2 AMD 1-2007       | (none)          | (01/07)            | Gateway control protocol: Facsimile, text conversation and call discrimination packages Amendment 1: Discriminated call type enhancement
 H.248.2-2005             | (none)          | (01/05)            | Gateway control protocol: Facsimile, text conversation and call discrimination packages
 H.248.2-2013             | (none)          | (03/13)            | Gateway control protocol: Facsimile, text conversation and call discrimination packages
 H.248.20-2002            | (none)          | (11/02)            | Gateway Control Protocol: The use of Local and Remote Descriptors with H.221 and H.223 Multiplexing Series H; Audiovisual and Multimedia Systems Infrastructure of Audiovisual Services - Communication Procedures
 H.248.20-2013            | (none)          | (03/13)            | Gateway control protocol: The use of Local and Remote Descriptors with ITU-T H.221 and ITU-T H.223 multiplexing
 H.248.21-2004            | (none)          | (03/04)            | Gateway control protocol: Semi-permanent connection handling package SERIES H: AUDIOVISUAL AND MULTIMEDIA SYSTEMS Infrastructure of audiovisual services 鈥?Communication procedures
-H.248.22 NOTE            | (none)          | (01/04)            | Gateway control protocol: Shared Risk Group package
 H.248.22 NOTE-2004       | (none)          | (01/04)            | Gateway control protocol: Shared Risk Group package
 H.248.22-2003            | (none)          | (07/03)            | Gateway control protocol: Shared Risk Group package
 H.248.22-2013            | (none)          | (03/13)            | Gateway control protocol: Shared Risk Group package
@@ -3355,15 +3352,12 @@ I.251.1 (REV 1)-1992     | (none)          | (01/92)            | Direct-Diallin
 I.251.10-1996            | (none)          | (01/96)            | Number Identification Supplementary Services: Calling Name Identification Restriction - Series I: Integrated Services Digital Network Service Capabilities - Supplementary Services in ISDN (Study Group 1) 18 pp
 I.251.2 (REV 1)-1992     | (none)          | (01/92)            | Multiple Subscriber Number (Study Group I) 8 pp
 I.251.6-1995             | (none)          | (01/95)            | Connected Line Identification Restriction (COLR) - Integrated Services Digital Network (ISDN) - Service Capabilities (Study Group 1) 10 pp
-I.251.7 (REV 1)          | (none)          | (01/92)            | MALICIOUS CALL IDENTIFICATION
 I.251.7 (REV 1)-1992     | (none)          | (01/92)            | Malicious Call Identification (Study Group I) 10 pp
 I.251.8 (REV 1)-1992     | (none)          | (01/92)            | Sub-Addressing Supplementary Service (Study Group I) 9 pp
 I.251.1 (REV 1)          | (none)          | (01/92)            | DIRECT-DIALLING-IN
 I.251.10                 | (none)          | (07/96)            | Number identification supplementary services: Calling name identification restriction
 I.251.2 (REV 1)          | (none)          | (01/92)            | MULTIPLE SUBSCRIBER NUMBER
-I.251.3 (REV 1)          | (none)          | (01/92)            | CALLING LINE IDENTIFICATION PRESENTATION
 I.251.3 (REV 1)-1992     | (none)          | (01/92)            | Calling Line Identification Presentation (Study Group I) 12 pp
-I.251.4 (REV 1)          | (none)          | (01/92)            | Calling Line Identification Restriction
 I.251.4 (REV 1)-1992     | (none)          | (01/92)            | Calling Line Identification Restriction (Study Group I) 8 pp
 I.251.5-1995             | (none)          | (02/95)            | CONNECTED LINE IDENTIFICATION PRESENTATION (COLP)
 I.251.6                  | (none)          | (02/95)            | CONNECTED LINE IDENTIFICATION RESTRICTION (COLR)
@@ -3376,29 +3370,19 @@ I.252.3-1992             | (none)          | (01/92)            | Call Forwardin
 I.252.1-1988             | (none)          | (11/88)            | Call offering supplementary services: Call Transfer
 I.252.2                  | (none)          | (08/92)            | CALL FORWARDING BUSY
 I.252.3                  | (none)          | (08/92)            | CALL FORWARDING NO REPLY
-I.252.4                  | (none)          | (08/92)            | CALL FORWARDING UNCONDITIONAL
 I.252.4-1992             | (none)          | (08/92)            | Call Forwarding Unconditional (Study Group I) 13 pp
-I.252.5                  | (none)          | (08/92)            | CALL DEFLECTION
 I.252.5-1992             | (none)          | (08/92)            | Call Deflection (Study Group I) 12 pp
-I.252.6                  | (none)          | (11/98)            | CALL OFFERING SUPPLEMENTARY SERVICES - LINE HUNTING (LH)
 I.252.6-1988             | (none)          | (11/88)            | CALL OFFERING SUPPLEMENTARY SERVICES - LINE HUNTING (LH)
-I.252.7                  | (none)          | (05/97)            | Call offering supplementary services: Explicit call transfer
 I.252.7-1997             | (none)          | (05/97)            | Call Offering Supplementary Services: Explicit Call Transfer - Series I: Integrated Services Digital Network Service Capabilities - Supplementary Services in ISDN - Study Group 2; 15 pp
 I.253-1989               | (none)          | (01/89)            | Call Completion Supplementary Services - Integrated Services Digital Network (ISDN) - General Structure and Service Capabilities (Study Group XVIII) 17 pp
 I.253.1-1990             | (none)          | (07/90)            | Call Waiting (CW) Supplementary Service (Study Group I) 15 pp
 I.253.1                  | (none)          | (07/90)            | CALL WAITING (CW) SUPPLEMENTARY SERVICE
-I.253.2                  | (none)          | (08/92)            | CALL HOLD
 I.253.2-1992             | (none)          | (08/92)            | Call Hold (Study Group I) 10 pp
-I.253.3                  | (none)          | (07/96)            | Call completion supplementary services: Completion of calls to busy subscribers
 I.253.3-1996             | (none)          | (07/96)            | Call Completion Supplementary Services: Completion of Calls to Busy Subscribers - Series I: Integrated Services Digital Network; Service Capabilities - Supplementary Services in ISDN - Study Group 1; 29 pp
-I.253.4                  | (none)          | (07/96)            | Call completion supplementary services: Completion of calls on no reply
 I.253.4-1996             | (none)          | (07/96)            | Call Completion Supplementary Services: Completion of Calls on No Reply - Series I: Integrated Services Digital Network; Service Capabilities - Supplementary Services in ISDN - Study Group 1; 28 pp
 I.254-1989               | (none)          | (01/89)            | Multiparty Supplementary Services - Integrated Services Digital Network (ISDN) - General Structure and Service Capabilities (Study Group XVIII) 30 pp
-I.254.1                  | (none)          | (11/88)            | MULTIPARTY SUPPLEMENTARY SERVICES: CONFERENCE CALLING (CONF)
 I.254.1-1988             | (none)          | (11/88)            | MULTIPARTY SUPPLEMENTARY SERVICES: CONFERENCE CALLING (CONF)
-I.254.2                  | (none)          | (08/92)            | THREE-PARTY SUPPLEMENTARY SERVICE
 I.254.2-1992             | (none)          | (08/92)            | THREE-PARTY SUPPLEMENTARY SERVICE - Study Group I
-I.254.5                  | (none)          | (05/97)            | Multiparty supplementary services: Meet-me conference
 I.254.5-1997             | (none)          | (05/97)            | Multiparty Supplementary Services: Meet-Me Conference - Series I: Integrated Services Digital Network Service Capabilities - Supplementary Services in ISDN - Study Group 2; 13 pp
 I.255-1989               | (none)          | (01/89)            | Community of Interest Supplementary Services - Integrated Services Digital Network (ISDN) - General Structure and Service Capabilities (Study Group XVIII) 10 pp
 I.255.1-1992             | (none)          | (01/92)            | Closed User Group (Study Group I) 17 pp
@@ -3406,7 +3390,6 @@ I.255.3-1990             | (none)          | (07/90)            | Multi-Level Pr
 I.255.4-1990             | (none)          | (07/90)            | Priority Service (Study Group I) 9 pp
 I.255.5-1992             | (none)          | (01/92)            | Outgoing Call Barring (Study Group I) 9 pp
 I.255.1                  | (none)          | (08/92)            | CLOSED USER GROUP
-I.255.2                  | (none)          | (07/96)            | Community of interest supplementary services: Support of Private Numbering Plans
 I.255.2-1996             | (none)          | (07/96)            | Community of Interest Supplementary Services: Support of Private Numbering Plans - Series I: Integrated Services Digital Network; Service Capabilities - Supplementary Services in ISDN - Study Group 1; 13 pp
 I.255.3                  | (none)          | (07/90)            | MULTI-LEVEL PRECEDENCE AND PREEMPTION SERVICE (MLPP)
 I.255.4                  | (none)          | (07/90)            | PRIORITY SERVICE
@@ -3415,13 +3398,10 @@ I.256-1989               | (none)          | (01/89)            | Charging Suppl
 I.256.2C-1993            | (none)          | (01/93)            | Advice of Charge: Charging Information at the End of the Call (AOC-E) - Integrated Services Digital Network (ISDN) - Service Capabilities - Supplementary Services in ISDN (Study Group I) 10 pp
 I.256.1-1988             | (none)          | (01/88)            | Credit Card Calling - Integrated Services Digital Network (ISDN) - General Structure and Service Capabilities (Study Group XVIII) 1 pp
 I.256.2-1988             | (none)          | (01/88)            | Advice of Charge - Integrated Services Digital Network (ISDN) - General Structure and Service Capabilities (Study Group XVIII) 15 pp
-I.256.2A                 | (none)          | (03/93)            | ADVICE OF CHARGE: CHARGING INFORMATION AT CALL SET-UP TIME (AOC-S)
 I.256.2A-1993            | (none)          | (03/93)            | Advice of Charge: Charging Information at Call Set-Up Time (AOC-S) - Integrated Services Digital Network (ISDN) - Service Capabilities - Supplementary Services in ISDN (Study Group I) 12 pp
-I.256.2B                 | (none)          | (03/93)            | ADVICE OF CHARGE: CHARGING INFORMATION DURING THE CALL (AOC-D)
 I.256.2B-1993            | (none)          | (01/93)            | Advice of Charge: Charging Information During the Call (AOC-D) - Integrated Services Digital Network (ISDN) - Service Capabilities - Supplementary Services in ISDN (Study Group I) 11 pp
 I.256.2B-1993            | (none)          | (03/93)            | ADVICE OF CHARGE: CHARGING INFORMATION DURING THE CALL (AOC-D) - Study Group I
 I.256.2C                 | (none)          | (03/93)            | ADVICE OF CHARGE: CHARGING INFORMATION AT THE END OF THE CALL (AOC-E)
-I.256.2C                 | (none)          | (03/93)            | ADVICE OF CHARGE: CHARGING INFORMATION AT THEEND OF THE CALL (AOC-E)
 I.256.3-1992             | (none)          | (08/92)            | Reverse Charging (Study Group I) 13 pp
 I.257-1989               | (none)          | (01/89)            | Additional Information Transfer - Integrated Services Digital Network (ISDN) - General Structure and Service Capabilities (Study Group XVIII) 9 pp
 I.257.1-1995             | (none)          | (10/95)            | User-to-User Signalling (UUS) - Integrated Services Digital Network (ISDN) - Service Capabilities (Study Group 1) 19 pp
@@ -3479,8 +3459,6 @@ I.365.2-1995             | (none)          | (11/95)            | B-ISDN ATM Ada
 I.365.3-1995             | (none)          | (01/95)            | B-ISDN ATM Adaptation Layer Sublayers: Service Specific Coordination Function to Provide the Connection-Oriented Transport Service - Integrated Services Digital Network (ISDN) Overall Network Aspects and Functions (Study Group 13) 85 pp
 I.365.4-1996             | (none)          | (08/96)            | B-ISDN ATM Adaption Layer Sublayers: Service Specific Convergence Sublayer for HDLC Applications - Series I: Integrated Services Digital Network - Overall Network Aspects and Functions - Protocol Layer Requirements - Study Group 13; 11 pp
 I.366.1-1998             | (none)          | (06/98)            | Segmentation and Reassembly Service Specific Convergence Sublayer for the AAL Type 2 - Series I: Integrated Services Digital Network - Overall Network Aspects and Functions - Protocol Layer Requirements - Study Group 13; 37 pp
-I.366.2 CORR 1           | (none)          | (03/02)            | AAL type 2 service specific convergence sublayer for narrow-band services Corrigendum 1
-I.366.2 CORR 1           | (none)          | (03/02)            | Subcapa de convergencia específica de servicio de capa de adaptación del modo transferencia asíncrono tipo 2 para servicios de banda estrecha Corrigendum 1
 I.366.2 CORR 1-2002      | (none)          | (03/02)            | AAL Type 2 Service Specific Convergence Sublayer for Narrow-Band Services Series I: Integrated Services Digital Network Overall Network Aspects and Functions - Protocol Layer Requirements
 I.366.2-2000             | (none)          | (11/00)            | AAL Type 2 Service Specific Convergence Sublayer for Narrow-Band Services Series I: Integrated Services Digital Network Overall Network Aspects and Functions - Protocol Layer Requirements
 I.370-1991               | (none)          | (10/91)            | CONGESTION MANAGEMENT FOR THE ISDN FRAME RELAYING BEARER SERVICE - Study Group XVIII
@@ -3495,7 +3473,6 @@ I.375.2-1998             | (none)          | (06/98)            | Network Capabi
 I.375.3-2000             | (none)          | (03/00)            | Network Capabilities to Support Multimedia Services: Example of Multimedia Distribution Service Class - Switched Digital Broadcasting (SDB) - Series I: Integrated Services Digital Network Overall Network Aspects and Functions - General Network Requirements and Functions
 I.376-1995               | (none)          | (03/95)            | ISDN Network Capabilities for the Support of the Teleaction Service - Integrated Services Digital Network (ISDN) - Overall Network Aspects and Functions (Study Group 13) 18 pp
 I.377-2000               | (none)          | (10/00)            | Network Requirements to Support Charging and Accounting in B-ISDN Series I: Integrated Services Digital Network Overall Network Aspects and Functions - General Network Requirements and Functions - Study Group 13; 20 pp
-I.378 AMD 1              | (none)          | (08/03)            | Traffic control and congestion control at the ATM Adaptation Layer type 2 Amendment 1: New Appendix IV: Deriving AAL 2 traffic parameters from AAL 2 link characteristics
 I.378 AMD 1-2003         | (none)          | (08/03)            | Traffic control and congestion control at the ATM Adaptation Layer type 2 Amendment 1: New Appendix IV: Deriving AAL 2 traffic parameters from AAL 2 link characteristics SERIES I: INTEGRATED SERVICES DIGITAL NETWORK Overall network aspects and functions 鈥?General network requirements and functions
 I.378-2002               | (none)          | (12/02)            | Traffic control and congestion control at the ATM Adaptation Layer type 2 SERIES I: INTEGRATED SERVICES DIGITAL NETWORK Overall network aspects and functions 鈥?General network requirements and functions
 I.380-1999               | (none)          | (02/99)            | Internet protocol data communication service 鈥?IP packet transfer and availability performance parameters
@@ -3508,7 +3485,6 @@ I.414-1997               | (none)          | (09/97)            | Overview of Re
 I.420-1988               | (none)          | (11/88)            | BASIC USER-NETWORK INTERFACE
 I.421-1988               | (none)          | (11/88)            | PRIMARY RATE USER-NETWORK INTERFACE
 I.430-1995               | (none)          | (11/95)            | Basic User-Network Interface - Layer 1 Specification - Integrated Services Digital Network (ISDN) ISDN User-Network Interfaces (Study Group 13) 106 pp
-I.431 AMD 1              | (none)          | (06/97)            | Primary rate user-network interface 鈥?Layer 1 specification Amendment 1
 I.431 AMD 1-1997         | (none)          | (06/97)            | Primary rate user-network interface 鈥?Layer 1 specification Amendment 1 - Study Group 13; 6 pp
 I.431-1993               | (none)          | (03/93)            | PRIMARY RATE USER-NETWORK INTERFACE 鈥?LAYER 1 SPECIFICATION - Study Group 18; 42 pp
 I.432-1993               | (none)          | (03/93)            | B-ISDN User-Network Interface - Physical Layer Specification - Integrated Servicess Digital Network (ISDN) ISDN User-Network Interfaces - Study Group XVIII; 39 pp
@@ -3556,17 +3532,12 @@ I.602-1988               | (none)          | (11/88)            | Application of
 I.603-1988               | (none)          | (11/88)            | Application of maintenance principles to ISDN basic accesses
 I.604-1988               | (none)          | (11/88)            | Application of maintenance principles to ISDN primary rate accesses
 I.605-1988               | (none)          | (11/88)            | Application of maintenance principles to static multiplexed ISDN basic accesses
-I.610 AMD 1              | (none)          | (03/00)            | B-ISDN operation and maintenance principles and functions Amendment 1
 I.610 AMD 1-2000         | (none)          | (03/00)            | B-ISDN Operation and Maintenance Principles and Functions - Series I: Integrated Services Digital Network Maintenance Principles - Amendment 1; Study Group 13
-I.610 AMD 2              | (none)          | (12/06)            | B-ISDN operation and maintenance principles and functions Amendment 2: Measurement of round trip delay using loopback cell
 I.610 AMD 2-2006         | (none)          | (12/06)            | B-ISDN Operation and Maintenance Principles and Functions: Amendment 2: Measurement of round trip delay using loopback cell
-I.610 CORR 1             | (none)          | (03/00)            | B-ISDN operation and maintenance principles and functions Corrigendum 1
 I.610 CORR.1-2000        | (none)          | (03/00)            | B-ISDN Operation and Maintenance Principles and Functions Corrigendum 1 Series I: Integrated Services Digital Network Maintenance Principles
 I.610-1999               | (none)          | (02/99)            | B-ISDN Operation and Maintenance Principles and Functions - Series I: Integrated Services Digital Network Maintenance Principles - Study Group 13; 86 pp
 I.620-1996               | (none)          | (10/96)            | Frame Relay Operation and Maintenance Principles and Functions - Series I: Integrated Services Digital Network Maintenance Principles - Study Group 13; 14 pp
-I.630 AMD 1              | (none)          | (03/00)            | ATM protection switching Amendment 1
 I.630 AMD 1-2000         | (none)          | (03/00)            | ATM Protection Switching - Series I: Integrated Services Digital Network Maintenance Principles - Amendment 1; Study Group 13
-I.630 CORR 1             | (none)          | (03/00)            | ATM protection switching Corrigendum 1
 I.630 CORR.1-2000        | (none)          | (03/00)            | ATM Protection Switching - Series I: Integrated Services Digital Network Maintenance Principles - Corrigendum 1; Study Group 13
 I.630-1999               | (none)          | (02/99)            | ATM Protection Switching - Series I: Integrated Services Digital Network Maintenance Principles - Study Group 13; 43 pp
 I.731-2000               | (none)          | (10/00)            | Types and General Characteristics of ATM Equipment Series I: Integrated Services Digital Network B-ISDN Equipment Aspects - ATM Equipment
@@ -3835,7 +3806,7 @@ IS.849-1-1993            | (none)          | (01/93)            | DETERMINATION 
 IS.850-1-1995            | (none)          | (01/95)            | COORDINATION AREAS USING PREDETERMINED COORDINATION DISTANCES
 IS.851-1992              | (none)          | (01/92)            | (WITHDRAWN) Sharing between the Broadcasting Service and the Fixed and/or Mobile Services in the VHF and UHF Bands
 IS.SERIES-1995           | (none)          | (01/95)            | 1995 IS Series Fascicle Inter-Service Sharing and Compatibility
-ITU RADIO REGULATIONS-2008 | (none)        | (01/08)            | The Radio Regulations - To Purchase Call 1-800-854-7179 USA/Canada or 303-397-7956 Worldwide
+ITU RADIO REGULATIONS    | (none)          | (01/08)            | The Radio Regulations - To Purchase Call 1-800-854-7179 USA/Canada or 303-397-7956 Worldwide
 J.1-1999                 | (none)          | (09/99)            | Terms, Definitions and Acronyms Applicable to the Transmission of Television and Sound-Programme Signals and of Related Data Signals Series J: Transmission of Television, Sound Programme and Other Multimedia Signals General Recommendations
 J.1-2020                 | (none)          | (05/20)            | Terms, definitions and acronyms for television and sound transmission and integrated broadband cable networks
 J.100-1990               | (none)          | (06/90)            | TOLERANCES FOR TRANSMISSION TIME DIFFERENCES BETWEEN THE VISION AND SOUND COMPONENTS OF A TELEVISION SIGNAL
