@@ -1,0 +1,116 @@
+Name     | ISO             | Code (40 chars)    | Description (Full STD Title)
+T.0      | (none)          | (07/96)            | Classification of facsimile terminals for document transmission over the public networks
+T.1      | (none)          | (11/88)            | Standardization of phototelegraph apparatus
+T.2      | (none)          | (07/96)            | Withdrawn Standardization of Group 1 facsimile apparatus for document transmission
+T.3      | (none)          | (07/96)            | Withdrawn Standardization of Group 2 facsimile apparatus for document transmission
+T.4      | (none)          | (04/99)            | Standardization of Group 3 facsimile terminals for document transmission
+T.5      | (none)          | (02/98)            | Test methodology for Group 3 facsimile processing equipment in the Public Switched Telephone Network
+T.6      | (none)          | (11/88)            | Facsimile coding schemes and coding control functions for group 4 facsimile apparatus
+T.10     | (none)          | (11/88)            | Document facsimile transmissions on leased telephone-type circuits
+T.10bis  | (none)          | (11/88)            | Document facsimile transmissions in the general switched telephone network
+T.22     | (none)          | (03/93)            | Standardized test charts for document facsimile transmissions
+T.23     | (none)          | (04/94)            | Standardized colour test chart for document facsimile transmissions
+T.24     | (none)          | (06/98)            | Standardized digitized image set
+T.30     | (none)          | (04/99)            | Procedures for document facsimile transmission in the general switched telephone network
+T.31     | (none)          | (08/95)            | Asynchronous facsimile DCE control – Service Class 1
+T.32     | (none)          | (08/95)            | Asynchronous facsimile DCE control – Service Class 2
+T.33     | (none)          | (07/96)            | Facsimile routing utilizing the Subaddress
+T.35     | (none)          | (02/00)            | Procedure for the allocation of ITU-T defined codes for non-standard facilities
+T.36     | (none)          | (07/97)            | Security capabilities for use with Group 3 facsimile terminals
+T.37     | (none)          | (06/98)            | Procedures for the transfer of facsimile data via store-and-forward on the Internet
+T.38     | (none)          | (03/02)            | Procedures for real-time Group 3 facsimile communication over IP networks
+T.39     | (none)          | (10/97)            | Application profiles for simultaneous voice and facsimile terminals
+T.42     | (none)          | (10/96)            | Continuous-tone colour representation method for facsimile
+T.43     | (none)          | (07/97)            | Colour and gray-scale image representations using lossless coding scheme for facsimile
+T.44     | (none)          | (04/99)            | Mixed raster content (MRC)
+T.45     | (none)          | (02/00)            | Run-length colour encoding
+T.50     | ISO 646         | (09/92)            | International Reference Alphabet (IRA) – Code for information interchange
+T.51     | (none)          | (09/92)            | Latin based coded character sets for telematic services
+T.52     | (none)          | (03/93)            | Non-latin coded character sets for telematic services
+T.53     | (none)          | (04/94)            | Character coded control functions for telematic services
+T.60     | (none)          | (05/00)            | Withdrawn Terminal equipment for use in the teletex service
+T.62     | (none)          | (03/93)            | Control procedures for teletex and Group 4 facsimile services
+T.81     | ISO/IEC 10918-1 | (11/94)            | Information technology - Digital compression and coding of continuous-tone still images: Requirements and guidelines
+T.82     | ISO/IEC 11544   | (11/94)            | Information technology - Digital compression and coding of continuous-tone still images: Compliance testing
+T.83     | ISO/IEC 10918-2 | (11/94)            | Information technology - Digital compression and coding of continuous-tone still images: Compliance testing
+T.84     | ISO/IEC 10918-3 | (11/94)            | Information technology - Digital compression and coding of continuous-tone still images: Extensions
+T.85     | (none)          | (11/94)            | Information technology - JPEG - Full-screen still image program
+T.86     | ISO/IEC 10918-4 | (11/94)            | Information technology - Digital compression and coding of continuous-tone still images: Registration of items
+T.87     | ISO/IEC 14495-1 | (06/98)            | Information technology - Lossless and near-lossless compression of continuous-tone still images: Baseline
+T.88     | ISO/IEC 14492   | (11/01)            | Information technology - Lossy/lossless coding of bi-level images
+T.330    | (none)          | T.330 (N/A)        | Telematic access to IPS
+X.1      | (none)          | X.1 (03/2000)      | International user classes of service in, and categories of access to, public data networks and Integrated Services Digital Networks (ISDNs)
+X.2      | (none)          | X.2 (03/2000)      | International data transmission services and optional user facilities in public data networks and ISDNs
+X.3      | (none)          | X.3 (03/2000)      | Packet assembly/disassembly facility (PAD) in a public data network
+X.4      | (none)          | X.4 (11/1988)      | General structure of signals of International Alphabet No. 5 code for character oriented data transmission over public data networks
+X.20     | (none)          | X.20 (11/1988)     | DTE/DCE interface for start-stop transmission services on public data networks
+X.21     | (none)          | X.21 (09/1992)     | DTE/DCE interface for synchronous operation on public data networks
+X.25     | (none)          | X.25 (10/1996)     | DTE/DCE interface for terminals operating in the packet mode and connected to public data networks by dedicated circuit
+X.28     | (none)          | X.28 (12/1997)     | DTE/DCE interface for a start-stop mode DTE accessing the Packet Assembly/Disassembly facility (PAD) in a public data network situated in the same country
+X.29     | (none)          | X.29 (12/1997)     | Procedures for the exchange of control information and user data between a Packet Assembly/Disassembly (PAD) facility and a packet mode DTE or another PAD
+X.32     | (none)          | X.32 (10/1996)     | DTE/DCE interface for terminals operating in the packet mode and accessing a PSPDN through a PSTN or an ISDN or a circuit-switched public data network
+X.36     | (none)          | X.36 (02/2003)     | DTE/DCE interface for public data networks providing frame relay data transmission service by dedicated circuit
+X.400    | ISO/IEC 10021-1 | X.400 (06/1999)    | Message handling system and service overview
+X.402    | ISO/IEC 10021-2 | X.402 (06/1999)    | Information technology - Message Handling Systems (MHS): Overall architecture
+X.403    | (none)          | X.403 (11/1988)    | Message handling systems: conformance testing
+X.407    | ISO/IEC 10021-3 | X.407 (11/1988)    | Message handling systems: Abstract service definition conventions
+X.408    | (none)          | X.408 (11/1988)    | Message handling systems: Encoded information type conversion rules
+X.411    | ISO/IEC 10021-4 | X.411 (06/1999)    | Information technology – Message Handling Systems (MHS): Message Transfer System: Abstract Service Definition and Procedures
+X.413    | ISO/IEC 10021-5 | X.413 (06/1999)    | Information technology - Message Handling Systems (MHS): Message store - Abstract service definition
+X.419    | ISO/IEC 10021-6 | X.419 (06/1999)    | Information technology - Message Handling Systems (MHS): Protocol Specifications
+X.420    | ISO/IEC 10021-7 | X.420 (06/1999)    | Information technology - Message Handling Systems (MHS): Interpersonal messaging system
+X.435    | ISO/IEC 10021-9 | X.435 (06/1999)    | Electronic data interchange messaging system
+X.460    | (none)          | X.460 (04/1995)    | Information technology - Message Handling Systems (MHS) Management: Model and architecture
+X.462    | (none)          | X.462 (10/1996)    | Information technology - Message Handling Systems (MHS) Management: Logging information
+X.467    | (none)          | X.467 (04/1995)    | Management: Message Transfer Agent management
+X.500    | ISO/IEC 9594-1  | X.500 (10/2019)    | Information technology - Open Systems Interconnection - The Directory: Overview of concepts, models and services
+X.501    | ISO/IEC 9594-2  | X.501 (10/2019)    | Information technology - Open Systems Interconnection - The Directory: Models
+X.509    | ISO/IEC 9594-8  | X.509 (10/2019)    | Information technology - Open Systems Interconnection - The Directory: Public-key and attribute certificate frameworks
+X.511    | ISO/IEC 9594-3  | X.511 (10/2019)    | Information technology - Open Systems Interconnection - The Directory: Abstract service definition
+X.518    | ISO/IEC 9594-4  | X.518 (10/2019)    | Information technology - Open Systems Interconnection - The Directory: Procedures for distributed operation
+X.519    | ISO/IEC 9594-5  | X.519 (10/2019)    | Information technology - Open Systems Interconnection - The Directory: Protocol specifications
+X.520    | ISO/IEC 9594-6  | X.520 (10/2019)    | Information technology - Open Systems Interconnection - The Directory: Selected attribute types
+X.521    | ISO/IEC 9594-7  | X.521 (10/2019)    | Information technology - Open Systems Interconnection - The Directory: Selected object classes
+X.525    | (none)          | X.525 (10/2019)    | Information technology - Open Systems Interconnection - The Directory: Replication
+X.601    | (none)          | X.601 (10/2010)    | Multi-peer communications framework
+X.602    | ISO/IEC 16513   | X.602 (02/2007)    | Group management protocol
+X.603    | ISO/IEC 16512-1 | X.603 (02/2007)    | Relayed multicast protocol: Framework
+X.603.1  | ISO/IEC 16512-2 | X.603.1 (02/2007)  | Relayed multicast protocol: Specification for simplex group applications
+X.603.2  | ISO/IEC 16512-3 | X.603.2 (05/2018)  | Relayed multicast protocol: Specification for N-plex group applications
+X.604    | ISO/IEC 24793-1 | X.604 (02/2007)    | Mobile multicast communications: Framework
+X.604.1  | ISO/IEC 24793-2 | X.604.1 (02/2007)  | Mobile multicast communications: Protocol over native IP multicast networks
+X.604.2  | ISO/IEC 24793-3 | X.604.2 (02/2007)  | Mobile multicast communications: Protocol over overlay multicast networks
+X.605    | ISO/IEC 13252   | X.605 (02/2007)    | Enhanced Communications Transport Service (ECTS) definition
+X.606    | ISO/IEC 14476-1 | X.606 (02/2007)    | ECTS: Specification of simplex multicast transport
+X.606.1  | ISO/IEC 14476-2 | X.606.1 (02/2007)  | ECTS: Specification of QoS management for simplex multicast transport
+X.607    | ISO/IEC 14476-3 | X.607 (02/2007)    | ECTS: Specification of duplex multicast transport
+X.607.1  | ISO/IEC 14476-4 | X.607.1 (02/2007)  | ECTS: Specification of QoS management for duplex multicast transport
+X.608    | ISO/IEC 14476-5 | X.608 (02/2007)    | ECTS: Specification of N-plex multicast transport
+X.608.1  | ISO/IEC 14476-6 | X.608.1 (02/2007)  | ECTS: Specification of QoS management for n-plex multicast transport
+X.609    | (none)          | X.609 (06/2015)    | Managed peer-to-peer (P2P) communications: Functional architecture
+X.609.1  | (none)          | X.609.1 (06/2016)  | Managed P2P communications: Peer activity management protocol (PAMP)
+X.609.2  | (none)          | X.609.2 (06/2016)  | Managed P2P communications: Overlay resource control protocol (ORCP)
+X.609.3  | (none)          | X.609.3 (08/2017)  | Managed P2P communications: Multimedia streaming signalling requirements
+X.609.4  | (none)          | X.609.4 (01/2018)  | Managed P2P communications: Multimedia streaming peer protocol
+X.609.5  | (none)          | X.609.5 (12/2018)  | Managed P2P communications: Overlay management protocol
+X.609.6  | (none)          | X.609.6 (12/2018)  | Managed P2P communications: Content distribution signalling requirements
+X.609.7  | (none)          | X.609.7 (12/2018)  | Managed P2P communications: Content distribution peer protocol
+X.609.8  | (none)          | X.609.8 (12/2019)  | Managed P2P communications: Management protocol for live data sources
+X.609.9  | (none)          | X.609.9 (09/2020)  | Managed P2P communications: Overlay content management protocol
+X.609.10 | (none)          | X.609.10 (09/2020) | Managed P2P communications: Signalling requirements for data streaming
+X.800    | ISO/IEC 7498-2  | X.800 (03/1991)    | Security architecture for open systems interconnection for CCITT applications
+Z.100    | (none)          | Z.100 (06/2021)    | Specification and Description Language (SDL)
+Z.101    | (none)          | Z.101 (06/2021)    | Specification and Description Language – Basic SDL-2010
+Z.102    | (none)          | Z.102 (06/2021)    | Specification and Description Language – Comprehensive SDL-2010
+Z.103    | (none)          | Z.103 (06/2021)    | Specification and Description Language – Shorthand notation and annotation features of SDL
+Z.104    | (none)          | Z.104 (06/2021)    | Specification and Description Language – Data and expressions
+Z.105    | (none)          | Z.105 (07/2003)    | SDL combined with ASN.1 modules (SDL/ASN.1)
+Z.106    | (none)          | Z.106 (08/2002)    | Common interchange format for SDL
+Z.107    | (none)          | Z.107 (10/2019)    | Specification and Description Language – Object-oriented data in SDL-2010
+Z.109    | (none)          | Z.109 (11/1999)    | SDL combined with UML
+Z.110    | (none)          | Z.110 (11/2000)    | Criteria for use of formal description techniques by ITU-T
+Z.120    | (none)          | Z.120 (11/1999)    | Message sequence chart (MSC)
+Z.140    | (none)          | Z.140 (04/2003)    | Testing and Test Control Notation version 3 (TTCN-3): Core language
+Z.141    | (none)          | Z.141 (02/2003)    | Testing and Test Control Notation version 3 (TTCN-3): Tabular presentation format
+Z.200    | ISO/IEC 9496    | Z.200 (11/1999)    | CHILL – The ITU-T Programming Language
+Z.400    | (none)          | Z.400 (03/1993)    | Structure and format of quality manuals for telecommunications software
