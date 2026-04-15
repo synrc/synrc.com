@@ -5869,88 +5869,57 @@ M.2082-0-2015            | (none)          | (11/15)            | Methodology an
 M.2083-0-2015            | (none)          | (09/15)            | IMT Vision – Framework and overall objectives of the future development of IMT for 2020 and beyond
 M.2084-1-2019            | (none)          | (11/19)            | Radio interface standards of vehicle-tovehicle and vehicle-to-infrastructure twoway communications for Intelligent Transport System applications
 M.2085-0-2015            | (none)          | (09/15)            | Technical conditions for the use of wireless avionics intra-communication systems operating in the aeronautical mobile (R) service in the frequency band 4 200-4 400 MHz
-M.2089-0                 | (none)          | (10/15)            | Technical characteristics and protection criteria for aeronautical mobile service systems in the frequency range 14.5-15.35 GHz
 M.2089-0-2015            | (none)          | (10/15)            | Technical characteristics and protection criteria for aeronautical mobile service systems in the frequency range 14.5-15.35 GHz
-M.2090-0                 | (none)          | (10/15)            | Specific unwanted emission limit of IMT mobile stations operating in the frequency band 694-790 MHz to facilitate protection of existing services in Region 1 in the frequency band 470-694 MHz
 M.2090-0-2015            | (none)          | (10/15)            | Specific unwanted emission limit of IMT mobile stations operating in the frequency band 694-790 MHz to facilitate protection of existing services in Region 1 in the frequency band 470-694 MHz
-M.2091-0                 | (none)          | (10/15)            | Methodology to calculate spectrum requirements within the frequency bands 1 545-1 555 MHz (space-to-Earth) and 1 646.5-1 656.5 MHz (Earth-to-space) for aeronautical mobile-satellite (R) service communications related to the priority categories 1 to 6 of A
 M.2091-0-2015            | (none)          | (10/15)            | Methodology to calculate spectrum requirements within the frequency bands 1 545-1 555 MHz (space-to-Earth) and 1 646.5-1 656.5 MHz (Earth-to-space) for aeronautical mobile-satellite (R) service communications related to the priority categories 1 to 6 of A
-M.2092-0                 | (none)          | (10/15)            | Technical characteristics for a VHF data exchange system in the VHF maritime mobile band
 M.2092-0-2015            | (none)          | (10/15)            | Technical characteristics for a VHF data exchange system in the VHF maritime mobile band
-M.21                     | (none)          | (10/92)            | MAINTENANCE PHILOSOPHY FOR TELECOMMUNICATION SERVICES
 M.21-1992                | (none)          | (10/92)            | Maintenance Philosophy for Telecommunication Services - Maintenance: Introduction and General Principles of Maintenance and Maintenance Organization (Study Group IV) 8 pp
-M.2100                   | (none)          | (04/03)            | Performance limits for bringing-into-service and maintenance of international multi-operator PDH paths and connections
 M.2100-2003              | (none)          | (04/03)            | Performance limits for bringing-into-service and maintenance of international multi-operator PDH paths and connections SERIES M: TMN AND NETWORK MAINTENANCE: INTERNATIONAL TRANSMISSION SYSTEMS, TELEPHONE CIRCUITS, TELEGRAPHY, FACSIMILE AND LEASED CIRCUITS International transport network
-M.2101                   | (none)          | (06/03)            | Performance limits for bringing-into-service and maintenance of international multi-operator SDH paths and multiplex sections
 M.2101-0-2017            | (none)          | (02/17)            | Modelling and simulation of IMT networks and systems for use in sharing and compatibility studies
 M.2101-2003              | (none)          | (06/03)            | Performance limits for bringing-into-service and maintenance of international multi-operator SDH paths and multiplex sections
-M.2101.1                 | (none)          | (04/97)            | PERFORMANCE LIMITS FOR BRINGING-INTO-SERVICE AND MAINTENANCE OF INTERNATIONAL SDH PATHS AND MULTIPLEX SECTIONS
 M.2101.1-1997            | (none)          | (04/97)            | Performance Limits for Bringing-Into-Service and Maintenance of International SDH Paths and Multiplex Sections - Series M: TMN and Network Maintenance: International Transmission Systems, Telephone Circuits, Telegraphy, Facsimile and Leased Circuits International Transport Network - Study Group 4; 45 pp
-M.2102                   | (none)          | (02/00)            | Maintenance thresholds and procedures for recovery mechanisms (protection and restoration) of international SDH VC trails (paths) and multiplex sections
 M.2102-2000              | (none)          | (02/00)            | Maintenance thresholds and procedures for recovery mechanisms (protection and restoration) of international SDH VC trails (paths) and multiplex sections
-M.2110                   | (none)          | (07/02)            | Bringing into service international multi-operator paths, sections and transmission systems
 M.2110-2002              | (none)          | (07/02)            | Bringing-Into-Service of International PDH Paths, Sections and Transmission Systems Series M: TMN and Network Maintenance: International Transmission Systems, Telephone Circuits, Telegraphy, Facsimile and Leased Circuits International Transport Network
 M.2115-0-2018            | (none)          | (01/18)            | Technical and operational characteristics of and protection criteria for aeronautical mobile systems operating in the 45.5-47 GHz frequency range
 M.2116-0-2018            | (none)          | (01/18)            | Technical characteristics and protection criteria for the aeronautical mobile service systems operating within the 4 400-4 990 MHz frequency range
-M.2120                   | (none)          | (07/02)            | International multi-operator paths, sections and transmission systems fault detection and localization procedures
 M.2120-0-2019            | (none)          | (01/19)            | Technical characteristics and protection criteria for aeronautical mobile systems operating in the mobile service in the frequency range 21.2-22 GHz
 M.2120-2002              | (none)          | (07/02)            | International multi-operator paths, sections and transmission systems fault detection and localization procedures
 M.2121-0-2019            | (none)          | (01/19)            | Harmonization of frequency bands for Intelligent Transport Systems in the mobile service
 M.2122-0-2019            | (none)          | (01/19)            | Technical and operational characteristics for aeronautical mobile service systems limited to aircraft transmissions of aeronautical mobile telemetry for light testing in the band 5 150-5 250 MHz in Region 1 and in Brazil in accordance with RR No. 5.446C
-M.2130                   | (none)          | (02/00)            | Operational procedures for the maintenance of the transport network
 M.2130-2000              | (none)          | (02/00)            | Operational procedures for the maintenance of the transport network
 M.2134-0-2019            | (none)          | (10/19)            | Receiver characteristics and protection criteria for systems in the mobile service in the frequency range 27.5-29.5 GHz for use in sharing and compatibility studies
 M.2135-0-2019            | (none)          | (10/19)            | Technical characteristics of autonomous maritime radio devices operating in the frequency band 156-162.05 MHz
-M.2140                   | (none)          | (02/00)            | Transport network event correlation
 M.2140-2000              | (none)          | (02/00)            | Transport network event correlation
 M.2150-0-2021            | (none)          | (02/21)            | Detailed specifications of the terrestrial radio interfaces of International Mobile Telecommunications-2020 (IMT-2020)
-M.218-2                  | (none)          | (01/90)            | PREVENTION OF INTERFERENCE TO RADIO RECEPTION ON BOARD SHIPS
 M.218-2-1990             | (none)          | (01/90)            | PREVENTION OF INTERFERENCE TO RADIO RECEPTION ON BOARD SHIPS
-M.2201                   | (none)          | (03/01)            | Performance objectives, allocations and limits for bringing-into-service and maintenance of international atm virtual path and virtual channel connections
 M.2201-2001              | (none)          | (03/01)            | Performance Objectives, Allocations and Limits for Bringing-into-Service and Maintenance of International ATM Virtual Path and Virtual Channel Connections Series M: TMN and Network Maintenance: International Transmission Systems, Telephone Circuits, Telegraphy, Facsimile and Leased Circuits International Transport Network
-M.2301                   | (none)          | (07/02)            | Performance objectives and procedures for provisioning and maintenance of IP-based networks
 M.2301-2002              | (none)          | (07/02)            | Performance objectives and procedures for provisioning and maintenance of IP-based networks SERIES M: TMN AND NETWORK MAINTENANCE: INTERNATIONAL TRANSMISSION SYSTEMS, TELEPHONE CIRCUITS, TELEGRAPHY, FACSIMILE AND LEASED CIRCUITS International transport network
-M.2401                   | (none)          | (12/03)            | Error performance limits and procedures for bringing-into-service and maintenance of multi-operator international paths and sections within an optical transport network
 M.2401-2003              | (none)          | (12/03)            | Error performance limits and procedures for bringing-into-service and maintenance of multi-operator international paths and sections within an optical transport network
-M.250                    | (none)          | (11/88)            | USE OF CCITT MAN-MACHINE LANGUAGE (MML) FOR MAINTENANCE
 M.250 SPANSIH-1988       | (none)          | (11/88)            | USE OF CCITT MAN-MACHINE LANGUAGE (MML) FOR MAINTENANCE
 M.250-1988               | (none)          | (01/88)            | Use of CCITT Man-Machine Language (MML) for Maintenance - General Maintenance Principles - Maintenance of International Transmission Systems and Telephone Circuits (Study Group IV) 3 pp
-M.251                    | (none)          | (11/88)            | MAINTENANCE FUNCTIONS TO BE IMPLEMENTED IN CCLTT-MML
 M.251-1988               | (none)          | (01/88)            | Maintenance Functions to Be Implemented in CCITT-MML - General Maintenance Principles - Maintenance of International Transmission Systems and Telephone Circuits (Study Group IV) 29 pp
-M.257-3                  | (none)          | (01/95)            | SEQUENTIAL SINGLE FREQUENCY SELECTIVE-CALLING SYSTEM FOR USE IN THE MARITIME MOBILE SERVICE
 M.257-3-1995             | (none)          | (01/95)            | Sequential Single Frequency Selective-Calling System for Use in Maritime Mobile Service
 M.30-1989                | (none)          | (01/89)            | Principles for a Telecommunications Management Network - General Maintenance Principles - Maintenance of International Transmission Systems and Telephone Circuits (Study Group IV) 40 pp
-M.300                    | (none)          | (11/88)            | DEFINITIONS CONCERNING INTERNATIONAL TRANSMISSION SYSTEMS
 M.300-1988               | (none)          | (11/88)            | DEFINITIONS CONCERNING INTERNATIONAL TRANSMISSION SYSTEMS
-M.3000                   | (none)          | (02/00)            | Overview of TMN Recommendations
 M.3000-2000              | (none)          | (02/00)            | Overview of TMN Recommendations
-M.3010                   | (none)          | (02/00)            | Principles for a Telecommunications Management Network
 M.3010 AMD 1             | (none)          | (12/03)            | Principles for a telecommunications management network Amendment 1: TMN conformance and TMN compliance
 M.3010 AMD 1-2003        | (none)          | (12/03)            | Principles for a telecommunications management network Amendment 1: TMN conformance and TMN compliance - Amendment 1
 M.3010 AMD 2             | (none)          | (11/05)            | Principles for a telecommunications management network Amendment 2: Additions and corrections
 M.3010 AMD 2-2005        | (none)          | (11/05)            | Principles for a telecommunications management network Amendment 2: Additions and corrections
 M.3010-2000              | (none)          | (02/00)            | Principles for a Telecommunications Management Network
-M.3013                   | (none)          | (02/00)            | Considerations for a Telecommunications Management Network
 M.3013-2000              | (none)          | (02/00)            | Considerations for a Telecommunications Management Network
-M.3016                   | (none)          | (06/98)            | TMN SECURITY OVERVIEW
 M.3016-1998              | (none)          | (06/98)            | TMN Security Overview - Series M: TMN and Network Maintenance: International Transmission Systems, Telephone Circuits, Telegraphy, Facsimile and Leased Circuits - Telecommunications Management Network - Study Group 4; 24 pp
-M.3016.0                 | (none)          | (05/05)            | Security for the management plane: Overview
 M.3016.0-2005            | (none)          | (05/05)            | Security for the management plane: Overview
-M.3016.1                 | (none)          | (04/05)            | Security for the management plane: Security requirements
 M.3016.1 AMD 1-2011      | (none)          | (07/11)            | Security for the management plane: Security requirements Amendment 1: Authentication extension
 M.3016.1 CORR 1          | (none)          | (11/05)            | Security for the management plane: Security requirements Corrigendum 1
 M.3016.1 CORR 1-2005     | (none)          | (11/05)            | Security for the Management Plane: Security Requirements Corrigendum 1
 M.3016.1-2005            | (none)          | (04/05)            | Security for the Management Plane: Security Requirements
-M.3016.2                 | (none)          | (04/05)            | Security for the management plane: security services
 M.3016.2-2005            | (none)          | (04/05)            | Security for the management plane: security services
-M.3016.3                 | (none)          | (04/05)            | Security for the management plane: Security mechanism
 M.3016.3 AMD 1-2011      | (none)          | (07/11)            | Security for the management plane: Security mechanism Amendment 1: Redundant authentication extension
 M.3016.3 AMD 1-2011      | (none)          | (07/11)            | Security for the management plane: Security mechanism Amendment 1: Redundant Authentication extension
 M.3016.3-2005            | (none)          | (04/05)            | Security for the management plane: Security mechanism
-M.3016.4                 | (none)          | (04/05)            | Security for the management plane: Profile proforma
 M.3016.4 AMD 1-2011      | (none)          | (07/11)            | Security for the management plane: Profile proforma Amendment 1: Authentication extension
 M.3016.4-2005            | (none)          | (04/05)            | Security for the management plane: Profile proforma
-M.3017                   | (none)          | (06/03)            | Framework for the integrated management of hybrid circuit/packet networks
 M.3017 AMD 1             | (none)          | (04/05)            | Framework for the integrated management of hybrid circuit/packet networks Amendment 1: Additional options
 M.3017 AMD 1-2005        | (none)          | (04/05)            | Framework for the integrated management of hybrid circuit/packet networks Telecommunications management network
 M.3017-2003              | (none)          | (06/03)            | Framework for the integrated management of hybrid circuit/packet networks SERIES M: TMN AND NETWORK MAINTENANCE: INTERNATIONAL TRANSMISSION SYSTEMS, TELEPHONE CIRCUITS, TELEGRAPHY, FACSIMILE AND LEASED CIRCUITS Telecommunications management network
@@ -5958,9 +5927,7 @@ M.3020-2009              | (none)          | (05/09)            | Management int
 M.3020-2010              | (none)          | (09/10)            | Management interface specification methodology
 M.3020-2011              | (none)          | (07/11)            | Management interface specification methodology
 M.3020-2017              | (none)          | (07/17)            | Management interface specification methodology
-M.3030                   | (none)          | (08/02)            | Telecommunications Markup Language (tML) framework
 M.3030-2002              | (none)          | (08/02)            | Telecommunications Markup Language (tML) Framework Series M: TMN and Network Maintenance: International Transmission Systems, Telephone Circuits, Telegraphy, Facsimile and Leased Circuits Telecommunications Management Network
-M.3031                   | (none)          | (07/04)            | Guidelines for Implementation Conformance Statement proformas for tML schemas
 M.3031 CORR 1            | (none)          | (11/05)            | Guidelines for Implementation Conformance Statement proformas for tML schemas Corrigendum 1
 M.3031 CORR 1-2005       | (none)          | (11/05)            | Guidelines for Implementation Conformance Statement proformas for tML schemas Corrigendum 1
 M.3031-2004              | (none)          | (07/04)            | Guidelines for Implementation Conformance Statement proformas for tML Schemas SERIES M: TMN AND NETWORK MAINTENANCE: INTERNATIONAL TRANSMISSION SYSTEMS, TELEPHONE CIRCUITS, TELEGRAPHY, FACSIMILE AND LEASED CIRCUITS Telecommunications management network
@@ -5978,24 +5945,17 @@ M.3050.1-2007            | (none)          | (03/07)            | Enhanced Telec
 M.3050.2-2007            | (none)          | (03/07)            | Enhanced Telecom Operations Map (eTOM) 鈥?Process decompositions and descriptions
 M.3050.3-2007            | (none)          | (03/07)            | Enhanced Telecom Operations Map (eTOM) 鈥?Representative process flows
 M.3050.4-2007            | (none)          | (03/07)            | Enhanced Telecom Operations Map (eTOM) 鈥?B2B integration: Using B2B inter-enterprise integration with the eTOM
-M.3060                   | (none)          | (03/06)            | Principles for the Management of Next Generation Networks
 M.3060-2006              | (none)          | (03/06)            | Principles for the Management of Next Generation Networks
 M.3071-2018              | (none)          | (01/18)            | Cloud-based network management functional architecture
 M.3080-2021              | (none)          | (02/21)            | Framework of artificial intelligence enhanced telecom operation and management (AITOM)
-M.3100                   | (none)          | (04/05)            | Generic Network Information Model
 M.3100-2005              | (none)          | (04/05)            | Generic Network Information Model
-M.3101                   | (none)          | (07/95)            | Managed object conformance statements for the generic network information model
 M.3101-1995              | (none)          | (01/95)            | Managed Object Conformance Statements for the Generic Network Information Model - Maintenance Telecommunications Management Network - Study Group 4; 105 pp
 M.3102-2011              | (none)          | (01/11)            | Unified generic management information model for connection-oriented and connectionless networks
-M.3108.1                 | (none)          | (03/99)            | Information model for management of leased circuit and reconfigurable services
 M.3108.1 CORR 1          | (none)          | (01/01)            | TMN management services for dedicated and reconfigurable circuits network: Information model for management of leased circuit and reconfigurable services Corrigendum 1
 M.3108.1 CORR 1-2001     | (none)          | (01/01)            | TMN management services for dedicated and reconfigurable circuits network: Information model for management of leased circuit and reconfigurable services Corrigendum 1
 M.3108.1-1999            | (none)          | (03/99)            | Information Model for Management of Leased Circuit and Reconfigurable Services - Series M: TMN and Network Maintenance: International Transmission Systems, Telephone Circuits, Telegraphy, Facsimile and Leased Circuits Telecommunications Management Network - Study Group 4; 88 pp
-M.3108.2                 | (none)          | (02/00)            | TMN management services for dedicated and reconfigurable circuits network: Information model for connection management of preprovisioned service link connections to form a reconfigurable leased service
 M.3108.2-2000            | (none)          | (02/00)            | TMN Management Services for Dedicated and Reconfigurable Circuits Network: Information Model for Connection Management of Preprovisioned Service Link Connections to Form a Reconfigurable Leased Service Series M. TMN and Network Maintenance: International Transmission Systems, Telephone Circuits, Telegraphy, Facsimile and Leased Circuits Telecommunications Management Network - Study Group 4; 50 pp
-M.3108.3                 | (none)          | (01/01)            | TMN management services for dedicated and reconfigurable circuits network: Information model for management of virtual private network service
 M.3108.3-2001            | (none)          | (01/01)            | TMN management services for dedicated and reconfigurable circuits network: Information model for management of virtual private network service
-M.3120                   | (none)          | (10/01)            | CORBA generic network and network element level information model
 M.3120 AMD 1             | (none)          | (05/02)            | CORBA generic network and network element level information model Amendment 1: Protection switching
 M.3120 AMD 1-2002        | (none)          | (05/02)            | CORBA generic network and network element level information model Amendment 1: Protection switching
 M.3120 AMD 2             | (none)          | (03/03)            | CORBA generic network and network element level information model Amendment 2
@@ -6012,38 +5972,24 @@ M.3170.4-2015            | (none)          | (04/15)            | Multi-technolo
 M.3180                   | (none)          | (10/92)            | CATALOGUE OF TMN MANAGEMENT INFORMATION
 M.3180-1992              | (none)          | (10/92)            | Catalogue of TMN Management Information - Maintenance: Telecommunications Management Network (Study Group IV) 20 pp
 M.3190-2008              | (none)          | (07/08)            | Shared information and data model (SID)
-M.32                     | (none)          | (11/88)            | PRINCIPLES FOR USING ALARM INFORMATION FOR MAINTENANCE OF INTERNATIONAL TRANSMISSION SYSTEMS AND EQUIPMENT
 M.32-1988                | (none)          | (11/88)            | PRINCIPLES FOR USING ALARM INFORMATION FOR MAINTENANCE OF INTERNATIONAL TRANSMISSION SYSTEMS AND EQUIPMENT
-M.320                    | (none)          | (11/88)            | NUMBERING OF THE CHANNELS IN A GROUP
 M.320-1988               | (none)          | (11/88)            | NUMBERING OF THE CHANNELS IN A GROUP
-M.3200                   | (none)          | (04/97)            | TMN Management Services and Telecommunications Managed Areas: Overview
 M.3200-1997              | (none)          | (04/97)            | TMN Management Services and Telecommunications Managed Areas: Overview - Study Group 4; 29 pp
-M.3207.1                 | (none)          | (05/96)            | TMN Management Service: Maintenance Aspects of B-ISDN Management
 M.3207.1-1996            | (none)          | (05/96)            | TMN Management Service: Maintenance Aspects of B-ISDN Management - Study Group 4; 14 pp
-M.3208.1                 | (none)          | (10/97)            | TMN Management Services for Dedicated and Reconfigurable Circuits Network: Leased Circuit Services
 M.3208.1 CORR 1          | (none)          | (02/00)            | TMN Management Services for Dedicated and Reconfigurable Circuits Network: Leased Circuit Services Corrigendum 1
 M.3208.1 CORR 1-2000     | (none)          | (02/00)            | TMN Management Services for Dedicated and Reconfigurable Circuits Network: Leased Circuit Services Corrigendum 1
 M.3208.1-1997            | (none)          | (10/97)            | TMN Management Services for Dedicated and Reconfigurable Circuits Network: Leased Circuit Services - Study Group 4; 95 pp
-M.3208.2                 | (none)          | (03/99)            | TMN Management Services for Dedicated and Reconfigurable Circuits Network: Connection Management of Pre-Provisioned Service Link Connections to Form a Leased Circuit Service
 M.3208.2 CORR 1          | (none)          | (01/01)            | TMN management services for dedicated and reconfigurable circuits network: Connection management of pre-provisioned service link connections to form a leased circuit service Corrigendum 1
 M.3208.2 CORR 1-2001     | (none)          | (01/01)            | TMN management services for dedicated and reconfigurable circuits network: Connection management of pre-provisioned service link connections to form a leased circuit service Corrigendum 1
 M.3208.2-1999            | (none)          | (03/99)            | TMN Management Services for Dedicated and Reconfigurable Circuits Network: Connection Management of Pre-Provisioned Service Link Connections to Form a Leased Circuit Service - Study Group 4; 41 pp
-M.3208.3                 | (none)          | (02/00)            | TMN Management Services for Dedicated and Reconfigurable Circuits Network: Virtual Private Network service
 M.3208.3-2000            | (none)          | (02/00)            | TMN Management Services for Dedicated and Reconfigurable Circuits Network: Virtual Private Network service
-M.3210.1                 | (none)          | (01/01)            | TMN management services for IMT-2000 security management
 M.3210.1-2001            | (none)          | (01/01)            | TMN management services for IMT-2000 security management
-M.3211.1                 | (none)          | (05/96)            | TMN Management Service: Fault and Performance Management of the ISDN Access
 M.3211.1-1996            | (none)          | (05/96)            | TMN Management Service: Fault and Performance Management of the ISDN Access - Study Group 4; 11 pp
-M.330                    | (none)          | (11/88)            | NUMBERING OF GROUPS WITHIN A SUPERGROUP
 M.330-1988               | (none)          | (11/88)            | NUMBERING OF GROUPS WITHIN A SUPERGROUP
-M.3300                   | (none)          | (06/98)            | TMN F interface requirements
 M.3300-1998              | (none)          | (06/98)            | TMN F Interface Requirements - Series M: TMN and Network Maintenance: International Transmission Systems, Telephone Circuits, Telegraphy, Facsimile and Leased Circuits - Telecommunications Management Network - Study Group 4; 29 pp
-M.3320                   | (none)          | (04/97)            | Management requirements framework for the TMN X-interface
 M.3320-1997              | (none)          | (04/97)            | Management Requirements Framework for the TMN X-Interface - Study Group 4; 32 pp
 M.3340-2009              | (none)          | (05/09)            | Framework for NGN service fulfilment and assurance management across the business to business and customer to business interfaces
-M.3341                   | (none)          | (12/03)            | Requirements for QoS/SLA management over the TMN X-interface for IP-based services
 M.3341-2003              | (none)          | (12/03)            | Requirements for QoS/SLA management over the TMN X-interface for IP-based services
-M.3342                   | (none)          | (07/06)            | Guidelines for the definition of SLA representation templates
 M.3342-2006              | (none)          | (07/06)            | Guidelines for the definition of SLA representation templates
 M.3343-2007              | (none)          | (01/07)            | Requirements and analysis for NGN trouble administration across B2B and C2B interfaces
 M.3344-2008              | (none)          | (02/08)            | Requirements and analysis for NGN appointment management across the business to business and customer to business interfaces
@@ -6052,7 +5998,6 @@ M.3345-2009              | (none)          | (05/09)            | Principles for
 M.3347-2012              | (none)          | (05/12)            | Requirements for the NGN Service Activation across the NMS-EMS Interface
 M.3348-2011              | (none)          | (01/11)            | Requirements of the NMS-EMS management interface for NGN service platforms
 M.3349-2013              | (none)          | (03/13)            | Requirements for service and product lifecycle management across business to business interfaces
-M.3350                   | (none)          | (05/04)            | TMN service management requirements for information interchange across the TMN X-interface to support provisioning of Emergency Telecommunication Service (ETS)
 M.3350-2004              | (none)          | (05/04)            | TMN service management requirements for information interchange across the TMN X-interface to support provisioning of Emergency Telecommunication Service (ETS)
 M.3361-2011              | (none)          | (01/11)            | Requirements for business-to-government management interfaces 鈥?B2G interfaces 鈥?Introduction
 M.3362-2020              | (none)          | (06/20)            | Requirements for telecommunication anti-fraud management in the telecommunication management network
@@ -6063,43 +6008,25 @@ M.3371-2016              | (none)          | (10/16)            | Requirements f
 M.3372-2018              | (none)          | (08/18)            | Requirements for resource management in cloud-aware telecommunication management system
 M.3372-2018              | (none)          | (08/18)            | Requirements for resource management in cloud-aware telecommunication management systems
 M.3373-2020              | (none)          | (10/20)            | Requirements for synergy management of cloud and SDN-based networks
-M.34                     | (none)          | (11/88)            | PERFORMANCE MONITORING ON INTERNATIONAL TRANSMISSION SYSTEMS AND EQUIPMENT
 M.34-1988                | (none)          | (11/88)            | PERFORMANCE MONITORING ON INTERNATIONAL TRANSMISSION SYSTEMS AND EQUIPMENT
-M.340                    | (none)          | (11/88)            | NUMBERING OF SUPERGROUPS WITHIN A MASTERGROUP
 M.340-1988               | (none)          | (11/88)            | NUMBERING OF SUPERGROUPS WITHIN A MASTERGROUP
-M.3400                   | (none)          | (02/00)            | TMN management functions
 M.3400-2000              | (none)          | (02/00)            | TMN Management Functions - Study Group 4; 110 pp
 M.3410-2008              | (none)          | (08/08)            | Guidelines and requirements for security management systems to support telecommunications management
-M.35                     | (none)          | (11/88)            | PRINCIPLES CONCERNING LINE-UP AND MAINTENANCE LIMITS
 M.35-1988                | (none)          | (11/88)            | PRINCIPLES CONCERNING LINE-UP AND MAINTENANCE LIMITS
-M.350                    | (none)          | (11/88)            | NUMBERING OF MASTERGROUPS WITHIN A SUPERMASTERGROUP
 M.350-1988               | (none)          | (11/88)            | NUMBERING OF MASTERGROUPS WITHIN A SUPERMASTERGROUP
 M.36-1989                | (none)          | (01/89)            | Principles for the Maintenance of ISDN's - General Maintenance Principles - Maintenance of International Transmission Systems and Telephone Circuits (Study Group IV) 15 pp
-M.3600                   | (none)          | (10/92)            | Principles for the Management of ISDNs
 M.3600-1992              | (none)          | (10/92)            | Principles for the Management of ISDNs - Study Group IV
-M.3602                   | (none)          | (10/92)            | Application of Maintenance Principles to ISDN Subscriber Installations
 M.3602-1992              | (none)          | (10/92)            | Application of Maintenance Principles to ISDN Subscriber Installations - Study Group IV
-M.3603                   | (none)          | (10/92)            | Application of Maintenance Principles to ISDN Basic Rate Access
 M.3603-1992              | (none)          | (10/92)            | Application of Maintenance Principles to ISDN Basic Rate Access - Study Group IV
-M.3604                   | (none)          | (10/92)            | Application of Maintenance Principles to ISDN Primary Rate Access
 M.3604-1992              | (none)          | (10/92)            | Application of Maintenance Principles to ISDN Primary Rate Access - Study Group IV
-M.3605                   | (none)          | (10/92)            | APPLICATION OF MAINTENANCE PRINCIPLES TO STATIC MULTIPLEXED ISDN BASIC RATE ACCESS
 M.3605-1992              | (none)          | (10/92)            | Application of Maintenance Principles to Static Multiplexed ISDN Basic Rate Access - Maintenance: ISDN (Study Group IV) 8 pp
-M.3610                   | (none)          | (05/96)            | PRINCIPLES FOR APPLYING THE TMN CONCEPT TO THE MANAGEMENT OF B-ISDN
 M.3610-1996              | (none)          | (05/96)            | Principles for Applying the TMN Concept to the Management of B-ISDN - Series M: Maintenance: International Transmission Systems, Telephone Circuits, Telegraphy, Facsimile and Leased Circuits Integrated Services Digital Networks (Study Group 4) 17 pp
-M.3611                   | (none)          | (04/97)            | TEST MANAGEMENT OF THE B-ISDN ATM LAYER USING THE TMN
 M.3611-1997              | (none)          | (04/97)            | Test Management of the B-ISDN ATM Layer Using the TMN - Series M: TMN and Network Maintenance: International Transmission Systems, Telephone Circuits, Telegraphy, Facsimile and Leased Circuits Integrated Services Digital Networks (Study Group 4) 53pp
-M.3620                   | (none)          | (10/92)            | PRINCIPLES FOR THE USE OF ISDN TEST CALLS, SYSTEMS AND RESPONDERS
 M.3620-1992              | (none)          | (10/92)            | Principles for the Use of ISDN Test Calls, Systems and Responders - Maintenance: ISDN (Study Group IV) 7 pp
-M.3621                   | (none)          | (07/95)            | INTEGRATED MANAGEMENT OF THE ISDN CUSTOMER ACCESS
 M.3621-1995              | (none)          | (07/95)            | Integrated Management of the ISDN Customer Access - Maintenance - Integrated Services Digital Networks (Study Group 4) 11 pp
-M.3640                   | (none)          | (10/92)            | MANAGEMENT OF THE D-CHANNEL 鈥?DATA LINK LAYER AND NETWORK LAYER
 M.3640-1992              | (none)          | (10/92)            | Management of the D-Channel - Data Link Layer and Network Layer - Maintenance: ISDN (Study Group IV) 24 pp
-M.3641                   | (none)          | (10/94)            | MANAGEMENT INFORMATION MODEL FOR THE MANAGEMENT OF THE DATA LINK AND NETWORK LAYER OF THE ISDN D-CHANNEL
 M.3641-1994              | (none)          | (10/94)            | Management Information Model for the Management of the Data Link and Network Layer of the ISDN D-Channel - Maintenance - Integrated Services Digital Networks (Study Group 4) 36 pp
-M.3650                   | (none)          | (04/97)            | Network performance measurements of ISDN calls
 M.3650-1997              | (none)          | (04/97)            | Network Performance Measurements of ISDN Calls - Series M: TMN and Network Maintenance: International Transmission Systems, Telephone Circuits, Telegraphy, Facsimile and Leased Circuits Integrated Services Digital Networks - Study Group 4; 85pp
-M.3660                   | (none)          | (10/92)            | ISDN INTERFACE MANAGEMENT SERVICES
 M.3660-1992              | (none)          | (10/92)            | ISDN Interface Management Services - Maintenance: ISDN (Study Group IV) 8 pp
 M.3700-2010              | (none)          | (01/10)            | Common management services 鈥?Object management 鈥?Protocol neutral requirements and analysis
 M.3701-2010              | (none)          | (01/10)            | Common management services 鈥?State management 鈥?Protocol neutral requirements and analysis
@@ -6112,313 +6039,167 @@ M.3704-2010              | (none)          | (01/10)            | Common managem
 M.3705-2013              | (none)          | (03/13)            | Common management services – Log management – Protocol neutral requirements and analysis
 M.3706-2013              | (none)          | (11/13)            | Common management services – Test management – Protocol neutral requirements and analysis
 M.3710-2013              | (none)          | (11/13)            | Overview of an automated service test to support cost-efficient telecom service assurance
-M.380                    | (none)          | (11/88)            | NUMBERING IN COAXIAL SYSTEMS
 M.380-1988               | (none)          | (11/88)            | NUMBERING IN COAXIAL SYSTEMS
-M.390                    | (none)          | (11/88)            | NUMBERING IN SYSTEMS ON SYMMETRIC PAIR CABLE
 M.390-1988               | (none)          | (11/88)            | NUMBERING IN SYSTEMS ON SYMMETRIC PAIR CABLE
-M.400                    | (none)          | (11/88)            | NUMBERING IN RADIO-RELAY LINKS OR OPEN-WIRE LINE SYSTEMS
 M.400-1988               | (none)          | (11/88)            | NUMBERING IN RADIO-RELAY LINKS OR OPEN-WIRE LINE SYSTEMS
-M.4010                   | (none)          | (10/92)            | INTER-ADMINISTRATION AGREEMENTS ON COMMON CHANNEL SIGNALLING SYSTEM No.6
 M.4010-1992              | (none)          | (10/92)            | INTER-ADMINISTRATION AGREEMENTS ON COMMON CHANNEL SIGNALLING SYSTEM No.6
-M.4030                   | (none)          | (10/92)            | TRANSMISSION CHARACTERISTICS FOR SETTING UP AND LINING UP A TRANSFER LINK FOR COMMON CHANNEL SIGNALLING SYSTEM No. 6 (ANALOGUE VERSION)
 M.4030-1992              | (none)          | (10/92)            | Transmission Characteristics for Setting up and Lining up a Transfer Link for Common Channel Signalling System No.6 (Analogue Version) - Maintenance: Common Channel Signalling Systems (Study Group IV) 8 pp
-M.410                    | (none)          | (11/88)            | NUMBERING OF DIGITAL BLOCKS IN TRANSMISSION SYSTEMS
 M.410-1988               | (none)          | (11/88)            | NUMBERING OF DIGITAL BLOCKS IN TRANSMISSION SYSTEMS
-M.4100                   | (none)          | (05/96)            | MAINTENANCE OF COMMON CHANNEL SIGNALLING SYSTEM No. 7
 M.4100-1996              | (none)          | (05/96)            | Maintenance of Common Channel Signalling System No. 7 - Maintenance Common Channel Signalling Systems (Study Group 4) 13 pp
-M.4110                   | (none)          | (05/96)            | INTER-ADMINISTRATION AGREEMENTS ON COMMON CHANNEL SIGNALLING SYSTEM NO. 7
 M.4110-1996              | (none)          | (05/96)            | Inter-Administration Agreements on Common Channel Signalling System No. 7 - Maintenance Common Channel Signalling Systems (Study Group 4) 11 pp
-M.428-3                  | (none)          | (01/90)            | DIRECTION-FINDING AND/OR HOMING IN THE 2 MHz BAND ON BOARD SHIPS
 M.428-3-1990             | (none)          | (01/90)            | DIRECTION-FINDING AND/OR HOMING IN THE 2 MHz BAND ON BOARD SHIPS
-M.450                    | (none)          | (11/88)            | BRINGING A NEW INTERNATIONAL TRANSMISSION SYSTEM INTO SERVICE
 M.450-1988               | (none)          | (11/88)            | BRINGING A NEW INTERNATIONAL TRANSMISSION SYSTEM INTO SERVICE
-M.460                    | (none)          | (11/88)            | BRINGING INTERNATIONAL GROUP, SUPERGROUP, ETC., LINKS INTO SERVICE
-M.460                    | (none)          | (11/88)            | PUESTA EN SERVICIO DE ENLACES INTERNACIONALES EN GRUPO PRIMARIO, SECUNDARIO, ETC.
 M.460-1988               | (none)          | (11/88)            | BRINGING INTERNATIONAL GROUP, SUPERGROUP, ETC., LINKS INTO SERVICE
-M.470                    | (none)          | (11/88)            | ESTABLECIMIENTO Y AJUSTE DE CANALES ANALÓGICOS PARA SERVICIOS DE TELECOMUNICACIÓN INTERNACIONALES
-M.470                    | (none)          | (11/88)            | SETTING UP AND LINING UP ANALOGUE CHANNELS FOR INTERNATIONAL TELECOMMUNICATION SERVICES
 M.470-1988               | (none)          | (11/88)            | Setting up and Lining up Analogue Channels for International Telecommunication Services - General Maintenance Principles - Maintenance of International Transmission Systems and Telephone Circuits (Study Group IV) 1 pp
-M.475                    | (none)          | (11/88)            | ESTABLECIMIENTO Y AJUSTE DE CANALES MIXTOS ANALÓGICO/DIGITALES PARA SERVICIOS DE TELECOMUNICACIÓN INTERNACIONALES
-M.475                    | (none)          | (11/88)            | SETTING UP AND LINING UP MIXED ANALOGUE/DIGITAL CHANNELS FOR INTERNATIONAL TELECOMMUNICATION SERVICES
 M.475-1988               | (none)          | (11/88)            | Setting up and Lining up Mixed Analogue/Digital Channels for International Telecommunication Services - General Maintenance Principles - Maintenance of International Transmission Systems and Telephone Circuits (Study Group IV) 3 pp
-M.476-5                  | (none)          | (01/95)            | DIRECT-PRINTING TELEGRAPH EQUIPMENT IN THE MARITIME MOBILE SERVICE
 M.476-5-1995             | (none)          | (01/95)            | Direct-Printing Telegraph Equipment in the Maritime Mobile Service
-M.478-5                  | (none)          | (01/95)            | TECHNICAL CHARACTERISTICS OF EQUIPMENT AND PRINCIPLES GOVERNING THE ALLOCATION OF FREQUENCY CHANNELS BETWEEN 25 AND 3000 MHz FOR THE FM LAND MOBILE SERVICE
 M.478-5-1995             | (none)          | (01/95)            | Technical Characteristics of Equipment and Principles Governing the Allocation of Frequency Channels between 25 and 3000 MHz for the FM Land Mobile Service
-M.488-1                  | (none)          | (01/90)            | EQUIVALENT POWERS OF DOUBLE-SIDEBAND AND SINGLE-SIDEBAND RADIOTELEPHONE EMISSIONS IN THE MARITIME MOBILE SERVICE
 M.488-1-1990             | (none)          | (01/90)            | EQUIVALENT POWERS OF DOUBLE-SIDEBAND AND SINGLE-SIDEBAND RADIOTELEPHONE EMISSIONS IN THE MARITIME MOBILE SERVICE
-M.489-2                  | (none)          | (01/95)            | Technical Characteristics of VHF Radiotelephone Equipment Operating in the Maritime Mobile Service in Channels Spaced by 25 kHz
 M.489-2-1995             | (none)          | (01/95)            | Technical Characteristics of VHF Radiotelephone Equipment Operating in the Maritime Mobile Service in Channels Spaced by 25 kHz
 M.490-1989               | (none)          | (01/89)            | Exchange of Information for Planned Outages of Transmission Systems - General Maintenance Principles - Maintenance of International Transmission Systems and Telephone Circuits (Study Group IV) 4 pp
-M.491-1                  | (none)          | (01/86)            | Translation between an Identity Number and Identities for Direct-Printing Telegraphy in the Maritime Mobile Service
 M.491-1-1986             | (none)          | (07/86)            | Translation between an Identity Number and Identities for Direct-Printing Telegraphy in the Maritime Mobile Service - Section 8B - Maritime Mobile Service; Telegraphy and Related Subjects
-M.492-6                  | (none)          | (01/95)            | Operational Procedures for the Use of Direct-Printing Telegraph Equipment in the Maritime Mobile Service
 M.492-6-1995             | (none)          | (01/95)            | Operational Procedures for the Use of Direct-Printing Telegraph Equipment in the Maritime Mobile Service
-M.493-13                 | (none)          | (10/09)            | Digital selective-calling system for use in the maritime mobile service
 M.493-13-2009            | (none)          | (10/09)            | Digital selective-calling system for use in the maritime mobile service
 M.493-15-2019            | (none)          | (01/19)            | Digital selective-calling system for use in the maritime mobile service
-M.495                    | (none)          | (11/88)            | RESTABLECIMIENTO DE LA TRANSMISIÓN Y DIVERSIDAD DE RUTAS DE TRANSMISlÓN: TERMINOLOGÍA Y PRINCIPIOS GENERALES
-M.495                    | (none)          | (11/88)            | TRANSMISSION RESTORATION AND TRANSMISSION ROUTE DIVERSITY : TERMINOLOGY AND GENERAL PRINCIPLES
 M.495-1989               | (none)          | (01/89)            | Transmission Restoration and Transmission Route Diversity: Terminology and General Principles - General Maintenance Principles - Maintenance of International Transmission Systems and Telephone Circuits (Study Group IV) 10 pp
-M.496                    | (none)          | (11/88)            | FUNCTIONAL ORGANIZATION FOR AUTOMATIC TRANSMISSION RESTORATION
-M.496                    | (none)          | (11/88)            | ORGANIZACIÓN FUNCIONAL PARA EL RESTABLECIMIENTO AUTOMÁTICO DE LA TRANSMISIÓN
 M.496-1989               | (none)          | (01/89)            | Functional Organization for Automatic Transmission Restoration - General Maintenance Principles - Maintenance of International Transmission Systems and Telephone Circuits - Study Group IV; 4 pp
-M.496-3                  | (none)          | (01/92)            | LIMITS OF POWER FLUX-DENSITY OF RADIONAVIGATION TRANSMITTERS TO PROTECT SPACE STATION RECEIVERS IN THE FIXED-SATELLITE SERVICE IN THE 14 GHz BAND
 M.496-3-1992             | (none)          | (01/92)            | LIMITS OF POWER FLUX-DENSITY OF RADIONAVIGATION TRANSMITTERS TO PROTECT SPACE STATION RECEIVERS IN THE FIXED-SATELLITE SERVICE IN THE 14 GHz BAND
 M.50-1988                | (none)          | (11/88)            | Use of Telecommunication Terms for Maintenance - General Maintenance Principles - Maintenance of International Transmission Systems and Telephone Circuits (Study Group IV) 1 pp
-M.500                    | (none)          | (11/88)            | MANTENIMIENTO PERIÓDICO DE LAS SECCIONES DE REGULACIÓN DE LÍNEA
-M.500                    | (none)          | (11/88)            | Routine maintenance measurements to be made on regulated line sections
 M.500-1989               | (none)          | (01/89)            | Routine Maintenance Measurements to Be Made on Regulated Line Sections - General Maintenance Principles - Maintenance of International Transmission Systems and Telephone Circuits (Study Group IV) 2 pp
-M.510                    | (none)          | (11/88)            | READJUSTMENT TO THE NOMINAL VALUE OF A REGULATED LINE SECTION (ON A SYMMETRIC PAIR LINE, A COAXIAL LINE OR A RADIO-RELAY LINK)
-M.510                    | (none)          | (11/88)            | REAJUSTE AL VALOR NOMINAL DE UNA SECCIÓN DE REGULACIÓN DE LÍNEA (EN CABLES COAXIALES, EN RADIOENLACES O EN PARES SIMÉTRICOS)
+M.510-1988               | (none)          | (11/88)            | READJUSTMENT TO THE NOMINAL VALUE OF A REGULATED LINE SECTION (ON A SYMMETRIC PAIR LINE, A COAXIAL LINE OR A RADIO-RELAY LINK)
 M.510-1989               | (none)          | (01/89)            | Readjustment to the Nominal Value of a Regulated Line Section (on a Symmetric Pair Line, a Coaxial Line or a Radio-Relay Link) - General Maintenance Principles - Maintenance of International Transmission Systems and Telephone Circuits (Study Group IV) 1 pp
-M.520                    | (none)          | (11/88)            | MANTENIMIENTO PERIÓDICO DE LOS ENLACES INTERNACIONALES EN GRUPO PRIMARIO, SECUNDARIO, ETC.
-M.520                    | (none)          | (11/88)            | ROUTINE MAINTENANCE ON INTERNATIONAL GROUP, SUPERGROUP, ETC., LINKS
+M.520-1988               | (none)          | (11/88)            | ROUTINE MAINTENANCE ON INTERNATIONAL GROUP, SUPERGROUP, ETC., LINKS
 M.520-1989               | (none)          | (01/89)            | Routine Maintenance on International Group, Supergroup, Etc., Links - General Maintenance Principles - Maintenance of International Transmission Systems and Telephone Circuits (Study Group IV) 1 pp
-M.525                    | (none)          | (11/88)            | AUTOMATIC MAINTENANCE PROCEDURES FOR INTERNATIONAL GROUP, SUPERGROUP, ETC., LINKS
-M.525                    | (none)          | (11/88)            | PROCEDIMIENTOS AUTOMÁTICOS DE MANTENIMIENTO PARA LOS ENLACES INTERNACIONALES EN GRUPO PRIMARIO, SECUNDARIO, ETC.
+M.525-1988               | (none)          | (11/88)            | Automatic Maintenance Procedures for International Group, Supergroup, Etc., Links - General Maintenance Principles - Maintenance of International Transmission Systems and Telephone Circuits (Study Group IV) 2 pp
 M.525-1989               | (none)          | (01/89)            | Automatic Maintenance Procedures for International Group, Supergroup, Etc., Links - General Maintenance Principles - Maintenance of International Transmission Systems and Telephone Circuits (Study Group IV) 2 pp
-M.530                    | (none)          | (11/88)            | READJUSTMENT TO THE NOMINAL VALUE OF AN INTERNATIONAL GROUP, SUPERGROUP, ETC., LINK
-M.530                    | (none)          | (11/88)            | REAJUSTE AL VALOR NOMINAL DE UN ENLACE INTERNACIONAL EN GRUPO PRIMARIO, SECUNDARIO, ETC.
+M.530-1988               | (none)          | (11/88)            | READJUSTMENT TO THE NOMINAL VALUE OF AN INTERNATIONAL GROUP, SUPERGROUP, ETC., LINK
 M.530-1989               | (none)          | (01/89)            | Readjustment to the Nominal Value of an International Group, Supergroup, Etc., Link - General Maintenance Principles - Maintenance of International Transmission Systems and Telephone Circuits (Study Group IV) 3 pp
-M.535                    | (none)          | (11/88)            | PROCEDIMIENTOS ESPECIALES DE MANTENIMIENTO DE ENLACES UNIDIRECCIONALES EN GRUPO PRIMARIO Y SECUNDARIO CON DESTINOS MÚLTIPLES (MU)
-M.535                    | (none)          | (11/88)            | SPECIAL MAINTENANCE PROCEDURES FOR MULTIPLE DESTINATION, UNDIRECTIONAL (MU) GROUP AND SUPERGROUP LINKS
+M.535-1988               | (none)          | (11/88)            | SPECIAL MAINTENANCE PROCEDURES FOR MULTIPLE DESTINATION, UNDIRECTIONAL (MU) GROUP AND SUPERGROUP LINKS
 M.535-1989               | (none)          | (01/89)            | Special Maintenance Procedures for Multiple Destination, Undirectional (MU) Group and Supergroup Links - General Maintenance Principles - Maintenance of International Transmission Systems and Telephone Circuits (Study Group IV) 1 pp
-M.539-3                  | (none)          | (01/94)            | Technical and Operational Characteristics of International Radio-Paging Systems
-M.539-3                  | (none)          | (01/94)            | TECHNICAL AND OPERATIONAL CHARACTERISTICS OF INTERNATIONAL RADIO-PAGING SYSTEMS
 M.539-3-1994             | (none)          | (01/94)            | Technical and Operational Characteristics of International Radio-Paging Systems
-M.540                    | (none)          | (11/88)            | MANTENIMIENTO PERIÓDICO DE GENERADORES DE PORTADORAS Y DE SEÑALES PILOTO
-M.540                    | (none)          | (11/88)            | ROUTINE MAINTENANCE OF CARRIER AND PILOT GENERATING EQUIPMENT
+M.540-1988               | (none)          | (11/88)            | ROUTINE MAINTENANCE OF CARRIER AND PILOT GENERATING EQUIPMENT
 M.540-1989               | (none)          | (01/89)            | Routine Maintenance of Carrier and Pilot Generating Equipment - General Maintenance Principles - Maintenance of International Transmission Systems and Telephone Circuits - Study Group IV; 4 pp
-M.540-2                  | (none)          | (01/90)            | OPERATIONAL AND TECHNICAL CHARACTERISTICS FOR AN AUTOMATED DIRECT-PRINTING TELEGRAPH SYSTEM FOR PROMULGATION OF NAVIGATIONAL AND METEOROLOGICAL WARNINGS AND URGENT INFORMATION TO SHIPS
 M.540-2-1990             | (none)          | (01/90)            | OPERATIONAL AND TECHNICAL CHARACTERISTICS FOR AN AUTOMATED DIRECT-PRINTING TELEGRAPH SYSTEM FOR PROMULGATION OF NAVIGATIONAL AND METEOROLOGICAL WARNINGS AND URGENT INFORMATION TO SHIPS
-M.541-10                 | (none)          | (10/15)            | Operational Procedures for the Use of Digital Selective-Calling Equipment in the Maritime Mobile Service
 M.541-10-2015            | (none)          | (10/15)            | Operational procedures for the use of digital selective-calling equipment in the maritime mobile service
-M.541-9                  | (none)          | (01/04)            | Operational Procedures for the Use of Digital Selective-Calling Equipment in the Maritime Mobile Service
 M.541-9-2004             | (none)          | (01/04)            | Operational Procedures for the Use of Digital Selective-Calling Equipment in the Maritime Mobile Service
-M.542-1                  | (none)          | (01/82)            | ON-BOARD COMMUNICATIONS BY MEANS OF PORTABLE RADIOTELEPHONE EQUIPMENT
 M.542-1-1982             | (none)          | (01/82)            | ON-BOARD COMMUNICATIONS BY MEANS OF PORTABLE RADIOTELEPHONE EQUIPMENT
-M.546-2                  | (none)          | (01/90)            | HYPOTHETICAL TELEPHONE REFERENCE CIRCUIT IN THE AERONAUTICAL, LAND AND MARITIME MOBILE-SATELLITE SERVICES
 M.546-2-1990             | (none)          | (01/90)            | HYPOTHETICAL TELEPHONE REFERENCE CIRCUIT IN THE AERONAUTICAL, LAND AND MARITIME MOBILE-SATELLITE SERVICES
-M.549-1                  | (none)          | (01/82)            | SIDE TONE REFERENCE EQUIVALENT OF HANDSET USED ON BOARD A SHIP IN THE MARITIME MOBILE-SATELLITE SERVICE AND IN AUTOMATED VHF/UHF MARITIME MOBILE RADIOTELEPHONE SYSTEMS
-M.550-1                  | (none)          | (01/86)            | USE OF ECHO SUPPRESSORS IN THE MARITIME MOBILE-SATELLITE SERVICE
+M.549-1-1982             | (none)          | (01/82)            | SIDE TONE REFERENCE EQUIVALENT OF HANDSET USED ON BOARD A SHIP IN THE MARITIME MOBILE-SATELLITE SERVICE AND IN AUTOMATED VHF/UHF MARITIME MOBILE RADIOTELEPHONE SYSTEMS
 M.550-1-1986             | (none)          | (01/86)            | USE OF ECHO SUPPRESSORS IN THE MARITIME MOBILE-SATELLITE SERVICE
 M.550-1989               | (none)          | (01/89)            | Performance Limits for Bringing into Service and Maintenance of Digital Paths, Sections, and Line Sections - General Maintenance Principles - Maintenance of International Transmission Systems and Telephone Circuits - Study Group IV; 15 pp
 M.555-1989               | (none)          | (01/89)            | Bringing International Digital Blocks, Paths and Sections into Service - General Maintenance Principles - Maintenance of International Transmission Systems and Telephone Circuits (Study Group IV) 5 pp
-M.556                    | (none)          | (11/88)            | ESTABLECIMIENTO Y PRUEBA INICIAL DE LOS CANALES DIGITALES DE UN TRAYECTO O BLOQUE DIGITAL INTERNACIONAL
-M.556                    | (none)          | (11/88)            | SETTING UP AND INITIAL TESTING OF DIGITAL CHANNELS ON AN INTERNATIONAL DIGITAL PATH OR BLOCK
 M.556-1989               | (none)          | (01/89)            | Setting up and Initial Testing of Digital Channels on an International Digital Path or Block - General Maintenance Principles - Maintenance of International Transmission Systems and Telephone Circuits (Study Group IV) 1 pp
-M.560                    | (none)          | (11/88)            | CIRCUITOS TELEFÓNICOS INTERNACIONALES – PRINCIPIOS, DEFINICIONES Y NIVELES RELATIVOS DE TRANSMISIÓN
-M.560                    | (none)          | (11/88)            | INTERNATIONAL TELEPHONE CIRCUITS - PRINCIPLES, DEFINITIONS AND RELATIVE TRANSMISSION LEVELS
 M.560-1989               | (none)          | (01/89)            | International Telephone Circuits - Principles, Definitions and Relative Transmission Levels - General Maintenance Principles - Maintenance of International Transmission Systems and Telephone Circuits (Study Group IV) 4 pp
 M.562-1988               | (none)          | (11/88)            | TYPES OF CIRCUIT AND CIRCUIT SECTION
 M.562-1989               | (none)          | (01/89)            | Types of Circuit and Circuit Section - General Maintenance Principles - Maintenance of International Transmission Systems and Telephone Circuits (Study Group IV) 5 pp
-M.565                    | (none)          | (11/88)            | ACCESS POINTS FOR INTERNATIONAL TELEPHONE CIRCUITS
-M.565                    | (none)          | (11/88)            | PUNTOS DE ACCESO PARA CIRCUITOS TELEFÓNICOS INTERNACIONALES
 M.565-1989               | (none)          | (01/89)            | Access Points for International Telephone Circuits - General Maintenance Principles - Maintenance of International Transmission Systems and Telephone Circuits (Study Group IV) 4 pp
-M.570                    | (none)          | (11/88)            | CONSTITUCIÓN DEL CIRCUITO; INTERCAMBIO PRELIMINAR DE INFORMACIONES
-M.570                    | (none)          | (11/88)            | CONSTITUTION OF THE CIRCUIT; PRELIMINARY EXCHANGE OF INFORMATION
 M.570-1989               | (none)          | (01/89)            | Constitution of the Circuit: Preliminary Exchange of Information - General Maintenance Principles - Maintenance of International Transmission Systems and Telephone Circuits (Study Group IV) 5 pp
-M.580                    | (none)          | (11/88)            | SETTING UP AND LINING UP AN INTERNATIONAL CIRCUIT FOR PUBLIC TELEPHONY
 M.580-1988               | (none)          | (11/88)            | SETTING UP AND LINING UP AN INTERNATIONAL CIRCUIT FOR PUBLIC TELEPHONY
-M.584-2                  | (none)          | (01/97)            | CODES AND FORMATS FOR RADIO PAGING
 M.584-2-1997             | (none)          | (01/97)            | Codes and Formats for Radio Paging
-M.585                    | (none)          | (11/88)            | BRINGING AN INTERNATIONAL DIGITAL CIRCUIT INTO SERVICE
 M.585-1988               | (none)          | (11/88)            | BRINGING AN INTERNATIONAL DIGITAL CIRCUIT INTO SERVICE
-M.585-5                  | (none)          | (10/09)            | Assignment and use of maritime mobile service identities
 M.585-5-2009             | (none)          | (10/09)            | Assignment and use of maritime mobile service identities
 M.585-8-2019             | (none)          | (10/19)            | Assignment and use of identities in the maritime mobile service
-M.586-1                  | (none)          | (01/86)            | AUTOMATED VHF/UHF MARITIME MOBILE TELEPHONE SYSTEM
 M.586-1-1986             | (none)          | (01/86)            | Automated VHF/UHF Maritime Mobile Telephone System - - Section 8C - Maritime Mobile Service; Telephony and Related Subjects
-M.587-1                  | (none)          | (01/86)            | COAST STATION IDENTITIES AND INITIATION OF LOCATION REGISTRATION IN AN AUTOMATED VHF/UHF MARITIME MOBILE TELEPHONE SYSTEM
 M.587-1-1986             | (none)          | (01/86)            | Coast Station Identities and Initiation of Location Registration in an Automated VHF/UHF Maritime Mobile Telephone System - Section 8C - Maritime Mobile Service; Telephony and Related Subjects
-M.589-3                  | (none)          | (01/01)            | Technical characteristics of methods of data transmission and interference protection for radionavigation services in the frequency bands between 70 and 130 kHz
 M.589-3-2001             | (none)          | (01/01)            | Technical characteristics of methods of data transmission and interference protection for radionavigation services in the frequency bands between 70 and 130 kHz
-M.590                    | (none)          | (11/88)            | SETTING UP AND LINING UP A CIRCUIT FITTED WITH A COMPANDOR
 M.590-1988               | (none)          | (11/88)            | SETTING UP AND LINING UP A CIRCUIT FITTED WITH A COMPANDOR
-M.60                     | (none)          | (03/93)            | MAINTENANCE TERMINOLOGY AND DEFINITIONS
 M.60-1993                | (none)          | (03/93)            | MAINTENANCE TERMINOLOGY AND DEFINITIONS
-M.600                    | (none)          | (11/88)            | ORGANIZATION OF ROUTINE MAINTENANCE MEASUREMENTS ON CIRCUITS
 M.600-1988               | (none)          | (11/88)            | ORGANIZATION OF ROUTINE MAINTENANCE MEASUREMENTS ON CIRCUITS
-M.605                    | (none)          | (11/88)            | ROUTINE MAINTENANCE SCHEDULE FOR INTERNATIONAL PUBLIC TELEPHONY CIRCUITS
 M.605-1988               | (none)          | (11/88)            | ROUTINE MAINTENANCE SCHEDULE FOR INTERNATIONAL PUBLIC TELEPHONY CIRCUITS
-M.610                    | (none)          | (11/88)            | PERIODICITY OF MAINTENANCE MEASUREMENTS ON CIRCUITS
 M.610-1988               | (none)          | (11/88)            | PERIODICITY OF MAINTENANCE MEASUREMENTS ON CIRCUITS
-M.620                    | (none)          | (11/88)            | METHODS FOR CARRYING OUT ROUTINE MEASUREMENTS ON CIRCUITS
 M.620-1988               | (none)          | (11/88)            | METHODS FOR CARRYING OUT ROUTINE MEASUREMENTS ON CIRCUITS
-M.622                    | (none)          | (01/86)            | TECHNICAL AND OPERATIONAL CHARACTERISTICS OF ANALOGUE CELLULAR SYSTEMS FOR PUBLIC LAND MOBILE TELEPHONE USE
 M.622-1986               | (none)          | (01/86)            | TECHNICAL AND OPERATIONAL CHARACTERISTICS OF ANALOGUE CELLULAR SYSTEMS FOR PUBLIC LAND MOBILE TELEPHONE USE
-M.623                    | (none)          | (01/86)            | DATA TRANSMISSION BIT RATES AND MODULATION TECHNIQUES IN THE LAND MOBILE SERVICE
 M.623-1986               | (none)          | (01/86)            | DATA TRANSMISSION BIT RATES AND MODULATION TECHNIQUES IN THE LAND MOBILE SERVICE
-M.624                    | (none)          | (01/86)            | PUBLIC LAND MOBILE COMMUNICATION SYSTEMS LOCATION REGISTRATION
 M.624-1986               | (none)          | (01/86)            | Public Land Mobile Communication Systems Location Registration - Section 8A - Land Mobile Service and Related Subjects
-M.625-3                  | (none)          | (01/95)            | DIRECT-PRINTING TELEGRAPH EQUIPMENT EMPLOYING AUTOMATIC IDENTIFICATION IN THE MARITIME MOBILE SERVICE
 M.625-3-1995             | (none)          | (01/95)            | Direct-Printing Telegraph Equipment Employing Automatic Identification in the Maritime Mobile Service
 M.625-4-2012             | (none)          | (03/12)            | Direct-printing telegraph equipment employing automatic identification in the maritime mobile service
-M.626                    | (none)          | (01/86)            | EVALUATION OF THE QUALITY OF DIGITAL CHANNELS IN THE MARITIME MOBILE SERVICE
 M.626-1986               | (none)          | (01/86)            | Evaluation of the Quality of Digital Channels in the Maritime Mobile Service - Section 8B - Maritime Mobile Service; Telegraphy and Related Subjects
-M.627-1                  | (none)          | (01/95)            | TECHNICAL CHARACTERISTICS FOR HF MARITIME RADIO EQUIPMENT USING NARROW-BAND PHASE-SHIFT KEYING (NBPSK) TELEGRAPHY
 M.627-1-1995             | (none)          | (01/95)            | Technical Characteristics for HF Maritime Radio Equipment Using Narrow-Band Phase-Shift Keying (NBPSK) Telegraphy
-M.628-4                  | (none)          | (01/06)            | Technical characteristics for search and rescue radar transponders
 M.628-4-2006             | (none)          | (01/06)            | Technical Characteristics for Search and Rescue Radar Transponders
 M.628-5-2012             | (none)          | (03/12)            | Technical characteristics for search and rescue radar transponders
-M.629                    | (none)          | (01/86)            | USE FOR THE RADIONAVIGATION SERVICE OF THE FREQUENCY BANDS 2900-3100 MHz, 5470-5650 MHz, 9200-9300 MHz, 9300-9500 MHz AND 9500-9800 MHz
 M.629-1-2013             | (none)          | (02/13)            | Use for the radionavigation service of the frequency bands 2 900-3 100 MHz, 5 470-5 650 MHz, 9 200-9 300 MHz, 9 300-9 500 MHz and 9 500-9 800 MHz
 M.629-1986               | (none)          | (01/86)            | Use for the Radionavigation Service of the Frequency Bands 2900-3100 MHz, 5470-5650 MHz, 9200-9300 MHz, 9300-9500 MHz and 9500-9800 MHz - Section 8D - Radiodetermination, Global Maritime Distress and Safety System and Related Subjects
-M.630                    | (none)          | (01/86)            | MAIN CHARACTERISTICS OF TWO FREQUENCY SHIPBORNE INTERROGATOR TRANSPONDERS (SIT)
-M.630                    | (none)          | (11/88)            | MAINTENANCE OF CIRCUITS USING CONTROL CHART METHODS
 M.630-1986               | (none)          | (01/86)            | MAIN CHARACTERISTICS OF TWO FREQUENCY SHIPBORNE INTERROGATOR TRANSPONDERS (SIT)
 M.630-1988               | (none)          | (11/88)            | MAINTENANCE OF CIRCUITS USING CONTROL CHART METHODS
-M.631-1                  | (none)          | (01/92)            | USE OF HYPERBOLIC MARITIME RADIONAVIGATION SYSTEMS IN THE BAND 283.5-315 kHz
 M.631-1-1992             | (none)          | (01/92)            | USE OF HYPERBOLIC MARITIME RADIONAVIGATION SYSTEMS IN THE BAND 283.5-315 kHz
-M.632-3                  | (none)          | (01/97)            | TRANSMISSION CHARACTERISTICS OF A SATELLITE EMERGENCY POSITION-INDICATING RADIO BEACON (SATELLITE EPIRB) SYSTEM OPERATING THROUGH GEOSTATIONARY SATELLITES IN THE 1.6 GHz BAND
 M.632-3-1997             | (none)          | (01/97)            | TRANSMISSION CHARACTERISTICS OF A SATELLITE EMERGENCY POSITION-INDICATING RADIO BEACON (SATELLITE EPIRB) SYSTEM OPERATING THROUGH GEOSTATIONARY SATELLITES IN THE 1.6 GHz BAND
-M.633-3                  | (none)          | (01/04)            | Transmission characteristics of a satellite emergency position-indicating radio beacon (satellite EPIRB) system operating through a satellite system in the 406 MHz band
 M.633-3-2004             | (none)          | (01/04)            | Transmission characteristics of a satellite emergency position-indicating radio beacon (satellite EPIRB) system operating through a satellite system in the 406 MHz band
-M.633-4                  | (none)          | (12/10)            | Transmission characteristics of a satellite emergency position-indicating radio beacon (satellite EPIRB) system operating through a satellite system in the 406 MHz band
 M.633-4-2010             | (none)          | (12/10)            | Transmission characteristics of a satellite emergency position-indicating radio beacon (satellite EPIRB) system operating through a satellite system in the 406 MHz band
-M.650                    | (none)          | (11/88)            | ROUTINE LINE MEASUREMENTS TO BE MADE ON THE LINE REPEATERS OF AUDIO-FREQUENCY SECTIONS OR CIRCUITS
 M.650-1988               | (none)          | (11/88)            | ROUTINE LINE MEASUREMENTS TO BE MADE ON THE LINE REPEATERS OF AUDIO-FREQUENCY SECTIONS OR CIRCUITS
-M.660                    | (none)          | (11/88)            | Periodical in-station tests of echo suppressors complying with Recommendations G.161 and G.164
-M.660                    | (none)          | (11/88)            | PERIODICAL IN-STATION TESTS OF ECHO SUPPRESSORS COMPLYING WITH RECOMMENDATIONS G.161 AND G.164
 M.660-1988               | (none)          | (11/88)            | Periodical in-station tests of echo suppressors complying with Recommendations G.161 and G.164
-M.665                    | (none)          | (11/88)            | Testing of echo cancellers
-M.665                    | (none)          | (11/88)            | TESTING OF ECHO CANCELLERS
 M.665-1988               | (none)          | (11/88)            | TESTING OF ECHO CANCELLERS
-M.670                    | (none)          | (11/88)            | MAINTENANCE OF A CIRCUIT FITTED WITH A COMPANDOR
 M.670-1988               | (none)          | (11/88)            | MAINTENANCE OF A CIRCUIT FITTED WITH A COMPANDOR
-M.675                    | (none)          | (11/88)            | LINING UP AND MAINTAINING INTERNATIONAL DEMAND ASSIGNMENT CIRCUITS (SPADE)
 M.675-1988               | (none)          | (11/88)            | LINING UP AND MAINTAINING INTERNATIONAL DEMAND ASSIGNMENT CIRCUITS (SPADE)
-M.687-2                  | (none)          | (01/97)            | INTERNATIONAL MOBILE TELECOMMUNICATIONS-2000 (IMT-2000)
 M.687-2-1997             | (none)          | (01/97)            | INTERNATIONAL MOBILE TELECOMMUNICATIONS-2000 (IMT-2000)
-M.688                    | (none)          | (01/90)            | TECHNICAL CHARACTERISTICS FOR A HIGH FREQUENCY DIRECT-PRINTING TELEGRAPH SYSTEM FOR PROMULGATION OF HIGH SEAS AND NAVTEX-TYPE MARITIME SAFETY INFORMATION
 M.688-1990               | (none)          | (01/90)            | TECHNICAL CHARACTERISTICS FOR A HIGH FREQUENCY DIRECT-PRINTING TELEGRAPH SYSTEM FOR PROMULGATION OF HIGH SEAS AND NAVTEX-TYPE MARITIME SAFETY INFORMATION
-M.689-2                  | (none)          | (01/94)            | INTERNATIONAL MARITIME VHF RADIOTELEPHONE SYSTEM WITH AUTOMATIC FACILITIES BASED ON DSC SIGNALLING FORMAT
 M.689-2-1994             | (none)          | (01/94)            | International Maritime VHF Radiotelephone Systems with Automatic Facilities Based on DSC Signalling Format
 M.689-3-2012             | (none)          | (03/12)            | International maritime VHF radiotelephone system with automatic facilities based on DSC signalling format
-M.690-1                  | (none)          | (01/95)            | TECHNICAL CHARACTERISTICS OF EMERGENCY POSITION-INDICATING RADIO BEACONS (EPIRBs) OPERATING ON THE CARRIER FREQUENCIES OF 121.5 MHz AND 243 MHz
 M.690-1-1995             | (none)          | (01/95)            | Technical Characteristics of Emergency Position-Indicating Radio Beacons (EPIRBs) Operating on the Carrier Frequencies of 121.5 MHz and 243 MHz
 M.690-2-2012             | (none)          | (03/12)            | Technical characteristics of emergency position-indicating radio beacons operating on the carrier frequencies of 121.5 MHz and 243 MHz
-M.690-3                  | (none)          | (03/15)            | Caractéristiques techniques des radiobalises de localisation des sinistres fonctionnant sur les fréquences porteuses 121,5 MHz et 243 MHz
 M.690-3-2015             | (none)          | (03/15)            | Technical characteristics of emergency position-indicating radio beacons operating on the carrier frequencies of 121.5 MHz and 243 MHz
-M.691-1                  | (none)          | (01/92)            | TECHNICAL CHARACTERISTICS AND COMPATIBILITY CRITERIA OF MARITIME RADIOLOCATION SYSTEMS OPERATING IN THE MEDIUM FREQUENCY BAND AND USING SPREAD-SPECTRUM TECHNIQUES
 M.691-1-1992             | (none)          | (01/92)            | TECHNICAL CHARACTERISTICS AND COMPATIBILITY CRITERIA OF MARITIME RADIOLOCATION SYSTEMS OPERATING IN THE MEDIUM FREQUENCY BAND AND USING SPREAD-SPECTRUM TECHNIQUES
-M.692                    | (none)          | (01/90)            | NARROW-BAND DIRECT-PRINTING TELEGRAPH EQUIPMENT USING A SINGLE-FREQUENCY CHANNEL
 M.692-1990               | (none)          | (01/90)            | NARROW-BAND DIRECT-PRINTING TELEGRAPH EQUIPMENT USING A SINGLE-FREQUENCY CHANNEL
-M.693                    | (none)          | (01/90)            | TECHNICAL CHARACTERISTICS OF VHF EMERGENCY POSITION-INDICATING RADIO BEACONS USING DIGITAL SELECTIVE CALLING (DSC VHF EPIRB)
 M.693-1-2012             | (none)          | (03/12)            | Technical characteristics of VHF emergency position-indicating radio beacons using digital selective calling
 M.693-1990               | (none)          | (01/90)            | TECHNICAL CHARACTERISTICS OF VHF EMERGENCY POSITION-INDICATING RADIO BEACONS USING DIGITAL SELECTIVE CALLING (DSC VHF EPIRB)
 M.694-1                  | (none)          | (01/05)            | Reference radiation pattern for ship earth station antennas
 M.694-1-2005             | (none)          | (01/05)            | Reference radiation pattern for ship earth station antennas
-M.70                     | (none)          | (11/88)            | GUIDING PRINCIPLES ON THE GENERAL MAINTENANCE ORGANIZATION FOR TELEPHONE - TYPE INTERNATIONAL CIRCUITS
 M.70-1988                | (none)          | (11/88)            | GUIDING PRINCIPLES ON THE GENERAL MAINTENANCE ORGANIZATION FOR TELEPHONE - TYPE INTERNATIONAL CIRCUITS
-M.710                    | (none)          | (11/88)            | PERFORMANCE MONITORING ON INTERNATIONAL TRANSMISSION SYSTEMS AND EQUIPMENT
 M.710-1988               | (none)          | (11/88)            | PERFORMANCE MONITORING ON INTERNATIONAL TRANSMISSION SYSTEMS AND EQUIPMENT
 M.711-1989               | (none)          | (01/89)            | Escalation Procedure - General Maintenance Principles - Maintenance of International Transmission Systems and Telephone Circuits (Study Group IV) 1 pp
-M.715                    | (none)          | (11/88)            | FAULT REPORT POINT (CIRCUIT)
 M.715-1988               | (none)          | (11/88)            | FAULT REPORT POINT (CIRCUIT)
-M.716                    | (none)          | (11/88)            | FAULT REPORT POINT (NETWORK)
 M.716-1988               | (none)          | (11/88)            | FAULT REPORT POINT (NETWORK)
-M.717                    | (none)          | (11/88)            | TESTING POINT (TRANSMISSION)
 M.717-1988               | (none)          | (11/88)            | TESTING POINT (TRANSMISSION)
-M.718                    | (none)          | (11/88)            | TESTING POINT (LINE SIGNALLING)
 M.718-1988               | (none)          | (11/88)            | TESTING POINT (LINE SIGNALLING)
-M.719                    | (none)          | (11/88)            | TESTING POINT (SWITCHING AND INTERREGISTER SIGNALLING)
 M.719-1988               | (none)          | (11/88)            | TESTING POINT (SWITCHING AND INTERREGISTER SIGNALLING)
-M.720                    | (none)          | (11/88)            | NETWORK ANALYSIS POINT
 M.720-1988               | (none)          | (11/88)            | NETWORK ANALYSIS POINT
-M.721                    | (none)          | (11/88)            | SYSTEM AVAILABILITY INFORMATION POINT
 M.721-1988               | (none)          | (11/88)            | SYSTEM AVAILABILITY INFORMATION POINT
-M.722                    | (none)          | (11/88)            | NETWORK MANAGEMENT POINT
 M.722-1988               | (none)          | (11/88)            | NETWORK MANAGEMENT POINT
-M.723                    | (none)          | (11/88)            | CIRCUIT CONTROL STATION
 M.723-1988               | (none)          | (11/88)            | CIRCUIT CONTROL STATION
-M.724                    | (none)          | (11/88)            | CIRCUIT SUB-CONTROL STATION
 M.724-1988               | (none)          | (11/88)            | CIRCUIT SUB-CONTROL STATION
-M.725                    | (none)          | (11/88)            | RESTORATION CONTROL POINT
 M.725-1988               | (none)          | (11/88)            | RESTORATION CONTROL POINT
-M.726                    | (none)          | (11/88)            | MAINTENANCE ORGANIZATION FOR THE WHOLLY DIGITAL INTERNATIONAL AUTOMATIC AND SEMI-AUTOMATIC TELEPHONE SERVICE
 M.726-1988               | (none)          | (11/88)            | MAINTENANCE ORGANIZATION FOR THE WHOLLY DIGITAL INTERNATIONAL AUTOMATIC AND SEMI-AUTOMATIC TELEPHONE SERVICE
 M.727-2011               | (none)          | (03/11)            | Planned outage notification point
-M.729                    | (none)          | (11/88)            | ORGANIZATION OF THE MAINTENANCE OF INTERNATIONAL PUBLIC SWITCHED TELEPHONE CIRCUITS USED FOR DATA TRANSMISSION
 M.729-1988               | (none)          | (11/88)            | ORGANIZATION OF THE MAINTENANCE OF INTERNATIONAL PUBLIC SWITCHED TELEPHONE CIRCUITS USED FOR DATA TRANSMISSION
-M.730                    | (none)          | (11/88)            | MAINTENANCE METHODS
 M.730-1988               | (none)          | (11/88)            | MAINTENANCE METHODS
-M.731                    | (none)          | (11/88)            | Subjective testing
-M.731                    | (none)          | (11/88)            | SUBJECTIVE TESTING
 M.731-1988               | (none)          | (11/88)            | SUBJECTIVE TESTING
-M.732                    | (none)          | (11/88)            | Signalling and switching routine maintenance tests and measurements
 M.732-1988               | (none)          | (11/88)            | Signalling and switching routine maintenance tests and measurements
-M.733                    | (none)          | (11/88)            | Transmission routine maintenance measurements on automatic and semi-automatic telephone circuits
 M.733-1988               | (none)          | (11/88)            | Transmission routine maintenance measurements on automatic and semi-automatic telephone circuits
-M.734                    | (none)          | (11/88)            | Exchange of information on incoming test facilities at international switching centres
 M.734-1988               | (none)          | (11/88)            | Exchange of information on incoming test facilities at international switching centres
-M.75                     | (none)          | (10/92)            | TECHNICAL SERVICE
 M.75-1992                | (none)          | (10/92)            | TECHNICAL SERVICE
 M.750-1989               | (none)          | (01/89)            | Inter-Administration Agreements on Common Channel Signalling System No. 6 - General Maintenance Principles - Maintenance of Transmission Systems and Telephone Circuits (Study Group IV) 4 pp
-M.760                    | (none)          | (11/88)            | Transfer link for common channel Signalling System No. 6
 M.760-1988               | (none)          | (11/88)            | Transfer link for common channel Signalling System No. 6
 M.761-1989               | (none)          | (01/89)            | Setting up and Lining up a Transfer Link for Common Channel Signalling System No. 6 (Analogue Version) - General Maintenance Principles - Maintenance of International Transmission Systems and Telephone Circuits (Study Group IV) 4 pp
-M.762                    | (none)          | (11/88)            | Maintenance of common channel Signalling System No. 6
 M.762-1988               | (none)          | (11/88)            | Maintenance of common channel Signalling System No. 6
 M.770-1989               | (none)          | (01/89)            | Inter-Administration Agreements on Common Channel Signalling System No. 7 - General Maintenance Principles - Maintenance of International Transmission Systems and Telephone Circuits (Study Group IV) 4 pp
 M.782-1989               | (none)          | (01/89)            | Maintenance of Common Signalling System No. 7 - General Maintenance Principles - Maintenance of International Transmission Systems and Telephone Circuits - Study Group IV; 6 pp; Cancelled
-M.80                     | (none)          | (11/88)            | CONTROL STATIONS
 M.80-1988                | (none)          | (11/88)            | CONTROL STATIONS
-M.800                    | (none)          | (11/88)            | Use of circuits for voice-frequency telegraphy
 M.800-1988               | (none)          | (11/88)            | Use of circuits for voice-frequency telegraphy
-M.810                    | (none)          | (11/88)            | Setting up and lining up an international voice-frequency telegraph link for public telegraph circuits (for 50, 100 and 200 baud modulation rates)
-M.810                    | (none)          | (11/88)            | SETTING UP AND LINING UP AN INTERNATIONAL VOICE-FREQUENCY TELEGRAPH LINK FOR PUBLIC TELEGRAPH CIRCUITS (FOR 50, 100 AND 200 BAUD MODULATION RATES)
 M.810-1988               | (none)          | (11/88)            | Setting up and lining up an international voice-frequency telegraph link for public telegraph circuits (for 50, 100 and 200 baud modulation rates)
-M.816-1                  | (none)          | (01/97)            | Framework for Services Supported on International Mobile Telecommunications-2000 (IMT-2000)
 M.816-1-1997             | (none)          | (01/97)            | Framework for Services Supported on International Mobile Telecommunications-2000 (IMT-2000)
-M.817                    | (none)          | (01/92)            | International Mobile Telecommunications-2000 (IMT-2000)
 M.817-1992               | (none)          | (01/92)            | International Mobile Telecommunications-2000 (IMT-2000)
-M.818-2                  | (none)          | (01/03)            | Satellite operation within International Mobile Telecommunications-2000 (IMT-2000)
 M.818-2-2003             | (none)          | (01/03)            | Satellite operation within International Mobile Telecommunications-2000 (IMT-2000)
-M.819-2                  | (none)          | (01/97)            | INTERNATIONAL MOBILE TELECOMMUNICATIONS-2000 (IMT-2000) FOR DEVELOPING COUNTRIES
 M.819-2-1997             | (none)          | (01/97)            | International Mobile Telecommunications-2000 (IMT-2000) for Developing Countries
-M.820                    | (none)          | (01/92)            | USE OF 9-DIGIT IDENTITIES FOR NARROW-BAND DIRECT-PRINTING TELEGRAPHY IN THE MARITIME MOBILE SERVICE
-M.820                    | (none)          | (11/88)            | Periodicity of routine tests on international voice-frequency telegraph links
 M.820-1-2012             | (none)          | (03/12)            | Use of 9-digit identities for narrow-band direct-printing telegraphy in the maritime mobile service
 M.820-1988               | (none)          | (11/88)            | Periodicity of routine tests on international voice-frequency telegraph links
 M.820-1992               | (none)          | (01/92)            | Use of 9-Digit Identities for Narrow-Band Direct-Printing Telegraphy in the Maritime Mobile Service
-M.821-1                  | (none)          | (01/97)            | OPTIONAL EXPANSION OF THE DIGITAL SELECTIVE-CALLING SYSTEM FOR USE IN THE MARITIME MOBILE SERVICE
 M.821-1-1997             | (none)          | (01/97)            | Optional Expansion of the Digital Selective-Calling System for Use in the Maritime Mobile Service
-M.822-1                  | (none)          | (01/94)            | Calling-Channel Loading for Digital Selective-Calling (DSC) for the Maritime Mobile Service
 M.822-1-1994             | (none)          | (01/94)            | Calling-Channel Loading for Digital Selective-Calling (DSC) for the Maritime Mobile Service
-M.823-3                  | (none)          | (01/06)            | Technical Characteristics of Differential Transmissions for Global Navigation Satellite Systems from Maritime Radio Beacons in the Frequency Band 283.5-315 kHz in Region 1 and 285-325 kHz in Regions 2 and 3
 M.823-3-2006             | (none)          | (01/06)            | Technical Characteristics of Differential Transmissions for Global Navigation Satellite Systems from Maritime Radio Beacons in the Frequency Band 283.5-315 kHz in Region 1 and 285-325 kHz in Regions 2 and 3
-M.824-3                  | (none)          | (01/07)            | Technical parameters of radar beacons (racons)
 M.824-3-2007             | (none)          | (01/07)            | Technical Parameters of Radar Beacons (Racons)
 M.824-4-2013             | (none)          | (02/13)            | Technical parameters of radar beacons
-M.825-3                  | (none)          | (01/98)            | CHARACTERISTICS OF A TRANSPONDER SYSTEM USING DIGITAL, SELECTIVE CALLING TECHNIQUES FOR USE WITH VESSEL TRAFFIC SERVICES AND SHIP-TO-SHIP IDENTIFICATION
 M.825-3-1998             | (none)          | (01/98)            | Characteristics of a Transponder System Using Digital Selective Calling Techniques for Use with Vessel Traffic Services and Ship-to-ship Identification
-M.826                    | (none)          | (01/92)            | TRANSMISSION OF INFORMATION FOR UPDATING ELECTRONIC CHART DISPLAY AND INFORMATION SYSTEMS (ECDIS)
 M.826-1992               | (none)          | (01/92)            | TRANSMISSION OF INFORMATION FOR UPDATING ELECTRONIC CHART DISPLAY AND INFORMATION SYSTEMS (ECDIS)
-M.827                    | (none)          | (01/92)            | Hypothetical reference digital path for systems in the mobile-satellite service using feeder links
 M.827-1992               | (none)          | (01/92)            | Hypothetical Reference Digital Path for Systems in the Mobile-Satellite Service Using Feeder Links
-M.828-2                  | (none)          | (01/06)            | Definition of availability for radiocommunication circuits in the mobile-satellite service
 M.828-2-2006             | (none)          | (01/06)            | Definition of availability for radiocommunication circuits in the mobile-satellite service
-M.829-1                  | (none)          | (01/94)            | Frequency Sharing in the 1660-1660.5 MHz Band between the Mobile-Satellite Service and the Radioastronomy Service
 M.829-1-1994             | (none)          | (01/94)            | Frequency Sharing in the 1660-1660.5 MHz Band between the Mobile-Satellite Service and the Radioastronomy Service
-M.830                    | (none)          | (11/88)            | Routine measurements to be made on international voice-frequency telegraph links
-M.830-1                  | (none)          | (01/05)            | Operational procedures for mobile-satellite networks or systems in the bands 1 530-1 544 MHz and 1 626.5-1 645.5 MHz which are used for distress and safety purposes as specified for the GMDSS
 M.830-1-2005             | (none)          | (01/05)            | Operational procedures for mobile-satellite networks or systems in the bands 1 530-1 544 MHz and 1 626.5-1 645.5 MHz which are used for distress and safety purposes as specified for the GMDSS
 M.830-1988               | (none)          | (11/88)            | Routine measurements to be made on international voice-frequency telegraph links
-M.831                    | (none)          | (01/92)            | Frequency Sharing between Services in the Band 4-30 MHz
 M.831-1992               | (none)          | (01/92)            | Frequency Sharing between Services in the Band 4-30 MHz
-M.85                     | (none)          | (10/92)            | FAULT REPORT POINTS
 M.85-1992                | (none)          | (10/92)            | FAULT REPORT POINTS
-M.850                    | (none)          | (11/88)            | International time division multiplex (TDM) telegraph systems
 M.850-1988               | (none)          | (11/88)            | INTERNATIONAL TIME DIVISION MULTIPLEX (TDM) TELEGRAPH SYSTEMS
-M.880                    | (none)          | (11/88)            | International phototelegraph transmission
 M.880-1988               | (none)          | (11/88)            | International phototelegraph transmission
-M.90                     | (none)          | (11/88)            | SUB-CONTROL STATIONS
 M.90-1988                | (none)          | (11/88)            | SUB-CONTROL STATIONS
-M.900                    | (none)          | (11/88)            | Use of leased group and supergroup links for wide-spectrum signal transmission (data, facsimile, etc.)
 M.900-1988               | (none)          | (11/88)            | Use of leased group and supergroup links for wide-spectrum signal transmission (data, facsimile, etc.)
-M.910                    | (none)          | (11/88)            | Setting up and lining up an international leased group link for wide-spectrum signal transmission
 M.910-1988               | (none)          | (11/88)            | Setting up and lining up an international leased group link for wide-spectrum signal transmission
 M.93-1989                | (none)          | (01/89)            | Exchange of Contact Point Information for the Maintenance of International Services and the International Network - General Maintenance Principles - Maintenance of International Transmission Systems and Telephone Circuits (Study Group IV) 9 pp
 M.SERIES PART 1-1997     | (none)          | (01/97)            | Land Modile Service Excluding Future Public Land Mobile Telecommunication Systems (FPLMTS)
@@ -6426,101 +6207,55 @@ M.SERIES PT 1 SUPP1-1997 | (none)          | (11/97)            | Land Modile Se
 M.SERIES PT 1 SUPP2-1999 | (none)          | (01/99)            | Land Mobile Service Excluding IMT-2000
 M.SERIES PT 1-1995       | (none)          | (01/95)            | 1995 M Series Fascicle - Part 1 Land Mobile Service Excluding Future Public Land Mobile Telecommunication Systems (FPLMTS)
 M.SERIES PTS 1-5-1997    | (none)          | (01/97)            | 1997 M Series Fascicle - Parts 1,2,3,4,5 Mobile and Radiodetermination Services
-N.1                      | (none)          | (03/93)            | DEFINITIONS FOR APPLICATION TO INTERNATIONAL SOUND-PROGRAMME AND TELEVISION-SOUND TRANSMISSION
 N.1-1993                 | (none)          | (03/93)            | DEFINITIONS FOR APPLICATION TO INTERNATIONAL SOUND-PROGRAMME AND TELEVISION-SOUND TRANSMISSION - Study Group IV
-N.10                     | (none)          | (03/93)            | LIMITS FOR THE LINING-UP OF INTERNATIONAL SOUND-PROGRAMME LINKS AND CONNECTIONS
 N.10-1993                | (none)          | (01/93)            | Limits for the Lining-up of International Sound-Programme Links and Connections - Study Group IV; 10 pp
-N.11                     | (none)          | (11/88)            | Essential Transmission Performance Objectives for International Sound-Programme Centres (ISPC)
-N.11                     | (none)          | (11/88)            | ESSENTIAL TRANSMISSION PERFORMANCE OBJECTIVES FOR INTERNATIONAL SOUND-PROGRAMME CENTRES (ISPC)
 N.11-1988                | (none)          | (11/88)            | ESSENTIAL TRANSMISSION PERFORMANCE OBJECTIVES FOR INTERNATIONAL SOUND-PROGRAMME CENTRES (ISPC)
-N.12                     | (none)          | (11/88)            | MEASUREMENTS TO BE MADE DURING THE LINE - UP PERIOD THAT PRECEDES A SOUND - PROGRAMME TRANSMISSION
 N.12-1988                | (none)          | (11/88)            | MEASUREMENTS TO BE MADE DURING THE LINE - UP PERIOD THAT PRECEDES A SOUND - PROGRAMME TRANSMISSION
-N.13                     | (none)          | (11/88)            | MEASUREMENTS TO BE MADE BY THE BROADCASTING ORGANIZATIONS DURING THE PREPARATORY PERIOD
 N.13-1988                | (none)          | (11/88)            | MEASUREMENTS TO BE MADE BY THE BROADCASTING ORGANIZATIONS DURING THE PREPARATORY PERIOD
-N.15                     | (none)          | (11/88)            | MAXIMUM PERMISSIBLE POWER DURING AN INTERNATIONAL SOUND-PROGRAMME TRANSMISSION
 N.15-1988                | (none)          | (11/88)            | MAXIMUM PERMISSIBLE POWER DURING AN INTERNATIONAL SOUND-PROGRAMME TRANSMISSION
-N.16                     | (none)          | (11/88)            | IDENTIFICATION SIGNAL
 N.16-1988                | (none)          | (11/88)            | IDENTIFICATION SIGNAL
-N.17                     | (none)          | (11/88)            | MONITORING THE TRANSMISSION
 N.17-1988                | (none)          | (11/88)            | MONITORING THE TRANSMISSION
-N.18                     | (none)          | (11/88)            | MONITORING FOR CHARGING PURPOSES, RELEASING
 N.18-1988                | (none)          | (11/88)            | MONITORING FOR CHARGING PURPOSES, RELEASING
-N.2                      | (none)          | (11/88)            | Differents Types of Sound - Programme Circuit
 N.2-1988                 | (none)          | (11/88)            | Differents Types of Sound - Programme Circuit
-N.21                     | (none)          | (11/88)            | LIMITS AND PROCEDURES FOR THE LINING-UP OF A SOUND-PROGRAMME CIRCUIT
 N.21-1988                | (none)          | (11/88)            | LIMITS AND PROCEDURES FOR THE LINING-UP OF A SOUND-PROGRAMME CIRCUIT
-N.23                     | (none)          | (11/88)            | MAINTENANCE MEASUREMENTS TO BE MADE ON INTERNATIONAL SOUND-PROGRAMME CIRCUITS
 N.23-1988                | (none)          | (11/88)            | MAINTENANCE MEASUREMENTS TO BE MADE ON INTERNATIONAL SOUND-PROGRAMME CIRCUITS
-N.3                      | (none)          | (11/88)            | CONTROL CIRCUITS
 N.3-1988                 | (none)          | (11/88)            | CONTROL CIRCUITS
-N.4                      | (none)          | (11/88)            | DEFINITION AND DURATION OF THE LINE - UP PERIOD AND THE PREPARATORY PERIOD
 N.4-1988                 | (none)          | (11/88)            | DEFINITION AND DURATION OF THE LINE - UP PERIOD AND THE PREPARATORY PERIOD
-N.5                      | (none)          | (11/88)            | SOUND-PROGRAMME CONTROL, SUB-CONTROL AND SEND REFERENCE STATIONS
 N.5-1988                 | (none)          | (11/88)            | SOUND-PROGRAMME CONTROL, SUB-CONTROL AND SEND REFERENCE STATIONS
-N.51                     | (none)          | (11/88)            | Definitions for Application to International Television Transmissions
-N.51                     | (none)          | (11/88)            | DEFINITIONS FOR APPLICATION TO INTERNATIONAL TELEVISION TRANSMISSIONS
 N.51-1988                | (none)          | (11/88)            | DEFINITIONS FOR APPLICATION TO INTERNATIONAL TELEVISION TRANSMISSIONS
-N.52                     | (none)          | (11/88)            | MULTIPLE DESTINATION TELEVISION TRANSMISSIONS AND COORDINATION CENTRES
 N.52-1988                | (none)          | (11/88)            | MULTIPLE DESTINATION TELEVISION TRANSMISSIONS AND COORDINATION CENTRES
-N.54                     | (none)          | (11/88)            | Definition and Duration of the Line-up Period and the Preparatory Period
 N.54-1988                | (none)          | (11/88)            | DEFINITION AND DURATION OF THE LINE-UP PERIOD AND THE PREPARATORY PERIOD
-N.55                     | (none)          | (03/93)            | Organization, Responsibilities and Functions of Control and Sub-control International Television Centres and Control and Sub-control Stations for International Television Connections, Links, Circuits and Circuits Sections
 N.55-1993                | (none)          | (01/93)            | Organization, Responsibilities and Functions of Control and Subcontrol International Television Centres and Control and Subcontrol Stations for International Television Connections, Links, Circuits and Circuits Sections Maintenance of International Sound-Programme and TV Transmission Circuits (Study Group IV) 11 pp
-N.60                     | (none)          | (03/93)            | Nominal Amplitude of Video Signals at Video Interconnection Points
 N.60-1993                | (none)          | (01/93)            | Nominal Amplitude of Video Signals at Video Interconnection Points - Maintenance of International Sound- Programme and Television Transmission Circuits (Study Group IV) 6 pp
-N.61                     | (none)          | (11/88)            | Measurements to Be Made Before the Line-up Period That Precedes a Television Transmission
 N.61-1988                | (none)          | (11/88)            | Measurements to Be Made Before the Line-up Period That Precedes a Television Transmission
-N.62                     | (none)          | (03/93)            | Tests to Be Made During the Line-up Period That Precedes a Television Transmission
 N.62-1993                | (none)          | (01/93)            | Tests to Be Made During the Line-up Period That Precedes a Television Transmission - Maintenance of International Sound-Programme and Television Transmission Circuits - Study Group IV; 9 pp
-N.63                     | (none)          | (11/88)            | Test Signals to Be Used by the Broadcasting Organizations During the Preparatory Period
 N.63-1988                | (none)          | (11/88)            | Test Signals to Be Used by the Broadcasting Organizations During the Preparatory Period
-N.64                     | (none)          | (11/88)            | Quality and Impairment Assessment
 N.64-1988                | (none)          | (11/88)            | Quality and Impairment Assessment
-N.67                     | (none)          | (03/93)            | Monitoring Television Transmissions - Use of the Field Blanking Interval
-N.67                     | (none)          | (03/93)            | MONITORING TELEVISION TRANSMISSIONS - USE OF THE FIELD BLANKING INTERVAL
 N.67-1993                | (none)          | (01/93)            | Monitoring Television Transmissions - Use of the Field Blanking Interval - Maintenance of International Sound- Programme and Television Transmission Circuits (Study Group IV) 16 pp
-N.73                     | (none)          | (11/88)            | Maintenance of Permanent International Television Circuits, Links and Connections
 N.73-1988                | (none)          | (11/88)            | MAINTENANCE OF PERMANENT INTERNATIONAL TELEVISION CIRCUITS, LINKS AND CONNECTIONS
 N.81-1989                | (none)          | (01/89)            | Definition for Application to International Videoconference Transmissions - Maintenance of International Sound-Programme and Television Transmission Circuits - Study Group IV; 1 pp
-N.86                     | (none)          | (03/93)            | Line-Up and Service Commissioning of International Videoconference Systems Operating at Transmission Bit Rates of 1544 and 2048 kbit/s
 N.86-1993                | (none)          | (01/93)            | Line-Up and Service Commissioning of International Videoconference Systems Operating at Transmission Bit Rates of 1544 and 2048 kbit/s - Maintenance of International Sound-Programme and Television Transmission Circuits - Study Group IV; 11 pp
-N.90                     | (none)          | (03/93)            | Maintenance of International Videoconference Systems Operating at Transmission Bit Rates of 1544 and 2048 kbit/s
 N.90-1993                | (none)          | (01/93)            | Maintenance of International Videoconference Systems Operating at Transmission Bit Rates of 1544 and 2048 kbit/s - Maintenance of International Sound- Programme and Television Transmission Circuits (Study Group IV) 8 pp
 NGN PART 1-2005          | (none)          | (01/05)            | NGN Focus Group Proceedings: Part 1
 NGN PART 2-2005          | (none)          | (01/05)            | NGN Focus Group Proceedings: Part 2
-O.1                      | (none)          | (02/00)            | Scope and application of measurement equipment specifications covered in the O-series Recommendations
 O.1-2000                 | (none)          | (02/00)            | Scope and Application of Measurement Equipment Specifications Covered in the O-Series Recommendations - Series O: Specifications of Measuring Equipment General
-O.11                     | (none)          | (10/92)            | MAINTENANCE ACCESS LINES
 O.11-1992                | (none)          | (01/92)            | Maintenance Access Lines - Specifications of Measuring Equipment (Study Group IV) 10 pp
-O.111                    | (none)          | (11/88)            | FREQUENCY SHIFT MEASURING EQUIPMENT FOR USE ON CARRIER CHANNELS
 O.111-1988               | (none)          | (11/88)            | FREQUENCY SHIFT MEASURING EQUIPMENT FOR USE ON CARRIER CHANNELS
-O.131                    | (none)          | (11/88)            | QUANTIZING DISTORTION MEASURING EQUIPMENT USING A PSEUDO-RANDOM NOISE TEST SIGNAL
 O.131-1988               | (none)          | (11/88)            | QUANTIZING DISTORTION MEASURING EQUIPMENT USING A PSEUDO-RANDOM NOISE TEST SIGNAL
-O.132                    | (none)          | (11/88)            | QUANTIZING DISTORTION MEASURING EQUIPMENT USING A SINUSOIDAL TEST SIGNAL
 O.132-1988               | (none)          | (11/88)            | QUANTIZING DISTORTION MEASURING EQUIPMENT USING A SINUSOIDAL TEST SIGNAL
-O.133                    | (none)          | (03/93)            | EQUIPMENT FOR MEASURING THE PERFORMANCE OF PCM ENCODERS AND DECODERS
 O.133-1993               | (none)          | (03/93)            | EQUIPMENT FOR MEASURING THE PERFORMANCE OF PCM ENCODERS AND DECODERS - Study Group IV
-O.150                    | (none)          | (05/96)            | General Requirements for Instrumentation for Performance Measurements on Digital Transmission Equipment
 O.150 CORR 1             | (none)          | (05/02)            | General Requirements for Instrumentation for Performance Measurements on Digital Transmission Equipment Corrigendum 1
 O.150 CORR 1-2002        | (none)          | (05/02)            | General Requirements for Instrumentation for Performance Measurements on Digital Transmission Equipment Corrigendum 1
 O.150-1996               | (none)          | (05/96)            | General Requirements for Instrumentation for Performance Measurements on Digital Transmission Equipment - Study Group 4; 24 pp
-O.151                    | (none)          | (10/92)            | ERROR PERFORMANCE MEASURING EQUIPMENT OPERATING AT THE PRIMARY RATE AND ABOVE
 O.151 CORR 1             | (none)          | (05/02)            | Error performance measuring equipment operating at the primary rate and above Corrigendum 1
 O.151 CORR 1-2002        | (none)          | (05/02)            | Error performance measuring equipment operating at the primary rate and above Corrigendum 1
 O.151-1992               | (none)          | (10/92)            | ERROR PERFORMANCE MEASURING EQUIPMENT OPERATING AT THE PRIMARY RATE AND ABOVE
-O.152                    | (none)          | (10/92)            | ERROR PERFORMANCE MEASURING EQUIPMENT FOR BIT RATES OF 64 kbit/s AND N x 64 kbit/s
 O.152-1992               | (none)          | (10/92)            | ERROR PERFORMANCE MEASURING EQUIPMENT FOR BIT RATES OF 64 kbit/s AND N x 64 kbit/s - Study Group IV
-O.153                    | (none)          | (10/92)            | Basic Parameters for the Measurement of Error Performance at Bit Rates Below the Primary Rate
 O.153-1992               | (none)          | (10/92)            | Basic Parameters for the Measurement of Error Performance at Bit Rates Below the Primary Rate - Study Group IV
-O.161                    | (none)          | (11/88)            | IN-SERVICE CODE VIOLATION MONITORS FOR DIGITAL SYSTEMS
 O.161-1988               | (none)          | (11/88)            | IN-SERVICE CODE VIOLATION MONITORS FOR DIGITAL SYSTEMS
-O.162                    | (none)          | (10/92)            | EQUIPMENT TO PERFORM IN-SERVICE MONITORING ON 2048, 8448, 34 368 AND 139 264 KBIT/S SIGNALS
 O.162-1992               | (none)          | (10/92)            | EQUIPMENT TO PERFORM IN-SERVICE MONITORING ON 2048, 8448, 34 368 AND 139 264 KBIT/S SIGNALS
-O.163                    | (none)          | (11/88)            | EQUIPMENT TO PERFORM IN-SERVICE MONITORING ON 1544 kbit/s SIGNALS
 O.163-1988               | (none)          | (11/88)            | EQUIPMENT TO PERFORM IN-SERVICE MONITORING ON 1544 kbit/s SIGNALS
-O.171                    | (none)          | (04/97)            | Timing Jitter and Wander Measuring Equipment for Digital Systems Which are Based on the Plesiochronous Digital Heirarchy (PDH)
 O.171-1997               | (none)          | (04/97)            | Timing Jitter and Wander Measuring Equipment for Digital Systems Which are Based on the Plesiochronous Digital Heirarchy (PDH) - Study Group 4; 34 pp
-O.172                    | (none)          | (04/05)            | Jitter and wander measuring equipment for digital systems which are based on the synchronous digital hierarchy (SDH)
 O.172 AMD 1-2008         | (none)          | (06/08)            | Jitter and wander measuring equipment for digital systems which are based on the synchronous digital hierarchy (SDH) Amendment 1
 O.172 AMD 2-2010         | (none)          | (07/10)            | Jitter and wander measuring equipment for digital systems which are based on the synchronous digital hierarchy (SDH) Amendment 2: Alternative clock and jitter generation and a new verification method for STM-256 reference transmitter intrinsic jitter
 O.172 NOTE-2005          | (none)          | (10/05)            | Jitter and wander measuring equipment for digital systems which are based on the synchronous digital hierarchy (SDH)
@@ -6532,57 +6267,36 @@ O.174 AMD 1-2011         | (none)          | (04/11)            | Jitter and wan
 O.174 CORR 1-2010        | (none)          | (07/10)            | Jitter and wander measuring equipment for digital systems which are based on synchronous Ethernet technology Corrigendum 1
 O.174 CORR 2-2012        | (none)          | (02/12)            | Jitter and wander measuring equipment for digital systems which are based on synchronous Ethernet technology: Corrigendum 2
 O.174-2009               | (none)          | (11/09)            | Jitter and wander measuring equipment for digital systems which are based on synchronous Ethernet technology
-O.181                    | (none)          | (05/02)            | Equipment to assess error performance on STM-N interfaces
 O.181-2002               | (none)          | (05/02)            | Equipment to Assess Error Performance on STM-N Interfaces Series O: Specifications of Measuring Equipment Equipment for the Measurement of Digital and Analogue/Digital Parameters
 O.182 AMD 1-2009         | (none)          | (01/09)            | Equipment to assess error performance on Optical Transport Network interfaces Amendment 1: An additional evaluation procedure
 O.182-2007               | (none)          | (07/07)            | Equipment to assess error performance on Optical Transport Network interfaces
-O.191                    | (none)          | (02/00)            | Equipment to measure the cell transfer performance of ATM connections
 O.191-2000               | (none)          | (02/00)            | Equipment to Measure the Cell Transfer Performance of ATM Connections - Series O: Specifications of Measuring Equipment; Equipment for the Measurement of Digital and Analogue/Digital Parameters - Study Group 4; 72 pp
-O.201                    | (none)          | (07/03)            | Q-factor test equipment to estimate the transmission performance of optical channels
 O.201-2003               | (none)          | (07/03)            | Q-factor test equipment to estimate the transmission performance of optical channels SERIES O: SPECIFICATIONS OF MEASURING EQUIPMENT Equipment for the measurement of optical channel parameters
-O.211                    | (none)          | (01/06)            | Test and measurement equipment to perform tests at the IP layer
 O.211-2006               | (none)          | (01/06)            | Test and measurement equipment to perform tests at the IP layer
-O.22                     | (none)          | (10/92)            | CCITT AUTOMATIC TRANSMISSION MEASURING AND SIGNALLING TESTING EQUIPMENT ATME No. 2
 O.22-1992                | (none)          | (01/92)            | CCITT Automatic Transmission Measuring and Signalling Testing Equipment ATME No. 2 - Specifications of Measuring Equipment (Study Group IV) 35 pp
 O.220-2007               | (none)          | (03/07)            | Framework for end-to-end QoS measurement and supervision for leased-circuit services
 O.25-1989                | (none)          | (01/89)            | Semiautomatic in-Circuit Echo Suppressor Testing System (ESTS) - Specifications for Measuring Equipment - Study Group IV; 7 pp; Cancelled
-O.27                     | (none)          | (11/88)            | In-Station Echo Canceller Test Equipment
 O.27-1988                | (none)          | (11/88)            | In-Station Echo Canceller Test Equipment
-O.3                      | (none)          | (10/92)            | Climatic Conditions and Relevant Tests for Measuring Equipment
-O.3                      | (none)          | (10/92)            | CLIMATIC CONDITIONS AND RELEVANT TESTS FOR MEASURING EQUIPMENT
 O.3-1992                 | (none)          | (01/92)            | Climatic Conditions and Relevant Tests for Measuring Equipment - Specifications of Measuring Equipment (Study Group IV) 7 pp
 O.31-1989                | (none)          | (01/89)            | Automatic Measuring Equipment for Sound-Programme Circuits - Specifications for Measuring Equipment - Study Group IV; 8 pp; Cancelled
 O.32-1989                | (none)          | (01/89)            | Automatic Measuring Equipment for Stereophonic Pairs of Sound-Programme Circuits - Specifications for Measuring Equipment - Study Group IV; 11 pp; Cancelled
-O.33                     | (none)          | (07/95)            | Automatic Equipment for Rapidly Measuring Stereophonic Pairs and Monophonic Sound-Programme Circuits, Links and Connections
 O.33-1995                | (none)          | (01/95)            | Automatic Equipment for Rapidly Measuring Stereophonic Pairs and Monophonic Sound-Programme Circuits, Links and Connections - Specifications for Measuring Equipment - Study Group 4; 15 pp
-O.41                     | (none)          | (10/94)            | PSOPHOMETER FOR USE ON TELEPHONE-TYPE CIRCUITS
 O.41-1994                | (none)          | (10/94)            | Psophometer for Use on Telephone-Type Circuits - Specifications for Measuring Equipment - Equipment for the Measurement of Analogue Parameters (Study Group 4) 17 pp
-O.42                     | (none)          | (11/88)            | EQUIPMENT TO MEASURE NONLINEAR DISTORTION USING THE 4-TONE INTERMODULATION METHOD
 O.42-1988                | (none)          | (11/88)            | EQUIPMENT TO MEASURE NONLINEAR DISTORTION USING THE 4-TONE INTERMODULATION METHOD
 O.51-1989                | (none)          | (01/89)            | Volume Meters - Specifications for Measuring Equipment - Study Group IV; 1 pp; Cancelled; Same as Recmn P.52
-O.6                      | (none)          | (11/88)            | 1020 Hz Reference Test Frequency
 O.6-1988                 | (none)          | (11/88)            | 1020 Hz REFERENCE TEST FREQUENCY
-O.61                     | (none)          | (11/88)            | SIMPLE EQUIPMENT TO MEASURE INTERRUPTIONS ON TELEPHONE-TYPE CIRCUITS
 O.61-1988                | (none)          | (11/88)            | SIMPLE EQUIPMENT TO MEASURE INTERRUPTIONS ON TELEPHONE-TYPE CIRCUITS
-O.62                     | (none)          | (11/88)            | SOPHISTICATED EQUIPMENT TO MEASURE INTERRUPTIONS ON TELEPHONE-TYPE CIRCUITS
 O.62-1988                | (none)          | (11/88)            | SOPHISTICATED EQUIPMENT TO MEASURE INTERRUPTIONS ON TELEPHONE-TYPE CIRCUITS
-O.71                     | (none)          | (11/88)            | IMPULSIVE NOISE MEASURING EQUIPMENT FOR TELEPHONE-TYPE CIRCUITS
 O.71-1988                | (none)          | (11/88)            | IMPULSIVE NOISE MEASURING EQUIPMENT FOR TELEPHONE-TYPE CIRCUITS
 O.72-1989                | (none)          | (01/89)            | Characteristics of an Impulsive Noise Measuring Instrument for Wideband Data Transmissions - Specifications for Measuring Equipment (Study Group IV) 1 pp
-O.81                     | (none)          | (11/88)            | Group-delay measuring equipment for telephone-type circuits
 O.81 APP I               | (none)          | (06/98)            | Group-delay measuring equipment for telephone-type circuits Appendix I: A measuring signal (multitone test signal) for fast measurement of amplitude and phase for telephone type circuits
 O.81 APP I-1998          | (none)          | (06/98)            | Group-Delay Measuring Equipment for Telephone-Type Circuits - Appendix I: A Measuring Signal (Multitone Test Signal) for Fast Measurement of Amplitude and Phase for Telephone Type Circuits - Series O: Specifications of Measuring Equipment - Equipment for the Measurement of Analogue Parameters - Study Group 4; Covering Note Erratum June 5,2000; 10pp
 O.81 NOTE                | (none)          | (06/00)            | A measuring signal (multitone test signal) for fast measurement of amplitude and phase for telephone type circuits
 O.81 NOTE-2000           | (none)          | (06/00)            | A measuring signal (multitone test signal) for fast measurement of amplitude and phase for telephone type circuits
 O.81-1988                | (none)          | (11/88)            | Group-delay measuring equipment for telephone-type circuits
-O.82                     | (none)          | (11/88)            | GROUP-DELAY MEASURING EQUIPMENT FOR THE RANGE 5 TO 600 kHz
 O.82-1988                | (none)          | (11/88)            | GROUP-DELAY MEASURING EQUIPMENT FOR THE RANGE 5 TO 600 kHz
-O.9                      | (none)          | (03/99)            | Measuring arrangements to assess the degree of unbalance about earth
-O.9                      | (none)          | (03/99)            | Measuring Arrangements to Assess the Degree of Unbalance About earth
 O.9-1999                 | (none)          | (03/99)            | Measuring Arrangements to Assess the Degree of Unbalance About Earth - Series O: Specifications of Measuring Equipment General - Study Group 4; 19 pp
-O.91                     | (none)          | (11/88)            | PHASE JITTER MEASURING EQUIPMENT FOR TELEPHONE-TYPE CIRCUITS
 O.91-1988                | (none)          | (11/88)            | PHASE JITTER MEASURING EQUIPMENT FOR TELEPHONE-TYPE CIRCUITS
-O.95                     | (none)          | (11/88)            | PHASE AND AMPLITUDE HIT COUNTERS FOR TELEPHONE-TYPE CIRCUITS
 O.95-1988                | (none)          | (11/88)            | PHASE AND AMPLITUDE HIT COUNTERS FOR TELEPHONE-TYPE CIRCUITS
 OPINION 14-7-1993        | (none)          | (01/93)            | Preferred Radio-Frequency Channel Arrangements for Radio-Relay Links for International Connections
 OPINION 16-3-1986        | (none)          | (01/86)            | Organizations Qualified to Set Standards on Sound and Television Recording
@@ -6608,19 +6322,13 @@ OPINION 97-1997          | (none)          | (01/97)            | Operational Us
 OPINION 98-1997          | (none)          | (01/97)            | Spectrum Requirements of Meteorological Aids in the Frequency Range from 400.15 to 406 MHz
 OPINION 99-2003          | (none)          | (01/03)            | Time scale based on pulsar timing
 P. SERIES-1995           | (none)          | (01/95)            | 1995 P Series Fascicle Radiowave Propagation
-P.10                     | (none)          | (07/06)            | Vocabulary for performance and quality of service
 P.10 AMD 2-2008          | (none)          | (07/08)            | Vocabulary for performance and quality of service Amendment 2: New definitions for inclusion in Recommendation ITU-T P.10/G.100
 P.10 IMP AMD 4-2016      | (none)          | (01/16)            | Implementer’s Guide to Recommendation ITU-T P.10/G.100 Amd.4
-P.1010                   | (none)          | (07/04)            | Fundamental voice transmission objectives for VoIP terminals and gateways
 P.1010-2004              | (none)          | (07/04)            | Fundamental Voice Transmission Objectives for VoIP Terminals and Gateways SERIES P: TELEPHONE TRANSMISSION QUALITY, TELEPHONE INSTALLATIONS, LOCAL LINE NETWORKS Transmission Performance and QoS Aspects of IP End-Points
-P.1057-2                 | (none)          | (01/07)            | Probability distributions relevant to radiowave propagation modelling
 P.1057-2-2001            | (none)          | (01/01)            | Probability distributions relevant to radiowave propagation modelling
 P.1057-6-2019            | (none)          | (08/19)            | Probability distributions relevant to radiowave propagation modelling
-P.1058-2                 | (none)          | (01/99)            | Digital Topographic Databases for Propagation Studies
 P.1058-2-1999            | (none)          | (01/99)            | Digital Topographic Databases for Propagation Studies
-P.1060                   | (none)          | (01/94)            | PROPAGATION FACTORS AFFECTING FREQUENCY SHARING IN HF TERRESTRIAL SYSTEMS
 P.1060-1994              | (none)          | (01/94)            | Propagation Factors Affecting Frequency Sharing in HF Terrestrial Syatems
-P.11                     | (none)          | (03/93)            | EFFECT OF TRANSMISSION IMPAIRMENTS
 P.11-1993                | (none)          | (01/93)            | Effect of Transmission Impairments - Telephone Transmission Quality - Vocabulary and Effects of Transmission Parameters on Customer Opinion of Transmission Quality and Their Assessment (Study Group XII) 35 pp
 P.1100-2008              | (none)          | (10/08)            | Narrow-band hands-free communication in motor vehicles
 P.1110-2009              | (none)          | (12/09)            | Wideband hands-free communication in motor vehicles
@@ -6628,16 +6336,11 @@ P.1110-2019              | (none)          | (01/19)            | Wideband hands
 P.1130-2015              | (none)          | (06/15)            | Subsystem requirements for automotive speech services
 P.1140-2017              | (none)          | (03/17)            | Speech communication requirements for emergency calls originating from vehicles
 P.1144-10-2019           | (none)          | (08/19)            | Guide to the application of the propagation methods of Radiocommunication Study Group 3
-P.1144-5                 | (none)          | (10/09)            | Guide to the application of the propagation methods of Radiocommunication Study Group 3
 P.1144-5-2009            | (none)          | (10/09)            | Guide to the application of the propagation methods of Radiocommunication Study Group 3
 P.1144-6-2012            | (none)          | (02/12)            | Guide to the application of the propagation methods of Radiocommunication Study Group 3
-P.1145                   | (none)          | (01/95)            | Propagation Data for the Terrestrial Land Mobile Service in the VHF and UHF Bands
 P.1145-1995              | (none)          | (01/95)            | (WITHDRAWN) Propagation Data for the Terrestrial Land Mobile Service in the VHF and UHF Bands
-P.1146                   | (none)          | (01/95)            | THE PREDICTION OF FIELD STRENGTH FOR LAND MOBILE AND TERRESTRIAL BROADCASTING SERVICES IN THE FREQUENCY RANGE FROM 1 TO 3 GHz
 P.1146-1995              | (none)          | (01/95)            | Prediction of Field Strength for Land Mobile and Terrestrial Broadcasting in Services in the Frequency Range from 1 to 3 GHz
-P.1147-4                 | (none)          | (01/07)            | Prediction of sky-wave field strength at frequencies between about 150 and 1 700 kHz
 P.1147-4-2007            | (none)          | (01/07)            | Prediction of sky-wave field strength at frequencies between about 150 and 1 700 kHz
-P.1148-1                 | (none)          | (01/97)            | STANDARDIZED PROCEDURE FOR COMPARING PREDICTED AND OBSERVED HF SKY-WAVE SIGNAL INTENSITIES AND THE PRESENTATION OF SUCH COMPARISONS
 P.1148-1-1997            | (none)          | (01/97)            | Standardized Procedure for Comparing Predicted and Observed HF Sky-Wave Signal Intensities and the Presentation of Such Comparisons
 P.1150-2020              | (none)          | (01/20)            | In-car communication audio specification
 P.1201 AMD 1-2013        | (none)          | (03/13)            | Parametric non-intrusive assessment of audiovisual media streaming quality Amendment 1
@@ -6654,16 +6357,12 @@ P.1204.3 AMD 1-2021      | (none)          | (01/21)            | Video quality 
 P.1204.4-2020            | (none)          | (01/20)            | Video quality assessment of streaming services over reliable transport for resolutions up to 4K with access to full and reduced reference pixel information
 P.1204.5 AMD 1-2021      | (none)          | (01/21)            | Video quality assessment of streaming services over reliable transport for resolutions up to 4K with access to transport and received pixel information Amendment 1: New Appendix II: Long term integration module (Pq) for ITU-T P.1204.5
 P.1238-10-2019           | (none)          | (08/19)            | Propagation data and prediction methods for the planning of indoor radiocommunication systems and radio local area networks in the frequency range 300 MHz to 450 GHz
-P.1238-6                 | (none)          | (10/09)            | Propagation data and prediction methods for the planning of indoor radiocommunication systems and radio local area networks in the frequency range 900 MHz to 100 GHz
 P.1238-6-2009            | (none)          | (10/09)            | Propagation data and prediction methods for the planning of indoor radiocommunication systems and radio local area networks in the frequency range 900 MHz to 100 GHz
-P.1238-7                 | (none)          | (02/12)            | Datos de propagación y métodos de predicción para la planificación de sistemas de radiocomunicaciones en interiores y redes radioeléctricas de área local en la gama de frecuencias de 900 MHz a 100 GHz
-P.1238-7                 | (none)          | (02/12)            | Propagation data and prediction methods for the planning of indoor radiocommunication systems and radio local area networks in the frequency range 900 MHz to 100 GHz
 P.1238-7-2012            | (none)          | (02/12)            | Propagation data and prediction methods for the planning of indoor radiocommunication systems and radio local area networks in the frequency range 900 MHz to 100 GHz
 P.1238-9                 | (none)          | (06/17)            | Propagation data and prediction methods for the planning of indoor radiocommunication systems and radio local area networks in the frequency range 300 MHz to 100 GHz
 P.1239-2                 | (none)          | (10/09)            | ITU-R reference ionospheric characteristics
 P.1239-2-2009            | (none)          | (10/09)            | ITU-R reference ionospheric characteristics
 P.1239-3-2012            | (none)          | (02/12)            | ITU-R reference ionospheric characteristics
-P.1240-1                 | (none)          | (01/07)            | ITU-R methods of basic MUF, operational MUF and ray-path prediction
 P.1240-1-2007            | (none)          | (01/07)            | ITU-R Methods of Basic MUF, Operational MUF and Ray-Path Prediction
 P.1240-2-2015            | (none)          | (07/15)            | ITU-R methods of basic MUF, operational MUF and ray-path prediction
 P.1301-2012              | (none)          | (07/12)            | Subjective quality evaluation of audio and audiovisual multiparty telemeetings
@@ -6673,96 +6372,66 @@ P.1305-2016              | (none)          | (07/16)            | Effect of dela
 P.1310-2017              | (none)          | (03/17)            | Spatial audio meetings quality evaluation
 P.1311-2014              | (none)          | (12/14)            | Method for determining the intelligibility of multiple concurrent talkers
 P.1312-2016              | (none)          | (02/16)            | Method for the measurement of the communication effectiveness of multiparty telemeetings using task performance
-P.1321-3                 | (none)          | (10/09)            | Propagation factors affecting systems using digital modulation techniques at LF and MF
 P.1321-3-2009            | (none)          | (10/09)            | Propagation factors affecting systems using digital modulation techniques at LF and MF
 P.1321-5-2015            | (none)          | (07/15)            | Propagation factors affecting systems using digital modulation techniques at LF and MF
-P.1322                   | (none)          | (01/97)            | RADIOMETRIC ESTIMATION OF ATMOSPHERIC ATTENUATION
 P.1322-1997              | (none)          | (01/97)            | Radiometric Estimation of Atmospheric Attenuation
 P.1401-2012              | (none)          | (07/12)            | Methods, metrics and procedures for statistical evaluation, qualification and comparison of objective quality prediction models
 P.1401-2020              | (none)          | (01/20)            | Methods, metrics and procedures for statistical evaluation, qualification and comparison of objective quality prediction models
-P.1406-1                 | (none)          | (01/07)            | Propagation effects relating to terrestrial land mobile and broadcasting services in the VHF and UHF bands
 P.1406-1-2007            | (none)          | (01/07)            | Propagation effects relating to terrestrial land mobile and broadcasting services in the VHF and UHF bands
 P.1406-2-2015            | (none)          | (07/15)            | Propagation effects relating to terrestrial land mobile and broadcasting services in the VHF and UHF bands
 P.1407-3-2007            | (none)          | (01/07)            | Multipath propagation and parameterization of its characteristics
-P.1407-4                 | (none)          | (10/09)            | Multipath propagation and parameterization of its characteristics
 P.1407-4-2009            | (none)          | (10/09)            | Multipath propagation and parameterization of its characteristics
 P.1407-7-2019            | (none)          | (08/19)            | Multipath propagation and parameterization of its characteristics
-P.1409                   | (none)          | (01/99)            | Propagation Data and Prediction Methods Required for the Design of Systems Using High Altitude Platform Stations at About 47 GHz
 P.1409-1-2012            | (none)          | (02/12)            | Propagation data and prediction methods for systems using high altitude platform stations and other elevated stations in the stratosphere at frequencies greater than about 1 GHz
 P.1409-1999              | (none)          | (01/99)            | Propagation Data and Prediction Methods Required for the Design of Systems Using High Altitude Platform Stations at About 47 GHz
-P.1410-4                 | (none)          | (01/07)            | Propagation data and prediction methods required for the design of terrestrial broadband radio access systems operating in a frequency range from 3 to 60 GHz
 P.1410-4-2007            | (none)          | (01/07)            | Propagation data and prediction methods required for the design of terrestrial broadband radio access systems operating in a frequency range from 3 to 60 GHz
 P.1410-5-2012            | (none)          | (02/12)            | Propagation data and prediction methods required for the design of terrestrial broadband radio access systems operating in a frequency range from 3 to 60 GHz
 P.1411-10-2019           | (none)          | (08/19)            | Propagation data and prediction methods for the planning of short-range outdoor radiocommunication systems and radio local area networks in the frequency range 300 MHz to 100 GHz
-P.1411-5                 | (none)          | (10/09)            | Propagation data and prediction methods for the planning of short-range outdoor radiocommunication systems and radio local area networks in the frequency range 300 MHz to 100 GHz
 P.1411-5-2009            | (none)          | (10/09)            | Propagation data and prediction methods for the planning of short-range outdoor radiocommunication systems and radio local area networks in the frequency range 300 MHz to 100 GHz
 P.1411-6-2012            | (none)          | (02/12)            | Propagation data and prediction methods for the planning of short-range outdoor radiocommunication systems and radio local area networks in the frequency range 300 MHz to 100 GHz
-P.1412                   | (none)          | (01/99)            | Propagation Data for the Evaluation of Coordination between Earth Stations Working in the Bidirectionally Allocated Frequency Bands
 P.1412-1999              | (none)          | (01/99)            | Propagation Data for the Evaluation of Coordination between Earth Stations Working in the Bidirectionally Allocated Frequency Bands
 P.1501-2014              | (none)          | (02/14)            | Subjective testing methodology for web browsing
 P.1502-2020              | (none)          | (01/20)            | Methodology for QoE testing of digital financial services
-P.1510                   | (none)          | (01/01)            | Annual Mean Surface Temperature
 P.1510-1-2017            | (none)          | (06/17)            | Mean surface temperature
 P.1510-2001              | (none)          | (01/01)            | Annual Mean Surface Temperature
-P.1511                   | (none)          | (01/01)            | Topography for Earth-To-Space Propagation Modelling
 P.1511-2-2019            | (none)          | (08/19)            | Topography for Earth-space propagation modelling
 P.1511-2001              | (none)          | (01/01)            | Topography for Earth-To-Space Propagation Modelling
-P.1546-4                 | (none)          | (10/09)            | Method for point-to-area predictions for terrestrial services in the frequency range 30 MHz to 3 000 MHz
 P.1546-4-2009            | (none)          | (10/09)            | Method for point-to-area predictions for terrestrial services in the frequency range 30 MHz to 3 000 MHz
 P.1546-6-2019            | (none)          | (08/19)            | Method for point-to-area predictions for terrestrial services in the frequency range 30 MHz to 4 000 MHz
-P.16                     | (none)          | (11/88)            | SUBJECTIVE EFFECTS OF DIRECT CROSSTALK; THRESHOLDS OF AUDIBILITY AND INTELLIGIBILITY
 P.16-1988                | (none)          | (11/88)            | SUBJECTIVE EFFECTS OF DIRECT CROSSTALK; THRESHOLDS OF AUDIBILITY AND INTELLIGIBILITY
-P.1621-1                 | (none)          | (01/05)            | Propagation data required for the design of Earth-space systems operating between 20 THz and 375 THz
 P.1621-1-2005            | (none)          | (01/05)            | Propagation data required for the design of Earth-space systems operating between 20 THz and 375 THz - Question ITU-R 228/3
 P.1621-2-2015            | (none)          | (07/15)            | Propagation data required for the design of Earth-space systems operating between 20 THz and 375 THz
-P.1622                   | (none)          | (01/03)            | Prediction methods required for the design of Earth-space systems operating between 20 THz and 375 THz
 P.1622-2003              | (none)          | (01/03)            | Prediction methods required for the design of Earth-space systems operating between 20 THz and 375 THz - Question ITU-R 228/3
-P.1623-1                 | (none)          | (01/05)            | Prediction method of fade dynamics on Earth-space paths
 P.1623-1-2005            | (none)          | (01/05)            | Prediction method of fade dynamics on Earth-space paths - (Question ITU-R 201/3)
-P.1791                   | (none)          | (01/07)            | Propagation prediction methods for assessment of the impact of ultra-wideband devices
 P.1791-2007              | (none)          | (01/07)            | Propagation prediction methods for assessment of the impact of ultra-wideband devices - Study Group 1; Question ITU-R 211/3
-P.1812-1                 | (none)          | (10/09)            | A path-specific propagation prediction method for point-to-area terrestrial services in the VHF and UHF bands
 P.1812-1-2009            | (none)          | (10/09)            | A path-specific propagation prediction method for point-to-area terrestrial services in the VHF and UHF bands
 P.1812-2-2012            | (none)          | (02/12)            | A path-specific propagation prediction method for point-to-area terrestrial services in the VHF and UHF bands
 P.1812-5-2019            | (none)          | (08/19)            | A path-specific propagation prediction method for point-to-area terrestrial services in the VHF and UHF bands
-P.1814                   | (none)          | (01/07)            | Prediction methods required for the design of terrestrial free-space optical links
 P.1814-2007              | (none)          | (01/07)            | Prediction methods required for the design of terrestrial free-space optical links
-P.1815-1                 | (none)          | (10/09)            | Differential rain attenuation
 P.1815-1-2009            | (none)          | (10/09)            | Differential rain attenuation
-P.1816                   | (none)          | (01/07)            | The prediction of the time and the spatial profile for broadband land mobile services using UHF and SHF bands
 P.1816-1-2012            | (none)          | (02/12)            | The prediction of the time and the spatial profile for broadband land mobile services using UHF and SHF bands
 P.1816-2007              | (none)          | (01/07)            | The prediction of the time and the spatial profile for broadband land mobile services using UHF and SHF bands
 P.1816-4-2019            | (none)          | (08/19)            | The prediction of the time and the spatial profile for broadband land mobile services using UHF and SHF bands
-P.1817                   | (none)          | (01/07)            | Propagation data required for the design of terrestrial free-space optical links
 P.1817-1-2012            | (none)          | (02/12)            | Propagation data required for the design of terrestrial free-space optical links
 P.1817-2007              | (none)          | (01/07)            | Propagation data required for the design of terrestrial free-space optical links
-P.1853                   | (none)          | (10/09)            | Tropospheric attenuation time series synthesis
 P.1853-1-2012            | (none)          | (02/12)            | Tropospheric attenuation time series synthesis
 P.1853-2-2019            | (none)          | (08/19)            | Time series synthesis of tropospheric impairments
 P.1853-2009              | (none)          | (10/09)            | Tropospheric attenuation time series synthesis
-P.2001                   | (none)          | (02/12)            | A general purpose wide-range terrestrial propagation model in the frequency range 30 MHz to 50 GHz
-P.2001                   | (none)          | (02/12)            | Modelo de propagación terrenal de gran alcance polivalente en la gama de frecuencias de 30 MHz a 50 GHz
 P.2001-2012              | (none)          | (02/12)            | A general purpose wide-range terrestrial propagation model in the frequency range 30 MHz to 50 GHz
 P.2001-3-2019            | (none)          | (08/19)            | A general purpose wide-range terrestrial propagation model in the frequency range 30 MHz to 50 GHz
-P.2040-1                 | (none)          | (07/15)            | Effects of building materials and structures on radiowave propagation above about 100 MHz
 P.2040-1-2015            | (none)          | (07/15)            | Effects of building materials and structures on radiowave propagation above about 100 MHz
 P.2041-2013              | (none)          | (09/13)            | Prediction of path attenuation on links between an airborne platform and Space and between an airborne platform and the surface of the Earth
 P.2108-0-2017            | (none)          | (06/17)            | Predicción de las pérdidas debidas a la ocupación del suelo
 P.2108-0-2017            | (none)          | (06/17)            | Prediction of clutter loss
 P.2108-0-2017            | (none)          | (06/17)            | Prévision de laffaiblissement dû à des groupes dobstacles
 P.2109-1-2019            | (none)          | (08/19)            | Prediction of building entry loss
-P.30                     | (none)          | (11/88)            | Transmission Performance of Group Audio Terminals (GATs)
 P.30-1988                | (none)          | (11/88)            | Transmission Performance of Group Audio Terminals (GATs)
-P.300                    | (none)          | (11/01)            | Transmission performance of group audio terminals (GATs)
 P.300-2001               | (none)          | (11/01)            | Transmission Performance of Group Audio Terminals (GATs) Series P: Telephone Transmission Quality, Telephone Installations, Local Line Networks Subscribers' Lines and Sets
-P.31                     | (none)          | (03/93)            | TRANSMISSION CHARACTERISTICS FOR DIGITAL TELEPHONES
 P.31-1993                | (none)          | (01/93)            | Transmission Characteristics for Digital Telephones - Telephone Transmission Quality Subscribers' Lines and Sets - Study Group XII; 11 pp; Cancelled
-P.310                    | (none)          | (03/03)            | Transmission characteristics for telephone band (300-3400 Hz) digital telephones
 P.310-10-2019            | (none)          | (08/19)            | Definitions of terms relating to propagation in non-ionized media
 P.310-2009               | (none)          | (06/09)            | Transmission characteristics for narrow-band digital handset and headset telephones
 P.310-9                  | (none)          | (01/94)            | DEFINITIONS OF TERMS RELATING TO PROPAGATION IN NON-IONIZED MEDIA
 P.310-9-1994             | (none)          | (01/94)            | Definitions of Terms Relating to Propagation in Non-Ionized Media
-P.311                    | (none)          | (06/05)            | Transmission characteristics for wideband (150-7000 Hz) digital handset telephones
 P.311-13                 | (none)          | (10/09)            | Acquisition, presentation and analysis of data in studies of tropospheric propagation
 P.311-13-2009            | (none)          | (10/09)            | Acquisition, presentation and analysis of data in studies of tropospheric propagation
 P.311-17-2017            | (none)          | (12/17)            | Acquisition, presentation and analysis of data in studies of radiowave propagation
@@ -6772,79 +6441,50 @@ P.313-10-2005            | (none)          | (01/05)            | Exchange of in
 P.313-11-2012            | (none)          | (02/12)            | Exchange of information for short-term forecasts and transmission of ionospheric disturbance warnings
 P.313-2007               | (none)          | (03/07)            | Transmission characteristics for cordless and mobile digital terminals
 P.313-2015               | (none)          | (06/15)            | Transmission characteristics for cordless and mobile digital terminals
-P.32                     | (none)          | (11/88)            | EVALUATION OF THE EFFICIENCY OF TELEPHONE BOOTHS AND ACOUSTING HOODS
 P.32-1988                | (none)          | (11/88)            | EVALUATION OF THE EFFICIENCY OF TELEPHONE BOOTHS AND ACOUSTING HOODS
 P.33-1989                | (none)          | (01/89)            | Subscriber Telephone Sets Containing Either Loudspeaking Receivers or Microphones Associated with Amplifiers - Telephone Transmission Quality - Study Group XII; 1 pp
-P.330                    | (none)          | (03/03)            | Speech processing devices for acoustic enhancement
 P.330 AMD 1-2003         | (none)          | (09/03)            | Amendment to ITU-T Rec. P.330 SERIES P: TELEPHONE TRANSMISSION QUALITY, TELEPHONE INSTALLATIONS, LOCAL LINE NETWORKS Subscribers' lines and sets - Covering Note: 9/2003
 P.330 NOTE               | (none)          | (09/03)            | Speech processing devices for acoustic enhancement
 P.330 NOTE-2003          | (none)          | (09/03)            | Speech processing devices for acoustic enhancement
 P.330-2003               | (none)          | (03/03)            | Speech processing devices for acoustic enhancement SERIES P: TELEPHONE TRANSMISSION QUALITY, TELEPHONE INSTALLATIONS, LOCAL LINE NETWORKS Subscribers' lines and sets - Study Group 12; Covering Note Amendment 1: 9/2003
-P.34                     | (none)          | (03/93)            | TRANSMISSION CHARACTERISTICS OF HANDS-FREE TELEPHONES
 P.34-1993                | (none)          | (01/93)            | Transmission Characteristics of Hands-Free Telephones - Telephone Transmission Quality Subscribers' Lines and Sets - Study Group XII; 11 pp; Cancelled
-P.340                    | (none)          | (05/00)            | Transmission characteristics and speech quality parameters of hands-free terminals
-P.340                    | (none)          | (05/00)            | Transmission Characteristics and Speech Quality Parameters of Hands-Free Terminals
 P.340 NOTE               | (none)          | (03/04)            | Transmission characteristics and speech quality parameters of hands-free terminals
 P.340 NOTE-2004          | (none)          | (03/04)            | Transmission characteristics and speech quality parameters of hands-free terminals
 P.340-2000               | (none)          | (05/00)            | Transmission Characteristics and Speech Quality Parameters of Hands-Free Terminals Series P: Telephone Transmission Quality, Telephone Installations, Local Line Networks Subscribers' Lines and Sets - Study Group 12; Covering Note: March 31, 2004
-P.341                    | (none)          | (06/05)            | Transmission characteristics for wideband (150-7000 Hz) digital hands-free telephony terminals
 P.341-2005               | (none)          | (06/05)            | Transmission characteristics for wideband (150-7000 Hz) digital hands-free telephony terminals
 P.341-2011               | (none)          | (03/11)            | Transmission characteristics for wideband digital loudspeaking and hands-free telephony terminals
-P.341-5                  | (none)          | (01/99)            | The Concept of Transmission Loss for Radio Links
 P.341-5-1999             | (none)          | (01/99)            | The Concept of Transmission Loss for Radio Links
 P.341-7-2019             | (none)          | (08/19)            | The concept of transmission loss for radio links
-P.342                    | (none)          | (05/00)            | Transmission characteristics for telephone band (300-3400 Hz) digital loudspeaking and hands-free telephony terminals
 P.342-2009               | (none)          | (06/09)            | Transmission characteristics for narrow-band digital loudspeaking and hands-free telephony terminals
-P.35                     | (none)          | (11/88)            | HANDSET TELEPHONES
 P.35-1988                | (none)          | (11/88)            | HANDSET TELEPHONES
-P.350                    | (none)          | (03/01)            | Handset dimensions
 P.350-2001               | (none)          | (03/01)            | Handset dimensions
-P.36                     | (none)          | (11/88)            | EFFICIENCY OF DEVICES FOR PREVENTING THE OCCURRENCE OF EXCESSIVE ACOUSTIC PRESSURE BY TELEPHONE RECEIVERS
 P.36-1988                | (none)          | (11/88)            | EFFICIENCY OF DEVICES FOR PREVENTING THE OCCURRENCE OF EXCESSIVE ACOUSTIC PRESSURE BY TELEPHONE RECEIVERS
-P.360                    | (none)          | (07/06)            | Efficiency of devices for preventing the occurrence of excessive acoustic pressure by telephone receivers and assessment of daily noise exposure of telephone users
 P.360-2006               | (none)          | (07/06)            | Efficiency of devices for preventing the occurrence of excessive acoustic pressure by telephone receivers and assessment of daily noise exposure of telephone users
-P.368-9                  | (none)          | (01/07)            | Ground-wave propagation curves for frequencies between 10 kHz and 30 MHz
 P.368-9-2007             | (none)          | (01/07)            | Ground-Wave Propagation Curves for Frequencies between 10 kHz and 30 MHz
-P.369-6                  | (none)          | (01/94)            | REFERENCE ATMOSPHERE FOR REFRACTION
 P.369-6-1994             | (none)          | (01/94)            | REFERENCE ATMOSPHERE FOR REFRACTION
 P.37-1993                | (none)          | (01/93)            | Coupling Hearing Aids to Telephone Set - Telephone Transmission Quality Subscribers' Lines and Sets - Study Group XII; 10; Cancelled
-P.370                    | (none)          | (08/96)            | Coupling Hearing Aids to Telephone Sets
 P.370-1996               | (none)          | (08/96)            | Coupling Hearing Aids to Telephone Sets - Study Group 12; 23 pp
-P.370-7                  | (none)          | (01/95)            | VHF AND UHF PROPAGATION CURVES FOR THE FREQUENCY RANGE FROM 30 MHz TO 1 000 MHz Broadcasting services
 P.370-7-1995             | (none)          | (01/95)            | VHF AND UHF PROPAGATION CURVES FOR THE FREQUENCY RANGE FROM 30 MHz TO 1000 MHz Broadcasting services
-P.371-8                  | (none)          | (01/99)            | CHOICE OF INDICES FOR LONG-TERM IONOSPHERIC PREDICTIONS
 P.371-8-1999             | (none)          | (01/99)            | Choice of Indices for Long-Term Ionospheric Predictions
-P.372-10                 | (none)          | (10/09)            | Radio noise
 P.372-10-2009            | (none)          | (10/09)            | Radio noise
 P.372-14-2019            | (none)          | (08/19)            | Radio noise
-P.373-8                  | (none)          | (01/07)            | Definitions of maximum and minimum transmission frequencies
 P.373-8-2007             | (none)          | (01/07)            | Definitions of maximum and minimum transmission frequencies
 P.373-9-2013             | (none)          | (09/13)            | Definitions of maximum and minimum transmission frequencies
-P.38                     | (none)          | (03/93)            | Transmission Characteristics of Operator Telephone Systems (OTS)
 P.38-1993                | (none)          | (01/93)            | Transmission Characteristics of Operator Telephone Systems (OTS) - Telephone Transmission Quality - Subscribers' Lines and Sets (Study Group XII) 4 pp
-P.380                    | (none)          | (11/03)            | Electro-acoustic measurements on headsets
 P.380-2003               | (none)          | (11/03)            | Electro-acoustic measurements on headsets
 P.381-2012               | (none)          | (08/12)            | Technical requirements and test methods for universal wired headset or headphone interface of digital mobile terminals
 P.381-2020               | (none)          | (10/20)            | Technical requirements and test methods for the universal wired headset or headphone interface of digital mobile terminals
 P.382-2020               | (none)          | (10/20)            | Technical requirements and test methods for multi-microphone wired headset or headphone interfaces of digital wireless terminals
 P.383-2021               | (none)          | (06/21)            | Technical requirements and test methods for digital wired or wireless headset interfaces
-P.434-6                  | (none)          | (01/95)            | ITU-R Reference Ionospheric Characteristics and Methods of Basic MUF, Operational MUF and Ray-Path Prediction
 P.434-6-1995             | (none)          | (01/95)            | ITU-R Reference Ionospheric Characteristics and Methods of Basic MUF, Operational MUF and Ray-Path Prediction
-P.435-7                  | (none)          | (01/92)            | SKY-WAVE FIELD-STRENGTH PREDICTION METHOD FOR THE BROADCASTING SERVICE IN THE FREQUENCY RANGE 150 TO 1600 kHz
 P.435-7-1992             | (none)          | (01/92)            | (WITHDRAWN) Sky-Wave Field-Strength Prediction Method for the Broadcasting Service in the Frequency Range 150 to 1 600 kHz Section 6D - Ionospheric Propagation Prediction at Frequencies Below About 1.6 MHz
-P.452-14                 | (none)          | (10/09)            | Prediction procedure for the evaluation of interference between stations on the surface of the Earth at frequencies above about 0.1 GHz
 P.452-14-2009            | (none)          | (10/09)            | Prediction procedure for the evaluation of interference between stations on the surface of the Earth at frequencies above about 0.1 GHz
 P.452-16-2015            | (none)          | (07/15)            | Méthode de prédiction pour évaluer les brouillages entre stations situées à la surface de la Terre à des fréquences supérieures à 0,1 GHz environ Série P Propagation des
 P.452-16-2015            | (none)          | (07/15)            | Prediction procedure for the evaluation of interference between stations on the surface of the Earth at frequencies above about 0.1 GHz
-P.453-10                 | (none)          | (02/12)            | Índice de refracción radioeléctrica: su fórmula y datos sobre la refractividad
-P.453-10                 | (none)          | (02/12)            | The radio refractive index: its formula and refractivity data
 P.453-10-2012            | (none)          | (02/12)            | The radio refractive index: its formula and refractivity data
 P.453-14-2019            | (none)          | (08/19)            | The radio refractive index: its formula and refractivity data
-P.453-9                  | (none)          | (01/03)            | The radio refractive index: its formula and refractivity data
 P.453-9-2003             | (none)          | (01/03)            | The radio refractive index: its formula and refractivity data - Question ITU-R 201/3
-P.48                     | (none)          | (11/88)            | SPECIFICATION FOR AN INTERMEDIATE REFERENCE SYSTEM
 P.48-1988                | (none)          | (11/88)            | SPECIFICATION FOR AN INTERMEDIATE REFERENCE SYSTEM
-P.50                     | (none)          | (09/99)            | Artificial voices
 P.50 NOTE                | (none)          | (05/00)            | Artificial voices
 P.50 NOTE-2000           | (none)          | (05/00)            | Artificial voices
 P.50-1999                | (none)          | (09/99)            | Artificial Voices - Study Group 12; Covering note: 5/25/2000
@@ -6857,67 +6497,45 @@ P.501 ANNEX B-2004       | (none)          | (05/04)            | Speech Files a
 P.501-2000               | (none)          | (05/00)            | Test Signals for Use in Telephonometry - Series P: Telephone Transmission Quality, Local Line Networks Objective Measuring Apparatus
 P.501-2009               | (none)          | (12/09)            | Test signals for use in telephonometry
 P.501-2020               | (none)          | (04/20)            | Test signals for use in telephony and other speech-based applications
-P.502                    | (none)          | (05/00)            | Objective test methods for speech communication systems using complex test signals
 P.502 AMD 1-2010         | (none)          | (05/10)            | Objective test methods for speech communication systems using complex test signals Amendment 1
 P.502 AMD 1-2010         | (none)          | (05/10)            | Objective test methods for speech communication systems using complex test signals Amendment 1: New Appendix III – Automated double talk analysis procedure
 P.502 NOTE               | (none)          | (07/01)            | Objective test methods for speech communication systems using complex test signals
 P.502 NOTE-2001          | (none)          | (07/01)            | Objective test methods for speech communication systems using complex test signals
 P.502-2000               | (none)          | (05/00)            | Objective Test Methods for Speech Communication Systems Using Complex Test Signals Series P: Telephone Transmission Quality, Telephone Installations, Local Line Networks Objective Measuring Apparatus
-P.505                    | (none)          | (11/05)            | One-view visualization of speech quality measurement results
 P.505 AMD 1-2012         | (none)          | (06/12)            | One-view visualization of speech quality measurements results Amendment 1: New Appendix II – Online tool for quality pie charts
 P.505-2005               | (none)          | (11/05)            | One-view visualization of speech quality measurement results
-P.51                     | (none)          | (08/96)            | ARTIFICIAL MOUTH
 P.51-1996                | (none)          | (08/96)            | Artificial Mouth - Series P: Telephone Transmission Quality Objective Measuring Apparatus - Study Group 12; 14 pp
-P.52                     | (none)          | (03/93)            | VOLUME METERS
 P.52-1993                | (none)          | (03/93)            | Volume Meters - Telephone Transmission Quality - Objective Measuring Apparatus (Study Group XII) 5 pp
-P.525-2                  | (none)          | (01/94)            | Calculation of Free-Space Attentuation
 P.525-2-1994             | (none)          | (01/94)            | Calculation of Free-Space Attentuation
 P.525-4-2019             | (none)          | (08/19)            | Calculation of free-space attenuation
-P.526-11                 | (none)          | (10/09)            | Propagation by diffraction
 P.526-11-2009            | (none)          | (10/09)            | Propagation by diffraction
 P.526-12-2012            | (none)          | (02/12)            | Propagation by diffraction
 P.526-15-2019            | (none)          | (10/19)            | Propagation by diffraction
-P.527-3                  | (none)          | (01/92)            | Electrical Characteristics of the Surface of the Earth
 P.527-3-1992             | (none)          | (01/92)            | Electrical Characteristics of the Surface of the Earth
 P.527-5-2019             | (none)          | (08/19)            | Electrical characteristics of the surface of the Earth
-P.528-2                  | (none)          | (01/86)            | Propagation curves for aeronautical mobile and radionavigation services using the VHF, UHF and SHF bands
 P.528-2-1986             | (none)          | (01/86)            | Propagation Curves for Aeronautical Mobile and Radionavigation Services Using the VHF, UHF and SHF Bands - Section 5D - Aspects Relative to the Terrestrial Broadcasting and Mobile Services
 P.528-3-2012             | (none)          | (02/12)            | Propagation curves for aeronautical mobile and radionavigation services using the VHF, UHF and SHF bands
 P.528-4-2019             | (none)          | (08/19)            | A propagation prediction method for aeronautical mobile and radionavigation services using the VHF, UHF and SHF bands
-P.529-3                  | (none)          | (01/99)            | Prediction Methods for the Terrestrial Land Mobile Service in the VHF and UHF Bands
-P.529-3                  | (none)          | (01/99)            | PREDICTION METHODS FOR THE TERRESTRIAL LAND MOBILE SERVICE IN THE VHF AND UHF BANDS
 P.529-3-1999             | (none)          | (01/99)            | Prediction Methods for the Terrestrial Land Mobile Service in the VHF and UHF Bands
 P.53-1989                | (none)          | (01/89)            | Psophometers (Apparatus for the Objective Measurement of Circuit Noise) - Telephone Transmission Quality (Study Group XII) 1 pp
-P.530-13                 | (none)          | (10/09)            | Propagation data and prediction methods required for the design of terrestrial line-of-sight systems
 P.530-13-2009            | (none)          | (10/09)            | Propagation data and prediction methods required for the design of terrestrial line-of-sight systems
 P.530-14-2012            | (none)          | (02/12)            | Propagation data and prediction methods required for the design of terrestrial line-of-sight systems
 P.530-17-2017            | (none)          | (12/17)            | Propagation data and prediction methods required for the design of terrestrial line-of-sight systems
-P.531-10                 | (none)          | (10/09)            | Ionospheric propagation data and prediction methods required for the design of satellite services and systems
 P.531-10-2009            | (none)          | (10/09)            | Ionospheric propagation data and prediction methods required for the design of satellite services and systems
 P.531-11-2012            | (none)          | (01/12)            | Ionospheric propagation data and prediction methods required for the design of satellite services and systems
 P.531-14-2019            | (none)          | (08/19)            | Ionospheric propagation data and prediction methods required for the design of satellite networks and systems
-P.532-1                  | (none)          | (01/92)            | Ionospheric Effects and Operational Considerations Associated with Artificial Modification of the Ionosphere and the Radio-Wave Channel
 P.532-1-1992             | (none)          | (01/92)            | Ionospheric Effects and Operational Considerations Associated with Artificial Modification of the Ionosphere and the Radio-Wave Channel Section 6A - Ionospheric Properties
-P.533-10                 | (none)          | (10/09)            | Method for the prediction of the performance of HF circuits
 P.533-10-2009            | (none)          | (10/09)            | Method for the prediction of the performance of HF circuits
 P.533-11-2012            | (none)          | (02/12)            | Method for the prediction of the performance of HF circuits
 P.533-14-2019            | (none)          | (08/19)            | Method for the prediction of the performance of HF circuits
-P.534-4                  | (none)          | (01/99)            | METHOD FOR CALCULATING SPORADIC-E FIELD STRENGTH
 P.534-4-1999             | (none)          | (01/99)            | Method for Calculating Sporadic-E Field Strength
 P.534-5-2012             | (none)          | (02/12)            | Method for calculating sporadic-E field strength
-P.54                     | (none)          | (11/88)            | SOUND LEVEL METERS (APPARATUS FOR THE OBJECTIVE MEASUREMENT OF ROOM NOISE)
 P.54-1988                | (none)          | (11/88)            | SOUND LEVEL METERS (APPARATUS FOR THE OBJECTIVE MEASUREMENT OF ROOM NOISE)
-P.55                     | (none)          | (11/88)            | APPARATUS FOR THE MEASUREMENT OF IMPULSIVE NOISE
 P.55-1988                | (none)          | (11/88)            | APPARATUS FOR THE MEASUREMENT OF IMPULSIVE NOISE
-P.56                     | (none)          | (03/93)            | OBJECTIVE MEASUREMENT OF ACTIVE SPEECH LEVEL
 P.56-1993                | (none)          | (03/93)            | Objective Measurement of Active Speech Level - Telephone Transmission Quality Objective Measuring Apparatus (Study Group XII) 15 pp
 P.56-2011                | (none)          | (03/11)            | Objective measurement of active speech level
-P.561                    | (none)          | (07/02)            | In-Service Non-Intrusive Measurement Device - Voice Service Measurements
 P.561-2002               | (none)          | (07/02)            | In-Service Non-Intrusive Measurement Device - Voice Service Measurements
-P.562                    | (none)          | (05/04)            | Analysis and interpretation of INMD voice-service measurements
 P.562-2004               | (none)          | (05/04)            | Analysis and interpretation of INMD voice-service measurements SERIES P: TELEPHONE TRANSMISSION QUALITY, TELEPHONE INSTALLATIONS, LOCAL LINE NETWORKS Objective measuring apparatus
-P.563                    | (none)          | (05/04)            | Método basado en un solo extremo para la evaluación objetiva de la calidad vocal en aplicaciones de telefonía de banda estrecha
-P.563                    | (none)          | (05/04)            | Single-ended method for objective speech quality assessment in narrow-band telephony applications
 P.563 NOTE-2007          | (none)          | (10/07)            | Single-ended method for objective speech quality assessment in narrow-band telephony applications Erratum 1
 P.563-2004               | (none)          | (05/04)            | Single-ended method for objective speech quality assessment in narrow-band telephony applications SERIES P: TELEPHONE TRANSMISSION QUALITY, TELEPHONE INSTALLATIONS, LOCAL LINE NETWORKS Objective measuring apparatus
 P.564-2007               | (none)          | (11/07)            | Conformance testing for voice over IP transmission quality assessment models
@@ -6928,84 +6546,57 @@ P.57-2009                | (none)          | (04/09)            | Artificial ear
 P.57-2011                | (none)          | (12/11)            | Artificial ears
 P.57-2021                | (none)          | (06/21)            | Artificial ears
 P.570-2018               | (none)          | (06/18)            | Artificial noise fields under laboratory conditions
-P.58                     | (none)          | (08/96)            | HEAD AND TORSO SIMULATOR FOR TELEPHONOMETRY
 P.58 NOTE-2003           | (none)          | (01/03)            | Head and torso simulator for telephonometry
 P.58 NOTE-2008           | (none)          | (07/08)            | Head and torso simulator for telephonometry
 P.58-1996                | (none)          | (08/96)            | Head and Torso Simulator for Telephonometry - Series P: Telephone Transmission Quality; Objective Measuring Apparatus
 P.58-2011                | (none)          | (12/11)            | Head and torso simulator for telephonometry
 P.58-2013                | (none)          | (05/13)            | Head and torso simulator for telephonometry
 P.58-2021                | (none)          | (06/21)            | Head and torso simulator for telephonometry
-P.581                    | (none)          | (05/00)            | Use of head and torso simulator (HATS) for hands-free terminal testing
 P.581-2009               | (none)          | (12/09)            | Use of head and torso simulator (HATS) for hands-free and handset terminal testing
 P.581-2014               | (none)          | (02/14)            | Use of head and torso simulator for hands-free and handset terminal testing
-P.59                     | (none)          | (03/93)            | ARTIFICIAL CONVERSATIONAL SPEECH
 P.59-1993                | (none)          | (03/93)            | ARTIFICIAL CONVERSATIONAL SPEECH
-P.61                     | (none)          | (11/88)            | METHODS FOR THE CALIBRATION OF CONDENSER MICROPHONES
 P.61-1988                | (none)          | (11/88)            | METHODS FOR THE CALIBRATION OF CONDENSER MICROPHONES
-P.616                    | (none)          | (01/86)            | PROPAGATION DATA FOR TERRESTRIAL MARITIME MOBILE SERVICES OPERATING AT FREQUENCIES ABOVE 30 MHz
 P.616-1986               | (none)          | (01/86)            | PROPAGATION DATA FOR TERRESTRIAL MARITIME MOBILE SERVICES OPERATING AT FREQUENCIES ABOVE 30 MHz
-P.617-1                  | (none)          | (01/92)            | PROPAGATION PREDICTION TECHNIQUES AND DATA REQUIRED FOR THE DESIGN OF TRANS-HORIZON RADIO-RELAY SYSTEMS
 P.617-1-1992             | (none)          | (01/92)            | PROPAGATION PREDICTION TECHNIQUES AND DATA REQUIRED FOR THE DESIGN OF TRANS-HORIZON RADIO-RELAY SYSTEMS
 P.617-2-2012             | (none)          | (02/12)            | Propagation prediction techniques and data required for the design of trans-horizon radio-relay systems
-P.617-4                  | (none)          | (12/17)            | Propagation prediction techniques and data required for the design of trans-horizon radio-relay systems
 P.617-4-2017             | (none)          | (12/17)            | Techniques de prévision de la propagation et données de propagation nécessaires pour la conception des faisceaux hertziens transhorizon
 P.617-5-2019             | (none)          | (08/19)            | Propagation prediction techniques and data required for the design of trans-horizon radio-relay systems
-P.618-10                 | (none)          | (10/09)            | Propagation data and prediction methods required for the design of Earth-space telecommunication systems
 P.618-10-2009            | (none)          | (10/09)            | Propagation data and prediction methods required for the design of Earth-space telecommunication systems
-P.618-13                 | (none)          | (12/17)            | Propagation data and prediction methods required for the design of Earth-space telecommunication systems
 P.618-13-2017            | (none)          | (12/17)            | Propagation data and prediction methods required for the design of Earth-space telecommunication systems
-P.619-1                  | (none)          | (01/92)            | PROPAGATION DATA REQUIRED FOR THE EVALUATION OF INTERFERENCE BETWEEN STATIONS IN SPACE AND THOSE ON THE SURFACE OF THE EARTH
 P.619-1-1992             | (none)          | (01/92)            | PROPAGATION DATA REQUIRED FOR THE EVALUATION OF INTERFERENCE BETWEEN STATIONS IN SPACE AND THOSE ON THE SURFACE OF THE EARTH
 P.619-4-2019             | (none)          | (08/19)            | Propagation data required for the evaluation of interference between stations in space and those on the surface of the Earth
-P.62                     | (none)          | (03/93)            | MEASUREMENTS ON SUBSCRIBERS' TELEPHONE EQUIPMENT
 P.62-1993                | (none)          | (03/93)            | MEASUREMENTS ON SUBSCRIBERS' TELEPHONE EQUIPMENT
-P.620-6                  | (none)          | (01/05)            | Propagation data required for the evaluation of coordination distances in the frequency range 100 MHz to 105 GHz
 P.620-6-2005             | (none)          | (01/05)            | Propagation data required for the evaluation of coordination distances in the frequency range 100 MHz to 105 GHz - (Question ITU-R 208/3)
-P.620-7                  | (none)          | (06/17)            | Propagation data required for the evaluation of coordination distances in the frequency range 100 MHz to 105 GHz
 P.620-7-2017             | (none)          | (06/17)            | Propagation data required for the evaluation of coordination distances in the frequency range 100 MHz to 105 GHz
 P.63-1989                | (none)          | (01/89)            | Methods for the Evaluation of Transmission Quality on the Basis of Objective Measurements - Telephone Transmission Quality - Study Group XII; 1 pp
 P.64-2007                | (none)          | (11/07)            | Determination of sensitivity/frequency characteristics of local telephone systems
 P.64-2019                | (none)          | (06/19)            | Determination of sensitivity/frequency characteristics of local telephone systems
-P.65                     | (none)          | (03/93)            | OBJECTIVE INSTRUMENTATION FOR THE DETERMINATION OF LOUDNESS RATINGS
 P.65-1993                | (none)          | (01/93)            | Objective Instrumentation for the Determination of Loudness Ratings - Telephone Transmission Quality Objective Electro-Acoustical Measurements (Study Group XII) 8 pp
 P.66-1993                | (none)          | (01/93)            | Methods for Evaluating the Transmission Performance of Digital Telephone Sets - Telephone Transmission Quality - Objective Electro-Acoustical Measurements - Study Group XII; 15 pp; Cancelled
 P.676-12-2019            | (none)          | (08/19)            | Attenuation by atmospheric gases and related effects
-P.676-8                  | (none)          | (10/09)            | Attenuation by atmospheric gases
 P.676-8-2009             | (none)          | (10/09)            | Attenuation by atmospheric gases
 P.676-9-2012             | (none)          | (02/12)            | Attenuation by atmospheric gases
-P.678-1                  | (none)          | (01/92)            | CHARACTERIZATION OF THE NATURAL VARIABILITY OF PROPAGATION PHENOMENA
 P.678-1-1992             | (none)          | (01/92)            | CHARACTERIZATION OF THE NATURAL VARIABILITY OF PROPAGATION PHENOMENA
 P.678-3-2015             | (none)          | (07/15)            | Characterization of the variability of propagation phenomena and estimation of the risk associated with propagation margin
-P.679-3                  | (none)          | (01/01)            | Propagation Data Required for the Design of Broadcasting-Satellite Systems
 P.679-3-2001             | (none)          | (01/01)            | Propagation Data Required for the Design of Broadcasting-Satellite Systems
-P.679-4                  | (none)          | (07/15)            | Propagation data required for the design of broadcasting-satellite systems
 P.679-4-2015             | (none)          | (07/15)            | Propagation data required for the design of broadcasting-satellite systems
-P.680-3                  | (none)          | (01/99)            | PROPAGATION DATA REQUIRED FOR THE DESIGN OF EARTH-SPACE MARITIME MOBILE TELECOMMUNICATION SYSTEMS
 P.680-3-1999             | (none)          | (01/99)            | Propagation Data Required for the Design of Earth-Space Maritime Mobile Telecommunication Systems
 P.681-11-2019            | (none)          | (08/19)            | Propagation data required for the design systems in the land mobile-satellite service
-P.681-7                  | (none)          | (10/09)            | Propagation data required for the design of Earth-space land mobile telecommunication systems
 P.681-7-2009             | (none)          | (10/09)            | Propagation data required for the design of Earth-space land mobile telecommunication systems
-P.682-2                  | (none)          | (01/07)            | Propagation data required for the design of Earth-space aeronautical mobile telecommunication systems
 P.682-2-2007             | (none)          | (01/07)            | Propagation Data Required for the Design of Earth-Space Aeronautical Mobile Telecommunication Systems
 P.682-3-2012             | (none)          | (02/12)            | Propagation data required for the design of Earth-space aeronautical mobile telecommunication systems
-P.684-5                  | (none)          | (10/09)            | Prediction of field strength at frequencies below about 150 kHz
 P.684-5-2009             | (none)          | (10/09)            | Prediction of field strength at frequencies below about 150 kHz
 P.684-6-2012             | (none)          | (02/12)            | Prediction of field strength at frequencies below about 150 kHz
 P.684-7-2016             | (none)          | (09/16)            | Prediction of field strength at frequencies below about 150 kHz
 P.700-2019               | (none)          | (06/19)            | Calculation of loudness for speech communication
 P.700-2021               | (none)          | (06/21)            | Calculation of loudness for speech communication
-P.75                     | (none)          | (11/88)            | STANDARD CONDITIONING METHOD FOR HANDSETS WITH CARBON MICROPHONES
 P.75-1988                | (none)          | (11/88)            | STANDARD CONDITIONING METHOD FOR HANDSETS WITH CARBON MICROPHONES
-P.76                     | (none)          | (11/88)            | DETERMINATION OF LOUDNESS RATINGS; FUNDAMENTAL PRINCIPLES
 P.76-1988                | (none)          | (11/88)            | DETERMINATION OF LOUDNESS RATINGS; FUNDAMENTAL PRINCIPLES
-P.78                     | (none)          | (02/96)            | Subjective Testing Method for Determination of Loudness Ratings in Accordance with Recommendation P.76
 P.78-1996                | (none)          | (02/96)            | Subjective Testing Method for Determination of Loudness Ratings in Accordance with Recommendation P.76 - Telephone Transmission Quality Measurements Related to Speech Loudness - Study Group 12; 21 pp
 P.79 ANNEX G             | (none)          | (11/01)            | Calculation of loudness ratings for telephone sets Annex G: Wideband loudness rating algorithm
 P.79-2007                | (none)          | (11/07)            | Calculation of loudness ratings for telephone sets
 P.80-1993                | (none)          | (01/93)            | Methods for Subjective Determination of Transmission Quality - Telephone Transmission Quality - Subjective Opinion Tests - Study Group XII; 24 pp; Cancelled
-P.800                    | (none)          | (08/96)            | Methods for Subjective Determination of Transmission Quality
 P.800-1996               | (none)          | (08/96)            | Methods for Subjective Determination of Transmission Quality - Series P: Telephone Transmission Quality; Methods for Objective and Subjective Assessment of Quality - Study Group 12; 38 pp
-P.800.1                  | (none)          | (07/06)            | Mean Opinion Score (MOS) terminology
 P.800.1-2006             | (none)          | (07/06)            | Mean Opinion Score (MOS) terminology
 P.800.1-2016             | (none)          | (07/16)            | Mean opinion score (MOS) terminology
 P.800.2-2016             | (none)          | (07/16)            | Mean opinion score interpretation and reporting
@@ -7016,102 +6607,66 @@ P.807-2016               | (none)          | (02/16)            | Subjective tes
 P.808-2018               | (none)          | (06/18)            | Subjective evaluation of speech quality with a crowdsourcing approach
 P.808-2021               | (none)          | (06/21)            | Subjective evaluation of speech quality with a crowdsourcing approach
 P.809-2018               | (none)          | (06/18)            | Subjective evaluation methods for gaming quality
-P.81                     | (none)          | (03/93)            | Modulated Noise Reference Unit (MNRU)
 P.81-1993                | (none)          | (03/93)            | Modulated Noise Reference Unit (MNRU) - Telephone Transmission Quality Subjective Opinion Tests - Study Group XII; 8 pp; Cancelled
-P.810                    | (none)          | (02/96)            | MODULATED NOISE REFERENCE UNIT (MNRU)
 P.810-1996               | (none)          | (01/96)            | Modulated Noise Reference Unit (MNRU) - Telephone Transmission Quality Methods for Objective and Subjective Assessment of Quality (Study Group 12) 14 pp
 P.811-2019               | (none)          | (01/19)            | Subjective test methodology for evaluating Speech oriented stereo communication systems over headphones
-P.82                     | (none)          | (11/88)            | METHOD FOR EVALUATION OF SERVICE FROM THE STANDPOINT OF SPEECH TRANSMISSION QUALITY
 P.82-1988                | (none)          | (11/88)            | METHOD FOR EVALUATION OF SERVICE FROM THE STANDPOINT OF SPEECH TRANSMISSION QUALITY
-P.83                     | (none)          | (03/93)            | SUBJECTIVE PERFORMANCE ASSESSMENT OF TELEPHONE-BAND AND WIDEBAND DIGITAL CODECS
 P.83-1993                | (none)          | (01/93)            | Subjective Performance Assessment of Telephone-Band and Wideband Digital Codecs - Telephone Transmission Quality Subjective Opinion Tests - Study Group XII; 18 pp; Cancelled
-P.830                    | (none)          | (02/96)            | SUBJECTIVE PERFORMANCE ASSESSMENT OF TELEPHONE-BAND AND WIDEBAND DIGITAL CODECS
 P.830-1996               | (none)          | (01/96)            | Subjective Performance Assessment of Telephone- Band and Wideband Digital Codecs - Telephone Transmission Quality Methods for Objective and Subjective Assessment of Quality (Study Group 12) 27 pp
-P.831                    | (none)          | (12/98)            | Subjective performance evaluation of network echo cancellers
 P.831-1998               | (none)          | (12/98)            | Subjective Performance Evaluation of Network Echo Cancellers - Series P: Telephone Transmission Quality, Telephone Installations, Local Line Networks Methods for Objective and Subjective Assessment of Quality - Study Group 12; 33 pp
-P.832                    | (none)          | (05/00)            | Subjective performance evaluation of hands-free terminals
-P.832-2                  | (none)          | (01/99)            | WORLD ATLAS OF GROUND CONDUCTIVITIES
 P.832-2-1999             | (none)          | (01/99)            | World Atlas of Ground Conductivities
 P.832-2000               | (none)          | (05/00)            | Subjective Performance Evaluation of Hands-Free Terminals Series P: Telephone Transmission Quality, Telephone Installations, Local Line Networks Methods for Objective and Subjective Assessment of Quality
 P.832-3-2012             | (none)          | (02/12)            | World atlas of ground conductivities
 P.832-4-2015             | (none)          | (07/15)            | World atlas of ground conductivities
-P.833                    | (none)          | (02/01)            | Methodology for derivation of equipment impairment factors from subjective listening-only tests
 P.833-2001               | (none)          | (02/01)            | Methodology for Derivation of Equipment Impairment Factors from Subjective Listening-Only Tests Series P: Telephone Transmission Quality Telephone Installations, Local Line Networks Methods for Objective and Subjective Assessment of Quality
-P.833-6                  | (none)          | (01/07)            | Attenuation in vegetation
 P.833-6-2007             | (none)          | (01/07)            | Attenuation in vegetation
 P.833-7-2012             | (none)          | (02/12)            | Attenuation in vegetation
 P.833-9-2016             | (none)          | (09/16)            | Attenuation in vegetation
 P.833.1-2009             | (none)          | (04/09)            | Methodology for the derivation of equipment impairment factors from subjective listening-only tests for wideband speech codecs
-P.834                    | (none)          | (07/02)            | Methodology for the derivation of equipment impairment factors from instrumental models
 P.834 NOTE               | (none)          | (01/05)            | Methodology for the derivation of equipment impairment factors from instrumental models
 P.834 NOTE-2005          | (none)          | (01/05)            | Methodology for the derivation of equipment impairment factors from instrumental models
 P.834-2002               | (none)          | (07/02)            | Methodology for the derivation of equipment impairment factors from instrumental models SERIES P: TELEPHONE TRANSMISSION QUALITY, TELEPHONE INSTALLATIONS, LOCAL LINE NETWORKS Methods for objective and subjective assessment of quality - Study Group 12; COVERING NOTE: CORRIGENDUM 1 01/27/2005
 P.834-2015               | (none)          | (06/15)            | Methodology for the derivation of equipment impairment factors from instrumental models
-P.834-6                  | (none)          | (01/07)            | Effects of tropospheric refraction on radiowave propagation
 P.834-6-2007             | (none)          | (01/07)            | Effects of tropospheric refraction on radiowave propagation
 P.834-9-2017             | (none)          | (12/17)            | Effects of tropospheric refraction on radiowave propagation
 P.834.1-2009             | (none)          | (04/09)            | Extension of the methodology for the derivation of equipment impairment factors from instrumental models for wideband speech codecs
 P.834.1-2015             | (none)          | (06/15)            | Extension of the methodology for the derivation of equipment impairment factors from instrumental models for wideband speech codecs
-P.835                    | (none)          | (11/03)            | Subjective test methodology for evaluating speech communication systems that include noise suppression algorithm
 P.835 AMD 1-2007         | (none)          | (10/07)            | Subjective test methodology for evaluating speech communication systems that include noise suppression algorithm Amendment 1: New Appendix III 鈥?Additional provisions for nonstationary noise suppressors
 P.835 CORR 1-2011        | (none)          | (01/11)            | Subjective test methodology for evaluating speech communication systems that include noise suppression algorithm Corrigendum 1
 P.835 NOTE               | (none)          | (05/08)            | Subjective test methodology for evaluating speech communication systems that include noise suppression algorithm
 P.835-2003               | (none)          | (11/03)            | Subjective test methodology for evaluating speech communication systems that include noise suppression algorithm SERIES P: TELEPHONE TRANSMISSION QUALITY, TELEPHONE INSTALLATIONS, LOCAL LINE NETWORKS Methods for objective and subjective assessment of quality
-P.835-4                  | (none)          | (01/05)            | Reference standard atmospheres
 P.835-4-2005             | (none)          | (01/05)            | Reference standard atmospheres
 P.835-5-2012             | (none)          | (02/12)            | Reference standard atmospheres
 P.835-6-2017             | (none)          | (12/17)            | Reference standard atmospheres
-P.836-4                  | (none)          | (10/09)            | Water vapour: surface density and total columnar content
 P.836-4-2009             | (none)          | (10/09)            | Water vapour: surface density and total columnar content
 P.836-6-2017             | (none)          | (12/17)            | Water vapour: surface density and total columnar content
-P.837-5                  | (none)          | (01/07)            | Characteristics of precipitation for propagation modelling
 P.837-5-2007             | (none)          | (01/07)            | Characteristics of precipitation for propagation modelling
 P.837-6-2012             | (none)          | (02/12)            | Characteristics of precipitation for propagation modelling
-P.837-7                  | (none)          | (06/17)            | Características de la precipitación para establecer modelos de propagación Serie P Propagación de
-P.837-7                  | (none)          | (06/17)            | Caractéristiques des précipitations pour la modélisation de la propagation
 P.837-7-2017             | (none)          | (06/17)            | Characteristics of precipitation for propagation modelling
-P.838-3                  | (none)          | (01/05)            | Specific attenuation model for rain for use in prediction methods
 P.838-3-2005             | (none)          | (01/05)            | Specific attenuation model for rain for use in prediction methods - Question ITU-R 201/3
-P.839-3                  | (none)          | (01/01)            | Rain height model for prediction methods
 P.839-3-2001             | (none)          | (01/01)            | Rain Height Model for Prediction Methods
 P.839-4-2013             | (none)          | (09/13)            | Rain height model for prediction methods
-P.84                     | (none)          | (03/93)            | SUBJECTIVE LISTENING TEST METHOD FOR EVALUATING DIGITAL CIRCUIT MULTIPLICATION AND PACKETIZED VOICE SYSTEMS
 P.84-1993                | (none)          | (01/93)            | Subjective Listening Test Method for Evaluating Digital Circuit Multiplication and Packetized Voice Systems - Telephone Transmission Quality Subjective Opinion Tests (Study Group XII) 22 pp
-P.840                    | (none)          | (11/03)            | Subjective listening test method for evaluating circuit multiplication equipment
 P.840-2003               | (none)          | (11/03)            | Subjective listening test method for evaluating circuit multiplication equipment SERIES P: TELEPHONE TRANSMISSION QUALITY, TELEPHONE INSTALLATIONS, LOCAL LINE NETWORKS Methods for objective and subjective assessment of quality
-P.840-4                  | (none)          | (10/09)            | Attenuation due to clouds and fog
 P.840-4-2009             | (none)          | (10/09)            | Attenuation due to clouds and fog
 P.840-5-2012             | (none)          | (02/12)            | Attenuation due to clouds and fog
 P.840-8-2019             | (none)          | (08/19)            | Attenuation due to clouds and fog
-P.841-4                  | (none)          | (01/05)            | Conversion of annual statistics to worst-month statistics
 P.841-4-2005             | (none)          | (01/05)            | Conversion of annual statistics to worst-month statistics
 P.841-6-2019             | (none)          | (08/19)            | Conversion of annual statistics to worst-month statistics
-P.842-4                  | (none)          | (01/07)            | Computation of reliability and compatibility of HF radio systems
-P.842-4                  | (none)          | (01/07)            | Computation of Reliability and Compatibility of HF Radio Systems
 P.842-4-2007             | (none)          | (01/07)            | Computation of Reliability and Compatibility of HF Radio Systems
 P.842-5-2013             | (none)          | (09/13)            | Computation of reliability and compatibility of HF radio systems
-P.843-1                  | (none)          | (01/97)            | Communication by Meteor-Burst Propagation
-P.843-1                  | (none)          | (01/97)            | COMMUNICATION BY METEOR-BURST PROPAGATION
 P.843-1-1997             | (none)          | (01/97)            | Communication by Meteor-Burst Propagation
-P.844-1                  | (none)          | (01/94)            | IONOSPHERIC FACTORS AFFECTING FREQUENCY SHARING IN THE VHF AND UHF BANDS (30 MHz-3 GHz)
 P.844-1-1994             | (none)          | (01/94)            | Ionospheric Factors Affecting Frequency Sharing in the VHF and UHF Bands (30 MHz-3 GHz)
-P.845-3                  | (none)          | (01/97)            | HF FIELD-STRENGTH MEASUREMENT
 P.845-3-1997             | (none)          | (01/97)            | HF Field-Strength Measurement
-P.846-1                  | (none)          | (01/95)            | MEASUREMENTS OF IONOSPHERIC AND RELATED CHARACTERISTICS
 P.846-1-1995             | (none)          | (01/95)            | MEASUREMENTS OF IONOSPHERIC AND RELATED CHARACTERISTICS
-P.85                     | (none)          | (06/94)            | A METHOD FOR SUBJECTIVE PERFORMANCE ASSESSMENT OF THE QUALITY OF SPEECH VOICE OUTPUT DEVICES
 P.85-1994                | (none)          | (06/94)            | Method for Subjective Performance Assessment of the Quality of Speech Voice Output Devices - Telephone Transmission Quality Subjective Opinion Tests - Study Group 12; 13 pp
-P.851                    | (none)          | (11/03)            | Subjective quality evaluation of telephone services based on spoken dialogue systems
 P.851-2003               | (none)          | (11/03)            | Subjective quality evaluation of telephone services based on spoken dialogue systems SERIES P: TELEPHONE TRANSMISSION QUALITY, TELEPHONE INSTALLATIONS, LOCAL LINE NETWORKS Methods for objective and subjective assessment of quality
-P.861                    | (none)          | (08/96)            | Objective quality measurement of telephoneband (300 - 3400 Hz) speech codecs
 P.861-1998               | (none)          | (02/98)            | Objective Quality Measurement of Telephone-Band (300 - 3400 Hz) Speech Codecs - Series P: Telephone Transmission Quality, Telephone Installations, Local Line Networks - Methods for Objective and Subjective Assessment of Quality - Study Group 12; 42 pp
-P.862                    | (none)          | (02/01)            | Perceptual evaluation of speech quality (PESQ): An objective method for end-to-end speech quality assessment of narrow-band telephone networks and speech codecs
 P.862 AMD 1-2003         | (none)          | (03/03)            | Perceptual evaluation of speech quality (PESQ): An objective method for end-to-end speech quality assessment of narrow-band telephone networks and speech codecs Amendment 1: Revised Annex A: Source code for reference implementation and conformance tests SERIES P: TELEPHONE TRANSMISSION QUALITY, TELEPHONE INSTALLATIONS, LOCAL LINE NETWORKS Methods for objective and subjective assessment of quality
 P.862 AMD 2              | (none)          | (11/05)            | Perceptual evaluation of speech quality (PESQ): An objective method for end-to-end speech quality assessment of narrow-band telephone networks and speech codecs Amendment 2: Revised Annex A 鈥?Reference implementations and conformance testing for ITU-T Recs P.862, P.862.1 and P.862.2
 P.862 AMD 2-2005         | (none)          | (11/05)            | Perceptual evaluation of speech quality (PESQ): An objective method for end-to-end speech quality assessment of narrow-band telephone networks and speech codecs Amendment 2: Revised Annex A 鈥?Reference implementations and conformance testing for ITU-T Recs P.862, P.862.1 and P.862.2
 P.862 CORR 1-2007        | (none)          | (10/07)            | Perceptual evaluation of speech quality (PESQ): An objective method for end-to-end speech quality assessment of narrow-band telephone networks and speech codecs Corrigendum 1
 P.862-2001               | (none)          | (02/01)            | Perceptual evaluation of speech quality (PESQ): An objective method for end-to-end speech quality assessment of narrow-band telephone networks and speech codecs--SERIES P: TELEPHONE TRANSMISSION QUALITY, TELEPHONE INSTALLATIONS, LOCAL LINE NETWORKS Methods for objective and subjective assessment of quality - Study Group 12; *** For (SDO) Subscription Customers Only, To Obtain your Complimentary Copy Contact IHS at 1-800-854-7179 USA/Canada or 303-397-7956 Worldwide***.
-P.862.1                  | (none)          | (11/03)            | Mapping function for transforming P.862 raw result scores to MOS-LQO
 P.862.1-2003             | (none)          | (11/03)            | Mapping function for transforming P.862 raw result scores to MOS-LQO
 P.862.2-2007             | (none)          | (11/07)            | Wideband extension to Recommendation P.862 for the assessment of wideband telephone networks and speech codecs
 P.862.3 CORR 1-2011      | (none)          | (11/11)            | Application guide for objective quality measurement based on Recommendations P.862, P.862.1 and P.862.2 Corrigendum 1
@@ -7122,11 +6677,8 @@ P.863-2011               | (none)          | (01/11)            | Perceptual obj
 P.863-2011               | (none)          | (01/11)            | Perceptual Objective Listening Quality Assessment An advanced objective perceptual method for end-to-end listening speech quality evaluation of fixed, mobile, and IP-based networks and speech codecs covering narrowband, wideband, and super
 P.863-2018               | (none)          | (03/18)            | Perceptual objective listening quality prediction
 P.863.1-2019             | (none)          | (06/19)            | Application guide for Recommendation ITU-T P.863
-P.880                    | (none)          | (05/04)            | Continuous evaluation of time varying speech quality
-P.880                    | (none)          | (05/04)            | Continuous evaluation of time varying speech quality quality
 P.880-2004               | (none)          | (05/04)            | Continuous evaluation of time varying speech quality quality
 P.910-2008               | (none)          | (04/08)            | Subjective video quality assessment methods for multimedia applications
-P.911                    | (none)          | (12/98)            | Subjective audiovisual quality assessment methods for multimedia applications
 P.911 CORR 1             | (none)          | (09/99)            | Subjective Audiovisual Quality Assessment Methods for Multimedia Applications Corrigendum 1
 P.911 CORR 1-1999        | (none)          | (09/99)            | Subjective Audiovisual Quality Assessment Methods for Multimedia Applications - Corrigendum 1 - Series P: Telephone Transmission Quality, Telephone Installations, Local Line Networks - Audiovisual Quality in Multimedia Services - Study Group 12; 7 pp
 P.911-1998               | (none)          | (12/98)            | Subjective Audiovisual Quality Assessment Methods for Multimedia Applications - Series P: Telephone Transmission Quality, Telephone Installations, Local Line Networks Audiovisual Quality in Multimedia Services - Study Group 12; 27 pp
@@ -7140,19 +6692,13 @@ P.916-2016               | (none)          | (03/16)            | Information an
 P.917-2019               | (none)          | (01/19)            | Subjective test methodology for assessing impact of initial loading delay on quality of experience
 P.918-2020               | (none)          | (01/20)            | Dimension-based subjective quality evaluation for video content
 P.919-2020               | (none)          | (10/20)            | Subjective test methodologies for 360º video on head-mounted displays
-P.920                    | (none)          | (05/00)            | Interactive test methods for audiovisual communications
 P.920-2000               | (none)          | (05/00)            | Interactive Test Methods for Audiovisual Communications - Series P: Telephone Transmission Quality, Telephone Installations, Local Line Networks Audiovisual Quality in Multimedia Services
-P.930                    | (none)          | (08/96)            | Principios de un sistema de degradaciones de referencia para vídeo
-P.930                    | (none)          | (08/96)            | Principles of a Reference Impairment System for Video
 P.930-1996               | (none)          | (08/96)            | Principles of a Reference Impairment System for Video - Series P: Telephone Transmission Quality; Audiovisual Quality in Multimedia Services - Study Group 12; 39 pp
-P.931                    | (none)          | (12/98)            | Multimedia Communications Delay, Synchronization and Frame Rate Measurement
 P.931-1998               | (none)          | (12/98)            | Multimedia Communications Delay, Synchronization and Frame Rate Measurement - Series P: Telephone Transmission Quality, Telephone Installations, Local Line Networks Audiovisual Quality in Multimedia Services - Study Group 12; 47 pp
 PI.1059-1994             | (none)          | (01/94)            | (WITHDRAWN) Method for Predicting Sky-Wave Field Strength in the Frequency Range 1 605 to 1 705 kHz
 PI.372-5-1990            | (none)          | (01/90)            | Use of Data on Radio Noise - Section 6B - Radio Noise
 PI.531-3-1994            | (none)          | (01/94)            | Ionospheric Effects Influencing Radio Systems Involving Spacecraft
 PI.533-4-1994            | (none)          | (01/94)            | HF Propagation Prediction Method
-PI.683                   | (none)          | (01/90)            | SKY-WAVE FIELD STRENGTH PREDICTION METHOD FOR PROPAGATION TO AIRCRAFT AT ABOUT 500 IrHz
-PI.683                   | (none)          | (01/90)            | SKY-WAVE FIELD STRENGTH PREDICTION METHOD FOR PROPAGATION TO AIRCRAFT AT ABOUT 500 kHz
 PI.683-1990              | (none)          | (01/90)            | Sky-Wave Field Strength Prediction Method for Propagation to Aircraft at About 500 kHz - Section 6D - Ionospheric Propagation Prediction at Frequencies Below About 1.6 MHz
 PI.684-1990              | (none)          | (01/90)            | Prediction of Field Strength at Frequencies Below About 500 khz - Section 6D - Ionospheric Propagation Prediction at Frequencies Below About 1.6 MHz
 PI.842-1-1994            | (none)          | (01/94)            | Computation of Reliability and Compatibility of HF Radio Systems
