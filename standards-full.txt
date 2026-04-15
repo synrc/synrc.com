@@ -6725,55 +6725,33 @@ PN.834-1-1994            | (none)          | (01/94)            | Effects of Tro
 PN.835-1-1994            | (none)          | (01/94)            | Reference Standard Atmosphere for Gaseous Attenuation
 PN.837-1-1994            | (none)          | (01/94)            | Characteristics of Precipitation for Propagation Modelling
 PN.840-1-1994            | (none)          | (01/94)            | Attenuation Due to Clouds and Fog
-Q.1                      | (none)          | (11/88)            | SIGNAL RECEIVERS FOR MANUAL WORKING
 Q.1-1988                 | (none)          | (11/88)            | SIGNAL RECEIVERS FOR MANUAL WORKING
 Q.10-1989                | (none)          | (01/89)            | Definitions Relating to National and International Numbering Plans - General Recommendations on Telephone Switching and Signalling - Functions and Information Flows for Services in the ISDN - Supplements - Study Group XI; 3 pp; Cancelled
 Q.100 SUPP 2             | (none)          | (11/88)            | CHARACTERISTICS OF SPEECH INTERPOLATION SYSTEMS AFFECTING SIGNALLING
 Q.100 SUPP 3             | (none)          | (11/88)            | INFORMATION RECEIVED ON NATIONAL VOICE-FREQUENCY SIGNALLING SYSTEMS
 Q.100 SUPP 3-1988        | (none)          | (11/88)            | INFORMATION RECEIVED ON NATIONAL VOICE-FREQUENCY SIGNALLING SYSTEMS
-Q.1000                   | (none)          | (11/88)            | STRUCTURE OF THE Q.1000-SERIES RECOMMENDATIONS FOR PUBLIC LAND MOBILE NETWORKS
 Q.1000-1988              | (none)          | (11/88)            | STRUCTURE OF THE Q.1000-SERIES RECOMMENDATIONS FOR PUBLIC LAND MOBILE NETWORKS
-Q.1001                   | (none)          | (11/88)            | GENERAL ASPECTS OF PUBLIC LAND MOBILE NETWORKS
 Q.1001-1988              | (none)          | (11/88)            | GENERAL ASPECTS OF PUBLIC LAND MOBILE NETWORKS
-Q.1002                   | (none)          | (11/88)            | Network functions
 Q.1002-1988              | (none)          | (11/88)            | Network Functions
-Q.1003                   | (none)          | (11/88)            | LOCATION REGISTRATION PROCEDURES
 Q.1003-1988              | (none)          | (11/88)            | LOCATION REGISTRATION PROCEDURES
-Q.1004                   | (none)          | (11/88)            | LOCATION REGISTER RESTORATION PROCEDURES
 Q.1004-1988              | (none)          | (11/88)            | LOCATION REGISTER RESTORATION PROCEDURES
-Q.1005                   | (none)          | (11/88)            | HANDOVER PROCEDURES
 Q.1005-1988              | (none)          | (11/88)            | HANDOVER PROCEDURES
-Q.101                    | (none)          | (11/88)            | FACILITIES PROVIDED IN INTERNATIONAL SEMI-AUTOMATIC WORKING
 Q.101-1988               | (none)          | (11/88)            | FACILITIES PROVIDED IN INTERNATIONAL SEMI-AUTOMATIC WORKING
-Q.102                    | (none)          | (11/88)            | FACILITIES PROVIDED IN INTERNATIONAL AUTOMATIC WORKING
 Q.102-1988               | (none)          | (11/88)            | FACILITIES PROVIDED IN INTERNATIONAL AUTOMATIC WORKING
-Q.103                    | (none)          | (11/88)            | NUMBERING USED
 Q.103-1988               | (none)          | (11/88)            | NUMBERING USED
-Q.1031                   | (none)          | (11/88)            | GENERAL SIGNALLING REQUIREMENTS ON INTERWORKING BETWEEN THE ISDN OR PSTN AND THE PLMN
 Q.1031-1988              | (none)          | (11/88)            | GENERAL SIGNALLING REQUIREMENTS ON INTERWORKING BETWEEN THE ISDN OR PSTN AND THE PLMN
-Q.1032                   | (none)          | (11/88)            | SIGNALLING REQUIREMENTS RELATING TO ROUTING OF CALLS TO MOBILE SUBSCRIBERS
 Q.1032-1988              | (none)          | (11/88)            | SIGNALLING REQUIREMENTS RELATING TO ROUTING OF CALLS TO MOBILE SUBSCRIBERS
-Q.104                    | (none)          | (11/88)            | Language digit or discriminating digit
-Q.104                    | (none)          | (11/88)            | LANGUAGE DIGIT OR DISCRIMINATING DIGIT
 Q.104-1988               | (none)          | (11/88)            | Language digit or discriminating digit
-Q.105                    | (none)          | (11/88)            | National (significant) number
 Q.105-1988               | (none)          | (11/88)            | National (significant) number
 Q.1051-1989              | (none)          | (01/89)            | Mobile Application Part - Public Land Mobile Network - Mobile Application Part and Interfaces (Study Group XI) 303 pp
-Q.106                    | (none)          | (11/88)            | The sending-finished signal
 Q.106-1988               | (none)          | (11/88)            | The sending - finished signal
-Q.1061                   | (none)          | (11/88)            | GENERAL ASPECTS AND PRINCIPLES RELATING TO DIGITAL PLMN ACCESS SIGNALLING REFERENCE POINTS
 Q.1061-1988              | (none)          | (11/88)            | GENERAL ASPECTS AND PRINCIPLES RELATING TO DIGITAL PLMN ACCESS SIGNALLING REFERENCE POINTS
-Q.1062                   | (none)          | (11/88)            | DIGITAL PLMN ACCESS SIGNALLING REFERENCE CONFIGURATION
 Q.1062-1988              | (none)          | (11/88)            | DIGITAL PLMN ACCESS SIGNALLING REFERENCE CONFIGURATION
-Q.1063                   | (none)          | (11/88)            | DIGITAL PLMN CHANNEL STRUCTURES AND ACCESS CAPABILITIES AT THE RADIO INTERFACE (Um REFERENCE POINT)
 Q.1063-1988              | (none)          | (11/88)            | DIGITAL PLMN CHANNEL STRUCTURES AND ACCESS CAPABILITIES AT THE RADIO INTERFACE (Um REFERENCE POINT)
-Q.107                    | (none)          | (11/88)            | Standard sending sequence of forward address information
 Q.107 BIS                | (none)          | (03/93)            | Analysis of forward address information for routing
 Q.107 BIS-1993           | (none)          | (01/93)            | Analysis of Forward Address Information for Routing - General Recommendations on Telephone Switching and Signalling - Clauses Applicable to ITU-T Standard Systems (Study Group XI) 8 pp
 Q.107-1988               | (none)          | (11/88)            | Standard sending sequence of forward address information
-Q.108                    | (none)          | (11/88)            | One-way or both-way operation of international circuits
 Q.108-1988               | (none)          | (11/88)            | One-way or both-way operation of international circuits
-Q.109                    | (none)          | (11/88)            | TRANSMISSION OF THE ANSWER SIGNAL IN INTERNATIONAL EXCHANGES
 Q.109-1988               | (none)          | (11/88)            | Transmission of the answer signal in international exchanges
 Q.11 BIS-1989            | (none)          | (01/89)            | Numbering Plan for the ISDN Era - General Recommendations on Telephone Switching and Signalling - Functions and Information Flows for Services in the ISDN - Supplements - Study Group XI; 6 pp; Cancelled
 Q.11 SUPP 2-2009         | (none)          | (11/09)            | The international public telecommunication numbering plan Supplement 2: Number portability
@@ -6782,94 +6760,57 @@ Q.11 SUPP 4-2009         | (none)          | (11/09)            | The internatio
 Q.11 SUPP 5-2009         | (none)          | (11/09)            | The international public telecommunication numbering plan Supplement 5
 Q.11 TER-1989            | (none)          | (01/89)            | Timetable for Coordinated Implementation of the Full Capability of the Numbering Plan for the ISDN Era (Recommendation E.164) - General Recommendations on Telephone Switching and Signalling - Functions and Information Flows for Services in the ISDN - Supplements - Study Group XI; 2 pp; Cancelled
 Q.11-1989                | (none)          | (01/89)            | Numbering Plan for the International Telephone Service - General Recommendations on Telephone Switching and Signalling - Functions and Information Flows for Services in the ISDN - Supplements - Study Group XI; 8 pp
-Q.110                    | (none)          | (11/88)            | GENERAL ASPECTS OF THE UTILIZATION OF STANDARDIZED CCITT SIGNALLING SYSTEMS ON PCM LINKS
 Q.110-1988               | (none)          | (11/88)            | GENERAL ASPECTS OF THE UTILIZATION OF STANDARDIZED CCITT SIGNALLING SYSTEMS ON PCM LINKS
-Q.1100                   | (none)          | (03/93)            | Interworking with Standard A Inmarsat System - Structure of the Recommendations on the Inmarsat Mobile Satellite Systems
 Q.1100-1993              | (none)          | (03/93)            | Interworking with Standard A Inmarsat System - Structure of the Recommendations on the Inmarsat Mobile Satellite Systems (Study Group XI) 5 pp
-Q.1101                   | (none)          | (11/88)            | GENERAL REQUIREMENTS FOR THE INTERWORKING OF THE TERRESTRIAL TELEPHONE NETWORK AND INMARSAT STANDARD A SYSTEM
 Q.1101-1988              | (none)          | (11/88)            | GENERAL REQUIREMENTS FOR THE INTERWORKING OF THE TERRESTRIAL TELEPHONE NETWORK AND INMARSAT STANDARD A SYSTEM
-Q.1102                   | (none)          | (11/88)            | INTERWORKING BETWEEN SIGNALLING SYSTEM R2 AND INMARSAT STANDARD A SYSTEM
 Q.1102-1988              | (none)          | (11/88)            | INTERWORKING BETWEEN SIGNALLING SYSTEM R2 AND INMARSAT STANDARD A SYSTEM
-Q.1103                   | (none)          | (11/88)            | INTERWORKING BETWEEN SIGNALLING SYSTEM No. 5 AND INMARSAT STANDARD A SYSTEM
 Q.1103-1988              | (none)          | (11/88)            | INTERWORKING BETWEEN SIGNALLING SYSTEM No. 5 AND INMARSAT STANDARD A SYSTEM
-Q.1111                   | (none)          | (03/93)            | INTERFACES BETWEEN THE INMARSAT STANDARD B SYSTEM AND THE INTERNATIONAL PUBLIC SWITCHED TELEPHONE NETWORK/ISDN
 Q.1111-1993              | (none)          | (01/93)            | Interfaces between the INMARSAT Standard B System and the International Public Switched Telephone Network/ISDN - Interworking with Satellite Mobile Systems (Study Group XI) 25 pp
-Q.1112                   | (none)          | (03/93)            | PROCEDURES FOR INTERWORKING BETWEEN INMARSAT STANDARD-B SYSTEM AND THE INTERNATIONAL PUBLIC SWITCHED TELEPHONE NETWORK/ISDN
 Q.1112-1993              | (none)          | (01/93)            | Procedures for Interworking between INMARSAT Standard-B System and the International Public Switched Telephone Network/ISDN - Interworking with Satellite Mobile Systems (Study Group XI) 60 pp
-Q.112                    | (none)          | (11/88)            | SIGNAL LEVELS AND SIGNAL RECEIVER SENSITIVITY
 Q.112-1988               | (none)          | (11/88)            | SIGNAL LEVELS AND SIGNAL RECEIVER SENSITIVITY
-Q.113                    | (none)          | (11/88)            | CONNECTION OF SIGNAL RECEIVERS IN THE CIRCUIT
 Q.113-1988               | (none)          | (11/88)            | CONNECTION OF SIGNAL RECEIVERS IN THE CIRCUIT
-Q.114                    | (none)          | (11/88)            | TYPICAL TRANSMISSION REQUIREMENTS FOR SIGNAL SENDERS AND RECEIVERS
 Q.114-1988               | (none)          | (11/88)            | TYPICAL TRANSMISSION REQUIREMENTS FOR SIGNAL SENDERS AND RECEIVERS
-Q.115                    | (none)          | (12/99)            | Logic for the control of echo control devices
 Q.115-1999               | (none)          | (12/99)            | Logic for the Control of Echo Control Devices Series Q: Switching and Signalling Clauses Applicable to ITU-T Standard Systems - Control of Echo Suppressors
-Q.115.0                  | (none)          | (12/02)            | Protocols for the control of signal processing network elements and functions
 Q.115.0 CORR 1           | (none)          | (06/07)            | Protocols for the control of signal processing network elements and functions Corrigendum 1
 Q.115.0 CORR 1-2007      | (none)          | (06/07)            | Protocols for the control of signal processing network elements and functions Corrigendum 1
 Q.115.0 NOTE             | (none)          | (09/03)            | Protocols for the control of signal processing network elements and functions
 Q.115.0 NOTE-2003        | (none)          | (09/03)            | Protocols for the control of signal processing network elements and functions SERIES Q: SWITCHING AND SIGNALLING Clauses applicable to ITU-T standard systems 鈥?Logic and protocols for the control of signal processing network elements and functions - Study Group 11; COVERING NOTE ERRATUM 1 09/2003
 Q.115.0-2002             | (none)          | (12/02)            | Protocols for the control of signal processing network elements and functions
-Q.115.1                  | (none)          | (12/02)            | Logic for the control of echo control devices and functions
 Q.115.1-2002             | (none)          | (12/02)            | Logic for the control of echo control devices and functions SERIES Q: SWITCHING AND SIGNALLING Clauses applicable to ITU-T standard systems 鈥?Logic and protocols for the control of signal processing network elements and functions
 Q.115.2-2007             | (none)          | (01/07)            | Logic for the control of voice enhancement devices and functions
-Q.1151                   | (none)          | (03/93)            | INTERFACES FOR INTERWORKING BETWEEN THE INMARSAT AERONAUTICAL MOBILE-SATELLITE SYSTEM AND THE INTERNATIONAL PUBLIC SWITCHED TELEPHONE NETWORK/ISDN
 Q.1151-1993              | (none)          | (01/93)            | Interfaces for Interworking between the INMARSAT Aeronautical Mobile-Satellite System and the International Public Switched Telephone Network/ISDN - Interworking with Satellite Mobile Systems (Study Group XI) 23 pp
-Q.1152                   | (none)          | (03/93)            | PROCEDURES FOR INTERWORKING BETWEEN INMARSAT AERONAUTICAL MOBILE SATELLITE SYSTEM AND THE INTERNATIONAL PUBLIC SWITCHED TELEPHONE NETWORK/ISDN
 Q.1152-1993              | (none)          | (01/93)            | Procedures for Interworking between INMARSAT Aeronautical Mobile Satellite System and the International Public Switched Telephone Network/ISDN - Interworking with Satellite Mobile Systems (Study Group XI) 58 pp
-Q.116                    | (none)          | (11/88)            | INDICATION GIVEN TO THE OUTGOING OPERATOR OR CALLING SUBSCRIBER IN CASE OF AN ABNORMAL CONDITION
 Q.116-1988               | (none)          | (11/88)            | INDICATION GIVEN TO THE OUTGOING OPERATOR OR CALLING SUBSCRIBER IN CASE OF AN ABNORMAL CONDITION
-Q.117                    | (none)          | (11/88)            | ALARMS FOR TECHNICAL STAFF AND ARRANGEMENTS IN CASE OF FAULTS
 Q.117-1988               | (none)          | (11/88)            | ALARMS FOR TECHNICAL STAFF AND ARRANGEMENTS IN CASE OF FAULTS
-Q.118                    | (none)          | (09/97)            | Abnormal conditions - Special release arrangements
 Q.118 BIS                | (none)          | (11/88)            | Indication of congestion conditions at transit exchanges
 Q.118 BIS-1988           | (none)          | (11/88)            | Indication of congestion conditions at transit exchanges
 Q.118-1997               | (none)          | (09/97)            | Abnormal Conditions - Special Release Arrangements - Series Q: Switching and Signalling Clauses Applicable to ITU-T Standard Systems - Abnormal Conditions - Study Group 11; 8 pp
-Q.12                     | (none)          | (11/88)            | Overflow - alternative routing - rerouting - automatic repeat attempt
 Q.12-1988                | (none)          | (11/88)            | Overflow - alternative routing - rerouting - automatic repeat attempt
 Q.120-Q.139              | (none)          | (11/88)            | Specifications of Signalling System No. 4
 Q.120-Q.139-1988         | (none)          | (11/88)            | Specifications of Signalling System No. 4 - Study Group XI
-Q.1200                   | (none)          | (09/97)            | General series Intelligent Network Recommendation structure
 Q.1200-1997              | (none)          | (09/97)            | General Series Intelligent Network Recommendation Structure - Series Q: Switching and Signalling - Intelligent Network - Study Group 11; 11 pp
-Q.1201                   | (none)          | (10/92)            | PRINCIPLES OF INTELLIGENT NETWORK ARCHITECTURE
 Q.1201-1992              | (none)          | (10/92)            | Principles of Intelligent Network Architecture (Study Group XVIII) 36 pp
-Q.1202                   | (none)          | (09/97)            | Intelligent Network - Service plane architecture
 Q.1202-1997              | (none)          | (09/97)            | Intelligent Network - Service Plane Architecture - Series Q: Switching and Signalling - Intelligent Network - Same as RECMN I.328; Study Group 11; 25 pp
-Q.1203                   | (none)          | (09/97)            | Intelligent Network - Global Functional Plane Architecture
 Q.1203-1997              | (none)          | (09/97)            | Intelligent Network - Global Functional Plane Architecture - Series Q: Switching and Signalling - Intelligent Network - Same as RECMN I.329; Study Group 11; 15 pp
-Q.1204                   | (none)          | (03/93)            | INTELLIGENT NETWORK DISTRIBUTED FUNCTIONAL PLANE ARCHITECTURE
 Q.1204-1993              | (none)          | (01/93)            | Intelligent Network Distributed Functional Plane Architecture (Study Group XI) 28 pp
-Q.1205                   | (none)          | (03/93)            | INTELLIGENT NETWORK PHYSICAL PLANE ARCHITECTURE
 Q.1205-1993              | (none)          | (01/93)            | Intelligent Network Physical Plane Architecture (Study Group XI) 10 pp
-Q.1208                   | (none)          | (09/97)            | General aspects of the Intelligent Network Application protocol
 Q.1208-1997              | (none)          | (09/97)            | General aspects of the Intelligent Network Application protocol - Study Group 11; 8 pp
 Q.121-1989               | (none)          | (01/89)            | Signal Code - Specifications of Signalling Systems Nos. 4 and 5 (Study Group XI) 6 pp
-Q.1210                   | (none)          | (10/95)            | Q.1210-SERIES INTELLIGENT NETWORK RECOMMENDATION STRUCTURE
 Q.1210-1995              | (none)          | (10/95)            | Q.1210-SERIES INTELLIGENT NETWORK RECOMMENDATION STRUCTURE
-Q.1211                   | (none)          | (03/93)            | Introduction to Intelligent Network Capability Set 1
 Q.1211-1993              | (none)          | (03/93)            | Introduction to Intelligent Network Capability Set 1 - Study Group IX
-Q.1213                   | (none)          | (10/95)            | GLOBAL FUNCTIONAL PLANE FOR INTELLIGENT NETWORK CS-1
 Q.1213-1995              | (none)          | (10/95)            | GLOBAL FUNCTIONAL PLANE FOR INTELLIGENT NETWORK CS-1
-Q.1214                   | (none)          | (10/95)            | DISTRIBUTED FUNCTIONAL PLANE FOR INTELLIGENT NETWORK CS-1
 Q.1214-1995              | (none)          | (10/95)            | DISTRIBUTED FUNCTIONAL PLANE FOR INTELLIGENT NETWORK CS-1
-Q.1215                   | (none)          | (10/95)            | PHYSICAL PLANE FOR INTELLIGENT NETWORK CS-1
 Q.1215-1995              | (none)          | (10/95)            | PHYSICAL PLANE FOR INTELLIGENT NETWORK CS-1
-Q.1218                   | (none)          | (10/95)            | Interface Recommendation for Intelligent Network CS-1
 Q.1218 ADD 1             | (none)          | (09/97)            | Interface Recommendation for Intelligent Network CS-1 Addendum 1: Definition for two new contexts in the SDF data model
 Q.1218 ADD 1-1997        | (none)          | (09/97)            | Interface Recommendation for Intelligent Network CS-1 - Series Q: Switching and Signalling - Intelligent Network - Addendum 1: Definition for Two New Contexts in the SDF Data Model; Study Group 11; 7 pp
 Q.1218-1995              | (none)          | (10/95)            | Interface Recommendation for Intelligent Network CS-1
-Q.1219                   | (none)          | (04/94)            | Intelligent Network User's Guide for Capability Set 1
 Q.1219 SUPP 1            | (none)          | (09/97)            | Intelligent Network user's guide: Supplement for IN CS-I Supplement 1
 Q.1219 SUPP 1-1997       | (none)          | (09/97)            | Intelligent Network User's Guide: Supplement for IN CS-1 Supplement 1; Series Q: Switching and Signalling Intelligent Network - Study Group 11; 21 pp
 Q.1219-1994              | (none)          | (04/94)            | Intelligent Network User's Guide for Capability Set 1
 Q.122-1989               | (none)          | (01/89)            | Signal Sender - Specifications of Signalling Systems Nos. 4 and 5 (Study Group XI) 1 pp
-Q.1220                   | (none)          | (09/97)            | Q.1220-series Intelligent Network Capability Set 2 Recommendation structure
 Q.1220-1997              | (none)          | (09/97)            | Q.1220-series Intelligent Network Capability Set 2 Recommendation structure
-Q.1221                   | (none)          | (09/97)            | Introduction to Intelligent Network Capability Set 2
 Q.1221-1997              | (none)          | (09/97)            | Introduction to Intelligent Network Capability Set 2
-Q.1222                   | (none)          | (09/97)            | Service plane for Intelligent Network Capability Set 2
 Q.1222-1997              | (none)          | (09/97)            | Service Plane for Intelligent Network Capability; Set 2 - Series Q: Switching and Signalling; Intelligent Network - Study Group 11; 11 pp
-Q.1223                   | (none)          | (09/97)            | Global functional plane for intelligent network Capability Set 2
 Q.1223-1997              | (none)          | (09/97)            | Series Q: Switching and Signalling; Intelligent Network; Global Functional Plane for Intelligent Network Capability Set 2
 Q.1224 FASCICLE 1/3      | (none)          | (09/97)            | Distributed functional plane for intelligent network Capability Set 2: Part 1
 Q.1224 FASCICLE 1/3      | (none)          | (09/97)            | Plano funcional distribuido para el conjunto de capacidades 2 de red inteligente: Parte 1
@@ -6880,7 +6821,6 @@ Q.1224 FASCICLE 2/3-1997 | (none)          | (09/97)            | Distributed Fu
 Q.1224 FASCICLE 3/3      | (none)          | (09/97)            | Distributed functional plane for intelligent network capability Set 2: Parts 3 and 4
 Q.1224 FASCICLE 3/3      | (none)          | (09/97)            | Plano funcional distribuido para el conjunto de capacidades 2 de red inteligente: Partes 3 y 4
 Q.1224 FASCICLE 3/3-1997 | (none)          | (06/97)            | Distributed Functional Plane for Intelligent Network Capability Set 2: Parts 3 and 4 - Series Q: Switching and Signalling - Intelligent Network - StuStudy Group 11; 232 pp
-Q.1225                   | (none)          | (09/97)            | Physical plane for Intelligent Network Capability Set 2
 Q.1225-1997              | (none)          | (09/97)            | Physical Plane for Intelligent Network Capability Set 2 - Series Q: Switching and Signalling Intelligent Network - Study Group 11; 16 pp
 Q.1228 FASCICLE 1/5      | (none)          | (09/97)            | Interface Recommendation for Intelligent Network Capability Set 2: Part 1
 Q.1228 FASCICLE 1/5      | (none)          | (09/97)            | Recomendación sobre interfaces para el conjunto de capacidades 2 de red inteligente: Parte 1
@@ -6897,66 +6837,39 @@ Q.1228 FASCICLE 4/5-1997 | (none)          | (09/97)            | Interface Reco
 Q.1228 FASCICLE 5/5      | (none)          | (09/97)            | Interface Recommendation for intelligent network Capability Set 2: Parts 5, 6 and 7
 Q.1228 FASCICLE 5/5      | (none)          | (09/97)            | Recomendación sobre interfaces para el conjunto de capacidades 2 de red inteligente: Partes 5, 6 y 7
 Q.1228 FASCICLE 5/5-1997 | (none)          | (09/97)            | Interface Recommendation for Intelligent Network Capability Set 2: Part 5, 6 and 7 - Series Q: Switching and Signalling Intelligent Network - 95 pp
-Q.1229                   | (none)          | (03/99)            | Intelligent Network user's guide for Capability Set 2
 Q.1229-1999              | (none)          | (03/99)            | Intelligent Network User's Guide for Capability Set 2 - Series Q: Switching and Signalling - Intelligent Network - Study Group 11; 175pp
 Q.123-1989               | (none)          | (01/89)            | Signal Receiver - Specifications of Signalling Systems Nos. 4 and 5 (Study Group XI) 3 pp
-Q.1231                   | (none)          | (12/99)            | Introduction to Intelligent Network Capability Set 3
 Q.1231-1999              | (none)          | (12/99)            | Introduction to Intelligent Network Capability Set 3 Series Q: Switching and Signalling Intelligent Network
-Q.1236                   | (none)          | (12/99)            | Intelligent Network Capability Set 3 - Management Information Model Requirements and Methodology
 Q.1236-1999              | (none)          | (12/99)            | Intelligent Network Capability Set 3 - Management Information Model Requirements and Methodology Series Q: Switching and Signalling Intelligent Network - Study Group 11; 57 pp
-Q.1237                   | (none)          | (06/00)            | Extensions to Intelligent Network Capability Set 3 in support of B-ISDN
 Q.1237-2000              | (none)          | (06/00)            | Extensions to Intelligent Network Capability Set 3 in Support of B-ISDN Series Q: Switching and Signalling Intelligent Network
-Q.1238.1                 | (none)          | (06/00)            | Interface Recommendation for intelligent network capability set 3: Common aspects
 Q.1238.1-2000            | (none)          | (06/00)            | Interface Recommendation for Intelligent Network Capability Set 3: Common Aspects Series Q: Switching and Signalling Intelligent Network
-Q.1238.2                 | (none)          | (06/00)            | Interface Recommendation for Intelligent Network Capability Set 3: SCF-SSF Interface
 Q.1238.2-2000            | (none)          | (06/00)            | Interface Recommendation for Intelligent Network Capability Set 3: SCF-SSF Interface Series Q: Switching and Signalling Intelligent Network
-Q.1238.3                 | (none)          | (06/00)            | Interface Recommendation for Intelligent Network Capability Set 3: SCF-SRF Interface
 Q.1238.3-2000            | (none)          | (06/00)            | Interface Recommendation for Intelligent Network Capability Set 3: SCF-SRF Interface Series Q: Switching and Signalling Intelligent Network
-Q.1238.4                 | (none)          | (06/00)            | Interface Recommendation for intelligent network capability set 3: SCF-SDF interface
 Q.1238.4-2000            | (none)          | (06/00)            | Interface Recommendation for Intelligent Network Capability Set 3: SCF-SDF Interface Series Q: Switching and Signalling Intelligent Network
-Q.1238.5                 | (none)          | (06/00)            | Interface Recommendation for intelligent network capability set 3: SDF-SDF interface
-Q.1238.5                 | (none)          | (06/00)            | Interface Recommendation for Intelligent Network Capability Set 3: SDF-SDF Interface
 Q.1238.5-2000            | (none)          | (06/00)            | Interface Recommendation for Intelligent Network Capability Set 3: SDF-SDF Interface Series Q: Switching and Signalling Intelligent Network
-Q.1238.6                 | (none)          | (06/00)            | Interface Recommendation for Intelligent Network Capability Set 3: SCF-SCF Interface
 Q.1238.6-2000            | (none)          | (06/00)            | Interface Recommendation for Intelligent Network Capability Set 3: SCF-SCF Interface Series Q: Switching and Signalling Intelligent Network
-Q.1238.7                 | (none)          | (06/00)            | Interface Recommendation for intelligent network capability set 3: SCF-CUSF interface
 Q.1238.7-2000            | (none)          | (06/00)            | Interface Recommendation for Intelligent Network Capability Set 3: SCF-CUSF Interface Series Q: Switching and Signalling Intelligent Network
 Q.124-1989               | (none)          | (01/89)            | Splitting Arrangements - Specifications of Signalling Systems Nos. 4 and 5 (Study Group XI) 1 pp
-Q.1241                   | (none)          | (07/01)            | Introduction to Intelligent Network Capability Set 4
 Q.1241-2001              | (none)          | (07/01)            | Introduction to Intelligent Network Capability Set 4
-Q.1244                   | (none)          | (07/01)            | Distributed Functional Plane for Intelligent network Capability Set-4
 Q.1244-2001              | (none)          | (07/01)            | Distributed Functional Plane for Intelligent network Capability Set-4
-Q.1248.1                 | (none)          | (07/01)            | Interface Recommendation for Intelligent Network Capability Set 4: Common aspects
 Q.1248.1-2001            | (none)          | (07/01)            | Interface Recommendation for Intelligent Network Capability Set 4: Common aspects
-Q.1248.2                 | (none)          | (07/01)            | Interface Recommendation for Intelligent Network Capability Set 4: SCF-SSF interface
 Q.1248.2-2001            | (none)          | (07/01)            | Interface Recommendation for Intelligent Network Capability Set 4: SCF-SSF interface SERIES Q: SWITCHING AND SIGNALLING Intelligent Network
-Q.1248.3                 | (none)          | (07/01)            | Interface Recommendation for Intelligent Network Capability Set 4: SCF-SRF interface
 Q.1248.3-2001            | (none)          | (07/01)            | Interface Recommendation for Intelligent Network Capability Set 4: SCF-SRF interface
-Q.1248.4                 | (none)          | (07/01)            | Interface Recommendation for Intelligent Network Capability Set 4: SCF-SDF interface
 Q.1248.4-2001            | (none)          | (07/01)            | Interface Recommendation for Intelligent Network Capability Set 4: SCF-SDF interface
-Q.1248.5                 | (none)          | (07/01)            | Interface Recommendation for Intelligent Network Capability Set 4: SDF-SDF interface
 Q.1248.5-2001            | (none)          | (07/01)            | Interface Recommendation for Intelligent Network Capability Set 4: SDF-SDF interface
-Q.1248.6                 | (none)          | (07/01)            | Interface Recommendation for Intelligent Network Capability Set 4: SCF-SCF interface
 Q.1248.6-2001            | (none)          | (07/01)            | Interface Recommendation for Intelligent Network Capability Set 4: SCF-SCF interface
-Q.1248.7                 | (none)          | (07/01)            | Interface Recommendation for Intelligent Network capability set 4: SCF-CUSF Interface
 Q.1248.7-2001            | (none)          | (07/01)            | Interface Recommendation for Intelligent Network capability set 4: SCF-CUSF Interface
 Q.125-1989               | (none)          | (01/89)            | Speed of Switching in International Exchanges - Specifications of Signalling Systems Nos. 4 and 5 (Study Group XI) 1 pp
 Q.126-1989               | (none)          | (01/89)            | Analysis and Transfer of Digital Information - Specifications of Signalling Systems Nos. 4 and 5 (Study Group XI) 1 pp
 Q.127-1989               | (none)          | (01/89)            | Release of Registers - Specifications of Signalling Systems Nos. 4 and 5 (Study Group XI) 3 pp
 Q.128-1989               | (none)          | (01/89)            | Switching to the Speech Position - Specifications of Signalling Systems Nos. 4 and 5 (Study Group XI) 1 pp
 Q.129-1989               | (none)          | (01/89)            | Maximum Duration of a Blocking Signal - Specifications of Signalling Systems Nos. 4 and 5 (Study Group XI) 1 pp
-Q.1290                   | (none)          | (05/98)            | Glossary of terms used in the definition of intelligent networks
-Q.1290                   | (none)          | (05/98)            | Glossary of Terms Used in the Definition of Intelligent Networks
 Q.1290-1998              | (none)          | (05/98)            | Glossary of Terms Used in the Definition of Intelligent Networks - Study Group 11; 24 pp
 Q.13-1989                | (none)          | (01/89)            | International Telephone Routing Plan - General Recommendations on Telephone Switching and Signalling - Functions and Information Flows for Services in the ISDN - Supplements - Study Group XI; 10 pp; Cancelled
 Q.130-1989               | (none)          | (01/89)            | Special Arrangements in Case of Failures in the Sequence of Signals - Specifications of Signalling Systems Nos. 4 and 5 (Study Group XI) 1 pp
-Q.1300                   | (none)          | (10/95)            | TELECOMMUNICATION APPLICATIONS FOR SWITCHES AND COMPUTERS (TASC) 鈥?GENERAL OVERVIEW
 Q.1300-1995              | (none)          | (10/95)            | Telecommunication Applications for Switches and Computers (TASC) - General Overview - Intelligent Network (Study Group 11) 16 pp
-Q.1301                   | (none)          | (10/95)            | TELECOMMUNICATION APPLICATIONS FOR SWITCHES AND COMPUTERS (TASC) 鈥?TASC ARCHITECTURE
 Q.1301-1995              | (none)          | (01/95)            | Telecommunication Applications for Switches and Computers (TASC) - TASC Architecture - Intelligent Network (Study Group 11) 28 pp
-Q.1302                   | (none)          | (10/95)            | TELECOMMUNICATION APPLICATIONS FOR SWITCHES AND COMPUTERS (TASC) 鈥?TASC FUNCTIONAL SERVICES
 Q.1302-1995              | (none)          | (01/95)            | Telecommunication Applications for Switches and Computers (TASC) - TASC Functional Services - Intelligent Network (Study Group 11) 96 pp
-Q.1303                   | (none)          | (10/95)            | Telecommunication Applications for Switches and Computers (TASC) - TASC Management: Architecture, Methodology and Requirements
 Q.1303-1995              | (none)          | (01/95)            | Telecommunication Applications for Switches and Computers (TASC) - TASC Management: Architecture, Methodology and Requirements - Intelligent Network (Study Group 11) 22 pp
 Q.131-1989               | (none)          | (01/89)            | Abnormal Release Conditions of the Outgoing Register Causing Release of the International Circuit - Specifications of Signalling Systems Nos. 4 and 5 (Study Group XI) 1 pp
 Q.133-1989               | (none)          | (01/89)            | Numbering for Access to Automatic Measuring and Testing Devices - Specifications of Signalling Systems Nos. 4 and 5 (Study Group XI) 1 pp
@@ -6966,11 +6879,9 @@ Q.136-1989               | (none)          | (01/89)            | Loop Transmiss
 Q.137-1989               | (none)          | (01/89)            | Automatic Testing Equipment - Specifications of Signalling Systems Nos. 4 and 5 (Study Group XI) 2 pp
 Q.138-1989               | (none)          | (01/89)            | Instruments for Checking Equipment and Measuring Signals - Specifications of Signalling Systems Nos. 4 and 5 (Study Group XI) 1 pp
 Q.139-1988               | (none)          | (11/88)            | Manual Testing - Specifications of Signalling Systems Nos. 4 and 5 (Study Group XI) 3 pp
-Q.14                     | (none)          | (11/88)            | Means to control the number of satellite links in an international telephone connection
 Q.14-1988                | (none)          | (11/88)            | Means to control the number of satellite links in an international telephone connection
 Q.140-Q.180              | (none)          | (11/88)            | Specifications of Signalling System No. 5
 Q.140-Q.180-1988         | (none)          | (11/88)            | Specifications of Signalling System No. 5 - Study Group XI
-Q.1400                   | (none)          | (03/93)            | ARCHITECTURE FRAMEWORK FOR THE DEVELOPMENT OF SIGNALLING AND OA&M PROTOCOLS USING OSI CONCEPTS
 Q.1400 ADD 1             | (none)          | (02/95)            | ARCHITECTURE FRAMEWORK FOR THE DEVELOPMENT OF SIGNALLING AND OAM PROTOCOLS USING OSI CONCEPTS
 Q.1400 ADD 1-1995        | (none)          | (01/95)            | Architecture Framework for the Development of Signalling and OAM Protocols Using OSI Concepts - Intelligent Network (Study Group 11) 7 pp
 Q.1400-1993              | (none)          | (01/93)            | Architecture Framework for the Development of Signalling and OA&M Protocols Using OSI Concepts - Intelligent Network (Study Group XI) 54 pp
@@ -6983,102 +6894,73 @@ Q.146-1989               | (none)          | (01/89)            | Speed of Switc
 Q.15-1989                | (none)          | (01/89)            | Nominal Mean Power During the Busy Hour - General Recommendations on Telephone Switching and Signalling - Functions and Information Flows for Services in the ISDN - Supplements - Study Group XI; 2 pp; Cancelled
 Q.151-1989               | (none)          | (01/89)            | Signal Code for Register Signalling - Specifications of Signalling Systems Nos. 4 and 5 (Study Group XI) 2 pp
 Q.152-1989               | (none)          | (01/89)            | End-of-Pulsing Conditions - Register Arrangements Concerning ST (End-of-Pulsing) Signal - Specifications of Signalling Systems Nos. 4 and 5 (Study Group XI) 2 pp
-Q.1521                   | (none)          | (06/00)            | Requirements on underlying networks and signalling protocols to support UPT
 Q.1521-2000              | (none)          | (06/00)            | Requirements on Underlying Networks and Signalling Protocols to Support UPT Series Q: Switching and Signalling Intelligent Network
 Q.153-1989               | (none)          | (01/89)            | Multifrequency Signal Sender - Specifications of Signalling Systems Nos. 4 and 5 (Study Group XI) 1 pp
-Q.1531                   | (none)          | (06/00)            | UPT security requirements for service set 1
 Q.1531-2000              | (none)          | (06/00)            | UPT Security Requirements for Service Set 1 Series Q: Switching and Signalling Intelligent Network
 Q.154-1989               | (none)          | (01/89)            | Multifrequency Signal Receiver - Specifications of Signalling Systems Nos. 4 and 5 (Study Group XI) 2 pp
-Q.1541                   | (none)          | (05/98)            | UPT stage 2 for Service Set 1 on IN CS-1 - Procedures for universal personal telecommunication: Functional modelling and information flows
 Q.1541-1998              | (none)          | (05/98)            | UPT Stage 2 for Service Set 1 on IN CS-1 - Prcedures for Universal Personal Telecommunication: Functional Modelling and Information Flows Series Q: Switching and Signalling - Intelligent Network - Study Group 11; 66 pp
-Q.1542                   | (none)          | (06/00)            | UPT stage 2 for Service Set 1 on IN CS-2 - Procedures for universal personal telecommunication: Functional modelling and information flows
 Q.1542-2000              | (none)          | (06/00)            | UPT Stage 2 for Service Set 1 on IN CS-2 - Procedures for Universal Personal Telecommunication: Functional Modelling and Information Flows Series Q: Switching and Signalling Intelligent Network
 Q.155-1989               | (none)          | (01/89)            | Analysis of Digital Information for Routing - Specifications of Signalling Systems Nos. 4 and 5 (Study Group XI) 1 pp
-Q.1551                   | (none)          | (06/97)            | Application of Intelligent Network Application Protocols (MAP) CS-I for UPT Service Set 1
 Q.1551-1997              | (none)          | (06/97)            | Application of Intelligent Network Application Protocols (INAP) CS-1 for UPT Service Set 1 - Series Q: Switching and Signalling Intelligent Network - Study Group 11; 150 pp
 Q.156-1989               | (none)          | (01/89)            | Release of International Registers - Specifications of Signalling Systems Nos. 4 and 5 (Study Group XI) 2 pp
 Q.157-1989               | (none)          | (01/89)            | Switching to the Speech Position - Specifications of Signalling Systems Nos. 4 and 5 (Study Group XI) 1 pp
 Q.16-1989                | (none)          | (01/89)            | Maximum Permissible Value for the Absolute Power Level of a Signalling Pulse - General Recommendations on Telephone Switching and Signalling - Functions and Information Flows for Services in the ISDN - Supplements - Study Group XI; 1 pp; Cancelled; Same as Recmn G.224
-Q.1600                   | (none)          | (09/97)            | Signalling system No. 7 - Interaction between ISUP and INAP
-Q.1600                   | (none)          | (09/97)            | Signalling system No. 7 鈥?Interaction between ISUP and INAP
 Q.1600 BIS               | (none)          | (12/99)            | Signalling System No. 7 - Interaction between ISDN User Part ISUP'97 and INAP CS-1: Test Suite Structure and Test Purposes (TSS & TP)
 Q.1600 BIS AMD 1-2000    | (none)          | (12/00)            | Signalling System No. 7 - Interaction between ISDN User Part ISUP'97 and INAP CS-1: Test Suite Structure and Test Purposes (TSS & TP) Series Q: Switching and Signalling Intelligent Network
 Q.1600 BIS-1999          | (none)          | (12/99)            | Signalling System No. 7 - Interaction between ISDN User Part ISUP'97 and INAP CS-1: Test Suite Structure and Test Purposes (TSS & TP) Series Q: Switching and Signalling Intelligent Network
 Q.1600-1997              | (none)          | (09/97)            | Signalling System No. 7 - Interaction Between ISUP and INAP Series Q: Switching and Signalling Intelligent Network - Study Group 11; 58 pp
-Q.1601                   | (none)          | (12/99)            | Signalling System No. 7 - Interaction between N-ISDN and INAP CS-2
 Q.1601-1999              | (none)          | (12/99)            | Signalling System No. 7 - Interaction between N-ISDN and INAP CS-2
 Q.161-1989               | (none)          | (01/89)            | General Arrangements for Manual Testing - Specifications of Signalling Systems Nos. 4 and 5 (Study Group XI) 1 pp
 Q.162-1989               | (none)          | (01/89)            | Routing Testing of Equipment (Local Maintenance) - Specifications of Signalling Systems Nos. 4 and 5 (Study Group XI) 2 pp
 Q.163-1989               | (none)          | (01/89)            | Manual Testing - Specifications of Signalling Systems Nos. 4 and 5 (Study Group XI) 3 pp
 Q.164-1989               | (none)          | (01/89)            | Test Equipment for Checking Equipment and Signals - Specifications of Signalling Systems Nos. 4 and 5 (Study Group XI) 2 pp
-Q.1701                   | (none)          | (03/99)            | Framework for IMT-2000 networks
 Q.1701-1999              | (none)          | (03/99)            | Framework for IMT-2000 Networks Series Q: Switching and Signalling Signalling Requirements and Protocol for IMT-2000 - Study Group 11; 25 pp
-Q.1702                   | (none)          | (06/02)            | Long-term vision of network aspects for systems beyond IMT-2000
 Q.1702-2002              | (none)          | (06/02)            | Long-term vision of network aspects for systems beyond IMT-2000
-Q.1703                   | (none)          | (05/04)            | Service and network capabilities framework of network aspects for systems beyond IMT-2000
 Q.1703-2004              | (none)          | (05/04)            | Service and network capabilities framework of network aspects for systems beyond IMT-2000
 Q.1704-2008              | (none)          | (10/08)            | Functional network architecture for IMT-Advanced
-Q.1706                   | (none)          | (11/06)            | Mobility management requirements for NGN
 Q.1706-2006              | (none)          | (11/06)            | Mobility management requirements for NGN
 Q.1707-2008              | (none)          | (02/08)            | Generic framework of mobility management for next generation networks
 Q.1708-2008              | (none)          | (10/08)            | Framework of location management for NGN
 Q.1709-2008              | (none)          | (10/08)            | Framework of handover control for NGN
-Q.1711                   | (none)          | (03/99)            | Network functional model for IMT-2000
 Q.1711-1999              | (none)          | (03/99)            | Network Functional Model for IMT-2000 Series Q: Switching and Signalling Signalling Requirements and Protocols for IMT-2000 - Study Group 11; 67 pp
-Q.1721                   | (none)          | (06/00)            | Information flows for imt-2000 capability set 1
 Q.1721-2000              | (none)          | (06/00)            | Information Flows for IMT-2000 Capability Set 1 Series Q: Switching and Signalling Signalling Requirments and Protocols for IMT-2000 - Study Group 11; 182 pp
-Q.1731                   | (none)          | (06/00)            | Radio-technology independent requirements for IMT-2000 layer 2 radio interface
 Q.1731-2000              | (none)          | (06/00)            | Radio-technology independent requirements for IMT-2000 layer 2 radio interface - Study Group 11; 30 pp
-Q.1741.1                 | (none)          | (04/02)            | IMT-2000 references to release 1999 of GSM evolved UMTS core network with UTRAN access network
 Q.1741.1-2002            | (none)          | (04/02)            | IMT-2000 references to release 1999 of GSM evolved UMTS core network with UTRAN access network
-Q.1741.2                 | (none)          | (12/02)            | IMT-2000 references to release 4 of GSM evolved UMTS core network with UTRAN access network
 Q.1741.2-2002            | (none)          | (12/02)            | IMT-2000 references to release 4 of GSM evolved UMTS core network with UTRAN access network SERIES Q: SWITCHING AND SIGNALLING Signalling requirements and protocols for IMT-2000 - Study Group SSG
-Q.1741.3                 | (none)          | (09/03)            | IMT-2000 references to release 5 of GSM evolved UMTS core network
 Q.1741.3-2003            | (none)          | (09/03)            | IMT-2000 references to release 5 of GSM evolved UMTS core network SERIES Q: SWITCHING AND SIGNALLING Signalling requirements and protocols for IMT-2000 - Study Group SSG
-Q.1741.4                 | (none)          | (10/05)            | IMT-2000 references to release 6 of GSM evolved UMTS core network
 Q.1741.4-2005            | (none)          | (10/05)            | IMT-2000 references to release 6 of GSM evolved UMTS core network
 Q.1741.5-2008            | (none)          | (10/08)            | IMT-2000 references to Release 7 of GSM-evolved UMTS core network
 Q.1741.6-2009            | (none)          | (10/09)            | IMT-2000 references to Release 8 of GSM-evolved UMTS core network
 Q.1741.7-2011            | (none)          | (11/11)            | IMT-2000 references to Release 9 of GSM-evolved UMTS core network
 Q.1741.8-2013            | (none)          | (04/13)            | IMT-2000 references to Release 10 of GSM-evolved UMTS core network
 Q.1741.9-2015            | (none)          | (06/15)            | IMT-2000 references to Release 11 of GSM evolved UMTS core network
-Q.1742.1                 | (none)          | (12/02)            | IMT-2000 references to ANSI-41 evolved core network with cdma2000 access network
 Q.1742.1-2002            | (none)          | (12/02)            | IMT-2000 references to ANSI-41 evolved core network with cdma2000 access network SERIES Q: SWITCHING AND SIGNALLING Signalling requirements and protocols for IMT-2000 - Study Group SSG
 Q.1742.10-2013           | (none)          | (04/13)            | IMT-2000 References (approved as of 31 December 2011) to ANSI-41 evolved Core Network with cdma2000 Access Network
 Q.1742.11-2014           | (none)          | (04/14)            | IMT 2000 References (3GPP2 up to 31st December 2012) to ANSI-41 evolved Core Network with cdma2000 Access Network
-Q.1742.2                 | (none)          | (07/03)            | IMT-2000 references (approved as of 11 July 2002) to ANSI-41 evolved core network with cdma2000 access network
 Q.1742.2 NOTE-2004       | (none)          | (03/04)            | IMT-2000 references (approved as of 11 July 2002) to ANSI-41 evolved core network with cdma2000 access network
 Q.1742.2-2003            | (none)          | (07/03)            | IMT-2000 references (approved as of 11 July 2002) to ANSI-41 evolved core network with cdma2000 access network - Study Group SSG
-Q.1742.3                 | (none)          | (01/04)            | IMT-2000 references (approved as of 30 June 2003) to ANSI-41 evolved core network with cdma2000 access network
 Q.1742.3-2004            | (none)          | (01/04)            | IMT-2000 references (approved as of 30 June 2003) to ANSI-41 evolved core network with cdma2000 access network SERIES Q: SWITCHING AND SIGNALLING Signalling requirements and protocols for IMT-2000 - Study Group SSG
-Q.1742.4                 | (none)          | (04/05)            | IMT-2000 References (approved as of 30 June 2004) to ANSI-41 evolved Core Network with cdma2000 Access Network
 Q.1742.4-2005            | (none)          | (04/05)            | IMT-2000 References (approved as of 30 June 2004) to ANSI-41 evolved Core Network with cdma2000 Access Network
-Q.1742.5                 | (none)          | (09/06)            | IMT-2000 references (approved as of 31 December 2005) to ANSI-41 evolved core network with cdma2000 access network
 Q.1742.5-2006            | (none)          | (09/06)            | IMT-2000 references (approved as of 31 December 2005) to ANSI-41 evolved core network with cdma2000 access network
 Q.1742.6-2007            | (none)          | (08/07)            | IMT-2000 references (approved as of 31 December 2006) to ANSI-41 evolved core network with cdma2000 access network
 Q.1742.7-2008            | (none)          | (10/08)            | IMT-2000 References (approved as of 30 June 2008) to ANSI-41 evolved Core Network with cdma2000 Access Network
 Q.1742.8-2010            | (none)          | (06/10)            | IMT-2000 references (approved as of 31 January 2010) to ANSI-41 evolved core network with cdma2000 access network
 Q.1742.9-2011            | (none)          | (11/11)            | IMT-2000 references (approved as of 31 December 2010) to ANSI-41 evolved core network with cdma2000 access network
 Q.1743-2016              | (none)          | (09/16)            | IMT-Advanced references to Release 11 of LTE-Advanced evolved packet core network
-Q.1751                   | (none)          | (06/00)            | Internetwork Signalling Requirements for IMT-2000 Capability Set 1
 Q.1751-2000              | (none)          | (06/00)            | Internetwork Signalling Requirements for IMT-2000 Capability Set 1 - Study Group 11; 48 pp
-Q.1761                   | (none)          | (01/04)            | Principles and requirements for convergence of fixed and existing IMT-2000 systems
 Q.1761-2004              | (none)          | (01/04)            | Principles and requirements for convergence of fixed and existing IMT-2000 systems - Study Group SSG
 Q.1762-2007              | (none)          | (09/07)            | Fixed-mobile convergence general requirements
 Q.1763-2007              | (none)          | (10/07)            | FMC service using legacy PSTN or ISDN as the fixed access network for mobile network users
 Q.180-1988               | (none)          | (11/88)            | Interworking of Systems No. 4 and No. 5 - Specifications of Signalling Systems Nos. 4 and 5 (Study Group XI) 7 pp
-Q.1901                   | (none)          | (06/00)            | Bearer independent call control protocol
 Q.1901 CORR 1            | (none)          | (04/02)            | Bearer Independent Call Control protocol Corrigendum 1
 Q.1901 CORR 1-2002       | (none)          | (04/02)            | Bearer Independent Call Control Protocol Corrigendum 1 Series Q: SWITCHING AND SIGNALLING Specifications of signalling related to Bearer Independent Call Control (BICC)
 Q.1901-2000              | (none)          | (06/00)            | Bearer Independent Call Control Protocol Series Q: Switching and Signalling
-Q.1902.1                 | (none)          | (07/01)            | Bearer Independent Call Control Protocol (Capability Set 2): Functional Description
 Q.1902.1 AMD 1           | (none)          | (12/02)            | Bearer Independent Call Control protocol (Capability Set 2): Functional description Amendment 1: Support for the International Emergency Preference Scheme
 Q.1902.1 AMD 1-2002      | (none)          | (12/02)            | Bearer Independent Call Control protocol (Capability Set 2): Functional description Amendment 1: Support for the International Emergency Preference Scheme
 Q.1902.1 AMD 2           | (none)          | (01/06)            | Bearer Independent Call Control protocol (Capability Set 2): Functional description Amendment 2: Support for the International Emergency Preference Scheme
 Q.1902.1 AMD 2-2006      | (none)          | (01/06)            | Bearer Independent Call Control protocol (Capability Set 2): Functional description Amendment 2: Support for the International Emergency Preference Scheme
 Q.1902.1 AMD 3-2009      | (none)          | (10/09)            | Bearer Independent Call Control protocol (Capability Set 2): Functional description Amendment 3: Support for the customized alerting tone service
 Q.1902.1-2001            | (none)          | (07/01)            | Bearer Independent Call Control Protocol (Capability Set 2): Functional Description
-Q.1902.2                 | (none)          | (07/01)            | Bearer Independent Call Control protocol (Capability Set 2) and Signalling System No. 7 ISDN user part: General functions of messages and parameters
 Q.1902.2 AMD 1           | (none)          | (12/02)            | Bearer Independent Call Control protocol (Capability Set 2) and Signalling System No. 7 ISDN User Part: General functions of messages and parameters Amendment 1: Support for the International Emergency Preference Scheme
 Q.1902.2 AMD 1-2002      | (none)          | (12/02)            | Bearer Independent Call Control protocol (Capability Set 2) and Signalling System No. 7 ISDN User Part: General functions of messages and parameters SERIES Q: SWITCHING AND SIGNALLING Specifications of signalling related to Bearer Independent Call Control (BICC)
 Q.1902.2 AMD 2           | (none)          | (04/04)            | Bearer Independent Call Control protocol (Capability Set 2) and Signalling System No. 7 ISDN user part: General functions of messages and parameters Amendment 2
@@ -7089,7 +6971,6 @@ Q.1902.2 AMD 4           | (none)          | (09/06)            | Bearer Indepen
 Q.1902.2 AMD 4-2006      | (none)          | (09/06)            | Bearer Independent Call Control protocol (Capability Set 2) and Signalling System No. 7 ISDN user part: General functions of messages and parameters Amendment 4: Transport of Voice Enhancement Device related information
 Q.1902.2 AMD 5-2009      | (none)          | (10/09)            | Bearer Independent Call Control protocol (Capability Set 2) and Signalling System No. 7 ISDN user part: General functions of messages and parameters Amendment 5: Support for the customized alerting tone (CAT) service
 Q.1902.2-2001            | (none)          | (07/01)            | Bearer Independent Call Control Protocol (Capability Set 2)and Signalling System No. 7 ISDN User Part: General Functions of Messages and Paramenters Series Q: Switching and Signalling Specifications of Signalling Related to Bearer Independent Call Control (BICC)
-Q.1902.3                 | (none)          | (07/01)            | Bearer independent call control protocol (Capability Set 2) and Signalling System No. 7 ISDN user part: Formats and codes
 Q.1902.3 AMD 1           | (none)          | (12/02)            | Bearer Independent Call Control protocol (Capability Set 2) and Signalling System No. 7 ISDN User Part: Formats and codes Amendment 1: Support for the International Emergency Preference Scheme
 Q.1902.3 AMD 1-2002      | (none)          | (12/02)            | Bearer Independent Call Control protocol (Capability Set 2) and Signalling System No. 7 ISDN User Part: Formats and codes Amendment 1: Support for the International Emergency Preference Scheme SERIES Q: SWITCHING AND SIGNALLING Specifications of signalling related to Bearer Independent Call Control (BICC)
 Q.1902.3 AMD 2           | (none)          | (04/04)            | Bearer Independent Call Control protocol (Capability Set 2) and Signalling System No. 7 ISDN User Part: Formats and codes Amendment 2
@@ -7100,7 +6981,6 @@ Q.1902.3 AMD 4           | (none)          | (09/06)            | Bearer Indepen
 Q.1902.3 AMD 4-2006      | (none)          | (09/06)            | Bearer Independent Call Control protocol (Capability Set 2) and Signalling System No. 7 ISDN user part: Formats and codes Amendment 4: Transport of Voice Enhancement Device related information
 Q.1902.3 AMD 5-2009      | (none)          | (10/09)            | Bearer Independent Call Control protocol (Capability Set 2) and Signalling System No. 7 ISDN user part: Formats and codes Amendment 5: Support for the customized alerting tone (CAT) service
 Q.1902.3-2001            | (none)          | (07/01)            | Bearer Independent Call Control Protocol (Capability Set 2) and Signalling System No. 7 ISDN User Part: Formats and Codes Series Q: Switching and Signalling Specifications of Signalling Related to Bearer Independent Call Control (BICC)
-Q.1902.4                 | (none)          | (07/01)            | Bearer independent call control protocol (Capability Set 2): Basic call procedures
 Q.1902.4 AMD 1           | (none)          | (12/02)            | Bearer Independent Call Control protocol (Capability Set 2): Basic call procedures Amendment 1: Support for the International Emergency Preference Scheme
 Q.1902.4 AMD 1-2002      | (none)          | (12/02)            | Bearer Independent Call Control protocol (Capability Set 2): Basic call procedures SERIES Q: SWITCHING AND SIGNALLING Specifications of signalling related to Bearer Independent Call Control (BICC)
 Q.1902.4 AMD 2           | (none)          | (04/04)            | Bearer Independent Call Control protocol (Capability Set 2): Basic call procedures Amendment 2
@@ -7110,21 +6990,14 @@ Q.1902.4 AMD 3-2006      | (none)          | (01/06)            | Bearer Indepen
 Q.1902.4 AMD 4           | (none)          | (09/06)            | Bearer Independent Call Control protocol (Capability Set 2): Basic call procedures Amendment 4: Transport of Voice Enhancement Device related information
 Q.1902.4 AMD 4-2006      | (none)          | (09/06)            | Bearer Independent Call Control protocol (Capability Set 2): Basic call procedures Amendment 4: Transport of Voice Enhancement Device related information
 Q.1902.4-2001            | (none)          | (07/01)            | Bearer Independent Call Control Protocol (Capability Set 2): Basic Call Procedures Series Q: Switching and Signalling Specifications of Signalling Related to Bearer Independent Call Control (BICC)
-Q.1902.5                 | (none)          | (07/01)            | Bearer Independent Call Control protocol (Capability Set 2): Exceptions to the application transport mechanism in the context of BICC
 Q.1902.5-2001            | (none)          | (07/01)            | Bearer Independent Call Control Protocol (Capability Set 2): Exceptions to the Application Transport Mechanism in the Context of BICC Series Q: Switching and Signalling Specifications of Signalling Related to Bearer Independent Call Control (BICC)
-Q.1902.6                 | (none)          | (07/01)            | Bearer Independent Call Control protocol (Capability Set 2): Generic signalling procedures for the support of the ISDN user part supplementary services and for bearer redirection
 Q.1902.6 AMD 1           | (none)          | (04/04)            | Bearer Independent Call Control protocol (Capability Set 2): Generic signalling procedures for the support of the ISDN User Part supplementary services and for bearer redirection Amendment 1
 Q.1902.6 AMD 1-2004      | (none)          | (04/04)            | Bearer Independent Call Control protocol (Capability Set 2): Generic signalling procedures for the support of the ISDN User Part supplementary services and for bearer redirection Amendment 1 SERIES Q: SWITCHING AND SIGNALLING Specifications of signalling related to Bearer Independent Call Control (BICC)
 Q.1902.6-2001            | (none)          | (07/01)            | Bearer Independent Call Control Protocol (Capability Set 2): Generic Signalling Procedures for the Support of the ISDN User Part Supplementary Services and for Bearer Redirection Series Q: Switching and Signalling Specifications of Signalling Related to Bearer Independent Call Control (BICC)
-Q.1912.1                 | (none)          | (07/01)            | Interworking between Signalling System No. 7 ISDN user part and the Bearer Independent Call Control protocol
 Q.1912.1-2001            | (none)          | (07/01)            | Interworking between Signalling System No. 7 ISDN User Part and the Bearer Independent Call Control Protocol Series Q: Switching and Signalling Specifications of Signalling Related to Bearer Independent Call Control (BICC)
-Q.1912.2                 | (none)          | (07/01)            | Interworking between selected signalling systems (PSTN access, DSS1, C5, R1, R2, TUP) and the Bearer Independent Call Control protocol
 Q.1912.2-2001            | (none)          | (07/01)            | Interworking between Selected Signalling Systems (PSTN Access, DSS1, C5, R1, R2, TUP) and the Bearer Independent Call Control Protocol; Series Q: Switching and Signalling; Specifications of Signalling Related to Bearer Independent Call Control (BICC)
-Q.1912.3                 | (none)          | (07/01)            | Interworking between H.323 and the Bearer Independent Call Control protocol
 Q.1912.3-2001            | (none)          | (07/01)            | Interworking between H.323 and the Bearer Independent Call Control Protocol Series Q: Switching and Signalling Specifications of Signalling Related to Bearer Independent Call Control (BICC)
-Q.1912.4                 | (none)          | (07/01)            | Interworking between Digital Subscriber Signalling System No. 2 and the Bearer Independent Call Control protocol
 Q.1912.4-2001            | (none)          | (07/01)            | Interworking between Digital Subscriber Signalling System No. 2 and the Bearer Independent Call Control Protocol Series Q: Switching and Signalling Specifications of Signalling Related to Bearer Independent Call Control (BICC)
-Q.1912.5                 | (none)          | (03/04)            | Interworking between Session Initiation Protocol (SIP) and Bearer Independent Call Control protocol or ISDN User Part
 Q.1912.5 B-2008          | (none)          | (10/08)            | Interworking between session initiation protocol (SIP) and bearer independent call control protocol (BICC) or ISDN user part (ISUP): Protocol implementation conformance statement (PICS)
 Q.1912.5 B-2008          | (none)          | (10/08)            | Interworking between Session Initiation Protocol (SIP) and Bearer Independent Call Control Protocol (BICC) or ISDN User Part (ISUP): Protocol Implementation Conformance Statement (PICS)
 Q.1912.5 C-2008          | (none)          | (10/08)            | Interworking between session initiation protocol (SIP) and bearer independent call control protocol (BICC) or ISDN user part (ISUP): Test suite structure and test purposes (TSS&TP) for profiles A and B
@@ -7135,36 +7008,21 @@ Q.1912.5 E-2008          | (none)          | (10/08)            | Interworking b
 Q.1912.5 F-2011          | (none)          | (03/11)            | Interworking between Session Initiation Protocol (SIP) and Bearer Independent Call Control Protocol (BICC) or ISDN User Part (ISUP); Part 5: Abstract Test Suite (ATS) and partial Protocol Implementation eXtra Information for Testing (PIXIT
 Q.1912.5 F-2011          | (none)          | (03/11)            | Interworking between session initiation protocol (SIP) and bearer independent call control protocol (BICC) or ISDN user part (ISUP): Abstract test suite (ATS) and partial protocol implementation extra information for testing (PIXIT) for profile C - Study
 Q.1912.5-2004            | (none)          | (03/04)            | Interworking between Session Initiation Protocol (SIP) and Bearer Independent Call Control Protocol or ISDN User Part SERIES Q: SWITCHING AND SIGNALLING Specifications of signalling related to Bearer Independent Call Control (BICC)
-Q.1922.2                 | (none)          | (07/01)            | Interaction between the Intelligent Network Application Protocol Capability Set 2 and the Bearer Independent Call Control protocol
 Q.1922.2-2001            | (none)          | (07/01)            | Interaction between the Intelligent Network Application Protocol Capability Set 2 and the Bearer Independent Call Control Protocol Series Q: Switching and Signalling Specifications of Signalling Related to Bearer Independent Call Control (BICC)
-Q.1922.4                 | (none)          | (12/02)            | Interaction between the Intelligent Network application CS-4 protocol and the Bearer Independent Call Control protocol
 Q.1922.4-2002            | (none)          | (12/02)            | Interaction between the Intelligent Network application CS-4 protocol and the Bearer Independent Call Control protocol SERIES Q: SWITCHING AND SIGNALLING Specifications of signalling related to Bearer Independent Call Control (BICC)
-Q.1930                   | (none)          | (04/02)            | BICC access network protocol
 Q.1930-2002              | (none)          | (04/02)            | BICC access network protocol SERIES Q: SWITCHING AND SIGNALLING Specifications of signalling related to Bearer Independent Call Control (BICC)
-Q.1950                   | (none)          | (12/02)            | Bearer independent call bearer control protocol
 Q.1950 AMD 1             | (none)          | (01/06)            | Bearer independent call bearer control protocol Amendment 1: New Annex G 鈥?Call bearer control 鈥?International Emergency Preference Scheme
 Q.1950 AMD 1-2006        | (none)          | (01/06)            | Bearer independent call bearer control protocol Amendment 1: New Annex G 鈥?Call bearer control 鈥?International Emergency Preference Scheme
 Q.1950-2002              | (none)          | (12/02)            | Bearer independent call bearer control protocol
-Q.1970                   | (none)          | (09/06)            | BICC IP bearer control protocol
 Q.1970-2006              | (none)          | (09/06)            | BICC IP bearer control protocol
-Q.1980.1                 | (none)          | (12/04)            | The Narrowband Signalling Syntax (NSS) 鈥?Syntax definition
 Q.1980.1-2004            | (none)          | (12/04)            | The Narrowband Signalling Syntax (NSS) - Syntax Definition
-Q.1990                   | (none)          | (07/01)            | BICC bearer control tunnelling protocol
 Q.1990-2001              | (none)          | (07/01)            | BICC Bearer Control Tunnelling Protocol Series Q: Switching and Signalling Specifications of Signalling Related to Bearer Independent Call Control (BICC)
-Q.2                      | (none)          | (11/88)            | SIGNAL RECEIVERS FOR AUTOMATIC AND SEMI-AUTOMATIC WORKING, USED FOR MANUAL WORKING
 Q.2-1988                 | (none)          | (11/88)            | SIGNAL RECEIVERS FOR AUTOMATIC AND SEMI-AUTOMATIC WORKING, USED FOR MANUAL WORKING
-Q.20                     | (none)          | (11/88)            | Comparative advantages of "in-band" and "out-band" systems
-Q.20                     | (none)          | (11/88)            | COMPARATIVE ADVANTAGES OF "IN-BAND" AND "OUT-BAND" SYSTEMS
 Q.20-1988                | (none)          | (11/88)            | Comparative advantages of "in-band" and "out-band" systems
-Q.2010                   | (none)          | (02/95)            | BROADBAND INTEGRATED SERVICES DIGITAL NETWORK OVERVIEW 鈥?SIGNALLING CAPABILITY SET 1, RELEASE 1
 Q.2010-1995              | (none)          | (02/95)            | Broadband Integrated Services Digital Network Overview - Signalling Capability Set 1, Release 1 - General Aspects of B-ISDN - (Study Group 11)
-Q.21                     | (none)          | (11/88)            | SYSTEMS RECOMMENDED FOR OUT-BAND SIGNALLING
 Q.21-1988                | (none)          | (11/88)            | SYSTEMS RECOMMENDED FOR OUT-BAND SIGNALLING
-Q.2100                   | (none)          | (07/94)            | B-ISDN SIGNALLING ATM ADAPTATION LAYER (SAAL) OVERVIEW DESCRIPTION
 Q.2100-1994              | (none)          | (07/94)            | B-ISDN Signalling ATM Adaptation Layer (SAAL) Overview Description - Broadband ISDN (Study Group 11) 7 pp
-Q.2110                   | (none)          | (07/94)            | B-ISDN ATM ADAPTATION LAYER - SERVICE SPECIFIC CONNECTION ORIENTED PROTOCOL (SSCOP)
 Q.2110-1994              | (none)          | (01/94)            | B-ISDN ATM Adaptation Layer - Service Specific Connection Oriented Protocol (SSCOP) - Broadband ISDN (Study Group 11) 99 pp
-Q.2111                   | (none)          | (12/99)            | B-ISDN ATM adaptation layer 鈥?Service specific connection oriented protocol in a multilink and connectionless environment (SSCOPMCE)
 Q.2111 AMD 1             | (none)          | (07/01)            | B-ISDN ATM adaptation layer 鈥?Service specific connection oriented protocol in a multilink and connectionless environment (SSCOPMCE) Amendment 1
 Q.2111 AMD 1-2001        | (none)          | (07/01)            | B-ISDN ATM adaptation layer 鈥?Service specific connection oriented protocol in a multilink and connectionless environment (SSCOPMCE) Amendment 1
 Q.2111 AMD 2             | (none)          | (04/02)            | B-ISDN ATM adaptation layer - Service specific connection oriented protocol in a multilink and connectionless environment (SSCOPMCE) Amendment 2: API for SSCOPMCE over Ethernet
@@ -7174,38 +7032,22 @@ Q.2111 AMD 3-2003        | (none)          | (10/03)            | B-ISDN ATM ada
 Q.2111 NOTE              | (none)          | (03/04)            | B-ISDN ATM adaptation layer 鈥?Service specific connection oriented protocol in a multilink and connectionless environment (SSCOPMCE) 鈥?Amendment 2: API for SSCOPMCE over Ethernet
 Q.2111 NOTE-2004         | (none)          | (03/04)            | B-ISDN ATM adaptation layer 鈥?Service specific connection oriented protocol in a multilink and connectionless environment (SSCOPMCE) 鈥?Amendment 2: API for SSCOPMCE over Ethernet
 Q.2111-1999              | (none)          | (12/99)            | B-ISDN ATM Adaptation Layer - Service Specific Connection Oriented Protocol In a Multilink and Connectionless Environment (SSCOPMCE)Series Q: Switching and Signalling Broadband ISDN - Signalling ATM Adaptation Layer (SAAL)
-Q.2119                   | (none)          | (07/96)            | B-ISDN ATM ADAPTATION LAYER 鈥?CONVERGENCE FUNCTION FOR SSCOP ABOVE THE FRAME RELAY CORE SERVICE
 Q.2119-1996              | (none)          | (07/96)            | B-ISDN ATM Adaptation Layer - Convergence Function for SSCOP Above the Frame Relay Core Service - Series Q: Switching and Signalling Broadband ISDN - ATM Adaptation Layer - Study Group 11; 17 pp
-Q.2120                   | (none)          | (02/95)            | B-ISDN META-SIGNALLING PROTOCOL
-Q.2120                   | (none)          | (02/95)            | PROTOCOLO DE METASEÑALIZACION DE LA RED DIGITAL DE SERVICIOS INTEGRADOS DE BANDA ANCHA
 Q.2120-1995              | (none)          | (01/95)            | B-ISDN Meta-Signalling Protocol - B-ISDN ATM Adaptation Layer - Study Group 11; 61 pp; PRETS 300 486-1: 1995
-Q.2130                   | (none)          | (07/94)            | B-ISDN SIGNALLING ATM ADAPTATION LAYER 鈥?SERVICE SPECIFIC COORDINATION FUNCTION FOR SUPPORT OF SIGNALLING AT THE USER NETWORK INTERFACE (SSFC AT UNI)
 Q.2130-1994              | (none)          | (07/94)            | B-ISDN Signalling ATM Adaptation Layer - Service Specific Coordination Function for Support of Signalling at the User Network Interface (SSFC AT UNI) - Broadband ISDN (Study Group 11) 58 pp (ETS 300 437-1)
-Q.2140                   | (none)          | (02/95)            | B-ISDN ATM ADAPTATION LAYER - SERVICE SPECIFIC COORDINATION FUNCTION FOR SIGNALLING AT THE NETWORK NODE INTERFACE (SSCF AT NNI)
 Q.2140 NOTE              | (none)          | (03/04)            | B-ISDN ATM ADAPTATION LAYER - SERVICE SPECIFIC COORDINATION FUNCTION FOR SIGNALLING AT THE NETWORK NODE INTERFACE (SSCF AT NNI)
 Q.2140 NOTE-2004         | (none)          | (03/04)            | B-ISDN ATM Adaptation Layer - Service Specific Coordination Function for Signalling at the Network Node Interface (SSCF at NNI)
 Q.2140-1995              | (none)          | (02/95)            | B-ISDN ATM Adaptation Layer - Service Specific Coordination Function for Signalling at the Network Node Interface (SSCF at NNI) - B-ISDN ATM Adaptation Layer (Study Group 11) 65 pp (ETS 300 438-1) - Study Group 11; Covering Note: March 12, 2004
-Q.2144                   | (none)          | (10/95)            | B-ISDN SIGNALLING ATM ADAPTATION LAYER (SAAL) - LAYER MANAGEMENT FOR THE SAAL AT THE NETWORK NODE INTERFACE (NNI)
 Q.2144-1995              | (none)          | (10/95)            | B-ISDN Signalling ATM Adaptation Layer (SAAL) - Layer Management for the SAAL at the Network Node Interface (NNI) - B-ISDN ATM Adaptation Layer (Study Group 11) 34 pp (ETSI PRETS 300 647)
-Q.2150.0                 | (none)          | (05/01)            | Generic Signalling Transport Service
 Q.2150.0-2001            | (none)          | (05/01)            | Generic Signalling Transport Service Series Q: Switching and Signalling Broadband ISDN - Signalling ATM Adaptation Layer (SAAL)
-Q.2150.1                 | (none)          | (05/01)            | Signalling Transport Converter on MTP3 and MTP3b
 Q.2150.1-2001            | (none)          | (05/01)            | Signalling Transport Converter on MTP3 and MTP3b
-Q.2150.2                 | (none)          | (05/01)            | Signalling Transport Converter on SSCOP and SSCOPMCE
 Q.2150.2-2001            | (none)          | (05/01)            | Signalling Transport Converter on SSCOPMCE Series Q: Switching and Signalling - Broadband ISDN - Signalling ATM Adaptation Layer (SAAL)
-Q.2150.3                 | (none)          | (12/02)            | Signalling transport converter on SCTP
 Q.2150.3-2002            | (none)          | (12/02)            | Signalling transport converter on SCTP SERIES Q: SWITCHING AND SIGNALLING Broadband ISDN 鈥?Signalling ATM adaptation layer (SAAL)
-Q.22                     | (none)          | (11/88)            | FREQUENCIES TO BE USED FOR IN-BAND SIGNALLING
 Q.22-1988                | (none)          | (11/88)            | FREQUENCIES TO BE USED FOR IN-BAND SIGNALLING
-Q.2210                   | (none)          | (07/96)            | Message transfer part level 3 functions and messages using the services of ITU-T Recommendation Q.2140
 Q.2210-1996              | (none)          | (07/96)            | Message Transfer Part Level 3 Functions and Messages Using the Services of ITU-T Recommendation Q.2140 - Series Q: Switching and Signalling Broadband ISDN - Signalling Network Protocols - Study Group 11; 30 pp
-Q.2220                   | (none)          | (12/02)            | Transport-Independent Signalling Connection Control Part (TI-SCCP)
 Q.2220-2002              | (none)          | (12/02)            | Transport-Independent Signalling Connection Control Part (TI-SCCP) SERIES Q: SWITCHING AND SIGNALLING Broadband ISDN 鈥?Signalling network protocols
-Q.23                     | (none)          | (11/88)            | TECHNICAL FEATURES OF PUSH-BUTTON TELEPHONE SETS
 Q.23-1988                | (none)          | (11/88)            | TECHNICAL FEATURES OF PUSH-BUTTON TELEPHONE SETS
-Q.24                     | (none)          | (11/88)            | MULTIFREQUENCY PUSH-BUTTON SIGNAL RECEPTION
 Q.24-1988                | (none)          | (11/88)            | MULTIFREQUENCY PUSH-BUTTON SIGNAL RECEPTION
-Q.25                     | (none)          | (11/88)            | SPLITTING ARRANGEMENTS AND SIGNAL RECOGNITION TIMES IN "IN-BAND" SIGNALLING SYSTEMS
 Q.25-1988                | (none)          | (11/88)            | SPLITTING ARRANGEMENTS AND SIGNAL RECOGNITION TIMES IN "IN-BAND" SIGNALLING SYSTEMS
 Q.251-Q.300              | (none)          | (11/88)            | Specifications of Signalling System No. 6
 Q.251-Q.300-1988         | (none)          | (11/88)            | Specifications of Signalling System No. 6
@@ -7217,134 +7059,90 @@ Q.256-1988               | (none)          | (11/88)            | 2.3 Management
 Q.257-1988               | (none)          | (11/88)            | 3.1 General - Specifications of Signalling System No. 6 (Study Group XI) 5 pp
 Q.258-1988               | (none)          | (11/88)            | 3.2 Telephone Signals - Specifications of Signalling System No. 6 (Study Group XI) 8 pp
 Q.259-1988               | (none)          | (11/88)            | 3.3 Signalling-System- Control Signals - Specifications of Signalling Sytem No. 6 (Study Group XI) 4 pp
-Q.26                     | (none)          | (11/88)            | DIRECT ACCESS TO THE INTERNATIONAL NETWORK FROM THE NATIONAL NETWORK
 Q.26-1988                | (none)          | (11/88)            | DIRECT ACCESS TO THE INTERNATIONAL NETWORK FROM THE NATIONAL NETWORK
 Q.260-1988               | (none)          | (11/88)            | 3.4 Management Signals - Specifications of Signalling System No. 6 (Study Group XI) 5 pp
 Q.261-1988               | (none)          | (11/88)            | 4.1 Normal Call Set-Up - Specifications of Signalling System No. 6 (Study Group XI) 7 pp
-Q.2610                   | (none)          | (12/99)            | Usage of cause and location in B-ISDN user part and DSS2
 Q.2610-1999              | (none)          | (12/99)            | Usage of Cause and Location in B-ISDN User Part and DSS2 - Series Q: Switching and Signalling - Broadband ISDN - Common Aspects of B-ISDN Application Protocols for Access Signalling and Network Signalling and Interworking - Study Group 11; 11 pp
 Q.262-1989               | (none)          | (01/89)            | 4.2 Analysis of Digital Information for Routing - Specifications of Signalling System No. 6 (Study Group XI) 1 pp
 Q.263-1988               | (none)          | (11/88)            | 4.3 Double Seizing with Both-Way Operation - Specifications of Signalling System No. 6 (Study Group XI) 2 pp
-Q.2630.1                 | (none)          | (12/99)            | AAL type 2 signalling protocol - Capability set 1
 Q.2630.1 ANNEX B         | (none)          | (03/01)            | AAL type 2 signalling protocol - Capability set 1 Annex. B: SDL definition of the AAL type 2 signalling protocol CS-1
 Q.2630.1 ANNEX B-2001    | (none)          | (03/01)            | SDL Definition of the AAL Type 2 Signalling Protocol CS1 Series Q: Switching and Signalling Broadband ISDN - Common Aspects of B-ISDN Application Protocols for Access Signalling and Network Signalling and Interworking - Annex B; Study Group 11
 Q.2630.1-1999            | (none)          | (12/99)            | AAL Type 2 Signalling Protocol - Capability Set 1 - Series Q: Switching and Signalling Broadband ISDN - Common Aspects of B-ISDN Application Protocols for Access Signalling and Network Signalling and Interworking - Study Group 11; 90pp
-Q.2630.2                 | (none)          | (12/00)            | AAL type 2 signalling protocol - Capability set 2
 Q.2630.2 ANNEX D         | (none)          | (04/02)            | AAL type 2 signalling protocol 鈥?Capability set 2 Annex D: SDL definition of the AAL type 2 signalling protocol CS-2
 Q.2630.2 ANNEX D-2002    | (none)          | (04/02)            | AAL type 2 signalling protocol 鈥?Capability set 2 Annex D: SDL definition of the AAL type 2 signalling protocol CS-2 SERIES Q: SWITCHING AND SIGNALLING Broadband ISDN 鈥?Common aspects of B-ISDN application protocols for access signalling and network signalling and interworking
 Q.2630.2-2000            | (none)          | (12/00)            | AAL Type 2 Signalling Protocol - Capability Set 2 Series Q: Switching and Signalling Broadband ISDN - Common Aspects of B-ISDN Application Protocols for Access Signalling and Network Signalling and Interworking
-Q.2630.3                 | (none)          | (10/03)            | AAL type 2 signalling protocol 鈥?Capability Set 3
 Q.2630.3 AMD 1           | (none)          | (01/06)            | AAL type 2 signalling protocol 鈥?Capability Set 3 Amendment 1: Support for the International Emergency Preference Scheme
 Q.2630.3 AMD 1-2006      | (none)          | (01/06)            | AAL type 2 signalling protocol 鈥?Capability Set 3 Amendment 1: Support for the International Emergency Preference Scheme
 Q.2630.3-2003            | (none)          | (10/03)            | AAL type 2 signalling protocol 鈥?Capability Set 3 SERIES Q: SWITCHING AND SIGNALLING Broadband ISDN 鈥?Common aspects of B-ISDN application protocols for access signalling and network signalling and interworking
-Q.2631.1                 | (none)          | (10/03)            | IP connection control signalling protocol 鈥?Capability Set 1
 Q.2631.1-2003            | (none)          | (10/03)            | IP connection control signalling protocol 鈥?Capability Set 1 SERIES Q: SWITCHING AND SIGNALLING Broadband ISDN 鈥?Common aspects of B-ISDN application protocols for access signalling and network signalling and interworking
-Q.2632.1                 | (none)          | (10/03)            | Interworking between AAL type 2 signalling protocol Capability Set 2 and IP connection control signalling protocol Capability Set 1
 Q.2632.1-2003            | (none)          | (10/03)            | Interworking between AAL Type 2 Signalling Protocol Capability Set 2 and IP Connection Control Signalling Protocol Capability Set 1 SERIES Q: SWITCHING AND SIGNALLING Broadband ISDN 鈥?Common aspects of B-ISDN application protocols for access signalling and network signalling and interworking
 Q.264-1988               | (none)          | (11/88)            | 4.4 Potential for Automatic Repeat Attempt and Re-Routing - Specifications of Signalling System No. 6 (Study Group XI) 1 pp
 Q.265-1988               | (none)          | (11/88)            | 4.5 Speed of Switching and Signal Transfer in International Exchanges - Specifications of Signalling System No. 6 (Study Group XI) 1 pp
-Q.2650                   | (none)          | (12/99)            | Interworking between signalling system No. 7 broadband ISDN user part (B-ISUP) and digital subscriber signalling system No. 2 (DSS2)
 Q.2650-1999              | (none)          | (12/99)            | Interworking between Signalling System No. 7 Broadband ISDN User Part (B-ISUP) and Digital Subscriber Signalling System No. 2 (DSS2) Series Q: Switching and Signalling Broadband ISDN - Common Aspects of B-ISDN Application Protocols for Access Signalling and Network Signalling and Interworking - Study Group 11; 48 pp
 Q.266-1988               | (none)          | (11/88)            | 4.6 Blocking and Unblocking Sequences and Control of Quasi- Associated Signalling - Specifications of Signalling System No. 6 (Study Group XI) 3 pp
-Q.2660                   | (none)          | (12/99)            | Interworking between signalling system No. 7 broadband ISDN user part (B-ISUP) and narrow-band ISDN user part (N-ISUP)
 Q.2660-1999              | (none)          | (12/99)            | Interworking between signalling system No. 7 broadband ISDN user part (B-ISUP) and narrow-band ISDN user part (N-ISUP)
 Q.267-1988               | (none)          | (11/88)            | 4.7 Unreasonable and Superfluous Messages - Specifications of Signalling System No. 6 (Study Group XI) 4 pp
 Q.268-1988               | (none)          | (11/88)            | 4.8 Release of International Connections and Associated Equipment - Specifications of Signalling System No. 6 (Study Group XI) 5 pp
-Q.27                     | (none)          | (11/88)            | TRANSMISSION OF THE ANSWER SIGNAL
 Q.27-1988                | (none)          | (11/88)            | TRANSMISSION OF THE ANSWER SIGNAL
 Q.271-1988               | (none)          | (11/88)            | 1.1 General - Specifications of Signalling System No. 6 (Study Group XI) 3 pp
 Q.272-1988               | (none)          | (11/88)            | 6.1 Requirements for the Signalling Data Link - Specifications of Signalling System No. 6 (Study Group XI) 6 pp
-Q.2721.1                 | (none)          | (07/96)            | B-ISDN User Part - Overview of the B-ISDN Network Node Interface Signalling Capability Set 2, Step 1
 Q.2721.1-1996            | (none)          | (07/96)            | B-ISDN User Part - Overview of the B-ISDN Network Node Interface Signalling Capability Set 2, Step 1 - Series Q: Switching and Signalling Broadband ISDN - B-ISDN Application Protocols for the Network - Study Group 11; 27 pp
-Q.2722.1                 | (none)          | (07/96)            | B-ISDN user part 鈥?network node interface specification for point-to-multipoint call/connection control
 Q.2722.1 AMD 1           | (none)          | (06/00)            | B-ISDN User Part - Network node interface specification for point-to-multipoint callkonnection control Amendment 1
 Q.2722.1 AMD 1-2000      | (none)          | (06/00)            | B-ISDN User Part - Network Node Interface Specification for Point-to-Multipoint Call/Connection Control Amendment 1 Series Q: Switching and Signalling Broadband ISDN - B-ISDN Application Protocols for the Network Signalling
 Q.2722.1-1996            | (none)          | (07/96)            | B-ISDN User Part - Network Node Interface Specification for Point-to-Multipoint Call/Connection Control - Series Q: Switching and Signalling Broadband ISDN - B-ISDN Application Protocols for the Network Signalling - Study Group 11; 68 pp
-Q.2723.1                 | (none)          | (07/96)            | B-ISDN User Part - Support of Additional Traffic Parameters for Sustainable Cell Rate and Quality of Service
 Q.2723.1-1996            | (none)          | (07/96)            | B-ISDN User Part 鈥?Support of additional traffic parameters for Sustainable Cell Rate and Quality of Service - Study Group 11; 16 pp
-Q.2723.2                 | (none)          | (09/97)            | Extensions to the B-ISDN User Part - Support of ATM Transfer Capability in the Broadband Bearer Capability Parameter
 Q.2723.2-1997            | (none)          | (09/97)            | Extensions to the B-ISDN User Part - Support of ATM Transfer Capability in the Broadband Bearer Capability Parameter Series Q: Switching and Signalling Broadband ISDN - B-ISDN Application Protocols for the Network Signalling - Study Group 11; 12 pp
-Q.2723.3                 | (none)          | (09/97)            | Extensions to the B-ISDN User Part - Signalling Capabilities to Support Traffic Parameters for the Available Bit Rate (ABR) ATM Transfer Capability
 Q.2723.3-1997            | (none)          | (09/97)            | Extensions to the B-ISDN User Part - Signalling Capabilities to Support Traffic Parameters for the Available Bit Rate (ABR) ATM Transfer Capability Series Q: Switching and Signalling Broadband ISDN - B-ISDN Application Protocols for the Network Signalling - Study Group 11; 18 pp
-Q.2723.4                 | (none)          | (09/97)            | Extensions to the B-ISDN User Part - Signalling Capabilities to Support Traffic Parameters for the ATM Block Transfer (ABT) ATM Transfer Capability
 Q.2723.4-1997            | (none)          | (09/97)            | Extensions to the B-ISDN User Part - Signalling Capabilities to Support Traffic Parameters for the ATM Block Transfer (ABT) ATM Transfer Capability Series Q: Switching and Signalling Broadband ISDN - B-ISDN Application Protocols for the Network Signalling - Study Group 11; 19 pp
-Q.2723.5                 | (none)          | (03/99)            | B-ISDN User Part - Support of Cell Delay Variation Tolerance Indication
 Q.2723.5-1999            | (none)          | (03/99)            | B-ISDN User Part - Support of Cell Delay Variation Tolerance Indication Series Q: Switching and Signalling Broadband ISDN - B-ISDN Application Protocols for the Network Signalling - Study Group 11; 17 pp
-Q.2723.6                 | (none)          | (05/98)            | Extensions to the Signalling System No. 7 B-ISDN User Part - Signalling Capabilities to Support the Indication of the Statistical bit Rate Configuration 2 (SBR 2) and 3 (SBR 3) ATM Transfer Capabilities
 Q.2723.6-1998            | (none)          | (05/98)            | Extensions to the Signalling System No. 7 B-ISDN User Part - Signalling Capabilitiew to Support the Indication of the Statistical bit Rate Configuration 2 (SBR 2) and 3 (SBR 3) ATM Transfer Capabilities - Series Q: Switching and Signalling - Broabband ISDN - B-ISDN Application Protocols for the Network Signalling - Study Group 11; 8 pp
-Q.2724.1                 | (none)          | (07/96)            | B-ISDN User Part - Look-ahead without state change for the Network Node Interface (NNI)
 Q.2724.1-1996            | (none)          | (07/96)            | B-ISDN User Part - Look-Ahead Without State Change for the Network Node Interface (NNI) - Series Q: Switching and Signalling - Broadband ISDN - B-ISDN Application Protocols for the Network Signalling - Study Group 11; 34 pp
-Q.2725.1                 | (none)          | (05/98)            | B-ISDN User Part - Support of negotiation during connection setup
 Q.2725.1-1998            | (none)          | (05/98)            | B-ISDN User Part - Support of Negotiation During Connection Setup - Series Q: Switching and Signalling - Broadband ISDN - B-ISDN Application Protocols for the Network Signalling - Study Group 11; 17 pp
-Q.2725.2                 | (none)          | (07/96)            | B-ISDN User Part 鈥?Modification procedures
 Q.2725.2-1996            | (none)          | (07/96)            | B-ISDN User Part - Modification Procedures
-Q.2725.3                 | (none)          | (09/97)            | Extensions to the B-ISDN User Part 鈥?Modification procedures for sustainable cell rate parameters
 Q.2725.3-1997            | (none)          | (09/97)            | Extensions to the B-ISDN User Part - Modification Procedures for Sustainable Cell Rate Parameters - Study Group 11; 11 pp
-Q.2725.4                 | (none)          | (05/98)            | Extensions to the Signalling System No. 7 B-ISDN User Part 鈥?Modification procedures with negotiation
 Q.2725.4-1998            | (none)          | (05/98)            | Extensions to the Signalling System No. 7 B-ISDN User Part - Modification Procedures with Negotiation - Series Q: Switching and Signalling - Broadband ISDN - B-ISDN Application Protocols for the Network Signalling - Study Group 11; 17 pp
-Q.2726.1                 | (none)          | (07/96)            | B-ISDN user part 鈥?ATM end system address
 Q.2726.1-1996            | (none)          | (07/96)            | B-ISDN User Part - ATM End System Address - Study Group 11; 16 pp
-Q.2726.2                 | (none)          | (07/96)            | B-ISDN user part - Call priority
 Q.2726.2-1996            | (none)          | (07/96)            | B-ISDN User Part - Call Priority - Series Q: Switching and Signalling Broadband ISDN - B-ISDN Application Protocols for the Network Signalling - Study Group 11; 13 pp
-Q.2726.3                 | (none)          | (07/96)            | B-ISDN User Part - Network Generated Session Identifier
 Q.2726.3-1996            | (none)          | (07/96)            | B-ISDN User Part - Network Generated Session Identifier - Series Q: Switching and Signalling Broadband ISDN - B-ISDN Application Protocols for the Network Signalling - Study Group 11; 14 pp
-Q.2726.4                 | (none)          | (06/00)            | Extensions to the B-ISDN user part - Application generated identifiers
 Q.2726.4-2000            | (none)          | (06/00)            | Extensions to the B-ISDN User Part Application Generated Identifiers Series Q: Switching and Signalling Broadband ISDN - B-ISDN Application Protocols for the Network Signalling
-Q.2727                   | (none)          | (07/96)            | B-ISDN User Part - Support of frame relay
 Q.2727-1996              | (none)          | (07/96)            | B-ISDN User Part - Support of Frame Relay
 Q.273-1988               | (none)          | (11/88)            | 6.2 Data Transmission Rate - Specifications of Signalling System No. 6 (Study Group XI) 1 pp
-Q.2730                   | (none)          | (12/99)            | Signalling system No. 7 B-ISDN user part (6-ISUP) - Supplementary services
 Q.2730-1999              | (none)          | (12/99)            | Signalling system No. 7 B-ISDN user part (B-ISUP) 鈥?Supplementary services - Study Group 11; 41 pp
-Q.2735.1                 | (none)          | (06/97)            | Stage 3 description for community of interest supplementary services for B-ISDN using SS No.7: Closed User Group (CUG)
 Q.2735.1-1997            | (none)          | (06/97)            | Stage 3 description for community of interest supplementary services for B-ISDN using SS No.7: Closed User Group (CUG)
 Q.274-1988               | (none)          | (11/88)            | 6.3 Transmission Methods - Specifications of Signalling System No. 6 (Study Group XI) 8 pp
 Q.275-1988               | (none)          | (11/88)            | 6.5 Data Channel Failure Detection - Specifications of Signalling System No. 6 (Study Group XI) 1 pp
-Q.2751.1                 | (none)          | (09/97)            | Extension of Q.751.1 for SAAL Signalling Links
 Q.2751.1-1997            | (none)          | (09/97)            | Extension of Q.751.1 for SAAL Signalling Links
 Q.276-1988               | (none)          | (11/88)            | 6.6 Service Dependability - Specifications of Signalling System No. 6 (Study Group XI) 2 pp
-Q.2761                   | (none)          | (12/99)            | Functional description of the B-ISDN user part (B-ISUP) of signalling system No. 7
 Q.2761 AMD 1             | (none)          | (12/02)            | Functional description of the B-ISDN user part (B-ISUP) of signalling system No. 7 Amendment 1: Support for the International Emergency Preference Scheme
 Q.2761 AMD 1-2002        | (none)          | (12/02)            | Functional description of the B-ISDN user part (B-ISUP) of signalling system No. 7 Amendment 1: Support for the International Emergency Preference Scheme SERIES Q: SWITCHING AND SIGNALLING Broadband ISDN - B-ISDN application protocols for the network signalling
 Q.2761-1999              | (none)          | (12/99)            | Functional Description of the B-ISDN User Part (B-ISUP) of Signalling System No. 7 Series Q: Switching and Signalling Broadband ISDN - B-ISDN Application Protocols for the Network Signalling
-Q.2762                   | (none)          | (12/99)            | General functions of messages and signals of the B-ISDN user part (B-ISUP) of Signalling System No. 7
 Q.2762 AMD 1             | (none)          | (12/02)            | General functions of messages and signals of the B-ISDN User Part (B-ISUP) of Signalling System No. 7 Amendment 1: Support for the International Emergency Preference Scheme
 Q.2762 AMD 1-2002        | (none)          | (12/02)            | General functions of messages and signals of the B-ISDN User Part (B-ISUP) of Signalling System No. 7 Amendment 1: Support for the International Emergency Preference Scheme SERIES Q: SWITCHING AND SIGNALLING Broadband ISDN - B-ISDN application protocols for the network signalling
 Q.2762-1999              | (none)          | (12/99)            | General Functions of Messages and Signals of the B-ISDN User Part (B-ISUP) of Signalling System No. 7 Series Q: Switching and Signalling Broadband ISDN - B-ISDN Application Protocols for the Network Signalling
-Q.2763                   | (none)          | (12/99)            | Signalling System No. 7 B-ISDN User Part (B-ISUP) - Formats and codes
 Q.2763 AMD 1             | (none)          | (12/02)            | Signalling System No. 7 B-ISDN User Part (B-ISUP) 鈥?Formats and codes Amendment 1: Support for the International Emergency Preference Scheme
 Q.2763 AMD 1-2002        | (none)          | (12/02)            | Signalling System No. 7 B-ISDN User Part (B-ISUP) 鈥?Formats and codes Amendment 1: Support for the International Emergency Preference Scheme SERIES Q: SWITCHING AND SIGNALLING Broadband ISDN 鈥?B-ISDN application protocols for the network signalling
 Q.2763-1999              | (none)          | (12/99)            | Signalling System No. 7 B-ISDN User Part (B-ISUP) - Formats and Codes Series Q: Switching and Signalling Broadband ISDN B-ISDN Application Protocols of the Network Signalling
-Q.2764                   | (none)          | (12/99)            | Signalling System No. 7 B-ISDN User Part (B-ISUP) - Basic call procedures
-Q.2764                   | (none)          | (12/99)            | Signalling System No. 7 B-ISDN User Part (B-ISUP) 鈥?Basic call procedures
 Q.2764 AMD 1             | (none)          | (12/02)            | Signalling System No. 7 B-ISDN User Part (B-ISUP) 鈥?Basic call procedures Amendment 1: Support for the International Emergency Preference Scheme
 Q.2764 AMD 1-2002        | (none)          | (12/02)            | Signalling System No. 7 B-ISDN User Part (B-ISUP) 鈥?Basic call procedures Amendment 1: Support for the International Emergency Preference Scheme SERIES Q: SWITCHING AND SIGNALLING Braodband ISDN - B-ISDN application protocol for the network signalling
 Q.2764-1999              | (none)          | (12/99)            | Signalling System No. 7 B-ISDN User Part (B-ISUP) - Basic Call Procedures Series Q: Switching and Signalling Broadband ISDN Application ProtocolsFor the Network Signalling
-Q.2765                   | (none)          | (12/99)            | Signalling System No. 7 B-ISDN User Part (B-ISUP) 鈥?Application Transport Mechanism (APM)
 Q.2765-1999              | (none)          | (12/99)            | Signalling System No. 7 B-ISDN User Part (B-ISUP) 鈥?Application Transport Mechanism (APM)
-Q.2766.1                 | (none)          | (05/98)            | Switched virtual path capability
 Q.2766.1 AMD 1           | (none)          | (06/00)            | Switched virtual path capability Amendment 1
 Q.2766.1 AMD 1-2000      | (none)          | (06/00)            | Switched Virtual Path Capability Amendment 1 Series Q: Switching and Signalling Broadband ISDN - B-ISDN Application Protocols for the Network Signalling
 Q.2766.1-1998            | (none)          | (05/98)            | Switched Virtual Path Capability - Series Q: Switching and Signalling - Broadband ISDN - B-ISDN Application Protocols for the Network Signalling - Study Group 11; 36 pp
-Q.2767.1                 | (none)          | (06/00)            | Soft PVC Capability
 Q.2767.1-2000            | (none)          | (06/00)            | Soft PVC Capability - Series Q: Switching and Signalling - Broadband ISDN - B-ISDN Application Protocols for the Network Signalling
-Q.2769.1                 | (none)          | (06/00)            | Support of number portability information across B-ISUP
 Q.2769.1-2000            | (none)          | (06/00)            | Support of Number Portability Information Across B-ISUP Series Q: Switching and Signalling Broadband ISDN - B-ISDN Application Protocols for the Network Signalling
 Q.277-1988               | (none)          | (11/88)            | 6.7 Error Control - Specifications of Signalling System No. 6 (Study Group XI) 3 pp
 Q.278-1988               | (none)          | (11/88)            | 6.8 Synchronization - Specifications of Signalling System No. 6 (Study Group XI) 4 pp
 Q.279-1988               | (none)          | (11/88)            | 6.9 Drift Compensation - Specifications of Signalling System No. 6 (Study Group XI) 1 pp
-Q.28                     | (none)          | (11/88)            | DETERMINATION OF THE MOMENT OF THE CALLED SUBSCRIBER鈥橲 ANSWER IN THE AUTOMATIC SERVICE
 Q.28-1988                | (none)          | (11/88)            | DETERMINATION OF THE MOMENT OF THE CALLED SUBSCRIBER鈥橲 ANSWER IN THE AUTOMATIC SERVICE
 Q.285-1988               | (none)          | (11/88)            | Signal Priority Categories - Specifications of Signalling System No. 6 (Study Group XI) 1 pp
 Q.286-1988               | (none)          | (11/88)            | 7.2 Signalling Channel Loading and Queueing Delays - Specifications of Signalling System No. 6 (Study Group XI) 4 pp
 Q.287-1988               | (none)          | (11/88)            | 7.3 Signal Transfer Time Requirements - Specifications of Signalling System No. 6 (Study Group XI) 3 pp
-Q.29                     | (none)          | (11/88)            | CAUSES OF NOISE AND WAYS OF REDUCING NOISE IN TELEPHONE EXCHANGES
 Q.29-1988                | (none)          | (11/88)            | CAUSES OF NOISE AND WAYS OF REDUCING NOISE IN TELEPHONE EXCHANGES
 Q.291-1988               | (none)          | (11/88)            | Security Arrangements - General. Basic Security Arrangements. Types of Failure, Recognition of Failure and Abnormal Error Rates - Specifications of Signalling System No. 6 (Study Group XI) 4 pp
 Q.292-1988               | (none)          | (11/88)            | 8.4 Reserve Facilities Provided - Specifications of Signalling System No. 6 (Study Group XI) 3 pp
-Q.2920                   | (none)          | (12/03)            | Broadband integrated services digital network (B-ISDN) 鈥?Digital Subscriber Signalling System No. 2 (DSS 2): Call/connection control for the support of ATM-MPLS network interworking
 Q.2920-2003              | (none)          | (12/03)            | Broadband integrated services digital network (B-ISDN) 鈥?Digital Subscriber Signalling System No. 2 (DSS 2): Call/connection control for the support of ATM-MPLS network interworking SERIES Q: SWITCHING AND SIGNALLING Broadband ISDN 鈥?B-ISDN application protocols for access signalling
 Q.293-1988               | (none)          | (11/88)            | 8.5 Intervals at Which Security Measures Are to Be Invoked - Specifications of Signalling System No. 6 (Study Group XI) 8 pp
-Q.2931                   | (none)          | (02/95)            | BROADBAND INTEGRATED SERVICES DIGITAL NETWORK (B-ISDN) - DIGITAL SUBSCRIBER SIGNALLING SYSTEM NO. 2 (DSS 2) - USER-NETWORK INTERFACE (UNI) LAYER 3 SPECIFICATION FOR BASIC CALL/CONNECTION CONTROL
 Q.2931 AMD 1             | (none)          | (06/97)            | Digital Subscriber Signalling System No. 2 - User-Network Interface (UNI) Layer 3 Specification for Basic Call/Connection Control Amendment 1
 Q.2931 AMD 1-1997        | (none)          | (06/97)            | Amendment 1 Digital Subscriber Signalling System No.2 - User-Network Interface (UNI) Layer 3 Specification for Basic Call/Connection Control - Series Q: Switching and Signalling Broadband ISDN - B-ISDN Application Protocols for Access Signalling - Study Group 11; 7 pp
 Q.2931 AMD 2             | (none)          | (03/99)            | Digital Subscriber Signalling System No. 2 - User-Network Interface (UNI) Layer 3 Specification for Basic Call/Connection Control Amendment 2
@@ -7361,68 +7159,45 @@ Q.2931 B-2000            | (none)          | (12/00)            | Broadband inte
 Q.2931 C-2000            | (none)          | (12/00)            | Broadband integrated services digital network (B-ISDN) 鈥?Digital subscriber signalling system No. 2 (DSS2) 鈥?User-network interface (UNI) layer 3 specification for basic call/connection control: Test suite structure and test purposes (TSS & TP) for the user SERIES Q: SWITCHING AND SIGNALLING Broadband ISDN 鈥?B-ISDN application protocols for access signalling
 Q.2931 D-2000            | (none)          | (12/00)            | Broadband integrated services digital network (B-ISDN)-Digital subscriber signalling system No. 2(DSS2)-User-network interface (UNI) Layer 3 spec. for basic call/connection control: Abstract test suite (ATS)and partial Protocol Implementation eXtra Information for Testing(PIXIT)proforma for the user SERIES Q:SWITCHING AND SIGNALLING Broadband ISDN-B-ISDN application protocols for access signalling
 Q.2931 E-2000            | (none)          | (12/00)            | Broadband integrated services digital network (B-ISDN) - Digital subscriber signalling system No. 2 (DSS2) - User-network interface (UNI) layer 3 specification for basic call/connection control: Test suite structure and test purposes (TSS & TP) for the network SERIES Q: SWITCHING AND SIGNALLING Broadband ISDN - B-ISDN application protocols for access signalling
-Q.2931 F                 | (none)          | (12/00)            | Broadband integrated services digital network (B-ISDN) 鈭?Digital subscriber signalling system No. 2 (DSS2) 鈭?User-network interface (UNI) layer 3 specification for basic call/connection control: Abstract Test Suite (ATS) and partial Protocol Implementation eXtra Information for Testing (PIXIT) proforma for the network
 Q.2931 F-2000            | (none)          | (12/00)            | Broadband integrated services digital network(B-ISDN)-Digital subscriber signalling system No.2(DSS2)-User-network interface(UNI)layer 3 spec. for basic call/connection control:Abstract Test Suite(ATS)and partial Protocol Implementation eXtra Information for Testing(PIXIT)proforma for the network SERIES Q:SWITCHING AND SIGNALLING Broadband ISDN-B-ISDN application protocols for access signalling
 Q.2931-1995              | (none)          | (02/95)            | BROADBAND INTEGRATED SERVICES DIGITAL NETWORK (B-ISDN) - DIGITAL SUBSCRIBER SIGNALLING SYSTEM NO. 2 (DSS 2) - USER-NETWORK INTERFACE (UNI) LAYER 3 SPECIFICATION FOR BASIC CALL/CONNECTION CONTROL
-Q.2932.1                 | (none)          | (07/96)            | Digital Subscriber Signalling System No. 2 鈥?Generic functional protocol: Core functions
 Q.2932.1-1996            | (none)          | (07/96)            | Digital Subscriber Signalling System No. 2 - Generic Functional Protocol: Core Functions - Series Q: Switching and Signalling Broadband ISDN - B-ISDN Application Protocols for Access Signalling - Study Group 11; 102 pp
-Q.2933                   | (none)          | (07/96)            | Digital Subscriber Signalling System No. 2 (DSS 2) 鈥?Signalling specification for Frame Relay service
 Q.2933-1996              | (none)          | (07/96)            | Digital Subscriber Signalling System No. 2 (DSS 2) - Signalling Specification for Frame Relay Service - Series Q: Switching and Signalling Broadband ISDN - B-ISDN Application Protocols for Access Signalling - 19 pp
-Q.2934                   | (none)          | (05/98)            | Digital subscriber Signalling System No. 2 鈥?Switched virtual path capability
 Q.2934-1998              | (none)          | (05/98)            | Digital Subscriber Signalling System No. 2 - Switched Virtual Path Capability - Series Q: Switching and Signalling - Broadband ISDN - B-ISDN Application Protocols for the Access Signalling - Study Group 11; 22 pp
-Q.2939.1                 | (none)          | (09/97)            | Digital Subscriber Signalling System No. 2 鈥?Application of DSS 2 service-related information elements by equipment supporting B-ISDN services
 Q.2939.1-1997            | (none)          | (09/97)            | Digital Subscriber Signalling System No. 2 - Application of DSS 2 Service-Related Information Elements by Equipment Supporting B-ISDN Services Series Q: Switching and Signalling Broadband ISDN - B-ISDN Application Protocols for Access Signalling - Study Group 11; 11 pp
-Q.2941.1                 | (none)          | (09/97)            | Digital subscriber Signalling System No. 2 鈥?Generic identifier transport
 Q.2941.1-1997            | (none)          | (09/97)            | Digital Subscriber Signalling System No. 2 - Generic Identifier Transport Series Q: Switching and Signalling Broadband ISDN - B-ISDN Application Protocols for Access Signalling - Study Group 11; 13 pp
-Q.2941.2                 | (none)          | (12/99)            | Digital subscriber signalling system No. 2 (DSS2) 鈥?Generic identifier transport extensions
 Q.2941.2-1999            | (none)          | (12/99)            | Digital Subscriber Signalling System No. 2 (DSS2) - Generic Identifier Transport Extensions Series Q: Switching and Signalling Broadband ISDN - B-ISDN Application Protocols for Access Signalling - Study Group 11; 18 pp
-Q.2941.3                 | (none)          | (06/00)            | Digital Subscriber Signalling System No. 2 (DSS2) - Generic Identifier Transport Extension for Support of Bearer Independent Call Control
 Q.2941.3-2000            | (none)          | (06/00)            | Digital Subscriber Signalling System No. 2 (DSS2) - Generic Identifier Transport Extension for Support of Bearer Independent Call Control
 Q.295-1988               | (none)          | (11/88)            | 9.1 Overall Test of Signalling System No. 6 - Specifications of Signalling System No. 6 (Study Group XI) 5 pp
-Q.2951                   | (none)          | (02/95)            | STAGE 3 DESCRIPTION FOR NUMBER IDENTIFICATION SUPPLEMENTARY SERVICES USING B-ISDN DIGITAL SUBSCRIBER SIGNALLING SYSTEM No. 2 (DSS 2) 鈥?BASIC CALL
 Q.2951 CORR 1            | (none)          | (05/98)            | Stage 3 description for number identification supplementary services using B-ISDN Digital Subscriber Signalling System No. 2 (DSS 2) 鈥?Basic call Corrigendum 1
 Q.2951 CORR 1-1998       | (none)          | (05/98)            | Stage 3 Description for Number Identification Supplementary Services Using B-ISDN Digital Subscriber Signalling System No. 2 (DSS 2) - Basic Call - Corrigendum 1 - Series Q: Switching and Signalling - Broadband ISDN - B-ISDN Application Protocols for Access Signalling - Study Group 11; 9 pp
 Q.2951-1995              | (none)          | (02/95)            | Stage 3 Description for Number Identification Supplementary Services Using B-ISDN Digital Subscriber Signalling System No. 2 (DSS 2) - Basic Call - Clause 1 - Direct-Dialling-in (DDI) Clause 2 - Multiple Subscriber Number (MSN) Clause 3 - Calling Line Identification Presentation (CLIP) Clause 4 - Calling Line Identification Restriction (CLIR) Clause 5 - Connected Line Identification Presentation - COLP Clause 6 - Connected Line Identification Restriction COLR Clause 8 - Sub-Addressing SUB - B-ISDN Application Protocols for Access Signalling; Study Group 11; 54 pp; ETSI ETS 300 663-1; ETSI ETS 300 664-1; ETSI ETS 300 665-1; ETSI ETS 300 666-1; ETSI ETS 300 667-1
-Q.2951.9                 | (none)          | (12/99)            | Stage 3 Description for Number Identification Supplementary Services Using B-ISDN Digital Subscriber Signalling System No. 2 (DSS 2) - Basic Call: Support of ATM End System Addressing Format by Number Identification Supplementary Services
 Q.2951.9-1999            | (none)          | (12/99)            | Stage 3 Description for Number Identification Supplementary Services Using B-ISDN Digital Subscriber Signalling System No. 2 (DSS 2) - Basic Call: Support of ATM End System Addressing Format by Number Identification Supplementary Services
-Q.2955.1                 | (none)          | (06/97)            | Stage 3 Description for Community of Interest Supplementary Services Using B-ISDN Digital Subscriber Signalling System No.2 (DSS 2): Closed User Group (CUG)
 Q.2955.1-1997            | (none)          | (06/97)            | Stage 3 Description for Community of Interest Supplementary Services Using B-ISDN Digital Subscriber Signalling System No.2 (DSS 2): Closed User Group (CUG) - Study Group 11; 27 pp
-Q.2957.1                 | (none)          | (02/95)            | STAGE 3 DESCRIPTION FOR ADDITIONAL INFORMATION TRANSFER SUPPLEMENTARY SERVICES USING B-ISDN DIGITAL SUBSCRIBER SIGNALLING SYSTEM NO. 2 (DSS 2) - BASIC CALL Clause 1 - User-to-user signalling (UUS)
 Q.2957.1 AMD 1           | (none)          | (12/99)            | Stage 3 description for additional information transfer supplementary services using B-ISDN digital subscriber signalling system No. 2 (DSS2) 鈥?Basic call: User-to-user signalling (UUS) Amendment 1
 Q.2957.1 AMD 1-1999      | (none)          | (12/99)            | Stage 3 Description for Additional Information Transfer Supplementary Services Using B-ISDN Digital Subscriber Signalling System No. 2 (DSS2) - Basic Call: User-to-User Signalling (UUS) Amendment 1 Series Q: Switching and Signalling Broadband ISDN - B-ISDN Application Protocols for Access Signalling - Study Group 11; 12 pp
 Q.2957.1-1995            | (none)          | (01/95)            | Stage 3 Description for Additional Information Transfer Supplementary Services Using B-ISDN Digital Subscriber Signalling System No. 2 (DSS 2) - Basic Call Clause 1 - User-to-User Signalling (UUS) B-ISDN Application Protocols for Access Signalling - Study Group 11; 14 pp; ETS 300 668-1
-Q.2959                   | (none)          | (07/96)            | Digital subscriber signalling system No. 2 - Call priority
-Q.2959                   | (none)          | (07/96)            | Digital Subscriber Signalling System No. 2 - Call Priority
 Q.2959-1996              | (none)          | (07/96)            | Digital Subscriber Signalling System No. 2 - Call Priority - Study Group 11; 15 pp
 Q.296-1988               | (none)          | (11/88)            | 9.6 Monitoring and Maintenance of the Common Signalling Channel - Specifications of Signalling System No. 6 (Study Group XI) 6 pp
-Q.2961                   | (none)          | (10/95)            | BROADBAND INTEGRATED SERVICES DIGITAL NETWORK (B-ISDN) - DIGITAL SUBSCRIBER SIGNALLING SYSTEM NO. 2 (DSS 2) - ADDITIONAL TRAFFIC PARAMETERS
 Q.2961 B-2000            | (none)          | (12/00)            | Digital subscriber signalling system No. 2 (DSS2) 鈥?Additional traffic parameters: Protocol implementation conformance statement (PICS) proforma
 Q.2961 C-2000            | (none)          | (12/00)            | Digital subscriber signalling system No. 2 (DSS2) 鈥?Additional traffic parameters: Test suite structure and test purposes (TSS & TP) for the user
 Q.2961 D-2000            | (none)          | (12/00)            | Digital subscriber signalling system No. 2 (DSS2) 鈥?Additional traffic parameters: Abstract test suite (ATS) and partial protocol implementation extra information for testing (PIXIT) proforma for the user
 Q.2961 E-2000            | (none)          | (12/00)            | Digital subscriber signalling system No. 2 (DSS2) 鈥?Additional traffic parameters: Test suite structure and test purposes (TSS & TP) for the network
 Q.2961 F-2000            | (none)          | (12/00)            | Digital subscriber signalling system No. 2 (DSS2) 鈥?Additional traffic parameters: Abstract test suite (ATS) and partial protocol implementation extra information for testing (PIXIT) proforma for the network
 Q.2961-1995              | (none)          | (10/95)            | Broadband Integrated Services Digital Network (B-ISDN) - Digital Subscriber Signalling System No. 2 (DSS 2) - Additional Traffic Parameters - B-ISDN Application Protocols for Access Signalling (Study Group 11) 16 pp
-Q.2961.2                 | (none)          | (06/97)            | Digital subscriber signalling system No. 2 鈥?Additional traffic parameters: Support of ATM transfer capability in the broadband bearer capability information element
 Q.2961.2 CORR 1          | (none)          | (03/99)            | Digital subscriber signalling system No. 2 鈥?Additional traffic parameters: Support of ATM transfer capability in the broadband bearer capability information element Corrigendum 1
 Q.2961.2 CORR 1-1999     | (none)          | (03/99)            | Digital subscriber signalling system No. 2 鈥?Additional traffic parameters: Support of ATM transfer capability in the broadband bearer capability information element Corrigendum 1 - Study Group 11; 9 pp
 Q.2961.2-1997            | (none)          | (06/97)            | Digital subscriber signalling system No. 2 鈥?Additional traffic parameters: Support of ATM transfer capability in the broadband bearer capability information element - Study Group 11; 19 pp
-Q.2961.3                 | (none)          | (09/97)            | Digital Subscriber Signalling System No.2 - Additional Traffic Parameters: Signalling Capabilities to Support Traffic Parameters for the Available Bit Rate (ABR) ATM Transfer Capability
 Q.2961.3-1997            | (none)          | (09/97)            | Digital Subscriber Signalling System No.2 - Additional Traffic Parameters: Signalling Capabilities to Support Traffic Parameters for the Available Bit Rate (ABR) ATM Transfer Capability - Study Group 11; 19 pp
-Q.2961.4                 | (none)          | (09/97)            | Digital Subscriber Signalling System No. 2 - Additional Traffic Parameters: Signalling Capabilities to Support Traffic Parameters for the ATM Block Transfer (ABT) ATM Transfer Capability
 Q.2961.4-1997            | (none)          | (09/97)            | Digital Subscriber Signalling System No. 2 - Additional Traffic Parameters: Signalling Capabilities to Support Traffic Parameters for the ATM Block Transfer (ABT) ATM Transfer Capability - Study Group 11; 16 pp
-Q.2961.5                 | (none)          | (03/99)            | Digital subscriber signalling system No. 2 鈥?Additional traffic parameters: Additional traffic parameters for cell delay variation tolerance indication
 Q.2961.5-1999            | (none)          | (03/99)            | Digital Subscriber Signalling System No. 2 - Additional Traffic Parameters: Additional Traffic Parameters for Cell Delay Variation Tolerance Indication - Series Q: Switching and Signalling Broadband ISDN - B-ISDN Application Protocols for Access Signalling - Study Group 11; 21 pp
-Q.2961.6                 | (none)          | (05/98)            | Digital Subscriber Signalling System No. 2 - Additional Traffic Parameters: Additional Signalling Procedures for the Support of the SBR2 and SBR3 ATM Transfer Capabilities
-Q.2961.6                 | (none)          | (05/98)            | Digital Subscriber Signalling System No. 2 鈥?Additional traffic parameters: Additional signalling procedures for the support of the SBR2 and SBR3 ATM transfer capabilities
 Q.2961.6-1998            | (none)          | (05/98)            | Digital Subscriber Signalling System No. 2 - Additional Traffic Parameters: Additional Signalling Procedures for the Support of the SBR2 and SBR3 ATM Transfer Capabilities - Study Group 11; 15 pp
-Q.2962                   | (none)          | (05/98)            | Digital Subscriber Signalling System No. 2 鈥?Connection characteristics negotiation during call/connection establishment phase
 Q.2962 B-2000            | (none)          | (12/00)            | Digital subscriber signalling system No. 2 鈥?Connection characteristics negotiation during call/connection establishment phase: Protocol implementation conformance statement (PICS) proforma
 Q.2962 C-2000            | (none)          | (12/00)            | Digital subscriber signalling system No. 2 鈥?Connection characteristics negotiation during call/connection establishment phase: Test suite structure and test purposes (TSS & TP) for the user
 Q.2962 D-2000            | (none)          | (12/00)            | Digital subscriber signalling system No. 2 鈥?Connection characteristics negotiation during call/connection establishment phase: Abstract test suite (ATS) and partial protocol implementation extra information for testing (PIXIT) proforma for the user
 Q.2962 E-2000            | (none)          | (12/00)            | Digital subscriber signalling system No. 2 - Connection characteristics negotiation during call/connection establishment phase: Test Suite Structure and Test Purposes (TSS & TP) for the network
 Q.2962 F-2000            | (none)          | (12/00)            | Digital subscriber signalling system No. 2 鈥?Connection characteristics negotiation during call/connection establishment phase: Abstract test suite (ATS) and partial protocol implementation extra information for testing (PIXIT) proforma for the network
 Q.2962-1998              | (none)          | (05/98)            | Digital Subscriber Signalling System No. 2 - Connection Characteristics Negotiation During Call/Connection Establishment Phase - Series Q: Switching and Signalling - Broadband ISDN - B-ISDN Application Protocols for Access Signalling - Study Group 11; 15 pp
-Q.2963.1                 | (none)          | (12/99)            | Digital subscriber signalling system No. 2 - Connection modification: Peak cell rate modification by the connection owner
 Q.2963.1 B-2000          | (none)          | (12/00)            | Digital subscriber signalling system No. 2 鈥?Connection modification: Peak cell rate modification by the connection owner: Protocol implementation conformance statement (PICS) proforma
 Q.2963.1 C-2000          | (none)          | (12/00)            | Digital subscriber signalling system No. 2 鈥?Connection modification: Peak cell rate modification by the connection owner: Test suite structure and test purposes (TSS & TP) for the user
 Q.2963.1 D-2000          | (none)          | (12/00)            | Digital subscriber signalling system No. 2 鈥?Connection modification: Peak cell rate modification by the connection owner: Abstract test suite (ATS) and partial protocol implementation extra information for testing (PIXIT) proforma for the user
