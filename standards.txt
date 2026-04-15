@@ -1,5 +1,44 @@
 Name     | ISO             | Code (40 chars)    | Description (Full STD Title)
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+T.0      | (none)          | (07/96)            | Classification of facsimile terminals for document transmission over the public networks
+T.1      | (none)          | (11/88)            | Standardization of phototelegraph apparatus
+T.2      | (none)          | (07/96)            | Withdrawn Standardization of Group 1 facsimile apparatus for document transmission
+T.3      | (none)          | (07/96)            | Withdrawn Standardization of Group 2 facsimile apparatus for document transmission
+T.4      | (none)          | (04/99)            | Standardization of Group 3 facsimile terminals for document transmission
+T.5      | (none)          | (02/98)            | Test methodology for Group 3 facsimile processing equipment in the Public Switched Telephone Network
+T.6      | (none)          | (11/88)            | Facsimile coding schemes and coding control functions for group 4 facsimile apparatus
+T.10     | (none)          | (11/88)            | Document facsimile transmissions on leased telephone-type circuits
+T.10bis  | (none)          | (11/88)            | Document facsimile transmissions in the general switched telephone network
+T.22     | (none)          | (03/93)            | Standardized test charts for document facsimile transmissions
+T.23     | (none)          | (04/94)            | Standardized colour test chart for document facsimile transmissions
+T.24     | (none)          | (06/98)            | Standardized digitized image set
+T.30     | (none)          | (04/99)            | Procedures for document facsimile transmission in the general switched telephone network
+T.31     | (none)          | (08/95)            | Asynchronous facsimile DCE control – Service Class 1
+T.32     | (none)          | (08/95)            | Asynchronous facsimile DCE control – Service Class 2
+T.33     | (none)          | (07/96)            | Facsimile routing utilizing the Subaddress
+T.35     | (none)          | (02/00)            | Procedure for the allocation of ITU-T defined codes for non-standard facilities
+T.36     | (none)          | (07/97)            | Security capabilities for use with Group 3 facsimile terminals
+T.37     | (none)          | (06/98)            | Procedures for the transfer of facsimile data via store-and-forward on the Internet
+T.38     | (none)          | (03/02)            | Procedures for real-time Group 3 facsimile communication over IP networks
+T.39     | (none)          | (10/97)            | Application profiles for simultaneous voice and facsimile terminals
+T.42     | (none)          | (10/96)            | Continuous-tone colour representation method for facsimile
+T.43     | (none)          | (07/97)            | Colour and gray-scale image representations using lossless coding scheme for facsimile
+T.44     | (none)          | (04/99)            | Mixed raster content (MRC)
+T.45     | (none)          | (02/00)            | Run-length colour encoding
+T.50     | ISO 646         | (09/92)            | International Reference Alphabet (IRA) – Code for information interchange
+T.51     | (none)          | (09/92)            | Latin based coded character sets for telematic services
+T.52     | (none)          | (03/93)            | Non-latin coded character sets for telematic services
+T.53     | (none)          | (04/94)            | Character coded control functions for telematic services
+T.60     | (none)          | (05/00)            | Withdrawn Terminal equipment for use in the teletex service
+T.62     | (none)          | (03/93)            | Control procedures for teletex and Group 4 facsimile services
+T.81     | ISO/IEC 10918-1 | (11/94)            | Information technology - Digital compression and coding of continuous-tone still images: Requirements and guidelines
+T.82     | ISO/IEC 11544   | (11/94)            | Information technology - Digital compression and coding of continuous-tone still images: Compliance testing
+T.83     | ISO/IEC 10918-2 | (11/94)            | Information technology - Digital compression and coding of continuous-tone still images: Compliance testing
+T.84     | ISO/IEC 10918-3 | (11/94)            | Information technology - Digital compression and coding of continuous-tone still images: Extensions
+T.85     | (none)          | (11/94)            | Information technology - JPEG - Full-screen still image program
+T.86     | ISO/IEC 10918-4 | (11/94)            | Information technology - Digital compression and coding of continuous-tone still images: Registration of items
+T.87     | ISO/IEC 14495-1 | (06/98)            | Information technology - Lossless and near-lossless compression of continuous-tone still images: Baseline
+T.88     | ISO/IEC 14492   | (11/01)            | Information technology - Lossy/lossless coding of bi-level images
 T.330    | (none)          | T.330 (N/A)        | Telematic access to IPS
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 X.1      | (none)          | X.1 (03/2000)      | International user classes of service in, and categories of access to, public data networks and Integrated Services Digital Networks (ISDNs)
