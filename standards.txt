@@ -1,5 +1,4 @@
 Name     | ISO             | Code (40 chars)    | Description (Full STD Title)
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 T.0      | (none)          | (07/96)            | Classification of facsimile terminals for document transmission over the public networks
 T.1      | (none)          | (11/88)            | Standardization of phototelegraph apparatus
 T.2      | (none)          | (07/96)            | Withdrawn Standardization of Group 1 facsimile apparatus for document transmission
@@ -40,7 +39,6 @@ T.86     | ISO/IEC 10918-4 | (11/94)            | Information technology - Digit
 T.87     | ISO/IEC 14495-1 | (06/98)            | Information technology - Lossless and near-lossless compression of continuous-tone still images: Baseline
 T.88     | ISO/IEC 14492   | (11/01)            | Information technology - Lossy/lossless coding of bi-level images
 T.330    | (none)          | T.330 (N/A)        | Telematic access to IPS
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 X.1      | (none)          | X.1 (03/2000)      | International user classes of service in, and categories of access to, public data networks and Integrated Services Digital Networks (ISDNs)
 X.2      | (none)          | X.2 (03/2000)      | International data transmission services and optional user facilities in public data networks and ISDNs
 X.3      | (none)          | X.3 (03/2000)      | Packet assembly/disassembly facility (PAD) in a public data network
@@ -101,7 +99,6 @@ X.609.8  | (none)          | X.609.8 (12/2019)  | Managed P2P communications: Ma
 X.609.9  | (none)          | X.609.9 (09/2020)  | Managed P2P communications: Overlay content management protocol
 X.609.10 | (none)          | X.609.10 (09/2020) | Managed P2P communications: Signalling requirements for data streaming
 X.800    | ISO/IEC 7498-2  | X.800 (03/1991)    | Security architecture for open systems interconnection for CCITT applications
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Z.100    | (none)          | Z.100 (06/2021)    | Specification and Description Language (SDL)
 Z.101    | (none)          | Z.101 (06/2021)    | Specification and Description Language – Basic SDL-2010
 Z.102    | (none)          | Z.102 (06/2021)    | Specification and Description Language – Comprehensive SDL-2010
