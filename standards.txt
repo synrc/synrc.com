@@ -217,14 +217,14 @@ BS.1548-7-2019           | (none)          | (10/19)            | User requireme
 BS.1596-2002             | (none)          | (01/02)            | Guide to ITU-R Recommendations for broadcast sound production
 BS.1615-1-2011           | (none)          | (05/11)            | “Planning parameters” for digital sound broadcasting at frequencies below 30 MHz
 BS.1615-2-2020           | (none)          | (12/20)            | “Planning parameters” for digital sound broadcasting at frequencies below 30 MHz
-BS.1615-2003             | (none)          | (01/03)            | 鈥淧lanning parameters - for digital sound broadcasting at frequencies below 30 MHz - Question ITU-R 223/10
+BS.1615-2003             | (none)          | (01/03)            | “Planning parameters” for digital sound broadcasting at frequencies below 30 MHz - Question ITU-R 223/10
 BS.1657-2003             | (none)          | (01/03)            | Procedure for the performance testing of automated audio identification systems - Question ITU-R 8/6
 BS.1660-3-2006           | (none)          | (01/06)            | Technical basis for planning of terrestrial digital sound broadcasting in the VHF band
 BS.1660-4-2011           | (none)          | (05/11)            | Technical basis for planning of terrestrial digital sound broadcasting in the VHF band
 BS.1660-5-2011           | (none)          | (12/11)            | Technical basis for planning of terrestrial digital sound broadcasting in the VHF band
 BS.1660-6-2012           | (none)          | (08/12)            | Technical basis for planning of terrestrial digital sound broadcasting in the VHF band
 BS.1660-8-2019           | (none)          | (06/19)            | Technical basis for planning of terrestrial digital sound broadcasting in the VHF band
-BS.1661-2003             | (none)          | (01/03)            | 鈥淪ignal-on-the-air - specifications of the digital system described in Annex 1 to Recommendation ITU-R BS.1514 for digital sound broadcasting in the broadcasting bands below 30 MHz
+BS.1661-2003             | (none)          | (01/03)            | Signal-on-the-air - specifications of the digital system described in Annex 1 to Recommendation ITU-R BS.1514 for digital sound broadcasting in the broadcasting bands below 30 MHz
 BS.1679-1-2015           | (none)          | (10/15)            | Subjective assessment of the quality of audio in large screen digital imagery applications intended for presentation in a theatrical environment
 BS.1679-2004             | (none)          | (01/04)            | Subjective assessment of the quality of audio in large screen digital imagery applications intended for presentation in a theatrical environment
 BS.1688-2004             | (none)          | (01/04)            | Baseband sound system and audio source-coding at delivery interfaces of large-screen digital imagery applications
@@ -1684,7 +1684,7 @@ G.176-1997               | (none)          | (04/97)            | Planning Guide
 G.177-1999               | (none)          | (09/99)            | Transmission Planning for Voiceband Services over Hybrid Internet/PSTN Connections - Series G: Transmission Systems and Media, Digital Systems and Networks International Telephone Connections and Circuits - Transmission Plan Aspects of Special Circuits and Connections Using the International Telephone Connection Network - Study Group 12; 22 pp
 G.180 (REV 1)-1993       | (none)          | (01/93)            | Characteristics of N + M Type Direct Transmission Restoration Systems for Use on Digital and Analogue Sections, Links or Equipment
 G.181 (REV 1)-1993       | (none)          | (01/93)            | Characteristics of 1 + 1 Type Restoration Systems for Use on Digital Transmission Links
-G.191 STL MANUAL-2009    | (none)          | (11/09)            | ITU-T Software Tool Library 2009 User鈥檚 Manual
+G.191 STL MANUAL-2009    | (none)          | (11/09)            | ITU-T Software Tool Library 2009 User Manual
 G.191-2005               | (none)          | (09/05)            | Software tools for speech and audio coding standardization
 G.191-2010               | (none)          | (03/10)            | Software tools for speech and audio coding standardization
 G.191-2019               | (none)          | (01/19)            | Software tools for speech and audio coding standardization
@@ -6178,7 +6178,7 @@ Q.2769.1-2000            | (none)          | (06/00)            | Support of Num
 Q.277-1988               | (none)          | (11/88)            | 6.7 Error Control - Specifications of Signalling System No. 6 (Study Group XI) 3 pp
 Q.278-1988               | (none)          | (11/88)            | 6.8 Synchronization - Specifications of Signalling System No. 6 (Study Group XI) 4 pp
 Q.279-1988               | (none)          | (11/88)            | 6.9 Drift Compensation - Specifications of Signalling System No. 6 (Study Group XI) 1 pp
-Q.28-1988                | (none)          | (11/88)            | DETERMINATION OF THE MOMENT OF THE CALLED SUBSCRIBER鈥橲 ANSWER IN THE AUTOMATIC SERVICE
+Q.28-1988                | (none)          | (11/88)            | DETERMINATION OF THE MOMENT OF THE CALLED SUBSCRIBER ANSWER IN THE AUTOMATIC SERVICE
 Q.285-1988               | (none)          | (11/88)            | Signal Priority Categories - Specifications of Signalling System No. 6 (Study Group XI) 1 pp
 Q.286-1988               | (none)          | (11/88)            | 7.2 Signalling Channel Loading and Queueing Delays - Specifications of Signalling System No. 6 (Study Group XI) 4 pp
 Q.287-1988               | (none)          | (11/88)            | 7.3 Signal Transfer Time Requirements - Specifications of Signalling System No. 6 (Study Group XI) 3 pp
@@ -7123,7 +7123,7 @@ QUESTION 248/4-1997      | (none)          | (01/97)            | Frequency shar
 QUESTION 248/5-2008      | (none)          | (01/08)            | Technical and operational characteristics for systems in the fixed service used for disaster mitigation and relief
 QUESTION 248/7-2009      | (none)          | (01/09)            | Timing Information from Global Navigation Satellite Systems (GNSS) and their augmentations
 QUESTION 249/5-2009      | (none)          | (01/09)            | Technical characteristics and operational requirements of wireless avionics intra-communications (WAIC)
-QUESTION 249/7-2009      | (none)          | (01/09)            | Time and frequency information from 鈥渆nhanced- LOng Range Aid to Navigation (eLORAN)
+QUESTION 249/7-2009      | (none)          | (01/09)            | Time and frequency information from enhanced-LOng Range Aid to Navigation (eLORAN)
 QUESTION 250/5-2009      | (none)          | (01/09)            | Mobile wireless access systems providing telecommunications for a large number of ubiquitous sensors and/or actuators scattered over wide areas in the land mobile service
 QUESTION 250/7-2009      | (none)          | (01/09)            | Application and improvement of two-way satellite time and frequency transfer (TWSTFT)
 QUESTION 251/7-2010      | (none)          | (01/10)            | Ground-based passive sensors
@@ -8289,7 +8289,7 @@ S.1253-1997              | (none)          | (01/97)            | Technical Opti
 S.1254-1997              | (none)          | (01/97)            | BEST PRACTICES TO FACILITATE THE COORDINATION PROCESS OF FIXED-SATELLITE SERVICE SATELLITE NETWORKS
 S.1255-1997              | (none)          | (01/97)            | USE OF ADAPTIVE UPLINK POWER CONTROL TO MITIGATE CODIRECTIONAL INTERFERENCE BETWEEN GEOSTATIONARY-SATELLITE ORBIT/FIXED-SATELLITE SERVICE (GSO/FSS) NETWORKS AND FEEDER LINKS OF NON-GEOSTATIONARY SATELLITE ORBIT/MOBILE-SATELLITE SERVICE (NON-GSO/MSS) NETWORKS AND BETWEEN GSO/FSS NETWORKS AND NON-GSO/FSS NETWORKS
 S.1256-1997              | (none)          | (01/97)            | METHODOLOGY FOR DETERMINING THE MAXIMUM AGGREGATE POWER FLUX-DENSITY AT THE GEOSTATIONARY-SATELLITE ORBIT IN THE BAND 6 700-7 075 MHz FROM FEEDER LINKS OF NON-GEOSTATIONARY-SATELLITE SYSTEMS IN THE MOBILE-SATELLITE SERVICE IN THE SPACE-TO-EARTH DIRECTION
-S.1257-3-2002            | (none)          | (01/02)            | Analytical method to calculate short-term visibility and interference statistics for non-geostationary satellite orbit satellites as seen from a point on the Earth鈥檚 surface
+S.1257-3-2002            | (none)          | (01/02)            | Analytical method to calculate short-term visibility and interference statistics for non-geostationary satellite orbit satellites as seen from a point on the Earth surface
 S.13-1988                | (none)          | (11/88)            | USE ON RADIO CIRCUITS OF 7-UNIT SYNCHRONOUS SYSTEMS GIVING ERROR CORRECTION BY AUTOMATIC REPETITION
 S.1323-2-2002            | (none)          | (01/02)            | Maximum permissible levels of interference in a satellite network (GSO/FSS; non-GSO/FSS; non-GSO/MSS feeder links)* in the fixed-satellite service caused by other codirectional FSS networks below 30 GHz
 S.1324-1997              | (none)          | (01/97)            | Analytical Method for Estimating Interference between Non-Geostationary Mobile-Satellite Feeder Links and Geostationary Fixed-Satellite Networks Operating Co-Frequency and Codirectionally
@@ -8362,7 +8362,7 @@ S.1709-1-2007            | (none)          | (01/07)            | Technical char
 S.1711-1-2010            | (none)          | (01/10)            | Performance enhancements of transmission control protocol over satellite networks
 S.1711-2005              | (none)          | (01/05)            | Performance enhancements of transmission control protocol over satellite networks - (Question ITU-R 263/4)
 S.1712-2005              | (none)          | (01/05)            | Methodologies for determining whether an FSS earth station at a given location could transmit in the band 13.75-14 GHz without exceeding the pfd limits in No. 5.502 of the Radio Regulations, and guidelines to mitigate excesses
-S.1713-1-2007            | (none)          | (01/07)            | Methodology to calculate the minimum separation angle at the Earth鈥檚 surface between a non-geostationary HEO-type FSS satellite in its 鈥渁ctive- arc and a geostationary satellite
+S.1713-1-2007            | (none)          | (01/07)            | Methodology to calculate the minimum separation angle at the Earth surface between a non-geostationary HEO-type FSS satellite in its ctive- arc and a geostationary satellite
 S.1714-2005              | (none)          | (01/05)            | Static methodology for calculating epfd to facilitate coordination of very large antennas under Nos. 9.7A and 9.7B of the Radio Regulations
 S.1715-2005              | (none)          | (01/05)            | Guidelines developed in response to the studies requested in Resolution 140 (WRC-03)
 S.1716-2005              | (none)          | (01/05)            | Performance and availability objectives for fixed-satellite service telemetry, tracking and command systems - Question ITU-R 262/4
@@ -9634,7 +9634,7 @@ U.6-1988                 | (none)          | (11/88)            | PREVENTION OF 
 U.60-1988                | (none)          | (11/88)            | GENERAL REQUIREMENTS TO BE MET IN INTERFACING THE INTERNATIONAL TELEX NETWORK WITH THE MARITIME SATELLITE SYSTEMS
 U.61-1993                | (none)          | (01/93)            | Detailed Requirements to Be Met in Interfacing the International Telex Network with Maritime Satellite Systems - Telegraph Switching Radiotelex Interworking (Study Group IX) 13 pp
 U.62-1993                | (none)          | (01/93)            | General Requirements to Be Met in Interfacing the International Telex Network with the Fully Automated Maritime VHF/UHF Radio System - Telegraph Switching Radiotelex Interworking (Study Group IX) 8 pp
-U.63-1988                | (none)          | (11/88)            | GENERAL REQUIREMENTS TO BE MET IN INTERFACING THE INTERNATIONAL TELEX NETWORK WITH THE MARITIME 鈥淒IRECT PRINTING- SYSTEM
+U.63-1988                | (none)          | (11/88)            | GENERAL REQUIREMENTS TO BE MET IN INTERFACING THE INTERNATIONAL TELEX NETWORK WITH THE MARITIME IRECT PRINTING- SYSTEM
 U.7-1993                 | (none)          | (03/93)            | Numbering Schemes for Automatic Switching Networks
 U.70-1988                | (none)          | (11/88)            | TELEX SERVICE SIGNALS FOR TELEX TO TELETEX INTERWORKING
 U.74-1988                | (none)          | (11/88)            | EXTRACTION OF TELEX SELECTION INFORMATION FROM A CALLING TELEX ANSWERBACK
@@ -9741,7 +9741,6 @@ V.56 BIS-1995            | (none)          | (08/95)            | Network Transm
 V.56 TER-1996            | (none)          | (08/96)            | Test Procedure for Evaluation of 2-Wire 4-kHz Voiceband Duplex Modems - Series V: Data Communication over the Telephone Network Transmission Quality and Maintenance - Study Group 14; 77 pp
 V.56-1988                | (none)          | (11/88)            | COMPARATIVE TESTS OF MODEMS FOR USE OVER TELEPHONE-TYPE CIRCUITS
 V.57-1984                | (none)          | (01/84)            | Comprehensive Data Test Set for High Data Signalling Rates - Data Communication over the Telephone Network (Study Group XVII) 1 pp - Replaced by ITU-T O.153
-V.573-5                  | (none)          | (01/07)            | Radiocommunication vocabulary
 V.573-5-2007             | (none)          | (01/07)            | Radiocommunication vocabulary
 V.573-6-2015             | (none)          | (08/15)            | Radiocommunication vocabulary
 V.574-4-2000             | (none)          | (01/00)            | USE OF THE DECIBEL AND THE NEPER IN TELECOMMUNICATIONS
@@ -9751,9 +9750,7 @@ V.59 CORR 1-2001         | (none)          | (07/01)            | Managed object
 V.59 CORR 2-2002         | (none)          | (03/02)            | Managed objects for diagnostic information of public switched telephone network connected V-series modem DCEs Corrigendum 2 SERIES V: DATA COMMUNICATION OVER THE TELEPHONE NETWORK Transmission quality and maintenance
 V.59-2000                | (none)          | (11/00)            | Managed objects for diagnostic information of public switched telephone network connected V-series modem DCEs
 V.6-1989                 | (none)          | (01/89)            | Standardization of Data Signalling Rates for Synchronous Data Transmission on Leased Telephone-Type Circuits - Data Communication over the Telephone Network - Study Group XVII; 2 pp; Cancelled
-V.607-3                  | (none)          | (01/00)            | TERMS AND SYMBOLS FOR INFORMATION QUANTITIES IN TELECOMMUNICATIONS
 V.607-3-2000             | (none)          | (01/00)            | TERMS AND SYMBOLS FOR INFORMATION QUANTITIES IN TELECOMMUNICATIONS
-V.608-2                  | (none)          | (01/93)            | LETTER SYMBOLS FOR TELECOMMUNICATIONS
 V.608-2-1993             | (none)          | (01/93)            | Letter Symbols for Telecommunications
 V.61 CORR 1-2005         | (none)          | (01/05)            | A simultaneous voice plus data modem, operating at a voice plus data signalling rate of 4800 bit/s, with optional automatic switching to data-only signalling rates of up to 14 400 bit/s, for use on the General Switched Telephone Network and on leased point-to-point 2-wire telephone type circuits
 V.61-1996                | (none)          | (08/96)            | Simultaneous Voice Plus Data Modem, Operating at a Voice Plus Data Signalling Rate of 4800 Bit/s, with Optional Automatic Switching to Data-Only Signalling Rates of up to 14 400 Bit/s, for Use on the General Switched Telephone Network and on Leased Point-to-Point 2-Wire Telephone Type Circuits - Series V: Data Communication over the Telephone Network Interfaces and Voicband Modems - Study Group 14; 37 pp
