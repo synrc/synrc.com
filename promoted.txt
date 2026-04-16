@@ -1,0 +1,8 @@
+Name          | ISO             | Publication        | Description (Full STD Title)
+Z.900-2025    | (none)          | (10/2025)          | Groupoid Infinity Axio: Introduction to Software Verification
+Z.911-2026    | (none)          | (04/2026)          | Groupoid Infinity Axio: Henk Programming Language
+Z.918-2026    | (none)          | (04/2026)          | Groupoid Infinity Axio: Frank Programming Language
+Z.928-2026    | (none)          | (04/2026)          | Groupoid Infinity Axio: Per Programming Language
+Z.944-2026    | (none)          | (04/2026)          | Groupoid Infinity Axio: Christine Programming Language
+Z.956-2026    | (none)          | (04/2026)          | Groupoid Infinity Axio: Anders Programming Language
+Z.999-2026    | (none)          | (04/2026)          | Groupoid Infinity Axio: System Policy
