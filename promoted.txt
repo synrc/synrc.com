@@ -6,3 +6,4 @@ Z.928-2026    | (none)          | (04/2026)          | Groupoid Infinity Axio: P
 Z.944-2026    | (none)          | (04/2026)          | Groupoid Infinity Axio: Christine Programming Language
 Z.956-2026    | (none)          | (04/2026)          | Groupoid Infinity Axio: Anders Programming Language
 Z.999-2026    | (none)          | (04/2026)          | Groupoid Infinity Axio: System Policy
+V.420-2026    | (none)          | (04/2026)          | Zen Crypted Buddha Protocol: Introduction
