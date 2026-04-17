@@ -3291,7 +3291,6 @@ HDBK VOL VII PMS-1989    | (none)          | (01/89)            | Protective Mea
 HDBK VOL VIII PD-1989    | (none)          | (01/89)            | Protective Devices - Volume VIII
 I.110-1988               | (none)          | (11/88)            | Preamble and General Structure of the I- Series Recommendations for the Integrated Services Digital Network (ISDN) - Integrated Services Digital Network (ISDN) - General Structure and Service Capabilities - Study Group XVIII; 7 pp; Cancelled
 I.111-1989               | (none)          | (01/89)            | Relationship with Other Recommendations Relevant to ISDNs - Integrated Services Digital Network (ISDN) - General Structure and Service Capabilities - Study Group XVIII; 2 pp; Cancelled
-I.112 APP I              | (none)          | (02/02)            | Vocabulary of terms for ISDNs Appendix I: General telecommunication terminology and definitions
 I.112 APPENDIX 1-2002    | (none)          | (02/02)            | Vocabulary of Terms for ISDNs Appendix 1: General telecommunication terminology and definitions Series I: Integrated Services Digital Network General Structure - Terminology
 I.112-1993               | (none)          | (03/93)            | Vocabulary of Terms for ISDNs (Study Group XVIII) 19 pp
 I.113-1997               | (none)          | (06/97)            | Vocabulary of Terms for Broadband Aspects of ISDN - Series I: Integrated Services Digital Network General Structure - Terminology - Study Group 13; 33 pp
@@ -3371,11 +3370,7 @@ I.255.1-1992             | (none)          | (01/92)            | Closed User Gr
 I.255.3-1990             | (none)          | (07/90)            | Multi-Level Precedence and Preemption Service (MLPP) (Study Group I) 12 pp
 I.255.4-1990             | (none)          | (07/90)            | Priority Service (Study Group I) 9 pp
 I.255.5-1992             | (none)          | (01/92)            | Outgoing Call Barring (Study Group I) 9 pp
-I.255.1                  | (none)          | (08/92)            | CLOSED USER GROUP
 I.255.2-1996             | (none)          | (07/96)            | Community of Interest Supplementary Services: Support of Private Numbering Plans - Series I: Integrated Services Digital Network; Service Capabilities - Supplementary Services in ISDN - Study Group 1; 13 pp
-I.255.3                  | (none)          | (07/90)            | MULTI-LEVEL PRECEDENCE AND PREEMPTION SERVICE (MLPP)
-I.255.4                  | (none)          | (07/90)            | PRIORITY SERVICE
-I.255.5                  | (none)          | (08/92)            | OUTGOING CALL BARRING
 I.256-1989               | (none)          | (01/89)            | Charging Supplementary Services - Integrated Services Digital Network (ISDN) - General Structure and Service Capabilities (Study Group XVIII) 16 pp
 I.256.2C-1993            | (none)          | (01/93)            | Advice of Charge: Charging Information at the End of the Call (AOC-E) - Integrated Services Digital Network (ISDN) - Service Capabilities - Supplementary Services in ISDN (Study Group I) 10 pp
 I.256.1-1988             | (none)          | (01/88)            | Credit Card Calling - Integrated Services Digital Network (ISDN) - General Structure and Service Capabilities (Study Group XVIII) 1 pp
@@ -3389,11 +3384,8 @@ I.257-1989               | (none)          | (01/89)            | Additional Inf
 I.257.1-1995             | (none)          | (10/95)            | User-to-User Signalling (UUS) - Integrated Services Digital Network (ISDN) - Service Capabilities (Study Group 1) 19 pp
 I.258.1-1995             | (none)          | (01/95)            | Terminal Portability (TP) Supplementary Service - Integrated Services Digital Network (ISDN) Service Capabilities (Study Group 1) 11 pp
 I.258.2-1995             | (none)          | (01/95)            | In-Call Modification (IM) - Integrated Services Digital Network (ISDN) - Service Capabilities (Study Group 1) 16 pp
-I.258.1                  | (none)          | (10/95)            | TERMINAL PORTABILITY (TP) SUPPLEMENTARY SERVICE
-I.258.2                  | (none)          | (02/95)            | IN-CALL MODIFICATION (IM)
 I.259.1-1996             | (none)          | (07/96)            | Screening Supplementary Services: Address Screening (ADS) - Series I: Integrated Services Digital Network; Service Capabilities - Supplementary Services in ISDN - Study Group 1; 16 pp
 I.310-1993               | (none)          | (03/93)            | ISDN - Network Functional Principles (Study Group XVIII) 21 pp
-I.311 AMD 1              | (none)          | (03/00)            | B-ISDN general network aspects Amendment 1
 I.311 AMD 1-2000         | (none)          | (03/00)            | B-ISDN General Network Aspects Amendment 1 Series I: Integrated Services Digital Network Overall Network Aspects and Functions - Network Functional Principles
 I.311-1996               | (none)          | (08/96)            | B-ISDN General Network Aspects - Series I: Integrated Services Digital Network - Overall Network Aspects and Functions - Network Functional Principles - Study Group 13; 42 pp
 I.312-1992               | (none)          | (10/92)            | Principles of Intelligent Network Architecture (Study Group XVIII) 36 pp
