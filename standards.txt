@@ -6681,7 +6681,7 @@ Q.755.1-1998             | (none)          | (05/98)            | MTP Protocol T
 Q.755.2-1997             | (none)          | (09/97)            | Transaction capabilities test responder
 Q.756-1997               | (none)          | (06/97)            | Guidebook to Operations, Maintenance and Administration Part (OMAP) - Study Group 11; 17 pp
 Q.76-1995                | (none)          | (02/95)            | Service Procedures for Universal Personal Telecommunication - Functional Modelling and Information Flows
-Q.761 AMD 1-2001         | (none)          | (07/01)            | Signalling system No. 7 鈭?ISDN user part functional description Amendment 1
+Q.761 AMD 1-2001         | (none)          | (07/01)            | Signalling system No. 7 - ISDN user part functional description Amendment 1
 Q.761 AMD 2-2002         | (none)          | (12/02)            | Signalling System No. 7 - ISDN User Part functional description Amendment 2: Support for the International Emergency Preference Scheme
 Q.761 AMD 3-2006         | (none)          | (01/06)            | Signalling System No. 7 - ISDN User Part functional description Amendment 3: Support for the International Emergency Preference Scheme
 Q.761 AMD 4-2009         | (none)          | (10/09)            | Signalling System No. 7 - ISDN user part functional description Amendment 4: Support for the customized alerting tone (CAT) service
@@ -6694,7 +6694,7 @@ Q.762 AMD 4-2006         | (none)          | (09/06)            | Signalling Sys
 Q.762 AMD 5-2009         | (none)          | (10/09)            | Signalling System No. 7 - ISDN User Part general functions of messages and signals Amendment 5: Support for the customized alerting tone (CAT) service
 Q.762-1999               | (none)          | (12/99)            | Signalling System No. 7 - ISDN User Part general functions of messages and signals
 Q.763 ADD 1-2000         | (none)          | (06/00)            | Signalling System No. 7 - ISDN User Part Formats and Codes Addendum 1: Series Q: Switching and Signalling Specifications of Signalling System No. 7 - ISDN User Part
-Q.763 AMD 1-2001         | (none)          | (03/01)            | Signalling System No. 7 聳 ISDN user part formats and codes Amendment 1: Coding of the application transport parameter
+Q.763 AMD 1-2001         | (none)          | (03/01)            | Signalling System No. 7 - ISDN user part formats and codes Amendment 1: Coding of the application transport parameter
 Q.763 AMD 2-2002         | (none)          | (12/02)            | Signalling System No. 7 - ISDN User Part formats and codes Amendment 2: Support for the International Emergency Preference Scheme SERIES Q: SWITCHING AND SIGNALLING Specifications of Signalling System No. 7 - ISDN user part
 Q.763 AMD 3-2004         | (none)          | (04/04)            | Signalling System No. 7 - ISDN user part formats and codes Amendment 3 SERIES Q: SWITCHING AND SIGNALLING Specifications of Signalling System No. 7 - ISDN user part
 Q.763 AMD 4-2006         | (none)          | (01/06)            | Signalling System No. 7 - ISDN User Part formats and codes Amendment 4: Support for the International Emergency Preference Scheme
@@ -6849,7 +6849,7 @@ Q.922-1992               | (none)          | (02/92)            | ISDN Data Link
 Q.923-1995               | (none)          | (02/95)            | SPECIFICATION OF A SYNCHRONIZATION AND COORDINATION FUNCTION FOR THE PROVISION OF THE OSI CONNECTION-MODE NETWORK SERVICE IN AN ISDN ENVIRONMENT
 Q.930-1993               | (none)          | (03/93)            | Digital Subscriber Signalling System No. 1 (DSS 1) - ISDN User-Network Interface Layer 3 - General Aspects - Study Group XI; 6 pp
 Q.931 AMD 1-2002         | (none)          | (12/02)            | ISDN user-network interface layer 3 specification for basic call control SERIES Q: SWITCHING AND SIGNALLING Digital subscriber Signalling System No. 1 - Network layer
-Q.931 BIS-1995           | (none)          | (02/95)            | PICS AND ABSTRACT TEST SUITE FOR ISDN DSS 1 LAYER 3 聳 CIRCUIT MODE, BASIC CALL CONTROL CONFORMANCE TESTING
+Q.931 BIS-1995           | (none)          | (02/95)            | PICS AND ABSTRACT TEST SUITE FOR ISDN DSS 1 LAYER 3 - CIRCUIT MODE, BASIC CALL CONTROL CONFORMANCE TESTING
 Q.931 NOTE-2003          | (none)          | (02/03)            | ISDN user-network interface layer 3 specification for basic call control
 Q.931-1998               | (none)          | (05/98)            | ISDN user-network interface layer 3 specification for basic call control
 Q.932 AMD 1-2000         | (none)          | (06/00)            | Digital Subscriber Signalling System No. 1 - Generic Procedures for the Control of ISDN Supplementary Services Amendment 1 Series Q: Switching and Signalling Digital Subscriber Signalling System No.1 - Network Layer
