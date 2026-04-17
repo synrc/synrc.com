@@ -3934,8 +3934,8 @@ J.197-2005               | (none)          | (11/05)            | High level req
 J.199-2006               | (none)          | (11/06)            | Battery backup for cable-based devices
 J.2-1999                 | (none)          | (09/99)            | Guidelines on the Use of Some ITU-T Recommendations in the J Series - Series J: Transmission of Television, Sound Programme and Other Multimedia Signals - General Recommendations
 J.200 CORR 1-2004        | (none)          | (05/04)            | Worldwide common core - Application environment for digital interactive television services Corrigendum 1 SERIES J: CABLE NETWORKS AND TRANSMISSION OF TELEVISION, SOUND PROGRAMME AND OTHER MULTIMEDIA SIGNALS Application for Interactive Digital Television
-J.200-2001               | (none)          | (03/01)            | Worldwide common core 鈭?Application environment for digital interactive television services
-J.200-2010               | (none)          | (04/10)            | Worldwide common core 鈭?Application environment for digital interactive television services
+J.200-2001               | (none)          | (03/01)            | Worldwide common core - Application environment for digital interactive television services
+J.200-2010               | (none)          | (04/10)            | Worldwide common core - Application environment for digital interactive television services
 J.201-2008               | (none)          | (10/08)            | Harmonization of declarative content format for interactive television applications
 J.201-2009               | (none)          | (12/09)            | Harmonization of declarative content format for interactive television applications
 J.201-2009               | (none)          | (12/09)            | Harmonization of declarative content formats for interactive television applications
@@ -4050,13 +4050,13 @@ J.368-2008               | (none)          | (06/08)            | IPCablecom2 qu
 J.369-2008               | (none)          | (06/08)            | IPCablecom2 E-UE provisioning framework specification
 J.370-2008               | (none)          | (06/08)            | IPCablecom2 embedded user equipment provisioning data model specification
 J.380.1-2011             | (none)          | (11/11)            | Digital Program Insertion – Advertising Systems Interfaces: Part 1 – Advertising Systems Overview
-J.380.2-2011             | (none)          | (11/11)            | Digital Program Insertion–Advertising Systems Interfaces: Part 2 - Core data elements
+J.380.2-2011             | (none)          | (11/11)            | Digital Program Insertion – Advertising Systems Interfaces: Part 2 - Core data elements
 J.380.3-2011             | (none)          | (11/11)            | Digital Program Insertion – Advertising Systems Interfaces: Part 3 – Ad Management Service Interface
-J.380.4-2011             | (none)          | (11/11)            | Digital Program Insertion–Advertising Systems Interfaces: Part 4 – Content Information Service (CIS)
-J.380.5-2011             | (none)          | (11/11)            | Digital Program Insertion–Advertising Systems Interfaces: Part 5 – Placement Opportunity Information Service
+J.380.4-2011             | (none)          | (11/11)            | Digital Program Insertion – Advertising Systems Interfaces: Part 4 – Content Information Service (CIS)
+J.380.5-2011             | (none)          | (11/11)            | Digital Program Insertion – Advertising Systems Interfaces: Part 5 – Placement Opportunity Information Service
 J.380.6-2011             | (none)          | (11/11)            | Digital Program Insertion – Advertising Systems Interfaces: Part 6 – Subscriber Information Service
-J.380.7-2011             | (none)          | (11/11)            | Digital Program Insertion–Advertising Systems Interfaces: Part 7 – Message Transport
-J.380.8-2011             | (none)          | (11/11)            | Digital Program Insertion–Advertising Systems Interfaces: Part 8 – General Information Service
+J.380.7-2011             | (none)          | (11/11)            | Digital Program Insertion – Advertising Systems Interfaces: Part 7 – Message Transport
+J.380.8-2011             | (none)          | (11/11)            | Digital Program Insertion – Advertising Systems Interfaces: Part 8 – General Information Service
 J.382-2018               | (none)          | (03/18)            | Advanced digital downstream transmission systems for television, sound and data services for cable distribution
 J.383-2019               | (none)          | (01/19)            | Conversion of type length value packet and transport stream for advanced cable transmission systems
 J.388-2010               | (none)          | (08/10)            | Real-time video and audio transmission system over IP networks
@@ -4126,7 +4126,7 @@ J.86-1990                | (none)          | (06/90)            | Mixed Analogue
 J.87-2001                | (none)          | (03/01)            | Use of Hybrid Cable Television Links for the Secondary Distribution of Television into the User's Premises - Series J:Cable Networks and Transmission of Television, Sound Programme and Other Multimedia Signals - Digital Transmission of Television Signals
 J.88-1999                | (none)          | (09/99)            | Transmission of Enhanced Definition Television Signals Over Digital Links Series J: Transmission of Television, Sound Programme and Other Multimedia Signals Digital Transmission of Television Signals - Study Group 9; 53 pp
 J.89-1999                | (none)          | (09/99)            | Transport Mechanism for Component-Coded Digital Television Signals Using MPEG-2 4:2:2 P@ML Including All Service Elements for Contribution and Primary Distribution - Series J: Transmission of Television, Sound Programme and Other Multimedia Signals - Digital Transmission of Television Signals - Study Group 9; 20 pp
-J.90-2000                | (none)          | (05/00)            | Electronic programme guides for delivery by digital cable television and similar methods 鈭?Reference operating scenario and requirements
+J.90-2000                | (none)          | (05/00)            | Electronic programme guides for delivery by digital cable television and similar methods - Reference operating scenario and requirements
 J.900-2014               | (none)          | (10/14)            | Requirements for Stereoscopic Three Dimensional Television Service over Hybrid Fiber and Coaxial based networks
 J.901-2008               | (none)          | (06/08)            | Requirements for the free viewpoint television (FTV) video transmission system
 J.902-2012               | (none)          | (01/12)            | Multi-layer data structure for scalable view-range representation
@@ -4134,7 +4134,7 @@ J.902-2012               | (none)          | (01/12)            | Multilayered d
 J.91-1994                | (none)          | (01/94)            | Technical Methods for Ensuring Privacy in Long-Distance International Television Transmission - Television and Sound Transmission (Study Group 9) 21 pp
 J.92-1997                | (none)          | (04/97)            | Recommended Operating Guidelines for Point-to-Point Transmission of Television Programmes - Study Group 9; 9 pp
 J.93-1998                | (none)          | (03/98)            | Requirements for Conditional Access in the Secondary Distribution of Digital Television on Cable Television Systems - Series J: Transmission of Television, Sound Programme and Other Multimedia Signals - Ancillary Digital Services for Television Transmission - Study Group 9; 13 pp
-J.94 AMD 1-2000          | (none)          | (10/00)            | Service information for digital broadcasting in cable television systems Amendment 1: Annex B 鈭?Service information delivered out of band in cable television systems
+J.94 AMD 1-2000          | (none)          | (10/00)            | Service information for digital broadcasting in cable television systems Amendment 1: Annex B - Service information delivered out of band in cable television systems
 J.94 AMD 2-2001          | (none)          | (03/01)            | Service Information for Digital Multi-Programme System C Series J: Transmission of Television, Sound Programme and Other Multimedia Signals Ancillary Digital Services for Television Transmission - Amendment 2
 J.94-1998                | (none)          | (11/98)            | Service Information for Digital Broadcasting in Cable Television Systems - Series J: Transmission of Television, Sound Programme and Other Multimedia Signals Ancillary Digital Services for Television Transmission - Study Group 9; 82 pp
 J.94-2016                | (none)          | (10/16)            | Service information for digital broadcasting in cable television systems
@@ -4647,9 +4647,7 @@ M.1174-4-2019            | (none)          | (10/19)            | Technical char
 M.1175-1995              | (none)          | (01/95)            | Automatic Receiving Equipment for Radiotelegraph and Radiotelephone Alarm Signals
 M.1176-1-2013            | (none)          | (02/13)            | Technical parameters of radar target enhancers
 M.1176-1995              | (none)          | (01/95)            | Technical Parameters of Radar Target Enhancers
-M.1177-3                 | (none)          | (01/03)            | Techniques for measurement of unwanted emissions of radar systems
 M.1177-3-2003            | (none)          | (01/03)            | Techniques for measurement of unwanted emissions of radar systems - Question ITU-R 202/8
-M.1177-4                 | (none)          | (04/11)            | Techniques for measurement of unwanted emissions of radar systems
 M.1177-4-2011            | (none)          | (04/11)            | Techniques for measurement of unwanted emissions of radar systems
 M.1178-1995              | (none)          | (01/95)            | Use of the Maritime Radionavigation Band (283.5-315 kHz in Region 1 and 285-325 kHz in Regions 2 and 3)
 M.1179-1995              | (none)          | (01/95)            | Procedures for Determining the Interference Coupling Mechanisms and Mitigation Options for Systems Operating in Bands Adjacent to and in Harmonic Relationship with Radar Stations in the Radiodetermination Service
@@ -4967,16 +4965,13 @@ M.257-3-1995             | (none)          | (01/95)            | Sequential Sin
 M.30-1989                | (none)          | (01/89)            | Principles for a Telecommunications Management Network - General Maintenance Principles - Maintenance of International Transmission Systems and Telephone Circuits (Study Group IV) 40 pp
 M.300-1988               | (none)          | (11/88)            | DEFINITIONS CONCERNING INTERNATIONAL TRANSMISSION SYSTEMS
 M.3000-2000              | (none)          | (02/00)            | Overview of TMN Recommendations
-M.3010 AMD 1             | (none)          | (12/03)            | Principles for a telecommunications management network Amendment 1: TMN conformance and TMN compliance
 M.3010 AMD 1-2003        | (none)          | (12/03)            | Principles for a telecommunications management network Amendment 1: TMN conformance and TMN compliance - Amendment 1
-M.3010 AMD 2             | (none)          | (11/05)            | Principles for a telecommunications management network Amendment 2: Additions and corrections
 M.3010 AMD 2-2005        | (none)          | (11/05)            | Principles for a telecommunications management network Amendment 2: Additions and corrections
 M.3010-2000              | (none)          | (02/00)            | Principles for a Telecommunications Management Network
 M.3013-2000              | (none)          | (02/00)            | Considerations for a Telecommunications Management Network
 M.3016-1998              | (none)          | (06/98)            | TMN Security Overview - Series M: TMN and Network Maintenance: International Transmission Systems, Telephone Circuits, Telegraphy, Facsimile and Leased Circuits - Telecommunications Management Network - Study Group 4; 24 pp
 M.3016.0-2005            | (none)          | (05/05)            | Security for the management plane: Overview
 M.3016.1 AMD 1-2011      | (none)          | (07/11)            | Security for the management plane: Security requirements Amendment 1: Authentication extension
-M.3016.1 CORR 1          | (none)          | (11/05)            | Security for the management plane: Security requirements Corrigendum 1
 M.3016.1 CORR 1-2005     | (none)          | (11/05)            | Security for the Management Plane: Security Requirements Corrigendum 1
 M.3016.1-2005            | (none)          | (04/05)            | Security for the Management Plane: Security Requirements
 M.3016.2-2005            | (none)          | (04/05)            | Security for the management plane: security services
@@ -4985,7 +4980,6 @@ M.3016.3 AMD 1-2011      | (none)          | (07/11)            | Security for t
 M.3016.3-2005            | (none)          | (04/05)            | Security for the management plane: Security mechanism
 M.3016.4 AMD 1-2011      | (none)          | (07/11)            | Security for the management plane: Profile proforma Amendment 1: Authentication extension
 M.3016.4-2005            | (none)          | (04/05)            | Security for the management plane: Profile proforma
-M.3017 AMD 1             | (none)          | (04/05)            | Framework for the integrated management of hybrid circuit/packet networks Amendment 1: Additional options
 M.3017 AMD 1-2005        | (none)          | (04/05)            | Framework for the integrated management of hybrid circuit/packet networks Telecommunications management network
 M.3017-2003              | (none)          | (06/03)            | Framework for the integrated management of hybrid circuit/packet networks SERIES M: TMN AND NETWORK MAINTENANCE: INTERNATIONAL TRANSMISSION SYSTEMS, TELEPHONE CIRCUITS, TELEGRAPHY, FACSIMILE AND LEASED CIRCUITS Telecommunications management network
 M.3020-2009              | (none)          | (05/09)            | Management interface specification methodology
@@ -4993,16 +4987,13 @@ M.3020-2010              | (none)          | (09/10)            | Management int
 M.3020-2011              | (none)          | (07/11)            | Management interface specification methodology
 M.3020-2017              | (none)          | (07/17)            | Management interface specification methodology
 M.3030-2002              | (none)          | (08/02)            | Telecommunications Markup Language (tML) Framework Series M: TMN and Network Maintenance: International Transmission Systems, Telephone Circuits, Telegraphy, Facsimile and Leased Circuits Telecommunications Management Network
-M.3031 CORR 1            | (none)          | (11/05)            | Guidelines for Implementation Conformance Statement proformas for tML schemas Corrigendum 1
 M.3031 CORR 1-2005       | (none)          | (11/05)            | Guidelines for Implementation Conformance Statement proformas for tML schemas Corrigendum 1
 M.3031-2004              | (none)          | (07/04)            | Guidelines for Implementation Conformance Statement proformas for tML Schemas SERIES M: TMN AND NETWORK MAINTENANCE: INTERNATIONAL TRANSMISSION SYSTEMS, TELEPHONE CIRCUITS, TELEGRAPHY, FACSIMILE AND LEASED CIRCUITS Telecommunications management network
 M.3040-2019              | (none)          | (04/19)            | Principles for on-site telecommunication smart maintenance
 M.3041-2020              | (none)          | (02/20)            | Framework of smart operation, management and maintenance
-M.3050 SUPP 1-2007       | (none)          | (02/07)            | Enhanced Telecom Operations Map (eTOM) Supplement 1 - Interim view of an interpreter's guide for eTOM and ITIL practitioners
-M.3050 SUPP 2            | (none)          | (02/07)            | Enhanced Telecom Operations Map (eTOM) Supplement 2: Public B2B Business Operations Map (BOM)
+M.3050 SUPP 1-2007       | (none)          | (02/07)            | Enhanced Telecom Operations Map (eTOM) Supplement 1: Interim view of an interpreter's guide for eTOM and ITIL practitioners
 M.3050 SUPP 2-2004       | (none)          | (05/04)            | Enhanced Telecom Operations Map (eTOM) Supplement 2: Public B2B Business Operations Map (BOM) SERIES M: TMN AND NETWORK MAINTENANCE: INTERNATIONAL TRANSMISSION SYSTEMS, TELEPHONE CIRCUITS, TELEGRAPHY, FACSIMILE AND LEASED CIRCUITS Telecommunications management network
 M.3050 SUPP 2-2007       | (none)          | (02/07)            | Enhanced Telecom Operations Map (eTOM) Supplement 2: Public B2B Business Operations Map (BOM)
-M.3050 SUPP 3            | (none)          | (05/04)            | Enhanced Telecom Operations Map (eTOM) Supplement 3: eTOM to M.3400 mapping
 M.3050 SUPP 3-2004       | (none)          | (05/04)            | Enhanced Telecom Operations Map (eTOM) Supplement 3: eTOM to M.3400 mapping SERIES M: TMN AND NETWORK MAINTENANCE: INTERNATIONAL TRANSMISSION SYSTEMS, TELEPHONE CIRCUITS, TELEGRAPHY, FACSIMILE AND LEASED CIRCUITS Telecommunications management network
 M.3050 SUPP 4-2007       | (none)          | (02/07)            | Enhanced Telecom Operations Map (eTOM) Supplement 4: An eTOM primer
 M.3050.0-2007            | (none)          | (03/07)            | Enhanced Telecom Operations Map (eTOM) - Introduction
@@ -5029,11 +5020,11 @@ M.3120-2001              | (none)          | (10/01)            | CORBA generic 
 M.3160-2008              | (none)          | (11/08)            | Generic Management Information Model - Protocol Neutral
 M.3160-2008              | (none)          | (11/08)            | Generic, protocol-neutral management information model
 M.3164-2020              | (none)          | (07/20)            | Generic information model for on-site telecommunication smart maintenance
-M.3170.0-2007            | (none)          | (03/07)            | Multi-technology network management - Introduction and supporting documentation
+M.3170.0-2007            | (none)          | (03/07)            | Multi-technology network management: Introduction and supporting documentation
 M.3170.1-2007            | (none)          | (03/07)            | Multi-technology network management: Business agreement (TMF513)
 M.3170.2-2007            | (none)          | (03/07)            | Multi-technology network management: Information agreement (TMF608)
 M.3170.3-2007            | (none)          | (03/07)            | Multi-technology network management: CORBA IDL solution set (TMF814) with implementation statement templates and guidelines (TMF814A)
-M.3170.4-2015            | (none)          | (04/15)            | Multi-technology network management – Conformance testing specification
+M.3170.4-2015            | (none)          | (04/15)            | Multi-technology network management: Conformance testing specification
 M.3180                   | (none)          | (10/92)            | CATALOGUE OF TMN MANAGEMENT INFORMATION
 M.3180-1992              | (none)          | (10/92)            | Catalogue of TMN Management Information - Maintenance: Telecommunications Management Network (Study Group IV) 20 pp
 M.3190-2008              | (none)          | (07/08)            | Shared information and data model (SID)
@@ -5093,16 +5084,16 @@ M.3640-1992              | (none)          | (10/92)            | Management of 
 M.3641-1994              | (none)          | (10/94)            | Management Information Model for the Management of the Data Link and Network Layer of the ISDN D-Channel - Maintenance - Integrated Services Digital Networks (Study Group 4) 36 pp
 M.3650-1997              | (none)          | (04/97)            | Network Performance Measurements of ISDN Calls - Series M: TMN and Network Maintenance: International Transmission Systems, Telephone Circuits, Telegraphy, Facsimile and Leased Circuits Integrated Services Digital Networks - Study Group 4; 85pp
 M.3660-1992              | (none)          | (10/92)            | ISDN Interface Management Services - Maintenance: ISDN (Study Group IV) 8 pp
-M.3700-2010              | (none)          | (01/10)            | Common management services - Object management - Protocol neutral requirements and analysis
-M.3701-2010              | (none)          | (01/10)            | Common management services - State management - Protocol neutral requirements and analysis
-M.3702-2010              | (none)          | (01/10)            | Common management services - Notification management - Protocol neutral requirement and analysis
+M.3700-2010              | (none)          | (01/10)            | Common Management Srvices - Object management - Protocol neutral requirements and analysis
+M.3701-2010              | (none)          | (01/10)            | Common Management Services - State management - Protocol neutral requirements and analysis
+M.3702-2010              | (none)          | (01/10)            | Common Management Services - Notification management - Protocol neutral requirement and analysis
 M.3702-2010              | (none)          | (01/10)            | Common Management Services - Notification management - Requirement and Analysis - Protocol Neutral
-M.3703-2010              | (none)          | (06/10)            | Common management service - Alarm management - Requirements and analysis - Protocol neutral
-M.3703-2010              | (none)          | (06/10)            | Common management services - Alarm management - Protocol neutral requirements and analysis
-M.3704-2010              | (none)          | (01/10)            | Common Management Service - Performance Management - Requirements and Analysis - Protocol Neutral
-M.3704-2010              | (none)          | (01/10)            | Common management service - Performance management - Protocol neutral requirements and analysis
-M.3705-2013              | (none)          | (03/13)            | Common management services – Log management – Protocol neutral requirements and analysis
-M.3706-2013              | (none)          | (11/13)            | Common management services – Test management – Protocol neutral requirements and analysis
+M.3703-2010              | (none)          | (06/10)            | Common Management Services - Alarm management - Requirements and analysis - Protocol neutral
+M.3703-2010              | (none)          | (06/10)            | Common Management Services - Alarm management - Protocol neutral requirements and analysis
+M.3704-2010              | (none)          | (01/10)            | Common Management Services - Performance Management - Requirements and Analysis - Protocol Neutral
+M.3704-2010              | (none)          | (01/10)            | Common Management Services - Performance management - Protocol neutral requirements and analysis
+M.3705-2013              | (none)          | (03/13)            | Common Management Services – Log management – Protocol neutral requirements and analysis
+M.3706-2013              | (none)          | (11/13)            | Common Management Services – Test management – Protocol neutral requirements and analysis
 M.3710-2013              | (none)          | (11/13)            | Overview of an automated service test to support cost-efficient telecom service assurance
 M.380-1988               | (none)          | (11/88)            | NUMBERING IN COAXIAL SYSTEMS
 M.390-1988               | (none)          | (11/88)            | NUMBERING IN SYSTEMS ON SYMMETRIC PAIR CABLE
@@ -5309,10 +5300,8 @@ O.111-1988               | (none)          | (11/88)            | FREQUENCY SHIF
 O.131-1988               | (none)          | (11/88)            | QUANTIZING DISTORTION MEASURING EQUIPMENT USING A PSEUDO-RANDOM NOISE TEST SIGNAL
 O.132-1988               | (none)          | (11/88)            | QUANTIZING DISTORTION MEASURING EQUIPMENT USING A SINUSOIDAL TEST SIGNAL
 O.133-1993               | (none)          | (03/93)            | EQUIPMENT FOR MEASURING THE PERFORMANCE OF PCM ENCODERS AND DECODERS - Study Group IV
-O.150 CORR 1             | (none)          | (05/02)            | General Requirements for Instrumentation for Performance Measurements on Digital Transmission Equipment Corrigendum 1
 O.150 CORR 1-2002        | (none)          | (05/02)            | General Requirements for Instrumentation for Performance Measurements on Digital Transmission Equipment Corrigendum 1
 O.150-1996               | (none)          | (05/96)            | General Requirements for Instrumentation for Performance Measurements on Digital Transmission Equipment - Study Group 4; 24 pp
-O.151 CORR 1             | (none)          | (05/02)            | Error performance measuring equipment operating at the primary rate and above Corrigendum 1
 O.151 CORR 1-2002        | (none)          | (05/02)            | Error performance measuring equipment operating at the primary rate and above Corrigendum 1
 O.151-1992               | (none)          | (10/92)            | ERROR PERFORMANCE MEASURING EQUIPMENT OPERATING AT THE PRIMARY RATE AND ABOVE
 O.152-1992               | (none)          | (10/92)            | ERROR PERFORMANCE MEASURING EQUIPMENT FOR BIT RATES OF 64 kbit/s AND N x 64 kbit/s - Study Group IV
@@ -5354,9 +5343,7 @@ O.61-1988                | (none)          | (11/88)            | SIMPLE EQUIPME
 O.62-1988                | (none)          | (11/88)            | SOPHISTICATED EQUIPMENT TO MEASURE INTERRUPTIONS ON TELEPHONE-TYPE CIRCUITS
 O.71-1988                | (none)          | (11/88)            | IMPULSIVE NOISE MEASURING EQUIPMENT FOR TELEPHONE-TYPE CIRCUITS
 O.72-1989                | (none)          | (01/89)            | Characteristics of an Impulsive Noise Measuring Instrument for Wideband Data Transmissions - Specifications for Measuring Equipment (Study Group IV) 1 pp
-O.81 APP I               | (none)          | (06/98)            | Group-delay measuring equipment for telephone-type circuits Appendix I: A measuring signal (multitone test signal) for fast measurement of amplitude and phase for telephone type circuits
 O.81 APP I-1998          | (none)          | (06/98)            | Group-Delay Measuring Equipment for Telephone-Type Circuits - Appendix I: A Measuring Signal (Multitone Test Signal) for Fast Measurement of Amplitude and Phase for Telephone Type Circuits - Series O: Specifications of Measuring Equipment - Equipment for the Measurement of Analogue Parameters - Study Group 4; Covering Note Erratum June 5,2000; 10pp
-O.81 NOTE                | (none)          | (06/00)            | A measuring signal (multitone test signal) for fast measurement of amplitude and phase for telephone type circuits
 O.81 NOTE-2000           | (none)          | (06/00)            | A measuring signal (multitone test signal) for fast measurement of amplitude and phase for telephone type circuits
 O.81-1988                | (none)          | (11/88)            | Group-delay measuring equipment for telephone-type circuits
 O.82-1988                | (none)          | (11/88)            | GROUP-DELAY MEASURING EQUIPMENT FOR THE RANGE 5 TO 600 kHz
@@ -5421,11 +5408,10 @@ P.1203.3 AMD 1-2020      | (none)          | (05/20)            | Parametric bit
 P.1204.3 AMD 1-2021      | (none)          | (01/21)            | Video quality assessment of streaming services over reliable transport for resolutions up to 4K with access to full bitstream information Amendment 1
 P.1204.4-2020            | (none)          | (01/20)            | Video quality assessment of streaming services over reliable transport for resolutions up to 4K with access to full and reduced reference pixel information
 P.1204.5 AMD 1-2021      | (none)          | (01/21)            | Video quality assessment of streaming services over reliable transport for resolutions up to 4K with access to transport and received pixel information Amendment 1: New Appendix II: Long term integration module (Pq) for ITU-T P.1204.5
-P.1238-10-2019           | (none)          | (08/19)            | Propagation data and prediction methods for the planning of indoor radiocommunication systems and radio local area networks in the frequency range 300 MHz to 450 GHz
 P.1238-6-2009            | (none)          | (10/09)            | Propagation data and prediction methods for the planning of indoor radiocommunication systems and radio local area networks in the frequency range 900 MHz to 100 GHz
 P.1238-7-2012            | (none)          | (02/12)            | Propagation data and prediction methods for the planning of indoor radiocommunication systems and radio local area networks in the frequency range 900 MHz to 100 GHz
-P.1238-9                 | (none)          | (06/17)            | Propagation data and prediction methods for the planning of indoor radiocommunication systems and radio local area networks in the frequency range 300 MHz to 100 GHz
-P.1239-2                 | (none)          | (10/09)            | ITU-R reference ionospheric characteristics
+P.1238-9-2017            | (none)          | (06/17)            | Propagation data and prediction methods for the planning of indoor radiocommunication systems and radio local area networks in the frequency range 300 MHz to 100 GHz
+P.1238-10-2019           | (none)          | (08/19)            | Propagation data and prediction methods for the planning of indoor radiocommunication systems and radio local area networks in the frequency range 300 MHz to 450 GHz
 P.1239-2-2009            | (none)          | (10/09)            | ITU-R reference ionospheric characteristics
 P.1239-3-2012            | (none)          | (02/12)            | ITU-R reference ionospheric characteristics
 P.1240-1-2007            | (none)          | (01/07)            | ITU-R Methods of Basic MUF, Operational MUF and Ray-Path Prediction
@@ -5495,13 +5481,10 @@ P.300-2001               | (none)          | (11/01)            | Transmission P
 P.31-1993                | (none)          | (01/93)            | Transmission Characteristics for Digital Telephones - Telephone Transmission Quality Subscribers' Lines and Sets - Study Group XII; 11 pp; Cancelled
 P.310-10-2019            | (none)          | (08/19)            | Definitions of terms relating to propagation in non-ionized media
 P.310-2009               | (none)          | (06/09)            | Transmission characteristics for narrow-band digital handset and headset telephones
-P.310-9                  | (none)          | (01/94)            | DEFINITIONS OF TERMS RELATING TO PROPAGATION IN NON-IONIZED MEDIA
 P.310-9-1994             | (none)          | (01/94)            | Definitions of Terms Relating to Propagation in Non-Ionized Media
-P.311-13                 | (none)          | (10/09)            | Acquisition, presentation and analysis of data in studies of tropospheric propagation
 P.311-13-2009            | (none)          | (10/09)            | Acquisition, presentation and analysis of data in studies of tropospheric propagation
 P.311-17-2017            | (none)          | (12/17)            | Acquisition, presentation and analysis of data in studies of radiowave propagation
 P.311-2005               | (none)          | (06/05)            | Transmission characteristics for wideband (150-7000 Hz) digital handset telephones Subscribers' lines and sets
-P.313-10                 | (none)          | (01/05)            | Exchange of information for short-term forecasts and transmission of ionospheric disturbance warnings
 P.313-10-2005            | (none)          | (01/05)            | Exchange of information for short-term forecasts and transmission of ionospheric disturbance warnings - Question ITU-R 213/3
 P.313-11-2012            | (none)          | (02/12)            | Exchange of information for short-term forecasts and transmission of ionospheric disturbance warnings
 P.313-2007               | (none)          | (03/07)            | Transmission characteristics for cordless and mobile digital terminals
@@ -5509,11 +5492,9 @@ P.313-2015               | (none)          | (06/15)            | Transmission c
 P.32-1988                | (none)          | (11/88)            | EVALUATION OF THE EFFICIENCY OF TELEPHONE BOOTHS AND ACOUSTING HOODS
 P.33-1989                | (none)          | (01/89)            | Subscriber Telephone Sets Containing Either Loudspeaking Receivers or Microphones Associated with Amplifiers - Telephone Transmission Quality - Study Group XII; 1 pp
 P.330 AMD 1-2003         | (none)          | (09/03)            | Amendment to ITU-T Rec. P.330 SERIES P: TELEPHONE TRANSMISSION QUALITY, TELEPHONE INSTALLATIONS, LOCAL LINE NETWORKS Subscribers' lines and sets - Covering Note: 9/2003
-P.330 NOTE               | (none)          | (09/03)            | Speech processing devices for acoustic enhancement
 P.330 NOTE-2003          | (none)          | (09/03)            | Speech processing devices for acoustic enhancement
 P.330-2003               | (none)          | (03/03)            | Speech processing devices for acoustic enhancement SERIES P: TELEPHONE TRANSMISSION QUALITY, TELEPHONE INSTALLATIONS, LOCAL LINE NETWORKS Subscribers' lines and sets - Study Group 12; Covering Note Amendment 1: 9/2003
 P.34-1993                | (none)          | (01/93)            | Transmission Characteristics of Hands-Free Telephones - Telephone Transmission Quality Subscribers' Lines and Sets - Study Group XII; 11 pp; Cancelled
-P.340 NOTE               | (none)          | (03/04)            | Transmission characteristics and speech quality parameters of hands-free terminals
 P.340 NOTE-2004          | (none)          | (03/04)            | Transmission characteristics and speech quality parameters of hands-free terminals
 P.340-2000               | (none)          | (05/00)            | Transmission Characteristics and Speech Quality Parameters of Hands-Free Terminals Series P: Telephone Transmission Quality, Telephone Installations, Local Line Networks Subscribers' Lines and Sets - Study Group 12; Covering Note: March 31, 2004
 P.341-2005               | (none)          | (06/05)            | Transmission characteristics for wideband (150-7000 Hz) digital hands-free telephony terminals
@@ -5550,7 +5531,6 @@ P.453-10-2012            | (none)          | (02/12)            | The radio refr
 P.453-14-2019            | (none)          | (08/19)            | The radio refractive index: its formula and refractivity data
 P.453-9-2003             | (none)          | (01/03)            | The radio refractive index: its formula and refractivity data - Question ITU-R 201/3
 P.48-1988                | (none)          | (11/88)            | SPECIFICATION FOR AN INTERMEDIATE REFERENCE SYSTEM
-P.50 NOTE                | (none)          | (05/00)            | Artificial voices
 P.50 NOTE-2000           | (none)          | (05/00)            | Artificial voices
 P.50-1999                | (none)          | (09/99)            | Artificial Voices - Study Group 12; Covering note: 5/25/2000
 P.501 AMD 1-2004         | (none)          | (05/04)            | Test signals for use in telephonometry Amendment 1: New annexes A and B
@@ -5562,9 +5542,7 @@ P.501 ANNEX B-2004       | (none)          | (05/04)            | Speech Files a
 P.501-2000               | (none)          | (05/00)            | Test Signals for Use in Telephonometry - Series P: Telephone Transmission Quality, Local Line Networks Objective Measuring Apparatus
 P.501-2009               | (none)          | (12/09)            | Test signals for use in telephonometry
 P.501-2020               | (none)          | (04/20)            | Test signals for use in telephony and other speech-based applications
-P.502 AMD 1-2010         | (none)          | (05/10)            | Objective test methods for speech communication systems using complex test signals Amendment 1
 P.502 AMD 1-2010         | (none)          | (05/10)            | Objective test methods for speech communication systems using complex test signals Amendment 1: New Appendix III – Automated double talk analysis procedure
-P.502 NOTE               | (none)          | (07/01)            | Objective test methods for speech communication systems using complex test signals
 P.502 NOTE-2001          | (none)          | (07/01)            | Objective test methods for speech communication systems using complex test signals
 P.502-2000               | (none)          | (05/00)            | Objective Test Methods for Speech Communication Systems Using Complex Test Signals Series P: Telephone Transmission Quality, Telephone Installations, Local Line Networks Objective Measuring Apparatus
 P.505 AMD 1-2012         | (none)          | (06/12)            | One-view visualization of speech quality measurements results Amendment 1: New Appendix II – Online tool for quality pie charts
@@ -5688,7 +5666,6 @@ P.833-6-2007             | (none)          | (01/07)            | Attenuation in
 P.833-7-2012             | (none)          | (02/12)            | Attenuation in vegetation
 P.833-9-2016             | (none)          | (09/16)            | Attenuation in vegetation
 P.833.1-2009             | (none)          | (04/09)            | Methodology for the derivation of equipment impairment factors from subjective listening-only tests for wideband speech codecs
-P.834 NOTE               | (none)          | (01/05)            | Methodology for the derivation of equipment impairment factors from instrumental models
 P.834 NOTE-2005          | (none)          | (01/05)            | Methodology for the derivation of equipment impairment factors from instrumental models
 P.834-2002               | (none)          | (07/02)            | Methodology for the derivation of equipment impairment factors from instrumental models SERIES P: TELEPHONE TRANSMISSION QUALITY, TELEPHONE INSTALLATIONS, LOCAL LINE NETWORKS Methods for objective and subjective assessment of quality - Study Group 12; COVERING NOTE: CORRIGENDUM 1 01/27/2005
 P.834-2015               | (none)          | (06/15)            | Methodology for the derivation of equipment impairment factors from instrumental models
@@ -5728,7 +5705,6 @@ P.85-1994                | (none)          | (06/94)            | Method for Sub
 P.851-2003               | (none)          | (11/03)            | Subjective quality evaluation of telephone services based on spoken dialogue systems SERIES P: TELEPHONE TRANSMISSION QUALITY, TELEPHONE INSTALLATIONS, LOCAL LINE NETWORKS Methods for objective and subjective assessment of quality
 P.861-1998               | (none)          | (02/98)            | Objective Quality Measurement of Telephone-Band (300 - 3400 Hz) Speech Codecs - Series P: Telephone Transmission Quality, Telephone Installations, Local Line Networks - Methods for Objective and Subjective Assessment of Quality - Study Group 12; 42 pp
 P.862 AMD 1-2003         | (none)          | (03/03)            | Perceptual evaluation of speech quality (PESQ): An objective method for end-to-end speech quality assessment of narrow-band telephone networks and speech codecs Amendment 1: Revised Annex A: Source code for reference implementation and conformance tests SERIES P: TELEPHONE TRANSMISSION QUALITY, TELEPHONE INSTALLATIONS, LOCAL LINE NETWORKS Methods for objective and subjective assessment of quality
-P.862 AMD 2              | (none)          | (11/05)            | Perceptual evaluation of speech quality (PESQ): An objective method for end-to-end speech quality assessment of narrow-band telephone networks and speech codecs Amendment 2: Revised Annex A - Reference implementations and conformance testing for ITU-T Recs P.862, P.862.1 and P.862.2
 P.862 AMD 2-2005         | (none)          | (11/05)            | Perceptual evaluation of speech quality (PESQ): An objective method for end-to-end speech quality assessment of narrow-band telephone networks and speech codecs Amendment 2: Revised Annex A - Reference implementations and conformance testing for ITU-T Recs P.862, P.862.1 and P.862.2
 P.862 CORR 1-2007        | (none)          | (10/07)            | Perceptual evaluation of speech quality (PESQ): An objective method for end-to-end speech quality assessment of narrow-band telephone networks and speech codecs Corrigendum 1
 P.862-2001               | (none)          | (02/01)            | Perceptual evaluation of speech quality (PESQ): An objective method for end-to-end speech quality assessment of narrow-band telephone networks and speech codecs--SERIES P: TELEPHONE TRANSMISSION QUALITY, TELEPHONE INSTALLATIONS, LOCAL LINE NETWORKS Methods for objective and subjective assessment of quality - Study Group 12; *** For (SDO) Subscription Customers Only, To Obtain your Complimentary Copy Contact IHS at 1-800-854-7179 USA/Canada or 303-397-7956 Worldwide***.
@@ -5744,7 +5720,6 @@ P.863-2018               | (none)          | (03/18)            | Perceptual obj
 P.863.1-2019             | (none)          | (06/19)            | Application guide for Recommendation ITU-T P.863
 P.880-2004               | (none)          | (05/04)            | Continuous evaluation of time varying speech quality quality
 P.910-2008               | (none)          | (04/08)            | Subjective video quality assessment methods for multimedia applications
-P.911 CORR 1             | (none)          | (09/99)            | Subjective Audiovisual Quality Assessment Methods for Multimedia Applications Corrigendum 1
 P.911 CORR 1-1999        | (none)          | (09/99)            | Subjective Audiovisual Quality Assessment Methods for Multimedia Applications - Corrigendum 1 - Series P: Telephone Transmission Quality, Telephone Installations, Local Line Networks - Audiovisual Quality in Multimedia Services - Study Group 12; 7 pp
 P.911-1998               | (none)          | (12/98)            | Subjective Audiovisual Quality Assessment Methods for Multimedia Applications - Series P: Telephone Transmission Quality, Telephone Installations, Local Line Networks Audiovisual Quality in Multimedia Services - Study Group 12; 27 pp
 P.912-2008               | (none)          | (08/08)            | Subjective video quality assessment methods for recognition tasks
@@ -5792,8 +5767,7 @@ PN.837-1-1994            | (none)          | (01/94)            | Characteristic
 PN.840-1-1994            | (none)          | (01/94)            | Attenuation Due to Clouds and Fog
 Q.1-1988                 | (none)          | (11/88)            | SIGNAL RECEIVERS FOR MANUAL WORKING
 Q.10-1989                | (none)          | (01/89)            | Definitions Relating to National and International Numbering Plans - General Recommendations on Telephone Switching and Signalling - Functions and Information Flows for Services in the ISDN - Supplements - Study Group XI; 3 pp; Cancelled
-Q.100 SUPP 2             | (none)          | (11/88)            | CHARACTERISTICS OF SPEECH INTERPOLATION SYSTEMS AFFECTING SIGNALLING
-Q.100 SUPP 3             | (none)          | (11/88)            | INFORMATION RECEIVED ON NATIONAL VOICE-FREQUENCY SIGNALLING SYSTEMS
+Q.100 SUPP 2-1988        | (none)          | (11/88)            | CHARACTERISTICS OF SPEECH INTERPOLATION SYSTEMS AFFECTING SIGNALLING
 Q.100 SUPP 3-1988        | (none)          | (11/88)            | INFORMATION RECEIVED ON NATIONAL VOICE-FREQUENCY SIGNALLING SYSTEMS
 Q.1000-1988              | (none)          | (11/88)            | STRUCTURE OF THE Q.1000-SERIES RECOMMENDATIONS FOR PUBLIC LAND MOBILE NETWORKS
 Q.1001-1988              | (none)          | (11/88)            | GENERAL ASPECTS OF PUBLIC LAND MOBILE NETWORKS
@@ -5813,7 +5787,6 @@ Q.106-1988               | (none)          | (11/88)            | The sending - 
 Q.1061-1988              | (none)          | (11/88)            | GENERAL ASPECTS AND PRINCIPLES RELATING TO DIGITAL PLMN ACCESS SIGNALLING REFERENCE POINTS
 Q.1062-1988              | (none)          | (11/88)            | DIGITAL PLMN ACCESS SIGNALLING REFERENCE CONFIGURATION
 Q.1063-1988              | (none)          | (11/88)            | DIGITAL PLMN CHANNEL STRUCTURES AND ACCESS CAPABILITIES AT THE RADIO INTERFACE (Um REFERENCE POINT)
-Q.107 BIS                | (none)          | (03/93)            | Analysis of forward address information for routing
 Q.107 BIS-1993           | (none)          | (01/93)            | Analysis of Forward Address Information for Routing - General Recommendations on Telephone Switching and Signalling - Clauses Applicable to ITU-T Standard Systems (Study Group XI) 8 pp
 Q.107-1988               | (none)          | (11/88)            | Standard sending sequence of forward address information
 Q.108-1988               | (none)          | (11/88)            | One-way or both-way operation of international circuits
@@ -5836,9 +5809,7 @@ Q.112-1988               | (none)          | (11/88)            | SIGNAL LEVELS 
 Q.113-1988               | (none)          | (11/88)            | CONNECTION OF SIGNAL RECEIVERS IN THE CIRCUIT
 Q.114-1988               | (none)          | (11/88)            | TYPICAL TRANSMISSION REQUIREMENTS FOR SIGNAL SENDERS AND RECEIVERS
 Q.115-1999               | (none)          | (12/99)            | Logic for the Control of Echo Control Devices Series Q: Switching and Signalling Clauses Applicable to ITU-T Standard Systems - Control of Echo Suppressors
-Q.115.0 CORR 1           | (none)          | (06/07)            | Protocols for the control of signal processing network elements and functions Corrigendum 1
 Q.115.0 CORR 1-2007      | (none)          | (06/07)            | Protocols for the control of signal processing network elements and functions Corrigendum 1
-Q.115.0 NOTE             | (none)          | (09/03)            | Protocols for the control of signal processing network elements and functions
 Q.115.0 NOTE-2003        | (none)          | (09/03)            | Protocols for the control of signal processing network elements and functions SERIES Q: SWITCHING AND SIGNALLING Clauses applicable to ITU-T standard systems - Logic and protocols for the control of signal processing network elements and functions - Study Group 11; COVERING NOTE ERRATUM 1 09/2003
 Q.115.0-2002             | (none)          | (12/02)            | Protocols for the control of signal processing network elements and functions
 Q.115.1-2002             | (none)          | (12/02)            | Logic for the control of echo control devices and functions SERIES Q: SWITCHING AND SIGNALLING Clauses applicable to ITU-T standard systems - Logic and protocols for the control of signal processing network elements and functions
@@ -5847,11 +5818,9 @@ Q.1151-1993              | (none)          | (01/93)            | Interfaces for
 Q.1152-1993              | (none)          | (01/93)            | Procedures for Interworking between INMARSAT Aeronautical Mobile Satellite System and the International Public Switched Telephone Network/ISDN - Interworking with Satellite Mobile Systems (Study Group XI) 58 pp
 Q.116-1988               | (none)          | (11/88)            | INDICATION GIVEN TO THE OUTGOING OPERATOR OR CALLING SUBSCRIBER IN CASE OF AN ABNORMAL CONDITION
 Q.117-1988               | (none)          | (11/88)            | ALARMS FOR TECHNICAL STAFF AND ARRANGEMENTS IN CASE OF FAULTS
-Q.118 BIS                | (none)          | (11/88)            | Indication of congestion conditions at transit exchanges
 Q.118 BIS-1988           | (none)          | (11/88)            | Indication of congestion conditions at transit exchanges
 Q.118-1997               | (none)          | (09/97)            | Abnormal Conditions - Special Release Arrangements - Series Q: Switching and Signalling Clauses Applicable to ITU-T Standard Systems - Abnormal Conditions - Study Group 11; 8 pp
 Q.12-1988                | (none)          | (11/88)            | Overflow - alternative routing - rerouting - automatic repeat attempt
-Q.120-Q.139              | (none)          | (11/88)            | Specifications of Signalling System No. 4
 Q.120-Q.139-1988         | (none)          | (11/88)            | Specifications of Signalling System No. 4 - Study Group XI
 Q.1200-1997              | (none)          | (09/97)            | General Series Intelligent Network Recommendation Structure - Series Q: Switching and Signalling - Intelligent Network - Study Group 11; 11 pp
 Q.1201-1992              | (none)          | (10/92)            | Principles of Intelligent Network Architecture (Study Group XVIII) 36 pp
@@ -5866,10 +5835,8 @@ Q.1211-1993              | (none)          | (03/93)            | Introduction t
 Q.1213-1995              | (none)          | (10/95)            | GLOBAL FUNCTIONAL PLANE FOR INTELLIGENT NETWORK CS-1
 Q.1214-1995              | (none)          | (10/95)            | DISTRIBUTED FUNCTIONAL PLANE FOR INTELLIGENT NETWORK CS-1
 Q.1215-1995              | (none)          | (10/95)            | PHYSICAL PLANE FOR INTELLIGENT NETWORK CS-1
-Q.1218 ADD 1             | (none)          | (09/97)            | Interface Recommendation for Intelligent Network CS-1 Addendum 1: Definition for two new contexts in the SDF data model
 Q.1218 ADD 1-1997        | (none)          | (09/97)            | Interface Recommendation for Intelligent Network CS-1 - Series Q: Switching and Signalling - Intelligent Network - Addendum 1: Definition for Two New Contexts in the SDF Data Model; Study Group 11; 7 pp
 Q.1218-1995              | (none)          | (10/95)            | Interface Recommendation for Intelligent Network CS-1
-Q.1219 SUPP 1            | (none)          | (09/97)            | Intelligent Network user's guide: Supplement for IN CS-I Supplement 1
 Q.1219 SUPP 1-1997       | (none)          | (09/97)            | Intelligent Network User's Guide: Supplement for IN CS-1 Supplement 1; Series Q: Switching and Signalling Intelligent Network - Study Group 11; 21 pp
 Q.1219-1994              | (none)          | (04/94)            | Intelligent Network User's Guide for Capability Set 1
 Q.122-1989               | (none)          | (01/89)            | Signal Sender - Specifications of Signalling Systems Nos. 4 and 5 (Study Group XI) 1 pp
@@ -5877,30 +5844,14 @@ Q.1220-1997              | (none)          | (09/97)            | Q.1220-series 
 Q.1221-1997              | (none)          | (09/97)            | Introduction to Intelligent Network Capability Set 2
 Q.1222-1997              | (none)          | (09/97)            | Service Plane for Intelligent Network Capability; Set 2 - Series Q: Switching and Signalling; Intelligent Network - Study Group 11; 11 pp
 Q.1223-1997              | (none)          | (09/97)            | Series Q: Switching and Signalling; Intelligent Network; Global Functional Plane for Intelligent Network Capability Set 2
-Q.1224 FASCICLE 1/3      | (none)          | (09/97)            | Distributed functional plane for intelligent network Capability Set 2: Part 1
-Q.1224 FASCICLE 1/3      | (none)          | (09/97)            | Plano funcional distribuido para el conjunto de capacidades 2 de red inteligente: Parte 1
 Q.1224 FASCICLE 1/3-1997 | (none)          | (09/97)            | Distributed Functional Plane for Intelligent Network Capability Set 2: Part 1 - Series Q: Switching and Signalling - Intelligent Network - Study Group 11; 207 pp
-Q.1224 FASCICLE 2/3      | (none)          | (09/97)            | Distributed functional plane for intelligent network Capability Set 2: Part 2
-Q.1224 FASCICLE 2/3      | (none)          | (09/97)            | Plano funcional distribuido para el conjunto de capacidades 2 de red inteligente: Parte 2
 Q.1224 FASCICLE 2/3-1997 | (none)          | (09/97)            | Distributed Functional Plane for Intelligent Network Capability Set 2: Part 2 - Series Q: Switching and Signalling - Intelligent Network - Study Group 11; 278 pp
-Q.1224 FASCICLE 3/3      | (none)          | (09/97)            | Distributed functional plane for intelligent network capability Set 2: Parts 3 and 4
-Q.1224 FASCICLE 3/3      | (none)          | (09/97)            | Plano funcional distribuido para el conjunto de capacidades 2 de red inteligente: Partes 3 y 4
 Q.1224 FASCICLE 3/3-1997 | (none)          | (06/97)            | Distributed Functional Plane for Intelligent Network Capability Set 2: Parts 3 and 4 - Series Q: Switching and Signalling - Intelligent Network - StuStudy Group 11; 232 pp
 Q.1225-1997              | (none)          | (09/97)            | Physical Plane for Intelligent Network Capability Set 2 - Series Q: Switching and Signalling Intelligent Network - Study Group 11; 16 pp
-Q.1228 FASCICLE 1/5      | (none)          | (09/97)            | Interface Recommendation for Intelligent Network Capability Set 2: Part 1
-Q.1228 FASCICLE 1/5      | (none)          | (09/97)            | Recomendación sobre interfaces para el conjunto de capacidades 2 de red inteligente: Parte 1
 Q.1228 FASCICLE 1/5-1997 | (none)          | (09/97)            | Interface Recommendation for Intelligent Network Capability Set 2: Part 1 - Series Q: Switching and Signalling Intelligent Network - Study Group 11; 281 pp
-Q.1228 FASCICLE 2/5      | (none)          | (09/97)            | Interface Recommendation for intelligent network Capability Set 2: Part 2
-Q.1228 FASCICLE 2/5      | (none)          | (09/97)            | Recomendación sobre interfaces para el conjunto de capacidades 2 de red inteligente: Parte 2
 Q.1228 FASCICLE 2/5-1997 | (none)          | (09/97)            | Interface Recommendation for Intelligent Network Capability Set 2: Part 2 - Series Q: Switching and Signalling Intelligent Network - 247 pp
-Q.1228 FASCICLE 3/5      | (none)          | (09/97)            | Interface Recommendation for intelligent network Capability Set 2: Part 3
-Q.1228 FASCICLE 3/5      | (none)          | (09/97)            | Recomendación sobre interfaces para el conjunto de capacidades 2 de red inteligente: Parte 3
 Q.1228 FASCICLE 3/5-1997 | (none)          | (09/97)            | Interface Recommendation for Intelligent Network Capability Set 2: Part 3 - Series Q: Switching and Signalling Intelligent Network - 271 pp
-Q.1228 FASCICLE 4/5      | (none)          | (09/97)            | Interface Recommendation for intelligent network Capability Set 2: Part 4
-Q.1228 FASCICLE 4/5      | (none)          | (09/97)            | Recomendación sobre interfaces para el conjunto de capacidades 2 de red inteligente: Parte 4
 Q.1228 FASCICLE 4/5-1997 | (none)          | (09/97)            | Interface Recommendation for Intelligent Network Capability Set 2: Part 4 - Series Q: Switching and Signalling Intelligent Network - 71 pp
-Q.1228 FASCICLE 5/5      | (none)          | (09/97)            | Interface Recommendation for intelligent network Capability Set 2: Parts 5, 6 and 7
-Q.1228 FASCICLE 5/5      | (none)          | (09/97)            | Recomendación sobre interfaces para el conjunto de capacidades 2 de red inteligente: Partes 5, 6 y 7
 Q.1228 FASCICLE 5/5-1997 | (none)          | (09/97)            | Interface Recommendation for Intelligent Network Capability Set 2: Part 5, 6 and 7 - Series Q: Switching and Signalling Intelligent Network - 95 pp
 Q.1229-1999              | (none)          | (03/99)            | Intelligent Network User's Guide for Capability Set 2 - Series Q: Switching and Signalling - Intelligent Network - Study Group 11; 175pp
 Q.123-1989               | (none)          | (01/89)            | Signal Receiver - Specifications of Signalling Systems Nos. 4 and 5 (Study Group XI) 3 pp
@@ -5945,9 +5896,7 @@ Q.137-1989               | (none)          | (01/89)            | Automatic Test
 Q.138-1989               | (none)          | (01/89)            | Instruments for Checking Equipment and Measuring Signals - Specifications of Signalling Systems Nos. 4 and 5 (Study Group XI) 1 pp
 Q.139-1988               | (none)          | (11/88)            | Manual Testing - Specifications of Signalling Systems Nos. 4 and 5 (Study Group XI) 3 pp
 Q.14-1988                | (none)          | (11/88)            | Means to control the number of satellite links in an international telephone connection
-Q.140-Q.180              | (none)          | (11/88)            | Specifications of Signalling System No. 5
 Q.140-Q.180-1988         | (none)          | (11/88)            | Specifications of Signalling System No. 5 - Study Group XI
-Q.1400 ADD 1             | (none)          | (02/95)            | ARCHITECTURE FRAMEWORK FOR THE DEVELOPMENT OF SIGNALLING AND OAM PROTOCOLS USING OSI CONCEPTS
 Q.1400 ADD 1-1995        | (none)          | (01/95)            | Architecture Framework for the Development of Signalling and OAM Protocols Using OSI Concepts - Intelligent Network (Study Group 11) 7 pp
 Q.1400-1993              | (none)          | (01/93)            | Architecture Framework for the Development of Signalling and OA&M Protocols Using OSI Concepts - Intelligent Network (Study Group XI) 54 pp
 Q.141-1993               | (none)          | (01/93)            | Signal Code for Line Signalling - Clause 2 - Line Signalling - Specifications of Signalling System No. 5 (Study Group XI)9 pp
@@ -5970,7 +5919,6 @@ Q.1551-1997              | (none)          | (06/97)            | Application of
 Q.156-1989               | (none)          | (01/89)            | Release of International Registers - Specifications of Signalling Systems Nos. 4 and 5 (Study Group XI) 2 pp
 Q.157-1989               | (none)          | (01/89)            | Switching to the Speech Position - Specifications of Signalling Systems Nos. 4 and 5 (Study Group XI) 1 pp
 Q.16-1989                | (none)          | (01/89)            | Maximum Permissible Value for the Absolute Power Level of a Signalling Pulse - General Recommendations on Telephone Switching and Signalling - Functions and Information Flows for Services in the ISDN - Supplements - Study Group XI; 1 pp; Cancelled; Same as Recmn G.224
-Q.1600 BIS               | (none)          | (12/99)            | Signalling System No. 7 - Interaction between ISDN User Part ISUP'97 and INAP CS-1: Test Suite Structure and Test Purposes (TSS & TP)
 Q.1600 BIS AMD 1-2000    | (none)          | (12/00)            | Signalling System No. 7 - Interaction between ISDN User Part ISUP'97 and INAP CS-1: Test Suite Structure and Test Purposes (TSS & TP) Series Q: Switching and Signalling Intelligent Network
 Q.1600 BIS-1999          | (none)          | (12/99)            | Signalling System No. 7 - Interaction between ISDN User Part ISUP'97 and INAP CS-1: Test Suite Structure and Test Purposes (TSS & TP) Series Q: Switching and Signalling Intelligent Network
 Q.1600-1997              | (none)          | (09/97)            | Signalling System No. 7 - Interaction Between ISUP and INAP Series Q: Switching and Signalling Intelligent Network - Study Group 11; 58 pp
@@ -6019,30 +5967,30 @@ Q.1763-2007              | (none)          | (10/07)            | FMC service us
 Q.180-1988               | (none)          | (11/88)            | Interworking of Systems No. 4 and No. 5 - Specifications of Signalling Systems Nos. 4 and 5 (Study Group XI) 7 pp
 Q.1901 CORR 1-2002       | (none)          | (04/02)            | Bearer Independent Call Control Protocol Corrigendum 1 Series Q: SWITCHING AND SIGNALLING Specifications of signalling related to Bearer Independent Call Control (BICC)
 Q.1901-2000              | (none)          | (06/00)            | Bearer Independent Call Control Protocol Series Q: Switching and Signalling
+Q.1902.1-2001            | (none)          | (07/01)            | Bearer Independent Call Control Protocol (Capability Set 2): Functional Description
 Q.1902.1 AMD 1-2002      | (none)          | (12/02)            | Bearer Independent Call Control protocol (Capability Set 2): Functional description Amendment 1: Support for the International Emergency Preference Scheme
 Q.1902.1 AMD 2-2006      | (none)          | (01/06)            | Bearer Independent Call Control protocol (Capability Set 2): Functional description Amendment 2: Support for the International Emergency Preference Scheme
 Q.1902.1 AMD 3-2009      | (none)          | (10/09)            | Bearer Independent Call Control protocol (Capability Set 2): Functional description Amendment 3: Support for the customized alerting tone service
-Q.1902.1-2001            | (none)          | (07/01)            | Bearer Independent Call Control Protocol (Capability Set 2): Functional Description
+Q.1902.2-2001            | (none)          | (07/01)            | Bearer Independent Call Control Protocol (Capability Set 2) and Signalling System No. 7 ISDN User Part: General Functions of Messages and Paramenters Series Q: Switching and Signalling Specifications of Signalling Related to Bearer Independent Call Control (BICC)
 Q.1902.2 AMD 1-2002      | (none)          | (12/02)            | Bearer Independent Call Control protocol (Capability Set 2) and Signalling System No. 7 ISDN User Part: General functions of messages and parameters SERIES Q: SWITCHING AND SIGNALLING Specifications of signalling related to Bearer Independent Call Control (BICC)
 Q.1902.2 AMD 2-2004      | (none)          | (04/04)            | Bearer Independent Call Control protocol (Capability Set 2) and Signalling System No. 7 ISDN user part: General functions of messages and parameters Amendment 2 SERIES Q: SWITCHING AND SIGNALLING Specifications of signalling related to Bearer Independent Call Control (BICC)
 Q.1902.2 AMD 3-2006      | (none)          | (01/06)            | Bearer Independent Call Control protocol (Capability Set 2) and Signalling System No. 7 ISDN user part: General functions of messages and parameters Amendment 3: Support for the International Emergency Preference Scheme
 Q.1902.2 AMD 4-2006      | (none)          | (09/06)            | Bearer Independent Call Control protocol (Capability Set 2) and Signalling System No. 7 ISDN user part: General functions of messages and parameters Amendment 4: Transport of Voice Enhancement Device related information
 Q.1902.2 AMD 5-2009      | (none)          | (10/09)            | Bearer Independent Call Control protocol (Capability Set 2) and Signalling System No. 7 ISDN user part: General functions of messages and parameters Amendment 5: Support for the customized alerting tone (CAT) service
-Q.1902.2-2001            | (none)          | (07/01)            | Bearer Independent Call Control Protocol (Capability Set 2)and Signalling System No. 7 ISDN User Part: General Functions of Messages and Paramenters Series Q: Switching and Signalling Specifications of Signalling Related to Bearer Independent Call Control (BICC)
+Q.1902.3-2001            | (none)          | (07/01)            | Bearer Independent Call Control Protocol (Capability Set 2) and Signalling System No. 7 ISDN User Part: Formats and Codes Series Q: Switching and Signalling Specifications of Signalling Related to Bearer Independent Call Control (BICC)
 Q.1902.3 AMD 1-2002      | (none)          | (12/02)            | Bearer Independent Call Control protocol (Capability Set 2) and Signalling System No. 7 ISDN User Part: Formats and codes Amendment 1: Support for the International Emergency Preference Scheme SERIES Q: SWITCHING AND SIGNALLING Specifications of signalling related to Bearer Independent Call Control (BICC)
 Q.1902.3 AMD 2-2004      | (none)          | (04/04)            | Bearer Independent Call Control protocol (Capability Set 2) and Signalling System No. 7 ISDN User Part: Formats and codes Amendment 2 SERIES Q: SWITCHING AND SIGNALLING Specifications of signalling related to Bearer Independent Call Control (BICC)
 Q.1902.3 AMD 3-2006      | (none)          | (01/06)            | Bearer Independent Call Control protocol (Capability Set 2) and Signalling System No. 7 ISDN User Part: Formats and codes Amendment 3: Support for the International Emergency Preference Scheme
 Q.1902.3 AMD 4-2006      | (none)          | (09/06)            | Bearer Independent Call Control protocol (Capability Set 2) and Signalling System No. 7 ISDN user part: Formats and codes Amendment 4: Transport of Voice Enhancement Device related information
 Q.1902.3 AMD 5-2009      | (none)          | (10/09)            | Bearer Independent Call Control protocol (Capability Set 2) and Signalling System No. 7 ISDN user part: Formats and codes Amendment 5: Support for the customized alerting tone (CAT) service
-Q.1902.3-2001            | (none)          | (07/01)            | Bearer Independent Call Control Protocol (Capability Set 2) and Signalling System No. 7 ISDN User Part: Formats and Codes Series Q: Switching and Signalling Specifications of Signalling Related to Bearer Independent Call Control (BICC)
+Q.1902.4-2001            | (none)          | (07/01)            | Bearer Independent Call Control Protocol (Capability Set 2): Basic Call Procedures Series Q: Switching and Signalling Specifications of Signalling Related to Bearer Independent Call Control (BICC)
 Q.1902.4 AMD 1-2002      | (none)          | (12/02)            | Bearer Independent Call Control protocol (Capability Set 2): Basic call procedures SERIES Q: SWITCHING AND SIGNALLING Specifications of signalling related to Bearer Independent Call Control (BICC)
 Q.1902.4 AMD 2-2004      | (none)          | (04/04)            | Bearer Independent Call Control protocol (Capability Set 2): Basic call procedures Amendment 2 SERIES Q: SWITCHING AND SIGNALLING Specifications of signalling related to Bearer Independent Call Control (BICC)
 Q.1902.4 AMD 3-2006      | (none)          | (01/06)            | Bearer Independent Call Control protocol (Capability Set 2): Basic call procedures Amendment 3: Support for the International Emergency Preference Scheme
 Q.1902.4 AMD 4-2006      | (none)          | (09/06)            | Bearer Independent Call Control protocol (Capability Set 2): Basic call procedures Amendment 4: Transport of Voice Enhancement Device related information
-Q.1902.4-2001            | (none)          | (07/01)            | Bearer Independent Call Control Protocol (Capability Set 2): Basic Call Procedures Series Q: Switching and Signalling Specifications of Signalling Related to Bearer Independent Call Control (BICC)
 Q.1902.5-2001            | (none)          | (07/01)            | Bearer Independent Call Control Protocol (Capability Set 2): Exceptions to the Application Transport Mechanism in the Context of BICC Series Q: Switching and Signalling Specifications of Signalling Related to Bearer Independent Call Control (BICC)
-Q.1902.6 AMD 1-2004      | (none)          | (04/04)            | Bearer Independent Call Control protocol (Capability Set 2): Generic signalling procedures for the support of the ISDN User Part supplementary services and for bearer redirection Amendment 1 SERIES Q: SWITCHING AND SIGNALLING Specifications of signalling related to Bearer Independent Call Control (BICC)
 Q.1902.6-2001            | (none)          | (07/01)            | Bearer Independent Call Control Protocol (Capability Set 2): Generic Signalling Procedures for the Support of the ISDN User Part Supplementary Services and for Bearer Redirection Series Q: Switching and Signalling Specifications of Signalling Related to Bearer Independent Call Control (BICC)
+Q.1902.6 AMD 1-2004      | (none)          | (04/04)            | Bearer Independent Call Control protocol (Capability Set 2): Generic signalling procedures for the support of the ISDN User Part supplementary services and for bearer redirection Amendment 1 SERIES Q: SWITCHING AND SIGNALLING Specifications of signalling related to Bearer Independent Call Control (BICC)
 Q.1912.1-2001            | (none)          | (07/01)            | Interworking between Signalling System No. 7 ISDN User Part and the Bearer Independent Call Control Protocol Series Q: Switching and Signalling Specifications of Signalling Related to Bearer Independent Call Control (BICC)
 Q.1912.2-2001            | (none)          | (07/01)            | Interworking between Selected Signalling Systems (PSTN Access, DSS1, C5, R1, R2, TUP) and the Bearer Independent Call Control Protocol; Series Q: Switching and Signalling; Specifications of Signalling Related to Bearer Independent Call Control (BICC)
 Q.1912.3-2001            | (none)          | (07/01)            | Interworking between H.323 and the Bearer Independent Call Control Protocol Series Q: Switching and Signalling Specifications of Signalling Related to Bearer Independent Call Control (BICC)
@@ -6060,7 +6008,6 @@ Q.1912.5-2004            | (none)          | (03/04)            | Interworking b
 Q.1922.2-2001            | (none)          | (07/01)            | Interaction between the Intelligent Network Application Protocol Capability Set 2 and the Bearer Independent Call Control Protocol Series Q: Switching and Signalling Specifications of Signalling Related to Bearer Independent Call Control (BICC)
 Q.1922.4-2002            | (none)          | (12/02)            | Interaction between the Intelligent Network application CS-4 protocol and the Bearer Independent Call Control protocol SERIES Q: SWITCHING AND SIGNALLING Specifications of signalling related to Bearer Independent Call Control (BICC)
 Q.1930-2002              | (none)          | (04/02)            | BICC access network protocol SERIES Q: SWITCHING AND SIGNALLING Specifications of signalling related to Bearer Independent Call Control (BICC)
-Q.1950 AMD 1             | (none)          | (01/06)            | Bearer independent call bearer control protocol Amendment 1: New Annex G - Call bearer control - International Emergency Preference Scheme
 Q.1950 AMD 1-2006        | (none)          | (01/06)            | Bearer independent call bearer control protocol Amendment 1: New Annex G - Call bearer control - International Emergency Preference Scheme
 Q.1950-2002              | (none)          | (12/02)            | Bearer independent call bearer control protocol
 Q.1970-2006              | (none)          | (09/06)            | BICC IP bearer control protocol
@@ -6080,7 +6027,6 @@ Q.2111-1999              | (none)          | (12/99)            | B-ISDN ATM Ada
 Q.2119-1996              | (none)          | (07/96)            | B-ISDN ATM Adaptation Layer - Convergence Function for SSCOP Above the Frame Relay Core Service - Series Q: Switching and Signalling Broadband ISDN - ATM Adaptation Layer - Study Group 11; 17 pp
 Q.2120-1995              | (none)          | (01/95)            | B-ISDN Meta-Signalling Protocol - B-ISDN ATM Adaptation Layer - Study Group 11; 61 pp; PRETS 300 486-1: 1995
 Q.2130-1994              | (none)          | (07/94)            | B-ISDN Signalling ATM Adaptation Layer - Service Specific Coordination Function for Support of Signalling at the User Network Interface (SSFC AT UNI) - Broadband ISDN (Study Group 11) 58 pp (ETS 300 437-1)
-Q.2140 NOTE              | (none)          | (03/04)            | B-ISDN ATM ADAPTATION LAYER - SERVICE SPECIFIC COORDINATION FUNCTION FOR SIGNALLING AT THE NETWORK NODE INTERFACE (SSCF AT NNI)
 Q.2140 NOTE-2004         | (none)          | (03/04)            | B-ISDN ATM Adaptation Layer - Service Specific Coordination Function for Signalling at the Network Node Interface (SSCF at NNI)
 Q.2140-1995              | (none)          | (02/95)            | B-ISDN ATM Adaptation Layer - Service Specific Coordination Function for Signalling at the Network Node Interface (SSCF at NNI) - B-ISDN ATM Adaptation Layer (Study Group 11) 65 pp (ETS 300 438-1) - Study Group 11; Covering Note: March 12, 2004
 Q.2144-1995              | (none)          | (10/95)            | B-ISDN Signalling ATM Adaptation Layer (SAAL) - Layer Management for the SAAL at the Network Node Interface (NNI) - B-ISDN ATM Adaptation Layer (Study Group 11) 34 pp (ETSI PRETS 300 647)
@@ -6094,7 +6040,6 @@ Q.2220-2002              | (none)          | (12/02)            | Transport-Inde
 Q.23-1988                | (none)          | (11/88)            | TECHNICAL FEATURES OF PUSH-BUTTON TELEPHONE SETS
 Q.24-1988                | (none)          | (11/88)            | MULTIFREQUENCY PUSH-BUTTON SIGNAL RECEPTION
 Q.25-1988                | (none)          | (11/88)            | SPLITTING ARRANGEMENTS AND SIGNAL RECOGNITION TIMES IN "IN-BAND" SIGNALLING SYSTEMS
-Q.251-Q.300              | (none)          | (11/88)            | Specifications of Signalling System No. 6
 Q.251-Q.300-1988         | (none)          | (11/88)            | Specifications of Signalling System No. 6
 Q.252-1988               | (none)          | (11/88)            | 1.2 Signal Transfer Time Definitions - Specifications of Signalling System No. 6 (Study Group XI) 2 pp
 Q.253-1988               | (none)          | (11/88)            | 1.3 Association between Signalling and Speech Networks - Specifications of Signalling System (Study Group XI) 3 pp
@@ -6180,7 +6125,6 @@ Q.292-1988               | (none)          | (11/88)            | 8.4 Reserve Fa
 Q.2920-2003              | (none)          | (12/03)            | Broadband integrated services digital network (B-ISDN) - Digital Subscriber Signalling System No. 2 (DSS 2): Call/connection control for the support of ATM-MPLS network interworking SERIES Q: SWITCHING AND SIGNALLING Broadband ISDN - B-ISDN application protocols for access signalling
 Q.293-1988               | (none)          | (11/88)            | 8.5 Intervals at Which Security Measures Are to Be Invoked - Specifications of Signalling System No. 6 (Study Group XI) 8 pp
 Q.2931 AMD 1-1997        | (none)          | (06/97)            | Amendment 1 Digital Subscriber Signalling System No.2 - User-Network Interface (UNI) Layer 3 Specification for Basic Call/Connection Control - Series Q: Switching and Signalling Broadband ISDN - B-ISDN Application Protocols for Access Signalling - Study Group 11; 7 pp
-Q.2931 AMD 2             | (none)          | (03/99)            | Digital Subscriber Signalling System No. 2 - User-Network Interface (UNI) Layer 3 Specification for Basic Call/Connection Control Amendment 2
 Q.2931 AMD 2 CORR 1-2000 | (none)          | (06/00)            | Digital subscriber signalling system No. 2 - User-network interface (UNI) layer 3 specification for bas隆 c ca I I/co n n ect i o n con t ro I Amendment 2 Corrigendum 1
 Q.2931 AMD 2-1999        | (none)          | (03/99)            | Digital Subscriber Signalling System No. 2 - User-Network Interface (UNI) Layer 3 Specification for Basic Call/Connection Control Amendment 2 - Study Group 11; 23 pp
 Q.2931 AMD 3-1999        | (none)          | (03/99)            | Digital Subscriber Signalling System No. 2 - User-Network Interface (UNI) Layer 3 Specification for Basic Call/Connection Control Amendment 3 - Study Group 11; 8 pp
@@ -6267,9 +6211,7 @@ Q.3055-2019              | (none)          | (12/19)            | Signalling pro
 Q.3056-2019              | (none)          | (12/19)            | Signalling procedures of the probes to be used for remote testing of network parameters
 Q.3057-2020              | (none)          | (04/20)            | Signalling requirements and architecture for interconnection between trustable network entities
 Q.3058-2020              | (none)          | (09/20)            | Signalling architecture of orchestration in next generation network evolution
-Q.3058-2020              | (none)          | (09/20)            | Signalling architecture of orchestration in NGNe
 Q.3059-2020              | (none)          | (09/20)            | Signalling requirements for service function discovery
-Q.3060-2020              | (none)          | (12/20)            | Signalling architecture of fast deployment emergency telecommunication networks to be used in a natural disaster
 Q.3060-2020              | (none)          | (12/20)            | Signalling architecture of the fast deployment emergency telecommunication network to be used in a natural disaster
 Q.31-1988                | (none)          | (11/88)            | NOISE IN A NATIONAL 4-WIRE AUTOMATIC EXCHANGE
 Q.310-Q.332              | (none)          | (11/88)            | Specifications of Signalling System R1
@@ -6538,7 +6480,6 @@ Q.44-1988                | (none)          | (11/88)            | ATTENUATION DI
 Q.440-1989               | (none)          | (01/89)            | Interregister Signalling - General - Specifications of Signalling Systems R1 and R2 (Study Group XI) 4 pp
 Q.441-1989               | (none)          | (01/89)            | Interregister Signalling - Signalling Code - Specifications of Signalling Systems R1 and R2 (Study Group XI) 10 pp
 Q.442-1989               | (none)          | (01/89)            | Interregister Signalling - Pulse Transmission of Backward Signals A-3, A-4, A-6 or A-15. Multifrequency Signalling Equipment - Specifications of Signalling Systems R1 and R2 (Study Group XI) 2 pp
-Q.45 BIS                 | (none)          | (11/88)            | TRANSMISSION CHARACTERISTICS OF AN ANALOGUE INTERNATIONAL EXCHANGE
 Q.45 BIS-1988            | (none)          | (11/88)            | TRANSMISSION CHARACTERISTICS OF AN ANALOGUE INTERNATIONAL EXCHANGE
 Q.45-1984                | (none)          | (10/84)            | TRANSMISSION CHARACTERISTICS OF AN ANALOGUE INTERNATIONAL EXCHANGE
 Q.450-1989               | (none)          | (01/89)            | Interregister Signalling - General - Specifications of Signalling Systems R1 and R2 (Study Group XI) 2 pp
@@ -6569,7 +6510,6 @@ Q.480-1989               | (none)          | (01/89)            | Signalling Pro
 Q.49-1989                | (none)          | (01/89)            | Specification for the CCITT Automatic Transmission Measuring and Signalling Testing Equipment ATME No. 2 - General Recommendations on Telephone Switching and Signalling - Functions and Information Flows for Services in the ISDN - Supplements - Study Group XI; 1 pp; Cancelled
 Q.490-1988               | (none)          | (11/88)            | Testing and Maintenance - Specifications of Signalling Systems R1 and R2 (Study Group XI) 5 pp
 Q.5-1988                 | (none)          | (11/88)            | ADVANTAGES OF SEMI-AUTOMATIC SERVICE IN THE INTERNATIONAL TELEPHONE SERVICE
-Q.50 NOTE                | (none)          | (08/06)            | Signalling between Circuit Multiplication Equipment (CME) and International Switching Centres (ISC)
 Q.50 NOTE-2006           | (none)          | (08/06)            | Signalling between Circuit Multiplication Equipment (CME) and International Switching Centres (ISC)
 Q.50-2001                | (none)          | (07/01)            | Signalling between Circuit Multiplication Equipment (CME) and International Switching Centres (ISC)
 Q.50.1-2001              | (none)          | (07/01)            | Signalling between International Switching Centres (ISC) and Digital Circuit Multiplication Equipment (DCME) including the control of compression/decompression
@@ -6665,7 +6605,6 @@ Q.694-1993               | (none)          | (03/93)            | Interworking o
 Q.695-1993               | (none)          | (03/93)            | Interworking of Signalling Systems - Logic Procedures for Interworking of Signalling System No. 7 (ISUP) to R2 - Interworking of Signalling Systems (Study Group XI) 10 pp
 Q.696-1997               | (none)          | (06/97)            | Interworking between the Signalling System No.7 ISDN User Part (ISUP) and Signalling Systems No.5, R2 and Signalling System No.7 TUP - Study Group 11; 50 pp
 Q.698-1993               | (none)          | (03/93)            | Interworking of Signalling System No. 7 ISUP, TUP and Signalling System No. 6 Using Arrow Diagrams - Interworking of Signalling Systems (Study Group XI) 53 pp
-Q.699 ADD 1              | (none)          | (12/99)            | Interworking between ISDN access and non-ISDN access over ISDN user part of Signalling System No. 7 Addendum 1 : DSSI -SS7 interworking for call completion on no reply
 Q.699 ADD 1-1999         | (none)          | (12/99)            | Interworking between ISDN Access and Non-ISDN Access over ISDN User Part of Signalling System No.7 Addendum 1: DSS1-SS7 Interworking for Call Completion on No Reply - Series Q: Switching and Signalling Interworking of Signalling Systems - Interworking between Digital Subscriber Signalling System No. 1 and Signalling System No. 7 - Study Group 11; 11 pp
 Q.699-1997               | (none)          | (09/97)            | Interworking between ISDN Access and Non-ISDN Access Over ISDN User Part of Signalling System No.7 - Series Q: Switching and Signalling - Interworking of Signalling Systems - Interworking between Digital Subscriber Signalling System No.1 and Signalling System No.7 - Study Group 11; 144 pp
 Q.699.1-1998             | (none)          | (05/98)            | Interworking between ISDN Access and Non-ISDN Access Over ISDN User Part of Signalling System No. 7: Support of VPN Applications with PSS1 Information Flows - Series Q: Switching and Signalling - Interworking of Signalling Systems - Interworking between Digital Subscriber Signalling System No. 1 and Signalling System No. 7 - Study Group 11; 29 pp
@@ -6771,14 +6710,12 @@ Q.764 AMD.1-2001         | (none)          | (07/01)            | Signalling Sys
 Q.764-1999               | (none)          | (12/99)            | Signalling System No. 7 - ISDN User Part Signalling Procedures - Series Q: Switching and Signalling Specifications of Signalling System No. 7 - ISDN User Part
 Q.765 BIS                | (none)          | (12/99)            | Signalling System No. 7 - Application Transport Mechanism: Test Suite Structure and Test Purposes (TSS & TP)
 Q.765-2000               | (none)          | (06/00)            | Signalling System No. 7 - Application Transport Mechanism - Series Q: Switching and Signalling Specifications of Signalling System No. 7 - ISDN User Part
-Q.765.1 BIS              | (none)          | (12/99)            | Abstract test suite for the APM support of VPN applications
 Q.765.1 BIS AMD 1-2000   | (none)          | (06/00)            | Abstract Test Suite for the APM Support of VPN Applications Series Q: Switching and Signalling Specifications of Signalling System No.7 ISDN User Parts
 Q.765.1 BIS-1999         | (none)          | (12/99)            | Abstract test suite for the APM support of VPN applications
 Q.765.1-1998             | (none)          | (05/98)            | Signalling System No. 7 - Application Transport Mechanism - Support of VPN Applications with PSS1 Information Flows - Study Group 11; 56 pp
 Q.765.4-2000             | (none)          | (06/00)            | Signalling System No. 7 - Application Transport Mechanism: Support of the Generic Addressing and Transport Protocol Series Q: Switching and Signalling Specifications of Signalling System No. 7 - ISDN User Part
 Q.765.5-2004             | (none)          | (04/04)            | Signalling system No. 7 - Application transport mechanism: Bearer Independent Call Control (BICC) SERIES Q: SWITCHING AND SIGNALLING Specifications of Signalling System No. 7 - ISDN user part
 Q.766-1993               | (none)          | (03/93)            | Performance Objectives in the Integrated Services Digital Network Application - Specifications of Signalling System No. 7 ISDN User Part (Study Group XI) 7 pp
-Q.767 AMD 1              | (none)          | (12/02)            | Application of the ISDN User Part of CCITT Signalling System No. 7 for international ISDN interconnections Amendment 1: Support for the International Emergency Preference Scheme
 Q.767 AMD 1-2002         | (none)          | (12/02)            | Application of the ISDN User Part of CCITT Signalling System No. 7 for international ISDN interconnections Amendment 1: Support for the International Emergency Preference Scheme SERIES Q: SWITCHING AND SIGNALLING Specifications of Signalling System No. 7 - ISDN user part
 Q.767-1991               | (none)          | (02/91)            | Application of the ISDN User Part of CCITT Signalling System No. 7 for International ISDN Interconnections (Study Group XI) 274 pp
 Q.768-1995               | (none)          | (10/95)            | SIGNALLING INTERFACE BETWEEN AN INTERNATIONAL SWITCHING CENTRE (ISC) AND AN ISDN SATELLITE SUBNETWORK
@@ -6851,7 +6788,6 @@ Q.824.1-1995             | (none)          | (01/95)            | Stages 2 and 3
 Q.824.2-1995             | (none)          | (01/95)            | Stages 2 and 3 Description for the Q3 Interface - Customer Administration - Integrated Services Digital Network (ISDN) Supplementary Services - Specifications of Signalling System No. 7 (Study Group 11) 33 pp
 Q.824.3-1995             | (none)          | (10/95)            | Stages 2 and 3 Description for the Q3 Interface - Customer Administration - Integrated Services Digital Network (ISDN), Optional User Facilities - Specifications of Signalling System No. 7 (Study Group 11) 16 pp
 Q.824.4-1995             | (none)          | (01/95)            | Stages 2 and 3 Description for the Q3 Interface - Customer Administration - Integrated Services Digital Network (ISDN) - Teleservices - Specifications of Signalling System No. 7 (Study Group 11) 12 pp
-Q.824.5 CORR 1           | (none)          | (02/00)            | Stage 2 and stage 3 description for the Q3 interface - Customer administration: Configuration management of V5 interface environments and associated customer profiles Corrigendum 1
 Q.824.5 CORR 1-2000      | (none)          | (02/00)            | Stage 2 and Stage 3 Description for the Q3 Interface - Customer Administration: Configuration Management of V5 Interface Environments and Associated Customer Profiles - Series Q: Switching and Signalling Specifications of Signalling System No. 7 - Q3 Interface - Corrigendum 1
 Q.824.5-1997             | (none)          | (10/97)            | Stage 2 and Stage 3 Description for the Q3 Interface - Customer Administration: Configuration Management of V5 Interface Environment and Associated Customer Profiles - Series Q: Switching and Signalling Specifications of Signalling System No. 7 - Q3 Interface - Study Group 4; 114 pp
 Q.824.6-1998             | (none)          | (06/98)            | Stage 2 and Stage 3 Description for the Q3 Interface - Customer Administration: Broadband Switch Management - Series Q: Switching and Signalling - Specifications of Signalling System No. 7 - Q3 Interface - Study Group 4; 124 pp
@@ -7227,7 +7163,6 @@ R.21-1996                | (none)          | (08/96)            | 9600 bit/s Mod
 R.22-1996                | (none)          | (08/96)            | Data over Voice 19 200 bit/s Modem Standardized for Use on Telephone Network Subscriber Lines - Series R: Telegraph Transmission Voice-Frequency Telegraphy - Study Group 14; 9 pp
 R.30-1988                | (none)          | (11/88)            | TRANSMISSION CHARACTERISTIC FOR INTERNATIONAL VFT LINKS
 R.31-1988                | (none)          | (11/88)            | STANDARDIZATION OF AMVFT SYSTEMS FOR A MODULATION RATE OF 50 BAUDS
-R.35 BIS                 | (none)          | (11/88)            | 50-BAUD WIDEBAND VFT SYSTEMS
 R.35 BIS-1988            | (none)          | (11/88)            | 50-BAUD WIDEBAND VFT SYSTEMS
 R.35-1988                | (none)          | (11/88)            | STANDARDIZATION OF FMVFT SYSTEMS FOR A MODULATION RATE OF 50 BAUDS
 R.36-1988                | (none)          | (11/88)            | COEXISTENCE OF 50-BAUD/120-Hz CHANNELS, 100-BAUD/240-Hz CHANNELS, 200-BAUD/360-Hz OR 480-Hz CHANNELS ON THE SAME VOICE - FREQUENCY TELEGRAPH SYSTEM
@@ -7242,7 +7177,6 @@ R.44-1988                | (none)          | (11/88)            | 6-UNIT SYNCHRO
 R.49-1988                | (none)          | (11/88)            | INTERBAND TELEGRAPHY OVER OPEN - WIRE 3-CHANNEL CARRIER SYSTEMS
 R.5-1993                 | (none)          | (01/93)            | Observation Conditions Recommended for Routine Distortion Measurements on International Telegraph Circuits - Telegraphy Telegraph Transmission (Study Group IX) 3 pp
 R.50-1988                | (none)          | (11/88)            | TOLERABLE LIMITS FOR THE DEGREE OF ISOCHRONOUS DISTORTION OF CODE - INDEPENDENT 50-BAUD TELEGRAPH CIRCUITS
-R.51 BIS                 | (none)          | (11/88)            | STANDARDIZED TEXT FOR TESTING THE ELEMENTS OF A COMPLETE CIRCUIT
 R.51 BIS-1988            | (none)          | (11/88)            | STANDARDIZED TEXT FOR TESTING THE ELEMENTS OF A COMPLETE CIRCUIT
 R.51-1988                | (none)          | (11/88)            | STANDARDIZED TEXT FOR DISTORTION TESTING OF THE CODE - INDEPENDENT ELEMENTS OF A COMPLETE CIRCUIT
 R.52-1988                | (none)          | (11/88)            | STANDARDIZATION OF INTERNATIONAL TEXTS FOR THE MEASUREMENT OF THE MARGIN OF START - STOP EQUIPMENT
@@ -7251,20 +7185,17 @@ R.54-1993                | (none)          | (01/93)            | Conventional D
 R.55-1993                | (none)          | (03/93)            | CONVENTIONAL DEGREE OF DISTORTION
 R.56-1993                | (none)          | (01/93)            | Telegraph Distortion Limits to Be Quoted in Recommendations for Equipment and Transmission Plans - Telegraphy Telegraph Transmission (Study Group IX) 3 pp
 R.57-1988                | (none)          | (11/88)            | STANDARD LIMITS OF TRANSMISSION QUALITY FOR PLANNING CODE - INDEPENDENT INTERNATIONAL POINT-TO-POINT TELEGRAPH COMMUNICATIONS AND SWITCHED NETWORKS USING 50-BAUD START-STOP EQUIPMENT
-R.58 BIS                 | (none)          | (11/88)            | LIMITS ON SIGNAL TRANSFER DELAY FOR TELEGRAPH, TELEX AND GENTEX NETWORKS
 R.58 BIS-1988            | (none)          | (11/88)            | LIMITS ON SIGNAL TRANSFER DELAY FOR TELEGRAPH, TELEX AND GENTEX NETWORKS
 R.58-1988                | (none)          | (11/88)            | STANDARD LIMITS OF TRANSMISSION QUALITY FOR THE GENTEX AND TELEX NETWORKS
 R.59-1988                | (none)          | (11/88)            | Interface Requirements for 50-Baud Start-Stop Telegraph Transmission in the Maritime Mobile Satellite Service - Telegraph Transmission (Study Group IX) 2 pp
 R.60-1988                | (none)          | (11/88)            | CONDITIONS TO BE FULFILLED BY REGENERATIVE REPEATERS FOR START-STOP SIGNALS OF INTERNATIONAL TELEGRAPH ALPHABET No. 2
 R.62-1988                | (none)          | (11/88)            | SITING OF REGENERATIVE REPEATERS IN INTERNATIONAL TELEX CIRCUITS
-R.70 BIS                 | (none)          | (11/88)            | NUMBERING OF INTERNATIONAL VFT CHANNELS
 R.70 BIS-1988            | (none)          | (11/88)            | NUMBERING OF INTERNATIONAL VFT CHANNELS
 R.70-1988                | (none)          | (11/88)            | DESIGNATION OF INTERNATIONAL TELEGRAPH CIRCUITS
 R.71-1988                | (none)          | (11/88)            | ORGANIZATION OF THE MAINTENANCE OF INTERNATIONAL TELEGRAPH CIRCUITS
 R.72-1988                | (none)          | (11/88)            | PERIODICITY OF MAINTENANCE MEASUREMENTS TO BE CARRIED OUT ON THE CHANNELS OF INTERNATIONAL VFT SYSTEMS
 R.73-1988                | (none)          | (11/88)            | MAINTENANCE MEASUREMENTS TO BE CARRIED OUT ON VFT SYSTEMS
 R.74-1988                | (none)          | (11/88)            | CHOICE OF TYPE OF TELEGRAPH DISTORTION-MEASURING EQUIPMENT
-R.75 BIS                 | (none)          | (11/88)            | MAINTENANCE MEASUREMENTS OF CHARACTER ERROR RATE ON INTERNATIONAL SECTIONS OF INTERNATIONAL TELEGRAPH CIRCUITS
 R.75 BIS-1988            | (none)          | (11/88)            | MAINTENANCE MEASUREMENTS OF CHARACTER ERROR RATE ON INTERNATIONAL SECTIONS OF INTERNATIONAL TELEGRAPH CIRCUITS
 R.75-1988                | (none)          | (11/88)            | MAINTENANCE MEASUREMENTS ON CODE - INDEPENDENT INTERNATIONAL SECTIONS OF INTERNATIONAL TELEGRAPH CIRCUITS
 R.76-1988                | (none)          | (11/88)            | RESERVE CHANNELS FOR MAINTENANCE MEASUREMENTS ON CHANNELS OF INTERNATIONAL VFT SYSTEMS
