@@ -6,8 +6,8 @@ Z.928-2026    | (none)          | (04/2026)          | Groupoid Infinity Axio: P
 Z.944-2026    | (none)          | (04/2026)          | Groupoid Infinity Axio: Christine Programming Language
 Z.956-2026    | (none)          | (04/2026)          | Groupoid Infinity Axio: Anders Programming Language
 Z.999-2026    | (none)          | (04/2026)          | Groupoid Infinity Axio: System Policy
-V.420-2026    | (none)          | (04/2026)          | Zen Crypted Buddha Protocol: Introduction
-V.420.1-2026  | (none)          | (04/2026)          | Zen Crypted Buddha Protocol: Layer 1: Skynet Serverless Multicast
-V.420.2-2026  | (none)          | (04/2026)          | Zen Crypted Buddha Protocol: Layer 2: Brokered TLS & PKI
-V.420.3-2026  | (none)          | (04/2026)          | Zen Crypted Buddha Protocol: Layer 3: MHS/IPMS Mail Delivery System
 Z.180         | (none)          | (04/2026)          | Zen Crypted Dharma Test Atomation Language Z.180 / MSC Z.120 Extension
+X.422-2026    | (none)          | (04/2026)          | Zen Crypted Buddha Protocol: Introduction
+X.422.1-2026  | (none)          | (04/2026)          | Zen Crypted Buddha Protocol: Layer 1: Skynet Serverless Multicast
+X.422.2-2026  | (none)          | (04/2026)          | Zen Crypted Buddha Protocol: Layer 2: Brokered TLS & PKI
+X.422.3-2026  | (none)          | (04/2026)          | Zen Crypted Buddha Protocol: Layer 3: MHS/IPMS Mail Delivery System
