@@ -189,7 +189,7 @@ header::after {
     100% { background-position:0% 50%; }
 }
 h1 {
-    font-size:clamp(3.5rem,10vw,5.5rem);
+    font-size:clamp(2rem,8vw,4.5rem);
     font-weight:800;
     letter-spacing:-0.04em;
     line-height:1.05;
