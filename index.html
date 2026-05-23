@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="" />
+    <meta name="description" content="Криптографічні Телесистеми — утримувач майнових прав і ліцензійний бенефеціар високотехнологічних телекомунікаційних продуктів, PKI інфраструктури та засобів захисту інформації." />
     <meta name="author" content="Maxim Sokhatsky" />
     <title>Криптографічні Телесистеми</title>
     <link rel="stylesheet" href="index.css?v=1" />
@@ -14,6 +14,202 @@
 </head>
 
 <body>
+
+    <!-- Curve 1: secp256k1 (Weierstrass form) watermarked for mathematicians (Foreground Layer) -->
+    <div class="parallax-curve curve-fg curve-1 curve-left" data-start-y="20" data-end-y="120" data-start-rot="65,-5,-35" data-end-rot="25,35,125">
+        <svg viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <radialGradient id="curve-fade-1" cx="400" cy="300" r="550" gradientUnits="userSpaceOnUse">
+                    <stop offset="65%" stop-color="#61b8c1" stop-opacity="1" />
+                    <stop offset="100%" stop-color="#61b8c1" stop-opacity="0" />
+                </radialGradient>
+                <radialGradient id="grid-fade-1" cx="400" cy="300" r="550" gradientUnits="userSpaceOnUse">
+                    <stop offset="65%" stop-color="#61b8c1" stop-opacity="0.05" />
+                    <stop offset="100%" stop-color="#61b8c1" stop-opacity="0" />
+                </radialGradient>
+                <radialGradient id="axis-fade-1" cx="400" cy="300" r="550" gradientUnits="userSpaceOnUse">
+                    <stop offset="65%" stop-color="#61b8c1" stop-opacity="0.2" />
+                    <stop offset="100%" stop-color="#61b8c1" stop-opacity="0" />
+                </radialGradient>
+            </defs>
+            <!-- Grid lines (Limited length, fades via SVG gradient) -->
+            <path d="M -500 150 L 1300 150" stroke="url(#grid-fade-1)" stroke-width="1" stroke-dasharray="4 8" />
+            <path d="M -500 450 L 1300 450" stroke="url(#grid-fade-1)" stroke-width="1" stroke-dasharray="4 8" />
+            <path d="M 250 -400 L 250 1000" stroke="url(#grid-fade-1)" stroke-width="1" stroke-dasharray="4 8" />
+            <path d="M 550 -400 L 550 1000" stroke="url(#grid-fade-1)" stroke-width="1" stroke-dasharray="4 8" />
+            <!-- Axes (Limited length, fades via SVG gradient) -->
+            <path d="M -500 300 L 1300 300" stroke="url(#axis-fade-1)" stroke-width="1.5" />
+            <path d="M 400 -400 L 400 1000" stroke="url(#axis-fade-1)" stroke-width="1.5" />
+            <!-- Elliptic Curve y² = x³ + 7 -->
+            <path d="M 1300 -500 C 260 -100, 150 100, 140 300 C 150 500, 260 700, 1300 1100" stroke="url(#curve-fade-1)" stroke-width="3" stroke-linecap="round" />
+        </svg>
+    </div>
+
+    <!-- Curve 2: Curve25519 (Montgomery form) watermarked for mathematicians (Background Layer) -->
+    <div class="parallax-curve curve-bg curve-2 curve-right" data-start-y="70" data-end-y="-30" data-start-rot="60,8,25" data-end-rot="30,-40,-95">
+        <svg viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <radialGradient id="curve-fade-2" cx="400" cy="300" r="550" gradientUnits="userSpaceOnUse">
+                    <stop offset="65%" stop-color="#818cf8" stop-opacity="1" />
+                    <stop offset="100%" stop-color="#818cf8" stop-opacity="0" />
+                </radialGradient>
+                <radialGradient id="grid-fade-2" cx="400" cy="300" r="550" gradientUnits="userSpaceOnUse">
+                    <stop offset="65%" stop-color="#818cf8" stop-opacity="0.05" />
+                    <stop offset="100%" stop-color="#818cf8" stop-opacity="0" />
+                </radialGradient>
+                <radialGradient id="axis-fade-2" cx="400" cy="300" r="550" gradientUnits="userSpaceOnUse">
+                    <stop offset="65%" stop-color="#818cf8" stop-opacity="0.2" />
+                    <stop offset="100%" stop-color="#818cf8" stop-opacity="0" />
+                </radialGradient>
+            </defs>
+            <!-- Grid lines (Limited length, fades via SVG gradient) -->
+            <path d="M -500 150 L 1300 150" stroke="url(#grid-fade-2)" stroke-width="1" stroke-dasharray="4 8" />
+            <path d="M -500 450 L 1300 450" stroke="url(#grid-fade-2)" stroke-width="1" stroke-dasharray="4 8" />
+            <path d="M 250 -400 L 250 1000" stroke="url(#grid-fade-2)" stroke-width="1" stroke-dasharray="4 8" />
+            <path d="M 550 -400 L 550 1000" stroke="url(#grid-fade-2)" stroke-width="1" stroke-dasharray="4 8" />
+            <!-- Axes (Limited length, fades via SVG gradient) -->
+            <path d="M -500 300 L 1300 300" stroke="url(#axis-fade-2)" stroke-width="1.5" />
+            <path d="M 400 -400 L 400 1000" stroke="url(#axis-fade-2)" stroke-width="1.5" />
+            <!-- Elliptic Curve y² = x³ + 486662x² + x -->
+            <!-- Left Loop component (Closed) -->
+            <path d="M 340 300 C 340 240, 260 240, 260 300 C 260 360, 340 360, 340 300 Z" stroke="url(#curve-fade-2)" stroke-width="3" />
+            <!-- Right component branch (Limited length, fades via SVG gradient) -->
+            <path d="M 1300 -500 C 480 50, 390 150, 380 300 C 390 450, 480 550, 1300 1100" stroke="url(#curve-fade-2)" stroke-width="3" stroke-linecap="round" />
+        </svg>
+    </div>
+
+    <!-- Curve 3: NIST P-256 (Weierstrass form) watermarked for mathematicians (Background Layer) -->
+    <div class="parallax-curve curve-bg curve-3 curve-left" data-start-y="15" data-end-y="95" data-start-rot="70,-10,-50" data-end-rot="15,55,160">
+        <svg viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <radialGradient id="curve-fade-3" cx="400" cy="300" r="550" gradientUnits="userSpaceOnUse">
+                    <stop offset="65%" stop-color="#34d399" stop-opacity="1" />
+                    <stop offset="100%" stop-color="#34d399" stop-opacity="0" />
+                </radialGradient>
+                <radialGradient id="grid-fade-3" cx="400" cy="300" r="550" gradientUnits="userSpaceOnUse">
+                    <stop offset="65%" stop-color="#34d399" stop-opacity="0.05" />
+                    <stop offset="100%" stop-color="#34d399" stop-opacity="0" />
+                </radialGradient>
+                <radialGradient id="axis-fade-3" cx="400" cy="300" r="550" gradientUnits="userSpaceOnUse">
+                    <stop offset="65%" stop-color="#34d399" stop-opacity="0.2" />
+                    <stop offset="100%" stop-color="#34d399" stop-opacity="0" />
+                </radialGradient>
+            </defs>
+            <!-- Grid lines (Limited length, fades via SVG gradient) -->
+            <path d="M -500 150 L 1300 150" stroke="url(#grid-fade-3)" stroke-width="1" stroke-dasharray="4 8" />
+            <path d="M -500 450 L 1300 450" stroke="url(#grid-fade-3)" stroke-width="1" stroke-dasharray="4 8" />
+            <path d="M 250 -400 L 250 1000" stroke="url(#grid-fade-3)" stroke-width="1" stroke-dasharray="4 8" />
+            <path d="M 550 -400 L 550 1000" stroke="url(#grid-fade-3)" stroke-width="1" stroke-dasharray="4 8" />
+            <!-- Axes (Limited length, fades via SVG gradient) -->
+            <path d="M -500 300 L 1300 300" stroke="url(#axis-fade-3)" stroke-width="1.5" />
+            <path d="M 400 -400 L 400 1000" stroke="url(#axis-fade-3)" stroke-width="1.5" />
+            <!-- Elliptic Curve y² = x³ - 3x + b (NIST P-256 Weierstrass Form) -->
+            <!-- Loop component (Closed) -->
+            <path d="M 320 300 C 320 250, 240 250, 240 300 C 240 350, 320 350, 320 300 Z" stroke="url(#curve-fade-3)" stroke-width="3" />
+            <!-- Right component branch (Limited length, fades via SVG gradient) -->
+            <path d="M 1300 -500 C 480 30, 380 130, 370 300 C 380 470, 480 570, 1300 1100" stroke="url(#curve-fade-3)" stroke-width="3" stroke-linecap="round" />
+        </svg>
+    </div>
+
+    <!-- Curve 4: Ed25519 (Twisted Edwards form) watermarked for mathematicians (Background Layer) -->
+    <div class="parallax-curve curve-bg curve-4 curve-right" data-start-y="85" data-end-y="5" data-start-rot="55,12,45" data-end-rot="20,-50,-135">
+        <svg viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <radialGradient id="curve-fade-4" cx="400" cy="300" r="550" gradientUnits="userSpaceOnUse">
+                    <stop offset="65%" stop-color="#a78bfa" stop-opacity="1" />
+                    <stop offset="100%" stop-color="#a78bfa" stop-opacity="0" />
+                </radialGradient>
+                <radialGradient id="grid-fade-4" cx="400" cy="300" r="550" gradientUnits="userSpaceOnUse">
+                    <stop offset="65%" stop-color="#a78bfa" stop-opacity="0.05" />
+                    <stop offset="100%" stop-color="#a78bfa" stop-opacity="0" />
+                </radialGradient>
+                <radialGradient id="axis-fade-4" cx="400" cy="300" r="550" gradientUnits="userSpaceOnUse">
+                    <stop offset="65%" stop-color="#a78bfa" stop-opacity="0.2" />
+                    <stop offset="100%" stop-color="#a78bfa" stop-opacity="0" />
+                </radialGradient>
+            </defs>
+            <!-- Grid lines (Limited length, fades via SVG gradient) -->
+            <path d="M -500 150 L 1300 150" stroke="url(#grid-fade-4)" stroke-width="1" stroke-dasharray="4 8" />
+            <path d="M -500 450 L 1300 450" stroke="url(#grid-fade-4)" stroke-width="1" stroke-dasharray="4 8" />
+            <path d="M 250 -400 L 250 1000" stroke="url(#grid-fade-4)" stroke-width="1" stroke-dasharray="4 8" />
+            <path d="M 550 -400 L 550 1000" stroke="url(#grid-fade-4)" stroke-width="1" stroke-dasharray="4 8" />
+            <!-- Axes (Limited length, fades via SVG gradient) -->
+            <path d="M -500 300 L 1300 300" stroke="url(#axis-fade-4)" stroke-width="1.5" />
+            <path d="M 400 -400 L 400 1000" stroke="url(#axis-fade-4)" stroke-width="1.5" />
+            <!-- Twisted Edwards Curve Ed25519 (Loop + hyperbola-like branches limited length, fades via SVG gradient) -->
+            <path d="M 400 180 C 490 180, 490 420, 400 420 C 310 420, 310 180, 400 180 Z" stroke="url(#curve-fade-4)" stroke-width="3" />
+            <path d="M 100 -400 C 280 50, 280 550, 100 1000" stroke="url(#curve-fade-4)" stroke-width="3" stroke-linecap="round" />
+            <path d="M 700 -400 C 520 50, 520 550, 700 1000" stroke="url(#curve-fade-4)" stroke-width="3" stroke-linecap="round" />
+        </svg>
+    </div>
+
+    <!-- Curve 5: NIST P-384 (Weierstrass form with wide loop) watermarked for mathematicians (Foreground Layer) -->
+    <div class="parallax-curve curve-fg curve-5 curve-left" data-start-y="-10" data-end-y="110" data-start-rot="65,-12,-20" data-end-rot="35,40,90">
+        <svg viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <radialGradient id="curve-fade-5" cx="400" cy="300" r="550" gradientUnits="userSpaceOnUse">
+                    <stop offset="65%" stop-color="#f43f5e" stop-opacity="1" />
+                    <stop offset="100%" stop-color="#f43f5e" stop-opacity="0" />
+                </radialGradient>
+                <radialGradient id="grid-fade-5" cx="400" cy="300" r="550" gradientUnits="userSpaceOnUse">
+                    <stop offset="65%" stop-color="#f43f5e" stop-opacity="0.05" />
+                    <stop offset="100%" stop-color="#f43f5e" stop-opacity="0" />
+                </radialGradient>
+                <radialGradient id="axis-fade-5" cx="400" cy="300" r="550" gradientUnits="userSpaceOnUse">
+                    <stop offset="65%" stop-color="#f43f5e" stop-opacity="0.2" />
+                    <stop offset="100%" stop-color="#f43f5e" stop-opacity="0" />
+                </radialGradient>
+            </defs>
+            <!-- Grid lines (Limited length, fades via SVG gradient) -->
+            <path d="M -500 150 L 1300 150" stroke="url(#grid-fade-5)" stroke-width="1" stroke-dasharray="4 8" />
+            <path d="M -500 450 L 1300 450" stroke="url(#grid-fade-5)" stroke-width="1" stroke-dasharray="4 8" />
+            <path d="M 250 -400 L 250 1000" stroke="url(#grid-fade-5)" stroke-width="1" stroke-dasharray="4 8" />
+            <path d="M 550 -400 L 550 1000" stroke="url(#grid-fade-5)" stroke-width="1" stroke-dasharray="4 8" />
+            <!-- Axes (Limited length, fades via SVG gradient) -->
+            <path d="M -500 300 L 1300 300" stroke="url(#axis-fade-5)" stroke-width="1.5" />
+            <path d="M 400 -400 L 400 1000" stroke="url(#axis-fade-5)" stroke-width="1.5" />
+            <!-- Elliptic Curve NIST P-384 Weierstrass Form -->
+            <!-- Wide loop component (Closed) -->
+            <path d="M 300 300 C 300 220, 180 220, 180 300 C 180 380, 300 380, 300 300 Z" stroke="url(#curve-fade-5)" stroke-width="3" />
+            <!-- Wide right component branch (Limited length, fades via SVG gradient) -->
+            <path d="M 1300 -500 C 480 50, 380 80, 360 300 C 380 520, 480 550, 1300 1100" stroke="url(#curve-fade-5)" stroke-width="3" stroke-linecap="round" />
+        </svg>
+    </div>
+
+    <!-- Curve 6: Genus 2 Hyperelliptic Curve watermarked for mathematicians (Background Layer) -->
+    <div class="parallax-curve curve-bg curve-6 curve-right" data-start-y="45" data-end-y="115" data-start-rot="50,5,60" data-end-rot="10,-25,-110">
+        <svg viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <radialGradient id="curve-fade-6" cx="400" cy="300" r="550" gradientUnits="userSpaceOnUse">
+                    <stop offset="65%" stop-color="#f59e0b" stop-opacity="1" />
+                    <stop offset="100%" stop-color="#f59e0b" stop-opacity="0" />
+                </radialGradient>
+                <radialGradient id="grid-fade-6" cx="400" cy="300" r="550" gradientUnits="userSpaceOnUse">
+                    <stop offset="65%" stop-color="#f59e0b" stop-opacity="0.05" />
+                    <stop offset="100%" stop-color="#f59e0b" stop-opacity="0" />
+                </radialGradient>
+                <radialGradient id="axis-fade-6" cx="400" cy="300" r="550" gradientUnits="userSpaceOnUse">
+                    <stop offset="65%" stop-color="#f59e0b" stop-opacity="0.2" />
+                    <stop offset="100%" stop-color="#f59e0b" stop-opacity="0" />
+                </radialGradient>
+            </defs>
+            <!-- Grid lines (Limited length, fades via SVG gradient) -->
+            <path d="M -500 150 L 1300 150" stroke="url(#grid-fade-6)" stroke-width="1" stroke-dasharray="4 8" />
+            <path d="M -500 450 L 1300 450" stroke="url(#grid-fade-6)" stroke-width="1" stroke-dasharray="4 8" />
+            <path d="M 250 -400 L 250 1000" stroke="url(#grid-fade-6)" stroke-width="1" stroke-dasharray="4 8" />
+            <path d="M 550 -400 L 550 1000" stroke="url(#grid-fade-6)" stroke-width="1" stroke-dasharray="4 8" />
+            <!-- Axes (Limited length, fades via SVG gradient) -->
+            <path d="M -500 300 L 1300 300" stroke="url(#axis-fade-6)" stroke-width="1.5" />
+            <path d="M 400 -400 L 400 1000" stroke="url(#axis-fade-6)" stroke-width="1.5" />
+            <!-- Genus 2 Hyperelliptic Curve (Two loops + right branch limited length, fades via SVG gradient) -->
+            <!-- Left loop -->
+            <path d="M 260 300 C 260 250, 180 250, 180 300 C 180 350, 260 350, 260 300 Z" stroke="url(#curve-fade-6)" stroke-width="3" />
+            <!-- Middle loop -->
+            <path d="M 380 300 C 380 240, 300 240, 300 300 C 300 360, 380 360, 380 300 Z" stroke="url(#curve-fade-6)" stroke-width="3" />
+            <!-- Right branch (Limited length, fades via SVG gradient) -->
+            <path d="M 1300 -500 C 520 90, 450 150, 430 300 C 450 450, 520 510, 1300 1100" stroke="url(#curve-fade-6)" stroke-width="3" stroke-linecap="round" />
+        </svg>
+    </div>
 
 <nav class="sticky">
     <div class="nav-container">
@@ -129,7 +325,7 @@
         </ul>
     </section>
 
-    <section id="certification" class="section-standards">
+    <section id="certification" class="section-policy">
         <h2>Сертифікація</h2>
         <p>Повна відповідність ITU-T X-series, IETF RFC, NIST/FIPS, ДСТУ, ISO/IEC</p>
         <br>
@@ -145,7 +341,7 @@
         </p>
     </section>
 
-    <section id="comm" class="section-standards">
+    <section id="comm" class="section-policy">
         <h2>Комунікація</h2>
         <p class="hero-content">
         Посилання на повний перелік 11 тисяч стандартів ITU: <a href="https://synrc.com/standards.txt">synrc.com/standards.txt</a>
@@ -155,7 +351,7 @@
         Посилання на стандарти SYNRC, що пропонуються в ITU: <a href="https://synrc.com/promoted.txt">synrc.com/promoted.txt</a>
         </p>
     </section>
-    <section id="comm" class="section-products">
+    <section id="comm" class="section-policy">
         <h2>Відкритий код</h2>
         <div>
 ТОВ «Криптографічні телесистеми», керуючись своєю авторською та технологічною місією забезпечення високого рівня якості, безпеки та надійності програмного забезпечення, прийняла рішення про відкриття вихідного коду окремих власних рішень, реалізованих із використанням мови програмування Elixir для платформи Erlang/OTP.
@@ -167,7 +363,7 @@
 
         </div>
     </section>
-    <section id="comm" class="section-products">
+    <section id="comm" class="section-policy">
         <h2>Канонічна архітектура</h2>
         <div>
 Під «канонічною архітектурною моделлю» у межах цієї Політики розуміється сукупність технічних принципів, структурних рішень, інтерфейсів, криптографічних механізмів та моделей взаємодії компонентів, визначених Компанією у відповідній офіційній технічній документації та/або у файлах репозиторію. Усі похідні твори повинні зберігати сумісність із цією моделлю в обсязі, необхідному для забезпечення безпеки та коректності роботи базового рішення.
@@ -175,7 +371,7 @@
 Компанія не несе відповідальності за будь‑які наслідки використання, модифікації чи поширення відкритого коду або похідних творів, а також за можливі ризики, пов’язані з інтеграцією таких рішень у критичну інфраструктуру чи інші системи користувачів.
         </div>
     </section>
-    <section id="comm" class="section-products">
+    <section id="comm" class="section-policy">
         <h2>Умови використання</h2>
         <div>
 Усі майнові авторські права на оригінальний (базовий) код залишаються у повному обсязі за ТОВ «Криптографічні телесистеми». Надання прав на використання та створення похідних творів здійснюється виключно в межах відповідної відкритої ліцензії та не передбачає передачі прав інтелектуальної власності на базове рішення.
@@ -251,6 +447,65 @@
         </div>
     </div>
 </footer>
+
+<script>
+    // Smooth Parallax Scroll Effect with 3D Angled Projection for Elliptic Curves
+    let currentScroll = window.pageYOffset;
+    let targetScroll = window.pageYOffset;
+    let isRunning = false;
+    
+    const updateParallax = () => {
+        const diff = targetScroll - currentScroll;
+        if (Math.abs(diff) > 0.05) {
+            currentScroll += diff * 0.1;
+        } else {
+            currentScroll = targetScroll;
+            isRunning = false;
+        }
+
+        const maxScroll = document.documentElement.scrollHeight - window.innerHeight;
+        const progress = maxScroll > 0 ? Math.max(0, Math.min(1, currentScroll / maxScroll)) : 0;
+
+        document.querySelectorAll('.parallax-curve').forEach((curve, index) => {
+            const startY = parseFloat(curve.getAttribute('data-start-y')) || 0;
+            const endY = parseFloat(curve.getAttribute('data-end-y')) || 100;
+            const yVal = startY + (endY - startY) * progress;
+            
+            const startRot = (curve.getAttribute('data-start-rot') || '0,0,0').split(',').map(Number);
+            
+            // Random-looking but smooth and deterministic rotation using trigonometric waves on all axes
+            const t = progress * 8; // speed multiplier for rotations
+            const rx = startRot[0] + Math.sin(t * 1.5 + index) * 55;
+            const ry = startRot[1] + Math.cos(t * 2.1 - index) * 50;
+            const rz = startRot[2] + Math.sin(t * 1.3 + index * 1.5) * 85;
+
+            curve.style.transform = `perspective(1500px) translateY(-50%) translateY(${yVal}vh) rotateX(${rx}deg) rotateY(${ry}deg) rotateZ(${rz}deg)`;
+        });
+
+        if (isRunning) {
+            requestAnimationFrame(updateParallax);
+        }
+    };
+
+    window.addEventListener('scroll', () => {
+        targetScroll = window.pageYOffset;
+        if (!isRunning) {
+            isRunning = true;
+            requestAnimationFrame(updateParallax);
+        }
+    });
+
+    window.addEventListener('DOMContentLoaded', () => {
+        currentScroll = window.pageYOffset;
+        targetScroll = window.pageYOffset;
+        isRunning = true;
+        updateParallax();
+    });
+
+    // Initial positioning
+    isRunning = true;
+    updateParallax();
+</script>
 
 </body>
 </html>
